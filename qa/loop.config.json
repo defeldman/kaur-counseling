@@ -12,16 +12,19 @@
   "maxIterations": 10,
   "maxStalls": 2,
   "maxIssuesPerIteration": 3,
+  "scoutLiveReadEveryIteration": true,
+  "maxInternalPages": 30,
+  "scoutMode": "light",
   "automationBranch": "auto/visual-loop",
   "agent": {
     "command": "codex",
     "baseArgs": [
-      "exec",
       "--sandbox", "workspace-write",
       "--ask-for-approval", "never",
+      "exec",
       "--skip-git-repo-check"
     ],
-    "timeoutMs": 1200000
+    "timeoutMs": 300000,
+    "noOutputTimeoutMs": 120000
   }
 }
-

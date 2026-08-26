@@ -97,6 +97,9 @@ function renderContext({ config, runId, runDir, iteration, push, refreshReferenc
 - Run directory: ${runDir}
 - Iteration: ${iteration}
 - Maximum issues this iteration: ${config.maxIssuesPerIteration}
+- Scout mode: ${config.scoutMode}
+- Maximum internal pages to map: ${config.maxInternalPages}
+- SCOUT_LIVE_READS_EVERY_ITERATION=${config.scoutLiveReadEveryIteration ? "true" : "false"}
 - Viewports: ${JSON.stringify(config.viewports)}
 - Scroll checkpoints: ${JSON.stringify(config.scrollCheckpoints)}
 - REFRESH_REFERENCE=${refreshReference ? "true" : "false"}
@@ -120,20 +123,40 @@ function spawnProcess(command, args, options) {
     let stdout = "";
     let stderr = "";
     let timedOut = false;
+    let noOutputTimedOut = false;
+    let lastOutputAt = Date.now();
     const timeout = setTimeout(() => {
       timedOut = true;
       child.kill("SIGTERM");
     }, options.timeoutMs);
+    const noOutputTimeout = setInterval(() => {
+      if (Date.now() - lastOutputAt >= options.noOutputTimeoutMs) {
+        noOutputTimedOut = true;
+        child.kill("SIGTERM");
+      }
+    }, 5000);
 
-    child.stdout?.on("data", (chunk) => { stdout += chunk.toString(); });
-    child.stderr?.on("data", (chunk) => { stderr += chunk.toString(); });
+    child.stdout?.on("data", (chunk) => {
+      const text = chunk.toString();
+      lastOutputAt = Date.now();
+      stdout += text;
+      options.onStdout?.(text);
+    });
+    child.stderr?.on("data", (chunk) => {
+      const text = chunk.toString();
+      lastOutputAt = Date.now();
+      stderr += text;
+      options.onStderr?.(text);
+    });
     child.on("error", (error) => {
       clearTimeout(timeout);
-      resolve({ code: null, stdout, stderr, timedOut, error: String(error) });
+      clearInterval(noOutputTimeout);
+      resolve({ code: null, stdout, stderr, timedOut, noOutputTimedOut, error: String(error) });
     });
     child.on("close", (code, signal) => {
       clearTimeout(timeout);
-      resolve({ code, signal, stdout, stderr, timedOut });
+      clearInterval(noOutputTimeout);
+      resolve({ code, signal, stdout, stderr, timedOut, noOutputTimedOut });
     });
   });
 }
@@ -171,12 +194,15 @@ async function runAgent(role, context, config, runDir, iteration) {
     cwd: repoRoot,
     env: { ...process.env },
     stdio: ["pipe", "pipe", "pipe"],
-    timeoutMs: config.agent.timeoutMs
+    timeoutMs: config.agent.timeoutMs,
+    noOutputTimeoutMs: config.agent.noOutputTimeoutMs,
+    onStdout: (text) => process.stdout.write(`[${role}] ${text}`),
+    onStderr: (text) => process.stderr.write(`[${role}:stderr] ${text}`)
   });
 
   await fs.writeFile(stdoutPath, result.stdout || "");
   await fs.writeFile(stderrPath, result.stderr || "");
-  const outputRaw = await fs.readFile(outputPath, "utf8").catch(() => "");
+  const outputRaw = await fs.readFile(outputPath, "utf8").catch(() => result.stdout.trim());
   const report = parseAgentOutput(outputRaw);
 
   if (!report) {
@@ -186,7 +212,7 @@ async function runAgent(role, context, config, runDir, iteration) {
       issues: [],
       changed_files: [],
       tests: [],
-      error: result.error || result.stderr || result.stdout || (result.timedOut ? "agent timed out" : `exit code ${result.code}`),
+      error: result.error || result.stderr || result.stdout || (result.noOutputTimedOut ? "agent produced no output within the no-output timeout" : result.timedOut ? "agent timed out" : `exit code ${result.code}`),
       evidence: { promptPath, outputPath, stdoutPath, stderrPath }
     };
   }
@@ -333,4 +359,3 @@ main().catch(async (error) => {
   console.error(error.stack || error);
   process.exitCode = 1;
 });
-
