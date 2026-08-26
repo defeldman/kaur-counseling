@@ -1,0 +1,33 @@
+# Kaur Counseling static site
+
+## Done
+
+- [x] Inspect the live site at desktop and mobile sizes.
+- [x] Capture the site imagery and save it under `assets/images/`.
+- [x] Download the Fraunces and Inter font files into `assets/fonts/`.
+- [x] Rebuild the homepage as a static HTML/CSS/JS site.
+- [x] Preserve the SimplePractice appointment link, Google Maps embed, phone, email, and crisis notice.
+- [x] Add responsive navigation and expandable service details.
+- [x] Confirm the static source has no Base44 or remote font dependency.
+- [x] Add a simple three-role visual loop: orchestrator, Scout, and Fixer.
+- [x] Add saved-reference behavior so normal iterations do not repeatedly query Base44.
+- [x] Add bounded iterations, stall detection, and optional Fixer commit/push behavior.
+
+## To verify
+
+- [x] Compare the local page with the live site at desktop and mobile widths.
+- [x] Check every navigation and external service link.
+- [ ] Connect this canonical folder to the private GitHub repository and push the initial site.
+- [ ] Enable GitHub Pages from the repository.
+- [ ] Point `kaurcounseling.net` to the GitHub Pages custom domain if desired.
+
+## Easy edits
+
+- Main copy and links: `index.html`
+- Colors, layout, type, and responsive behavior: `styles.css`
+- Menu and service accordion behavior: `script.js`
+- Photos: `assets/images/`
+
+## Local preview
+
+The current preview is available at http://localhost:4173/ while the local server is running.

@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Kaur Counseling visual loop agent result",
+  "type": "object",
+  "required": ["status", "summary"],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": ["clean", "issues_found", "fixed", "no_change", "blocked", "error", "needs_review"]
+    },
+    "summary": { "type": "string" },
+    "issues": { "type": "array", "items": { "type": "object" } },
+    "changed_files": { "type": "array", "items": { "type": "string" } },
+    "tests": { "type": "array", "items": { "type": "string" } },
+    "commit": { "type": ["object", "null"] },
+    "push": { "type": ["object", "null"] },
+    "score_before": { "type": ["number", "null"] },
+    "score_after": { "type": ["number", "null"] },
+    "confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 }
+  },
+  "additionalProperties": true
+}
+
