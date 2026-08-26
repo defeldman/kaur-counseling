@@ -22,9 +22,11 @@
       "--sandbox", "workspace-write",
       "--ask-for-approval", "never",
       "exec",
-      "--skip-git-repo-check"
+      "--skip-git-repo-check",
+      "--json"
     ],
     "timeoutMs": 300000,
-    "noOutputTimeoutMs": 120000
+    "noOutputTimeoutMs": 300000,
+    "heartbeatMs": 30000
   }
 }

@@ -135,6 +135,10 @@ function spawnProcess(command, args, options) {
         child.kill("SIGTERM");
       }
     }, 5000);
+    const heartbeat = setInterval(() => {
+      const idleSeconds = Math.floor((Date.now() - lastOutputAt) / 1000);
+      options.onHeartbeat?.(idleSeconds);
+    }, options.heartbeatMs);
 
     child.stdout?.on("data", (chunk) => {
       const text = chunk.toString();
@@ -151,11 +155,13 @@ function spawnProcess(command, args, options) {
     child.on("error", (error) => {
       clearTimeout(timeout);
       clearInterval(noOutputTimeout);
+      clearInterval(heartbeat);
       resolve({ code: null, stdout, stderr, timedOut, noOutputTimedOut, error: String(error) });
     });
     child.on("close", (code, signal) => {
       clearTimeout(timeout);
       clearInterval(noOutputTimeout);
+      clearInterval(heartbeat);
       resolve({ code, signal, stdout, stderr, timedOut, noOutputTimedOut });
     });
   });
@@ -196,8 +202,10 @@ async function runAgent(role, context, config, runDir, iteration) {
     stdio: ["pipe", "pipe", "pipe"],
     timeoutMs: config.agent.timeoutMs,
     noOutputTimeoutMs: config.agent.noOutputTimeoutMs,
+    heartbeatMs: config.agent.heartbeatMs,
     onStdout: (text) => process.stdout.write(`[${role}] ${text}`),
-    onStderr: (text) => process.stderr.write(`[${role}:stderr] ${text}`)
+    onStderr: (text) => process.stderr.write(`[${role}:stderr] ${text}`),
+    onHeartbeat: (idleSeconds) => process.stdout.write(`[${role}] still running (${idleSeconds}s without child output)\n`)
   });
 
   await fs.writeFile(stdoutPath, result.stdout || "");
