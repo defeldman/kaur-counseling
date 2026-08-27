@@ -1,12 +1,12 @@
 const menuToggle = document.querySelector('.menu-toggle');
-const header = document.querySelector('.site-header');
+const siteHeader = document.querySelector('.site-header');
 
-const syncHeader = () => header?.classList.toggle('is-scrolled', window.scrollY > 24);
+const syncHeader = () => siteHeader?.classList.toggle('is-scrolled', window.scrollY > 24);
 syncHeader();
 window.addEventListener('scroll', syncHeader, { passive: true });
 
 menuToggle?.addEventListener('click', () => {
-  const open = header.classList.toggle('menu-open');
+  const open = siteHeader.classList.toggle('menu-open');
   document.body.classList.toggle('menu-open', open);
   menuToggle.setAttribute('aria-expanded', String(open));
 });
@@ -25,7 +25,7 @@ document.querySelectorAll('.mobile-nav .dropdown-trigger').forEach((trigger) => 
 
 document.querySelectorAll('.mobile-nav a:not(.dropdown-trigger)').forEach((link) => {
   link.addEventListener('click', () => {
-    header.classList.remove('menu-open');
+    siteHeader.classList.remove('menu-open');
     document.body.classList.remove('menu-open');
     menuToggle?.setAttribute('aria-expanded', 'false');
   });
