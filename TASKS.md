@@ -32,6 +32,17 @@
 - Menu and service accordion behavior: `script.js`
 - Photos: `assets/images/`
 
+## Second-pass Scout/Fixer log
+
+- [x] Resources route: replace the generic centered/full-poem layout with the live site's left-aligned editorial layout, wide sage poem card, corner details, and hover-to-read preview.
+- [x] About route: replace the two-column human section with the live three-column pastel card grid and measured row heights.
+- [x] About route: restore the live left-border work notes and rounded sage “Who I see” card.
+- [x] Navigation: add the live About and Services dropdown menus, route every submenu item, and support hover, keyboard focus, and mobile tap-to-open behavior.
+- [x] Header scroll behavior: match the live transparent-at-top header and translucent, compact scrolled state without shifting the page rhythm.
+- [x] Motion: add the live hero image/card entrance timing and continuously bouncing scroll cue, with reduced-motion handling.
+- [x] Motion/scroll: add the live 0.9-second fade-and-rise reveals for below-the-fold sections and staggered card entrances.
+- [ ] Continue visual comparison of hover states, scroll reveals, and mobile menu spacing on later passes.
+
 ## Local preview
 
 The current preview is available at http://localhost:4173/ while the local server is running.
