@@ -77,4 +77,11 @@ The current preview is available at http://localhost:4173/ while the local serve
 - [x] Keep “self love.” navy on the About detail hero while preserving burgundy emphasis on the other detail routes.
 - [x] Add the live four-pixel burgundy-to-clay-to-spruce accent bar to the Modalities detail page.
 - [x] Restore the missing “Five frameworks” eyebrow above the Modalities framework intro and match its responsive heading scale.
-- [ ] Modalities pill opacity remains intentionally unchanged pending a reliable same-viewport visual confirmation; the scout marked this as a low-confidence discrepancy.
+- [x] Modalities pill opacity: rechecked at a matched narrower viewport and confirmed as a false alarm; live and local intentionally share the dusty-mauve badge treatment.
+
+## Manual scout pass 2
+
+- [x] Verified the pass-1 reveal, About emphasis, Modalities accent bar/framework label, heading semantics/sizes, and eyebrow typography fixes.
+- [x] Restored the mobile navigation overlay's absolute positioning after the shared direct-child stacking rule was overriding it; the hamburger menu now spans the viewport with its intended touch layout.
+- [x] Added a 560–800px tablet-width hero-art breakpoint using live-proportional widths (`35vw` tree and `57vw` lavender), while preserving the existing phone sizing below 560px.
+- [ ] True small-phone screenshot/touch verification remains pending because the available browser viewport could not be resized below the narrower tablet-like tier.

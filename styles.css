@@ -331,6 +331,15 @@ body.page-modalities::before{content:"";position:absolute;z-index:21;top:0;left:
   .office-copy h3{font-size:24px;line-height:30px}
   .page-get-started .get-started-office h3{font-size:24px;line-height:30px}
   .page-modalities .framework-intro h2{font-size:24px;line-height:32px}
+  .site-header>.mobile-nav{position:absolute}
+}
+
+/* At tablet-ish widths the source scales the hero artwork up fluidly. Keep
+   the phone measurements below 560px, then grow the artwork with the viewport
+   instead of leaving the phone-sized crops floating in too much empty space. */
+@media (min-width:560px) and (max-width:800px){
+  .hero-tree{width:35vw}
+  .hero-lavender{width:57vw}
 }
 
 .text-link .inline-arrow{display:block;width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:transform .2s ease}
