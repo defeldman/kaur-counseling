@@ -8,9 +8,9 @@
 - [x] Rebuild the homepage as a static HTML/CSS/JS site.
 - [x] Preserve the SimplePractice appointment link, Google Maps embed, phone, email, and crisis notice.
 - [x] Add responsive navigation and expandable service details.
-- [x] Confirm the static source has no builder-specific runtime or remote font dependency.
+- [x] Confirm the static source has no Base44 or remote font dependency.
 - [x] Add a simple three-role visual loop: orchestrator, Scout, and Fixer.
-- [x] Add saved-reference behavior so normal iterations reuse the saved reference instead of repeatedly querying the live reference.
+- [x] Add saved-reference behavior so normal iterations do not repeatedly query Base44.
 - [x] Add bounded iterations, stall detection, and optional Fixer commit/push behavior.
 - [x] Scout and save the complete live-site route map, including internal pages and external integrations.
 - [x] Reproduce the live site's internal About, cost, resources, modalities, contact, privacy, and service pages.
@@ -57,3 +57,14 @@
 ## Local preview
 
 The current preview is available at http://localhost:4173/ while the local server is running.
+
+## Fourth-pass Scout/Fixer log
+
+- [x] Re-read the live homepage geometry at desktop size and corrected the fixed-header/hero rhythm, card wrapping, navigation spacing, and button sizing to the source measurements.
+- [x] Matched the live palette tokens for cream, midnight, spruce, sage, burgundy, clay, borders, and muted text opacity.
+- [x] Reordered the homepage “door” accordion to the live row-major order and replaced its check/plus glyphs with source-style SVG controls.
+- [x] Replaced approximate wheelhouse, approach, modality, scroll, office, navigation-chevron, and inline-link glyphs with measured SVG treatments.
+- [x] Matched the desktop wheelhouse, approach, and modalities section spacing, typography, icon sizing, separators, and lower-page rhythm.
+- [x] Rechecked desktop About and Services dropdown hover states, accordion open/close behavior, scroll reveals, and external scheduling/map links.
+- [x] Smoke-tested all 13 reproduced routes after the visual changes; every route rendered with its expected header, footer, and H1.
+- [ ] Narrow-viewport screenshot/touch pass remains; the responsive CSS is preserved, but this browser session only exposes the desktop viewport.
