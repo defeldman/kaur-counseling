@@ -1,0 +1,25 @@
+{
+  "source": "https://kaurcounseling.net/",
+  "capturedAt": "2026-08-26",
+  "internalRoutes": [
+    "/",
+    "/about",
+    "/about/cost",
+    "/about/resources",
+    "/modalities",
+    "/get-started",
+    "/services/adhd",
+    "/services/multiculturalism",
+    "/services/burnout",
+    "/services/anxiety-depression",
+    "/services/transitions",
+    "/services/teens",
+    "/privacy"
+  ],
+  "externalIntegrations": [
+    "https://sohavani-mand.clientsecure.me/ (SimplePractice scheduling)",
+    "https://maps.google.com/ (Google Maps office embed)",
+    "mailto:sohavani@kaurcounseling.net",
+    "tel:+14159305395"
+  ]
+}

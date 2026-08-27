@@ -1,0 +1,28 @@
+{
+  "referenceUrl": "https://kaurcounseling.net/",
+  "localUrl": "http://localhost:4173/",
+  "viewports": [
+    { "name": "desktop", "width": 1272, "height": 868 },
+    { "name": "mobile", "width": 390, "height": 844 }
+  ],
+  "scrollCheckpoints": {
+    "desktop": [0, 760, 1520, 2280, 3040, 3800, 4560, 5320, 6080, 6840, 7600, 8360, 9015],
+    "mobile": [0, 700, 1400, 2500, 4000, 5500, 7000, 8500, 10000, 11500, 12700, 14000]
+  },
+  "maxIterations": 10,
+  "maxStalls": 2,
+  "maxIssuesPerIteration": 3,
+  "scoutLiveReadEveryIteration": true,
+  "maxInternalPages": 30,
+  "automationBranch": "auto/visual-loop",
+  "agent": {
+    "command": "codex",
+    "baseArgs": [
+      "--sandbox", "workspace-write",
+      "--ask-for-approval", "never",
+      "exec",
+      "--skip-git-repo-check"
+    ],
+    "timeoutMs": 1200000
+  }
+}

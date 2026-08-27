@@ -12,12 +12,16 @@
 - [x] Add a simple three-role visual loop: orchestrator, Scout, and Fixer.
 - [x] Add saved-reference behavior so normal iterations do not repeatedly query Base44.
 - [x] Add bounded iterations, stall detection, and optional Fixer commit/push behavior.
+- [x] Scout and save the complete live-site route map, including internal pages and external integrations.
+- [x] Reproduce the live site's internal About, cost, resources, modalities, contact, privacy, and service pages.
+- [x] Update homepage navigation and calls to action to use the reproduced static routes.
+- [x] Verify every reproduced route renders at the local preview URL.
 
 ## To verify
 
 - [x] Compare the local page with the live site at desktop and mobile widths.
 - [x] Check every navigation and external service link.
-- [ ] Connect this canonical folder to the private GitHub repository and push the initial site.
+- [x] Connect this canonical folder to the private GitHub repository and push the initial site.
 - [ ] Enable GitHub Pages from the repository.
 - [ ] Point `kaurcounseling.net` to the GitHub Pages custom domain if desired.
 
