@@ -108,3 +108,12 @@ The current preview is available at http://localhost:4173/ while the local serve
 - [x] Rechecked `/modalities/` against the live page and matched the badge dot, badge opacity, intro width, spacing, and typography.
 - [x] Rechecked `/services/anxiety-depression/` and confirmed the live eyebrow, single plain intro paragraph, and measured text treatment.
 - [ ] True sub-430px screenshot/touch verification remains pending.
+
+## Text-color and scroll-cue pass
+
+- [x] Fixed the desktop/tablet homepage scroll cue so its entrance animation preserves the fluid centered layout instead of applying the old `translateX(-50%)` and jumping left after load.
+- [x] Restored the purple accent on the homepage office-notice “Mission” label and the spruce color on the Get Started office “Mission.” heading.
+- [x] Audited computed text colors across the live homepage, About, Cost, Resources, Modalities, Get Started, Privacy, ADHD, Burnout, Multiculturalism, Anxiety & Depression, and Transitions routes, then matched the verified navy, burgundy, spruce, purple, cream, and opacity tokens locally.
+- [x] Matched the service-page heading color sequences and restored the cream-on-burgundy treatment for the Burnout and Anxiety & Depression closing pull quotes.
+- [x] Synchronized the canonical local copy at `/Users/danielfeldman/software/kaur-/kaur-landing` with the working repository.
+- [ ] Narrow-viewport screenshot/touch verification remains pending.

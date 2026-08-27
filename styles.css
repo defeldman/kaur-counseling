@@ -537,6 +537,7 @@ body[data-page] .detail-page{padding-top:91.2px}
 @keyframes breathe-in{0%{opacity:0;transform:scale(.98)}100%{opacity:1;transform:scale(1)}}
 @keyframes breathe-in-card{0%{opacity:0;transform:translateX(-50%) scale(.98)}100%{opacity:1;transform:translateX(-50%) scale(1)}}
 @keyframes breathe-in-cue{0%{opacity:0;transform:translateX(-50%) scale(.98)}100%{opacity:1;transform:translateX(-50%) scale(1)}}
+@keyframes breathe-in-cue-fluid{0%{opacity:0;transform:scale(.98)}100%{opacity:1;transform:scale(1)}}
 @keyframes bounce{0%,100%{transform:translateY(-25%);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:none;animation-timing-function:cubic-bezier(0,0,.2,1)}}
 .hero-tree,.hero-lavender,.hero-card,.scroll-cue{animation:1.2s ease-out 0s 1 forwards breathe-in}
 .hero-lavender{animation-delay:.15s}.hero-card{animation-name:breathe-in-card;animation-delay:.3s}.scroll-cue{animation-name:breathe-in-cue;animation-delay:.5s}.down-arrow{animation:1s ease 0s infinite bounce}
@@ -638,4 +639,88 @@ body[data-page] .detail-page{padding-top:91.2px}
 @media (min-width:1101px){
   .page-modalities .detail-hero{padding-top:61.8px;padding-bottom:160px}
   .page-modalities .framework-intro{max-width:672px;margin-left:0;margin-right:auto}
+}
+
+/* Final text-color audit: values sampled from the live page's computed styles. */
+body:not([data-page]) .about-copy,
+body:not([data-page]) .about-copy p{color:rgba(23,39,64,.75)}
+body:not([data-page]) .rumi-quote cite{color:rgba(88,25,37,.8)}
+body:not([data-page]) .door-detail{color:rgba(23,39,64,.65)}
+body:not([data-page]) .appointment-card p{color:rgba(23,39,64,.7)}
+body:not([data-page]) .appointment-card small{color:rgba(23,39,64,.5)}
+body:not([data-page]) .next-card li p{color:rgba(23,39,64,.75)}
+body:not([data-page]) .contact-facts,
+body:not([data-page]) .office-facts{color:rgba(23,39,64,.75)}
+body:not([data-page]) .office-copy>p:not(.eyebrow):not(.virtual-note){color:rgba(23,39,64,.75)}
+.footer-bottom{color:rgba(23,39,64,.5)}
+
+.page-about .detail-hero>.eyebrow,
+.page-about .about-sessions .eyebrow,
+.page-about .about-human .eyebrow,
+.page-about .about-work>.eyebrow{color:rgba(88,25,37,.8)}
+.page-about .about-verification p{color:var(--spruce)}
+.page-about .about-cards .detail-card p{color:rgba(23,39,64,.7)}
+.page-about .about-human .fact-grid span{color:rgba(23,39,64,.7)}
+.page-about .about-work .work-note p{color:rgba(23,39,64,.75)}
+.page-about .about-who .who-card p{color:rgba(23,39,64,.8)}
+.page-about .credentials li{color:rgba(23,39,64,.8)}
+
+.page-resources .detail-lede{color:rgba(23,39,64,.75)}
+.page-resources .poem-card>.eyebrow{color:rgba(57,96,71,.8)}
+.page-resources .poem-full{color:rgba(23,39,64,.85)}
+.page-resources .poem-credit{color:rgba(88,25,37,.8)!important}
+.page-resources .poem-hint{color:rgba(57,96,71,.6)!important}
+.page-resources .book-author{color:rgba(23,39,64,.55)!important}
+
+.page-modalities .framework-copy p:not(.eyebrow){color:rgba(23,39,64,.75)}
+.page-modalities .framework-copy .eyebrow{color:var(--spruce)}
+
+.page-get-started .detail-lede{color:rgba(23,39,64,.75)}
+.page-get-started .detail-appointment p{color:rgba(23,39,64,.7)}
+.page-get-started .detail-appointment small{color:rgba(23,39,64,.5)}
+.page-get-started .get-started-office>div:first-child>p:not(.eyebrow){color:rgba(23,39,64,.75)}
+.page-get-started .get-started-office>div:first-child>p.virtual-note{color:rgba(23,39,64,.8)}
+.page-get-started .get-started-office h3 em{color:var(--spruce)}
+.page-get-started .office-facts{color:rgba(23,39,64,.8)}
+
+.page-privacy .detail-section p{color:rgba(23,39,64,.75)}
+.page-privacy .privacy-crisis-card>p{color:rgba(23,39,64,.8)!important}
+.page-privacy .privacy-crisis-card li a{color:rgba(23,39,64,.85)}
+.page-privacy .privacy-crisis-card strong{color:rgba(23,39,64,.85)}
+.page-privacy .detail-section:last-child p:last-child{color:rgba(23,39,64,.5)}
+
+.page-service .detail-hero-body{color:rgba(23,39,64,.75)}
+.page-service .detail-section p:not(.eyebrow){color:rgba(23,39,64,.75)}
+.page-service .detail-content>.detail-section:nth-child(3n+1) h2{color:var(--burgundy)}
+.page-service .detail-content>.detail-section:nth-child(3n+2) h2{color:var(--spruce)}
+.page-service .detail-content>.detail-section:nth-child(3n) h2{color:var(--accent)}
+/* Service intros are neutral on the live site; the colored sequence begins with the content sections. */
+.page-service .detail-content>.detail-section:first-child h2{color:var(--navy)}
+body.page-services-burnout .detail-content>.detail-section:first-child h2,
+body.page-services-multiculturalism .detail-content>.detail-section:first-child h2{color:var(--burgundy)}
+/* Transitions has one neutral orientation section before its burgundy/spruce/accent sequence. */
+body.page-services-transitions .detail-content>.detail-section:nth-child(n+2):nth-child(3n+2) h2{color:var(--burgundy)}
+body.page-services-transitions .detail-content>.detail-section:nth-child(n+2):nth-child(3n) h2{color:var(--spruce)}
+body.page-services-transitions .detail-content>.detail-section:nth-child(n+2):nth-child(3n+1) h2{color:var(--accent)}
+body.page-services-burnout .detail-hero h1{color:var(--burgundy)}
+body.page-services-burnout .detail-content>.detail-section:nth-child(3) p:last-child,
+body.page-services-anxiety-depression .detail-content>.detail-section:nth-child(4) p:last-child{
+  display:block;
+  margin-top:28px;
+  padding:26px 30px;
+  border-radius:16px;
+  background:var(--burgundy);
+  color:var(--cream)!important;
+  font:italic 26px/1.25 Fraunces,Georgia,serif;
+}
+@media (max-width:800px){
+  body.page-services-burnout .detail-content>.detail-section:nth-child(3) p:last-child,
+  body.page-services-anxiety-depression .detail-content>.detail-section:nth-child(4) p:last-child{
+    margin-top:22px;
+    padding:22px 20px;
+    font-size:22px;
+  }
+}
+@media (min-width:801px) and (prefers-reduced-motion:no-preference){
+  body:not([data-page]) .scroll-cue{animation-name:breathe-in-cue-fluid}
 }
