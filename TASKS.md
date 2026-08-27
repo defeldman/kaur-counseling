@@ -85,3 +85,11 @@ The current preview is available at http://localhost:4173/ while the local serve
 - [x] Restored the mobile navigation overlay's absolute positioning after the shared direct-child stacking rule was overriding it; the hamburger menu now spans the viewport with its intended touch layout.
 - [x] Added a 560–800px tablet-width hero-art breakpoint using live-proportional widths (`35vw` tree and `57vw` lavender), while preserving the existing phone sizing below 560px.
 - [ ] True small-phone screenshot/touch verification remains pending because the available browser viewport could not be resized below the narrower tablet-like tier.
+
+## Manual scout pass 3
+
+- [x] Reduced the desktop homepage “Our Approach” heading margin-top to the live 20px measurement.
+- [x] Reduced the desktop homepage “Modalities” heading margin-top to the live 24px measurement.
+- [x] Extended proportional hero-art sizing into the 430–559px range with clamped viewport-relative widths, preserving the measured 130px/212px minimum phone crop.
+- [ ] The homepage hero container max-width remains unconfirmed at matched desktop widths and is intentionally unchanged.
+- [ ] A sub-430px screenshot/touch pass remains pending; the browser session could not provide that narrower viewport.

@@ -302,6 +302,13 @@ h1 em,h2 em,h3 em{font-style:italic}
   .desktop-nav>.nav-cta{width:119.14px;justify-content:center}
 }
 
+/* Manual scout pass 3: the live hero artwork remains fluid below the tablet
+   breakpoint, while retaining the measured minimum phone crop. */
+@media (max-width:559px){
+  .hero-tree{width:clamp(130px,34.3vw,198px)}
+  .hero-lavender{width:clamp(212px,57vw,324px)}
+}
+
 span.nav-chevron::before{content:"";display:block;width:6px;height:6px;margin:1px auto 0;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg)}
 
 /* Final cascade for source navigation colors and SVG controls. */
@@ -364,7 +371,7 @@ body.page-modalities::before{content:"";position:absolute;z-index:21;top:0;left:
   .door-item button>span:nth-child(2){font:18px/28px Fraunces,Georgia,serif}
   .approach-section{padding-top:144px;padding-bottom:145.5px}
   .centered-intro>.eyebrow{color:var(--burgundy);font-size:12px;line-height:16px;letter-spacing:.25em}
-  .centered-intro h2{max-width:672px;margin:28px auto 0;font-size:48px;line-height:48px}
+  .centered-intro h2{max-width:672px;margin:20px auto 0;font-size:48px;line-height:48px}
   .approach-grid{gap:40px;margin-top:64px}
   .approach-card{min-height:0;padding:48px 32px;border-radius:16px}
   .approach-card h3{font:20px/28px Fraunces,Georgia,serif;letter-spacing:.18em}
@@ -375,7 +382,7 @@ body.page-modalities::before{content:"";position:absolute;z-index:21;top:0;left:
   .modalities-section{padding-top:160px;padding-bottom:160px}
   .modalities-intro{max-width:672px}
   .modalities-intro>.eyebrow{color:rgba(88,25,37,.8);font-size:12px;line-height:16px;letter-spacing:.25em}
-  .modalities-intro h2{margin-top:32px;font-size:48px;line-height:48px}
+  .modalities-intro h2{margin-top:24px;font-size:48px;line-height:48px}
   .modalities-intro>p:last-child{max-width:672px;margin-top:32px;font-size:16px;line-height:26px}
   .modality-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:48px;margin-top:80px}
   .modality-icon{width:80px;height:80px}
