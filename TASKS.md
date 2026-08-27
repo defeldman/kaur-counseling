@@ -121,4 +121,4 @@ The current preview is available at http://localhost:4173/ while the local serve
 ## Favicon and ticker pass
 
 - [x] Reproduced the original site’s navy arch favicon locally from its delivered logo asset and added it to every reproduced route.
-- [x] Rebuilt the healing ticker as two identical groups so it loops continuously with no blank/end state.
+- [x] Rebuilt the healing ticker as two identical viewport-filling sets so it loops continuously with no blank/end state on wide screens.
