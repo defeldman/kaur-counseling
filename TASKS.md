@@ -8,9 +8,9 @@
 - [x] Rebuild the homepage as a static HTML/CSS/JS site.
 - [x] Preserve the SimplePractice appointment link, Google Maps embed, phone, email, and crisis notice.
 - [x] Add responsive navigation and expandable service details.
-- [x] Confirm the static source has no Base44 or remote font dependency.
+- [x] Confirm the static source has no builder-specific runtime or remote font dependency.
 - [x] Add a simple three-role visual loop: orchestrator, Scout, and Fixer.
-- [x] Add saved-reference behavior so normal iterations do not repeatedly query Base44.
+- [x] Add saved-reference behavior so normal iterations reuse the saved reference instead of repeatedly querying the live reference.
 - [x] Add bounded iterations, stall detection, and optional Fixer commit/push behavior.
 - [x] Scout and save the complete live-site route map, including internal pages and external integrations.
 - [x] Reproduce the live site's internal About, cost, resources, modalities, contact, privacy, and service pages.

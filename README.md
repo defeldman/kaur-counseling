@@ -28,4 +28,4 @@ node scripts/visual-loop.mjs --refresh-reference --max-iterations 3
 node scripts/visual-loop.mjs --push --branch auto/visual-loop --max-iterations 10
 ```
 
-Scout captures the live reference only with `--refresh-reference` or when the local reference is missing. Normal iterations use the saved reference in `qa/reference/` so Base44 is not repeatedly queried. Each run writes its prompts and reports to `qa/runs/`.
+Scout captures the live reference only with `--refresh-reference` or when the local reference is missing. Normal iterations use the saved reference in `qa/reference/` so the live reference is not repeatedly queried. Each run writes its prompts and reports to `qa/runs/`.
