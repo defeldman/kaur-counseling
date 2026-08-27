@@ -117,3 +117,8 @@ The current preview is available at http://localhost:4173/ while the local serve
 - [x] Matched the service-page heading color sequences and restored the cream-on-burgundy treatment for the Burnout and Anxiety & Depression closing pull quotes.
 - [x] Synchronized the canonical local copy at `/Users/danielfeldman/software/kaur-/kaur-landing` with the working repository.
 - [ ] Narrow-viewport screenshot/touch verification remains pending.
+
+## Favicon and ticker pass
+
+- [x] Reproduced the original site’s navy arch favicon locally from its delivered logo asset and added it to every reproduced route.
+- [x] Rebuilt the healing ticker as two identical groups so it loops continuously with no blank/end state.
