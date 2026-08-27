@@ -125,7 +125,7 @@ const pages = {
     ["Why it's so hard to ask for help", ["Burnout doesn't always show up as a complete breakdown. Sometimes it looks like having less energy for things you used to enjoy, needing more effort to get started, or feeling strangely flat even when something good happens. For people who are used to pushing through, it can be especially hard to recognize these changes as signs that something is wrong. You may just think you need to try harder, get more organized, or get back on track — when what you actually need is to recognize that you've been running on empty for a while." ]],
     ['Tending and rebuilding', ["When you're used to measuring your worth by how much you accomplish, needing help can feel like falling short. Rest can feel unearned, and asking for support can bring up shame, guilt, or the fear that you should be able to handle it on your own. But struggling to reach out doesn't mean you're failing. Sometimes, it's part of what happens when you've been carrying too much for too long. Recognizing that you need support isn't giving up — it's finally paying attention.", "We start by listening to what the depletion is asking for. We tend the exhaustion before we touch the goals. Then, slowly and with care, we rebuild a life with margins in it, one with rest and meaning, with permission to be a person rather than only a function.", "Recovery is not a project to optimize. It is a returning."]]
   ]),
-  'services/anxiety-depression': service('Anxiety & Depression.', '', 'SPECIALTY', 'Anxiety and depression can look completely different, but both have a way of adding a layer to everyday life that can make everything feel harder than it should.', [
+  'services/anxiety-depression': service('Anxiety & Depression.', '', 'ALSO IN MY CARE', 'Anxiety and depression can look completely different, but both have a way of adding a layer to everyday life that can make everything feel harder than it should.', [
     ['Anxiety', ["Anxiety can keep your mind running long after you want it to stop. It can make decisions feel overwhelming, turn small things into big things, and leave you constantly anticipating what might go wrong." ]],
     ['Depression', ["Depression can make everything feel heavier in a different way. Things that once felt meaningful can feel distant, motivation can disappear, and even basic tasks can take more effort than you have to give." ]],
     ['When they show up together', ["Sometimes they show up together. Sometimes one takes over for a while and the other follows. And sometimes it's hard to explain what's happening at all — you just know that life feels harder than it used to. You don't have to figure it out alone." ]],
@@ -163,13 +163,12 @@ function service(title, italic, eyebrow, lede, sections) {
   const heroBodies = {
     'ADHD & Late-Stage': "An ADHD diagnosis arriving later in life doesn't only name the present. It offers a new language for the past. The relief it can bring is real, and so is the grief that travels beside it. My work is to hold both, and to help you build a life that fits the mind you actually have.",
     'Burnout.': "Burnout rarely arrives all at once. It accretes, quietly, through one more task, one more morning pushed through, one more weekend that disappears. By the time it has a name, it has often been living in you for a long while.",
-    'Anxiety & Depression.': "Anxiety can keep your mind running long after you want it to stop. Depression can make everything feel heavier in a different way. You don't have to figure out what is happening alone.",
     'Multicultural & Cross-Cultural Therapy': 'Living between cultures is a quiet, ongoing negotiation. We hold the grief and the resilience of adaptation, the questions of belonging, and the tension of holding more than one home.',
     'Going Through a Transition?': 'A transition can be chosen, expected, or completely outside your control. It can bring excitement and grief in the same breath, even when it is the change you wanted.',
     'Therapy for Teens.': "Being a teenager can mean holding school pressure, friendship shifts, family expectations, and questions about who you are — often while feeling like you are supposed to already know the answers."
   };
   const titleMarkup = `${esc(title)}${italic ? `<br /><em>${esc(italic)}</em>` : ''}`;
-  return { eyebrow, title: titleMarkup, lede: leads[title] || lede, heroBody: heroBodies[title] || '', isService: true, body: sections.map(([heading, items], index) => section(heading, items, index % 2 ? 'detail-section-tint' : '') ) };
+  return { eyebrow, title: titleMarkup, lede: leads[title] || lede, heroBody: heroBodies[title] || '', plainLede: title === 'Anxiety & Depression.', isService: true, body: sections.map(([heading, items], index) => section(heading, items, index % 2 ? 'detail-section-tint' : '') ) };
 }
 
 function framework(title, what, why) {
@@ -191,7 +190,7 @@ function render() {
   const backLabel = page.backLabel || (page.isService ? '← Back to Services' : '← Back to Home');
   const backHref = page.backPath ? link(page.backPath) : (page.isService ? link('#services') : link(''));
   const back = page.noBack ? '' : `<a class="back-link" href="${backHref}">${backLabel}</a>`;
-  document.getElementById('page-app').innerHTML = `${header()}<main class="detail-page"><div class="detail-shell">${back}<section class="detail-hero">${leaf}<p class="eyebrow">${esc(page.eyebrow)}</p><h1>${page.title}</h1><p class="detail-lede">${esc(page.lede)}</p>${page.heroBody ? `<p class="detail-hero-body">${esc(page.heroBody)}</p>` : ''}</section><div class="detail-content">${body}</div>${page.noCta ? '' : cta()}</div></main>${footer()}`;
+  document.getElementById('page-app').innerHTML = `${header()}<main class="detail-page"><div class="detail-shell">${back}<section class="detail-hero">${leaf}<p class="eyebrow">${esc(page.eyebrow)}</p><h1>${page.title}</h1><p class="${page.plainLede ? 'detail-hero-body plain-detail-lede' : 'detail-lede'}">${esc(page.lede)}</p>${page.heroBody ? `<p class="detail-hero-body">${esc(page.heroBody)}</p>` : ''}</section><div class="detail-content">${body}</div>${page.noCta ? '' : cta()}</div></main>${footer()}`;
 }
 
 render();

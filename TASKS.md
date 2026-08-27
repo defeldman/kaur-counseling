@@ -93,3 +93,11 @@ The current preview is available at http://localhost:4173/ while the local serve
 - [x] Extended proportional hero-art sizing into the 430–559px range with clamped viewport-relative widths, preserving the measured 130px/212px minimum phone crop.
 - [ ] The homepage hero container max-width remains unconfirmed at matched desktop widths and is intentionally unchanged.
 - [ ] A sub-430px screenshot/touch pass remains pending; the browser session could not provide that narrower viewport.
+
+## Manual scout pass 4
+
+- [x] Corrected `/services/anxiety-depression/` to use the live “Also in my care” eyebrow.
+- [x] Removed the duplicate Anxiety & Depression intro body paragraph while preserving the two-paragraph hero treatment used by ADHD and Burnout.
+- [x] Added a page-scoped plain, non-italic intro style for Anxiety & Depression to match the live content treatment.
+- [x] Kept the homepage hero max-width unchanged because a matched desktop measurement is still unavailable.
+- [ ] True sub-430px verification remains pending.

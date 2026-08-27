@@ -332,6 +332,7 @@ body:not([data-page]) .hero-card .eyebrow{font-size:9.6px;line-height:12px;lette
 body.page-modalities::before{content:"";position:absolute;z-index:21;top:0;left:0;right:0;height:4px;background:linear-gradient(to right,var(--burgundy),var(--accent),var(--spruce));pointer-events:none}
 .page-modalities .framework-intro .eyebrow{margin:0;color:var(--spruce);font-size:12px;line-height:16px;letter-spacing:.25em}
 .page-modalities .framework-intro h2{margin-top:12px;font-size:30px;line-height:36px}
+.page-service .plain-detail-lede{max-width:700px;margin-top:30px;color:#59616b;font:18px/1.62 Inter,ui-sans-serif,system-ui,sans-serif}
 
 @media (max-width:800px){
   .notice-copy h3{font-size:20px;line-height:25px}
