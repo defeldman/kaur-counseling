@@ -43,6 +43,17 @@
 - [x] Motion/scroll: add the live 0.9-second fade-and-rise reveals for below-the-fold sections and staggered card entrances.
 - [ ] Continue visual comparison of hover states, scroll reveals, and mobile menu spacing on later passes.
 
+## Third-pass Scout/Fixer log
+
+- [x] Full route comparison: found that `Get Started` was still using the generic centered detail-page rhythm instead of the live left-aligned contact layout.
+- [x] `Get Started`: removed the generic back link, matched the left-led hero, widened the appointment panel, preserved the SimplePractice scheduling integration, and aligned the office/map section spacing.
+- [x] Full route comparison: found that `Privacy` was missing the live crisis-resource callout treatment and was using plain paragraphs for the emergency links.
+- [x] `Privacy`: added the bordered crisis card, warning/phone icons, linked 911/988/Crisis Text Line resources, and matched the live divider and card rhythm.
+- [x] `Modalities`: widened the desktop title measure to the live 672px content width.
+- [x] Scroll behavior: corrected generated internal pages so the header remains viewport-fixed while the user scrolls through the office and footer sections.
+- [x] Rechecked desktop About hover dropdown, homepage reveal timing, every reproduced route, and all route-level external-link integrations.
+- [ ] Narrow-viewport screenshot pass for mobile menu spacing and touch dropdown behavior remains for a later round.
+
 ## Local preview
 
 The current preview is available at http://localhost:4173/ while the local server is running.

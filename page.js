@@ -6,6 +6,8 @@ const esc = (value) => String(value).replace(/[&<>"']/g, (character) => ({
 const link = (path) => `${root}${path}`;
 const paras = (items) => items.map((item) => `<p>${esc(item)}</p>`).join('');
 const section = (heading, items, className = '') => `<section class="detail-section ${className}"><h2>${esc(heading)}</h2>${paras(items)}</section>`;
+const crisisPhoneIcon = '<svg viewBox="0 0 24 24"><path d="M6.5 3.5 10 7 8 9c1.4 2.9 3.1 4.6 6 6l2-2 3.5 3.5v2.2c0 .9-.7 1.6-1.6 1.6C10.2 20.3 3.7 13.8 3.7 6.1c0-.9.7-1.6 1.6-1.6h1.2Z"/></svg>';
+const crisisSection = () => `<section class="detail-section privacy-crisis"><div class="privacy-crisis-card"><div class="privacy-crisis-heading"><span class="privacy-crisis-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 3 9 17H3L12 3Z"/><path d="M12 8v5m0 3h.01"/></svg></span><h2>If you are in crisis</h2></div><p>This website is not monitored for emergencies and is not a substitute for urgent care. If you or someone else is in immediate danger, please use the resources below.</p><ul><li><a href="tel:911"><span class="crisis-phone" aria-hidden="true">${crisisPhoneIcon}</span><span><strong>911</strong> for life-threatening emergencies.</span></a></li><li><a href="tel:988"><span class="crisis-phone" aria-hidden="true">${crisisPhoneIcon}</span><span><strong>988</strong> Suicide &amp; Crisis Lifeline. Call or text 988, 24/7.</span></a></li><li><a href="sms:741741"><span class="crisis-phone" aria-hidden="true">${crisisPhoneIcon}</span><span><strong>741741</strong> Crisis Text Line. Text HOME to 741741, 24/7.</span></a></li></ul></div></section>`;
 const leaf = '<span class="detail-leaf" aria-hidden="true"></span>';
 
 function header() {
@@ -91,18 +93,18 @@ const pages = {
     body: [
       `<section class="appointment-card detail-appointment"><h2>Request an appointment</h2>${paras(["Choose a service, share a brief note about what brings you in, and pick a time, all through my secure SimplePractice portal."])}<a class="button" href="https://sohavani-mand.clientsecure.me/widget-redirect?scopeId=b0a05cdc-3559-497f-86e9-4c0eae004bbe&amp;scopeUri=sohavani-mand&amp;scopeGlobal=true&amp;applicationId=7c72cb9f9a9b913654bb89d6c7b4e71a77911b30192051da35384b4d0c6d505b&amp;appearance=%7B%22fullScreen%22%3Atrue%7D&amp;contact=false" target="_blank" rel="noreferrer">Request Appointment <span>↗</span></a><small>Opens a secure scheduling window, no email form.</small></section>`,
       `<section class="get-started-office"><div><p class="eyebrow">Office</p><h2>A room in the <em>Mission.</em></h2>${paras(["My office is a calm, private space in the heart of the Mission District, easy to reach by Muni or on foot, with a parking garage attached to the building. You are welcome here exactly as you arrive.", "Virtual sessions are always available, but in-person sessions start October 1st."])}<div class="office-facts"><a href="https://www.google.com/maps/search/?api=1&amp;query=3150%2018th%20St%2C%20Suite%20404%2C%20San%20Francisco%2C%20CA%2094110" target="_blank" rel="noreferrer"><span>⌖</span>3150 18th St, Suite 404, San Francisco, CA 94110 <small>↗</small></a><a href="tel:+14159305395"><span>⌕</span>415-930-5395</a></div></div><div class="map-frame"><iframe title="Map of the Kaur Counseling office" src="https://maps.google.com/maps?q=3150%2018th%20St%2C%20Suite%20404%2C%20San%20Francisco%2C%20CA%2094110&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></section>`
-    ], noCta: true
+    ], noCta: true, noBack: true
   },
   privacy: {
     eyebrow: 'Legal & privacy', title: 'Privacy, Disclaimer &amp; Crisis Resources', lede: 'Your trust and safety matter. This page explains how your information is handled, the limits of this website, and where to turn if you need immediate help.',
     body: [
-      section('If you are in crisis', ["This website is not monitored for emergencies and is not a substitute for urgent care. If you or someone else is in immediate danger, please use the resources below.", "911 for life-threatening emergencies.", "988 Suicide & Crisis Lifeline. Call or text 988, 24/7.", "741741 Crisis Text Line. Text HOME to 741741, 24/7."]),
+      crisisSection(),
       section('Professional disclaimer', ["The content on this website is provided for general informational and educational purposes only. It is not medical or mental health advice and does not create a therapist-client relationship between you and Sohavani Mand, LMFT. A therapist-client relationship is formed only after a formal intake, signed informed consent, and the scheduling of a clinical appointment. Please do not rely on this site in place of seeking professional care."]),
       section('Licensee identification', ["Sohavani Mand, Licensed Marriage and Family Therapist (LMFT)", "California License #150884"]),
       section('Website privacy', ["This website does not store protected health information (PHI) directly. Any information you submit through the appointment request form is transmitted to Sohavani Mand's secure practice management system for the purpose of scheduling and intake. Please avoid including sensitive clinical details in your initial request, and do not use this website to communicate emergencies or urgent clinical concerns."]),
       section('Notice of Privacy Practices (summary)', ["As a licensed health care provider, Sohavani Mand, LMFT maintains confidentiality in accordance with HIPAA and California's Confidentiality of Medical Information Act (CMIA). Your protected health information may be used and disclosed for treatment, payment, and health care operations, and as otherwise permitted or required by law. A complete Notice of Privacy Practices is provided to you at the start of care. This online summary is for general awareness and does not replace the full notice."]),
       section('Telehealth', ["Where telehealth is offered, services are provided under a valid California license, with informed consent, disclosure of risks and limitations, and verification of your identity and location at each session, consistent with California law.", "This page provides a general overview and is not legal advice. For questions about your privacy or care, contact the office directly."])
-    ], noCta: true
+    ], noCta: true, noBack: true
   },
   'services/adhd': service('ADHD & Late-Stage', 'Diagnosis.', 'SPECIALTY', "A diagnosis arriving in adulthood reframes a lifetime. We make sense of the years before: the masking, the shame, the gifts. And we build rhythms that fit the mind you actually have.", [
     ['ADD in women looks different', ["ADHD in women is often missed, minimized, or explained away as anxiety, laziness, or not trying hard enough. Many women become experts at compensating until the strategies stop working." ]],
@@ -188,7 +190,8 @@ function render() {
   const body = page.body.join('');
   const backLabel = page.backLabel || (page.isService ? '← Back to Services' : '← Back to Home');
   const backHref = page.backPath ? link(page.backPath) : (page.isService ? link('#services') : link(''));
-  document.getElementById('page-app').innerHTML = `${header()}<main class="detail-page"><div class="detail-shell"><a class="back-link" href="${backHref}">${backLabel}</a><section class="detail-hero">${leaf}<p class="eyebrow">${esc(page.eyebrow)}</p><h1>${page.title}</h1><p class="detail-lede">${esc(page.lede)}</p>${page.heroBody ? `<p class="detail-hero-body">${esc(page.heroBody)}</p>` : ''}</section><div class="detail-content">${body}</div>${page.noCta ? '' : cta()}</div></main>${footer()}`;
+  const back = page.noBack ? '' : `<a class="back-link" href="${backHref}">${backLabel}</a>`;
+  document.getElementById('page-app').innerHTML = `${header()}<main class="detail-page"><div class="detail-shell">${back}<section class="detail-hero">${leaf}<p class="eyebrow">${esc(page.eyebrow)}</p><h1>${page.title}</h1><p class="detail-lede">${esc(page.lede)}</p>${page.heroBody ? `<p class="detail-hero-body">${esc(page.heroBody)}</p>` : ''}</section><div class="detail-content">${body}</div>${page.noCta ? '' : cta()}</div></main>${footer()}`;
 }
 
 render();
