@@ -302,6 +302,116 @@ h1 em,h2 em,h3 em{font-style:italic}
   .desktop-nav>.nav-cta{width:119.14px;justify-content:center}
 }
 
+/* Final live-site parity pass: mirror the source's max-width containers and
+   fluid hero composition above the mobile/tablet breakpoints. */
+@media (min-width:1101px){
+  :root{--wide-gutter:max(48px,calc((100vw - 1280px)/2 + 48px))}
+
+  body:not([data-page]) .site-header{
+    padding-left:var(--wide-gutter);
+    padding-right:var(--wide-gutter)
+  }
+  .brand-name{font-size:20px;line-height:28px;letter-spacing:-.025em}
+  .brand-subtitle{margin-top:4px;font-size:11.2px;line-height:11.2px;letter-spacing:.2em;color:rgba(57,96,71,.7)}
+
+  body:not([data-page]) .hero{
+    height:auto;
+    min-height:0;
+    padding:112px 48px 48px
+  }
+  body:not([data-page]) .hero-images{
+    position:relative;
+    inset:auto;
+    display:flex;
+    align-items:center;
+    gap:32px;
+    width:100%;
+    max-width:1280px;
+    height:72vh;
+    margin:0 auto
+  }
+  body:not([data-page]) .hero-tree{
+    position:relative;
+    left:auto;
+    top:auto;
+    flex:0 0 38%;
+    width:38%;
+    height:54vh;
+    object-fit:cover
+  }
+  body:not([data-page]) .hero-lavender{
+    position:relative;
+    right:auto;
+    top:auto;
+    flex:0 0 62%;
+    width:62%;
+    height:72vh;
+    object-fit:cover
+  }
+  body:not([data-page]) .hero-card{top:calc(112px + 36vh - 131.1px)}
+  body:not([data-page]) .scroll-cue{
+    position:relative;
+    left:auto;
+    top:auto;
+    bottom:auto;
+    width:100%;
+    height:42.4px;
+    margin:40px auto 0;
+    transform:none;
+    gap:8px;
+    color:rgba(23,39,64,.55);
+    letter-spacing:.28em
+  }
+
+  .office-notice{max-width:1280px;min-height:0;padding:28px 40px;grid-template-columns:42px minmax(0,1fr) auto;gap:16px}
+  .notice-copy p{max-width:none;margin-top:6px;font-size:14px;line-height:22.75px}
+  .notice-address{gap:8px;font-size:14px;line-height:20px}
+
+  .about-section{max-width:none;margin:0;padding:160px var(--wide-gutter)}
+  .about-intro{max-width:768px}
+  .about-intro h2{max-width:none;font-size:48px;line-height:48px;letter-spacing:normal}
+  .about-grid{grid-template-columns:456px 560px;column-gap:168px;margin-top:80px}
+  .portrait-frame{width:456px;height:570px}
+
+  .section-shell{max-width:1280px;padding-left:48px;padding-right:48px}
+  .modalities-section{max-width:none;margin:0;padding-left:var(--wide-gutter);padding-right:var(--wide-gutter)}
+
+  .people-section{padding-top:144px;padding-bottom:144px}
+  .people-intro{max-width:672px;margin-left:calc((100vw - 1024px)/2 + 48px);margin-right:0}
+  .people-intro h3{max-width:672px;margin-top:16px;font-size:48px;line-height:48px;letter-spacing:normal}
+  .people-list{max-width:928px;margin-top:64px;gap:24px}
+  .person-card,.person-card:nth-child(even){min-height:0;padding:40px;border:1px solid rgba(241,234,223,.1);border-radius:32px;display:flex;align-items:center;gap:32px}
+  .person-card{background:rgba(88,25,37,.1)}
+  .person-card:nth-child(even){background:rgba(57,96,71,.1);flex-direction:row-reverse}
+  .person-card img{flex:0 0 144px;width:144px;height:144px;border:0;padding:0;box-shadow:0 0 0 4px rgba(88,25,37,.3)}
+  .person-card-poc img,.person-card-lgbtq img{box-shadow:0 0 0 4px rgba(57,96,71,.3)}
+  .person-card>div,.person-card:nth-child(even)>div{max-width:none;flex:1;order:0;margin-left:0;text-align:left}
+  .person-card:nth-child(even)>div{text-align:right}
+  .person-card h3{font-size:30px;line-height:36px}
+  .person-card .card-rule{margin:12px 0 0}
+  .person-card:nth-child(even) .card-rule{margin-left:auto}
+  .person-card p{margin-top:16px;color:rgba(23,39,64,.75);font-size:15.2px;line-height:24.7px}
+
+  .contact-grid{padding-top:160px;padding-bottom:160px}
+  .contact-main h2{margin-top:24px;font-size:48px;line-height:48px;letter-spacing:normal}
+  .footer-top,.footer-bottom{max-width:1280px;padding-left:48px;padding-right:48px}
+
+  .page-modalities .detail-shell{max-width:1280px;padding-left:48px;padding-right:48px}
+  .page-modalities .detail-hero .eyebrow{
+    padding:6px 14px;
+    border-radius:9999px;
+    background:rgba(88,25,37,.1);
+    color:rgba(88,25,37,.8);
+    font-size:12px;
+    line-height:16px;
+    letter-spacing:.25em
+  }
+
+  .page-service .detail-hero>.eyebrow{color:rgba(88,25,37,.8);line-height:14.5px}
+  .page-service .detail-hero h1{margin-top:24px;letter-spacing:normal}
+  .page-service .plain-detail-lede{max-width:672px;margin-top:32px;color:rgba(23,39,64,.75);font:18px/29.25px Inter,ui-sans-serif,system-ui,sans-serif}
+}
+
 /* Manual scout pass 3: the live hero artwork remains fluid below the tablet
    breakpoint, while retaining the measured minimum phone crop. */
 @media (max-width:559px){
@@ -467,4 +577,65 @@ body[data-page] .detail-page{padding-top:91.2px}
   .desktop-nav>a[href="get-started/"]:not(.nav-cta){width:54.437px}
   .desktop-nav>.nav-dropdown:nth-of-type(2)>.dropdown-trigger{width:78.25px}
   .desktop-nav>.nav-cta{width:119.14px;justify-content:center}
+}
+
+/* Final live-site parity pass: exact desktop flow and content widths. */
+@media (min-width:1101px){
+  .site-header{padding-left:var(--wide-gutter);padding-right:var(--wide-gutter)}
+  .brand{gap:0}
+  body:not([data-page]) .site-header{padding-left:var(--wide-gutter);padding-right:var(--wide-gutter)}
+  body:not([data-page]) .brand{gap:0}
+
+  .office-notice{grid-template-columns:40px minmax(0,1fr) auto}
+
+  .people-intro{margin-top:16px;padding-bottom:8px}
+  .people-intro>p:last-child{max-width:672px;margin-top:20px;padding-right:12px;line-height:26px}
+
+  .contact-grid{grid-template-columns:repeat(12,minmax(0,1fr));gap:64px;padding-top:160px;padding-bottom:160px}
+  .contact-main{grid-column:span 7}
+  .contact-aside{grid-column:9 / span 4;margin-top:24px}
+
+  .office-grid{grid-template-columns:repeat(12,minmax(0,1fr));gap:48px}
+  .office-copy{grid-column:span 4}
+  .office-grid>.map-frame{grid-column:span 8}
+
+  .page-service .detail-hero>.eyebrow{color:rgba(88,25,37,.8);line-height:14.5px}
+  .page-service .detail-hero h1{margin-top:24px;letter-spacing:normal}
+  .page-service .plain-detail-lede{max-width:672px;margin-top:32px;color:rgba(23,39,64,.75);font:18px/29.25px Inter,ui-sans-serif,system-ui,sans-serif}
+}
+
+/* Keep the desktop section rhythm aligned after the fluid hero/header pass. */
+@media (min-width:1101px){
+  .about-section{padding-bottom:168.5px}
+  .approach-section{padding-bottom:153.5px}
+  .people-intro{margin-top:0}
+  .modalities-section{padding-bottom:168.5px}
+}
+
+/* Match the live Modalities intro badge and editorial spacing. */
+.page-modalities .detail-hero .eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:6px 14px;
+  border-radius:999px;
+  background:rgba(88,25,37,.1);
+  color:rgba(88,25,37,.8);
+  font-size:12px;
+  line-height:16px;
+  letter-spacing:.25em;
+}
+.page-modalities .detail-hero .eyebrow::before{
+  content:"";
+  flex:0 0 6px;
+  width:6px;
+  height:6px;
+  border-radius:50%;
+  background:var(--burgundy);
+}
+.page-modalities .detail-hero h1{margin-top:24px;letter-spacing:normal}
+.page-modalities .detail-lede{max-width:672px;margin-top:32px;color:rgba(23,39,64,.75);font-size:18px;line-height:29.25px}
+@media (min-width:1101px){
+  .page-modalities .detail-hero{padding-top:61.8px;padding-bottom:160px}
+  .page-modalities .framework-intro{max-width:672px;margin-left:0;margin-right:auto}
 }

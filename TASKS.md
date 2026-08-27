@@ -99,5 +99,12 @@ The current preview is available at http://localhost:4173/ while the local serve
 - [x] Corrected `/services/anxiety-depression/` to use the live “Also in my care” eyebrow.
 - [x] Removed the duplicate Anxiety & Depression intro body paragraph while preserving the two-paragraph hero treatment used by ADHD and Burnout.
 - [x] Added a page-scoped plain, non-italic intro style for Anxiety & Depression to match the live content treatment.
-- [x] Kept the homepage hero max-width unchanged because a matched desktop measurement is still unavailable.
+- [x] Confirmed the homepage hero container at matched desktop width and aligned it to the live fluid composition.
 - [ ] True sub-430px verification remains pending.
+
+## Follow-up fidelity pass
+
+- [x] Rechecked the homepage at matched desktop width and matched the fluid hero artwork, header gutters, office notice, section rhythm, People cards, Contact grid, and office/map columns.
+- [x] Rechecked `/modalities/` against the live page and matched the badge dot, badge opacity, intro width, spacing, and typography.
+- [x] Rechecked `/services/anxiety-depression/` and confirmed the live eyebrow, single plain intro paragraph, and measured text treatment.
+- [ ] True sub-430px screenshot/touch verification remains pending.
