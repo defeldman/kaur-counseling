@@ -22,7 +22,7 @@
 - [x] Compare the local page with the live site at desktop and mobile widths.
 - [x] Check every navigation and external service link.
 - [x] Connect this canonical folder to the private GitHub repository and push the initial site.
-- [ ] Enable GitHub Pages from the repository.
+- [ ] Enable GitHub Pages from the repository. Blocked by the current GitHub plan: GitHub returned `422 Your current plan does not support GitHub Pages for this repository` while the repo is private.
 - [ ] Point `kaurcounseling.net` to the GitHub Pages custom domain if desired.
 
 ## Easy edits
