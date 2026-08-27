@@ -311,6 +311,28 @@ span.nav-chevron::before{content:"";display:block;width:6px;height:6px;margin:1p
 .nav-dropdown-panel a:hover,.nav-dropdown-panel a:focus-visible{background:rgba(57,96,71,.05)}
 .nav-chevron{font-size:0}
 
+/* Manual scout fidelity pass: section eyebrows, semantic heading levels, and
+   the two details that distinguish the live Modalities page. */
+.eyebrow{font-size:12px;line-height:16px;letter-spacing:.25em;color:var(--spruce)}
+body:not([data-page]) .hero-card .eyebrow{font-size:9.6px;line-height:12px;letter-spacing:.25em;color:var(--spruce)}
+.people-intro>.eyebrow{color:rgba(23,39,64,.6)}
+.notice-copy h3{font-size:20px;line-height:25px;margin:0}
+.office-copy h3{font-size:30px;line-height:36px;margin-top:39px}
+.appointment-card h3{font-size:24px;line-height:33px}
+.page-about .detail-hero h1 em{color:inherit}
+.page-get-started .detail-appointment h3{margin:0;font-size:24px;line-height:33px}
+.page-get-started .get-started-office h3{margin-top:22px;font-size:30px;line-height:36px}
+body.page-modalities::before{content:"";position:absolute;z-index:21;top:0;left:0;right:0;height:4px;background:linear-gradient(to right,var(--burgundy),var(--accent),var(--spruce));pointer-events:none}
+.page-modalities .framework-intro .eyebrow{margin:0;color:var(--spruce);font-size:12px;line-height:16px;letter-spacing:.25em}
+.page-modalities .framework-intro h2{margin-top:12px;font-size:30px;line-height:36px}
+
+@media (max-width:800px){
+  .notice-copy h3{font-size:20px;line-height:25px}
+  .office-copy h3{font-size:24px;line-height:30px}
+  .page-get-started .get-started-office h3{font-size:24px;line-height:30px}
+  .page-modalities .framework-intro h2{font-size:24px;line-height:32px}
+}
+
 .text-link .inline-arrow{display:block;width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:transform .2s ease}
 .button .external-arrow{display:block;width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 

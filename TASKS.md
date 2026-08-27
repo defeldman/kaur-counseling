@@ -68,3 +68,13 @@ The current preview is available at http://localhost:4173/ while the local serve
 - [x] Rechecked desktop About and Services dropdown hover states, accordion open/close behavior, scroll reveals, and external scheduling/map links.
 - [x] Smoke-tested all 13 reproduced routes after the visual changes; every route rendered with its expected header, footer, and H1.
 - [ ] Narrow-viewport screenshot/touch pass remains; the responsive CSS is preserved, but this browser session only exposes the desktop viewport.
+
+## Manual scout findings pass
+
+- [x] Make detail-page scroll reveals visible immediately when their initial viewport check succeeds, so background-tab throttling cannot leave the hero hidden indefinitely.
+- [x] Match homepage eyebrow typography and section colors: 12px/16px with 0.25em tracking, spruce as the common color, navy-muted for People we serve, and the smaller Welcome label.
+- [x] Match the live homepage/contact heading semantics and sizes for the office notice, appointment card, and Mission office heading.
+- [x] Keep “self love.” navy on the About detail hero while preserving burgundy emphasis on the other detail routes.
+- [x] Add the live four-pixel burgundy-to-clay-to-spruce accent bar to the Modalities detail page.
+- [x] Restore the missing “Five frameworks” eyebrow above the Modalities framework intro and match its responsive heading scale.
+- [ ] Modalities pill opacity remains intentionally unchanged pending a reliable same-viewport visual confirmation; the scout marked this as a low-confidence discrepancy.

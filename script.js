@@ -88,7 +88,16 @@ if (scrollRevealTargets.length && 'IntersectionObserver' in window) {
       }
     });
   }, { threshold: 0.15, rootMargin: '0px 0px -8% 0px' });
-  scrollRevealTargets.forEach((element) => revealObserver.observe(element));
+  scrollRevealTargets.forEach((element) => {
+    revealObserver.observe(element);
+    // IntersectionObserver callbacks can be delayed when a newly opened page is
+    // briefly backgrounded. Make the initial viewport deterministic as well.
+    const rect = element.getBoundingClientRect();
+    if (rect.top < window.innerHeight && rect.bottom > 0) {
+      element.classList.add('is-visible');
+      revealObserver.unobserve(element);
+    }
+  });
 } else {
   scrollRevealTargets.forEach((element) => element.classList.add('is-visible'));
 }
