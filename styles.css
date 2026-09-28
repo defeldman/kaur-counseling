@@ -1541,7 +1541,7 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
   color:rgb(241,234,223);
 }
 @media (min-width:1101px){
-  .page-services-adhd .service-cta{margin-top:172px;padding:56px 64px 0}
+  .page-services-adhd .service-cta{margin-top:48px;padding:56px 64px 0}
   .page-services-adhd .detail-shell{padding-bottom:86.5px}
 
   .page-about .detail-hero{padding-top:123.5px}
@@ -1887,3 +1887,28 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
   .page-resources .poem-card{margin-top:33px}
   .page-resources .detail-shell{padding-bottom:15px}
 }
+
+
+/* Brief 21: measured three-row footer and remaining desktop geometry. */
+.site-footer{border-top:1px solid rgb(215,204,188);padding:0}
+.footer-top,.footer-crisis,.footer-copyright-row{box-sizing:border-box;width:1280px;max-width:100%;margin:0 auto;padding-left:48px;padding-right:48px}
+.footer-top{height:152px;display:flex;flex-wrap:nowrap;justify-content:space-between;align-items:center;gap:24px;padding-top:48px;padding-bottom:48px}
+.footer-meta{width:775px;flex:0 1 775px;display:flex;align-items:center;gap:12px;min-width:0}
+.footer-meta{height:56px}
+.footer-meta>*{flex:none}
+.footer-nav{width:385px;flex:0 0 385px;display:flex;justify-content:space-between;gap:32px;margin:0;font-size:14px;line-height:20px}
+.footer-nav a{white-space:nowrap}
+.footer-nav{height:40px;align-items:center}
+.footer-nav a:last-child{white-space:normal;max-width:82px}
+.footer-crisis{height:32px;padding-top:0;padding-bottom:16px;font-size:12px;line-height:16px;color:rgba(23,39,64,.7)}
+.footer-crisis p,.footer-copyright-row p{margin:0}
+.footer-copyright-row{height:56px;padding-top:0;padding-bottom:40px;font-size:12px;line-height:16px;color:rgba(23,39,64,.5)}
+.footer-copyright{color:rgba(23,39,64,.4)}
+@media(max-width:1279px){.footer-top{height:auto;min-height:152px}.footer-meta{width:auto;flex:1 1 auto;flex-wrap:wrap}.footer-nav{width:auto;flex:0 1 auto;gap:16px}.footer-crisis,.footer-copyright-row{height:auto;min-height:32px}.footer-copyright-row{padding-bottom:30px}}
+@media(max-width:800px){.footer-top{padding:34px 24px;align-items:flex-start;flex-direction:column;gap:24px}.footer-meta{width:100%;gap:8px}.footer-nav{width:100%;flex-wrap:wrap;justify-content:flex-start}.footer-crisis,.footer-copyright-row{padding-left:24px;padding-right:24px}.footer-copyright-row{padding-bottom:28px}}
+@media(min-width:1101px){.page-services-adhd .detail-content>.detail-section:first-child>p{width:672px;max-width:672px;margin-left:0}.page-services-adhd .detail-content>.detail-section:first-child .detail-card-grid{width:928px;max-width:none;margin-left:0;transform:none}.page-services-adhd .detail-content>.detail-section:first-child .detail-card{padding-left:21px;padding-right:21px}.page-services-adhd .detail-hero .detail-lede{width:672px;margin-left:auto;margin-right:auto}}
+.page-service:not(.page-services-anxiety-depression) .service-topic-card .service-heading-icon,.page-service:not(.page-services-anxiety-depression) .service-panel-card .service-heading-icon{width:48px;height:48px;flex-basis:48px;border-radius:16px}
+@media(min-width:801px){.page-about .about-cta-leaf{width:32px;height:45px}.page-modalities .modalities-hero-leaf{width:83px;height:107px}.page-modalities .modalities-closing-leaf-top-right{width:83px;height:107px}.page-modalities .modalities-closing-leaf-bottom-left{width:70px;height:84px}.page-resources .resource-section-leaf{width:45px;height:56px}.page-resources .resource-closing-leaf{width:55px;height:64px}}
+body:not([data-page]) .line-icon{width:80px;height:80px;margin-bottom:28px}
+body:not([data-page]) .line-icon svg{width:100%;height:100%;stroke-width:1.5}
+body:not([data-page]) .leaf-people{position:absolute;display:block;width:124px;height:161px;right:26px;left:auto;top:0;color:rgba(57,96,71,.1);opacity:1;transform:rotate(0);pointer-events:none}

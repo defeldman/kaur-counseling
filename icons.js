@@ -18,7 +18,7 @@
     wind: '<path d="M12.8 19.6A2 2 0 1 0 14 16H2"></path><path d="M17.5 8A3.5 3.5 0 1 1 21 11.5H2"></path><path d="M9.8 4.4A2 2 0 1 1 11 8H2"></path>',
     'hand-heart': '<path d="M11 14h2a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-1"></path><path d="M2 14h2l3 3h7l5-5a2 2 0 0 0-3-3l-3 3"></path><path d="M2 14v6h4"></path><path d="M22 14v6h-4"></path><path d="M12 7s-3-2-3-4a2 2 0 0 1 3-1 2 2 0 0 1 3 1c0 2-3 4-3 4Z"></path>',
     sprout: '<path d="M7 20h10"></path><path d="M10 20c5.5-2.5 7-8 7-14-5 0-10 2-10 8 0 2 1 4 3 6Z"></path><path d="M7 14c2 0 4 1 5 3"></path>',
-    'cloud-rain': '<path d="M20 16.2A4.5 4.5 0 0 0 18 7.5h-1.3A6 6 0 1 0 5 14.8"></path><path d="M8 16v2"></path><path d="M8 22v-1"></path><path d="M16 16v2"></path><path d="M16 22v-1"></path>',
+    'cloud-rain': '<path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"></path><path d="M8 16v2"></path><path d="M8 22v-1"></path><path d="M16 16v2"></path><path d="M16 22v-1"></path>',
     baby: '<path d="M9 12h.01"></path><path d="M15 12h.01"></path><path d="M10 16c1.2 1 2.8 1 4 0"></path><path d="M12 2a9 9 0 0 0-9 9v2a9 9 0 0 0 18 0v-2a9 9 0 0 0-9-9Z"></path><path d="M8 5 6 2M16 5l2-3"></path>',
     briefcase: '<rect x="2" y="7" width="20" height="14" rx="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16M2 12h20"></path>',
     house: '<path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z"></path>',

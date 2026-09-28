@@ -19,7 +19,7 @@ const iconMarkup = (name, size=24) => {
   if (name === 'custom-flame') return '<svg class="service-section-glyph" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 50c10 0 16-6 16-14 0-5-3-7-5-9-1 3-3 4-5 4 1-6-2-12-7-15 1 6-2 9-6 11-3 2-5 5-5 9 0 8 6 14 12 14Z"/><path d="M28 42c0 2 1 4 4 4" stroke-dasharray="2 3"/></svg>';
   return window.lucideSvg(name,size,`lucide lucide-${name}`);
 };
-const sectionHeading = (heading, tone) => `<div class="service-heading ${sectionIcons[heading] ? `tone-${tone}` : ''}">${sectionIcons[heading] ? `<span class="service-heading-icon" aria-hidden="true">${iconMarkup(sectionIcons[heading])}</span>` : ''}<h2>${esc(heading)}</h2></div>`;
+const sectionHeading = (heading, tone) => { const icon = sectionIcons[heading] && !(document.body.dataset.page === 'services/anxiety-depression' && heading === 'How we work with it'); return `<div class="service-heading ${icon ? `tone-${tone}` : ''}">${icon ? `<span class="service-heading-icon" aria-hidden="true">${iconMarkup(sectionIcons[heading])}</span>` : ''}<h2>${esc(heading)}</h2></div>`; };
 const serviceFeatureCard = ([heading, items], className = '') => `<section class="detail-section ${className}">${sectionHeading(heading, 0)}${paras(items)}</section>`;
 const serviceList = (items, kind='') => `<ul class="${kind ? `service-list-${kind}` : ''}">${items.map((item,index) => `<li>${kind === 'check' ? '<span class="service-list-check" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></span>' : kind === 'adhd' ? `<span class="service-list-icon" aria-hidden="true">${window.lucideSvg(['sparkles','heart','shield-check','layers'][index],18,'lucide lucide-'+['sparkles','heart','shield-check','layers'][index])}</span>` : ''}${esc(item)}</li>`).join('')}</ul>`;
 const serviceSteps = (items) => `<div class="service-steps">${items.map(([icon, label]) => `<div><span class="service-step-icon" aria-hidden="true">${window.lucideSvg(icon, 18, 'lucide lucide-' + icon)}</span><span class="service-step-label">${esc(label)}</span></div>`).join('')}</div>`;
@@ -57,8 +57,9 @@ function header() {
 
 function footer() {
   return `<footer class="site-footer" id="footer">
-    <div class="footer-top"><div class="footer-name">Sohavani Mand, LMFT</div><div class="footer-license">CA Lic. #150884</div><div class="footer-business">Kaur Counseling, Marriage &amp; Family Therapy, Inc.</div><a class="footer-phone" href="tel:+14159305395">415-930-5395</a><div class="footer-nav"><a href="${link('')}">Home</a><a href="${link('about/')}">About</a><a href="${link('#services')}">Services</a><a href="${link('get-started/')}">Contact</a><a href="${link('privacy/')}">Privacy &amp; Disclaimer</a></div></div>
-    <div class="footer-bottom"><p>If you are in crisis, call or text <span class="crisis-number">988</span> (Suicide &amp; Crisis Lifeline) or <span class="crisis-number">911</span> for emergencies. This site is not monitored 24/7.</p><p class="footer-copyright">© 2026 Sohavani Mand, LMFT. Confidential by design.</p></div>
+    <div class="footer-top"><div class="footer-meta"><div class="footer-name">Sohavani Mand, LMFT</div><div class="footer-license">CA Lic. #150884</div><div class="footer-business">Kaur Counseling, Marriage &amp; Family Therapy, Inc.</div><a class="footer-phone" href="tel:+14159305395">415-930-5395</a></div><nav class="footer-nav"><a href="${link('')}">Home</a><a href="${link('about/')}">About</a><a href="${link('#services')}">Services</a><a href="${link('get-started/')}">Contact</a><a href="${link('privacy/')}">Privacy &amp; Disclaimer</a></nav></div>
+    <div class="footer-crisis"><p>If you are in crisis, call or text <span class="crisis-number">988</span> (Suicide &amp; Crisis Lifeline) or <span class="crisis-number">911</span> for emergencies. This site is not monitored 24/7.</p></div>
+    <div class="footer-copyright-row"><p class="footer-copyright">© 2026 Sohavani Mand, LMFT. Confidential by design.</p></div>
   </footer>`;
 }
 
