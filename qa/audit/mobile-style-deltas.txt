@@ -1,4 +1,4 @@
-### home @mobile  liveH=15566 ghH=15672 (+106)
+### home @mobile  liveH=15566 ghH=15567 (+1)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (11) --
   y=1972 [P] "As you live deeper in the heart, the mirror gets clearer and cleaner."
@@ -24,11 +24,9 @@
   y=6455 [SPAN] Healing takes its own time, be gentle with yourself
   y=6455 [SPAN] Healing takes its own time, be gentle with yourself
   y=6455 [SPAN] Healing takes its own time, be gentle with yourself
-  y=15600 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=15495 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (161) --
-  y=24 "Kaur Counseling"
-      ls -0.5px->normal
+-- STYLE/GEOMETRY DELTAS (160) --
   y=658 "Scroll to explore"
       ls 2.88px->3.072px
   y=830 "A calm, private room in the heart of the Mission Distri"
@@ -95,6 +93,22 @@
       lh 28px->27px
   y=6197 "Including transitions, re-entry, and questions of purpo"
       lh 22.75px->21px
+  y=6858 "You don't have to carry this alone. We'll walk it toget"
+      lh 24.7px->26px
+  y=6923 "Together we identify your goals and shape a treatment p"
+      lh 24.7px->26px
+  y=7013 "Feel comfortable to be open and honest in a safe, non-j"
+      lh 24.7px->26px
+  y=7103 "Develop skills for improved inter-relations."
+      lh 24.7px->26px
+  y=7445 "Discover inner strength to achieve your goals."
+      lh 24.7px->26px
+  y=7510 "Understand how your individual experiences shape your w"
+      lh 24.7px->26px
+  y=7600 "Discover often unconscious meanings and motivations."
+      lh 24.7px->26px
+  y=7665 "Release patterns that no longer serve you, and move tow"
+      lh 24.7px->26px
   y=8126 "Who this room"
       size 30px->18.72px | lh 37.5px->20.2176px
   y=8126 "is for."
@@ -135,14 +149,10 @@
       size 14px->13px | lh 20px->19.5px
   y=14757 "3150 18th St, Suite 404, San Francisco, CA 94110"
       COLOR rgba(23, 39, 64, 0.8)->rgb(88, 25, 37)
-  y=15254 "Kaur Counseling, Marriage & Family Therapy, Inc."
-      ls 2.4px->1.92px
-  y=15462 "If you are in crisis, call or text"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=15462 "(Suicide & Crisis Lifeline) or"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=15462 "for emergencies. This site is not monitored 24/7."
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=15462 "988"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+  y=15478 "911"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
 
 ### about @mobile  liveH=5899 ghH=5897 (-2)
 
@@ -174,12 +184,10 @@
       size 24px->30px | lh 32px->36px
   y=5587 "Kaur Counseling, Marriage & Family Therapy, Inc."
       ls 2.4px->1.92px
-  y=5795 "If you are in crisis, call or text"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=5795 "(Suicide & Crisis Lifeline) or"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=5795 "for emergencies. This site is not monitored 24/7."
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=5795 "988"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+  y=5811 "911"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
 
 ### cost @mobile  liveH=2868 ghH=2834 (-34)
 
@@ -205,14 +213,12 @@
       size 16px->15px | lh 26px->25.8px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.6)
   y=2556 "Kaur Counseling, Marriage & Family Therapy, Inc."
       ls 2.4px->1.92px
-  y=2764 "If you are in crisis, call or text"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=2764 "(Suicide & Crisis Lifeline) or"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=2764 "for emergencies. This site is not monitored 24/7."
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=2764 "988"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+  y=2780 "911"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
 
-### resources @mobile  liveH=4631 ghH=4575 (-56)
+### resources @mobile  liveH=4631 ghH=4631 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (5) --
   y=216 [H1] A reading list for
@@ -224,7 +230,7 @@
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (3) --
   y=218 [H1] A reading list for the
   y=257 [EM] curious and healing.
-  y=4502 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=4558 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (92) --
   y=24 "Kaur Counseling"
@@ -247,12 +253,10 @@
       font Fraunces->Inter | size 24px->16px | style italic->normal | lh 33px->26px | COLOR rgb(57, 96, 71)->rgba(23, 39, 64, 0.7)
   y=4319 "Kaur Counseling, Marriage & Family Therapy, Inc."
       ls 2.4px->1.92px
-  y=4527 "If you are in crisis, call or text"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=4527 "(Suicide & Crisis Lifeline) or"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=4527 "for emergencies. This site is not monitored 24/7."
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=4527 "988"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+  y=4543 "911"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
 
 ### modalities @mobile  liveH=5529 ghH=5503 (-26)
 
@@ -281,12 +285,10 @@
       lh 33px->28.8px
   y=5217 "Kaur Counseling, Marriage & Family Therapy, Inc."
       ls 2.4px->1.92px
-  y=5425 "If you are in crisis, call or text"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=5425 "(Suicide & Crisis Lifeline) or"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=5425 "for emergencies. This site is not monitored 24/7."
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=5425 "988"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+  y=5441 "911"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
 
 ### get-started @mobile  liveH=2137 ghH=2166 (+29)
 
@@ -317,14 +319,12 @@
       weight 600->700 | lh 22.75px->23.1px
   y=1825 "Kaur Counseling, Marriage & Family Therapy, Inc."
       ls 2.4px->1.92px
-  y=2033 "If you are in crisis, call or text"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=2033 "(Suicide & Crisis Lifeline) or"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=2033 "for emergencies. This site is not monitored 24/7."
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=2033 "988"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+  y=2049 "911"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
 
-### adhd @mobile  liveH=5846 ghH=5966 (+120)
+### adhd @mobile  liveH=5846 ghH=5846 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
   y=5790 [DIV] ©
@@ -332,55 +332,37 @@
   y=5790 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=5893 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=5773 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (58) --
+-- STYLE/GEOMETRY DELTAS (60) --
   y=24 "Kaur Counseling"
       ls -0.5px->normal
   y=56 "Marriage and Family Therapy, Inc."
       size 11.2px->9px | lh 11.2px->13.5px | ls 2.24px->2.16px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
   y=759 "ADD in women looks different"
       lh 33px->32px
-  y=1191 "Rejection sensitivity, people-pleasing, losing the thre"
-      size 14px->16px | lh 22.75px->26px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
-  y=1327 "Capable and praised, then quietly drowning in the detai"
-      size 14px->16px | lh 22.75px->26px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
-  y=1464 "Bright enough to coast, until you couldn't, and the sha"
-      size 14px->16px | lh 22.75px->26px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
-  y=1600 "A running inner monologue of 'I should have been able t"
-      size 14px->16px | lh 22.75px->26px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
-  y=1736 "Forgetting to eat, then overeating; restless sleep; ten"
-      size 14px->16px | lh 22.75px->26px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
-  y=1872 "Distracted, disconnected, or running on high alert inst"
-      size 14px->16px | lh 22.75px->26px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
+  y=845 "The picture most people carry is a boy who can't sit st"
+      size 16px->14px | lh 26px->22.75px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.65)
   y=2028 "When the diagnosis arrives later"
       lh 33px->30px
+  y=2114 "For years you may have moved through the world believin"
+      size 16px->14px | lh 26px->22.75px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.65)
   y=2470 "How it shows up"
       lh 33px->32px
-  y=2597 "Ping-ponging between tasks, a mind juggling everything "
-      size 14px->16px | lh 22.75px->26px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
-  y=2733 "Swinging between deep fixation and flood."
-      size 14px->16px | lh 22.75px->26px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
-  y=2846 "Even the things and people that matter slip away."
-      size 14px->16px | lh 22.75px->26px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
-  y=2983 "Hours pass like minutes, or crawl like days."
-      size 14px->16px | lh 22.75px->26px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
-  y=3096 "Performing a version of yourself, all day."
-      size 14px->16px | lh 22.75px->26px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
-  y=3210 "Knowing exactly what to do, wanting to do it, and feeli"
-      size 14px->16px | lh 22.75px->26px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
   y=3809 "The grief, and the broken trust in yourself"
       lh 33px->30px
+  y=3928 "A late diagnosis often arrives with grief: for the year"
+      size 16px->14px | lh 26px->22.75px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.65)
+  y=4260 "This fractured trust often creates a cycle of self-frus"
+      size 16px->14px | lh 26px->22.75px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.65)
   y=4668 "How we work with it"
       lh 33px->32px
   y=5534 "Kaur Counseling, Marriage & Family Therapy, Inc."
       ls 2.4px->1.92px
-  y=5742 "If you are in crisis, call or text"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=5742 "(Suicide & Crisis Lifeline) or"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=5742 "for emergencies. This site is not monitored 24/7."
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=5742 "988"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+  y=5758 "911"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
 
 ### multiculturalism @mobile  liveH=3451 ghH=3479 (+28)
 
@@ -409,12 +391,10 @@
       lh 33px->32px
   y=3139 "Kaur Counseling, Marriage & Family Therapy, Inc."
       ls 2.4px->1.92px
-  y=3347 "If you are in crisis, call or text"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=3347 "(Suicide & Crisis Lifeline) or"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=3347 "for emergencies. This site is not monitored 24/7."
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=3347 "988"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+  y=3363 "911"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
 
 ### burnout @mobile  liveH=3095 ghH=3111 (+16)
 
@@ -426,7 +406,7 @@
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
   y=3038 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (25) --
+-- STYLE/GEOMETRY DELTAS (27) --
   y=24 "Kaur Counseling"
       ls -0.5px->normal
   y=56 "Marriage and Family Therapy, Inc."
@@ -439,12 +419,10 @@
       lh 33px->32px
   y=2783 "Kaur Counseling, Marriage & Family Therapy, Inc."
       ls 2.4px->1.92px
-  y=2991 "If you are in crisis, call or text"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=2991 "(Suicide & Crisis Lifeline) or"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=2991 "for emergencies. This site is not monitored 24/7."
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=2991 "988"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+  y=3007 "911"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
 
 ### anxiety @mobile  liveH=3170 ghH=3172 (+2)
 
@@ -470,14 +448,12 @@
       lh 33px->32px
   y=2858 "Kaur Counseling, Marriage & Family Therapy, Inc."
       ls 2.4px->1.92px
-  y=3066 "If you are in crisis, call or text"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=3066 "(Suicide & Crisis Lifeline) or"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=3066 "for emergencies. This site is not monitored 24/7."
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=3066 "988"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+  y=3082 "911"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
 
-### transitions @mobile  liveH=3527 ghH=3399 (-128)
+### transitions @mobile  liveH=3527 ghH=3527 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (5) --
   y=530 [SPAN] difficult.
@@ -487,31 +463,21 @@
   y=3471 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=3326 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=3454 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (41) --
+-- STYLE/GEOMETRY DELTAS (39) --
   y=24 "Kaur Counseling"
       ls -0.5px->normal
   y=56 "Marriage and Family Therapy, Inc."
       size 11.2px->9px | lh 11.2px->13.5px | ls 2.24px->2.16px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
-  y=2510 "Process your emotions"
-      COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
-  y=2551 "Find clarity and direction"
-      COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
-  y=2592 "Build confidence in this next chapter"
-      COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
-  y=2657 "Feel more grounded and supported"
-      COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
   y=3215 "Kaur Counseling, Marriage & Family Therapy, Inc."
       ls 2.4px->1.92px
-  y=3423 "If you are in crisis, call or text"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=3423 "(Suicide & Crisis Lifeline) or"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=3423 "for emergencies. This site is not monitored 24/7."
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=3423 "988"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+  y=3439 "911"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
 
-### teens @mobile  liveH=4001 ghH=3898 (-103)
+### teens @mobile  liveH=4001 ghH=4001 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
   y=3945 [DIV] ©
@@ -519,29 +485,19 @@
   y=3945 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=3825 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=3928 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (40) --
   y=24 "Kaur Counseling"
       ls -0.5px->normal
   y=56 "Marriage and Family Therapy, Inc."
       size 11.2px->9px | lh 11.2px->13.5px | ls 2.24px->2.16px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
-  y=2858 "A space that's just yours"
-      COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
-  y=2899 "Tools for the pressure"
-      COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
-  y=2939 "Words for what you feel"
-      COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
-  y=2980 "A safe adult outside your family"
-      COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
   y=3689 "Kaur Counseling, Marriage & Family Therapy, Inc."
       ls 2.4px->1.92px
-  y=3897 "If you are in crisis, call or text"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=3897 "(Suicide & Crisis Lifeline) or"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=3897 "for emergencies. This site is not monitored 24/7."
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=3897 "988"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+  y=3913 "911"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
 
 ### privacy @mobile  liveH=3064 ghH=3038 (-26)
 
@@ -563,10 +519,8 @@
       size 16px->14px | lh 26px->23.1px
   y=2752 "Kaur Counseling, Marriage & Family Therapy, Inc."
       ls 2.4px->1.92px
-  y=2960 "If you are in crisis, call or text"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=2960 "(Suicide & Crisis Lifeline) or"
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=2960 "for emergencies. This site is not monitored 24/7."
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=2960 "988"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+  y=2976 "911"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
 

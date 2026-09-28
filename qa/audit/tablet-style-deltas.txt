@@ -1,4 +1,4 @@
-### home @tablet  liveH=11621 ghH=11546 (-75)
+### home @tablet  liveH=11621 ghH=11621 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (11) --
   y=2402 [P] "As you live deeper in the heart, the mirror gets clearer and cleaner."
@@ -24,7 +24,7 @@
   y=4927 [SPAN] Healing takes its own time, be gentle with yourself
   y=4927 [SPAN] Healing takes its own time, be gentle with yourself
   y=4927 [SPAN] Healing takes its own time, be gentle with yourself
-  y=11500 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=11525 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (173) --
   y=24 "Kaur Counseling"
@@ -100,7 +100,7 @@
   y=11533 "for emergencies. This site is not monitored 24/7."
       COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### about @tablet  liveH=4091 ghH=4072 (-19)
+### about @tablet  liveH=4091 ghH=4091 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (4) --
   y=276 [H1] Therapy as a practice in honesty and self love.
@@ -111,9 +111,9 @@
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (3) --
   y=281 [H1] Therapy as a practice in honesty and
   y=280 [EM] self love.
-  y=4026 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=3995 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (66) --
+-- STYLE/GEOMETRY DELTAS (65) --
   y=24 "Kaur Counseling"
       ls -0.5px->normal
   y=84 "Marriage and Family Therapy, Inc."
@@ -135,7 +135,7 @@
   y=4003 "for emergencies. This site is not monitored 24/7."
       COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### cost @tablet  liveH=2488 ghH=2543 (+55)
+### cost @tablet  liveH=2488 ghH=2488 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
   y=2432 [DIV] ©
@@ -143,10 +143,10 @@
   y=2432 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (2) --
-  y=1529 [P] Many clients receive 50–80% of the session cost back. I'm happy to help you understand you
-  y=2497 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=1559 [P] Many clients receive 50–80% of the session cost back. I'm happy to help you understand you
+  y=2392 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (40) --
+-- STYLE/GEOMETRY DELTAS (39) --
   y=24 "Kaur Counseling"
       ls -0.5px->normal
   y=84 "Marriage and Family Therapy, Inc."
@@ -166,7 +166,7 @@
   y=2400 "for emergencies. This site is not monitored 24/7."
       COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### resources @tablet  liveH=3406 ghH=3315 (-91)
+### resources @tablet  liveH=3406 ghH=3406 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (5) --
   y=216 [H1] A reading list for
@@ -178,9 +178,9 @@
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (3) --
   y=223 [H1] A reading list for the
   y=220 [EM] curious and healing.
-  y=3269 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=3310 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (100) --
+-- STYLE/GEOMETRY DELTAS (99) --
   y=24 "Kaur Counseling"
       ls -0.5px->normal
   y=84 "Marriage and Family Therapy, Inc."
@@ -202,7 +202,7 @@
   y=3318 "for emergencies. This site is not monitored 24/7."
       COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### modalities @tablet  liveH=3777 ghH=3624 (-153)
+### modalities @tablet  liveH=3777 ghH=3777 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
   y=3721 [DIV] ©
@@ -210,29 +210,13 @@
   y=3721 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=3578 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=3681 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (63) --
   y=24 "Kaur Counseling"
       ls -0.5px->normal
   y=84 "Marriage and Family Therapy, Inc."
       size 11.2px->10px | lh 11.2px->15px | ls 2.24px->2.8px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
-  y=185 "The lenses"
-      size 36px->60px | lh 45px->60px
-  y=230 "I work from."
-      size 36px->60px | lh 45px->60px
-  y=543 "Each one a different way of listening."
-      size 24px->30px | lh 32px->36px
-  y=736 "Internal Family Systems"
-      lh 33px->28.8px
-  y=736 "Dialectical Behavior Therapy"
-      lh 33px->28.8px
-  y=1591 "Cognitive Behavioral Therapy"
-      lh 33px->28.8px
-  y=1591 "Art"
-      lh 33px->28.8px
-  y=2342 "Attachment"
-      lh 33px->28.8px
   y=3159 "Curious which lens"
       lh 37.5px->36px
   y=3159 "fits your story?"
@@ -244,34 +228,35 @@
   y=3689 "for emergencies. This site is not monitored 24/7."
       COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### get-started @tablet  liveH=2056 ghH=1692 (-364)
+### get-started @tablet  liveH=2056 ghH=2056 (0)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (7) --
-  y=1044 [SPAN] Virtual sessions are always available,
-  y=1042 [P] but in-person sessions start
-  y=1044 [SPAN] October 1st
-  y=1042 [P] .
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
   y=2000 [DIV] ©
   y=2000 [DIV] 2026
   y=2000 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
--- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (2) --
-  y=1120 [P] Virtual sessions are always available, but in-person sessions start October 1st.
-  y=1646 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
+  y=1960 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (37) --
   y=24 "Kaur Counseling"
       ls -0.5px->normal
   y=84 "Marriage and Family Therapy, Inc."
       size 11.2px->10px | lh 11.2px->15px | ls 2.24px->2.8px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
-  y=176 "Are we the"
-      size 36px->60px | lh 45px->60px
-  y=176 "right fit?"
-      size 36px->60px | lh 45px->60px
   y=877 "A room in the"
       size 24px->30px | lh 30px->36px
   y=877 "Mission."
       size 24px->30px | lh 30px->36px
+  y=927 "My office is a calm, private space in the heart of the "
+      size 16px->15px | lh 26px->24.75px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.6)
+  y=1042 "but in-person sessions start"
+      lh 22.75px->23.1px | COLOR rgba(23, 39, 64, 0.8)->rgba(23, 39, 64, 0.6)
+  y=1042 "."
+      lh 22.75px->23.1px | COLOR rgba(23, 39, 64, 0.8)->rgba(23, 39, 64, 0.6)
+  y=1044 "Virtual sessions are always available,"
+      weight 600->700 | lh 22.75px->23.1px
+  y=1044 "October 1st"
+      weight 600->700 | lh 22.75px->23.1px
   y=1968 "If you are in crisis, call or text"
       COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=1968 "(Suicide & Crisis Lifeline) or"
@@ -279,7 +264,7 @@
   y=1968 "for emergencies. This site is not monitored 24/7."
       COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### adhd @tablet  liveH=3929 ghH=4016 (+87)
+### adhd @tablet  liveH=3929 ghH=3929 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
   y=3873 [DIV] ©
@@ -287,9 +272,9 @@
   y=3873 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=3970 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=3833 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (70) --
+-- STYLE/GEOMETRY DELTAS (66) --
   y=24 "Kaur Counseling"
       ls -0.5px->normal
   y=84 "Marriage and Family Therapy, Inc."
@@ -297,19 +282,9 @@
   y=202 "Specialty"
       COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
   y=244 "ADHD & Late-Stage"
-      size 36px->60px | lh 37.8px->60px | ls normal->-1.8px
+      ls normal->-1.08px
   y=278 "Diagnosis."
-      size 36px->60px | lh 37.8px->60px | ls normal->-1.8px
-  y=646 "ADD in women looks different"
-      size 24px->30px | lh 33px->36px
-  y=1358 "When the diagnosis arrives later"
-      size 24px->30px | lh 33px->36px
-  y=1619 "How it shows up"
-      size 24px->30px | lh 33px->36px
-  y=2507 "The grief, and the broken trust in yourself"
-      size 24px->30px | lh 33px->36px
-  y=2944 "How we work with it"
-      size 24px->30px | lh 33px->36px
+      ls normal->-1.08px
   y=3841 "If you are in crisis, call or text"
       COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=3841 "(Suicide & Crisis Lifeline) or"
@@ -317,7 +292,7 @@
   y=3841 "for emergencies. This site is not monitored 24/7."
       COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### multiculturalism @tablet  liveH=2441 ghH=2620 (+179)
+### multiculturalism @tablet  liveH=2441 ghH=2441 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
   y=2385 [DIV] ©
@@ -325,31 +300,13 @@
   y=2385 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=2574 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2345 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (42) --
+-- STYLE/GEOMETRY DELTAS (28) --
   y=24 "Kaur Counseling"
       ls -0.5px->normal
   y=84 "Marriage and Family Therapy, Inc."
       size 11.2px->10px | lh 11.2px->15px | ls 2.24px->2.8px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
-  y=202 "Specialty"
-      COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
-  y=244 "Multicultural &"
-      size 36px->60px | lh 37.8px->60px | ls normal->-1.8px
-  y=244 "Therapy"
-      size 36px->60px | lh 37.8px->60px | ls normal->-1.8px
-  y=278 "Cross-Cultural"
-      size 36px->60px | lh 37.8px->60px | ls normal->-1.8px
-  y=659 "Multicultural Therapy"
-      size 24px->30px | lh 33px->36px
-  y=895 "Acculturation & Assimilation Stress"
-      size 24px->30px | lh 33px->36px
-  y=1131 "First-Generation & Second-Generation Issues"
-      size 24px->30px | lh 33px->36px
-  y=1367 "Third Culture Kid (TCK) Therapy"
-      size 24px->30px | lh 33px->36px
-  y=1603 "Intergenerational Trauma Therapy"
-      size 24px->30px | lh 33px->36px
   y=2353 "If you are in crisis, call or text"
       COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2353 "(Suicide & Crisis Lifeline) or"
@@ -357,7 +314,7 @@
   y=2353 "for emergencies. This site is not monitored 24/7."
       COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### burnout @tablet  liveH=2139 ghH=2182 (+43)
+### burnout @tablet  liveH=2139 ghH=2139 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
   y=2083 [DIV] ©
@@ -365,9 +322,9 @@
   y=2083 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=2136 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2043 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (36) --
+-- STYLE/GEOMETRY DELTAS (29) --
   y=24 "Kaur Counseling"
       ls -0.5px->normal
   y=84 "Marriage and Family Therapy, Inc."
@@ -375,13 +332,7 @@
   y=202 "Specialty"
       COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
   y=240 "Burnout."
-      size 36px->60px | lh 37.8px->60px | ls normal->-1.8px
-  y=622 "The slow creep"
-      size 24px->30px | lh 33px->36px
-  y=962 "Why it's so hard to ask for help"
-      size 24px->30px | lh 33px->36px
-  y=1276 "Tending and rebuilding"
-      size 24px->30px | lh 33px->36px
+      ls normal->-1.08px
   y=2051 "If you are in crisis, call or text"
       COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2051 "(Suicide & Crisis Lifeline) or"
@@ -389,7 +340,7 @@
   y=2051 "for emergencies. This site is not monitored 24/7."
       COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### anxiety @tablet  liveH=2146 ghH=2129 (-17)
+### anxiety @tablet  liveH=2146 ghH=2146 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (4) --
   y=928 [SPAN] You don't have to figure it out alone.
@@ -398,9 +349,9 @@
   y=2090 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=2083 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2050 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (45) --
+-- STYLE/GEOMETRY DELTAS (42) --
   y=24 "Kaur Counseling"
       ls -0.5px->normal
   y=84 "Marriage and Family Therapy, Inc."
@@ -408,15 +359,13 @@
   y=202 "Also in my care"
       COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
   y=240 "&"
-      size 36px->60px | lh 37.8px->60px | ls normal->-1.8px
+      ls normal->-1.08px
   y=240 "Depression."
-      size 36px->60px | lh 37.8px->60px | ls normal->-1.8px
+      ls normal->-1.08px
   y=244 "Anxiety"
-      size 36px->60px | lh 37.8px->60px | ls normal->-1.8px
-  y=814 "When they show up together"
-      size 24px->30px | lh 33px->36px
+      ls normal->-1.08px
   y=1064 "How we work with it"
-      size 24px->30px | lh 32px->36px
+      lh 32px->33px
   y=2058 "If you are in crisis, call or text"
       COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2058 "(Suicide & Crisis Lifeline) or"
@@ -424,7 +373,7 @@
   y=2058 "for emergencies. This site is not monitored 24/7."
       COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### transitions @tablet  liveH=2348 ghH=2296 (-52)
+### transitions @tablet  liveH=2348 ghH=2348 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (5) --
   y=433 [SPAN] difficult.
@@ -434,9 +383,9 @@
   y=2292 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=2250 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2252 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (51) --
+-- STYLE/GEOMETRY DELTAS (50) --
   y=24 "Kaur Counseling"
       ls -0.5px->normal
   y=84 "Marriage and Family Therapy, Inc."
@@ -444,13 +393,13 @@
   y=202 "Specialty"
       COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
   y=240 "Transition?"
-      size 36px->60px | lh 37.8px->60px | ls normal->-1.8px
+      ls normal->-1.08px
   y=244 "Going Through a"
-      size 36px->60px | lh 37.8px->60px | ls normal->-1.8px
+      ls normal->-1.08px
   y=568 "You might be navigating…"
-      size 30px->36px | lh 37.5px->40px
+      size 30px->24px | lh 37.5px->33px
   y=1493 "Therapy can help you:"
-      size 24px->30px | lh 30px->36px
+      lh 30px->33px
   y=1551 "Process your emotions"
       COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
   y=1551 "Find clarity and direction"
@@ -466,7 +415,7 @@
   y=2260 "for emergencies. This site is not monitored 24/7."
       COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### teens @tablet  liveH=2820 ghH=2748 (-72)
+### teens @tablet  liveH=2820 ghH=2820 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
   y=2764 [DIV] ©
@@ -474,9 +423,9 @@
   y=2764 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=2702 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2724 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (50) --
+-- STYLE/GEOMETRY DELTAS (47) --
   y=24 "Kaur Counseling"
       ls -0.5px->normal
   y=84 "Marriage and Family Therapy, Inc."
@@ -484,13 +433,13 @@
   y=202 "Specialty"
       COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
   y=240 "Teens."
-      size 36px->60px | lh 37.8px->60px | ls normal->-1.8px
+      ls normal->-1.08px
   y=244 "Therapy for"
-      size 36px->60px | lh 37.8px->60px | ls normal->-1.8px
+      ls normal->-1.08px
   y=783 "What you might be carrying"
-      size 30px->36px | lh 37.5px->40px
+      size 30px->24px | lh 37.5px->33px
   y=1912 "What you get here:"
-      size 24px->30px | lh 30px->36px
+      lh 30px->33px
   y=1970 "A space that's just yours"
       COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
   y=1970 "Tools for the pressure"
@@ -506,7 +455,7 @@
   y=2732 "for emergencies. This site is not monitored 24/7."
       COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### privacy @tablet  liveH=2137 ghH=2256 (+119)
+### privacy @tablet  liveH=2137 ghH=2137 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (4) --
   y=954 [P] California License #150884
@@ -515,15 +464,13 @@
   y=2081 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=2210 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2041 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (45) --
+-- STYLE/GEOMETRY DELTAS (43) --
   y=24 "Kaur Counseling"
       ls -0.5px->normal
   y=84 "Marriage and Family Therapy, Inc."
       size 11.2px->10px | lh 11.2px->15px | ls 2.24px->2.8px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
-  y=156 "Privacy, Disclaimer & Crisis Resources"
-      size 36px->48px | lh 45px->48px
   y=2049 "If you are in crisis, call or text"
       COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2049 "(Suicide & Crisis Lifeline) or"

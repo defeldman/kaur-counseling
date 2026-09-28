@@ -1,4 +1,4 @@
-### home @desktop  liveH=9887 ghH=9979 (+92)
+### home @desktop  liveH=9887 ghH=9887 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (11) --
   y=2053 [P] "As you live deeper in the heart, the mirror gets clearer and cleaner."
@@ -16,111 +16,137 @@
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (11) --
   y=2050 [P] "As you live deeper in the heart,
   y=2050 [P] the mirror gets clearer and cleaner."
-  y=2843 [H3] AD(H)D & Late-Stage
-  y=2843 [H3] Diagnosis
-  y=2843 [H3] Young Women Coming
-  y=2843 [H3] of Age
-  y=3983 [SPAN] Healing takes its own time, be gentle with yourself
-  y=3983 [SPAN] Healing takes its own time, be gentle with yourself
-  y=3983 [SPAN] Healing takes its own time, be gentle with yourself
-  y=3983 [SPAN] Healing takes its own time, be gentle with yourself
-  y=9895 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2839 [H3] AD(H)D & Late-Stage
+  y=2839 [H3] Diagnosis
+  y=2839 [H3] Young Women Coming
+  y=2839 [H3] of Age
+  y=3979 [SPAN] Healing takes its own time, be gentle with yourself
+  y=3979 [SPAN] Healing takes its own time, be gentle with yourself
+  y=3979 [SPAN] Healing takes its own time, be gentle with yourself
+  y=3979 [SPAN] Healing takes its own time, be gentle with yourself
+  y=9831 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (77) --
+-- STYLE/GEOMETRY DELTAS (67) --
+  y=9799 "If you are in crisis, call or text"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=9799 "(Suicide & Crisis Lifeline) or"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=9799 "for emergencies. This site is not monitored 24/7."
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### about @desktop  liveH=3752 ghH=3931 (+179)
+### about @desktop  liveH=3752 ghH=3752 (0)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (5) --
-  y=112 [A] Back to Home
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (4) --
   y=276 [H1] Therapy as a practice in honesty and self love.
   y=3696 [DIV] ©
   y=3696 [DIV] 2026
   y=3696 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (3) --
-  y=257 [H1] Therapy as a practice in honesty and
-  y=256 [EM] self love.
-  y=3847 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=286 [H1] Therapy as a practice in honesty and
+  y=285 [EM] self love.
+  y=3696 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (56) --
+-- STYLE/GEOMETRY DELTAS (41) --
+  y=3664 "If you are in crisis, call or text"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=3664 "(Suicide & Crisis Lifeline) or"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=3664 "for emergencies. This site is not monitored 24/7."
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### cost @desktop  liveH=2447 ghH=2603 (+156)
+### cost @desktop  liveH=2447 ghH=2447 (0)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (7) --
-  y=128 [A] Back to Home
-  y=1092 [SPAN] 50-minute individual session — $250
-  y=1128 [SPAN] 80-minute extended session — $400
-  y=1164 [SPAN] Couples and family sessions — $300 (50 minutes)
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
   y=2391 [DIV] ©
   y=2391 [DIV] 2026
   y=2391 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
--- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (7) --
-  y=1004 [SPAN] 50-minute individual session —
-  y=1004 [STRONG] $250
-  y=1063 [SPAN] 80-minute extended session —
-  y=1063 [STRONG] $400
-  y=1122 [SPAN] Couples and family sessions —
-  y=1122 [STRONG] $300 (50 minutes)
-  y=2519 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (2) --
+  y=1598 [P] Many clients receive 50–80% of the session cost back. I'm happy to help you understand you
+  y=2391 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (27) --
+-- STYLE/GEOMETRY DELTAS (20) --
+  y=2359 "If you are in crisis, call or text"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=2359 "(Suicide & Crisis Lifeline) or"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=2359 "for emergencies. This site is not monitored 24/7."
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### resources @desktop  liveH=3360 ghH=3505 (+145)
+### resources @desktop  liveH=3360 ghH=3360 (0)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (8) --
-  y=128 [A] Back to About
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (5) --
   y=216 [H1] A reading list for
   y=214 [SPAN] the curious and healing.
-  y=1508 [P] Daniel Siegel & Tina Payne Bryson
-  y=1668 [P] John Gottman
   y=3304 [DIV] ©
   y=3304 [DIV] 2026
   y=3304 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (3) --
-  y=199 [H1] A reading list for the
-  y=196 [EM] curious and healing.
-  y=3421 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=213 [H1] A reading list for the
+  y=210 [EM] curious and healing.
+  y=3304 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (89) --
+-- STYLE/GEOMETRY DELTAS (63) --
   y=2869 "Want more? I'm always adding to this list. Bring what y"
       font Fraunces->Inter | size 24px->16px | style italic->normal | lh 33px->26px | COLOR rgb(57, 96, 71)->rgba(23, 39, 64, 0.7)
+  y=3272 "If you are in crisis, call or text"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=3272 "(Suicide & Crisis Lifeline) or"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=3272 "for emergencies. This site is not monitored 24/7."
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### modalities @desktop  liveH=3433 ghH=3099 (-334)
+### modalities @desktop  liveH=3433 ghH=3433 (0)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (6) --
-  y=2796 [H2] Curious which lens
-  y=2794 [SPAN] fits your story?
-  y=2952 [A] Get Started
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
   y=3377 [DIV] ©
   y=3377 [DIV] 2026
   y=3377 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
--- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (2) --
-  y=2622 [H2] Curious which lens fits your story?
-  y=3015 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
+  y=3377 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (48) --
+-- STYLE/GEOMETRY DELTAS (35) --
+  y=3345 "If you are in crisis, call or text"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=3345 "(Suicide & Crisis Lifeline) or"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=3345 "for emergencies. This site is not monitored 24/7."
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### get-started @desktop  liveH=1618 ghH=1592 (-26)
+### get-started @desktop  liveH=1618 ghH=1618 (0)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (7) --
-  y=1091 [SPAN] Virtual sessions are always available,
-  y=1089 [P] but in-person sessions start
-  y=1114 [SPAN] October 1st
-  y=1089 [P] .
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
   y=1562 [DIV] ©
   y=1562 [DIV] 2026
   y=1562 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
--- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (2) --
-  y=1058 [P] Virtual sessions are always available, but in-person sessions start October 1st.
-  y=1508 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
+  y=1562 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (29) --
+-- STYLE/GEOMETRY DELTAS (18) --
+  y=268 "I'm glad you're here. Finding the right therapist is su"
+      ls normal->0.55px
+  y=922 "My office is a calm, private space in the heart of the "
+      size 16px->15px
+  y=1089 "but in-person sessions start"
+      COLOR rgba(23, 39, 64, 0.8)->rgb(88, 25, 37) | bg null->rgba(88, 25, 37, 0.05)
+  y=1089 "."
+      COLOR rgba(23, 39, 64, 0.8)->rgb(88, 25, 37) | bg null->rgba(88, 25, 37, 0.05)
+  y=1184 "3150 18th St, Suite 404, San Francisco, CA 94110"
+      COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
+  y=1245 "415-930-5395"
+      COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
+  y=1530 "If you are in crisis, call or text"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=1530 "(Suicide & Crisis Lifeline) or"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=1530 "for emergencies. This site is not monitored 24/7."
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### adhd @desktop  liveH=3748 ghH=3711 (-37)
+### adhd @desktop  liveH=3748 ghH=3748 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
   y=3692 [DIV] ©
@@ -128,27 +154,17 @@
   y=3692 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=3627 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=3692 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (60) --
-  y=2098 "50%+"
-      font Fraunces->Inter | size 60px->16px | weight 400->700 | lh 60px->26px | COLOR rgb(241, 234, 223)->rgba(23, 39, 64, 0.75)
-  y=2174 "of adults with ADHD also live with anxiety or depressio"
-      size 18px->16px | lh 29.25px->26px | COLOR rgba(241, 234, 223, 0.85)->rgba(23, 39, 64, 0.75)
-  y=2925 "Honor your gifts: creativity, intensity, range."
-      lh 26px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
-  y=3019 "Tend the costs of pretending."
-      lh 26px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
-  y=3113 "Grieve what was, and slowly rebuild trust in yourself."
-      lh 26px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
-  y=3207 "Build rhythms and boundaries shaped for how your brain "
-      lh 26px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
-  y=3288 "You are not a problem to be fixed. You are a person lea"
-      size 20px->30px | lh 27.5px->36px | COLOR rgb(57, 96, 71)->rgb(241, 234, 223)
-  y=3347 "Get Started"
-      COLOR rgb(241, 234, 223)->rgb(88, 25, 37) | bg rgb(88, 25, 37)->rgb(241, 234, 223)
+-- STYLE/GEOMETRY DELTAS (42) --
+  y=3660 "If you are in crisis, call or text"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=3660 "(Suicide & Crisis Lifeline) or"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=3660 "for emergencies. This site is not monitored 24/7."
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### multiculturalism @desktop  liveH=2556 ghH=2501 (-55)
+### multiculturalism @desktop  liveH=2556 ghH=2556 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
   y=2500 [DIV] ©
@@ -156,11 +172,17 @@
   y=2500 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=2417 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2500 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (30) --
+-- STYLE/GEOMETRY DELTAS (10) --
+  y=2468 "If you are in crisis, call or text"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=2468 "(Suicide & Crisis Lifeline) or"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=2468 "for emergencies. This site is not monitored 24/7."
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### burnout @desktop  liveH=2194 ghH=2159 (-35)
+### burnout @desktop  liveH=2194 ghH=2194 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
   y=2138 [DIV] ©
@@ -168,11 +190,17 @@
   y=2138 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=2075 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2138 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (27) --
+-- STYLE/GEOMETRY DELTAS (10) --
+  y=2106 "If you are in crisis, call or text"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=2106 "(Suicide & Crisis Lifeline) or"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=2106 "for emergencies. This site is not monitored 24/7."
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### anxiety @desktop  liveH=2165 ghH=2130 (-35)
+### anxiety @desktop  liveH=2165 ghH=2165 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (4) --
   y=956 [SPAN] You don't have to figure it out alone.
@@ -181,11 +209,17 @@
   y=2109 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=2046 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2109 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (31) --
+-- STYLE/GEOMETRY DELTAS (20) --
+  y=2077 "If you are in crisis, call or text"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=2077 "(Suicide & Crisis Lifeline) or"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=2077 "for emergencies. This site is not monitored 24/7."
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### transitions @desktop  liveH=2146 ghH=2200 (+54)
+### transitions @desktop  liveH=2146 ghH=2146 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (5) --
   y=456 [SPAN] difficult.
@@ -195,19 +229,25 @@
   y=2090 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=2116 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2090 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (41) --
+-- STYLE/GEOMETRY DELTAS (30) --
   y=1386 "Process your emotions"
-      font Fraunces->Inter | size 18px->16px | lh 24.75px->24px
+      COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
   y=1386 "Find clarity and direction"
-      font Fraunces->Inter | size 18px->16px | lh 24.75px->24px
+      COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
   y=1427 "Build confidence in this next chapter"
-      font Fraunces->Inter | size 18px->16px | lh 24.75px->24px
+      COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
   y=1427 "Feel more grounded and supported"
-      font Fraunces->Inter | size 18px->16px | lh 24.75px->24px
+      COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
+  y=2058 "If you are in crisis, call or text"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=2058 "(Suicide & Crisis Lifeline) or"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=2058 "for emergencies. This site is not monitored 24/7."
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### teens @desktop  liveH=2590 ghH=2627 (+37)
+### teens @desktop  liveH=2590 ghH=2590 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
   y=2534 [DIV] ©
@@ -215,19 +255,25 @@
   y=2534 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=2543 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2534 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (34) --
+-- STYLE/GEOMETRY DELTAS (29) --
   y=1753 "A space that's just yours"
-      font Fraunces->Inter | size 18px->16px | lh 24.75px->24px
+      COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
   y=1753 "Tools for the pressure"
-      font Fraunces->Inter | size 18px->16px | lh 24.75px->24px
+      COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
   y=1794 "Words for what you feel"
-      font Fraunces->Inter | size 18px->16px | lh 24.75px->24px
+      COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
   y=1794 "A safe adult outside your family"
-      font Fraunces->Inter | size 18px->16px | lh 24.75px->24px
+      COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
+  y=2502 "If you are in crisis, call or text"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=2502 "(Suicide & Crisis Lifeline) or"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=2502 "for emergencies. This site is not monitored 24/7."
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
-### privacy @desktop  liveH=2216 ghH=2266 (+50)
+### privacy @desktop  liveH=2216 ghH=2216 (0)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (4) --
   y=1073 [P] California License #150884
@@ -236,7 +282,13 @@
   y=2160 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=2182 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2160 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (34) --
+-- STYLE/GEOMETRY DELTAS (24) --
+  y=2128 "If you are in crisis, call or text"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=2128 "(Suicide & Crisis Lifeline) or"
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=2128 "for emergencies. This site is not monitored 24/7."
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
