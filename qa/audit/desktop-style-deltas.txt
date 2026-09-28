@@ -1,303 +1,127 @@
-### home @desktop  liveH=9887 ghH=9946 (+59)
+### home @desktop  liveH=9887 ghH=9979 (+92)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (24) --
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (11) --
   y=2053 [P] "As you live deeper in the heart, the mirror gets clearer and cleaner."
   y=2837 [H3] AD(H)D & Late-Stage Diagnosis
-  y=2837 [H3] Multicultural & Cross-Cultural Therapy
   y=2837 [H3] Young Women Coming of Age
-  y=3438 [P] Including work, relationship, and daily-life depletion and recovery.
   y=3491 [A] Learn more
-  y=3438 [P] Including panic attacks, climate and health anxiety, persistent low mood, seasonal and pos
   y=3514 [A] Learn more
-  y=3499 [P] Including school pressure, college application stress, friendship and identity shifts, and
   y=3552 [A] Learn more
-  y=3499 [P] Including communication struggles, conflict patterns, and intimacy concerns.
-  y=3560 [P] Including desire discrepancies, sexual shame, and reconnecting with pleasure.
-  y=3560 [P] Including career changes, relocation, and new parenthood.
   y=3613 [A] Learn more
-  y=3621 [P] Including childhood trauma and intergenerational trauma.
-  y=3621 [P] Including the loss of loved ones, relationships, and identity.
-  y=3682 [P] Including self-worth, imposter feelings, and the inner critic.
-  y=3682 [P] Including cultural, sexual, and gender identity.
-  y=3743 [P] Including co-parenting, blended families, and generational roles.
-  y=3743 [P] Including boundaries, rest, and finding meaning.
-  y=3804 [P] Including caregiving stress and burnout recovery.
-  y=3804 [P] Including transitions, re-entry, and questions of purpose.
+  y=9310 [P] .
+  y=9831 [DIV] ©
   y=9831 [DIV] 2026
   y=9831 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
--- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (18) --
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (11) --
   y=2050 [P] "As you live deeper in the heart,
   y=2050 [P] the mirror gets clearer and cleaner."
   y=2843 [H3] AD(H)D & Late-Stage
   y=2843 [H3] Diagnosis
-  y=2843 [H3] Multicultural & Cross-
-  y=2843 [H3] Cultural Therapy
   y=2843 [H3] Young Women Coming
   y=2843 [H3] of Age
   y=3983 [SPAN] Healing takes its own time, be gentle with yourself
   y=3983 [SPAN] Healing takes its own time, be gentle with yourself
   y=3983 [SPAN] Healing takes its own time, be gentle with yourself
   y=3983 [SPAN] Healing takes its own time, be gentle with yourself
-  y=8797 [SPAN] ✉
-  y=8833 [SPAN] ⌕
-  y=9439 [SPAN] ⌖
-  y=9439 [SMALL] ↗
-  y=9498 [SPAN] ⌕
-  y=9862 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=9895 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (84) --
-  y=1229 "Kaur Counseling — "Kaur" is pronounced like "Core""
-      style italic->normal
-  y=2593 "The areas I've gone deepest in, where my training, curi"
-      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.6)
-  y=3294 "Therapy doesn't always begin with a clear diagnosis or "
-      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.6)
-  y=5306 "Whoever you are, however you got here, this is a space "
-      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.6)
-  y=7261 "No single approach fits every life. These are the frame"
-      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.6)
-  y=8766 "Request Appointment"
-      lh 20px->21px | ls 0.35px->normal
-  y=8834 "Opens a secure scheduling window, no email form."
-      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=9310 "."
-      size 14px->20px | lh 22.75px->20px | COLOR rgba(23, 39, 64, 0.8)->rgb(57, 96, 71)
-  y=9312 "Virtual sessions are always available,"
-      COLOR rgb(88, 25, 37)->rgba(23, 39, 64, 0.8)
-  y=9335 "October 1st"
-      COLOR rgb(88, 25, 37)->rgba(23, 39, 64, 0.8)
-  y=9405 "3150 18th St, Suite 404, San Francisco, CA 94110"
-      lh 22.75px->20px
-  y=9707 "CA Lic. #150884"
-      ls 2.4px->normal | transform uppercase->none
-  y=9707 "Kaur Counseling, Marriage & Family Therapy, Inc."
-      ls 2.4px->normal
-  y=9707 "415-930-5395"
-      ls 2.4px->normal
-  y=9831 "©"
-      size 12px->20px | lh 16px->20px | COLOR rgba(23, 39, 64, 0.4)->rgb(57, 96, 71)
+-- STYLE/GEOMETRY DELTAS (91) --
+  y=3438 "Including work, relationship, and daily-life depletion "
+      lh 22.75px->21px
+  y=3438 "Including panic attacks, climate and health anxiety, pe"
+      lh 22.75px->21px
+  y=3499 "Including school pressure, college application stress, "
+      lh 22.75px->21px
+  y=3499 "Including communication struggles, conflict patterns, a"
+      lh 22.75px->21px
+  y=3560 "Including desire discrepancies, sexual shame, and recon"
+      lh 22.75px->21px
+  y=3560 "Including career changes, relocation, and new parenthoo"
+      lh 22.75px->21px
+  y=3621 "Including childhood trauma and intergenerational trauma"
+      lh 22.75px->21px
+  y=3621 "Including the loss of loved ones, relationships, and id"
+      lh 22.75px->21px
+  y=3682 "Including self-worth, imposter feelings, and the inner "
+      lh 22.75px->21px
+  y=3682 "Including cultural, sexual, and gender identity."
+      lh 22.75px->21px
+  y=3743 "Including co-parenting, blended families, and generatio"
+      lh 22.75px->21px
+  y=3743 "Including boundaries, rest, and finding meaning."
+      lh 22.75px->21px
+  y=3804 "Including caregiving stress and burnout recovery."
+      lh 22.75px->21px
+  y=3804 "Including transitions, re-entry, and questions of purpo"
+      lh 22.75px->21px
 
-### about @desktop  liveH=3752 ghH=3926 (+174)
+### about @desktop  liveH=3752 ghH=3931 (+179)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (5) --
+  y=112 [A] Back to Home
   y=276 [H1] Therapy as a practice in honesty and self love.
+  y=3696 [DIV] ©
   y=3696 [DIV] 2026
   y=3696 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
--- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (9) --
-  y=281 [H1] Therapy as a practice in honesty and
-  y=280 [EM] self love.
-  y=686 [SPAN] ⌁
-  y=686 [SPAN] ⌁
-  y=3275 [P] A place to begin
-  y=3311 [H2] Ready to start a conversation?
-  y=3368 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=3459 [SPAN] ↗
-  y=3842 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (3) --
+  y=257 [H1] Therapy as a practice in honesty and
+  y=256 [EM] self love.
+  y=3847 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (59) --
-  y=112 "Back to Home"
-      ls normal->0.14px
-  y=242 "Starting out"
-      ls 3.6px->3px
-  y=555 "Get Started"
-      lh 20px->21px | ls 0.35px->normal
-  y=584 "What to expect"
-      size 30px->31px | lh 36px->33.48px
-  y=603 "Verified on Psychology Today"
-      size 11.2px->10px | lh 16.8px->15px | ls 2.24px->2.5px
-  y=733 "Our first session"
-      lh 28px->21.6px
-  y=733 "How I show up"
-      lh 28px->21.6px
-  y=733 "We're a team"
-      lh 28px->21.6px
-  y=769 "In our first session, I'll learn more about what brough"
-      lh 22.75px->23.1px
-  y=769 "I'm client-led, but I'm not a blank-wall therapist. I'm"
-      lh 22.75px->23.1px
-  y=769 "I work collaboratively. You're the expert on your own l"
-      lh 22.75px->23.1px
-  y=1178 "A little more human"
-      size 12px->15px | lh 16px->25.8px | ls 3px->3.75px
-  y=1208 "A few things about me"
-      size 30px->31px | lh 36px->35.65px
-  y=1398 "First-gen Indian woman"
-      weight 400->500 | lh 28px->normal
-  y=1398 "ADHD brain"
-      weight 400->500 | lh 28px->normal
-  y=1398 "Dog mom"
-      weight 400->500 | lh 28px->normal
-  y=1690 "Lifelong learner"
-      weight 400->500 | lh 28px->normal
-  y=1690 "Chocolate fiend"
-      weight 400->500 | lh 28px->normal
-  y=1690 "Duct tape & coffee"
-      weight 400->500 | lh 28px->normal
-  y=1973 "The work"
-      size 12px->15px | lh 16px->25.8px | ls 3px->3.75px
-  y=2003 "How we'll work together"
-      size 30px->31px | lh 36px->35.65px
-  y=2071 "How I work"
-      weight 400->500 | lh 28px->24px
-  y=2251 "What therapy feels like"
-      weight 400->500 | lh 28px->24px
-  y=2497 "Who I see"
-      size 30px->31px | lh 36px->35.65px
-  y=2815 "Training & credentials"
-      size 30px->31px | lh 36px->35.65px
-  y=2871 "Licensed Marriage & Family Therapist (LMFT) · CA Lic. #"
-      lh 20px->25.2px | bg rgba(57, 96, 71, 0.05)->null
-  y=2871 "Master's in Counseling, Sonoma State University"
-      lh 20px->25.2px | bg rgba(57, 96, 71, 0.05)->null
-  y=2919 "Six years in practice across private and community sett"
-      lh 20px->25.2px | bg rgba(57, 96, 71, 0.05)->null
-  y=2919 "Specialties: ADHD, Immigration & Acculturation, Women's"
-      lh 20px->25.2px | bg rgba(57, 96, 71, 0.05)->null
-  y=2967 "Modality training: Attachment-based, CBT, DBT, Relation"
-      lh 20px->25.2px | bg rgba(57, 96, 71, 0.05)->null
-  y=3207 "If this feels like the right place to begin, you don't "
-      font Fraunces->Inter | size 30px->16px | style italic->normal | lh 36px->26px | COLOR rgb(241, 234, 223)->rgba(23, 39, 64, 0.7)
-  y=3311 "Get Started"
-      lh 20px->21px | ls 0.35px->normal | COLOR rgb(88, 25, 37)->rgb(241, 234, 223) | bg rgb(241, 234, 223)->rgb(88, 25, 37)
-  y=3572 "CA Lic. #150884"
-      ls 2.4px->normal | transform uppercase->none
-  y=3572 "Kaur Counseling, Marriage & Family Therapy, Inc."
-      ls 2.4px->normal
-  y=3572 "415-930-5395"
-      ls 2.4px->normal
-  y=3696 "©"
-      font Inter->Fraunces | size 12px->28px | lh 16px->normal | COLOR rgba(23, 39, 64, 0.4)->rgb(154, 158, 149)
+-- STYLE/GEOMETRY DELTAS (56) --
 
-### cost @desktop  liveH=2447 ghH=2714 (+267)
+### cost @desktop  liveH=2447 ghH=2569 (+122)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (10) --
-  y=851 [P] Therapy is an investment in the life you're building. For clients paying out of pocket or 
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (7) --
+  y=128 [A] Back to Home
   y=1092 [SPAN] 50-minute individual session — $250
   y=1128 [SPAN] 80-minute extended session — $400
   y=1164 [SPAN] Couples and family sessions — $300 (50 minutes)
-  y=1294 [P] Payment is due at the time of each session and can be made by card (including HSA/FSA card
-  y=1476 [P] I'm out-of-network with most insurance plans, which keeps our work private and flexible. I
-  y=1788 [P] Choosing not to bill insurance means your diagnosis and treatment stay between us, not in 
-  y=1956 [P] If this feels like the right place to begin, you don't have to figure it out alone.
+  y=2391 [DIV] ©
   y=2391 [DIV] 2026
   y=2391 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
--- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (16) --
-  y=868 [H2] The cost of individual therapy
-  y=926 [P] Therapy is an investment in your relationship with yourself, your people, and the life you
-  y=1115 [SPAN] 50-minute individual session
-  y=1115 [STRONG] $200
-  y=1174 [SPAN] 80-minute extended session
-  y=1174 [STRONG] $300
-  y=1233 [SPAN] Couples and family sessions · 50 minutes
-  y=1233 [STRONG] $250
-  y=1395 [P] Payment is due at the time of service. I accept major credit and debit cards and can provi
-  y=1566 [P] I'm out-of-network with insurance plans, but I can provide a superbill after each session.
-  y=1637 [P] Many clients receive 50–80% of the session fee back, depending on their plan. Call the num
-  y=1835 [P] Choosing not to bill insurance means your care stays private and your treatment is shaped 
-  y=2063 [P] A place to begin
-  y=2099 [H2] Ready to start a conversation?
-  y=2156 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=2630 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (7) --
+  y=988 [SPAN] 50-minute individual session —
+  y=988 [STRONG] $250
+  y=1047 [SPAN] 80-minute extended session —
+  y=1047 [STRONG] $400
+  y=1106 [SPAN] Couples and family sessions —
+  y=1106 [STRONG] $300 (50 minutes)
+  y=2485 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (25) --
-  y=128 "Back to Home"
-      ls normal->0.14px
-  y=244 "The cost of individual therapy"
-      ls normal->-0.96px
-  y=312 "Private-pay, with a clear path to reimbursement."
-      size 24px->26px | lh 33px->32.5px
-  y=1044 "Session rates"
-      size 24px->31px | lh 32px->35.65px
-  y=1246 "Payment details"
-      size 24px->31px | lh 32px->35.65px
-  y=1428 "A superbill for reimbursement"
-      size 24px->31px | lh 32px->35.65px
-  y=1740 "Why pay out of pocket?"
-      size 24px->31px | lh 32px->35.65px
-  y=2046 "Get Started"
-      lh 20px->21px | ls 0.35px->normal
-  y=2267 "CA Lic. #150884"
-      ls 2.4px->normal | transform uppercase->none
-  y=2267 "Kaur Counseling, Marriage & Family Therapy, Inc."
-      ls 2.4px->normal
-  y=2267 "415-930-5395"
-      ls 2.4px->normal
-  y=2391 "©"
-      size 12px->14px | lh 16px->21px | COLOR rgba(23, 39, 64, 0.4)->rgb(241, 234, 223)
+-- STYLE/GEOMETRY DELTAS (28) --
+  y=851 "Therapy is an investment in the life you're building. F"
+      size 18px->16px | lh 29.25px->24px | COLOR rgba(23, 39, 64, 0.75)->rgb(23, 39, 64)
+  y=1294 "Payment is due at the time of each session and can be m"
+      COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=1476 "I'm out-of-network with most insurance plans, which kee"
+      COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=1788 "Choosing not to bill insurance means your diagnosis and"
+      COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=1956 "If this feels like the right place to begin, you don't "
+      font Fraunces->Inter | size 24px->16px | style italic->normal | lh 33px->24px | COLOR rgb(57, 96, 71)->rgb(94, 102, 112)
 
-### resources @desktop  liveH=3360 ghH=2787 (-573)
+### resources @desktop  liveH=3360 ghH=3534 (+174)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (40) --
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (8) --
+  y=128 [A] Back to About
   y=216 [H1] A reading list for
   y=214 [SPAN] the curious and healing.
-  y=616 [P] Welcome and entertain them all!
-  y=637 [P] Even if they're a crowd of sorrows,
-  y=658 [P] who violently sweep your house
-  y=680 [P] empty of its furniture,
-  y=701 [P] still, treat each guest honorably.
-  y=722 [P] He may be clearing you out
-  y=743 [P] for some new delight.
-  y=805 [P] The dark thought, the shame, the malice,
-  y=826 [P] meet them at the door laughing,
-  y=847 [P] and invite them in.
-  y=908 [P] Be grateful for whoever comes,
-  y=930 [P] because each has been sent
-  y=951 [P] as a guide from beyond.
-  y=609 [P] Translated by Coleman Barks ·
-  y=610 [A] Scottish Poetry Library
-  y=776 [H2] Relationships
-  y=824 [P] On attachment, communication, and the everyday work of staying close.
-  y=961 [P] A practical, accessible guide to adult attachment styles and how they shape our closest bo
-  y=961 [P] The cornerstone of emotionally focused therapy — seven conversations for repairing connect
-  y=1148 [P] Research-grounded tools for friendship, conflict, and shared meaning.
-  y=1121 [P] An honest, forward-looking guide for couples doing the work.
-  y=1354 [H2] Parenting
-  y=1402 [P] On raising whole humans, and on tending yourself along the way.
-  y=1538 [P] Twelve strategies to nurture a child's developing mind.
-  y=1538 [P] A research-based approach to discipline rooted in connection.
-  y=1698 [P] Emotion-coaching for a child's inner world.
-  y=1726 [P] An enduring classic on respectful communication with children.
-  y=1931 [H2] Self-help
-  y=1979 [P] Gentle, honest reads for growth, meaning, and self-acceptance.
-  y=2115 [P] Small changes, compounded. A clear framework for sustainable growth.
-  y=2115 [P] On cultivating courage, compassion, and wholehearted living.
-  y=2275 [P] An indispensable introduction to IFS, meeting every part with curiosity.
-  y=2481 [H2] Trauma
-  y=2529 [P] On how the body and mind carry what happened, and the paths toward repair.
-  y=2691 [P] A searing, hopeful memoir of living with and healing from complex PTSD.
-  y=2869 [P] Want more? I'm always adding to this list. Bring what you're curious about and we'll find 
+  y=1508 [P] Daniel Siegel & Tina Payne Bryson
+  y=1668 [P] John Gottman
+  y=3304 [DIV] ©
   y=3304 [DIV] 2026
   y=3304 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
--- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (21) --
-  y=223 [H1] A reading list for the
-  y=220 [EM] curious and healing.
-  y=654 [SPAN] ⌁
-  y=631 [SPAN] Translated by Coleman Barks · Scottish Poetry Library
-  y=851 [P] Practical adult attachment styles.
-  y=907 [P] Emotionally focused therapy.
-  y=963 [P] Research-grounded tools.
-  y=1042 [P] A compassionate guide for couples.
-  y=1233 [P] Understanding the developing mind.
-  y=1289 [P] Connection before correction.
-  y=1345 [P] Building emotional awareness.
-  y=1424 [P] A practical classic for connection.
-  y=1637 [P] Small changes that compound.
-  y=1693 [P] A wholehearted way of living.
-  y=1749 [P] Healing through Internal Family Systems.
-  y=1940 [P] A memoir of complex trauma and healing.
-  y=2136 [P] A place to begin
-  y=2172 [H2] Ready to start a conversation?
-  y=2229 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=2320 [SPAN] ↗
-  y=2703 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (3) --
+  y=199 [H1] A reading list for the
+  y=196 [EM] curious and healing.
+  y=3450 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (56) --
-  y=128 "Back to About"
-      ls normal->0.14px
+-- STYLE/GEOMETRY DELTAS (89) --
   y=280 "Books I return to and often share with clients. These a"
       lh 29.25px->29.7px
   y=409 "A poem to sit with"
@@ -305,29 +129,63 @@
   y=430 "The Guest House"
       size 18px->20px | style italic->normal | lh 28px->21.6px
   y=470 "This being human is a guest house."
-      lh 19.25px->21px
+      size 14px->17px | style normal->italic | lh 19.25px->26.35px | COLOR rgba(23, 39, 64, 0.85)->rgba(23, 39, 64, 0.6)
   y=491 "Every morning a new arrival."
-      lh 19.25px->21px
+      size 14px->17px | style normal->italic | lh 19.25px->26.35px | COLOR rgba(23, 39, 64, 0.85)->rgba(23, 39, 64, 0.6)
   y=512 "A joy, a depression, a meanness,"
-      lh 19.25px->21px
+      size 14px->17px | style normal->italic | lh 19.25px->26.35px | COLOR rgba(23, 39, 64, 0.85)->rgba(23, 39, 64, 0.6)
   y=533 "some momentary awareness comes"
-      lh 19.25px->21px
+      size 14px->17px | style normal->italic | lh 19.25px->26.35px | COLOR rgba(23, 39, 64, 0.85)->rgba(23, 39, 64, 0.6)
   y=555 "as an unexpected visitor."
-      lh 19.25px->21px
+      size 14px->17px | style normal->italic | lh 19.25px->26.35px | COLOR rgba(23, 39, 64, 0.85)->rgba(23, 39, 64, 0.6)
   y=590 "Jalaluddin Rumi"
       size 10.4px->12px | weight 400->500 | lh 15.6px->19.2px | ls 2.08px->1.8px
+  y=609 "Translated by Coleman Barks ·"
+      size 10.4px->10px | weight 400->500 | style italic->normal | lh 15.6px->16px | ls normal->0.5px | COLOR rgba(23, 39, 64, 0.5)->rgb(118, 122, 118)
+  y=610 "Scottish Poetry Library"
+      size 10.4px->10px | weight 400->500 | style italic->normal | lh 15.6px->16px | ls normal->0.5px | COLOR rgb(57, 96, 71)->rgb(118, 122, 118)
+  y=616 "Welcome and entertain them all!"
+      size 14px->17px | style normal->italic | lh 19.25px->26.35px | COLOR rgba(23, 39, 64, 0.85)->rgba(23, 39, 64, 0.6)
   y=633 "Hover to read the full poem"
       size 9.6px->10px | lh 14.4px->15px | ls 1.92px->2.2px
+  y=637 "Even if they're a crowd of sorrows,"
+      size 14px->17px | style normal->italic | lh 19.25px->26.35px | COLOR rgba(23, 39, 64, 0.85)->rgba(23, 39, 64, 0.6)
+  y=658 "who violently sweep your house"
+      size 14px->17px | style normal->italic | lh 19.25px->26.35px | COLOR rgba(23, 39, 64, 0.85)->rgba(23, 39, 64, 0.6)
+  y=680 "empty of its furniture,"
+      size 14px->17px | style normal->italic | lh 19.25px->26.35px | COLOR rgba(23, 39, 64, 0.85)->rgba(23, 39, 64, 0.6)
+  y=701 "still, treat each guest honorably."
+      size 14px->17px | style normal->italic | lh 19.25px->26.35px | COLOR rgba(23, 39, 64, 0.85)->rgba(23, 39, 64, 0.6)
+  y=722 "He may be clearing you out"
+      size 14px->17px | style normal->italic | lh 19.25px->26.35px | COLOR rgba(23, 39, 64, 0.85)->rgba(23, 39, 64, 0.6)
+  y=743 "for some new delight."
+      size 14px->17px | style normal->italic | lh 19.25px->26.35px | COLOR rgba(23, 39, 64, 0.85)->rgba(23, 39, 64, 0.6)
   y=746 "Relationships"
-      font Inter->Fraunces | size 12px->30px | lh 16px->34.5px | ls 3px->normal | transform uppercase->none | COLOR rgba(88, 25, 37, 0.8)->rgb(23, 39, 64)
+      COLOR rgba(88, 25, 37, 0.8)->rgba(23, 39, 64, 0.7)
+  y=805 "The dark thought, the shame, the malice,"
+      size 14px->17px | style normal->italic | lh 19.25px->26.35px | COLOR rgba(23, 39, 64, 0.85)->rgba(23, 39, 64, 0.6)
+  y=826 "meet them at the door laughing,"
+      size 14px->17px | style normal->italic | lh 19.25px->26.35px | COLOR rgba(23, 39, 64, 0.85)->rgba(23, 39, 64, 0.6)
+  y=847 "and invite them in."
+      size 14px->17px | style normal->italic | lh 19.25px->26.35px | COLOR rgba(23, 39, 64, 0.85)->rgba(23, 39, 64, 0.6)
   y=899 "Attached"
       size 20px->18px | weight 400->500 | lh 27.5px->normal
   y=899 "Hold Me Tight"
       size 20px->18px | weight 400->500 | lh 27.5px->normal
+  y=908 "Be grateful for whoever comes,"
+      size 14px->17px | style normal->italic | lh 19.25px->26.35px | COLOR rgba(23, 39, 64, 0.85)->rgba(23, 39, 64, 0.6)
+  y=930 "because each has been sent"
+      size 14px->17px | style normal->italic | lh 19.25px->26.35px | COLOR rgba(23, 39, 64, 0.85)->rgba(23, 39, 64, 0.6)
   y=931 "Amir Levine & Rachel Heller"
       style italic->normal
   y=931 "Sue Johnson"
       style italic->normal
+  y=951 "as a guide from beyond."
+      size 14px->17px | style normal->italic | lh 19.25px->26.35px | COLOR rgba(23, 39, 64, 0.85)->rgba(23, 39, 64, 0.6)
+  y=961 "A practical, accessible guide to adult attachment style"
+      size 15.2px->14px | lh 24.7px->20px
+  y=961 "The cornerstone of emotionally focused therapy — seven "
+      size 15.2px->14px | lh 24.7px->20px
   y=1059 "The Seven Principles for Making Marriage Work"
       size 20px->18px | weight 400->500 | lh 27.5px->normal
   y=1059 "I Want This to Work"
@@ -336,26 +194,34 @@
       style italic->normal
   y=1118 "John Gottman"
       style italic->normal
+  y=1121 "An honest, forward-looking guide for couples doing the "
+      size 15.2px->14px | lh 24.7px->20px
+  y=1148 "Research-grounded tools for friendship, conflict, and s"
+      size 15.2px->14px | lh 24.7px->20px
   y=1324 "Parenting"
-      font Inter->Fraunces | size 12px->30px | lh 16px->34.5px | ls 3px->normal | transform uppercase->none | COLOR rgba(88, 25, 37, 0.8)->rgb(23, 39, 64)
+      COLOR rgba(88, 25, 37, 0.8)->rgba(23, 39, 64, 0.7)
   y=1477 "The Whole-Brain Child"
       size 20px->18px | weight 400->500 | lh 27.5px->normal
   y=1477 "No-Drama Discipline"
       size 20px->18px | weight 400->500 | lh 27.5px->normal
   y=1508 "Daniel Siegel & Tina Payne Bryson"
       style italic->normal
-  y=1508 "Daniel Siegel & Tina Payne Bryson"
-      style italic->normal
+  y=1538 "Twelve strategies to nurture a child's developing mind."
+      size 15.2px->14px | lh 24.7px->20px
+  y=1538 "A research-based approach to discipline rooted in conne"
+      size 15.2px->14px | lh 24.7px->20px
   y=1637 "Raising an Emotionally Intelligent Child"
       size 20px->18px | weight 400->500 | lh 27.5px->normal
   y=1637 "How to Talk So Kids Will Listen & Listen So Kids Will T"
       size 20px->18px | weight 400->500 | lh 27.5px->normal
-  y=1668 "John Gottman"
-      style italic->normal
   y=1696 "Adele Faber & Elaine Mazlish"
       style italic->normal
+  y=1698 "Emotion-coaching for a child's inner world."
+      size 15.2px->14px | lh 24.7px->20px
+  y=1726 "An enduring classic on respectful communication with ch"
+      size 15.2px->14px | lh 24.7px->20px
   y=1901 "Self-help"
-      font Inter->Fraunces | size 12px->30px | lh 16px->34.5px | ls 3px->normal | transform uppercase->none | COLOR rgba(88, 25, 37, 0.8)->rgb(23, 39, 64)
+      COLOR rgba(88, 25, 37, 0.8)->rgba(23, 39, 64, 0.7)
   y=2054 "Atomic Habits"
       size 20px->18px | weight 400->500 | lh 27.5px->normal
   y=2054 "The Gifts of Imperfection"
@@ -364,552 +230,411 @@
       style italic->normal
   y=2085 "Brené Brown"
       style italic->normal
+  y=2115 "Small changes, compounded. A clear framework for sustai"
+      size 15.2px->14px | lh 24.7px->20px
+  y=2115 "On cultivating courage, compassion, and wholehearted li"
+      size 15.2px->14px | lh 24.7px->20px
   y=2214 "No Bad Parts"
       size 20px->18px | weight 400->500 | lh 27.5px->normal
   y=2245 "Richard Schwartz"
       style italic->normal
+  y=2275 "An indispensable introduction to IFS, meeting every par"
+      size 15.2px->14px | lh 24.7px->20px
   y=2451 "Trauma"
-      font Inter->Fraunces | size 12px->30px | lh 16px->34.5px | ls 3px->normal | transform uppercase->none | COLOR rgba(88, 25, 37, 0.8)->rgb(23, 39, 64)
+      COLOR rgba(88, 25, 37, 0.8)->rgba(23, 39, 64, 0.7)
   y=2630 "What My Bones Know"
       size 20px->18px | weight 400->500 | lh 27.5px->normal
   y=2661 "Stephanie Foo"
       style italic->normal
-  y=2959 "Get Started"
-      lh 20px->21px | ls 0.35px->normal
-  y=3180 "CA Lic. #150884"
-      ls 2.4px->normal | transform uppercase->none
-  y=3180 "Kaur Counseling, Marriage & Family Therapy, Inc."
-      ls 2.4px->normal
-  y=3180 "415-930-5395"
-      ls 2.4px->normal
-  y=3304 "©"
-      font Inter->Fraunces | size 12px->27px | lh 16px->normal | COLOR rgba(23, 39, 64, 0.4)->rgb(152, 160, 148)
+  y=2691 "A searing, hopeful memoir of living with and healing fr"
+      size 15.2px->14px | lh 24.7px->20px
+  y=2869 "Want more? I'm always adding to this list. Bring what y"
+      font Fraunces->Inter | size 24px->16px | style italic->normal | lh 33px->26px | COLOR rgb(57, 96, 71)->rgba(23, 39, 64, 0.7)
 
-### modalities @desktop  liveH=3433 ghH=3607 (+174)
+### modalities @desktop  liveH=3433 ghH=3259 (-174)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (10) --
-  y=794 [SPAN] 01
-  y=794 [SPAN] 02
-  y=1409 [SPAN] 03
-  y=1409 [SPAN] 04
-  y=1998 [SPAN] 05
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (6) --
   y=2796 [H2] Curious which lens
   y=2794 [SPAN] fits your story?
-  y=2860 [P] We will find the right shape together. Reach out for a free consultation and we'll begin t
+  y=2952 [A] Get Started
+  y=3377 [DIV] ©
   y=3377 [DIV] 2026
   y=3377 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
--- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (9) --
-  y=2699 [P] Curious which lens fits your story?
-  y=2734 [H2] We’ll find the right shape together.
-  y=2795 [P] Reach out for a free consultation and we’ll begin the conversation.
-  y=2956 [P] A place to begin
-  y=2992 [H2] Ready to start a conversation?
-  y=3049 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=3126 [A] Get Started
-  y=3140 [SPAN] ↗
-  y=3523 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (2) --
+  y=2785 [H2] Curious which lens fits your story?
+  y=3175 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (44) --
-  y=874 "Internal Family Systems"
-      size 30px->31px | lh 36px->35.65px
-  y=874 "Dialectical Behavior Therapy"
-      size 30px->31px | lh 36px->35.65px
+-- STYLE/GEOMETRY DELTAS (48) --
+  y=794 "01"
+      font Fraunces->Inter | size 14px->12px | lh 20px->16px | ls normal->3px | transform none->uppercase | COLOR rgba(88, 25, 37, 0.5)->rgb(57, 96, 71)
+  y=794 "02"
+      font Fraunces->Inter | size 14px->12px | lh 20px->16px | ls normal->3px | transform none->uppercase | COLOR rgba(57, 96, 71, 0.5)->rgb(57, 96, 71)
   y=957 "What it is"
-      size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px | COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
-  y=957 "What it is"
-      size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px
-  y=1113 "When & why I use it"
-      size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px
-  y=1139 "When & why I use it"
-      size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px
-  y=1489 "Cognitive Behavioral Therapy"
-      size 30px->31px | lh 36px->35.65px
-  y=1489 "Art"
-      size 30px->31px | lh 36px->35.65px
-  y=1572 "What it is"
-      size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px | COLOR rgba(108, 50, 133, 0.85)->rgb(57, 96, 71)
-  y=1572 "What it is"
-      size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px | COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
-  y=1728 "When & why I use it"
-      size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px
-  y=1754 "When & why I use it"
-      size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px
-  y=2078 "Attachment"
-      size 30px->31px | lh 36px->35.65px
-  y=2161 "What it is"
-      size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px
-  y=2343 "When & why I use it"
-      size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px
-  y=2952 "Get Started"
-      bg rgb(241, 234, 223)->null
-  y=3253 "CA Lic. #150884"
-      ls 2.4px->normal | transform uppercase->none
-  y=3253 "Kaur Counseling, Marriage & Family Therapy, Inc."
-      ls 2.4px->normal
-  y=3253 "415-930-5395"
-      ls 2.4px->normal
-  y=3377 "©"
-      size 12px->20px | lh 16px->0px | COLOR rgba(23, 39, 64, 0.4)->rgb(88, 25, 37)
+      COLOR rgb(57, 96, 71)->rgba(88, 25, 37, 0.8)
+  y=1409 "03"
+      font Fraunces->Inter | size 14px->12px | lh 20px->16px | ls normal->3px | transform none->uppercase | COLOR rgba(108, 50, 133, 0.55)->rgb(57, 96, 71)
+  y=1409 "04"
+      font Fraunces->Inter | size 14px->12px | lh 20px->16px | ls normal->3px | transform none->uppercase | COLOR rgba(88, 25, 37, 0.5)->rgb(57, 96, 71)
+  y=1998 "05"
+      font Fraunces->Inter | size 14px->12px | lh 20px->16px | ls normal->3px | transform none->uppercase | COLOR rgba(57, 96, 71, 0.5)->rgb(57, 96, 71)
+  y=2860 "We will find the right shape together. Reach out for a "
+      size 16px->15px | lh 26px->22.5px | COLOR rgba(241, 234, 223, 0.8)->rgb(101, 109, 115)
 
-### get-started @desktop  liveH=1618 ghH=1619 (+1)
+### get-started @desktop  liveH=1618 ghH=1646 (+28)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (5) --
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (7) --
   y=1091 [SPAN] Virtual sessions are always available,
   y=1089 [P] but in-person sessions start
   y=1114 [SPAN] October 1st
+  y=1089 [P] .
+  y=1562 [DIV] ©
   y=1562 [DIV] 2026
   y=1562 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
--- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (4) --
-  y=1116 [P] Virtual sessions are always available, but in-person sessions start October 1st.
-  y=1197 [SMALL] ↗
-  y=1236 [SPAN] ⌕
-  y=1535 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (2) --
+  y=1115 [P] Virtual sessions are always available, but in-person sessions start October 1st.
+  y=1562 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (31) --
+-- STYLE/GEOMETRY DELTAS (20) --
   y=169 "right fit?"
       ls normal->-1.8px
   y=176 "Are we the"
       ls normal->-1.8px
   y=268 "I'm glad you're here. Finding the right therapist is su"
       lh 29.25px->28.8px
-  y=597 "Request Appointment"
-      lh 20px->21px | ls 0.35px->normal
   y=665 "Opens a secure scheduling window, no email form."
       COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=922 "My office is a calm, private space in the heart of the "
       bg null->rgba(91, 30, 42, 0.05)
-  y=1089 "."
-      lh 22.75px->21px | COLOR rgba(23, 39, 64, 0.8)->rgb(241, 234, 223)
   y=1184 "3150 18th St, Suite 404, San Francisco, CA 94110"
       lh 22.75px->20px
-  y=1438 "CA Lic. #150884"
-      ls 2.4px->normal | transform uppercase->none
-  y=1438 "Kaur Counseling, Marriage & Family Therapy, Inc."
-      ls 2.4px->normal
-  y=1438 "415-930-5395"
-      ls 2.4px->normal
-  y=1562 "©"
-      size 12px->20px | lh 16px->20px | COLOR rgba(23, 39, 64, 0.4)->rgb(57, 96, 71)
 
-### adhd @desktop  liveH=3748 ghH=2954 (-794)
+### adhd @desktop  liveH=3748 ghH=3908 (+160)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (37) --
-  y=751 [P] The picture most people carry is a boy who can't sit still. Women and girls more often liv
-  y=934 [P] Relationships
-  y=967 [P] Rejection sensitivity, people-pleasing, losing the thread of what you wanted to say.
-  y=934 [P] Work & career
-  y=967 [P] Capable and praised, then quietly drowning in the details no one sees.
-  y=934 [P] School & study
-  y=967 [P] Bright enough to coast, until you couldn't, and the shame set in.
-  y=1097 [P] Self-esteem
-  y=1130 [P] A running inner monologue of 'I should have been able to.'
-  y=1097 [P] Body & food
-  y=1130 [P] Forgetting to eat, then overeating; restless sleep; tension you can't name.
-  y=1097 [P] Sex & intimacy
-  y=1130 [P] Distracted, disconnected, or running on high alert instead of ease.
-  y=1392 [P] For years you may have moved through the world believing you were simply too much, or neve
-  y=1676 [P] A thousand things at once
-  y=1709 [P] Ping-ponging between tasks, a mind juggling everything at the same time.
-  y=1676 [P] Hyperfocus ↔ overwhelm
-  y=1709 [P] Swinging between deep fixation and flood.
-  y=1676 [P] Forgetfulness about what you love
-  y=1734 [P] Even the things and people that matter slip away.
-  y=1841 [P] Time warps and vanishes
-  y=1874 [P] Hours pass like minutes, or crawl like days.
-  y=1841 [P] The exhaustion of masking
-  y=1874 [P] Performing a version of yourself, all day.
-  y=1841 [P] The intention-action gap
-  y=1874 [P] Knowing exactly what to do, wanting to do it, and feeling paralyzed even when you're smart
-  y=2098 [P] 50%+
-  y=2174 [P] of adults with ADHD also live with anxiety or depression, and some struggle with both. You
-  y=2491 [P] A late diagnosis often arrives with grief: for the years spent believing you were broken, 
-  y=2615 [P] This fractured trust often creates a cycle of self-frustration: setting high expectations 
-  y=2925 [SPAN] Honor your gifts: creativity, intensity, range.
-  y=3019 [SPAN] Tend the costs of pretending.
-  y=3113 [SPAN] Grieve what was, and slowly rebuild trust in yourself.
-  y=3207 [SPAN] Build rhythms and boundaries shaped for how your brain actually works.
-  y=3288 [P] You are not a problem to be fixed. You are a person learning to live well with yourself.
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
+  y=3692 [DIV] ©
   y=3692 [DIV] 2026
   y=3692 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
--- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (20) --
-  y=741 [P] ADHD in women is often missed, minimized, or explained away as anxiety, laziness, or not t
-  y=979 [P] A late diagnosis can bring relief and grief at the same time. It can explain the unfinishe
-  y=1157 [P] Relationships · Rejection sensitivity can make a pause, a tone, or a missed text feel enor
-  y=1202 [P] Work & career · You may be capable and praised while privately relying on urgency, overwor
-  y=1273 [P] School & study · You were bright enough to coast, until the structure became more complex 
-  y=1344 [P] Self-esteem · A running inner monologue can turn ordinary friction into evidence that you 
-  y=1389 [P] Body & food · Forgetting to eat, sleep, or notice your own needs can become part of the rh
-  y=1434 [P] Sex & intimacy · Being distracted, flooded, or disconnected from your body can make closen
-  y=1671 [P] There may be grief for the years you spent blaming yourself, and anger at how hard you had
-  y=1849 [P] A thousand things at once · We practice turning a storm into one next thing.
-  y=1894 [P] Hyperfocus ↔ overwhelm · We build a rhythm that does not depend on crisis.
-  y=1939 [P] Forgetfulness about what you love · We make room for the interests and people that restore
-  y=1984 [P] Time warps and vanishes · We externalize time without turning your life into a punishment.
-  y=2029 [P] The exhaustion of masking · We notice where performing has replaced being.
-  y=2074 [P] The intention-action gap · We separate knowing what to do from having the support to do it
-  y=2119 [P] You are not a problem to be fixed. Your brain is asking for a different kind of environmen
-  y=2303 [P] A place to begin
-  y=2339 [H2] Ready to start a conversation?
-  y=2396 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=2870 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
+  y=3824 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (26) --
-  y=128 "Back to Services"
-      ls normal->0.14px
-  y=202 "Specialty"
-      lh 16px->14.5px
-  y=388 "A diagnosis found in adulthood re-reads an entire life."
-      size 24px->26px | lh 33px->32.5px
+-- STYLE/GEOMETRY DELTAS (61) --
+  y=244 "ADHD & Late-Stage"
+      style normal->italic
   y=453 "An ADHD diagnosis arriving later in life doesn't only n"
       lh 29.25px->29.16px
-  y=689 "ADD in women looks different"
-      size 30px->31px | lh 36px->35.65px
+  y=751 "The picture most people carry is a boy who can't sit st"
+      lh 26px->29.25px
+  y=934 "Relationships"
+      font Fraunces->Inter | size 18px->16px | weight 400->700 | lh 24.75px->29.25px | COLOR rgb(88, 25, 37)->rgba(23, 39, 64, 0.75)
+  y=934 "Work & career"
+      font Fraunces->Inter | size 18px->16px | weight 400->700 | lh 24.75px->29.25px | COLOR rgb(88, 25, 37)->rgba(23, 39, 64, 0.75)
+  y=934 "School & study"
+      font Fraunces->Inter | size 18px->16px | weight 400->700 | lh 24.75px->29.25px | COLOR rgb(88, 25, 37)->rgba(23, 39, 64, 0.75)
+  y=967 "Rejection sensitivity, people-pleasing, losing the thre"
+      size 14px->16px | lh 22.75px->29.25px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
+  y=967 "Capable and praised, then quietly drowning in the detai"
+      size 14px->16px | lh 22.75px->29.25px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
+  y=967 "Bright enough to coast, until you couldn't, and the sha"
+      size 14px->16px | lh 22.75px->29.25px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
+  y=1097 "Self-esteem"
+      font Fraunces->Inter | size 18px->16px | weight 400->700 | lh 24.75px->29.25px | COLOR rgb(88, 25, 37)->rgba(23, 39, 64, 0.75)
+  y=1097 "Body & food"
+      font Fraunces->Inter | size 18px->16px | weight 400->700 | lh 24.75px->29.25px | COLOR rgb(88, 25, 37)->rgba(23, 39, 64, 0.75)
+  y=1097 "Sex & intimacy"
+      font Fraunces->Inter | size 18px->16px | weight 400->700 | lh 24.75px->29.25px | COLOR rgb(88, 25, 37)->rgba(23, 39, 64, 0.75)
+  y=1130 "A running inner monologue of 'I should have been able t"
+      size 14px->16px | lh 22.75px->29.25px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
+  y=1130 "Forgetting to eat, then overeating; restless sleep; ten"
+      size 14px->16px | lh 22.75px->29.25px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
+  y=1130 "Distracted, disconnected, or running on high alert inst"
+      size 14px->16px | lh 22.75px->29.25px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
   y=1330 "When the diagnosis arrives later"
-      size 30px->31px | lh 36px->35.65px | COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
+      COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
+  y=1392 "For years you may have moved through the world believin"
+      lh 26px->29.25px
   y=1581 "How it shows up"
-      size 30px->31px | lh 36px->35.65px | COLOR rgb(23, 39, 64)->rgb(108, 50, 133)
+      COLOR rgb(23, 39, 64)->rgb(108, 50, 133)
+  y=1676 "A thousand things at once"
+      font Fraunces->Inter | size 18px->16px | weight 400->700 | lh 24.75px->29.25px | COLOR rgb(88, 25, 37)->rgba(23, 39, 64, 0.75)
+  y=1676 "Hyperfocus ↔ overwhelm"
+      font Fraunces->Inter | size 18px->16px | weight 400->700 | lh 24.75px->29.25px | COLOR rgb(88, 25, 37)->rgba(23, 39, 64, 0.75)
+  y=1676 "Forgetfulness about what you love"
+      font Fraunces->Inter | size 18px->16px | weight 400->700 | lh 24.75px->29.25px | COLOR rgb(88, 25, 37)->rgba(23, 39, 64, 0.75)
+  y=1709 "Ping-ponging between tasks, a mind juggling everything "
+      size 14px->16px | lh 22.75px->29.25px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
+  y=1709 "Swinging between deep fixation and flood."
+      size 14px->16px | lh 22.75px->29.25px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
+  y=1734 "Even the things and people that matter slip away."
+      size 14px->16px | lh 22.75px->29.25px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
+  y=1841 "Time warps and vanishes"
+      font Fraunces->Inter | size 18px->16px | weight 400->700 | lh 24.75px->29.25px | COLOR rgb(88, 25, 37)->rgba(23, 39, 64, 0.75)
+  y=1841 "The exhaustion of masking"
+      font Fraunces->Inter | size 18px->16px | weight 400->700 | lh 24.75px->29.25px | COLOR rgb(88, 25, 37)->rgba(23, 39, 64, 0.75)
+  y=1841 "The intention-action gap"
+      font Fraunces->Inter | size 18px->16px | weight 400->700 | lh 24.75px->29.25px | COLOR rgb(88, 25, 37)->rgba(23, 39, 64, 0.75)
+  y=1874 "Hours pass like minutes, or crawl like days."
+      size 14px->16px | lh 22.75px->29.25px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
+  y=1874 "Performing a version of yourself, all day."
+      size 14px->16px | lh 22.75px->29.25px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
+  y=1874 "Knowing exactly what to do, wanting to do it, and feeli"
+      size 14px->16px | lh 22.75px->29.25px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
+  y=2098 "50%+"
+      font Fraunces->Inter | size 60px->16px | weight 400->700 | lh 60px->29.25px | COLOR rgb(241, 234, 223)->rgba(23, 39, 64, 0.75)
+  y=2174 "of adults with ADHD also live with anxiety or depressio"
+      size 18px->16px | COLOR rgba(241, 234, 223, 0.85)->rgba(23, 39, 64, 0.75)
   y=2429 "The grief, and the broken trust in yourself"
-      size 30px->31px | lh 36px->35.65px | COLOR rgb(23, 39, 64)->rgb(88, 25, 37)
+      COLOR rgb(23, 39, 64)->rgb(88, 25, 37)
+  y=2491 "A late diagnosis often arrives with grief: for the year"
+      lh 26px->29.25px
+  y=2615 "This fractured trust often creates a cycle of self-frus"
+      lh 26px->29.25px
   y=2830 "How we work with it"
-      size 30px->31px | lh 36px->35.65px | COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
+      COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
+  y=2925 "Honor your gifts: creativity, intensity, range."
+      lh 26px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
+  y=3019 "Tend the costs of pretending."
+      lh 26px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
+  y=3113 "Grieve what was, and slowly rebuild trust in yourself."
+      lh 26px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
+  y=3207 "Build rhythms and boundaries shaped for how your brain "
+      lh 26px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
+  y=3288 "You are not a problem to be fixed. You are a person lea"
+      size 20px->30px | lh 27.5px->36px | COLOR rgb(57, 96, 71)->rgb(241, 234, 223)
   y=3347 "Get Started"
-      lh 20px->21px | ls 0.35px->normal
-  y=3568 "CA Lic. #150884"
-      ls 2.4px->normal | transform uppercase->none
-  y=3568 "Kaur Counseling, Marriage & Family Therapy, Inc."
-      ls 2.4px->normal
-  y=3568 "415-930-5395"
-      ls 2.4px->normal
-  y=3692 "©"
-      size 12px->14px | lh 16px->21px | COLOR rgba(23, 39, 64, 0.4)->rgb(241, 234, 223)
+      COLOR rgb(241, 234, 223)->rgb(88, 25, 37) | bg rgb(88, 25, 37)->rgb(241, 234, 223)
 
-### multiculturalism @desktop  liveH=2556 ghH=2449 (-107)
+### multiculturalism @desktop  liveH=2556 ghH=2415 (-141)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (12) --
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (6) --
   y=244 [H1] Multicultural &
   y=297 [SPAN] Cross-Cultural
   y=244 [H1] Therapy
-  y=453 [P] To live between cultures is to hold more than one home inside you: its gifts and its grief
-  y=780 [P] We explore how your race, ethnicity, and cultural background have shaped the way you see y
-  y=1022 [P] We tend to the strain of holding your heritage culture alongside a dominant one that doesn
-  y=1290 [P] We unpack the family pressures, guilt, and identity conflicts that come with being a child
-  y=1532 [P] We make sense of a belonging that never felt simple, raised in a culture that wasn't your 
-  y=1774 [P] We gently trace the trauma, expectations, and communication gaps passed down from your par
-  y=1995 [P] You do not have to compress yourself to be understood here.
+  y=2500 [DIV] ©
   y=2500 [DIV] 2026
   y=2500 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
--- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (12) --
-  y=245 [H1] Multicultural & Cross-Cultural Therapy
-  y=453 [P] Living between cultures is a quiet, ongoing negotiation. We hold the grief and the resilie
-  y=712 [P] Living between cultures is a quiet, ongoing negotiation. We hold the grief and the resilie
-  y=950 [P] You may feel pulled between the values you grew up with and the expectations of the world 
-  y=1128 [P] Being the first in your family to move through a particular world can mean carrying respon
-  y=1365 [P] Home may be a feeling rather than a place. We can explore the disorientation, flexibility,
-  y=1543 [P] We can look at what has been carried forward through family stories, silence, survival str
-  y=1614 [P] You do not have to compress yourself into one identity to be understood here.
-  y=1798 [P] A place to begin
-  y=1834 [H2] Ready to start a conversation?
-  y=1891 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=2365 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (2) --
+  y=246 [H1] Multicultural & Cross-Cultural Therapy
+  y=2331 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (25) --
-  y=128 "Back to Services"
-      ls normal->0.14px
-  y=202 "Specialty"
-      lh 16px->14.5px
-  y=388 "When your identity doesn't fit neatly into one box."
-      size 24px->26px | lh 33px->32.5px
-  y=718 "Multicultural Therapy"
-      size 30px->31px | lh 36px->35.65px
-  y=960 "Acculturation & Assimilation Stress"
-      size 30px->31px | lh 36px->35.65px
-  y=1228 "First-Generation & Second-Generation Issues"
-      size 30px->31px | lh 36px->35.65px
-  y=1470 "Third Culture Kid (TCK) Therapy"
-      size 30px->31px | lh 36px->35.65px
-  y=1712 "Intergenerational Trauma Therapy"
-      size 30px->31px | lh 36px->35.65px
-  y=2099 "Get Started"
-      lh 20px->21px | ls 0.35px->normal | COLOR rgb(88, 25, 37)->rgb(241, 234, 223) | bg rgb(241, 234, 223)->rgb(88, 25, 37)
-  y=2376 "CA Lic. #150884"
-      ls 2.4px->normal | transform uppercase->none
-  y=2376 "Kaur Counseling, Marriage & Family Therapy, Inc."
-      ls 2.4px->normal
-  y=2376 "415-930-5395"
-      ls 2.4px->normal
-  y=2500 "©"
-      size 12px->14px | lh 16px->21px | COLOR rgba(23, 39, 64, 0.4)->rgb(241, 234, 223)
+-- STYLE/GEOMETRY DELTAS (31) --
+  y=453 "To live between cultures is to hold more than one home "
+      lh 29.25px->29.16px
+  y=780 "We explore how your race, ethnicity, and cultural backg"
+      lh 26px->29.25px
+  y=1022 "We tend to the strain of holding your heritage culture "
+      lh 26px->29.25px
+  y=1290 "We unpack the family pressures, guilt, and identity con"
+      lh 26px->29.25px
+  y=1532 "We make sense of a belonging that never felt simple, ra"
+      lh 26px->29.25px
+  y=1774 "We gently trace the trauma, expectations, and communica"
+      lh 26px->29.25px
 
-### burnout @desktop  liveH=2194 ghH=2346 (+152)
+### burnout @desktop  liveH=2194 ghH=2130 (-64)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (2) --
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
+  y=2138 [DIV] ©
   y=2138 [DIV] 2026
   y=2138 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
--- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (5) --
-  y=652 [P] Burnout rarely arrives all at once. It accretes, quietly, through one more task, one more 
-  y=1695 [P] A place to begin
-  y=1731 [H2] Ready to start a conversation?
-  y=1788 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=2262 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
+  y=2046 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (29) --
-  y=128 "Back to Services"
-      ls normal->0.14px
-  y=202 "Specialty"
-      lh 16px->14.5px
-  y=237 "Burnout."
-      style italic->normal
-  y=328 "The slow creep, and the difficulty of asking for help."
-      size 24px->26px | lh 33px->32.5px
+-- STYLE/GEOMETRY DELTAS (28) --
   y=393 "Burnout rarely arrives all at once. It accretes, quietl"
       lh 29.25px->29.16px
-  y=658 "The slow creep"
-      size 30px->31px | lh 36px->35.65px
-  y=1004 "Why it's so hard to ask for help"
-      size 30px->31px | lh 36px->35.65px
-  y=1324 "Tending and rebuilding"
-      size 30px->31px | lh 36px->35.65px
-  y=1633 "Recovery is not a project to optimize. It is a returnin"
-      size 30px->26px | lh 36px->32.5px | bg null->rgb(88, 25, 37)
-  y=1737 "Get Started"
-      lh 20px->21px | ls 0.35px->normal | COLOR rgb(88, 25, 37)->rgb(241, 234, 223) | bg rgb(241, 234, 223)->rgb(88, 25, 37)
-  y=2014 "CA Lic. #150884"
-      ls 2.4px->normal | transform uppercase->none
-  y=2014 "Kaur Counseling, Marriage & Family Therapy, Inc."
-      ls 2.4px->normal
-  y=2014 "415-930-5395"
-      ls 2.4px->normal
-  y=2138 "©"
-      size 12px->14px | lh 16px->21px | COLOR rgba(23, 39, 64, 0.4)->rgb(241, 234, 223)
+  y=720 "Burnout doesn't always show up as a complete breakdown."
+      lh 26px->29.25px
+  y=1066 "When you're used to measuring your worth by how much yo"
+      lh 26px->29.25px
+  y=1386 "We start by listening to what the depletion is asking f"
+      lh 26px->29.25px
 
-### anxiety @desktop  liveH=2165 ghH=2243 (+78)
+### anxiety @desktop  liveH=2165 ghH=2209 (+44)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (12) --
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (7) --
+  y=237 [SPAN] &
   y=534 [H2] Anxiety
   y=534 [H2] Depression
   y=956 [SPAN] You don't have to figure it out alone.
-  y=1279 [SPAN] Understand what's happening beneath the surface
-  y=1290 [SPAN] Recognize the patterns that keep you stuck
-  y=1380 [SPAN] Respond to overwhelm without shutting down
-  y=1380 [SPAN] Challenge thoughts that aren't serving you
-  y=1470 [SPAN] Reconnect with the things that matter to you
-  y=1459 [SPAN] Make changes that feel realistic, not overwhelming
   y=2109 [DIV] ©
   y=2109 [DIV] 2026
   y=2109 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
--- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (5) --
-  y=245 [H1] Anxiety & Depression.
-  y=1592 [P] A place to begin
-  y=1628 [H2] Ready to start a conversation?
-  y=1685 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=2159 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (2) --
+  y=246 [H1] Anxiety & Depression.
+  y=2125 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (28) --
-  y=128 "Back to Services"
-      ls normal->0.14px
-  y=202 "Also in my care"
-      lh 16px->14.5px
-  y=237 "&"
-      font Fraunces->Inter | size 60px->14px | lh 60px->21px | COLOR rgba(23, 39, 64, 0.4)->rgb(241, 234, 223)
+-- STYLE/GEOMETRY DELTAS (31) --
   y=237 "Depression."
-      size 60px->31px | style italic->normal | lh 60px->35.65px | COLOR rgb(88, 25, 37)->rgb(57, 96, 71)
+      size 60px->30px | style italic->normal | lh 60px->36px | COLOR rgb(88, 25, 37)->rgb(57, 96, 71)
   y=244 "Anxiety"
-      size 60px->31px | lh 60px->35.65px
-  y=841 "When they show up together"
-      size 30px->31px | lh 36px->35.65px
+      size 60px->30px | lh 60px->36px
+  y=593 "Anxiety can keep your mind running long after you want "
+      lh 26px->29.25px
+  y=593 "Depression can make everything feel heavier in a differ"
+      lh 26px->29.25px
+  y=901 "Sometimes they show up together. Sometimes one takes ov"
+      lh 26px->29.25px
   y=1108 "How we work with it"
-      size 30px->31px | lh 36px->35.65px | COLOR rgb(23, 39, 64)->rgb(88, 25, 37)
+      COLOR rgb(23, 39, 64)->rgb(88, 25, 37)
   y=1152 "I'm not here to tell you to "just think positively" or "
-      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.75)
-  y=1640 "One piece at a time."
-      size 30px->26px | lh 36px->32.5px | bg null->rgb(88, 25, 37)
-  y=1708 "Get Started"
-      lh 20px->21px | ls 0.35px->normal | COLOR rgb(88, 25, 37)->rgb(241, 234, 223) | bg rgb(241, 234, 223)->rgb(88, 25, 37)
-  y=1985 "CA Lic. #150884"
-      ls 2.4px->normal | transform uppercase->none
-  y=1985 "Kaur Counseling, Marriage & Family Therapy, Inc."
-      ls 2.4px->normal
-  y=1985 "415-930-5395"
-      ls 2.4px->normal
+      lh 26px->29.25px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.75)
+  y=1279 "Understand what's happening beneath the surface"
+      lh 22px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
+  y=1290 "Recognize the patterns that keep you stuck"
+      lh 22px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
+  y=1380 "Respond to overwhelm without shutting down"
+      lh 22px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
+  y=1380 "Challenge thoughts that aren't serving you"
+      lh 22px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
+  y=1459 "Make changes that feel realistic, not overwhelming"
+      lh 22px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
+  y=1470 "Reconnect with the things that matter to you"
+      lh 22px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
 
-### transitions @desktop  liveH=2146 ghH=2730 (+584)
+### transitions @desktop  liveH=2146 ghH=2252 (+106)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (21) --
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (7) --
   y=244 [H1] Going Through a
   y=237 [SPAN] Transition?
-  y=393 [P] Transitions can be
-  y=397 [SPAN] difficult.
-  y=393 [P] It's hard to hold both the hope and excitement for something new with the grief of what wa
   y=456 [SPAN] difficult.
   y=393 [P] My work is to help you make room for all of it — the loss and the possibility — and to fin
-  y=799 [P] The identity shift, the overwhelm, the way love and loss can arrive in the same breath.
-  y=799 [P] A new role, a departure, a pivot — and the questions of purpose and self-worth that travel
-  y=799 [P] Uprooting a life and replanting it, and the quiet grief of leaving a place that held you.
-  y=1079 [P] Beginning, deepening, or ending partnerships — and renegotiating who you are to one anothe
-  y=1106 [P] The pressure of the open road, and the weight of choosing a direction that feels like your
-  y=1106 [P] When one season closes before the next has a name, and you're holding the in-between.
-  y=1322 [H2] Therapy can help you:
-  y=1386 [SPAN] Process your emotions
-  y=1386 [SPAN] Find clarity and direction
-  y=1427 [SPAN] Build confidence in this next chapter
-  y=1427 [SPAN] Feel more grounded and supported
-  y=1621 [P] You don't have to navigate this next chapter alone.
+  y=2090 [DIV] ©
   y=2090 [DIV] 2026
   y=2090 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
--- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (13) --
-  y=245 [H1] Going Through a Transition?
-  y=393 [P] A transition can be chosen, expected, or completely outside your control. It can bring exc
-  y=623 [P] A transition can be chosen, expected, or completely outside your control. It can bring exc
-  y=861 [P] The arrival of a child changes your days, your identity, your partnership, and your relati
-  y=1038 [P] Whether you are leaving, starting, returning, or questioning your path, we can explore pur
-  y=1276 [P] Relocation can unsettle belonging and routines while asking you to create a home again. We
-  y=1454 [P] Beginning, ending, deepening, or renegotiating a relationship can bring old patterns into 
-  y=1691 [P] There is no single right way to become an adult. We can slow down the noise of expectation
-  y=1869 [P] Therapy can help you name what is ending, stay connected to what matters, and build a next
-  y=2079 [P] A place to begin
-  y=2115 [H2] Ready to start a conversation?
-  y=2172 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=2646 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (2) --
+  y=246 [H1] Going Through a Transition?
+  y=2168 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (27) --
-  y=128 "Back to Services"
-      ls normal->0.14px
-  y=202 "Specialty"
-      lh 16px->14.5px
-  y=328 "You don't have to do it alone."
-      size 24px->26px | lh 33px->32.5px
+-- STYLE/GEOMETRY DELTAS (41) --
+  y=393 "Transitions can be"
+      lh 29.25px->29.16px
+  y=393 "It's hard to hold both the hope and excitement for some"
+      lh 29.25px->29.16px
+  y=397 "difficult."
+      weight 500->400 | style normal->italic | lh 29.25px->29.16px | COLOR rgb(88, 25, 37)->rgba(23, 39, 64, 0.75)
   y=590 "You might be navigating…"
-      size 36px->31px | lh 40px->35.65px
+      size 36px->30px | lh 40px->36px
   y=763 "Becoming a Parent"
-      size 20px->31px | lh 27.5px->35.65px
+      size 20px->19px | lh 27.5px->28px | COLOR rgb(88, 25, 37)->rgb(23, 39, 64)
   y=763 "Career Changes"
-      size 20px->31px | lh 27.5px->35.65px
+      size 20px->19px | lh 27.5px->28px | COLOR rgb(57, 96, 71)->rgb(23, 39, 64)
   y=763 "Moving"
-      size 20px->31px | lh 27.5px->35.65px
+      size 20px->19px | lh 27.5px->28px | COLOR rgb(108, 50, 133)->rgb(23, 39, 64)
+  y=799 "The identity shift, the overwhelm, the way love and los"
+      size 15.2px->16px | lh 24.7px->29.25px
+  y=799 "A new role, a departure, a pivot — and the questions of"
+      size 15.2px->16px | lh 24.7px->29.25px
+  y=799 "Uprooting a life and replanting it, and the quiet grief"
+      size 15.2px->16px | lh 24.7px->29.25px
   y=1043 "Relationship Changes"
-      size 20px->31px | lh 27.5px->35.65px
+      size 20px->19px | lh 27.5px->28px | COLOR rgb(88, 25, 37)->rgb(23, 39, 64)
   y=1043 "College & Future Decisions"
-      size 20px->31px | lh 27.5px->35.65px
+      size 20px->19px | lh 27.5px->28px | COLOR rgb(57, 96, 71)->rgb(23, 39, 64)
   y=1043 "Finding Your Next Chapter"
-      size 20px->31px | lh 27.5px->35.65px
-  y=1689 "Get Started"
-      lh 20px->21px | ls 0.35px->normal | COLOR rgb(88, 25, 37)->rgb(241, 234, 223) | bg rgb(241, 234, 223)->rgb(88, 25, 37)
-  y=1966 "CA Lic. #150884"
-      ls 2.4px->normal | transform uppercase->none
-  y=1966 "Kaur Counseling, Marriage & Family Therapy, Inc."
-      ls 2.4px->normal
-  y=1966 "415-930-5395"
-      ls 2.4px->normal
-  y=2090 "©"
-      size 12px->14px | lh 16px->21px | COLOR rgba(23, 39, 64, 0.4)->rgb(241, 234, 223)
+      size 20px->19px | lh 27.5px->28px | COLOR rgb(108, 50, 133)->rgb(23, 39, 64)
+  y=1079 "Beginning, deepening, or ending partnerships — and rene"
+      size 15.2px->16px | lh 24.7px->29.25px
+  y=1106 "The pressure of the open road, and the weight of choosi"
+      size 15.2px->16px | lh 24.7px->29.25px
+  y=1106 "When one season closes before the next has a name, and "
+      size 15.2px->16px | lh 24.7px->29.25px
+  y=1322 "Therapy can help you:"
+      COLOR rgb(57, 96, 71)->rgb(88, 25, 37)
+  y=1386 "Process your emotions"
+      font Fraunces->Inter | size 18px->16px | lh 24.75px->24px
+  y=1386 "Find clarity and direction"
+      font Fraunces->Inter | size 18px->16px | lh 24.75px->24px
+  y=1427 "Build confidence in this next chapter"
+      font Fraunces->Inter | size 18px->16px | lh 24.75px->24px
+  y=1427 "Feel more grounded and supported"
+      font Fraunces->Inter | size 18px->16px | lh 24.75px->24px
 
-### teens @desktop  liveH=2590 ghH=2759 (+169)
+### teens @desktop  liveH=2590 ghH=2721 (+131)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (18) --
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (5) --
   y=244 [H1] Therapy for
   y=237 [SPAN] Teens.
-  y=393 [P] Being a teenager can feel like everyone expects something from you. Keep your grades up. M
-  y=530 [P] Therapy is a place where you don't have to impress anyone or pretend you're doing better t
-  y=667 [P] You don't need to know exactly what you need yet. We can figure that out together.
-  y=1014 [P] Grades, expectations, the weight of performing. School can feel like it asks for more than
-  y=1042 [P] Applications, test scores, the question of what's next. The future can feel like it's due 
-  y=1042 [P] Some questions feel too hard or shameful to bring home — and that's okay. This is a truste
-  y=1423 [P] Friendships shift, you change, and the question of who you are gets louder. We make room t
-  y=1396 [P] A mind that runs fast, gets distracted, or feels like 'too much.' We understand how it sho
-  y=1753 [SPAN] A space that's just yours
-  y=1753 [SPAN] Tools for the pressure
-  y=1794 [SPAN] Words for what you feel
-  y=1794 [SPAN] A safe adult outside your family
-  y=1846 [P] What you share here stays here. The exception is safety — if I'm worried about your wellbe
-  y=2065 [P] You don't have to figure it out alone.
+  y=2534 [DIV] ©
   y=2534 [DIV] 2026
   y=2534 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
--- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (13) --
-  y=245 [H1] Therapy for Teens.
-  y=393 [P] Being a teenager can mean holding school pressure, friendship shifts, family expectations,
-  y=652 [P] Being a teenager can mean holding school pressure, friendship shifts, family expectations,
-  y=890 [P] Grades, comparison, workload, and the fear of disappointing people can turn every assignme
-  y=1068 [P] Applications can make the future feel like a deadline. We can make room for uncertainty, p
-  y=1305 [P] Therapy is a private space with an adult who is not grading you, parenting you, or asking 
-  y=1483 [P] Friendships, identity, body, culture, and belonging can all feel in motion at once. We can
-  y=1721 [P] Whether you are newly diagnosed or wondering if ADHD explains more than you thought, we ca
-  y=1898 [P] What you share here stays here, with the limits of confidentiality explained clearly. You 
-  y=2108 [P] A place to begin
-  y=2144 [H2] Ready to start a conversation?
-  y=2201 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=2675 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (2) --
+  y=246 [H1] Therapy for Teens.
+  y=2637 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (27) --
-  y=128 "Back to Services"
-      ls normal->0.14px
-  y=202 "Specialty"
-      lh 16px->14.5px
-  y=328 "You don't have to have it all figured out."
-      size 24px->26px | lh 33px->32.5px
+-- STYLE/GEOMETRY DELTAS (40) --
+  y=393 "Being a teenager can feel like everyone expects somethi"
+      lh 29.25px->29.16px
+  y=530 "Therapy is a place where you don't have to impress anyo"
+      lh 29.25px->29.16px
+  y=667 "You don't need to know exactly what you need yet. We ca"
+      lh 29.25px->29.16px
   y=806 "What you might be carrying"
-      size 36px->31px | lh 40px->35.65px
+      size 36px->30px | lh 40px->36px
   y=979 "School Pressure"
-      size 20px->31px | lh 27.5px->35.65px | COLOR rgb(88, 25, 37)->rgb(57, 96, 71)
+      size 20px->19px | lh 27.5px->28px | COLOR rgb(88, 25, 37)->rgb(23, 39, 64)
   y=979 "College Prep & Application Stress"
-      size 20px->31px | lh 27.5px->35.65px | COLOR rgb(57, 96, 71)->rgb(108, 50, 133)
+      size 20px->19px | lh 27.5px->28px | COLOR rgb(57, 96, 71)->rgb(23, 39, 64)
   y=979 "A Safe Adult Who Isn't Your Parent"
-      size 20px->31px | lh 27.5px->35.65px | COLOR rgb(108, 50, 133)->rgb(88, 25, 37)
+      size 20px->19px | lh 27.5px->28px | COLOR rgb(108, 50, 133)->rgb(23, 39, 64)
+  y=1014 "Grades, expectations, the weight of performing. School "
+      size 15.2px->16px | lh 24.7px->29.25px
+  y=1042 "Applications, test scores, the question of what's next."
+      size 15.2px->16px | lh 24.7px->29.25px
+  y=1042 "Some questions feel too hard or shameful to bring home "
+      size 15.2px->16px | lh 24.7px->29.25px
   y=1360 "Evolving Friendships & Identity"
-      size 20px->31px | lh 27.5px->35.65px | COLOR rgb(88, 25, 37)->rgb(57, 96, 71)
+      size 20px->19px | lh 27.5px->28px | COLOR rgb(88, 25, 37)->rgb(23, 39, 64)
   y=1360 "ADHD"
-      size 20px->31px | lh 27.5px->35.65px | COLOR rgb(57, 96, 71)->rgb(108, 50, 133)
-  y=1689 "What you get here:"
-      size 30px->31px | lh 36px->35.65px | COLOR rgb(57, 96, 71)->rgb(88, 25, 37)
-  y=2133 "Get Started"
-      lh 20px->21px | ls 0.35px->normal | COLOR rgb(88, 25, 37)->rgb(241, 234, 223) | bg rgb(241, 234, 223)->rgb(88, 25, 37)
-  y=2410 "CA Lic. #150884"
-      ls 2.4px->normal | transform uppercase->none
-  y=2410 "Kaur Counseling, Marriage & Family Therapy, Inc."
-      ls 2.4px->normal
-  y=2410 "415-930-5395"
-      ls 2.4px->normal
-  y=2534 "©"
-      size 12px->14px | lh 16px->21px | COLOR rgba(23, 39, 64, 0.4)->rgb(241, 234, 223)
+      size 20px->19px | lh 27.5px->28px | COLOR rgb(57, 96, 71)->rgb(23, 39, 64)
+  y=1396 "A mind that runs fast, gets distracted, or feels like '"
+      size 15.2px->16px | lh 24.7px->29.25px
+  y=1423 "Friendships shift, you change, and the question of who "
+      size 15.2px->16px | lh 24.7px->29.25px
+  y=1753 "A space that's just yours"
+      font Fraunces->Inter | size 18px->16px | lh 24.75px->24px
+  y=1753 "Tools for the pressure"
+      font Fraunces->Inter | size 18px->16px | lh 24.75px->24px
+  y=1794 "Words for what you feel"
+      font Fraunces->Inter | size 18px->16px | lh 24.75px->24px
+  y=1794 "A safe adult outside your family"
+      font Fraunces->Inter | size 18px->16px | lh 24.75px->24px
+  y=1846 "What you share here stays here. The exception is safety"
+      size 15.2px->16px | lh 24.7px->29.25px | COLOR rgba(23, 39, 64, 0.65)->rgba(23, 39, 64, 0.75)
 
-### privacy @desktop  liveH=2216 ghH=2290 (+74)
+### privacy @desktop  liveH=2216 ghH=2296 (+80)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (4) --
+  y=1073 [P] California License #150884
   y=2160 [DIV] ©
   y=2160 [DIV] 2026
   y=2160 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=2206 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2212 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (36) --
+-- STYLE/GEOMETRY DELTAS (34) --
   y=156 "Privacy, Disclaimer & Crisis Resources"
       ls normal->-0.96px
   y=450 "If you are in crisis"
-      size 24px->28px | lh 32px->32.2px
+      size 24px->28px | lh 32px->36px
   y=773 "Professional disclaimer"
-      size 24px->28px | lh 32px->32.2px
+      size 24px->28px | lh 32px->36px
   y=1025 "Licensee identification"
-      size 24px->28px | lh 32px->32.2px
+      size 24px->28px | lh 32px->36px
   y=1173 "Website privacy"
-      size 24px->28px | lh 32px->32.2px
+      size 24px->28px | lh 32px->36px
   y=1399 "Notice of Privacy Practices (summary)"
-      size 24px->28px | lh 32px->32.2px
+      size 24px->28px | lh 32px->36px
   y=1651 "Telehealth"
-      size 24px->28px | lh 32px->32.2px
+      size 24px->28px | lh 32px->36px
   y=1833 "This page provides a general overview and is not legal "
       size 14px->16px | lh 22.75px->26px | COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
-  y=2036 "CA Lic. #150884"
-      ls 2.4px->normal | transform uppercase->none
-  y=2036 "Kaur Counseling, Marriage & Family Therapy, Inc."
-      ls 2.4px->normal
-  y=2036 "415-930-5395"
-      ls 2.4px->normal
 
