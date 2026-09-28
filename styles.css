@@ -2060,3 +2060,27 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:124px;h
 .about-cta-button:hover,.service-cta-button:hover,.modalities-closing-button:hover{background:var(--spruce);color:var(--cream)}
 .page-resources .book h3 a:hover{color:var(--burgundy)}
 .door-item button:hover>span:nth-child(2){color:var(--burgundy)}
+
+/* Brief 31, task 3: measured phone typography and route rhythm. */
+@media (max-width:767px){
+  body:not([data-page]) .brand-name{letter-spacing:-.5px}
+  body:not([data-page]) .people-intro h2{font-size:30px;line-height:37.5px}
+  body:not([data-page]) .people-section{padding-bottom:264px}
+  body:not([data-page]) .office-section{padding-bottom:0}
+  body:not([data-page]) .site-footer{margin-top:0}
+  body:not([data-page]) .approach-card p{line-height:26px}
+  body:not([data-page]) .footer-business{letter-spacing:2.4px}
+  .footer-crisis{color:rgba(23,39,64,.5)}
+
+  .page-resources .detail-content>.detail-section:last-child{padding-bottom:180px}
+  .page-services-adhd .detail-section p:not(.eyebrow){font-size:14px;line-height:22.75px;color:rgba(23,39,64,.65)}
+  .page-services-adhd .detail-shell{padding-bottom:504px}
+  .page-services-transitions .service-cta{margin-top:207px}
+  .page-services-transitions .detail-content>.detail-section:last-child{padding-bottom:72px}
+  .page-services-transitions .detail-shell{padding-bottom:133px}
+  .page-services-transitions .detail-content>.detail-section:last-child>ul>li,
+  .page-services-teens .detail-content>.detail-section:last-child>ul>li{color:var(--navy)}
+  .page-service .service-list-leaf{right:10px;width:36px}
+  .page-services-teens .service-cta{margin-top:173px}
+  .page-services-teens .detail-shell{padding-bottom:199px}
+}
