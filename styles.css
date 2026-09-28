@@ -1347,3 +1347,112 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
   color:rgb(57,96,71);
   font:italic 24px/33px Fraunces,Georgia,serif;
 }
+
+/* Brief 13: match the live resource poem and stacked book cells. */
+.page-resources .detail-hero{padding-bottom:13px}
+.page-resources .poem-card{
+  display:block;
+  box-sizing:border-box;
+  min-height:290px;
+  margin:40px 0 76px;
+  padding:20px 32px;
+  overflow:hidden;
+  border:1px solid rgba(57,96,71,.2);
+  border-radius:12px;
+  background:rgba(213,222,207,.5);
+  cursor:default;
+  transition:height 500ms ease-out;
+}
+.page-resources .poem-inner{position:relative;max-width:28rem;margin:0 auto;text-align:center}
+.page-resources .poem-card>.poem-corner{position:absolute;display:block;opacity:1}
+.page-resources .poem-card>.poem-corner-top{top:-4px;right:-8px;width:36px;height:auto;color:rgba(57,96,71,.2);transform:rotate(22deg)}
+.page-resources .poem-card>.poem-corner-bottom{bottom:0;left:-4px;width:28px;height:auto;color:rgba(88,25,37,.15);transform:rotate(-18deg)}
+.page-resources .poem-card>.poem-inner>.eyebrow{margin:0;color:rgba(57,96,71,.8);font-size:9.6px;line-height:14.4px;letter-spacing:2.88px;text-transform:uppercase}
+.page-resources .poem-card h2{margin:6px 0 0;color:rgb(23,39,64);font:italic 400 18px/28px Fraunces,Georgia,serif}
+.page-resources .poem-stanza{display:flex;flex-direction:column;gap:2px;color:rgba(23,39,64,.85);font:400 14px/19.25px Fraunces,Georgia,serif}
+.page-resources .poem-stanza p{margin:0;color:inherit;font:inherit}
+.page-resources .poem-first-stanza{margin-top:12px}
+.page-resources .poem-expand{display:grid;grid-template-rows:0fr;opacity:0;margin-top:0;transition:grid-template-rows 500ms ease-out,opacity 500ms ease-out,margin-top 500ms ease-out}
+.page-resources .poem-expand-inner{min-height:0;overflow:hidden}
+.page-resources .poem-card:hover .poem-expand,
+.page-resources .poem-card:focus-visible .poem-expand,
+.page-resources .poem-card:focus-within .poem-expand{grid-template-rows:1fr;opacity:1;margin-top:12px}
+.page-resources .poem-divider{display:flex;align-items:center;justify-content:center;gap:8px;margin:12px 0;color:rgba(57,96,71,.4)}
+.page-resources .poem-divider>span{width:32px;height:1px;background:rgba(57,96,71,.3)}
+.page-resources .poem-divider-leaf{display:block;width:12px;height:auto;transform:rotate(-3deg)}
+.page-resources .poem-credit{margin:12px 0 0!important;color:rgba(88,25,37,.8)!important;font:400 10.4px/15.6px Inter,Arial,sans-serif!important;letter-spacing:2.08px}
+.page-resources .poem-credit span{display:block;margin-top:4px;color:rgba(23,39,64,.5);font-size:10.4px;line-height:15.6px;letter-spacing:normal;text-transform:none}
+.page-resources .poem-credit span a{color:rgb(57,96,71)}
+.page-resources .poem-hint{margin:5px 0 0!important;color:var(--spruce-60)!important;font-size:9.6px!important;line-height:14.4px!important;letter-spacing:1.92px;text-transform:uppercase}
+.page-resources .book-section{padding-left:40px;padding-right:40px}
+.page-resources .book-section h2{margin-bottom:16px}
+.page-resources .book-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:40px;row-gap:32px;margin-top:32px}
+.page-resources .book{display:block;min-width:0;padding:16px 0 0;border-top:1px solid rgba(23,39,64,.12)}
+.page-resources .book h3{margin:0;font:400 20px/27.5px Fraunces,Georgia,serif;color:rgb(23,39,64)}
+.page-resources .book h3 a{display:inline-flex;align-items:flex-start;gap:6px;color:inherit;transition:color 300ms}
+.page-resources .book h3 a:hover{color:var(--burgundy)}
+.page-resources .book h3 svg{display:block;width:13px;height:13px;flex:0 0 13px;margin-top:6px;color:rgba(23,39,64,.4)}
+.page-resources .book .book-author{margin:0!important;color:rgba(23,39,64,.55)!important;font:italic 400 14px/20px Inter,Arial,sans-serif!important}
+.page-resources .book>p:last-child{margin:14px 0 0!important;color:rgba(23,39,64,.7);font-size:15.2px!important;line-height:24.7px!important}
+@media (max-width:800px){
+  .page-resources .detail-hero{padding-bottom:0}
+  .page-resources .poem-card{min-height:300px;margin:40px 0 58px;padding:20px 24px}
+  .page-resources .book-section{padding-left:0;padding-right:0}
+  .page-resources .book-section h2{margin-bottom:16px}
+  .page-resources .book-grid{grid-template-columns:1fr;row-gap:24px;margin-top:28px}
+}
+
+/* Live vertical rhythm corrections from the brief 13 route audit. */
+@media (min-width:1101px){
+  body:not([data-page]) .contact-grid{padding-bottom:38px}
+  body:not([data-page]) .appointment-card{margin-top:78px}
+  body:not([data-page]) .contact-aside{margin-top:0}
+  body:not([data-page]) .next-card{padding-top:40px}
+  body:not([data-page]) .next-card ol{margin-top:24px}
+  body:not([data-page]) .next-card li{margin-bottom:17px}
+
+  .page-about .detail-hero{padding-top:133.5px;padding-bottom:55px}
+  .page-about .about-cards .detail-card{padding-bottom:17px}
+  .page-about .about-human{padding-bottom:49px}
+  .page-about .about-human .fact-grid>div:nth-child(n+4){min-height:206.5px}
+  .page-about .about-work .work-note:last-child{padding-bottom:0}
+  .page-about .about-who{padding-bottom:106px}
+  .page-about .credentials{padding-bottom:0}
+  .page-about .detail-shell{padding-bottom:71px}
+
+  .page-cost .detail-content>.detail-section:first-of-type{margin-top:135px;padding-bottom:32px}
+  .page-cost .detail-content>.detail-section:first-of-type .rate-list>div{padding:7px 0}
+  .page-cost .detail-content>.detail-section:nth-of-type(2){padding-bottom:25px}
+  .page-cost .detail-content>.detail-section:nth-of-type(3){padding-bottom:102px}
+  .page-cost .detail-content>.detail-section:nth-of-type(4){padding-bottom:32px}
+  .page-cost .detail-cta{margin-top:0;padding:48px 40px}
+  .page-cost .detail-shell{padding-bottom:11px}
+
+  .page-modalities .modalities-closing-card{margin-top:180px}
+  .page-modalities .detail-shell{padding-bottom:87px}
+
+  .page-get-started .detail-content{margin-top:79px}
+  .page-get-started .detail-appointment{margin-bottom:138px}
+  .page-get-started .get-started-office .office-facts{margin-top:76px;gap:38px}
+  .page-get-started .detail-shell{padding-bottom:63px}
+
+  .page-services-adhd .detail-content>.detail-section:first-child .detail-card-grid{margin-bottom:0}
+  .page-services-adhd .detail-content>.detail-section:first-child{padding-bottom:61px}
+  .page-services-adhd .detail-content>.detail-section:nth-child(3) .detail-card-grid{margin-bottom:47px}
+  .page-services-adhd .service-cta{margin-top:0}
+  .page-services-adhd .detail-shell{padding-bottom:158px}
+
+  .page-services-multiculturalism .service-panel-card,
+  .page-services-burnout .service-panel-card{margin-bottom:42px}
+  .page-services-multiculturalism .detail-shell{padding-bottom:90px}
+  .page-services-burnout .detail-shell{padding-bottom:106px}
+  .page-services-anxiety-depression .detail-content>.detail-section:last-child{padding-bottom:105px}
+  .page-services-transitions .detail-shell{padding-bottom:68px}
+  .page-services-teens .detail-shell{padding-bottom:85px}
+  .page-privacy .detail-shell{padding-bottom:75px}
+
+  .page-resources .book-section{padding-bottom:48px}
+  .page-resources .book-section+.book-section{margin-top:66px}
+  .page-resources .book-section+.detail-section:not(.book-section){margin-top:108px}
+  .page-resources .detail-shell{padding-bottom:20px}
+}
