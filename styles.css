@@ -2039,11 +2039,6 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:124px;h
   body:not([data-page]) .site-footer{margin-top:-1px}
 }
 
-/* Preserve the measured tablet get-started page height. */
-@media (min-width:768px) and (max-width:1023px){
-  .page-get-started .detail-shell{padding-bottom:19.25px}
-}
-
 /* Brief 32, task 3: restore the tablet type and color values from live. */
 @media (min-width:768px) and (max-width:1023px){
   body:not([data-page]) .brand-name{letter-spacing:-.5px}
