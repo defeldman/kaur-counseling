@@ -6,7 +6,7 @@ const esc = (value) => String(value).replace(/[&<>"']/g, (character) => ({
 const link = (path) => `${root}${path}`;
 const paras = (items) => items.map((item) => `<p>${esc(item)}</p>`).join('');
 const section = (heading, items, className = '') => `<section class="detail-section ${className}"><h2>${esc(heading)}</h2>${paras(items)}</section>`;
-const serviceSection = (heading, content, className = '') => `<section class="detail-section ${className}">${sectionHeading(heading, heading === 'How it shows up' ? 1 : heading === 'How we work with it' ? 2 : 0)}${content}</section>`;
+const serviceSection = (heading, content, className = '') => `<section class="detail-section ${className}">${heading === 'Therapy can help you:' || heading === 'What you get here:' ? featherSvg('service-list-leaf') : ''}${sectionHeading(heading, heading === 'How it shows up' ? 1 : heading === 'How we work with it' ? 2 : 0)}${content}</section>`;
 const cardIcons = {
   'Becoming a Parent':'baby','Career Changes':'briefcase','Moving':'house','Relationship Changes':'heart-handshake','College & Future Decisions':'graduation-cap','Finding Your Next Chapter':'compass',
   'School Pressure':'backpack','College Prep & Application Stress':'graduation-cap',"A Safe Adult Who Isn't Your Parent":'heart-handshake','Evolving Friendships & Identity':'users','ADHD':'brain'
