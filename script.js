@@ -37,6 +37,7 @@ document.querySelectorAll('.door-item button').forEach((button) => {
     const shouldOpen = !item.classList.contains('is-open');
     item.classList.toggle('is-open', shouldOpen);
     button.setAttribute('aria-expanded', String(shouldOpen));
+    item.querySelector('.door-detail')?.setAttribute('aria-hidden', String(!shouldOpen));
   });
 });
 
@@ -67,7 +68,7 @@ if (officeNotice && 'IntersectionObserver' in window) {
 }
 
 const scrollRevealTargets = document.querySelectorAll([
-  '.about-intro', '.about-grid', '.rumi-quote',
+  '.about-intro', '.portrait-frame', '.about-copy', '.rumi-quote',
   '.narrow-intro', '.wheelhouse-item', '.door-intro', '.door-item',
   '.centered-intro', '.approach-card', '.centered-link',
   '.people-intro', '.person-card', '.modalities-intro', '.modality-item',
@@ -75,10 +76,26 @@ const scrollRevealTargets = document.querySelectorAll([
   '.office-copy', '.map-frame', '.detail-hero', '.detail-content > *', '.detail-cta'
 ].join(','));
 
+const revealStaggerGroups = [
+  { selector: '.about-copy', delay: 0.15 },
+  { selector: '.contact-aside', delay: 0.15 },
+  { selector: '.map-frame', delay: 0.15 },
+  { selector: '.wheelhouse-item', step: 0.12 },
+  { selector: '.approach-card', step: 0.12 },
+  { selector: '.person-card', step: 0.08 },
+  { selector: '.modality-item', step: 0.12 }
+];
+const revealDelays = new Map();
+revealStaggerGroups.forEach(({ selector, delay, step }) => {
+  document.querySelectorAll(selector).forEach((element, index) => {
+    revealDelays.set(element, delay ?? index * step);
+  });
+});
+
 if (scrollRevealTargets.length && 'IntersectionObserver' in window) {
-  scrollRevealTargets.forEach((element, index) => {
+  scrollRevealTargets.forEach((element) => {
     element.classList.add('scroll-reveal');
-    if (index % 4) element.style.transitionDelay = `${(index % 4) * 0.12}s`;
+    element.style.transitionDelay = `${revealDelays.get(element) || 0}s`;
   });
   const revealObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
