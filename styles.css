@@ -1810,3 +1810,25 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
 
   .page-privacy .detail-shell{padding-bottom:159px}
 }
+
+/* Brief 18: final desktop corrections limited to the three audited routes. */
+@media (min-width:1101px){
+  .page-about .back-link,
+  .page-cost .back-link,
+  .page-resources .back-link{display:block;width:max-content}
+
+  .page-about .back-link{margin-bottom:-10px}
+  .page-about .detail-lede{margin-top:15px}
+  .page-about .detail-shell{padding-bottom:91px}
+
+  .page-cost .back-link{margin-bottom:-13px}
+  .page-cost .detail-content>.detail-section:first-of-type{margin-top:122px;padding-bottom:62px}
+  .page-cost .rate-list{color:rgba(23,39,64,.75);font-size:16px;line-height:26px}
+  .page-cost .detail-cta{padding-left:0;padding-right:0}
+  .page-cost .detail-cta>p:not(.eyebrow){max-width:none}
+  .page-cost .detail-shell{padding-bottom:1px}
+
+  .page-resources .back-link{margin-bottom:-7px}
+  .page-resources .poem-card{margin-top:33px}
+  .page-resources .detail-shell{padding-bottom:15px}
+}
