@@ -1,0 +1,850 @@
+### home @mobile  liveH=15566 ghH=15528 (-38)
+
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (11) --
+  y=1972 [P] "As you live deeper in the heart, the mirror gets clearer and cleaner."
+  y=3566 [H3] AD(H)D & Late-Stage Diagnosis
+  y=4452 [H3] Young Women Coming of Age
+  y=5457 [A] Learn more
+  y=5541 [A] Learn more
+  y=5602 [A] Learn more
+  y=5762 [A] Learn more
+  y=14662 [P] .
+  y=15510 [DIV] ©
+  y=15510 [DIV] 2026
+  y=15510 [DIV] Sohavani Mand, LMFT. Confidential by design.
+
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (11) --
+  y=1972 [P] "As you live deeper in the heart,
+  y=1972 [P] the mirror gets clearer and cleaner."
+  y=3547 [H3] AD(H)D & Late-Stage
+  y=3547 [H3] Diagnosis
+  y=4252 [H3] Young Women Coming
+  y=4252 [H3] of Age
+  y=6213 [SPAN] Healing takes its own time, be gentle with yourself
+  y=6213 [SPAN] Healing takes its own time, be gentle with yourself
+  y=6213 [SPAN] Healing takes its own time, be gentle with yourself
+  y=6213 [SPAN] Healing takes its own time, be gentle with yourself
+  y=15463 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+
+-- STYLE/GEOMETRY DELTAS (166) --
+  y=24 "Kaur Counseling"
+      ls -0.5px->normal
+  y=56 "Marriage and Family Therapy, Inc."
+      size 11.2px->9px | lh 11.2px->13.5px | ls 2.24px->2.16px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
+  y=298 "Welcome"
+      lh 14.4px->12px
+  y=328 "In-person & virtual therapy"
+      lh 24px->21.6px | ls -0.5px->normal
+  y=328 "in"
+      lh 24px->21.6px | ls -0.5px->normal
+  y=351 "SF's Mission District"
+      lh 24px->21.6px | ls -0.5px->normal
+  y=400 "Get Started"
+      size 11.2px->11px | weight 500->400 | lh 16.8px->20px | ls 0.28px->0.35px
+  y=658 "Scroll to explore"
+      size 9.6px->9px | lh 14.4px->13.5px | COLOR rgba(23, 39, 64, 0.55)->rgb(125, 123, 122)
+  y=830 "A calm, private room in the heart of the Mission Distri"
+      lh 22.75px->21px
+  y=1009 "3150 18th St, Suite 404, San Francisco, CA 94110"
+      COLOR rgb(88, 25, 37)->rgba(23, 39, 64, 0.75)
+  y=1230 "Kaur Counseling — "Kaur" is pronounced like "Core""
+      font Inter->Fraunces | lh 16px->18px
+  y=1270 "Therapy rooted in"
+      size 36px->39px | lh 45px->42.12px | ls normal->-0.78px
+  y=1270 "and connection."
+      size 36px->39px | lh 45px->42.12px | ls normal->-0.78px
+  y=1315 "authenticity, curiosity,"
+      size 36px->39px | lh 45px->42.12px | ls normal->-0.78px
+  y=2083 "— Rumi"
+      size 14px->11px | lh 20px->11px | ls 2.8px->3.08px
+  y=2151 "Hi, and welcome — I'm glad you're here. If you've found"
+      size 16px->14px | lh 26px->21px
+  y=2249 "Maybe you're deeply self-aware but still repeating the "
+      size 16px->14px | lh 26px->21px
+  y=2477 "If you're feeling stuck, unmoored, or ready for somethi"
+      size 16px->14px | lh 26px->21px
+  y=2783 "Over time, therapy can help you feel more grounded, mor"
+      size 16px->14px | lh 26px->21px
+  y=3219 "My"
+      size 36px->39px | lh 45px->42.12px
+  y=3219 "Wheelhouse."
+      size 36px->39px | lh 45px->42.12px
+  y=3296 "The areas I've gone deepest in, where my training, curi"
+      size 16px->15px | lh 26px->22.5px
+  y=3667 "A diagnosis arriving in adulthood reframes a lifetime. "
+      size 16px->14px | lh 26px->22.4px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=4009 "Multicultural & Cross-Cultural Therapy"
+      lh 32px->25.92px
+  y=4110 "Living between cultures is a quiet, ongoing negotiation"
+      size 16px->14px | lh 26px->22.4px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=4521 "For teen girls and young women navigating the pressure "
+      size 16px->14px | lh 26px->22.4px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=4845 "Transitions"
+      lh 32px->25.92px
+  y=4914 "Becoming a parent, a career change, a move, a new chapt"
+      size 16px->14px | lh 26px->22.4px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=5158 "What brings you through the"
+      size 24px->29px | lh 30px->31.32px
+  y=5188 "door"
+      size 24px->29px | lh 30px->31.32px
+  y=5234 "Therapy doesn't always begin with a clear diagnosis or "
+      size 16px->15px | lh 26px->22.5px
+  y=5364 "Burnout"
+      lh 28px->27px
+  y=5404 "Including work, relationship, and daily-life depletion "
+      lh 22.75px->21px
+  y=5425 "Anxiety & Depression"
+      lh 28px->27px
+  y=5465 "Including panic attacks, climate and health anxiety, pe"
+      lh 22.75px->21px
+  y=5486 "Teens"
+      lh 28px->27px
+  y=5526 "Including school pressure, college application stress, "
+      lh 22.75px->21px
+  y=5547 "Relationship issues"
+      lh 28px->27px
+  y=5587 "Including communication struggles, conflict patterns, a"
+      lh 22.75px->21px
+  y=5608 "Sex & intimacy"
+      lh 28px->27px
+  y=5648 "Including desire discrepancies, sexual shame, and recon"
+      lh 22.75px->21px
+  y=5669 "Life transitions"
+      lh 28px->27px
+  y=5709 "Including career changes, relocation, and new parenthoo"
+      lh 22.75px->21px
+  y=5730 "Trauma"
+      lh 28px->27px
+  y=5770 "Including childhood trauma and intergenerational trauma"
+      lh 22.75px->21px
+  y=5791 "Grief & loss"
+      lh 28px->27px
+  y=5831 "Including the loss of loved ones, relationships, and id"
+      lh 22.75px->21px
+  y=5852 "Self-esteem"
+      lh 28px->27px
+  y=5892 "Including self-worth, imposter feelings, and the inner "
+      lh 22.75px->21px
+  y=5913 "Identity exploration"
+      lh 28px->27px
+  y=5953 "Including cultural, sexual, and gender identity."
+      lh 22.75px->21px
+  y=5974 "Parenting & family stress"
+      lh 28px->27px
+  y=6014 "Including co-parenting, blended families, and generatio"
+      lh 22.75px->21px
+  y=6035 "Work-life balance"
+      lh 28px->27px
+  y=6075 "Including boundaries, rest, and finding meaning."
+      lh 22.75px->21px
+  y=6096 "Chronic stress"
+      lh 28px->27px
+  y=6136 "Including caregiving stress and burnout recovery."
+      lh 22.75px->21px
+  y=6157 "Career uncertainty"
+      lh 28px->27px
+  y=6197 "Including transitions, re-entry, and questions of purpo"
+      lh 22.75px->21px
+  y=6476 "Our Approach"
+      COLOR rgb(88, 25, 37)->rgb(57, 96, 71)
+  y=6514 "Two principles that"
+      size 36px->39px | lh 45px->42.12px
+  y=6559 "guide every session."
+      size 36px->39px | lh 45px->42.12px
+  y=6710 "Collaboration"
+      font Fraunces->Inter | size 20px->21px | weight 400->500 | lh 28px->23.1px | ls 3.6px->5.88px
+  y=6858 "You don't have to carry this alone. We'll walk it toget"
+      size 15.2px->14px | lh 24.7px->21.7px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=6923 "Together we identify your goals and shape a treatment p"
+      size 15.2px->14px | lh 24.7px->21.7px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=7013 "Feel comfortable to be open and honest in a safe, non-j"
+      size 15.2px->14px | lh 24.7px->21.7px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=7103 "Develop skills for improved inter-relations."
+      size 15.2px->14px | lh 24.7px->21.7px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=7269 "Self Empowerment"
+      font Fraunces->Inter | size 20px->21px | weight 400->500 | lh 28px->23.1px | ls 3.6px->5.88px
+  y=7445 "Discover inner strength to achieve your goals."
+      size 15.2px->14px | lh 24.7px->21.7px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=7510 "Understand how your individual experiences shape your w"
+      size 15.2px->14px | lh 24.7px->21.7px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=7600 "Discover often unconscious meanings and motivations."
+      size 15.2px->14px | lh 24.7px->21.7px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=7665 "Release patterns that no longer serve you, and move tow"
+      size 15.2px->14px | lh 24.7px->21.7px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=8126 "Who this room"
+      size 30px->16.38px | lh 37.5px->17.6904px
+  y=8126 "is for."
+      size 30px->16.38px | lh 37.5px->17.6904px
+  y=8183 "Whoever you are, however you got here, this is a space "
+      size 16px->14px | lh 26px->21px
+  y=8494 "Women"
+      size 24px->28px | lh 30px->30.24px
+  y=8553 "Therapy can be a space to figure yourself out by explor"
+      size 15.2px->14px | lh 24.7px->21.98px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=9026 "People of Color"
+      size 24px->28px | lh 30px->30.24px
+  y=9085 "Therapy can be a space to explore how culture, family, "
+      size 15.2px->14px | lh 24.7px->21.98px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=9632 "Men"
+      size 24px->28px | lh 30px->30.24px
+  y=9691 "Therapy can be a place to explore the parts of yourself"
+      size 15.2px->14px | lh 24.7px->21.98px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=10263 "Teens Coming of Age"
+      size 24px->28px | lh 30px->30.24px
+  y=10322 "Adolescence is its own country. A quiet, judgment-free "
+      size 15.2px->14px | lh 24.7px->21.98px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=10647 "LGBTQ+ Community"
+      size 24px->28px | lh 30px->30.24px
+  y=10706 "A space to speak openly about identity, relationships, "
+      size 15.2px->14px | lh 24.7px->21.98px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=11092 "Modalities"
+      COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
+  y=11134 "Three lenses,"
+      size 36px->39px | lh 45px->42.12px
+  y=11134 "one gentle practice."
+      size 36px->39px | lh 45px->42.12px
+  y=11256 "No single approach fits every life. These are the frame"
+      size 16px->14px | lh 26px->21px
+  y=11526 "Relational Therapy"
+      lh 32px->25.92px
+  y=11535 "01"
+      size 14px->13px | lh 20px->normal
+  y=11595 "The relationship is the therapy. We slow down the space"
+      size 16px->14px | lh 26px->22.4px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=11867 "Attachment"
+      lh 32px->25.92px
+  y=11876 "02"
+      size 14px->13px | lh 20px->normal
+  y=11936 "Early bonds leave a quiet blueprint. Together we trace "
+      size 16px->14px | lh 26px->22.4px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=12208 "Internal Family Systems"
+      lh 32px->25.92px
+  y=12217 "03"
+      size 14px->13px | lh 20px->normal
+  y=12277 "Inside you is a whole constellation of parts — protecto"
+      size 16px->14px | lh 26px->22.4px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=12477 "Helping you understand yourself — not just your symptom"
+      lh 33px->30px
+  y=12920 "Are we the"
+      size 36px->42px | lh 45px->45.36px
+  y=12965 "right fit?"
+      size 36px->42px | lh 45px->45.36px
+  y=13042 "I'm glad you're here. Finding the right therapist is su"
+      size 16px->14px | lh 26px->21px
+  y=13328 "Choose a service, share a brief note about what brings "
+      size 16px->14px | lh 26px->21px
+  y=13532 "Opens a secure scheduling window, no email form."
+      size 12px->11px | lh 16px->16.5px
+  y=13780 "What happens next"
+      ls 2.4px->3px
+  y=13822 "01"
+      lh 24.75px->normal
+  y=13822 "Click request appointment and schedule your consultatio"
+      size 16px->14px | lh 26px->21px
+  y=13920 "02"
+      lh 24.75px->normal
+  y=13920 "I'll give you a call for a 15-minute chat so we can see"
+      size 16px->14px | lh 26px->21px
+  y=14018 "03"
+      lh 24.75px->normal
+  y=14018 "If we're a good fit, I'll get you scheduled for your fi"
+      size 16px->14px | lh 26px->21px
+  y=14161 "Tue–Sat · 9am–6pm"
+      size 14px->13px | lh 20px->19.5px
+  y=14201 "3150 18th St, Suite 404 · Mission District, SF"
+      size 14px->13px | lh 20px->19.5px
+  y=14241 "sohavani@kaurcounseling.net"
+      size 14px->13px | lh 20px->19.5px
+  y=14281 "415-930-5395"
+      size 14px->13px | lh 20px->19.5px
+  y=14495 "My office is a calm, private space in the heart of the "
+      size 16px->14px | lh 26px->21px
+  y=14662 "but in-person sessions start"
+      lh 22.75px->21px | bg null->rgba(232, 224, 212, 0.55)
+  y=14664 "Virtual sessions are always available,"
+      weight 600->700 | lh 22.75px->21px
+  y=14687 "October 1st"
+      weight 600->700 | lh 22.75px->21px
+  y=14757 "3150 18th St, Suite 404, San Francisco, CA 94110"
+      size 14px->13px | COLOR rgba(23, 39, 64, 0.8)->rgba(23, 39, 64, 0.75)
+  y=14818 "415-930-5395"
+      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.8)->rgba(23, 39, 64, 0.75)
+  y=15254 "Kaur Counseling, Marriage & Family Therapy, Inc."
+      size 12px->10px | ls 2.4px->1.6px
+  y=15278 "415-930-5395"
+      size 12px->10px
+  y=15286 "CA Lic. #150884"
+      size 12px->10px
+
+### about @mobile  liveH=5899 ghH=5899 (0)
+
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (5) --
+  y=112 [A] Back to Home
+  y=276 [H1] Therapy as a practice in honesty and self love.
+  y=5843 [DIV] ©
+  y=5843 [DIV] 2026
+  y=5843 [DIV] Sohavani Mand, LMFT. Confidential by design.
+
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (3) --
+  y=235 [H1] Therapy as a practice in honesty and
+  y=269 [EM] self love.
+  y=5834 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+
+-- STYLE/GEOMETRY DELTAS (58) --
+  y=24 "Kaur Counseling"
+      ls -0.5px->normal
+  y=56 "Marriage and Family Therapy, Inc."
+      size 11.2px->9px | lh 11.2px->13.5px | ls 2.24px->2.16px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
+  y=366 "I'm a brown, South Asian therapist practicing in San Fr"
+      size 16px->14px | lh 26px->23.1px
+  y=656 "What to expect"
+      size 24px->30px | lh 32px->36px
+  y=704 "Get Started"
+      size 14px->12px
+  y=1938 "A few things about me"
+      size 24px->30px | lh 32px->36px
+  y=2035 "First-gen Indian woman"
+      size 18px->17px
+  y=2071 "I'm a mix of Indian values, American independence, and "
+      size 14px->13px | lh 22.75px->20.15px
+  y=2281 "ADHD brain"
+      size 18px->17px
+  y=2317 "I know what it's like to have a brain that does things "
+      size 14px->13px | lh 22.75px->20.15px
+  y=2482 "Dog mom"
+      size 18px->17px
+  y=2518 "I believe dogs make almost everything better. Mine also"
+      size 14px->13px | lh 22.75px->20.15px
+  y=2706 "Lifelong learner"
+      size 18px->17px
+  y=2742 "I'm endlessly curious and will happily go down a comple"
+      size 14px->13px | lh 22.75px->20.15px
+  y=2907 "Chocolate fiend"
+      size 18px->17px
+  y=2943 "If there's chocolate involved, I'm interested. Dandelio"
+      size 14px->13px | lh 22.75px->20.15px
+  y=3131 "Duct tape & coffee"
+      size 18px->17px
+  y=3167 "Because sometimes that's honestly what getting through "
+      size 14px->13px | lh 22.75px->20.15px
+  y=3376 "How we'll work together"
+      size 24px->30px | lh 32px->36px
+  y=3440 "How I work"
+      size 20px->19px
+  y=3476 "My approach is relational, strengths-based, and collabo"
+      size 16px->14px | lh 26px->23.1px
+  y=3750 "What therapy feels like"
+      size 20px->19px
+  y=3786 "You'll find a safe, nonjudgmental space to set down the"
+      size 16px->14px | lh 26px->23.1px
+  y=4152 "Who I see"
+      size 24px->30px | lh 32px->36px
+  y=4249 "I see individuals, couples, and families, teens through"
+      size 16px->14px | lh 26px->23.1px
+  y=4622 "Training & credentials"
+      size 24px->30px | lh 32px->36px
+  y=5587 "Kaur Counseling, Marriage & Family Therapy, Inc."
+      size 12px->10px | ls 2.4px->1.6px
+  y=5611 "415-930-5395"
+      size 12px->10px
+  y=5619 "CA Lic. #150884"
+      size 12px->10px
+
+### cost @mobile  liveH=2868 ghH=2576 (-292)
+
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (7) --
+  y=128 [A] Back to Home
+  y=1048 [SPAN] 50-minute individual session — $250
+  y=1084 [SPAN] 80-minute extended session — $400
+  y=1120 [SPAN] Couples and family sessions — $300 (50 minutes)
+  y=2812 [DIV] ©
+  y=2812 [DIV] 2026
+  y=2812 [DIV] Sohavani Mand, LMFT. Confidential by design.
+
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (7) --
+  y=846 [SPAN] 50-minute individual session —
+  y=846 [STRONG] $250
+  y=902 [SPAN] 80-minute extended session —
+  y=902 [STRONG] $400
+  y=958 [SPAN] Couples and family sessions —
+  y=958 [STRONG] $300 (50 minutes)
+  y=2511 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+
+-- STYLE/GEOMETRY DELTAS (29) --
+  y=24 "Kaur Counseling"
+      ls -0.5px->normal
+  y=56 "Marriage and Family Therapy, Inc."
+      size 11.2px->9px | lh 11.2px->13.5px | ls 2.24px->2.16px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
+  y=202 "The Investment"
+      COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
+  y=244 "The cost of individual therapy"
+      size 36px->40px | lh 45px->40px
+  y=720 "Therapy is an investment in the life you're building. F"
+      size 18px->14px | lh 29.25px->21px | COLOR rgba(23, 39, 64, 0.75)->rgb(23, 39, 64)
+  y=1276 "Payment is due at the time of each session and can be m"
+      size 16px->14px | lh 26px->23.1px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=1510 "I'm out-of-network with most insurance plans, which kee"
+      size 16px->14px | lh 26px->23.1px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=1978 "Choosing not to bill insurance means your diagnosis and"
+      size 16px->14px | lh 26px->23.1px | COLOR rgba(23, 39, 64, 0.75)->rgba(23, 39, 64, 0.7)
+  y=2224 "If this feels like the right place to begin, you don't "
+      font Fraunces->Inter | size 24px->14px | style italic->normal | lh 33px->21px | COLOR rgb(57, 96, 71)->rgb(94, 102, 112)
+  y=2556 "Kaur Counseling, Marriage & Family Therapy, Inc."
+      size 12px->10px | ls 2.4px->1.6px
+  y=2580 "415-930-5395"
+      size 12px->10px
+  y=2588 "CA Lic. #150884"
+      size 12px->10px
+
+### resources @mobile  liveH=4631 ghH=4209 (-422)
+
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (6) --
+  y=128 [A] Back to About
+  y=216 [H1] A reading list for
+  y=216 [SPAN] the curious and healing.
+  y=4575 [DIV] ©
+  y=4575 [DIV] 2026
+  y=4575 [DIV] Sohavani Mand, LMFT. Confidential by design.
+
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (3) --
+  y=194 [H1] A reading list for the
+  y=233 [EM] curious and healing.
+  y=4144 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+
+-- STYLE/GEOMETRY DELTAS (92) --
+  y=24 "Kaur Counseling"
+      ls -0.5px->normal
+  y=56 "Marriage and Family Therapy, Inc."
+      size 11.2px->9px | lh 11.2px->13.5px | ls 2.24px->2.16px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
+  y=180 "Resources"
+      COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
+  y=315 "Books I return to and often share with clients. These a"
+      size 18px->16px
+  y=703 "Translated by Coleman Barks ·"
+      style italic->normal
+  y=704 "Scottish Poetry Library"
+      style italic->normal
+  y=870 "Relationships"
+      size 24px->28px | lh 32px->36px
+  y=914 "On attachment, communication, and the everyday work of "
+      size 16px->14px | lh 26px->23.1px
+  y=1838 "Parenting"
+      size 24px->28px | lh 32px->36px
+  y=1882 "On raising whole humans, and on tending yourself along "
+      size 16px->14px | lh 26px->23.1px
+  y=2813 "Self-help"
+      size 24px->28px | lh 32px->36px
+  y=2857 "Gentle, honest reads for growth, meaning, and self-acce"
+      size 16px->14px | lh 26px->23.1px
+  y=3544 "Trauma"
+      size 24px->28px | lh 32px->36px
+  y=3588 "On how the body and mind carry what happened, and the p"
+      size 16px->14px | lh 26px->23.1px
+  y=4319 "Kaur Counseling, Marriage & Family Therapy, Inc."
+      size 12px->10px | ls 2.4px->1.6px
+  y=4343 "415-930-5395"
+      size 12px->10px
+  y=4351 "CA Lic. #150884"
+      size 12px->10px
+
+### modalities @mobile  liveH=5529 ghH=5323 (-206)
+
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
+  y=5473 [DIV] ©
+  y=5473 [DIV] 2026
+  y=5473 [DIV] Sohavani Mand, LMFT. Confidential by design.
+
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
+  y=5258 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+
+-- STYLE/GEOMETRY DELTAS (56) --
+  y=24 "Kaur Counseling"
+      ls -0.5px->normal
+  y=56 "Marriage and Family Therapy, Inc."
+      size 11.2px->9px | lh 11.2px->13.5px | ls 2.24px->2.16px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
+  y=185 "The lenses"
+      size 36px->43px | lh 45px->43px
+  y=230 "I work from."
+      size 36px->43px | lh 45px->43px
+  y=856 "Internal Family Systems"
+      lh 33px->28.8px
+  y=1652 "Dialectical Behavior Therapy"
+      lh 33px->28.8px
+  y=2507 "Cognitive Behavioral Therapy"
+      lh 33px->28.8px
+  y=3258 "Art"
+      lh 33px->28.8px
+  y=3950 "Attachment"
+      lh 33px->28.8px
+  y=4767 "Curious which lens"
+      size 30px->28px | lh 37.5px->34px
+  y=4804 "fits your story?"
+      size 30px->28px | lh 37.5px->34px
+  y=5217 "Kaur Counseling, Marriage & Family Therapy, Inc."
+      size 12px->10px | ls 2.4px->1.6px
+  y=5241 "415-930-5395"
+      size 12px->10px
+  y=5249 "CA Lic. #150884"
+      size 12px->10px
+
+### get-started @mobile  liveH=2137 ghH=1913 (-224)
+
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (7) --
+  y=1236 [SPAN] Virtual sessions are always available,
+  y=1234 [P] but in-person sessions start
+  y=1259 [SPAN] October 1st
+  y=1234 [P] .
+  y=2081 [DIV] ©
+  y=2081 [DIV] 2026
+  y=2081 [DIV] Sohavani Mand, LMFT. Confidential by design.
+
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (2) --
+  y=1007 [P] Virtual sessions are always available, but in-person sessions start October 1st.
+  y=1848 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+
+-- STYLE/GEOMETRY DELTAS (30) --
+  y=24 "Kaur Counseling"
+      ls -0.5px->normal
+  y=56 "Marriage and Family Therapy, Inc."
+      size 11.2px->9px | lh 11.2px->13.5px | ls 2.24px->2.16px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
+  y=134 "Get Started"
+      COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
+  y=176 "Are we the"
+      size 36px->43px | lh 45px->46.44px | ls normal->-1.075px
+  y=176 "right fit?"
+      size 36px->43px | lh 45px->46.44px | ls normal->-1.075px
+  y=253 "I'm glad you're here. Finding the right therapist is su"
+      size 18px->14px | lh 29.25px->23.1px
+  y=604 "Choose a service, share a brief note about what brings "
+      size 16px->15px | lh 26px->24px
+  y=808 "Opens a secure scheduling window, no email form."
+      size 12px->11px | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
+  y=1067 "My office is a calm, private space in the heart of the "
+      size 16px->14px | lh 26px->23.1px
+  y=1328 "3150 18th St, Suite 404, San Francisco, CA 94110"
+      size 14px->13px
+  y=1390 "415-930-5395"
+      size 14px->13px | lh 20px->19.5px
+  y=1825 "Kaur Counseling, Marriage & Family Therapy, Inc."
+      size 12px->10px | ls 2.4px->1.6px
+  y=1849 "415-930-5395"
+      size 12px->10px
+  y=1857 "CA Lic. #150884"
+      size 12px->10px
+
+### adhd @mobile  liveH=5846 ghH=5614 (-232)
+
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
+  y=5790 [DIV] ©
+  y=5790 [DIV] 2026
+  y=5790 [DIV] Sohavani Mand, LMFT. Confidential by design.
+
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
+  y=5549 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+
+-- STYLE/GEOMETRY DELTAS (63) --
+  y=24 "Kaur Counseling"
+      ls -0.5px->normal
+  y=56 "Marriage and Family Therapy, Inc."
+      size 11.2px->9px | lh 11.2px->13.5px | ls 2.24px->2.16px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
+  y=202 "Specialty"
+      COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
+  y=244 "ADHD & Late-Stage"
+      size 36px->43px | lh 37.8px->43px | ls normal->-1.29px
+  y=278 "Diagnosis."
+      size 36px->43px | lh 37.8px->43px | ls normal->-1.29px
+  y=442 "An ADHD diagnosis arriving later in life doesn't only n"
+      size 18px->16px
+  y=759 "ADD in women looks different"
+      size 24px->30px | lh 33px->36px
+  y=845 "The picture most people carry is a boy who can't sit st"
+      size 16px->14px
+  y=2028 "When the diagnosis arrives later"
+      size 24px->30px | lh 33px->36px
+  y=2114 "For years you may have moved through the world believin"
+      size 16px->14px
+  y=2470 "How it shows up"
+      size 24px->30px | lh 33px->36px
+  y=3809 "The grief, and the broken trust in yourself"
+      size 24px->30px | lh 33px->36px
+  y=3928 "A late diagnosis often arrives with grief: for the year"
+      size 16px->14px
+  y=4260 "This fractured trust often creates a cycle of self-frus"
+      size 16px->14px
+  y=4668 "How we work with it"
+      size 24px->30px | lh 33px->36px
+  y=4762 "Honor your gifts: creativity, intensity, range."
+      size 16px->14px
+  y=4876 "Tend the costs of pretending."
+      size 16px->14px
+  y=4970 "Grieve what was, and slowly rebuild trust in yourself."
+      size 16px->14px
+  y=5084 "Build rhythms and boundaries shaped for how your brain "
+      size 16px->14px
+  y=5211 "You are not a problem to be fixed. You are a person lea"
+      size 20px->24px | lh 27.5px->33px | COLOR rgb(57, 96, 71)->rgb(241, 234, 223)
+  y=5325 "Get Started"
+      COLOR rgb(241, 234, 223)->rgb(88, 25, 37) | bg rgb(88, 25, 37)->rgb(241, 234, 223)
+  y=5534 "Kaur Counseling, Marriage & Family Therapy, Inc."
+      size 12px->10px | ls 2.4px->1.6px
+  y=5558 "415-930-5395"
+      size 12px->10px
+  y=5566 "CA Lic. #150884"
+      size 12px->10px
+
+### multiculturalism @mobile  liveH=3451 ghH=3307 (-144)
+
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
+  y=3395 [DIV] ©
+  y=3395 [DIV] 2026
+  y=3395 [DIV] Sohavani Mand, LMFT. Confidential by design.
+
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
+  y=3242 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+
+-- STYLE/GEOMETRY DELTAS (35) --
+  y=24 "Kaur Counseling"
+      ls -0.5px->normal
+  y=56 "Marriage and Family Therapy, Inc."
+      size 11.2px->9px | lh 11.2px->13.5px | ls 2.24px->2.16px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
+  y=202 "Specialty"
+      COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
+  y=244 "Multicultural &"
+      size 36px->43px | lh 37.8px->43px | ls normal->-1.29px
+  y=244 "Therapy"
+      size 36px->43px | lh 37.8px->43px | ls normal->-1.29px
+  y=278 "Cross-Cultural"
+      size 36px->43px | lh 37.8px->43px | ls normal->-1.29px
+  y=479 "To live between cultures is to hold more than one home "
+      size 18px->16px
+  y=840 "Multicultural Therapy"
+      size 24px->30px | lh 33px->36px
+  y=1172 "Acculturation & Assimilation Stress"
+      size 24px->30px | lh 33px->36px
+  y=1589 "First-Generation & Second-Generation Issues"
+      size 24px->30px | lh 33px->36px
+  y=1980 "Third Culture Kid (TCK) Therapy"
+      size 24px->30px | lh 33px->36px
+  y=2338 "Intergenerational Trauma Therapy"
+      size 24px->30px | lh 33px->36px
+  y=3139 "Kaur Counseling, Marriage & Family Therapy, Inc."
+      size 12px->10px | ls 2.4px->1.6px
+  y=3163 "415-930-5395"
+      size 12px->10px
+  y=3171 "CA Lic. #150884"
+      size 12px->10px
+
+### burnout @mobile  liveH=3095 ghH=2937 (-158)
+
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
+  y=3039 [DIV] ©
+  y=3039 [DIV] 2026
+  y=3039 [DIV] Sohavani Mand, LMFT. Confidential by design.
+
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
+  y=2872 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+
+-- STYLE/GEOMETRY DELTAS (28) --
+  y=24 "Kaur Counseling"
+      ls -0.5px->normal
+  y=56 "Marriage and Family Therapy, Inc."
+      size 11.2px->9px | lh 11.2px->13.5px | ls 2.24px->2.16px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
+  y=202 "Specialty"
+      COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
+  y=240 "Burnout."
+      size 36px->43px | lh 37.8px->43px | ls normal->-1.29px
+  y=404 "Burnout rarely arrives all at once. It accretes, quietl"
+      size 18px->16px
+  y=772 "The slow creep"
+      size 24px->30px | lh 33px->36px
+  y=1338 "Why it's so hard to ask for help"
+      size 24px->30px | lh 33px->36px
+  y=1904 "Tending and rebuilding"
+      size 24px->30px | lh 33px->36px
+  y=2783 "Kaur Counseling, Marriage & Family Therapy, Inc."
+      size 12px->10px | ls 2.4px->1.6px
+  y=2807 "415-930-5395"
+      size 12px->10px
+  y=2815 "CA Lic. #150884"
+      size 12px->10px
+
+### anxiety @mobile  liveH=3170 ghH=2751 (-419)
+
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (4) --
+  y=1486 [SPAN] You don't have to figure it out alone.
+  y=3114 [DIV] ©
+  y=3114 [DIV] 2026
+  y=3114 [DIV] Sohavani Mand, LMFT. Confidential by design.
+
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
+  y=2686 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+
+-- STYLE/GEOMETRY DELTAS (37) --
+  y=24 "Kaur Counseling"
+      ls -0.5px->normal
+  y=56 "Marriage and Family Therapy, Inc."
+      size 11.2px->9px | lh 11.2px->13.5px | ls 2.24px->2.16px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
+  y=202 "Also in my care"
+      COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
+  y=240 "&"
+      size 36px->43px | lh 37.8px->43px | ls normal->-1.29px
+  y=244 "Anxiety"
+      size 36px->43px | lh 37.8px->43px | ls normal->-1.29px
+  y=278 "Depression."
+      size 36px->43px | lh 37.8px->43px | ls normal->-1.29px
+  y=1241 "When they show up together"
+      size 24px->30px | lh 33px->36px
+  y=1648 "How we work with it"
+      size 24px->30px | lh 32px->36px
+  y=1688 "I'm not here to tell you to "just think positively" or "
+      size 16px->14px
+  y=1893 "Understand what's happening beneath the surface"
+      size 16px->14px
+  y=1987 "Recognize the patterns that keep you stuck"
+      size 16px->14px
+  y=2081 "Respond to overwhelm without shutting down"
+      size 16px->14px
+  y=2175 "Challenge thoughts that aren't serving you"
+      size 16px->14px
+  y=2269 "Reconnect with the things that matter to you"
+      size 16px->14px
+  y=2363 "Make changes that feel realistic, not overwhelming"
+      size 16px->14px
+  y=2858 "Kaur Counseling, Marriage & Family Therapy, Inc."
+      size 12px->10px | ls 2.4px->1.6px
+  y=2882 "415-930-5395"
+      size 12px->10px
+  y=2890 "CA Lic. #150884"
+      size 12px->10px
+
+### transitions @mobile  liveH=3527 ghH=2993 (-534)
+
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (5) --
+  y=530 [SPAN] difficult.
+  y=409 [P] My work is to help you make room for all of it — the loss and the possibility — and to fin
+  y=3471 [DIV] ©
+  y=3471 [DIV] 2026
+  y=3471 [DIV] Sohavani Mand, LMFT. Confidential by design.
+
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
+  y=2928 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+
+-- STYLE/GEOMETRY DELTAS (44) --
+  y=24 "Kaur Counseling"
+      ls -0.5px->normal
+  y=56 "Marriage and Family Therapy, Inc."
+      size 11.2px->9px | lh 11.2px->13.5px | ls 2.24px->2.16px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
+  y=202 "Specialty"
+      COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
+  y=244 "Going Through a"
+      size 36px->43px | lh 37.8px->43px | ls normal->-1.29px
+  y=278 "Transition?"
+      size 36px->43px | lh 37.8px->43px | ls normal->-1.29px
+  y=409 "Transitions can be"
+      size 18px->16px
+  y=409 "It's hard to hold both the hope and excitement for some"
+      size 18px->16px
+  y=413 "difficult."
+      size 18px->16px
+  y=723 "You might be navigating…"
+      size 30px->28px | lh 37.5px->36px
+  y=2452 "Therapy can help you:"
+      size 24px->30px | lh 30px->36px
+  y=3215 "Kaur Counseling, Marriage & Family Therapy, Inc."
+      size 12px->10px | ls 2.4px->1.6px
+  y=3239 "415-930-5395"
+      size 12px->10px
+  y=3247 "CA Lic. #150884"
+      size 12px->10px
+
+### teens @mobile  liveH=4001 ghH=3416 (-585)
+
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
+  y=3945 [DIV] ©
+  y=3945 [DIV] 2026
+  y=3945 [DIV] Sohavani Mand, LMFT. Confidential by design.
+
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
+  y=3351 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+
+-- STYLE/GEOMETRY DELTAS (42) --
+  y=24 "Kaur Counseling"
+      ls -0.5px->normal
+  y=56 "Marriage and Family Therapy, Inc."
+      size 11.2px->9px | lh 11.2px->13.5px | ls 2.24px->2.16px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
+  y=202 "Specialty"
+      COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
+  y=240 "Teens."
+      size 36px->43px | lh 37.8px->43px | ls normal->-1.29px
+  y=244 "Therapy for"
+      size 36px->43px | lh 37.8px->43px | ls normal->-1.29px
+  y=404 "Being a teenager can feel like everyone expects somethi"
+      size 18px->16px
+  y=629 "Therapy is a place where you don't have to impress anyo"
+      size 18px->16px
+  y=853 "You don't need to know exactly what you need yet. We ca"
+      size 18px->16px
+  y=1021 "What you might be carrying"
+      size 30px->28px | lh 37.5px->36px
+  y=2800 "What you get here:"
+      size 24px->30px | lh 30px->36px
+  y=3689 "Kaur Counseling, Marriage & Family Therapy, Inc."
+      size 12px->10px | ls 2.4px->1.6px
+  y=3713 "415-930-5395"
+      size 12px->10px
+  y=3721 "CA Lic. #150884"
+      size 12px->10px
+
+### privacy @mobile  liveH=3064 ghH=2952 (-112)
+
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (4) --
+  y=1357 [P] California License #150884
+  y=3008 [DIV] ©
+  y=3008 [DIV] 2026
+  y=3008 [DIV] Sohavani Mand, LMFT. Confidential by design.
+
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
+  y=2887 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+
+-- STYLE/GEOMETRY DELTAS (38) --
+  y=24 "Kaur Counseling"
+      ls -0.5px->normal
+  y=56 "Marriage and Family Therapy, Inc."
+      size 11.2px->9px | lh 11.2px->13.5px | ls 2.24px->2.16px | COLOR rgba(57, 96, 71, 0.7)->rgb(119, 128, 121)
+  y=118 "Legal & Privacy"
+      COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
+  y=156 "Privacy, Disclaimer & Crisis Resources"
+      size 36px->43px | lh 45px->46.44px
+  y=270 "Your trust and safety matter. This page explains how yo"
+      size 16px->14px | lh 26px->23.1px
+  y=536 "This website is not monitored for emergencies and is no"
+      lh 26px->27.2px
+  y=686 "for life-threatening emergencies."
+      size 16px->14px | lh 24px->21px
+  y=688 "911"
+      size 16px->14px | lh 24px->21px
+  y=746 "Suicide & Crisis Lifeline. Call or text 988, 24/7."
+      size 16px->14px | lh 24px->21px
+  y=748 "988"
+      size 16px->14px | lh 24px->21px
+  y=806 "Crisis Text Line. Text HOME to 741741, 24/7."
+      size 16px->14px | lh 24px->21px
+  y=808 "741741"
+      size 16px->14px | lh 24px->21px
+  y=975 "The content on this website is provided for general inf"
+      size 16px->15px | lh 26px->25.5px
+  y=1357 "Sohavani Mand, Licensed Marriage and Family Therapist ("
+      size 16px->15px | lh 26px->25.5px
+  y=1531 "This website does not store protected health informatio"
+      size 16px->15px | lh 26px->25.5px
+  y=1919 "As a licensed health care provider, Sohavani Mand, LMFT"
+      size 16px->15px | lh 26px->25.5px
+  y=2327 "Where telehealth is offered, services are provided unde"
+      size 16px->15px | lh 26px->25.5px
+  y=2752 "Kaur Counseling, Marriage & Family Therapy, Inc."
+      size 12px->10px | ls 2.4px->1.6px
+  y=2776 "415-930-5395"
+      size 12px->10px
+  y=2784 "CA Lic. #150884"
+      size 12px->10px
+
