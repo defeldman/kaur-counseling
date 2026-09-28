@@ -1,0 +1,366 @@
+### home @tablet  liveH=11621 ghH=11546 (-75)
+matched 173 blocks; showing points where cumulative drift changes by >20px
+
+ liveY   ourY   drift   change  text
+    46     15     -31      -31  Get Started
+   938    881     -57      -26  A calm, private room in the heart of the Mission Dis
+   979    957     -22      +35  3150 18th St, Suite 404, San Francisco, CA 94110
+  2480   2980     500     +522  — Rumi
+  2548   2375    -173     -673  Hi, and welcome — I'm glad you're here. If you've fo
+  3252   3219     -33     +140  My
+  3674   3672      -2      +31  A diagnosis arriving in adulthood reframes a lifetim
+  3674   3704      30      +32  Living between cultures is a quiet, ongoing negotiat
+  3828   3982     154     +124  Learn more
+  3828   4014     186      +32  Learn more
+  4016   3539    -477     -663  Transitions
+  4085   3704    -381      +96  For teen girls and young women navigating the pressu
+  4085   3608    -477      -96  Becoming a parent, a career change, a move, a new ch
+  4213   3866    -347     +130  Learn more
+  4337   4190    -147     +200  What brings you through the
+  5020   4927     -93      +54  Healing takes its own time, be gentle with yourself
+  5172   5105     -67      +26  Our Approach
+  5738   5629    -109      -42  Discover often unconscious meanings and motivations.
+  5800   5720     -80      +29  Develop skills for improved inter-relations.
+  5803   5695    -108      -28  Release patterns that no longer serve you, and move 
+  6229   6192     -37      +71  People we serve
+  6263   6206     -57      -20  is for.
+  6470   6368    -102      -45  Women
+  6767   6643    -124      -22  People of Color
+  7089   6941    -148      -24  Men
+  8033   8007     -26     +122  Modalities
+  8152   8175      23      +49  No single approach fits every life. These are the fr
+  8801   8798      -3      -26  Helping you understand yourself — not just your symp
+  8885   8920      35      +38  Explore all the modalities
+  9136   9105     -31      -66  Contact
+  9519   9452     -67      -36  Request an appointment
+ 10157  10127     -30      +37  Tue–Sat · 9am–6pm
+ 10393  10303     -90      -60  Office
+ 10491  10421     -70      +20  My office is a calm, private space in the heart of t
+ 10608  10567     -41      +29  Virtual sessions are always available,
+ 10608  10589     -19      +22  October 1st
+ 11389  11432      43      +62  Kaur Counseling, Marriage & Family Therapy, Inc.
+ 11395  11364     -31      -74  Sohavani Mand, LMFT
+ 11413  11476      63      +94  415-930-5395
+ 11417  11408      -9      -72  Privacy & Disclaimer
+ 11421  11376     -45      -36  CA Lic. #150884
+ 11427  11418      -9      +36  Contact
+ 11533  11468     -65      -56  If you are in crisis, call or text
+
+final drift at last matched block: -65px
+
+### about @tablet  liveH=4091 ghH=4072 (-19)
+matched 66 blocks; showing points where cumulative drift changes by >20px
+
+ liveY   ourY   drift   change  text
+    46     15     -31      -31  Get Started
+   112    108      -4      +27  Back to Home
+   333    378      45      +49  I'm a brown, South Asian therapist practicing in San
+  1251   1240     -11      -56  A little more human
+  1469   1479      10      +21  First-gen Indian woman
+  1505   1554      49      +39  I'm a mix of Indian values, American independence, a
+  1505   1526      21      -28  I know what it's like to have a brain that does thin
+  1715   1479    -236     -257  Dog mom
+  1715   1837     122     +358  Lifelong learner
+  1751   1526    -225     -347  I believe dogs make almost everything better. Mine a
+  1751   1884     133     +358  I'm endlessly curious and will happily go down a com
+  1939   1837    -102     -235  Chocolate fiend
+  2200   2144     -56      +46  The work
+  2474   2461     -13      +43  What therapy feels like
+  2720   2744      24      +37  Who I see
+  3060   3054      -6      -30  Training & credentials
+  3208   3155     -53      -47  Six years in practice across private and community s
+  3256   3175     -81      -28  Specialties: ADHD, Immigration & Acculturation, Wome
+  3304   3195    -109      -28  Modality training: Attachment-based, CBT, DBT, Relat
+  3528   3505     -23      +86  If this feels like the right place to begin, you don
+  3859   3958      99     +122  Kaur Counseling, Marriage & Family Therapy, Inc.
+  3865   3890      25      -74  Sohavani Mand, LMFT
+  3883   4002     119      +94  415-930-5395
+  3887   3934      47      -72  Privacy & Disclaimer
+  3891   3902      11      -36  CA Lic. #150884
+  3897   3944      47      +36  Contact
+  4003   3994      -9      -56  If you are in crisis, call or text
+
+final drift at last matched block: -9px
+
+### cost @tablet  liveH=2488 ghH=2543 (+55)
+matched 40 blocks; showing points where cumulative drift changes by >20px
+
+ liveY   ourY   drift   change  text
+    46     15     -31      -31  Get Started
+   128    124      -4      +27  Back to Home
+  1071    956    -115     -111  Session rates
+  1789   1697     -92      +23  Choosing not to bill insurance means your diagnosis 
+  1957   1950      -7      +85  If this feels like the right place to begin, you don
+  2256   2429     173     +180  Kaur Counseling, Marriage & Family Therapy, Inc.
+  2262   2361      99      -74  Sohavani Mand, LMFT
+  2280   2473     193      +94  415-930-5395
+  2284   2405     121      -72  Privacy & Disclaimer
+  2288   2373      85      -36  CA Lic. #150884
+  2294   2415     121      +36  Contact
+  2400   2465      65      -56  If you are in crisis, call or text
+
+final drift at last matched block: 65px
+
+### resources @tablet  liveH=3406 ghH=3315 (-91)
+matched 100 blocks; showing points where cumulative drift changes by >20px
+
+ liveY   ourY   drift   change  text
+    46     15     -31      -31  Get Started
+   128    118     -10      +21  Back to About
+   278    291      13      +23  Books I return to and often share with clients. Thes
+   818    855      37      +24  On attachment, communication, and the everyday work 
+   823    840      17      -20  meet them at the door laughing,
+   893    930      37      +20  Attached
+   906    922      16      -21  Be grateful for whoever comes,
+   954    992      38      +22  A practical, accessible guide to adult attachment st
+  1342   1337      -5      -43  Parenting
+  1651   1671      20      +25  Raising an Emotionally Intelligent Child
+  1915   1882     -33      -53  Self-help
+  2224   2215      -9      +24  No Bad Parts
+  2461   2398     -63      -54  Trauma
+  2875   2743    -132      -69  Want more? I'm always adding to this list. Bring wha
+  3174   3201      27     +159  Kaur Counseling, Marriage & Family Therapy, Inc.
+  3180   3133     -47      -74  Sohavani Mand, LMFT
+  3198   3245      47      +94  415-930-5395
+  3202   3177     -25      -72  Privacy & Disclaimer
+  3206   3145     -61      -36  CA Lic. #150884
+  3212   3187     -25      +36  Contact
+  3318   3237     -81      -56  If you are in crisis, call or text
+
+final drift at last matched block: -81px
+
+### modalities @tablet  liveH=3777 ghH=3624 (-153)
+matched 63 blocks; showing points where cumulative drift changes by >20px
+
+ liveY   ourY   drift   change  text
+    46     15     -31      -31  Get Started
+   133    179      46      +77  Modalities
+   307    383      76      +30  No single approach fits every life. These are the fr
+   513    614     101      +25  Five frameworks
+   656    789     133      +32  01
+  1076   1179     103      -30  When & why I use it
+  1161   1234      73      -30  When & why I use it
+  1511   1558      47      -26  03
+  1905   1921      16      -31  When & why I use it
+  2682   2664     -18      -34  When & why I use it
+  3159   2987    -172     -154  Curious which lens
+  3545   3510     -35     +137  Kaur Counseling, Marriage & Family Therapy, Inc.
+  3551   3442    -109      -74  Sohavani Mand, LMFT
+  3569   3554     -15      +94  415-930-5395
+  3573   3486     -87      -72  Privacy & Disclaimer
+  3577   3454    -123      -36  CA Lic. #150884
+  3583   3496     -87      +36  Contact
+  3689   3546    -143      -56  If you are in crisis, call or text
+
+final drift at last matched block: -143px
+
+### get-started @tablet  liveH=2056 ghH=1692 (-364)
+matched 37 blocks; showing points where cumulative drift changes by >20px
+
+ liveY   ourY   drift   change  text
+    46     15     -31      -31  Get Started
+   134    135       1      +32  Get Started
+   877    903      26      +25  Mission.
+  1114   1227     113      +87  3150 18th St, Suite 404, San Francisco, CA 94110
+  1153   1291     138      +25  415-930-5395
+  1824   1578    -246     -384  Kaur Counseling, Marriage & Family Therapy, Inc.
+  1830   1510    -320      -74  Sohavani Mand, LMFT
+  1848   1622    -226      +94  415-930-5395
+  1852   1554    -298      -72  Privacy & Disclaimer
+  1856   1522    -334      -36  CA Lic. #150884
+  1862   1564    -298      +36  Contact
+  1968   1614    -354      -56  If you are in crisis, call or text
+
+final drift at last matched block: -354px
+
+### adhd @tablet  liveH=3929 ghH=4016 (+87)
+matched 70 blocks; showing points where cumulative drift changes by >20px
+
+ liveY   ourY   drift   change  text
+    46     15     -31      -31  Get Started
+   128    124      -4      +27  Back to Services
+   278    302      24      +28  Diagnosis.
+   344    395      51      +27  A diagnosis found in adulthood re-reads an entire li
+   646    672      26      -25  ADD in women looks different
+  1026    915    -111     -137  School & study
+  1026   1119      93     +204  Self-esteem
+  1059    948    -111     -204  Bright enough to coast, until you couldn't, and the 
+  1059   1152      93     +204  A running inner monologue of 'I should have been abl
+  1162   1119     -43     -136  Body & food
+  1358   1473     115     +158  When the diagnosis arrives later
+  1619   1713      94      -21  How it shows up
+  1745   1864     119      +25  Ping-ponging between tasks, a mind juggling everythi
+  1849   1807     -42     -161  Forgetfulness about what you love
+  1849   2037     188     +230  Time warps and vanishes
+  1881   1889       8     -180  Even the things and people that matter slip away.
+  1881   2095     214     +206  Hours pass like minutes, or crawl like days.
+  1985   2037      52     -162  The exhaustion of masking
+  2018   2095      77      +25  Performing a version of yourself, all day.
+  2211   2398     187     +110  50%+
+  2507   2732     225      +38  The grief, and the broken trust in yourself
+  2944   3147     203      -22  How we work with it
+  3038   3209     171      -32  Honor your gifts: creativity, intensity, range.
+  3132   3263     131      -40  Tend the costs of pretending.
+  3226   3317      91      -40  Grieve what was, and slowly rebuild trust in yoursel
+  3320   3371      51      -40  Build rhythms and boundaries shaped for how your bra
+  3401   3527     126      +75  You are not a problem to be fixed. You are a person 
+  3488   3587      99      -27  Get Started
+  3697   3902     205     +106  Kaur Counseling, Marriage & Family Therapy, Inc.
+  3703   3834     131      -74  Sohavani Mand, LMFT
+  3721   3946     225      +94  415-930-5395
+  3725   3878     153      -72  Privacy & Disclaimer
+  3729   3846     117      -36  CA Lic. #150884
+  3735   3888     153      +36  Contact
+  3841   3938      97      -56  If you are in crisis, call or text
+
+final drift at last matched block: 97px
+
+### multiculturalism @tablet  liveH=2441 ghH=2620 (+179)
+matched 42 blocks; showing points where cumulative drift changes by >20px
+
+ liveY   ourY   drift   change  text
+    46     15     -31      -31  Get Started
+   128    124      -4      +27  Back to Services
+   278    302      24      +28  Cross-Cultural
+   344    395      51      +27  When your identity doesn't fit neatly into one box.
+   895    989      94      +43  Acculturation & Assimilation Stress
+  1131   1251     120      +26  First-Generation & Second-Generation Issues
+  1192   1343     151      +31  We unpack the family pressures, guilt, and identity 
+  1367   1549     182      +31  Third Culture Kid (TCK) Therapy
+  1603   1817     214      +32  Intergenerational Trauma Therapy
+  1887   2078     191      -23  You do not have to compress yourself to be understoo
+  2209   2506     297     +106  Kaur Counseling, Marriage & Family Therapy, Inc.
+  2215   2438     223      -74  Sohavani Mand, LMFT
+  2233   2550     317      +94  415-930-5395
+  2237   2482     245      -72  Privacy & Disclaimer
+  2241   2450     209      -36  CA Lic. #150884
+  2247   2492     245      +36  Contact
+  2353   2542     189      -56  If you are in crisis, call or text
+
+final drift at last matched block: 189px
+
+### burnout @tablet  liveH=2139 ghH=2182 (+43)
+matched 36 blocks; showing points where cumulative drift changes by >20px
+
+ liveY   ourY   drift   change  text
+    46     15     -31      -31  Get Started
+   128    124      -4      +27  Back to Services
+   306    335      29      +33  The slow creep, and the difficulty of asking for hel
+   962   1033      71      +42  Why it's so hard to ask for help
+  1276   1379     103      +32  Tending and rebuilding
+  1585   1640      55      -48  Recovery is not a project to optimize. It is a retur
+  1907   2068     161     +106  Kaur Counseling, Marriage & Family Therapy, Inc.
+  1913   2000      87      -74  Sohavani Mand, LMFT
+  1931   2112     181      +94  415-930-5395
+  1935   2044     109      -72  Privacy & Disclaimer
+  1939   2012      73      -36  CA Lic. #150884
+  1945   2054     109      +36  Contact
+  2051   2104      53      -56  If you are in crisis, call or text
+
+final drift at last matched block: 53px
+
+### anxiety @tablet  liveH=2146 ghH=2129 (-17)
+matched 45 blocks; showing points where cumulative drift changes by >20px
+
+ liveY   ourY   drift   change  text
+    46     15     -31      -31  Get Started
+   128    124      -4      +27  Back to Services
+   314    339      25      +29  Anxiety and depression can look completely different
+   814    859      45      +20  When they show up together
+  1064   1182     118      +73  How we work with it
+  1325   1381      56      -62  Respond to overwhelm without shutting down
+  1325   1404      79      +23  Challenge thoughts that aren't serving you
+  1419   1427       8      -71  Reconnect with the things that matter to you
+  1419   1450      31      +23  Make changes that feel realistic, not overwhelming
+  1592   1587      -5      -36  One piece at a time.
+  1914   2015     101     +106  Kaur Counseling, Marriage & Family Therapy, Inc.
+  1920   1947      27      -74  Sohavani Mand, LMFT
+  1938   2059     121      +94  415-930-5395
+  1942   1991      49      -72  Privacy & Disclaimer
+  1946   1959      13      -36  CA Lic. #150884
+  1952   2001      49      +36  Contact
+  2058   2051      -7      -56  If you are in crisis, call or text
+
+final drift at last matched block: -7px
+
+### transitions @tablet  liveH=2348 ghH=2296 (-52)
+matched 51 blocks; showing points where cumulative drift changes by >20px
+
+ liveY   ourY   drift   change  text
+    46     15     -31      -31  Get Started
+   128    124      -4      +27  Back to Services
+   306    335      29      +33  You don't have to do it alone.
+   738    745       7      -22  Becoming a Parent
+   774    808      34      +27  The identity shift, the overwhelm, the way love and 
+   994    745    -249     -283  Moving
+   994   1081      87     +336  Relationship Changes
+  1029    781    -248     -335  Uprooting a life and replanting it, and the quiet gr
+  1029   1144     115     +363  Beginning, deepening, or ending partnerships — and r
+  1250   1081    -169     -284  College & Future Decisions
+  1285   1172    -113      +56  The pressure of the open road, and the weight of cho
+  1285   1144    -141      -28  When one season closes before the next has a name, a
+  1493   1542      49     +190  Therapy can help you:
+  1551   1697     146      +97  Find clarity and direction
+  1592   1795     203      +57  Build confidence in this next chapter
+  1592   1943     351     +148  Feel more grounded and supported
+  1794   1754     -40     -391  You don't have to navigate this next chapter alone.
+  2116   2182      66     +106  Kaur Counseling, Marriage & Family Therapy, Inc.
+  2122   2114      -8      -74  Sohavani Mand, LMFT
+  2140   2226      86      +94  415-930-5395
+  2144   2158      14      -72  Privacy & Disclaimer
+  2148   2126     -22      -36  CA Lic. #150884
+  2154   2168      14      +36  Contact
+  2260   2218     -42      -56  If you are in crisis, call or text
+
+final drift at last matched block: -42px
+
+### teens @tablet  liveH=2820 ghH=2748 (-72)
+matched 50 blocks; showing points where cumulative drift changes by >20px
+
+ liveY   ourY   drift   change  text
+    46     15     -31      -31  Get Started
+   128    124      -4      +27  Back to Services
+   306    335      29      +33  You don't have to have it all figured out.
+   508    516       8      -21  Therapy is a place where you don't have to impress a
+   954    922     -32      -40  School Pressure
+   989    985      -4      +28  Grades, expectations, the weight of performing. Scho
+  1262    922    -340     -336  A Safe Adult Who Isn't Your Parent
+  1262   1409     147     +487  Evolving Friendships & Identity
+  1325   1013    -312     -459  Some questions feel too hard or shameful to bring ho
+  1325   1500     175     +487  Friendships shift, you change, and the question of w
+  1619   1409    -210     -385  ADHD
+  1912   1945      33     +243  What you get here:
+  1970   2124     154     +121  Tools for the pressure
+  2011   2222     211      +57  Words for what you feel
+  2011   2320     309      +98  A safe adult outside your family
+  2063   2041     -22     -331  What you share here stays here. The exception is saf
+  2266   2206     -60      -38  You don't have to figure it out alone.
+  2588   2634      46     +106  Kaur Counseling, Marriage & Family Therapy, Inc.
+  2594   2566     -28      -74  Sohavani Mand, LMFT
+  2612   2678      66      +94  415-930-5395
+  2616   2610      -6      -72  Privacy & Disclaimer
+  2620   2578     -42      -36  CA Lic. #150884
+  2626   2620      -6      +36  Contact
+  2732   2670     -62      -56  If you are in crisis, call or text
+
+final drift at last matched block: -62px
+
+### privacy @tablet  liveH=2137 ghH=2256 (+119)
+matched 45 blocks; showing points where cumulative drift changes by >20px
+
+ liveY   ourY   drift   change  text
+    46     15     -31      -31  Get Started
+   118    122       4      +35  Legal & Privacy
+   225    278      53      +49  Your trust and safety matter. This page explains how
+   511    606      95      +42  for life-threatening emergencies.
+  1714   1781      67      -28  This page provides a general overview and is not leg
+  1905   2142     237     +170  Kaur Counseling, Marriage & Family Therapy, Inc.
+  1911   2074     163      -74  Sohavani Mand, LMFT
+  1929   2186     257      +94  415-930-5395
+  1933   2118     185      -72  Privacy & Disclaimer
+  1937   2086     149      -36  CA Lic. #150884
+  1943   2128     185      +36  Contact
+  2049   2178     129      -56  If you are in crisis, call or text
+
+final drift at last matched block: 129px
+
