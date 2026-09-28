@@ -1,0 +1,15 @@
+[
+  ["home",             "/",                              "/"],
+  ["about",            "/about",                         "/about/"],
+  ["cost",             "/about/cost",                    "/about/cost/"],
+  ["resources",        "/about/resources",               "/about/resources/"],
+  ["modalities",       "/modalities",                    "/modalities/"],
+  ["get-started",      "/get-started",                   "/get-started/"],
+  ["adhd",             "/services/adhd",                 "/services/adhd/"],
+  ["multiculturalism", "/services/multiculturalism",     "/services/multiculturalism/"],
+  ["burnout",          "/services/burnout",              "/services/burnout/"],
+  ["anxiety",          "/services/anxiety-depression",   "/services/anxiety-depression/"],
+  ["transitions",      "/services/transitions",          "/services/transitions/"],
+  ["teens",            "/services/teens",                "/services/teens/"],
+  ["privacy",          "/privacy",                       "/privacy/"]
+]
