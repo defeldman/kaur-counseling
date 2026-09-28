@@ -2041,6 +2041,18 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:124px;h
   .page-get-started .detail-shell{padding-bottom:67px}
 }
 
+/* Brief 31, task 2: measured desktop get-started wrapping and rhythm. */
+@media (min-width:1024px){
+  .page-get-started .detail-content{margin-top:71px}
+  .page-get-started .detail-lede{letter-spacing:.55px}
+  .page-get-started .detail-appointment{margin-bottom:80px}
+  .page-get-started .detail-appointment .button{margin-top:32px}
+  .page-get-started .get-started-office{margin-top:104px;row-gap:30px}
+  .page-get-started .get-started-office .office-facts{margin-top:50px}
+  .page-get-started .office-facts>a:first-child{max-width:333px;margin-left:30px}
+  .page-get-started .detail-shell{padding-bottom:64px}
+}
+
 /* Brief 31, task 1: match the live hover treatments. */
 .desktop-nav>a:not(.nav-cta)::after{right:auto;width:0;transform:none;transition:all .3s cubic-bezier(.4,0,.2,1)}
 .desktop-nav>a:not(.nav-cta):hover::after{width:100%}
