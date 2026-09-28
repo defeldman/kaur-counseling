@@ -7,8 +7,9 @@ const link = (path) => `${root}${path}`;
 const paras = (items) => items.map((item) => `<p>${esc(item)}</p>`).join('');
 const section = (heading, items, className = '') => `<section class="detail-section ${className}"><h2>${esc(heading)}</h2>${paras(items)}</section>`;
 const serviceSection = (heading, content, className = '') => `<section class="detail-section ${className}"><h2>${esc(heading)}</h2>${content}</section>`;
-const serviceCards = (heading, cards, className = '') => `<section class="detail-section ${className}"><h2>${esc(heading)}</h2><div class="detail-card-grid">${cards.map(([title, copy]) => `<article class="detail-card"><h3>${esc(title)}</h3><p>${esc(copy)}</p></article>`).join('')}</div></section>`;
-const serviceLabeledCards = (cards) => `<div class="detail-card-grid">${cards.map(([title, copy]) => `<article class="detail-card"><p><strong>${esc(title)}</strong></p><p>${esc(copy)}</p></article>`).join('')}</div>`;
+const serviceCards = (heading, cards, className = '') => `<section class="detail-section service-card-grid-section ${className}"><h2>${esc(heading)}</h2><div class="detail-card-grid">${cards.map(([title, copy]) => `<article class="detail-card"><h3>${esc(title)}</h3><p>${esc(copy)}</p></article>`).join('')}</div></section>`;
+const serviceLabeledCards = (cards) => `<div class="detail-card-grid">${cards.map(([title, copy]) => `<article class="detail-card"><h3>${esc(title)}</h3><p>${esc(copy)}</p></article>`).join('')}</div>`;
+const serviceFeatureCard = ([heading, items], className = '') => `<section class="detail-section ${className}"><h2>${esc(heading)}</h2>${paras(items)}</section>`;
 const serviceList = (items) => `<ul>${items.map((item) => `<li>${esc(item)}</li>`).join('')}</ul>`;
 const serviceSteps = (items) => `<div>${items.map((item) => `<div>${esc(item)}</div>`).join('')}</div>`;
 const crisisPhoneIcon = '<svg viewBox="0 0 24 24"><path d="M6.5 3.5 10 7 8 9c1.4 2.9 3.1 4.6 6 6l2-2 3.5 3.5v2.2c0 .9-.7 1.6-1.6 1.6C10.2 20.3 3.7 13.8 3.7 6.1c0-.9.7-1.6 1.6-1.6h1.2Z"/></svg>';
@@ -212,15 +213,37 @@ function service(title, italic, eyebrow, lede, sections, closingQuote) {
       "You don't need to know exactly what you need yet. We can figure that out together."
     ]
   };
-  const titleMarkup = `${esc(title)}${italic ? `<br /><em>${esc(italic)}</em>` : ''}`;
+  const titleMarkup = title === 'Anxiety & Depression.'
+    ? 'Anxiety <span class="service-title-ampersand">&amp;</span> <em>Depression.</em>'
+    : `${esc(title)}${italic ? `<br /><em>${esc(italic)}</em>` : ''}`;
   const transitionBodyMarkup = title === 'Going Through a Transition?'
     ? heroBodies[title].replace('difficult.', '<em>difficult.</em>')
     : '';
-  const serviceBody = sections.map((entry, index) => {
-    if (typeof entry === 'string') return entry;
-    const [heading, items] = entry;
-    return section(heading, items, index % 2 ? 'detail-section-tint' : '');
-  });
+  let serviceBody;
+  if (title === 'Anxiety & Depression.') {
+    const [anxiety, depression, together, ...remaining] = sections;
+    serviceBody = [
+      `<div class="service-topic-grid">${serviceFeatureCard(anxiety, 'service-topic-card service-topic-card-burgundy')}${serviceFeatureCard(depression, 'service-topic-card service-topic-card-spruce')}</div>`,
+      serviceFeatureCard(together, 'service-overlap-card'),
+      ...remaining.map((entry, index) => {
+        if (typeof entry === 'string') return entry;
+        const [heading, items] = entry;
+        return section(heading, items, index % 2 ? 'detail-section-tint' : '');
+      })
+    ];
+  } else if (title === 'Multicultural & Cross-Cultural Therapy' || title === 'Burnout.') {
+    serviceBody = sections.map((entry) => {
+      if (typeof entry === 'string') return entry;
+      const [heading, items] = entry;
+      return serviceFeatureCard([heading, items], 'service-panel-card');
+    });
+  } else {
+    serviceBody = sections.map((entry, index) => {
+      if (typeof entry === 'string') return entry;
+      const [heading, items] = entry;
+      return section(heading, items, index % 2 ? 'detail-section-tint' : '');
+    });
+  }
   return {
     eyebrow,
     title: titleMarkup,

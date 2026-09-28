@@ -956,3 +956,217 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
   .notice-icon{width:40px;height:40px}
   .notice-address{grid-column:1/-1;align-self:auto;flex-shrink:0}
 }
+
+/* Brief 09: style the added service card content. */
+.page-service .detail-hero h1{font-style:normal}
+.page-service .detail-hero h1 em{font-style:italic}
+.page-service .detail-hero-body,
+.page-service .plain-detail-lede{line-height:29.25px}
+.page-service .detail-section p:not(.eyebrow){line-height:26px}
+.page-service .service-card-grid-section>h2{font-size:36px;line-height:40px}
+.page-services-adhd .detail-content>.detail-section:nth-child(n) h2{color:var(--navy)}
+
+.page-service .detail-card-grid .detail-card h3{
+  margin-bottom:8px;
+  font-family:Fraunces,Georgia,serif;
+  font-weight:400;
+}
+.page-service .detail-card-grid .detail-card:nth-child(3n+1) h3{color:rgb(88,25,37)}
+.page-service .detail-card-grid .detail-card:nth-child(3n+2) h3{color:rgb(57,96,71)}
+.page-service .detail-card-grid .detail-card:nth-child(3n) h3{color:rgb(108,50,133)}
+.page-services-adhd .detail-card-grid .detail-card h3{font-size:18px;line-height:24.75px}
+.page-services-adhd .detail-card-grid .detail-card p{
+  color:rgba(23,39,64,.65);
+  font-size:14px;
+  line-height:22.75px;
+}
+.page-services-transitions .detail-card-grid .detail-card h3,
+.page-services-teens .detail-card-grid .detail-card h3{font-size:20px;line-height:27.5px}
+.page-services-transitions .detail-card-grid .detail-card p,
+.page-services-teens .detail-card-grid .detail-card p{
+  color:rgba(23,39,64,.75);
+  font-size:15.2px;
+  line-height:24.7px;
+}
+
+.page-services-multiculturalism .service-panel-card,
+.page-services-burnout .service-panel-card{
+  margin:0 0 24px;
+  padding:48px;
+  border:1px solid;
+  border-radius:24px;
+}
+.page-services-multiculturalism .service-panel-card:nth-child(3n+1),
+.page-services-burnout .service-panel-card:nth-child(3n+1){
+  border-color:rgba(88,25,37,.25);
+  background:rgba(88,25,37,.05);
+}
+.page-services-multiculturalism .service-panel-card:nth-child(3n+2),
+.page-services-burnout .service-panel-card:nth-child(3n+2){
+  border-color:rgba(57,96,71,.25);
+  background:rgba(57,96,71,.06);
+}
+.page-services-multiculturalism .service-panel-card:nth-child(3n),
+.page-services-burnout .service-panel-card:nth-child(3n){
+  border-color:rgba(108,50,133,.25);
+  background:rgba(108,50,133,.06);
+}
+.page-services-multiculturalism .service-panel-card p:not(.eyebrow),
+.page-services-burnout .service-panel-card p:not(.eyebrow){
+  color:rgba(23,39,64,.75);
+  font-size:16px;
+  line-height:26px;
+}
+
+.page-services-anxiety-depression .detail-hero h1 .service-title-ampersand{
+  color:var(--navy-40);
+  font-style:normal;
+}
+.page-services-anxiety-depression .service-topic-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:24px;
+  margin-bottom:24px;
+}
+.page-services-anxiety-depression .service-topic-card{
+  margin:0;
+  padding:32px 40px;
+  border:1px solid;
+  border-radius:24px;
+}
+.page-services-anxiety-depression .service-topic-card-burgundy{
+  border-color:rgba(88,25,37,.25);
+  background:rgba(88,25,37,.05);
+}
+.page-services-anxiety-depression .service-topic-card-spruce{
+  border-color:rgba(57,96,71,.25);
+  background:rgba(57,96,71,.06);
+}
+.page-services-anxiety-depression .service-topic-card h2{
+  margin-bottom:20px;
+  font-size:24px;
+  line-height:33px;
+}
+.page-services-anxiety-depression .service-topic-card-burgundy h2{color:rgb(88,25,37)}
+.page-services-anxiety-depression .service-topic-card-spruce h2{color:rgb(57,96,71)}
+.page-services-anxiety-depression .service-topic-card p:not(.eyebrow){
+  color:rgba(23,39,64,.75);
+  font-size:16px;
+  line-height:26px;
+}
+.page-services-anxiety-depression .service-overlap-card{
+  margin:0 0 80px;
+  padding:48px;
+  border:1px solid rgba(108,50,133,.25);
+  border-radius:24px;
+  background:rgba(108,50,133,.06);
+}
+.page-services-anxiety-depression .service-overlap-card h2{
+  color:rgb(108,50,133);
+  font-size:30px;
+  line-height:36px;
+}
+.page-services-anxiety-depression .service-overlap-card p:not(.eyebrow){
+  color:rgba(23,39,64,.75);
+  font-size:16px;
+  line-height:26px;
+}
+.page-services-anxiety-depression .detail-content>.detail-section:last-child h2{color:var(--navy)}
+.page-services-transitions .detail-hero-body em{
+  color:rgb(88,25,37);
+  font-style:normal;
+  font-weight:500;
+}
+.page-services-teens .detail-section>p:last-child{
+  color:rgba(23,39,64,.65);
+  font-size:15.2px;
+  line-height:24.7px;
+}
+
+/* Brief 09: resource poem, modality framework labels, and closing copy. */
+@media (min-width:801px){
+  .page-resources .poem-card>.eyebrow{
+    color:rgba(57,96,71,.8);
+    font-size:9.6px;
+    line-height:14.4px;
+    letter-spacing:2.88px;
+  }
+  .page-resources .poem-card h2{
+    font-size:18px;
+    line-height:28px;
+    font-style:italic;
+  }
+  .page-resources .poem-text{
+    color:rgba(23,39,64,.85);
+    font:normal 14px/19.25px Fraunces,Georgia,serif;
+  }
+  .page-resources .poem-credit{
+    font:400 10.4px/15.6px Inter,Arial,sans-serif!important;
+    letter-spacing:2.08px;
+  }
+  .page-resources .poem-credit span{
+    color:rgba(23,39,64,.5);
+    font-size:10.4px;
+    line-height:15.6px;
+    font-style:italic;
+    letter-spacing:normal;
+  }
+  .page-resources .poem-credit span a{color:rgb(57,96,71)}
+  .page-resources .poem-hint{
+    color:var(--spruce-60)!important;
+    font-size:9.6px!important;
+    line-height:14.4px!important;
+    letter-spacing:1.92px;
+  }
+  .page-modalities .framework-number{
+    font:14px/20px Fraunces,Georgia,serif;
+    letter-spacing:normal;
+    text-transform:none;
+  }
+  .page-modalities .framework:nth-of-type(2) .framework-number{color:rgba(88,25,37,.5)}
+  .page-modalities .framework:nth-of-type(3) .framework-number{color:rgba(57,96,71,.5)}
+  .page-modalities .framework:nth-of-type(4) .framework-number{color:rgba(108,50,133,.55)}
+  .page-modalities .framework:nth-of-type(5) .framework-number{color:rgba(88,25,37,.5)}
+  .page-modalities .framework:nth-of-type(6) .framework-number{color:rgba(57,96,71,.5)}
+  .page-modalities .framework:nth-of-type(2) .framework-copy>div:first-child .eyebrow{color:var(--spruce)}
+  .page-modalities .detail-quote p{
+    color:rgba(241,234,223,.8);
+    font-size:16px;
+    line-height:26px;
+  }
+  .page-privacy .detail-hero h1{letter-spacing:normal}
+  .page-privacy .detail-section h2{font-size:24px;line-height:32px}
+  .page-cost .detail-content>p{
+    color:rgba(23,39,64,.75);
+    font-size:18px;
+    line-height:29.25px;
+  }
+  .page-cost .detail-section p:not(.eyebrow){color:rgba(23,39,64,.75)}
+  .page-cost .detail-cta>p:not(.eyebrow){
+    color:rgb(57,96,71);
+    font:italic 24px/33px Fraunces,Georgia,serif;
+  }
+  .page-get-started .detail-hero h1{letter-spacing:normal}
+  .page-get-started .detail-lede{line-height:29.25px}
+  .page-get-started .detail-appointment small{color:rgba(23,39,64,.5)}
+  body:not([data-page]) .door-detail{line-height:22.75px}
+}
+
+.page-privacy .detail-hero h1{letter-spacing:normal}
+.page-privacy .detail-section h2{font-size:24px;line-height:32px}
+.page-get-started .get-started-office p:nth-of-type(2){
+  padding:0;
+  border:0;
+  border-radius:0;
+  background:transparent;
+}
+.page-get-started .get-started-office p:nth-of-type(2)::first-line{color:inherit}
+
+@media (max-width:800px){
+  .page-service .service-card-grid-section>h2{font-size:28px;line-height:36px}
+  .page-services-multiculturalism .service-panel-card,
+  .page-services-burnout .service-panel-card{padding:32px}
+  .page-services-anxiety-depression .service-topic-grid{grid-template-columns:1fr}
+  .page-services-anxiety-depression .service-topic-card{padding:32px}
+  .page-services-anxiety-depression .service-overlap-card{padding:32px}
+}
