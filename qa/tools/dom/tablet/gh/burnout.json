@@ -1,0 +1,844 @@
+{
+ "title": "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission District, San Francisco",
+ "bodyBg": "rgb(241, 234, 223)",
+ "nav": [
+  {
+   "t": "Kaur CounselingMarriage and Family Therapy, Inc.",
+   "href": "../../"
+  },
+  {
+   "t": "Home",
+   "href": "../../"
+  },
+  {
+   "t": "Cost",
+   "href": "../../about/cost/"
+  },
+  {
+   "t": "About",
+   "href": "../../about/"
+  },
+  {
+   "t": "What to Expect",
+   "href": "../../about/"
+  },
+  {
+   "t": "Resources",
+   "href": "../../about/resources/"
+  },
+  {
+   "t": "Modalities",
+   "href": "../../modalities/"
+  },
+  {
+   "t": "Contact",
+   "href": "../../get-started/"
+  },
+  {
+   "t": "Services",
+   "href": "../../#services"
+  },
+  {
+   "t": "ADHD & Late-Stage Diagnosis",
+   "href": "../../services/adhd/"
+  },
+  {
+   "t": "Multicultural & Cross-Cultural Therapy",
+   "href": "../../services/multiculturalism/"
+  },
+  {
+   "t": "Burnout",
+   "href": "../../services/burnout/"
+  },
+  {
+   "t": "Anxiety & Depression",
+   "href": "../../services/anxiety-depression/"
+  },
+  {
+   "t": "Transitions",
+   "href": "../../services/transitions/"
+  },
+  {
+   "t": "Teens",
+   "href": "../../services/teens/"
+  },
+  {
+   "t": "Get Started",
+   "href": "../../get-started/"
+  },
+  {
+   "t": "Home",
+   "href": "../../"
+  },
+  {
+   "t": "Cost",
+   "href": "../../about/cost/"
+  },
+  {
+   "t": "About",
+   "href": "../../about/"
+  },
+  {
+   "t": "What to Expect",
+   "href": "../../about/"
+  },
+  {
+   "t": "Resources",
+   "href": "../../about/resources/"
+  },
+  {
+   "t": "Modalities",
+   "href": "../../modalities/"
+  },
+  {
+   "t": "Contact",
+   "href": "../../get-started/"
+  },
+  {
+   "t": "Services",
+   "href": "../../#services"
+  },
+  {
+   "t": "ADHD & Late-Stage Diagnosis",
+   "href": "../../services/adhd/"
+  },
+  {
+   "t": "Multicultural & Cross-Cultural Therapy",
+   "href": "../../services/multiculturalism/"
+  },
+  {
+   "t": "Burnout",
+   "href": "../../services/burnout/"
+  },
+  {
+   "t": "Anxiety & Depression",
+   "href": "../../services/anxiety-depression/"
+  },
+  {
+   "t": "Transitions",
+   "href": "../../services/transitions/"
+  },
+  {
+   "t": "Teens",
+   "href": "../../services/teens/"
+  },
+  {
+   "t": "Get Started",
+   "href": "../../get-started/"
+  },
+  {
+   "t": "Home",
+   "href": "../../"
+  },
+  {
+   "t": "About",
+   "href": "../../about/"
+  },
+  {
+   "t": "Services",
+   "href": "../../#services"
+  },
+  {
+   "t": "Contact",
+   "href": "../../get-started/"
+  },
+  {
+   "t": "Privacy & Disclaimer",
+   "href": "../../privacy/"
+  }
+ ],
+ "texts": [
+  {
+   "t": "Kaur Counseling",
+   "tag": "SPAN",
+   "x": 24,
+   "y": 24,
+   "w": 244,
+   "h": 28,
+   "ff": "Fraunces",
+   "fs": "20px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "28px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "Marriage and Family Therapy, Inc.",
+   "tag": "SPAN",
+   "x": 24,
+   "y": 53,
+   "w": 244,
+   "h": 14,
+   "ff": "Inter",
+   "fs": "9px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "13.5px",
+   "ls": "2.16px",
+   "tt": "uppercase",
+   "col": "rgb(119, 128, 121)",
+   "bg": null
+  },
+  {
+   "t": "Back to Services",
+   "tag": "A",
+   "x": 24,
+   "y": 118,
+   "w": 132,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(57, 96, 71)",
+   "bg": null
+  },
+  {
+   "t": "SPECIALTY",
+   "tag": "P",
+   "x": 24,
+   "y": 199,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "3px",
+   "tt": "uppercase",
+   "col": "rgba(88, 25, 37, 0.8)",
+   "bg": null
+  },
+  {
+   "t": "Burnout.",
+   "tag": "EM",
+   "x": 24,
+   "y": 238,
+   "w": 141,
+   "h": 44,
+   "ff": "Fraunces",
+   "fs": "36px",
+   "fw": "400",
+   "fst": "italic",
+   "lh": "37.8px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(88, 25, 37)",
+   "bg": null
+  },
+  {
+   "t": "The slow creep, and the difficulty of asking for help.",
+   "tag": "P",
+   "x": 24,
+   "y": 306,
+   "w": 660,
+   "h": 33,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "italic",
+   "lh": "33px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(57, 96, 71)",
+   "bg": null
+  },
+  {
+   "t": "Burnout rarely arrives all at once. It accretes, quietly, through one more task, one more ",
+   "tag": "P",
+   "x": 24,
+   "y": 362,
+   "w": 700,
+   "h": 117,
+   "ff": "Inter",
+   "fs": "18px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "29.25px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.75)",
+   "bg": null
+  },
+  {
+   "t": "The slow creep",
+   "tag": "H2",
+   "x": 121,
+   "y": 612,
+   "w": 167,
+   "h": 32,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "32px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(88, 25, 37)",
+   "bg": null
+  },
+  {
+   "t": "Burnout doesn't always show up as a complete breakdown. Sometimes it looks like having les",
+   "tag": "P",
+   "x": 57,
+   "y": 672,
+   "w": 654,
+   "h": 182,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "26px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.75)",
+   "bg": null
+  },
+  {
+   "t": "Why it's so hard to ask for help",
+   "tag": "H2",
+   "x": 121,
+   "y": 952,
+   "w": 340,
+   "h": 32,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "32px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(57, 96, 71)",
+   "bg": null
+  },
+  {
+   "t": "When you're used to measuring your worth by how much you accomplish, needing help can feel",
+   "tag": "P",
+   "x": 57,
+   "y": 1012,
+   "w": 654,
+   "h": 156,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "26px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.75)",
+   "bg": null
+  },
+  {
+   "t": "Tending and rebuilding",
+   "tag": "H2",
+   "x": 121,
+   "y": 1266,
+   "w": 259,
+   "h": 32,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "32px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(108, 50, 133)",
+   "bg": null
+  },
+  {
+   "t": "We start by listening to what the depletion is asking for. We tend the exhaustion before w",
+   "tag": "P",
+   "x": 57,
+   "y": 1326,
+   "w": 654,
+   "h": 78,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "26px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.75)",
+   "bg": null
+  },
+  {
+   "t": "Recovery is not a project to optimize. It is a returning.",
+   "tag": "P",
+   "x": 56,
+   "y": 1509,
+   "w": 656,
+   "h": 33,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "italic",
+   "lh": "33px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(241, 234, 223)",
+   "bg": null
+  },
+  {
+   "t": "Get Started",
+   "tag": "A",
+   "x": 56,
+   "y": 1574,
+   "w": 159,
+   "h": 48,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "0.35px",
+   "tt": "none",
+   "col": "rgb(88, 25, 37)",
+   "bg": "rgb(241, 234, 223)"
+  },
+  {
+   "t": "Sohavani Mand, LMFT",
+   "tag": "DIV",
+   "x": 24,
+   "y": 2016,
+   "w": 150,
+   "h": 56,
+   "ff": "Fraunces",
+   "fs": "18px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "28px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "CA Lic. #150884",
+   "tag": "DIV",
+   "x": 182,
+   "y": 2028,
+   "w": 118,
+   "h": 32,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "2.4px",
+   "tt": "uppercase",
+   "col": "rgb(88, 25, 37)",
+   "bg": null
+  },
+  {
+   "t": "Kaur Counseling, Marriage & Family Therapy, Inc.",
+   "tag": "DIV",
+   "x": 308,
+   "y": 2028,
+   "w": 369,
+   "h": 32,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "1.92px",
+   "tt": "uppercase",
+   "col": "rgba(57, 96, 71, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "415-930-5395",
+   "tag": "A",
+   "x": 24,
+   "y": 2080,
+   "w": 102,
+   "h": 32,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "2.4px",
+   "tt": "uppercase",
+   "col": "rgb(88, 25, 37)",
+   "bg": null
+  },
+  {
+   "t": "Home",
+   "tag": "A",
+   "x": 24,
+   "y": 2106,
+   "w": 38,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "About",
+   "tag": "A",
+   "x": 78,
+   "y": 2106,
+   "w": 39,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "Services",
+   "tag": "A",
+   "x": 133,
+   "y": 2106,
+   "w": 55,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "Contact",
+   "tag": "A",
+   "x": 205,
+   "y": 2106,
+   "w": 51,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "Privacy & Disclaimer",
+   "tag": "A",
+   "x": 272,
+   "y": 2096,
+   "w": 82,
+   "h": 40,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "If you are in crisis, call or text",
+   "tag": "P",
+   "x": 24,
+   "y": 2170,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "988",
+   "tag": "SPAN",
+   "x": 193,
+   "y": 2170,
+   "w": 24,
+   "h": 15,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "600",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "(Suicide & Crisis Lifeline) or",
+   "tag": "P",
+   "x": 24,
+   "y": 2170,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "911",
+   "tag": "SPAN",
+   "x": 380,
+   "y": 2170,
+   "w": 20,
+   "h": 15,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "600",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "for emergencies. This site is not monitored 24/7.",
+   "tag": "P",
+   "x": 24,
+   "y": 2170,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "© 2026 Sohavani Mand, LMFT. Confidential by design.",
+   "tag": "P",
+   "x": 24,
+   "y": 2202,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.4)",
+   "bg": null
+  }
+ ],
+ "imgs": [],
+ "svgs": [
+  {
+   "vb": "0 0 24 24",
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "d": [
+    "m6 9 6 6 6-6"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "d": [
+    "m6 9 6 6 6-6"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 722,
+   "y": 34,
+   "w": 22,
+   "h": 22,
+   "d": []
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "d": [
+    "M18 6 6 18",
+    "m6 6 12 12"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 728,
+   "y": 173,
+   "w": 16,
+   "h": 16,
+   "d": [
+    "M5 12h14",
+    "M12 5v14"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 728,
+   "y": 293,
+   "w": 16,
+   "h": 16,
+   "d": [
+    "M5 12h14",
+    "M12 5v14"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 24,
+   "y": 120,
+   "w": 16,
+   "h": 16,
+   "d": [
+    "m12 19-7-7 7-7",
+    "M19 12H5"
+   ]
+  },
+  {
+   "vb": "0 0 100 150",
+   "x": -14,
+   "y": 123,
+   "w": 52,
+   "h": 67,
+   "d": [
+    "M50 16 C26 40 24 88 48 114",
+    "M50 16 C74 40 76 88 52 114",
+    "M48 114 C46 124 48 134 42 146",
+    "M50 20 L49 112",
+    "M50 42 L32 50",
+    "M50 62 L28 74",
+    "M50 82 L32 92",
+    "M50 42 L68 50",
+    "M50 62 L72 74",
+    "M50 82 L68 92"
+   ]
+  },
+  {
+   "vb": "0 0 100 150",
+   "x": 700,
+   "y": 130,
+   "w": 44,
+   "h": 50,
+   "d": [
+    "M50 16 C26 40 24 88 48 114",
+    "M50 16 C74 40 76 88 52 114",
+    "M48 114 C46 124 48 134 42 146",
+    "M50 20 L49 112",
+    "M50 42 L32 50",
+    "M50 62 L28 74",
+    "M50 82 L32 92",
+    "M50 42 L68 50",
+    "M50 62 L72 74",
+    "M50 82 L68 92"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 69,
+   "y": 616,
+   "w": 24,
+   "h": 24,
+   "d": [
+    "M12.8 19.6A2 2 0 1 0 14 16H2",
+    "M17.5 8a2.5 2.5 0 1 1 2 4H2",
+    "M9.8 4.4A2 2 0 1 1 11 8H2"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 69,
+   "y": 956,
+   "w": 24,
+   "h": 24,
+   "d": [
+    "M11 14h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 16",
+    "m7 20 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4",
+    "m2 15 6 6",
+    "M19.5 8.5c.7-.7 1.5-1.6 1.5-2.7A2.73 2.73 0 0 0 16 4a2.78 2."
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 69,
+   "y": 1270,
+   "w": 24,
+   "h": 24,
+   "d": [
+    "M7 20h10",
+    "M10 20c5.5-2.5.8-6.4 3-10",
+    "M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-",
+    "M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1."
+   ]
+  },
+  {
+   "vb": "0 0 100 150",
+   "x": 648,
+   "y": 1480,
+   "w": 72,
+   "h": 94,
+   "d": [
+    "M50 16 C26 40 24 88 48 114",
+    "M50 16 C74 40 76 88 52 114",
+    "M48 114 C46 124 48 134 42 146",
+    "M50 20 L49 112",
+    "M50 42 L32 50",
+    "M50 62 L28 74",
+    "M50 82 L32 92",
+    "M50 42 L68 50",
+    "M50 62 L72 74",
+    "M50 82 L68 92"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 171,
+   "y": 1590,
+   "w": 16,
+   "h": 16,
+   "d": [
+    "M5 12h14",
+    "m12 5 7 7-7 7"
+   ]
+  }
+ ],
+ "height": 2275
+}

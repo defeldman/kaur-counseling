@@ -1,0 +1,941 @@
+{
+ "title": "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission District, San Francisco",
+ "bodyBg": "rgb(241, 234, 223)",
+ "nav": [
+  {
+   "t": "Kaur CounselingMarriage and Family Therapy, Inc.",
+   "href": "../"
+  },
+  {
+   "t": "Home",
+   "href": "../"
+  },
+  {
+   "t": "Cost",
+   "href": "../about/cost/"
+  },
+  {
+   "t": "About",
+   "href": "../about/"
+  },
+  {
+   "t": "What to Expect",
+   "href": "../about/"
+  },
+  {
+   "t": "Resources",
+   "href": "../about/resources/"
+  },
+  {
+   "t": "Modalities",
+   "href": "../modalities/"
+  },
+  {
+   "t": "Contact",
+   "href": "../get-started/"
+  },
+  {
+   "t": "Services",
+   "href": "../#services"
+  },
+  {
+   "t": "ADHD & Late-Stage Diagnosis",
+   "href": "../services/adhd/"
+  },
+  {
+   "t": "Multicultural & Cross-Cultural Therapy",
+   "href": "../services/multiculturalism/"
+  },
+  {
+   "t": "Burnout",
+   "href": "../services/burnout/"
+  },
+  {
+   "t": "Anxiety & Depression",
+   "href": "../services/anxiety-depression/"
+  },
+  {
+   "t": "Transitions",
+   "href": "../services/transitions/"
+  },
+  {
+   "t": "Teens",
+   "href": "../services/teens/"
+  },
+  {
+   "t": "Get Started",
+   "href": "../get-started/"
+  },
+  {
+   "t": "Home",
+   "href": "../"
+  },
+  {
+   "t": "Cost",
+   "href": "../about/cost/"
+  },
+  {
+   "t": "About",
+   "href": "../about/"
+  },
+  {
+   "t": "What to Expect",
+   "href": "../about/"
+  },
+  {
+   "t": "Resources",
+   "href": "../about/resources/"
+  },
+  {
+   "t": "Modalities",
+   "href": "../modalities/"
+  },
+  {
+   "t": "Contact",
+   "href": "../get-started/"
+  },
+  {
+   "t": "Services",
+   "href": "../#services"
+  },
+  {
+   "t": "ADHD & Late-Stage Diagnosis",
+   "href": "../services/adhd/"
+  },
+  {
+   "t": "Multicultural & Cross-Cultural Therapy",
+   "href": "../services/multiculturalism/"
+  },
+  {
+   "t": "Burnout",
+   "href": "../services/burnout/"
+  },
+  {
+   "t": "Anxiety & Depression",
+   "href": "../services/anxiety-depression/"
+  },
+  {
+   "t": "Transitions",
+   "href": "../services/transitions/"
+  },
+  {
+   "t": "Teens",
+   "href": "../services/teens/"
+  },
+  {
+   "t": "Get Started",
+   "href": "../get-started/"
+  },
+  {
+   "t": "Home",
+   "href": "../"
+  },
+  {
+   "t": "About",
+   "href": "../about/"
+  },
+  {
+   "t": "Services",
+   "href": "../#services"
+  },
+  {
+   "t": "Contact",
+   "href": "../get-started/"
+  },
+  {
+   "t": "Privacy & Disclaimer",
+   "href": "../privacy/"
+  }
+ ],
+ "texts": [
+  {
+   "t": "Kaur Counseling",
+   "tag": "SPAN",
+   "x": 24,
+   "y": 24,
+   "w": 244,
+   "h": 28,
+   "ff": "Fraunces",
+   "fs": "20px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "28px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "Marriage and Family Therapy, Inc.",
+   "tag": "SPAN",
+   "x": 24,
+   "y": 53,
+   "w": 244,
+   "h": 14,
+   "ff": "Inter",
+   "fs": "9px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "13.5px",
+   "ls": "2.16px",
+   "tt": "uppercase",
+   "col": "rgb(119, 128, 121)",
+   "bg": null
+  },
+  {
+   "t": "Legal & privacy",
+   "tag": "P",
+   "x": 24,
+   "y": 118,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "3px",
+   "tt": "uppercase",
+   "col": "rgba(88, 25, 37, 0.8)",
+   "bg": null
+  },
+  {
+   "t": "Privacy, Disclaimer & Crisis Resources",
+   "tag": "H1",
+   "x": 24,
+   "y": 154,
+   "w": 720,
+   "h": 45,
+   "ff": "Fraunces",
+   "fs": "36px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "45px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "Your trust and safety matter. This page explains how your information is handled, the limi",
+   "tag": "P",
+   "x": 24,
+   "y": 222,
+   "w": 720,
+   "h": 46,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "23.1px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "If you are in crisis",
+   "tag": "H2",
+   "x": 81,
+   "y": 358,
+   "w": 197,
+   "h": 32,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "32px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "This website is not monitored for emergencies and is not a substitute for urgent care. If ",
+   "tag": "P",
+   "x": 47,
+   "y": 410,
+   "w": 570,
+   "h": 78,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "26px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.8)",
+   "bg": null
+  },
+  {
+   "t": "911",
+   "tag": "STRONG",
+   "x": 73,
+   "y": 512,
+   "w": 26,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "700",
+   "fst": "normal",
+   "lh": "24px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.85)",
+   "bg": null
+  },
+  {
+   "t": "for life-threatening emergencies.",
+   "tag": "SPAN",
+   "x": 73,
+   "y": 510,
+   "w": 269,
+   "h": 24,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "24px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.85)",
+   "bg": null
+  },
+  {
+   "t": "988",
+   "tag": "STRONG",
+   "x": 73,
+   "y": 550,
+   "w": 32,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "700",
+   "fst": "normal",
+   "lh": "24px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.85)",
+   "bg": null
+  },
+  {
+   "t": "Suicide & Crisis Lifeline. Call or text 988, 24/7.",
+   "tag": "SPAN",
+   "x": 73,
+   "y": 548,
+   "w": 372,
+   "h": 24,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "24px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.85)",
+   "bg": null
+  },
+  {
+   "t": "741741",
+   "tag": "STRONG",
+   "x": 73,
+   "y": 588,
+   "w": 54,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "700",
+   "fst": "normal",
+   "lh": "24px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.85)",
+   "bg": null
+  },
+  {
+   "t": "Crisis Text Line. Text HOME to 741741, 24/7.",
+   "tag": "SPAN",
+   "x": 73,
+   "y": 586,
+   "w": 375,
+   "h": 24,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "24px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.85)",
+   "bg": null
+  },
+  {
+   "t": "Professional disclaimer",
+   "tag": "H2",
+   "x": 24,
+   "y": 683,
+   "w": 720,
+   "h": 32,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "32px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "The content on this website is provided for general informational and educational purposes",
+   "tag": "P",
+   "x": 24,
+   "y": 737,
+   "w": 720,
+   "h": 130,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "26px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.75)",
+   "bg": null
+  },
+  {
+   "t": "Licensee identification",
+   "tag": "H2",
+   "x": 24,
+   "y": 915,
+   "w": 720,
+   "h": 32,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "32px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "Sohavani Mand, Licensed Marriage and Family Therapist (LMFT) California License #150884",
+   "tag": "P",
+   "x": 24,
+   "y": 969,
+   "w": 720,
+   "h": 26,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "26px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.75)",
+   "bg": null
+  },
+  {
+   "t": "Website privacy",
+   "tag": "H2",
+   "x": 24,
+   "y": 1043,
+   "w": 720,
+   "h": 32,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "32px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "This website does not store protected health information (PHI) directly. Any information y",
+   "tag": "P",
+   "x": 24,
+   "y": 1097,
+   "w": 720,
+   "h": 130,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "26px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.75)",
+   "bg": null
+  },
+  {
+   "t": "Notice of Privacy Practices (summary)",
+   "tag": "H2",
+   "x": 24,
+   "y": 1275,
+   "w": 720,
+   "h": 32,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "32px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "As a licensed health care provider, Sohavani Mand, LMFT maintains confidentiality in accor",
+   "tag": "P",
+   "x": 24,
+   "y": 1329,
+   "w": 720,
+   "h": 156,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "26px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.75)",
+   "bg": null
+  },
+  {
+   "t": "Telehealth",
+   "tag": "H2",
+   "x": 24,
+   "y": 1533,
+   "w": 720,
+   "h": 32,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "32px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "Where telehealth is offered, services are provided under a valid California license, with ",
+   "tag": "P",
+   "x": 24,
+   "y": 1587,
+   "w": 720,
+   "h": 78,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "26px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.75)",
+   "bg": null
+  },
+  {
+   "t": "This page provides a general overview and is not legal advice. For questions about your pr",
+   "tag": "P",
+   "x": 24,
+   "y": 1684,
+   "w": 720,
+   "h": 46,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "22.75px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.5)",
+   "bg": null
+  },
+  {
+   "t": "Sohavani Mand, LMFT",
+   "tag": "DIV",
+   "x": 24,
+   "y": 1997,
+   "w": 150,
+   "h": 56,
+   "ff": "Fraunces",
+   "fs": "18px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "28px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "CA Lic. #150884",
+   "tag": "DIV",
+   "x": 182,
+   "y": 2009,
+   "w": 118,
+   "h": 32,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "2.4px",
+   "tt": "uppercase",
+   "col": "rgb(88, 25, 37)",
+   "bg": null
+  },
+  {
+   "t": "Kaur Counseling, Marriage & Family Therapy, Inc.",
+   "tag": "DIV",
+   "x": 308,
+   "y": 2009,
+   "w": 369,
+   "h": 32,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "1.92px",
+   "tt": "uppercase",
+   "col": "rgba(57, 96, 71, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "415-930-5395",
+   "tag": "A",
+   "x": 24,
+   "y": 2061,
+   "w": 102,
+   "h": 32,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "2.4px",
+   "tt": "uppercase",
+   "col": "rgb(88, 25, 37)",
+   "bg": null
+  },
+  {
+   "t": "Home",
+   "tag": "A",
+   "x": 24,
+   "y": 2087,
+   "w": 38,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "About",
+   "tag": "A",
+   "x": 78,
+   "y": 2087,
+   "w": 39,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "Services",
+   "tag": "A",
+   "x": 133,
+   "y": 2087,
+   "w": 55,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "Contact",
+   "tag": "A",
+   "x": 205,
+   "y": 2087,
+   "w": 51,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "Privacy & Disclaimer",
+   "tag": "A",
+   "x": 272,
+   "y": 2077,
+   "w": 82,
+   "h": 40,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "If you are in crisis, call or text",
+   "tag": "P",
+   "x": 24,
+   "y": 2151,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "988",
+   "tag": "SPAN",
+   "x": 193,
+   "y": 2151,
+   "w": 24,
+   "h": 15,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "600",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "(Suicide & Crisis Lifeline) or",
+   "tag": "P",
+   "x": 24,
+   "y": 2151,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "911",
+   "tag": "SPAN",
+   "x": 380,
+   "y": 2151,
+   "w": 20,
+   "h": 15,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "600",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "for emergencies. This site is not monitored 24/7.",
+   "tag": "P",
+   "x": 24,
+   "y": 2151,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "© 2026 Sohavani Mand, LMFT. Confidential by design.",
+   "tag": "P",
+   "x": 24,
+   "y": 2183,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.4)",
+   "bg": null
+  }
+ ],
+ "imgs": [],
+ "svgs": [
+  {
+   "vb": "0 0 24 24",
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "d": [
+    "m6 9 6 6 6-6"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "d": [
+    "m6 9 6 6 6-6"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 722,
+   "y": 34,
+   "w": 22,
+   "h": 22,
+   "d": []
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "d": [
+    "M18 6 6 18",
+    "m6 6 12 12"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 728,
+   "y": 173,
+   "w": 16,
+   "h": 16,
+   "d": [
+    "M5 12h14",
+    "M12 5v14"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 728,
+   "y": 293,
+   "w": 16,
+   "h": 16,
+   "d": [
+    "M5 12h14",
+    "M12 5v14"
+   ]
+  },
+  {
+   "vb": "0 0 100 150",
+   "x": -22,
+   "y": 64,
+   "w": 52,
+   "h": 67,
+   "d": [
+    "M50 16 C26 40 24 88 48 114",
+    "M50 16 C74 40 76 88 52 114",
+    "M48 114 C46 124 48 134 42 146",
+    "M50 20 L49 112",
+    "M50 42 L32 50",
+    "M50 62 L28 74",
+    "M50 82 L32 92",
+    "M50 42 L68 50",
+    "M50 62 L72 74",
+    "M50 82 L68 92"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 47,
+   "y": 364,
+   "w": 20,
+   "h": 20,
+   "d": [
+    "m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 ",
+    "M12 9v4",
+    "M12 17h.01"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 47,
+   "y": 513,
+   "w": 14,
+   "h": 14,
+   "d": [
+    "M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19."
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 47,
+   "y": 551,
+   "w": 14,
+   "h": 14,
+   "d": [
+    "M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19."
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 47,
+   "y": 589,
+   "w": 14,
+   "h": 14,
+   "d": [
+    "M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19."
+   ]
+  }
+ ],
+ "height": 2256
+}

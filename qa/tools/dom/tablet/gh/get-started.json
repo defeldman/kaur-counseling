@@ -1,0 +1,804 @@
+{
+ "title": "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission District, San Francisco",
+ "bodyBg": "rgb(241, 234, 223)",
+ "nav": [
+  {
+   "t": "Kaur CounselingMarriage and Family Therapy, Inc.",
+   "href": "../"
+  },
+  {
+   "t": "Home",
+   "href": "../"
+  },
+  {
+   "t": "Cost",
+   "href": "../about/cost/"
+  },
+  {
+   "t": "About",
+   "href": "../about/"
+  },
+  {
+   "t": "What to Expect",
+   "href": "../about/"
+  },
+  {
+   "t": "Resources",
+   "href": "../about/resources/"
+  },
+  {
+   "t": "Modalities",
+   "href": "../modalities/"
+  },
+  {
+   "t": "Contact",
+   "href": "../get-started/"
+  },
+  {
+   "t": "Services",
+   "href": "../#services"
+  },
+  {
+   "t": "ADHD & Late-Stage Diagnosis",
+   "href": "../services/adhd/"
+  },
+  {
+   "t": "Multicultural & Cross-Cultural Therapy",
+   "href": "../services/multiculturalism/"
+  },
+  {
+   "t": "Burnout",
+   "href": "../services/burnout/"
+  },
+  {
+   "t": "Anxiety & Depression",
+   "href": "../services/anxiety-depression/"
+  },
+  {
+   "t": "Transitions",
+   "href": "../services/transitions/"
+  },
+  {
+   "t": "Teens",
+   "href": "../services/teens/"
+  },
+  {
+   "t": "Get Started",
+   "href": "../get-started/"
+  },
+  {
+   "t": "Home",
+   "href": "../"
+  },
+  {
+   "t": "Cost",
+   "href": "../about/cost/"
+  },
+  {
+   "t": "About",
+   "href": "../about/"
+  },
+  {
+   "t": "What to Expect",
+   "href": "../about/"
+  },
+  {
+   "t": "Resources",
+   "href": "../about/resources/"
+  },
+  {
+   "t": "Modalities",
+   "href": "../modalities/"
+  },
+  {
+   "t": "Contact",
+   "href": "../get-started/"
+  },
+  {
+   "t": "Services",
+   "href": "../#services"
+  },
+  {
+   "t": "ADHD & Late-Stage Diagnosis",
+   "href": "../services/adhd/"
+  },
+  {
+   "t": "Multicultural & Cross-Cultural Therapy",
+   "href": "../services/multiculturalism/"
+  },
+  {
+   "t": "Burnout",
+   "href": "../services/burnout/"
+  },
+  {
+   "t": "Anxiety & Depression",
+   "href": "../services/anxiety-depression/"
+  },
+  {
+   "t": "Transitions",
+   "href": "../services/transitions/"
+  },
+  {
+   "t": "Teens",
+   "href": "../services/teens/"
+  },
+  {
+   "t": "Get Started",
+   "href": "../get-started/"
+  },
+  {
+   "t": "Home",
+   "href": "../"
+  },
+  {
+   "t": "About",
+   "href": "../about/"
+  },
+  {
+   "t": "Services",
+   "href": "../#services"
+  },
+  {
+   "t": "Contact",
+   "href": "../get-started/"
+  },
+  {
+   "t": "Privacy & Disclaimer",
+   "href": "../privacy/"
+  }
+ ],
+ "texts": [
+  {
+   "t": "Kaur Counseling",
+   "tag": "SPAN",
+   "x": 24,
+   "y": 24,
+   "w": 244,
+   "h": 28,
+   "ff": "Fraunces",
+   "fs": "20px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "28px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "Marriage and Family Therapy, Inc.",
+   "tag": "SPAN",
+   "x": 24,
+   "y": 53,
+   "w": 244,
+   "h": 14,
+   "ff": "Inter",
+   "fs": "9px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "13.5px",
+   "ls": "2.16px",
+   "tt": "uppercase",
+   "col": "rgb(119, 128, 121)",
+   "bg": null
+  },
+  {
+   "t": "Get started",
+   "tag": "P",
+   "x": 24,
+   "y": 127,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "3px",
+   "tt": "uppercase",
+   "col": "rgba(88, 25, 37, 0.8)",
+   "bg": null
+  },
+  {
+   "t": "Are we the",
+   "tag": "H1",
+   "x": 24,
+   "y": 170,
+   "w": 720,
+   "h": 45,
+   "ff": "Fraunces",
+   "fs": "36px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "45px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "right fit?",
+   "tag": "EM",
+   "x": 206,
+   "y": 170,
+   "w": 138,
+   "h": 44,
+   "ff": "Fraunces",
+   "fs": "36px",
+   "fw": "400",
+   "fst": "italic",
+   "lh": "45px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(88, 25, 37)",
+   "bg": null
+  },
+  {
+   "t": "I'm glad you're here. Finding the right therapist is such a personal process, and feeling ",
+   "tag": "P",
+   "x": 24,
+   "y": 238,
+   "w": 720,
+   "h": 88,
+   "ff": "Inter",
+   "fs": "18px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "29.25px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.75)",
+   "bg": null
+  },
+  {
+   "t": "Request an appointment",
+   "tag": "H3",
+   "x": 48,
+   "y": 438,
+   "w": 672,
+   "h": 33,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "33px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "Choose a service, share a brief note about what brings you in, and pick a time, all throug",
+   "tag": "P",
+   "x": 48,
+   "y": 487,
+   "w": 672,
+   "h": 52,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "26px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.75)",
+   "bg": null
+  },
+  {
+   "t": "Request Appointment",
+   "tag": "A",
+   "x": 48,
+   "y": 566,
+   "w": 235,
+   "h": 48,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "0.35px",
+   "tt": "none",
+   "col": "rgb(241, 234, 223)",
+   "bg": "rgb(88, 25, 37)"
+  },
+  {
+   "t": "Opens a secure scheduling window, no email form.",
+   "tag": "SMALL",
+   "x": 48,
+   "y": 632,
+   "w": 672,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.5)",
+   "bg": null
+  },
+  {
+   "t": "Office",
+   "tag": "P",
+   "x": 24,
+   "y": 795,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "3px",
+   "tt": "uppercase",
+   "col": "rgb(57, 96, 71)",
+   "bg": null
+  },
+  {
+   "t": "A room in the",
+   "tag": "H3",
+   "x": 24,
+   "y": 833,
+   "w": 720,
+   "h": 30,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "30px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "Mission.",
+   "tag": "EM",
+   "x": 180,
+   "y": 833,
+   "w": 87,
+   "h": 29,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "italic",
+   "lh": "30px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(57, 96, 71)",
+   "bg": null
+  },
+  {
+   "t": "My office is a calm, private space in the heart of the Mission District, easy to reach by ",
+   "tag": "P",
+   "x": 24,
+   "y": 887,
+   "w": 390,
+   "h": 104,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "26px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.75)",
+   "bg": null
+  },
+  {
+   "t": "Virtual sessions are always available, but in-person sessions start October 1st.",
+   "tag": "P",
+   "x": 24,
+   "y": 1017,
+   "w": 390,
+   "h": 52,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "26px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.75)",
+   "bg": null
+  },
+  {
+   "t": "3150 18th St, Suite 404, San Francisco, CA 94110",
+   "tag": "A",
+   "x": 24,
+   "y": 1098,
+   "w": 720,
+   "h": 23,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "22.75px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.8)",
+   "bg": null
+  },
+  {
+   "t": "415-930-5395",
+   "tag": "A",
+   "x": 24,
+   "y": 1140,
+   "w": 720,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.8)",
+   "bg": null
+  },
+  {
+   "t": "Sohavani Mand, LMFT",
+   "tag": "DIV",
+   "x": 24,
+   "y": 1641,
+   "w": 150,
+   "h": 56,
+   "ff": "Fraunces",
+   "fs": "18px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "28px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "CA Lic. #150884",
+   "tag": "DIV",
+   "x": 182,
+   "y": 1653,
+   "w": 118,
+   "h": 32,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "2.4px",
+   "tt": "uppercase",
+   "col": "rgb(88, 25, 37)",
+   "bg": null
+  },
+  {
+   "t": "Kaur Counseling, Marriage & Family Therapy, Inc.",
+   "tag": "DIV",
+   "x": 308,
+   "y": 1653,
+   "w": 369,
+   "h": 32,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "1.92px",
+   "tt": "uppercase",
+   "col": "rgba(57, 96, 71, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "415-930-5395",
+   "tag": "A",
+   "x": 24,
+   "y": 1705,
+   "w": 102,
+   "h": 32,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "2.4px",
+   "tt": "uppercase",
+   "col": "rgb(88, 25, 37)",
+   "bg": null
+  },
+  {
+   "t": "Home",
+   "tag": "A",
+   "x": 24,
+   "y": 1731,
+   "w": 38,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "About",
+   "tag": "A",
+   "x": 78,
+   "y": 1731,
+   "w": 39,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "Services",
+   "tag": "A",
+   "x": 133,
+   "y": 1731,
+   "w": 55,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "Contact",
+   "tag": "A",
+   "x": 205,
+   "y": 1731,
+   "w": 51,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "Privacy & Disclaimer",
+   "tag": "A",
+   "x": 272,
+   "y": 1721,
+   "w": 82,
+   "h": 40,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "If you are in crisis, call or text",
+   "tag": "P",
+   "x": 24,
+   "y": 1795,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "988",
+   "tag": "SPAN",
+   "x": 193,
+   "y": 1795,
+   "w": 24,
+   "h": 15,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "600",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "(Suicide & Crisis Lifeline) or",
+   "tag": "P",
+   "x": 24,
+   "y": 1795,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "911",
+   "tag": "SPAN",
+   "x": 380,
+   "y": 1795,
+   "w": 20,
+   "h": 15,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "600",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "for emergencies. This site is not monitored 24/7.",
+   "tag": "P",
+   "x": 24,
+   "y": 1795,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "© 2026 Sohavani Mand, LMFT. Confidential by design.",
+   "tag": "P",
+   "x": 24,
+   "y": 1827,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.4)",
+   "bg": null
+  }
+ ],
+ "imgs": [],
+ "svgs": [
+  {
+   "vb": "0 0 24 24",
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "d": [
+    "m6 9 6 6 6-6"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "d": [
+    "m6 9 6 6 6-6"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 722,
+   "y": 34,
+   "w": 22,
+   "h": 22,
+   "d": []
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "d": [
+    "M18 6 6 18",
+    "m6 6 12 12"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 728,
+   "y": 173,
+   "w": 16,
+   "h": 16,
+   "d": [
+    "M5 12h14",
+    "M12 5v14"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 728,
+   "y": 293,
+   "w": 16,
+   "h": 16,
+   "d": [
+    "M5 12h14",
+    "M12 5v14"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 242,
+   "y": 582,
+   "w": 16,
+   "h": 16,
+   "d": [
+    "M7 7h10v10",
+    "M7 17 17 7"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 24,
+   "y": 1100,
+   "w": 18,
+   "h": 18,
+   "d": [
+    "M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 731,
+   "y": 1103,
+   "w": 13,
+   "h": 13,
+   "d": [
+    "M15 3h6v6",
+    "M10 14 21 3",
+    "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 24,
+   "y": 1141,
+   "w": 18,
+   "h": 18,
+   "d": [
+    "M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19."
+   ]
+  }
+ ],
+ "height": 1900
+}

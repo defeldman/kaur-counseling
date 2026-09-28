@@ -1,0 +1,833 @@
+{
+ "title": "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission District, San Francisco",
+ "bodyBg": "rgb(241, 234, 223)",
+ "nav": [
+  {
+   "t": "Kaur CounselingMarriage and Family Therapy, Inc.",
+   "href": "../../"
+  },
+  {
+   "t": "Home",
+   "href": "../../"
+  },
+  {
+   "t": "Cost",
+   "href": "../../about/cost/"
+  },
+  {
+   "t": "About",
+   "href": "../../about/"
+  },
+  {
+   "t": "What to Expect",
+   "href": "../../about/"
+  },
+  {
+   "t": "Resources",
+   "href": "../../about/resources/"
+  },
+  {
+   "t": "Modalities",
+   "href": "../../modalities/"
+  },
+  {
+   "t": "Contact",
+   "href": "../../get-started/"
+  },
+  {
+   "t": "Services",
+   "href": "../../#services"
+  },
+  {
+   "t": "ADHD & Late-Stage Diagnosis",
+   "href": "../../services/adhd/"
+  },
+  {
+   "t": "Multicultural & Cross-Cultural Therapy",
+   "href": "../../services/multiculturalism/"
+  },
+  {
+   "t": "Burnout",
+   "href": "../../services/burnout/"
+  },
+  {
+   "t": "Anxiety & Depression",
+   "href": "../../services/anxiety-depression/"
+  },
+  {
+   "t": "Transitions",
+   "href": "../../services/transitions/"
+  },
+  {
+   "t": "Teens",
+   "href": "../../services/teens/"
+  },
+  {
+   "t": "Get Started",
+   "href": "../../get-started/"
+  },
+  {
+   "t": "Home",
+   "href": "../../"
+  },
+  {
+   "t": "Cost",
+   "href": "../../about/cost/"
+  },
+  {
+   "t": "About",
+   "href": "../../about/"
+  },
+  {
+   "t": "What to Expect",
+   "href": "../../about/"
+  },
+  {
+   "t": "Resources",
+   "href": "../../about/resources/"
+  },
+  {
+   "t": "Modalities",
+   "href": "../../modalities/"
+  },
+  {
+   "t": "Contact",
+   "href": "../../get-started/"
+  },
+  {
+   "t": "Services",
+   "href": "../../#services"
+  },
+  {
+   "t": "ADHD & Late-Stage Diagnosis",
+   "href": "../../services/adhd/"
+  },
+  {
+   "t": "Multicultural & Cross-Cultural Therapy",
+   "href": "../../services/multiculturalism/"
+  },
+  {
+   "t": "Burnout",
+   "href": "../../services/burnout/"
+  },
+  {
+   "t": "Anxiety & Depression",
+   "href": "../../services/anxiety-depression/"
+  },
+  {
+   "t": "Transitions",
+   "href": "../../services/transitions/"
+  },
+  {
+   "t": "Teens",
+   "href": "../../services/teens/"
+  },
+  {
+   "t": "Get Started",
+   "href": "../../get-started/"
+  },
+  {
+   "t": "Home",
+   "href": "../../"
+  },
+  {
+   "t": "About",
+   "href": "../../about/"
+  },
+  {
+   "t": "Services",
+   "href": "../../#services"
+  },
+  {
+   "t": "Contact",
+   "href": "../../get-started/"
+  },
+  {
+   "t": "Privacy & Disclaimer",
+   "href": "../../privacy/"
+  }
+ ],
+ "texts": [
+  {
+   "t": "Kaur Counseling",
+   "tag": "SPAN",
+   "x": 24,
+   "y": 24,
+   "w": 244,
+   "h": 28,
+   "ff": "Fraunces",
+   "fs": "20px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "28px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "Marriage and Family Therapy, Inc.",
+   "tag": "SPAN",
+   "x": 24,
+   "y": 53,
+   "w": 244,
+   "h": 14,
+   "ff": "Inter",
+   "fs": "9px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "13.5px",
+   "ls": "2.16px",
+   "tt": "uppercase",
+   "col": "rgb(119, 128, 121)",
+   "bg": null
+  },
+  {
+   "t": "Back to Home",
+   "tag": "A",
+   "x": 24,
+   "y": 118,
+   "w": 115,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(57, 96, 71)",
+   "bg": null
+  },
+  {
+   "t": "The investment",
+   "tag": "P",
+   "x": 24,
+   "y": 199,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "3px",
+   "tt": "uppercase",
+   "col": "rgba(88, 25, 37, 0.8)",
+   "bg": null
+  },
+  {
+   "t": "The cost of individual therapy",
+   "tag": "H1",
+   "x": 24,
+   "y": 242,
+   "w": 720,
+   "h": 45,
+   "ff": "Fraunces",
+   "fs": "36px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "45px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "Private-pay, with a clear path to reimbursement.",
+   "tag": "P",
+   "x": 24,
+   "y": 306,
+   "w": 650,
+   "h": 33,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "italic",
+   "lh": "33px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(57, 96, 71)",
+   "bg": null
+  },
+  {
+   "t": "Therapy is an investment in the life you're building. For clients paying out of pocket or ",
+   "tag": "P",
+   "x": 24,
+   "y": 881,
+   "w": 720,
+   "h": 88,
+   "ff": "Inter",
+   "fs": "18px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "29.25px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.75)",
+   "bg": null
+  },
+  {
+   "t": "Session rates",
+   "tag": "H2",
+   "x": 24,
+   "y": 969,
+   "w": 720,
+   "h": 32,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "32px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "50-minute individual session — $250",
+   "tag": "LI",
+   "x": 44,
+   "y": 1023,
+   "w": 700,
+   "h": 26,
+   "ff": "Inter",
+   "fs": "15px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "25.8px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "80-minute extended session — $400",
+   "tag": "LI",
+   "x": 44,
+   "y": 1053,
+   "w": 700,
+   "h": 26,
+   "ff": "Inter",
+   "fs": "15px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "25.8px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "Couples and family sessions — $300 (50 minutes)",
+   "tag": "LI",
+   "x": 44,
+   "y": 1083,
+   "w": 700,
+   "h": 26,
+   "ff": "Inter",
+   "fs": "15px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "25.8px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "Payment details",
+   "tag": "H2",
+   "x": 24,
+   "y": 1171,
+   "w": 720,
+   "h": 32,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "32px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "Payment is due at the time of each session and can be made by card (including HSA/FSA card",
+   "tag": "P",
+   "x": 24,
+   "y": 1225,
+   "w": 720,
+   "h": 78,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "26px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.75)",
+   "bg": null
+  },
+  {
+   "t": "A superbill for reimbursement",
+   "tag": "H2",
+   "x": 24,
+   "y": 1365,
+   "w": 720,
+   "h": 32,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "32px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "I'm out-of-network with most insurance plans, which keeps our work private and flexible. I",
+   "tag": "P",
+   "x": 24,
+   "y": 1419,
+   "w": 720,
+   "h": 104,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "26px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.75)",
+   "bg": null
+  },
+  {
+   "t": "Many clients receive 50–80% of the session cost back. I'm happy to help you understand you",
+   "tag": "P",
+   "x": 24,
+   "y": 1542,
+   "w": 720,
+   "h": 52,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "26px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.75)",
+   "bg": null
+  },
+  {
+   "t": "Why pay out of pocket?",
+   "tag": "H2",
+   "x": 24,
+   "y": 1656,
+   "w": 720,
+   "h": 32,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "32px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "Choosing not to bill insurance means your diagnosis and treatment stay between us, not in ",
+   "tag": "P",
+   "x": 24,
+   "y": 1710,
+   "w": 720,
+   "h": 104,
+   "ff": "Inter",
+   "fs": "16px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "26px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.75)",
+   "bg": null
+  },
+  {
+   "t": "If this feels like the right place to begin, you don't have to figure it out alone.",
+   "tag": "P",
+   "x": 24,
+   "y": 1975,
+   "w": 560,
+   "h": 66,
+   "ff": "Fraunces",
+   "fs": "24px",
+   "fw": "400",
+   "fst": "italic",
+   "lh": "33px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(57, 96, 71)",
+   "bg": null
+  },
+  {
+   "t": "Get Started",
+   "tag": "A",
+   "x": 24,
+   "y": 2070,
+   "w": 129,
+   "h": 48,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "0.35px",
+   "tt": "none",
+   "col": "rgb(241, 234, 223)",
+   "bg": "rgb(88, 25, 37)"
+  },
+  {
+   "t": "Sohavani Mand, LMFT",
+   "tag": "DIV",
+   "x": 24,
+   "y": 2314,
+   "w": 150,
+   "h": 56,
+   "ff": "Fraunces",
+   "fs": "18px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "28px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgb(23, 39, 64)",
+   "bg": null
+  },
+  {
+   "t": "CA Lic. #150884",
+   "tag": "DIV",
+   "x": 182,
+   "y": 2326,
+   "w": 118,
+   "h": 32,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "2.4px",
+   "tt": "uppercase",
+   "col": "rgb(88, 25, 37)",
+   "bg": null
+  },
+  {
+   "t": "Kaur Counseling, Marriage & Family Therapy, Inc.",
+   "tag": "DIV",
+   "x": 308,
+   "y": 2326,
+   "w": 369,
+   "h": 32,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "1.92px",
+   "tt": "uppercase",
+   "col": "rgba(57, 96, 71, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "415-930-5395",
+   "tag": "A",
+   "x": 24,
+   "y": 2378,
+   "w": 102,
+   "h": 32,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "2.4px",
+   "tt": "uppercase",
+   "col": "rgb(88, 25, 37)",
+   "bg": null
+  },
+  {
+   "t": "Home",
+   "tag": "A",
+   "x": 24,
+   "y": 2404,
+   "w": 38,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "About",
+   "tag": "A",
+   "x": 78,
+   "y": 2404,
+   "w": 39,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "Services",
+   "tag": "A",
+   "x": 133,
+   "y": 2404,
+   "w": 55,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "Contact",
+   "tag": "A",
+   "x": 205,
+   "y": 2404,
+   "w": 51,
+   "h": 20,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "Privacy & Disclaimer",
+   "tag": "A",
+   "x": 272,
+   "y": 2394,
+   "w": 82,
+   "h": 40,
+   "ff": "Inter",
+   "fs": "14px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "20px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.6)",
+   "bg": null
+  },
+  {
+   "t": "If you are in crisis, call or text",
+   "tag": "P",
+   "x": 24,
+   "y": 2468,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "988",
+   "tag": "SPAN",
+   "x": 193,
+   "y": 2468,
+   "w": 24,
+   "h": 15,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "600",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "(Suicide & Crisis Lifeline) or",
+   "tag": "P",
+   "x": 24,
+   "y": 2468,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "911",
+   "tag": "SPAN",
+   "x": 380,
+   "y": 2468,
+   "w": 20,
+   "h": 15,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "600",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "for emergencies. This site is not monitored 24/7.",
+   "tag": "P",
+   "x": 24,
+   "y": 2468,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.7)",
+   "bg": null
+  },
+  {
+   "t": "© 2026 Sohavani Mand, LMFT. Confidential by design.",
+   "tag": "P",
+   "x": 24,
+   "y": 2500,
+   "w": 720,
+   "h": 16,
+   "ff": "Inter",
+   "fs": "12px",
+   "fw": "400",
+   "fst": "normal",
+   "lh": "16px",
+   "ls": "normal",
+   "tt": "none",
+   "col": "rgba(23, 39, 64, 0.4)",
+   "bg": null
+  }
+ ],
+ "imgs": [
+  {
+   "src": "https://defeldman.github.io/kaur-counseling/assets/images/cost-flatlay.webp",
+   "x": 24,
+   "y": 373,
+   "w": 720,
+   "h": 449,
+   "fit": "fill",
+   "radius": "0px"
+  }
+ ],
+ "svgs": [
+  {
+   "vb": "0 0 24 24",
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "d": [
+    "m6 9 6 6 6-6"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "d": [
+    "m6 9 6 6 6-6"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 722,
+   "y": 34,
+   "w": 22,
+   "h": 22,
+   "d": []
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "d": [
+    "M18 6 6 18",
+    "m6 6 12 12"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 728,
+   "y": 173,
+   "w": 16,
+   "h": 16,
+   "d": [
+    "M5 12h14",
+    "M12 5v14"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 728,
+   "y": 293,
+   "w": 16,
+   "h": 16,
+   "d": [
+    "M5 12h14",
+    "M12 5v14"
+   ]
+  },
+  {
+   "vb": "0 0 24 24",
+   "x": 24,
+   "y": 120,
+   "w": 16,
+   "h": 16,
+   "d": [
+    "m12 19-7-7 7-7",
+    "M19 12H5"
+   ]
+  }
+ ],
+ "height": 2573
+}
