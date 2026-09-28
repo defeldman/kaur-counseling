@@ -327,7 +327,7 @@ function render() {
   const backHref = page.backPath ? link(page.backPath) : (page.isService ? link('#services') : link(''));
   const back = page.noBack ? '' : `<a class="back-link" href="${backHref}">${page.isService || page.backLabel ? window.lucideSvg('arrow-left',16,'lucide lucide-arrow-left mt-px') : ''}${backLabel}</a>`;
   const heroBody = page.heroBodyMarkup ? `<p class="detail-hero-body">${page.heroBodyMarkup}</p>` : Array.isArray(page.heroBody) ? page.heroBody.map((copy) => `<p class="detail-hero-body">${esc(copy)}</p>`).join('') : (page.heroBody ? `<p class="detail-hero-body">${esc(page.heroBody)}</p>` : '');
-  const routeFeather = pageId === 'privacy' ? featherSvg('privacy-hero-leaf') : pageId === 'modalities' ? featherSvg('modalities-hero-leaf') : '';
+  const routeFeather = pageId === 'privacy' ? featherSvg('privacy-hero-leaf') : pageId === 'modalities' ? featherSvg('modalities-hero-leaf') : pageId === 'resources' ? `${featherSvg('resource-hero-leaf resource-hero-leaf-left')}${featherSvg('resource-hero-leaf resource-hero-leaf-right')}` : '';
   document.getElementById('page-app').innerHTML = `${header()}<main class="detail-page"><div class="detail-shell">${back}<section class="detail-hero">${page.isService ? `${featherSvg('service-hero-leaf service-hero-leaf-left')}${featherSvg('service-hero-leaf service-hero-leaf-right')}` : routeFeather}${leaf}<p class="eyebrow">${esc(page.eyebrow)}</p><h1>${page.title}</h1><p class="${page.plainLede ? 'detail-hero-body plain-detail-lede' : 'detail-lede'}">${esc(page.lede)}</p>${heroBody}</section><div class="detail-content">${body}</div>${page.isService ? serviceCta(page.closingQuote) : page.noCta ? '' : page.ctaMarkup || cta()}</div></main>${footer()}`;
 }
 

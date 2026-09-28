@@ -1278,6 +1278,9 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
 .page-resources .book-section{position:relative}
 .resource-closing{position:relative}
 .resource-closing-leaf{position:absolute;left:-81px;top:0;width:55px;color:rgba(88,25,37,.25);pointer-events:none}
+.resource-hero-leaf{position:absolute;pointer-events:none}
+.resource-hero-leaf-left{left:-40px;top:-8px;width:40px;color:rgba(88,25,37,.3);transform:rotate(-12deg)}
+.resource-hero-leaf-right{right:0;top:-4px;width:28px;color:rgba(57,96,71,.3);transform:rotate(28deg)}
 .modalities-hero-leaf{position:absolute;right:-38px;top:0;width:70px;color:rgba(88,25,37,.2);transform:rotate(-18deg);pointer-events:none}
 .privacy-hero-leaf{position:absolute;left:-40px;top:-24px;width:40px;color:rgba(88,25,37,.3);transform:rotate(12deg);pointer-events:none}
 .office-facts a{display:flex;align-items:center;gap:9px}
@@ -1905,7 +1908,7 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
 .footer-copyright-row{height:56px;padding-top:0;padding-bottom:40px;font-size:12px;line-height:16px;color:rgba(23,39,64,.5)}
 .footer-copyright{color:rgba(23,39,64,.4)}
 @media(max-width:1279px){.footer-top{height:auto;min-height:152px}.footer-meta{width:auto;flex:1 1 auto;flex-wrap:wrap}.footer-nav{width:auto;flex:0 1 auto;gap:16px}.footer-crisis,.footer-copyright-row{height:auto;min-height:32px}.footer-copyright-row{padding-bottom:30px}}
-@media(max-width:800px){.footer-top{padding:34px 24px;align-items:flex-start;flex-direction:column;gap:24px}.footer-meta{width:100%;gap:8px}.footer-nav{width:100%;flex-wrap:wrap;justify-content:flex-start}.footer-crisis,.footer-copyright-row{padding-left:24px;padding-right:24px}.footer-copyright-row{padding-bottom:28px}}
+@media(max-width:800px){.footer-top{padding:34px 24px;align-items:flex-start;flex-direction:column;gap:24px}.footer-meta{width:100%;gap:8px}.footer-business{box-sizing:border-box;width:100%;max-width:100%;flex:0 1 100%;overflow-wrap:anywhere}.footer-nav{width:100%;flex-wrap:wrap;justify-content:flex-start}.footer-crisis,.footer-copyright-row{padding-left:24px;padding-right:24px}.footer-copyright-row{padding-bottom:28px}}
 @media(min-width:1101px){.page-services-adhd .detail-content>.detail-section:first-child>p{width:672px;max-width:672px;margin-left:0}.page-services-adhd .detail-content>.detail-section:first-child .detail-card-grid{width:928px;max-width:none;margin-left:0;transform:none}.page-services-adhd .detail-content>.detail-section:first-child .detail-card{padding-left:21px;padding-right:21px}.page-services-adhd .detail-hero .detail-lede{width:672px;margin-left:auto;margin-right:auto}}
 .page-service:not(.page-services-anxiety-depression) .service-topic-card .service-heading-icon,.page-service:not(.page-services-anxiety-depression) .service-panel-card .service-heading-icon{width:48px;height:48px;flex-basis:48px;border-radius:16px}
 .site-footer{margin-top:25px}
