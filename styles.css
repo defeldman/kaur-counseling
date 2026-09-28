@@ -1961,3 +1961,55 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
 body:not([data-page]) .line-icon{width:80px;height:80px;margin-bottom:28px}
 body:not([data-page]) .line-icon svg{width:100%;height:100%;stroke-width:1.5}
 body:not([data-page]) .leaf-people{position:absolute;display:block;width:124px;height:161px;right:26px;left:auto;top:0;color:rgba(57,96,71,.1);opacity:1;transform:rotate(0);pointer-events:none}
+
+/* Brief 29: measured 1024px homepage section and footer flow. */
+@media (min-width:1024px) and (max-width:1279px){
+  body:not([data-page]) .about-section{padding-bottom:85px}
+  body:not([data-page]) .site-footer{margin-top:4px;min-height:269px}
+}
+
+/* Brief 29: measured tablet typography and page gutters. */
+@media (min-width:768px) and (max-width:1023px){
+  .detail-shell{max-width:none;padding-left:24px;padding-right:24px}
+  .site-footer{min-height:281px}
+  body:not([data-page]) .site-footer{margin-top:50px}
+  .page-get-started .detail-hero h1,
+  .page-privacy .detail-hero h1,
+  .page-modalities .detail-hero h1{font-size:36px;line-height:45px}
+  .page-service .detail-hero h1{font-size:36px;line-height:37.8px}
+  .page-service .detail-section h2,
+  .page-privacy .detail-section h2,
+  .page-get-started .detail-appointment h2{font-size:24px;line-height:33px}
+  .page-service .framework-card-title{line-height:33px}
+  .page-modalities .detail-cta h2{line-height:37.5px}
+  .page-get-started .get-started-office{grid-template-columns:1fr;gap:48px}
+  .page-get-started .map-frame{height:auto;aspect-ratio:16/10}
+  .page-get-started .detail-shell{padding-bottom:66.25px}
+  .page-about .detail-shell{padding-bottom:0;margin-bottom:-23px}
+  .page-cost .detail-shell{max-width:none;padding-bottom:0;margin-bottom:-10px}
+  .page-resources .detail-shell{padding-bottom:138px}
+  .page-services-multiculturalism .detail-hero h1{letter-spacing:normal}
+  .page-services-multiculturalism .detail-hero>.eyebrow{color:rgba(88,25,37,.8)}
+  .page-services-multiculturalism .service-panel-card{padding:32px}
+  .page-services-multiculturalism .detail-shell{padding-bottom:124px}
+  .page-services-burnout .detail-shell{padding-bottom:150px}
+  .page-services-anxiety-depression .detail-shell{padding-bottom:92px}
+  .page-services-transitions .detail-shell{padding-bottom:109px}
+  .page-services-teens .detail-shell{padding-bottom:86px}
+  .page-services-adhd .detail-content>.detail-section:first-child{margin-top:20px;padding-bottom:0}
+  .page-services-adhd .detail-card-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+  .page-services-adhd .detail-content>.detail-section:first-child .detail-card-grid{margin-top:32px;margin-bottom:0}
+  .page-services-adhd .detail-content>.detail-section:first-child .detail-card{padding:20px}
+  .page-services-adhd .detail-content>.detail-section:not(:first-child) .detail-card-grid{width:calc(100% + 128px);max-width:none;margin-left:-64px}
+  .page-services-adhd .detail-shell{padding-bottom:64px}
+  .page-services-burnout .service-panel-card{padding:32px}
+  .page-modalities .framework-intro h2{font-size:24px;line-height:32px}
+  .page-modalities .framework-card-title{line-height:33px}
+  .page-modalities .modalities-closing-card{margin-top:130px}
+  .page-modalities .detail-shell{padding-bottom:33px}
+  .page-privacy .detail-shell{max-width:none}
+  .page-privacy .detail-hero h1{max-width:none}
+  .page-privacy .detail-content{padding-top:28px}
+  .page-privacy .detail-section h2{line-height:32px}
+  .page-privacy .detail-shell{padding-bottom:19px}
+}
