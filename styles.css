@@ -2084,3 +2084,8 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:124px;h
   .page-services-teens .service-cta{margin-top:173px}
   .page-services-teens .detail-shell{padding-bottom:199px}
 }
+
+/* Preserve the measured tablet get-started page height. */
+@media (min-width:768px) and (max-width:1023px){
+  .page-get-started .detail-shell{padding-bottom:19.25px}
+}
