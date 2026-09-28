@@ -1456,3 +1456,60 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
   .page-resources .book-section+.detail-section:not(.book-section){margin-top:108px}
   .page-resources .detail-shell{padding-bottom:20px}
 }
+
+/* Brief 14: restore the ADHD closing line and the two remaining route rhythms. */
+.page-services-adhd .service-cta{
+  margin-top:0;
+  padding:32px 0 0;
+  overflow:visible;
+  border-radius:0;
+  background:transparent;
+  color:var(--spruce);
+}
+.page-services-adhd .service-cta-leaf{display:none}
+.page-services-adhd .service-cta .service-cta-quote{
+  max-width:none;
+  color:rgb(57,96,71);
+  font:italic 20px/27.5px Fraunces,Georgia,serif;
+}
+.page-services-adhd .service-cta .service-cta-button{
+  background:rgb(88,25,37);
+  color:rgb(241,234,223);
+}
+@media (min-width:1101px){
+  .page-services-adhd .service-cta{margin-top:172px;padding:56px 64px 0}
+  .page-services-adhd .detail-shell{padding-bottom:86.5px}
+
+  .page-about .detail-hero{padding-top:123.5px}
+  .page-about .about-sessions{margin-top:18px}
+  .page-about .about-cards{margin-bottom:74px}
+  .page-about .about-human-head{margin-bottom:10px}
+  .page-about .about-human-head>div{transform:translateY(8px)}
+  .page-about .about-human .fact-grid>div:first-child>p:first-child{margin-bottom:8px}
+  .page-about .detail-shell{padding-bottom:101px}
+
+  .page-services-anxiety-depression .service-overlap-card{margin-bottom:21.2px}
+  .page-services-anxiety-depression .detail-content>.detail-section:last-child{
+    padding-top:79px;
+    padding-bottom:13.8px;
+  }
+  .page-services-anxiety-depression .detail-content>.detail-section:last-child h2{margin-bottom:8px}
+  .page-services-anxiety-depression .detail-content>.detail-section:last-child>p{margin-bottom:32px}
+  .page-services-anxiety-depression .service-steps{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:16px;
+  }
+  .page-services-anxiety-depression .service-steps>div{
+    display:flex;
+    align-items:center;
+    min-height:70px;
+    box-sizing:border-box;
+    padding:16px 20px;
+    border:1px solid rgba(23,39,64,.14);
+    border-radius:16px;
+    background:rgba(249,247,244,.6);
+    color:rgba(23,39,64,.8);
+    line-height:22px;
+  }
+}
