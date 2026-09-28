@@ -1,0 +1,57 @@
+### about: cta button
+  live: {"bg": "rgb(88, 25, 37) -> rgb(57, 96, 71)"}
+  ours: {"color": "rgb(88, 25, 37) -> rgb(241, 234, 223)", "bg": "rgb(241, 234, 223) -> rgb(57, 96, 71)", "border": "rgb(88, 25, 37) -> rgb(241, 234, 223)"}
+### about: footer link
+  live: {"color": "rgba(23, 39, 64, 0.6) -> rgb(23, 39, 64)"}
+  ours: {"color": "rgba(23, 39, 64, 0.6) -> rgb(88, 25, 37)", "border": "rgba(23, 39, 64, 0.6) -> rgb(88, 25, 37)"}
+### about: nav cta
+  live: "(not reachable)"
+  ours: {"bg": "rgb(88, 25, 37) -> rgb(57, 96, 71)"}
+### about: nav link
+  live: {"color": "rgba(23, 39, 64, 0.7) -> rgb(23, 39, 64)", "after": "0px -> 71.2812px"}
+  ours: {"color": "rgba(23, 39, 64, 0.7) -> rgb(23, 39, 64)", "border": "rgba(23, 39, 64, 0.7) -> rgb(23, 39, 64)"}
+### home: cta button
+  live: {"bg": "rgb(88, 25, 37) -> rgb(57, 96, 71)"}
+  ours: "(absent)"
+### home: footer link
+  live: {"color": "rgba(23, 39, 64, 0.6) -> rgb(23, 39, 64)"}
+  ours: {"color": "rgba(23, 39, 64, 0.6) -> rgb(88, 25, 37)", "border": "rgba(23, 39, 64, 0.6) -> rgb(88, 25, 37)"}
+### home: nav cta
+  live: "(not reachable)"
+  ours: {"bg": "rgb(88, 25, 37) -> rgb(57, 96, 71)"}
+### home: nav link
+  live: {"color": "rgba(23, 39, 64, 0.7) -> rgb(23, 39, 64)", "after": "0px -> 71.2812px"}
+  ours: {"color": "rgba(23, 39, 64, 0.7) -> rgb(23, 39, 64)", "border": "rgba(23, 39, 64, 0.7) -> rgb(23, 39, 64)"}
+### home: text link
+  live: {"color": "rgb(88, 25, 37) -> rgb(57, 96, 71)"}
+  ours: {"color": "rgb(88, 25, 37) -> rgb(57, 96, 71)", "border": "rgb(88, 25, 37) -> rgb(57, 96, 71)"}
+### modalities: cta button
+  live: {"bg": "rgb(88, 25, 37) -> rgb(57, 96, 71)"}
+  ours: {"color": "rgb(88, 25, 37) -> rgb(241, 234, 223)", "bg": "rgb(241, 234, 223) -> rgb(57, 96, 71)", "border": "rgb(88, 25, 37) -> rgb(241, 234, 223)"}
+### modalities: footer link
+  live: {"color": "rgba(23, 39, 64, 0.6) -> rgb(23, 39, 64)"}
+  ours: {"color": "rgba(23, 39, 64, 0.6) -> rgb(88, 25, 37)", "border": "rgba(23, 39, 64, 0.6) -> rgb(88, 25, 37)"}
+### modalities: nav cta
+  live: "(not reachable)"
+  ours: {"bg": "rgb(88, 25, 37) -> rgb(57, 96, 71)"}
+### modalities: nav link
+  live: {"color": "rgba(23, 39, 64, 0.7) -> rgb(23, 39, 64)", "after": "0px -> 71.2812px"}
+  ours: {"color": "rgba(23, 39, 64, 0.7) -> rgb(23, 39, 64)", "border": "rgba(23, 39, 64, 0.7) -> rgb(23, 39, 64)"}
+### resources: book link
+  live: "(no change)"
+  ours: {"color": "rgb(23, 39, 64) -> rgb(88, 25, 37)", "border": "rgb(23, 39, 64) -> rgb(88, 25, 37)"}
+### resources: cta button
+  live: {"bg": "rgb(88, 25, 37) -> rgb(57, 96, 71)"}
+  ours: "(absent)"
+### resources: footer link
+  live: {"color": "rgba(23, 39, 64, 0.6) -> rgb(23, 39, 64)"}
+  ours: {"color": "rgba(23, 39, 64, 0.6) -> rgb(88, 25, 37)", "border": "rgba(23, 39, 64, 0.6) -> rgb(88, 25, 37)"}
+### resources: modality card
+  live: "(no change)"
+  ours: "(absent)"
+### resources: nav cta
+  live: "(not reachable)"
+  ours: {"bg": "rgb(88, 25, 37) -> rgb(57, 96, 71)"}
+### resources: nav link
+  live: {"color": "rgba(23, 39, 64, 0.7) -> rgb(23, 39, 64)", "after": "0px -> 71.2812px"}
+  ours: {"color": "rgba(23, 39, 64, 0.7) -> rgb(23, 39, 64)", "border": "rgba(23, 39, 64, 0.7) -> rgb(23, 39, 64)"}
