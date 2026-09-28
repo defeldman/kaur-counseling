@@ -2040,3 +2040,11 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:124px;h
   .page-get-started .detail-appointment{margin-bottom:178px}
   .page-get-started .detail-shell{padding-bottom:67px}
 }
+
+/* Brief 31, task 1: match the live hover treatments. */
+.desktop-nav>a:not(.nav-cta)::after{right:auto;width:0;transform:none;transition:all .3s cubic-bezier(.4,0,.2,1)}
+.desktop-nav>a:not(.nav-cta):hover::after{width:100%}
+.footer-nav a:hover{color:rgb(23,39,64)}
+.about-cta-button:hover,.service-cta-button:hover,.modalities-closing-button:hover{background:var(--spruce);color:var(--cream)}
+.page-resources .book h3 a:hover{color:var(--burgundy)}
+.door-item button:hover>span:nth-child(2){color:var(--burgundy)}
