@@ -716,11 +716,6 @@ body:not([data-page]) .office-copy>p:not(.eyebrow):not(.virtual-note){color:rgba
 .page-service .detail-content>.detail-section:first-child h2{color:var(--navy)}
 body.page-services-burnout .detail-content>.detail-section:first-child h2,
 body.page-services-multiculturalism .detail-content>.detail-section:first-child h2{color:var(--burgundy)}
-/* Transitions has one neutral orientation section before its burgundy/spruce/accent sequence. */
-body.page-services-transitions .detail-content>.detail-section:nth-child(n+2):nth-child(3n+2) h2{color:var(--burgundy)}
-body.page-services-transitions .detail-content>.detail-section:nth-child(n+2):nth-child(3n) h2{color:var(--spruce)}
-body.page-services-transitions .detail-content>.detail-section:nth-child(n+2):nth-child(3n+1) h2{color:var(--accent)}
-body.page-services-burnout .detail-hero h1{color:var(--burgundy)}
 @media (min-width:801px) and (prefers-reduced-motion:no-preference){
   body:not([data-page]) .scroll-cue{animation-name:breathe-in}
 }
@@ -1169,4 +1164,55 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
   .page-services-anxiety-depression .service-topic-grid{grid-template-columns:1fr}
   .page-services-anxiety-depression .service-topic-card{padding:32px}
   .page-services-anxiety-depression .service-overlap-card{padding:32px}
+}
+
+/* Brief 10: match the live modalities grid and the corrected route details. */
+.framework-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:24px}
+.framework-card{box-sizing:border-box;padding:32px;border:1px solid;border-radius:24px;transition:opacity .9s ease-out,transform .9s ease-out,border-color .3s}
+.framework-card-burgundy{border-color:rgba(88,25,37,.2);background:rgba(88,25,37,.035)}
+.framework-card-burgundy:hover{border-color:rgba(88,25,37,.4)}
+.framework-card-spruce{border-color:rgba(57,96,71,.2);background:rgba(57,96,71,.04)}
+.framework-card-spruce:hover{border-color:rgba(57,96,71,.4)}
+.framework-card-clay{border-color:rgba(108,50,133,.2);background:rgba(108,50,133,.04)}
+.framework-card-clay:hover{border-color:rgba(108,50,133,.4)}
+.framework-card-header{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:24px}
+.framework-icon-badge{display:flex;width:56px;height:56px;align-items:center;justify-content:center;border-radius:16px}
+.framework-card-burgundy .framework-icon-badge{background:rgba(88,25,37,.1);color:rgb(88,25,37)}
+.framework-card-spruce .framework-icon-badge{background:rgba(57,96,71,.1);color:rgb(57,96,71)}
+.framework-card-clay .framework-icon-badge{background:rgba(108,50,133,.1);color:rgb(108,50,133)}
+.framework-icon-badge svg{display:block;width:28px;height:28px;flex:none}
+.framework-number{font:400 14px/20px Fraunces,Georgia,serif}
+.framework-number-burgundy{color:rgba(88,25,37,.5)}
+.framework-number-spruce{color:rgba(57,96,71,.5)}
+.framework-number-clay{color:rgba(108,50,133,.55)}
+.framework-card-title{margin:0;color:rgb(23,39,64);font:400 24px/1.2 Fraunces,Georgia,serif}
+.framework-card-rule{width:40px;height:1px;margin:20px 0;background:currentColor}
+.framework-card-burgundy .framework-card-rule{color:rgba(88,25,37,.4)}
+.framework-card-spruce .framework-card-rule{color:rgba(57,96,71,.4)}
+.framework-card-clay .framework-card-rule{color:rgba(108,50,133,.4)}
+.framework-card-copy{display:flex;flex-direction:column;gap:20px}
+.framework-card-eyebrow{font-size:12px;line-height:16px;letter-spacing:2.64px;text-transform:uppercase}
+.framework-eyebrow-burgundy{color:rgba(88,25,37,.8)}
+.framework-eyebrow-spruce{color:rgb(57,96,71)}
+.framework-eyebrow-clay{color:rgba(108,50,133,.85)}
+.framework-card-copy p{margin:8px 0 0;color:rgba(23,39,64,.75);font-size:16px;line-height:26px}
+
+.page-services-adhd .detail-card-grid>.detail-card:nth-child(n)>h3{color:rgb(88,25,37)}
+body.page-services-anxiety-depression .detail-content>section.detail-section.service-overlap-card h2{color:rgb(108,50,133)}
+.page-services-anxiety-depression .detail-content>.detail-section:last-child>p{color:rgba(23,39,64,.7)}
+.page-services-anxiety-depression .service-steps>div{color:rgba(23,39,64,.8);line-height:22px}
+
+.page-resources .detail-lede{line-height:29.25px}
+.page-resources .book-section>.eyebrow{color:rgba(88,25,37,.8)}
+.page-resources .book h3{font:400 20px/27.5px Fraunces,Georgia,serif;color:rgb(23,39,64)}
+.page-resources .book .book-author{font-style:italic;font-size:14px!important;line-height:20px!important;color:rgba(23,39,64,.55)!important}
+.page-resources .book>p:last-child{font-size:15.2px!important;line-height:24.7px!important;color:rgba(23,39,64,.7)}
+.page-get-started .office-facts>a:first-child{line-height:22.75px}
+.page-privacy .detail-section:last-child p:last-child{font-size:14px;line-height:22.75px;color:rgba(23,39,64,.5)}
+
+@media (min-width:768px){.framework-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:1024px){
+  .framework-grid{gap:32px}
+  .framework-card{padding:40px}
+  .framework-card-title{font-size:30px;line-height:36px}
 }

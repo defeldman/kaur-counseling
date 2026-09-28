@@ -11,7 +11,7 @@ const serviceCards = (heading, cards, className = '') => `<section class="detail
 const serviceLabeledCards = (cards) => `<div class="detail-card-grid">${cards.map(([title, copy]) => `<article class="detail-card"><h3>${esc(title)}</h3><p>${esc(copy)}</p></article>`).join('')}</div>`;
 const serviceFeatureCard = ([heading, items], className = '') => `<section class="detail-section ${className}"><h2>${esc(heading)}</h2>${paras(items)}</section>`;
 const serviceList = (items) => `<ul>${items.map((item) => `<li>${esc(item)}</li>`).join('')}</ul>`;
-const serviceSteps = (items) => `<div>${items.map((item) => `<div>${esc(item)}</div>`).join('')}</div>`;
+const serviceSteps = (items) => `<div class="service-steps">${items.map((item) => `<div>${esc(item)}</div>`).join('')}</div>`;
 const crisisPhoneIcon = '<svg viewBox="0 0 24 24"><path d="M6.5 3.5 10 7 8 9c1.4 2.9 3.1 4.6 6 6l2-2 3.5 3.5v2.2c0 .9-.7 1.6-1.6 1.6C10.2 20.3 3.7 13.8 3.7 6.1c0-.9.7-1.6 1.6-1.6h1.2Z"/></svg>';
 const crisisSection = () => `<section class="detail-section privacy-crisis"><div class="privacy-crisis-card"><div class="privacy-crisis-heading"><span class="privacy-crisis-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 3 9 17H3L12 3Z"/><path d="M12 8v5m0 3h.01"/></svg></span><h2>If you are in crisis</h2></div><p>This website is not monitored for emergencies and is not a substitute for urgent care. If you or someone else is in immediate danger, please use the resources below.</p><ul><li><a href="tel:911"><span class="crisis-phone" aria-hidden="true">${crisisPhoneIcon}</span><span><strong>911</strong> for life-threatening emergencies.</span></a></li><li><a href="tel:988"><span class="crisis-phone" aria-hidden="true">${crisisPhoneIcon}</span><span><strong>988</strong> Suicide &amp; Crisis Lifeline. Call or text 988, 24/7.</span></a></li><li><a href="sms:741741"><span class="crisis-phone" aria-hidden="true">${crisisPhoneIcon}</span><span><strong>741741</strong> Crisis Text Line. Text HOME to 741741, 24/7.</span></a></li></ul></div></section>`;
 const navChevron = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="nav-chevron lucide lucide-chevron-down" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>';
@@ -100,11 +100,13 @@ const pages = {
     eyebrow: 'Modalities', title: 'The lenses<br /><em>I work from.</em>', lede: 'No single approach fits every life. These are the frameworks I draw from. Sometimes one at a time, more often woven together, they meet your particular story with both structure and care.',
     body: [
       `<section class="detail-section framework-intro"><p class="eyebrow">Five frameworks</p><h2>Each one a different way of listening.</h2></section>`,
-      framework('01', 'Internal Family Systems', "IFS sees you as a whole inner world, not one self but many parts. There are protectors who work hard to keep you safe, exiles who carry old wounds, and a calm, compassionate core beneath all of it. We get curious about each part rather than trying to silence it.", "I reach for IFS when inner conflict is loud — when one part of you wants rest and another won't stop working, or when harsh self-talk burns beneath the surface. It's especially kind to the over-achievers and the children of immigrants who've learned to perform; here, every part is welcomed, none are exiled."),
-      framework('02', 'Dialectical Behavior Therapy', "DBT balances two truths at once: you are doing your best, and you can learn to do better. It teaches concrete skills across four pillars — mindfulness, distress tolerance, emotion regulation, and interpersonal effectiveness — so that big feelings become something you can move through instead of drown in.", "I use DBT when emotions arrive in waves that feel unmanageable, when a quick escalation pulls you out of yourself, or when relationships keep hitting the same walls. It gives us a shared vocabulary and a toolkit for the moments between sessions, when the work has to be carried alone."),
-      framework('03', 'Cognitive Behavioral Therapy', "CBT traces the quiet loop between thoughts, feelings, and actions — the stories you tell yourself, and the way they shape what you do next. Together we slow that loop down, examine the beliefs underneath, and gently build thoughts that fit the life you actually want.", "I reach for CBT when anxiety or depression has a specific, repeating shape — the intrusive worry, the inner critic, the spiral at 3 a.m. It's practical and structured, a clarifying companion to the deeper, slower work elsewhere in the room."),
-      framework('04', 'Art', "Sometimes the truest things don't arrive as words. Art therapy lets image, color, and movement speak first, giving shape to what the thinking mind hasn't found language for, and then we listen to what the art has to tell us.", "I reach for art when words run out, when a feeling is too layered for sentences, or when you've spent a lifetime living in your head and need another door in. No talent required; only a willingness to let something emerge before you explain it."),
-      framework('05', 'Attachment', "Attachment work listens for the blueprint your earliest bonds left behind — the quiet rules you learned about closeness, worth, and safety. We trace those patterns with care, making the invisible legible so that security can grow where uncertainty once lived.", "I reach for this when the same shape keeps showing up in your relationships — the pull toward distance or the fear of being left, the way connection can feel both longed for and unsafe. It's the lens beneath much of the work, helping you build the steady ground you may not have been handed."),
+      frameworkGrid([
+        framework('01', 'Internal Family Systems', "IFS sees you as a whole inner world, not one self but many parts. There are protectors who work hard to keep you safe, exiles who carry old wounds, and a calm, compassionate core beneath all of it. We get curious about each part rather than trying to silence it.", "I reach for IFS when inner conflict is loud — when one part of you wants rest and another won't stop working, or when harsh self-talk burns beneath the surface. It's especially kind to the over-achievers and the children of immigrants who've learned to perform; here, every part is welcomed, none are exiled."),
+        framework('02', 'Dialectical Behavior Therapy', "DBT balances two truths at once: you are doing your best, and you can learn to do better. It teaches concrete skills across four pillars — mindfulness, distress tolerance, emotion regulation, and interpersonal effectiveness — so that big feelings become something you can move through instead of drown in.", "I use DBT when emotions arrive in waves that feel unmanageable, when a quick escalation pulls you out of yourself, or when relationships keep hitting the same walls. It gives us a shared vocabulary and a toolkit for the moments between sessions, when the work has to be carried alone."),
+        framework('03', 'Cognitive Behavioral Therapy', "CBT traces the quiet loop between thoughts, feelings, and actions — the stories you tell yourself, and the way they shape what you do next. Together we slow that loop down, examine the beliefs underneath, and gently build thoughts that fit the life you actually want.", "I reach for CBT when anxiety or depression has a specific, repeating shape — the intrusive worry, the inner critic, the spiral at 3 a.m. It's practical and structured, a clarifying companion to the deeper, slower work elsewhere in the room."),
+        framework('04', 'Art', "Sometimes the truest things don't arrive as words. Art therapy lets image, color, and movement speak first, giving shape to what the thinking mind hasn't found language for, and then we listen to what the art has to tell us.", "I reach for art when words run out, when a feeling is too layered for sentences, or when you've spent a lifetime living in your head and need another door in. No talent required; only a willingness to let something emerge before you explain it."),
+        framework('05', 'Attachment', "Attachment work listens for the blueprint your earliest bonds left behind — the quiet rules you learned about closeness, worth, and safety. We trace those patterns with care, making the invisible legible so that security can grow where uncertainty once lived.", "I reach for this when the same shape keeps showing up in your relationships — the pull toward distance or the fear of being left, the way connection can feel both longed for and unsafe. It's the lens beneath much of the work, helping you build the steady ground you may not have been handed.")
+      ]),
       `<section class="detail-quote"><h2>Curious which lens fits your story?</h2><p>We will find the right shape together. Reach out for a free consultation and we'll begin the conversation.</p></section>`
     ], noCta: true
   },
@@ -213,9 +215,14 @@ function service(title, italic, eyebrow, lede, sections, closingQuote) {
       "You don't need to know exactly what you need yet. We can figure that out together."
     ]
   };
-  const titleMarkup = title === 'Anxiety & Depression.'
-    ? 'Anxiety <span class="service-title-ampersand">&amp;</span> <em>Depression.</em>'
-    : `${esc(title)}${italic ? `<br /><em>${esc(italic)}</em>` : ''}`;
+  const serviceTitles = {
+    'Anxiety & Depression.': 'Anxiety <span class="service-title-ampersand">&amp;</span> <em>Depression.</em>',
+    'Multicultural & Cross-Cultural Therapy': 'Multicultural &amp;<br /><em>Cross-Cultural</em> Therapy',
+    'Burnout.': '<em>Burnout.</em>',
+    'Going Through a Transition?': 'Going Through a <em>Transition?</em>',
+    'Therapy for Teens.': 'Therapy for <em>Teens.</em>'
+  };
+  const titleMarkup = serviceTitles[title] || `${esc(title)}${italic ? `<br /><em>${esc(italic)}</em>` : ''}`;
   const transitionBodyMarkup = title === 'Going Through a Transition?'
     ? heroBodies[title].replace('difficult.', '<em>difficult.</em>')
     : '';
@@ -258,8 +265,27 @@ function service(title, italic, eyebrow, lede, sections, closingQuote) {
   };
 }
 
+function frameworkGrid(cards) {
+  return `<div class="framework-grid">${cards.join('')}</div>`;
+}
+
 function framework(number, title, what, why) {
-  return `<section class="detail-section framework"><span class="eyebrow framework-number">${esc(number)}</span><h2>${esc(title)}</h2><div class="framework-copy"><div><p class="eyebrow">What it is</p>${paras([what])}</div><div><p class="eyebrow">When &amp; why I use it</p>${paras([why])}</div></div></section>`;
+  const cardStyles = {
+    '01': ['burgundy', 'burgundy'],
+    '02': ['spruce', 'spruce'],
+    '03': ['clay', 'clay'],
+    '04': ['burgundy', 'burgundy'],
+    '05': ['spruce', 'spruce']
+  };
+  const [accent, eyebrowAccent] = cardStyles[number];
+  const icons = {
+    '01': '<circle cx="32" cy="32" r="11"/><circle cx="16" cy="20" r="6"/><circle cx="48" cy="20" r="6"/><circle cx="20" cy="46" r="6"/><circle cx="44" cy="46" r="6"/>',
+    '02': '<path d="M10 38c6-12 12-12 18 0s12 12 18 0" stroke-linecap="round"/><path d="M10 26c6-12 12-12 18 0" stroke-linecap="round" stroke-dasharray="2 3"/><circle cx="50" cy="22" r="3"/>',
+    '03': '<path d="M16 24a18 18 0 0 1 32 6" stroke-linecap="round"/><path d="M48 40a18 18 0 0 1-32-6" stroke-linecap="round"/><path d="M12 22l4 8-8 2" stroke-linecap="round" stroke-linejoin="round"/><path d="M52 42l-4-8 8-2" stroke-linecap="round" stroke-linejoin="round"/>',
+    '04': '<path d="M24 10c12 0 8 16 18 16 6 0 6 12-6 12-10 0-24-4-24-16 0-6 5-12 12-12Z" stroke-linejoin="round"/><circle cx="44" cy="48" r="4"/><circle cx="20" cy="52" r="2.5"/>',
+    '05': '<path d="M32 48C32 48 14 36 14 24a9 9 0 0 1 18 0 9 9 0 0 1 18 0c0 12-18 24-18 24Z" stroke-linejoin="round"/><path d="M20 24a4 4 0 0 1 4-4" stroke-linecap="round"/>'
+  };
+  return `<article class="reveal scroll-reveal rounded-3xl border p-8 lg:p-10 transition-colors duration-300 framework-card framework-card-${accent}" style="transition-delay: 0.04s;"><div class="framework-card-header flex items-start justify-between mb-6"><div class="framework-icon-badge w-14 h-14 rounded-2xl flex items-center justify-center"><svg viewBox="0 0 64 64" fill="none" class="w-7 h-7" stroke="currentColor" stroke-width="1.5" aria-hidden="true">${icons[number]}</svg></div><span class="font-display text-sm framework-number framework-number-${accent}">${esc(number)}</span></div><h3 class="font-display text-2xl lg:text-3xl framework-card-title leading-snug">${esc(title)}</h3><div class="framework-card-rule h-px w-10 my-5"></div><div class="framework-card-copy space-y-5"><div><span class="framework-card-eyebrow framework-eyebrow-${eyebrowAccent}">What it is</span><p class="mt-2 text-midnight/75 leading-relaxed">${esc(what)}</p></div><div><span class="framework-card-eyebrow framework-eyebrow-spruce">When &amp; why I use it</span><p class="mt-2 text-midnight/75 leading-relaxed">${esc(why)}</p></div></div></article>`;
 }
 
 function book(title, author, note) {
