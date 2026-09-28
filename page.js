@@ -15,6 +15,8 @@ const crisisPhoneIcon = '<svg viewBox="0 0 24 24"><path d="M6.5 3.5 10 7 8 9c1.4
 const crisisSection = () => `<section class="detail-section privacy-crisis"><div class="privacy-crisis-card"><div class="privacy-crisis-heading"><span class="privacy-crisis-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 3 9 17H3L12 3Z"/><path d="M12 8v5m0 3h.01"/></svg></span><h2>If you are in crisis</h2></div><p>This website is not monitored for emergencies and is not a substitute for urgent care. If you or someone else is in immediate danger, please use the resources below.</p><ul><li><a href="tel:911"><span class="crisis-phone" aria-hidden="true">${crisisPhoneIcon}</span><span><strong>911</strong> for life-threatening emergencies.</span></a></li><li><a href="tel:988"><span class="crisis-phone" aria-hidden="true">${crisisPhoneIcon}</span><span><strong>988</strong> Suicide &amp; Crisis Lifeline. Call or text 988, 24/7.</span></a></li><li><a href="sms:741741"><span class="crisis-phone" aria-hidden="true">${crisisPhoneIcon}</span><span><strong>741741</strong> Crisis Text Line. Text HOME to 741741, 24/7.</span></a></li></ul></div></section>`;
 const navChevron = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="nav-chevron lucide lucide-chevron-down" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>';
 const leaf = '<span class="detail-leaf" aria-hidden="true"></span>';
+const featherPaths = '<path d="M50 16 C26 40 24 88 48 114"></path><path d="M50 16 C74 40 76 88 52 114"></path><path d="M48 114 C46 124 48 134 42 146"></path><path d="M50 20 L49 112"></path><path d="M50 42 L32 50"></path><path d="M50 62 L28 74"></path><path d="M50 82 L32 92"></path><path d="M50 42 L68 50"></path><path d="M50 62 L72 74"></path><path d="M50 82 L68 92"></path>';
+const featherSvg = (className) => `<svg viewBox="0 0 100 150" class="${className}" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${featherPaths}</svg>`;
 
 function header() {
   return `<header class="site-header" id="home">
@@ -50,6 +52,10 @@ function cta() {
   return `<section class="detail-cta"><p class="eyebrow">A place to begin</p><h2>Ready to start a conversation?</h2><p>Reach out for a free consultation and we’ll begin with wherever you are.</p><a class="button" href="${link('get-started/')}">Get Started <span>↗</span></a></section>`;
 }
 
+function serviceCta(quote) {
+  return `<section class="service-cta">${featherSvg('service-cta-leaf')}<p class="service-cta-quote">${esc(quote)}</p><a class="service-cta-button" href="${link('get-started/')}">Get Started<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a></section>`;
+}
+
 const pages = {
   about: {
     eyebrow: 'Starting out', title: 'Therapy as a practice in honesty and <em>self love.</em>',
@@ -60,8 +66,10 @@ const pages = {
       `<section class="detail-section about-human"><div class="about-human-head"><figure><img src="${link('assets/images/about-portrait.webp')}" alt="Sohavani Mand, LMFT, near the Golden Gate Bridge" loading="lazy" /></figure><div><p class="eyebrow">A little more human</p><h2>A few things about me</h2></div></div><div class="fact-grid"><div><strong>First-gen Indian woman</strong><span>I'm a mix of Indian values, American independence, and a healthy amount of “but why do I have to do it that way?” I've spent a lot of time figuring out which pieces of both cultures actually belong to me, and which ones I'm happy to leave behind.</span></div><div><strong>ADHD brain</strong><span>I know what it's like to have a brain that does things its own way. Learning to work with it instead of constantly fighting it changed a lot for me.</span></div><div><strong>Dog mom</strong><span>I believe dogs make almost everything better. Mine also makes sure I leave the house, get some fresh air, and remember that a little bit of chaos is essential for a well balanced life.</span></div><div><strong>Lifelong learner</strong><span>I'm endlessly curious and will happily go down a completely unnecessary rabbit hole about something I became interested in five minutes ago.</span></div><div><strong>Chocolate fiend</strong><span>If there's chocolate involved, I'm interested. Dandelion Mission hot chocolate is my favorite cold-day drink, and I'm pretty sure I've convinced myself that the walk there makes it healthy.</span></div><div><strong>Duct tape &amp; coffee</strong><span>Because sometimes that's honestly what getting through the day looks like. I won't pretend otherwise.</span></div></div></section>`,
       `<section class="detail-section about-work"><p class="eyebrow">The work</p><h2>How we’ll work together</h2><div class="work-note"><h3>How I work</h3>${paras(["My approach is relational, strengths-based, and collaborative. We'll have check-ins and I'll welcome your feedback. I use evidence-based practices to build insight and help you reach your goals. Sessions are tailored to you and can include art, walks, journaling, mindfulness, and, of course, talk therapy."])}</div><div class="work-note"><h3>What therapy feels like</h3>${paras(["You'll find a safe, nonjudgmental space to set down the weight you've been carrying, yes, even the invisible backpack of expectations. Together we'll unpack the pressure, build usable tools, and create a path that feels lighter and authentic. Our work will be warm and kind, sometimes even a little funny, but always focused on your goals: lightening the load, building confidence, and creating real change."])}</div></section>`,
       `<section class="detail-section about-who"><h2>Who I see</h2><div class="who-card">${paras(["I see individuals, couples, and families, teens through elders. I hold a particular tenderness for clients living between cultures, navigating late-diagnosed neurodivergence, and those quietly carrying burnout. This room welcomes every identity: queer, Black, brown, and all the places in between. You are not asked to translate yourself here."])}</div></section>`,
-      `<section class="detail-section credentials"><h2>Training &amp; credentials</h2><ul><li>Licensed Marriage &amp; Family Therapist (LMFT) · CA Lic. #150884</li><li>Master's in Counseling, Sonoma State University</li><li>Six years in practice across private and community settings</li><li>Specialties: ADHD, Immigration &amp; Acculturation, Women's Issues</li><li>Modality training: Attachment-based, CBT, DBT, Relational, Trauma-Focused</li></ul><p>If this feels like the right place to begin, you don't have to figure it out alone.</p></section>`
-    ]
+      `<section class="detail-section credentials"><h2>Training &amp; credentials</h2><ul><li>Licensed Marriage &amp; Family Therapist (LMFT) · CA Lic. #150884</li><li>Master's in Counseling, Sonoma State University</li><li>Six years in practice across private and community settings</li><li>Specialties: ADHD, Immigration &amp; Acculturation, Women's Issues</li><li>Modality training: Attachment-based, CBT, DBT, Relational, Trauma-Focused</li></ul></section>`,
+      `<section class="about-cta reveal">${featherSvg('about-cta-leaf')}<p class="about-cta-quote">If this feels like the right place to begin, you don't have to figure it out alone.</p><a class="about-cta-button" href="${link('get-started/')}">Get Started</a></section>`
+    ],
+    noCta: true
   },
   cost: {
     eyebrow: 'The investment', title: 'The cost of individual therapy', lede: 'Private-pay, with a clear path to reimbursement.',
@@ -136,28 +144,28 @@ const pages = {
       'A late diagnosis often arrives with grief: for the years spent believing you were broken, for the support you never received, for the life that might have felt easier. Living so long without an explanation can erode your trust in your own memory, your follow-through, your word. That fractured trust in yourself can settle into anxiety or depression, which is why so many adults with ADHD carry both.',
       'This fractured trust often creates a cycle of self-frustration: setting high expectations you desperately want to meet, only to find yourself procrastinating or unable to initiate even the simplest tasks. It can be deeply isolating to recognize your own capacity and intelligence while feeling like you\'re fighting a physical block that keeps you from following through on the routines you know would help you feel better.'
     ]],
-    serviceSection('How we work with it', serviceList(['Honor your gifts: creativity, intensity, range.', 'Tend the costs of pretending.', 'Grieve what was, and slowly rebuild trust in yourself.', 'Build rhythms and boundaries shaped for how your brain actually works.']) + paras(['You are not a problem to be fixed. You are a person learning to live well with yourself.']))
-  ]),
+    serviceSection('How we work with it', serviceList(['Honor your gifts: creativity, intensity, range.', 'Tend the costs of pretending.', 'Grieve what was, and slowly rebuild trust in yourself.', 'Build rhythms and boundaries shaped for how your brain actually works.']))
+  ], "You are not a problem to be fixed. You are a person learning to live well with yourself."),
   'services/multiculturalism': service('Multicultural & Cross-Cultural Therapy', '', 'SPECIALTY', "When your identity doesn't fit neatly into one box.", [
     ['Multicultural Therapy', ['We explore how your race, ethnicity, and cultural background have shaped the way you see yourself and the world, making room for every layer of your identity rather than asking you to choose just one.']],
     ['Acculturation & Assimilation Stress', ["We tend to the strain of holding your heritage culture alongside a dominant one that doesn't always make space for it: the codeswitching, the guilt, the quiet exhaustion, so you can move between worlds without losing yourself."]],
     ['First-Generation & Second-Generation Issues', ["We unpack the family pressures, guilt, and identity conflicts that come with being a child of immigrants: the expectations you carry, the roles you play, and the version of yourself you're finally allowed to become."]],
     ['Third Culture Kid (TCK) Therapy', ["We make sense of a belonging that never felt simple, raised in a culture that wasn't your parents' and maybe wasn't your passport's, so the question of 'where are you from?' stops feeling like a small crisis."]],
-    ['Intergenerational Trauma Therapy', ["We gently trace the trauma, expectations, and communication gaps passed down from your parents, not to assign blame, but to understand what was inherited and choose what you want to carry forward.", 'You do not have to compress yourself to be understood here.']]
-  ]),
+    ['Intergenerational Trauma Therapy', ["We gently trace the trauma, expectations, and communication gaps passed down from your parents, not to assign blame, but to understand what was inherited and choose what you want to carry forward."]]
+  ], 'You do not have to compress yourself to be understood here.'),
   'services/burnout': service('Burnout.', '', 'SPECIALTY', 'The slow creep, and the difficulty of asking for help.', [
     ['The slow creep', ["Burnout doesn't always show up as a complete breakdown. Sometimes it looks like having less energy for things you used to enjoy, needing more effort to get started, or feeling strangely flat even when something good happens. For people who are used to pushing through, it can be especially hard to recognize these changes as signs that something is wrong. You may just think you need to try harder, get more organized, or get back on track — when what you actually need is to recognize that you've been running on empty for a while."]],
     ["Why it's so hard to ask for help", ["When you're used to measuring your worth by how much you accomplish, needing help can feel like falling short. Rest can feel unearned, and asking for support can bring up shame, guilt, or the fear that you should be able to handle it on your own. But struggling to reach out doesn't mean you're failing. Sometimes, it's part of what happens when you've been carrying too much for too long. Recognizing that you need support isn't giving up — it's finally paying attention."]],
     ['Tending and rebuilding', [
-      "We start by listening to what the depletion is asking for. We tend the exhaustion before we touch the goals. Then, slowly and with care, we rebuild a life with margins in it, one with rest and meaning, with permission to be a person rather than only a function. Recovery is not a project to optimize. It is a returning."
+      "We start by listening to what the depletion is asking for. We tend the exhaustion before we touch the goals. Then, slowly and with care, we rebuild a life with margins in it, one with rest and meaning, with permission to be a person rather than only a function."
     ]]
-  ]),
+  ], 'Recovery is not a project to optimize. It is a returning.'),
   'services/anxiety-depression': service('Anxiety & Depression.', '', 'ALSO IN MY CARE', 'Anxiety and depression can look completely different, but both have a way of adding a layer to everyday life that can make everything feel harder than it should.', [
     ['Anxiety', ["Anxiety can keep your mind running long after you want it to stop. It can make decisions feel overwhelming, turn small things into big things, and leave you constantly anticipating what might go wrong." ]],
     ['Depression', ["Depression can make everything feel heavier in a different way. Things that once felt meaningful can feel distant, motivation can disappear, and even basic tasks can take more effort than you have to give." ]],
     ['When they show up together', ["Sometimes they show up together. Sometimes one takes over for a while and the other follows. And sometimes it's hard to explain what's happening at all — you just know that life feels harder than it used to. You don't have to figure it out alone." ]],
-    serviceSection('How we work with it', paras(['I\'m not here to tell you to "just think positively" or hand you a list of things you should be doing differently. I\'m here to meet you where you are, understand what you\'re carrying, and work through it with you — one piece at a time.']) + serviceSteps(["Understand what's happening beneath the surface", 'Recognize the patterns that keep you stuck', 'Respond to overwhelm without shutting down', "Challenge thoughts that aren't serving you", 'Reconnect with the things that matter to you', 'Make changes that feel realistic, not overwhelming']) + paras(['One piece at a time.']), 'detail-section-tint')
-  ]),
+    serviceSection('How we work with it', paras(['I\'m not here to tell you to "just think positively" or hand you a list of things you should be doing differently. I\'m here to meet you where you are, understand what you\'re carrying, and work through it with you — one piece at a time.']) + serviceSteps(["Understand what's happening beneath the surface", 'Recognize the patterns that keep you stuck', 'Respond to overwhelm without shutting down', "Challenge thoughts that aren't serving you", 'Reconnect with the things that matter to you', 'Make changes that feel realistic, not overwhelming']), 'detail-section-tint')
+  ], 'One piece at a time.'),
   'services/transitions': service('Going Through a Transition?', '', 'SPECIALTY', "You don't have to do it alone.", [
     serviceCards('You might be navigating…', [
       ['Becoming a Parent', 'The identity shift, the overwhelm, the way love and loss can arrive in the same breath.'],
@@ -167,8 +175,8 @@ const pages = {
       ['College & Future Decisions', 'The pressure of the open road, and the weight of choosing a direction that feels like yours.'],
       ['Finding Your Next Chapter', "When one season closes before the next has a name, and you're holding the in-between."]
     ]),
-    serviceSection('Therapy can help you:', serviceList(['Process your emotions', 'Find clarity and direction', 'Build confidence in this next chapter', 'Feel more grounded and supported']) + paras(["You don't have to navigate this next chapter alone."]), 'detail-section-tint')
-  ]),
+    serviceSection('Therapy can help you:', serviceList(['Process your emotions', 'Find clarity and direction', 'Build confidence in this next chapter', 'Feel more grounded and supported']), 'detail-section-tint')
+  ], "You don't have to navigate this next chapter alone."),
   'services/teens': service('Therapy for Teens.', '', 'SPECIALTY', "You don't have to have it all figured out.", [
     serviceCards('What you might be carrying', [
       ['School Pressure', "Grades, expectations, the weight of performing. School can feel like it asks for more than you have to give — and like resting is something you can't afford."],
@@ -177,11 +185,11 @@ const pages = {
       ['Evolving Friendships & Identity', 'Friendships shift, you change, and the question of who you are gets louder. We make room to explore it — without rushing you toward an answer.'],
       ['ADHD', "A mind that runs fast, gets distracted, or feels like 'too much.' We understand how it shows up — especially for girls who've been missed or told they're just 'not trying.'"]
     ]),
-    serviceSection('What you get here:', serviceList(["A space that's just yours", 'Tools for the pressure', 'Words for what you feel', 'A safe adult outside your family']) + paras(["What you share here stays here. The exception is safety — if I'm worried about your wellbeing, we talk about it together first, and figure out next steps as a team.", "You don't have to figure it out alone."]), 'detail-section-tint')
-  ])
+    serviceSection('What you get here:', serviceList(["A space that's just yours", 'Tools for the pressure', 'Words for what you feel', 'A safe adult outside your family']) + paras(["What you share here stays here. The exception is safety — if I'm worried about your wellbeing, we talk about it together first, and figure out next steps as a team."]), 'detail-section-tint')
+  ], "You don't have to figure it out alone.")
 };
 
-function service(title, italic, eyebrow, lede, sections) {
+function service(title, italic, eyebrow, lede, sections, closingQuote) {
   const leads = {
     'ADHD & Late-Stage': 'A diagnosis found in adulthood re-reads an entire life.',
     'Burnout.': 'The slow creep, and the difficulty of asking for help.',
@@ -218,6 +226,7 @@ function service(title, italic, eyebrow, lede, sections) {
     heroBody: transitionBodyMarkup ? '' : heroBodies[title] || '',
     plainLede: title === 'Anxiety & Depression.',
     isService: true,
+    closingQuote,
     noCta: true,
     body: serviceBody
   };
@@ -242,7 +251,7 @@ function render() {
   const backHref = page.backPath ? link(page.backPath) : (page.isService ? link('#services') : link(''));
   const back = page.noBack ? '' : `<a class="back-link" href="${backHref}">${backLabel}</a>`;
   const heroBody = page.heroBodyMarkup ? `<p class="detail-hero-body">${page.heroBodyMarkup}</p>` : Array.isArray(page.heroBody) ? page.heroBody.map((copy) => `<p class="detail-hero-body">${esc(copy)}</p>`).join('') : (page.heroBody ? `<p class="detail-hero-body">${esc(page.heroBody)}</p>` : '');
-  document.getElementById('page-app').innerHTML = `${header()}<main class="detail-page"><div class="detail-shell">${back}<section class="detail-hero">${leaf}<p class="eyebrow">${esc(page.eyebrow)}</p><h1>${page.title}</h1><p class="${page.plainLede ? 'detail-hero-body plain-detail-lede' : 'detail-lede'}">${esc(page.lede)}</p>${heroBody}</section><div class="detail-content">${body}</div>${page.noCta ? '' : cta()}</div></main>${footer()}`;
+  document.getElementById('page-app').innerHTML = `${header()}<main class="detail-page"><div class="detail-shell">${back}<section class="detail-hero">${leaf}<p class="eyebrow">${esc(page.eyebrow)}</p><h1>${page.title}</h1><p class="${page.plainLede ? 'detail-hero-body plain-detail-lede' : 'detail-lede'}">${esc(page.lede)}</p>${heroBody}</section><div class="detail-content">${body}</div>${page.isService ? serviceCta(page.closingQuote) : page.noCta ? '' : cta()}</div></main>${footer()}`;
 }
 
 render();

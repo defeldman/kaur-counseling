@@ -155,6 +155,21 @@ h1 em,h2 em,h3 em{font-style:italic}
 .about-work{max-width:928px}.about-work .work-note{max-width:700px;margin:32px 0 0;padding:0 0 36px 26px;border-left:2px solid #b9b6af}.about-work .work-note h3{margin:0 0 17px;font:500 20px/1.2 Fraunces,Georgia,serif}.about-work .work-note p{margin:0}.about-who{max-width:928px}.about-who h2{margin-bottom:28px}.who-card{padding:36px 32px 32px;border:1px solid #cbd2c5;border-radius:16px;background:rgba(216,223,210,.62)}.who-card p{margin:0}.credentials{max-width:700px}
 @media (max-width:800px){.about-work{max-width:none}.about-work .work-note{padding-left:20px;margin-top:28px;padding-bottom:30px}.about-work .work-note h3{font-size:19px}.about-who{max-width:none}.who-card{padding:26px 22px 25px}.credentials{max-width:none}}
 
+/* Closing cards and About details restored from the live page measurements. */
+.page-about .about-work .work-note h3{font-weight:400;line-height:28px}
+.page-about .credentials li{line-height:20px;background-color:rgba(57,96,71,.05)}
+.about-cta{margin-top:80px;padding:40px;border-radius:32px;background:rgb(88,25,37);color:rgb(241,234,223);text-align:center}
+.about-cta-leaf{display:block;width:28px;margin:0 auto 24px;color:rgba(241,234,223,.4);transform:rotate(-6deg)}
+.about-cta-quote{max-width:42rem;margin:0 auto 32px;color:rgb(241,234,223);font:italic 24px/33px Fraunces,Georgia,serif}
+.about-cta-button,.service-cta-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:14px 28px;border-radius:9999px;background:rgb(241,234,223);color:rgb(88,25,37);font-size:14px;line-height:20px;letter-spacing:.35px;transition:background-color .3s,color .3s}
+.about-cta-button:hover,.service-cta-button:hover{background:rgb(57,96,71);color:rgb(241,234,223)}
+.service-cta{position:relative;overflow:hidden;padding:48px 32px;border-radius:24px;background:rgb(88,25,37);color:rgb(241,234,223)}
+.service-cta-leaf{position:absolute;top:24px;right:32px;width:56px;color:rgba(241,234,223,.15);transform:rotate(-12deg);pointer-events:none}
+.service-cta-quote{position:relative;max-width:42rem;color:rgb(241,234,223);font:italic 24px/33px Fraunces,Georgia,serif}
+.service-cta-button{position:relative;margin-top:32px}
+.service-cta-button svg{display:block;width:16px;height:16px;flex:none}
+@media (min-width:1024px){.about-cta{padding:56px}.about-cta-quote{font-size:30px;line-height:36px}.service-cta{padding:56px 32px}.service-cta-quote{font-size:30px;line-height:36px}}
+
 /* Keep the image row and the two card rows in the same measured rhythm. */
 .about-human{margin-top:19px}.about-human-head figure{width:200px;height:250px}.about-human .fact-grid > div:nth-child(n+4){min-height:222.5px}
 @media (max-width:800px){.about-human{margin-top:0}.about-human-head figure{width:100%;height:auto}}
@@ -706,24 +721,6 @@ body.page-services-transitions .detail-content>.detail-section:nth-child(n+2):nt
 body.page-services-transitions .detail-content>.detail-section:nth-child(n+2):nth-child(3n) h2{color:var(--spruce)}
 body.page-services-transitions .detail-content>.detail-section:nth-child(n+2):nth-child(3n+1) h2{color:var(--accent)}
 body.page-services-burnout .detail-hero h1{color:var(--burgundy)}
-body.page-services-burnout .detail-content>.detail-section:nth-child(3) p:last-child,
-body.page-services-anxiety-depression .detail-content>.detail-section:nth-child(4) p:last-child{
-  display:block;
-  margin-top:28px;
-  padding:26px 30px;
-  border-radius:16px;
-  background:var(--burgundy);
-  color:var(--cream)!important;
-  font:italic 26px/1.25 Fraunces,Georgia,serif;
-}
-@media (max-width:800px){
-  body.page-services-burnout .detail-content>.detail-section:nth-child(3) p:last-child,
-  body.page-services-anxiety-depression .detail-content>.detail-section:nth-child(4) p:last-child{
-    margin-top:22px;
-    padding:22px 20px;
-    font-size:22px;
-  }
-}
 @media (min-width:801px) and (prefers-reduced-motion:no-preference){
   body:not([data-page]) .scroll-cue{animation-name:breathe-in-cue-fluid}
 }
@@ -920,7 +917,7 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
   color:rgb(88,25,37);
 }
 
-/* Brief 03, section 6: service page typography, closing lines, and CTAs. */
+/* Brief 03 typography and button colors; closing cards are defined below. */
 .page-service .detail-hero h1{font-style:italic}
 .page-service .detail-hero>.eyebrow{line-height:16px}
 .page-service .detail-lede{font-size:24px;line-height:33px}
@@ -930,21 +927,4 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
 .page-service .button:hover{
   background:rgb(241,234,223);
   color:rgb(88,25,37);
-}
-body.page-services-burnout .detail-content>.detail-section:nth-child(3) p:last-child,
-body.page-services-anxiety-depression .detail-content>.detail-section:nth-child(4) p:last-child{
-  margin-top:54px;
-  padding:0;
-  border-radius:0;
-  background:transparent;
-  color:rgba(23,39,64,.75)!important;
-  font:italic 30px/36px Fraunces,Georgia,serif;
-}
-@media (max-width:800px){
-  body.page-services-burnout .detail-content>.detail-section:nth-child(3) p:last-child,
-  body.page-services-anxiety-depression .detail-content>.detail-section:nth-child(4) p:last-child{
-    margin-top:44px;
-    font-size:22px;
-    line-height:30px;
-  }
 }
