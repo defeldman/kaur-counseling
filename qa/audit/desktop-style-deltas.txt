@@ -66,7 +66,7 @@
 
 -- STYLE/GEOMETRY DELTAS (27) --
 
-### resources @desktop  liveH=3360 ghH=3385 (+25)
+### resources @desktop  liveH=3360 ghH=3505 (+145)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (8) --
   y=128 [A] Back to About
@@ -81,91 +81,13 @@
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (3) --
   y=199 [H1] A reading list for the
   y=196 [EM] curious and healing.
-  y=3301 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=3421 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (84) --
-  y=280 "Books I return to and often share with clients. These a"
-      lh 29.25px->29.7px
-  y=746 "Relationships"
-      COLOR rgba(88, 25, 37, 0.8)->rgba(23, 39, 64, 0.7)
-  y=899 "Attached"
-      size 20px->18px | weight 400->500 | lh 27.5px->normal
-  y=899 "Hold Me Tight"
-      size 20px->18px | weight 400->500 | lh 27.5px->normal
-  y=931 "Amir Levine & Rachel Heller"
-      style italic->normal
-  y=931 "Sue Johnson"
-      style italic->normal
-  y=961 "A practical, accessible guide to adult attachment style"
-      size 15.2px->14px | lh 24.7px->20px
-  y=961 "The cornerstone of emotionally focused therapy — seven "
-      size 15.2px->14px | lh 24.7px->20px
-  y=1059 "The Seven Principles for Making Marriage Work"
-      size 20px->18px | weight 400->500 | lh 27.5px->normal
-  y=1059 "I Want This to Work"
-      size 20px->18px | weight 400->500 | lh 27.5px->normal
-  y=1091 "Tracee Sioux"
-      style italic->normal
-  y=1118 "John Gottman"
-      style italic->normal
-  y=1121 "An honest, forward-looking guide for couples doing the "
-      size 15.2px->14px | lh 24.7px->20px
-  y=1148 "Research-grounded tools for friendship, conflict, and s"
-      size 15.2px->14px | lh 24.7px->20px
-  y=1324 "Parenting"
-      COLOR rgba(88, 25, 37, 0.8)->rgba(23, 39, 64, 0.7)
-  y=1477 "The Whole-Brain Child"
-      size 20px->18px | weight 400->500 | lh 27.5px->normal
-  y=1477 "No-Drama Discipline"
-      size 20px->18px | weight 400->500 | lh 27.5px->normal
-  y=1508 "Daniel Siegel & Tina Payne Bryson"
-      style italic->normal
-  y=1538 "Twelve strategies to nurture a child's developing mind."
-      size 15.2px->14px | lh 24.7px->20px
-  y=1538 "A research-based approach to discipline rooted in conne"
-      size 15.2px->14px | lh 24.7px->20px
-  y=1637 "Raising an Emotionally Intelligent Child"
-      size 20px->18px | weight 400->500 | lh 27.5px->normal
-  y=1637 "How to Talk So Kids Will Listen & Listen So Kids Will T"
-      size 20px->18px | weight 400->500 | lh 27.5px->normal
-  y=1696 "Adele Faber & Elaine Mazlish"
-      style italic->normal
-  y=1698 "Emotion-coaching for a child's inner world."
-      size 15.2px->14px | lh 24.7px->20px
-  y=1726 "An enduring classic on respectful communication with ch"
-      size 15.2px->14px | lh 24.7px->20px
-  y=1901 "Self-help"
-      COLOR rgba(88, 25, 37, 0.8)->rgba(23, 39, 64, 0.7)
-  y=2054 "Atomic Habits"
-      size 20px->18px | weight 400->500 | lh 27.5px->normal
-  y=2054 "The Gifts of Imperfection"
-      size 20px->18px | weight 400->500 | lh 27.5px->normal
-  y=2085 "James Clear"
-      style italic->normal
-  y=2085 "Brené Brown"
-      style italic->normal
-  y=2115 "Small changes, compounded. A clear framework for sustai"
-      size 15.2px->14px | lh 24.7px->20px
-  y=2115 "On cultivating courage, compassion, and wholehearted li"
-      size 15.2px->14px | lh 24.7px->20px
-  y=2214 "No Bad Parts"
-      size 20px->18px | weight 400->500 | lh 27.5px->normal
-  y=2245 "Richard Schwartz"
-      style italic->normal
-  y=2275 "An indispensable introduction to IFS, meeting every par"
-      size 15.2px->14px | lh 24.7px->20px
-  y=2451 "Trauma"
-      COLOR rgba(88, 25, 37, 0.8)->rgba(23, 39, 64, 0.7)
-  y=2630 "What My Bones Know"
-      size 20px->18px | weight 400->500 | lh 27.5px->normal
-  y=2661 "Stephanie Foo"
-      style italic->normal
-  y=2691 "A searing, hopeful memoir of living with and healing fr"
-      size 15.2px->14px | lh 24.7px->20px
+-- STYLE/GEOMETRY DELTAS (89) --
   y=2869 "Want more? I'm always adding to this list. Bring what y"
       font Fraunces->Inter | size 24px->16px | style italic->normal | lh 33px->26px | COLOR rgb(57, 96, 71)->rgba(23, 39, 64, 0.7)
 
-### modalities @desktop  liveH=3433 ghH=3262 (-171)
+### modalities @desktop  liveH=3433 ghH=3099 (-334)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (6) --
   y=2796 [H2] Curious which lens
@@ -176,16 +98,12 @@
   y=3377 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (2) --
-  y=2785 [H2] Curious which lens fits your story?
-  y=3178 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2622 [H2] Curious which lens fits your story?
+  y=3015 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (48) --
-  y=957 "What it is"
-      COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
-  y=957 "What it is"
-      COLOR rgb(57, 96, 71)->rgba(88, 25, 37, 0.8)
 
-### get-started @desktop  liveH=1618 ghH=1589 (-29)
+### get-started @desktop  liveH=1618 ghH=1592 (-26)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (7) --
   y=1091 [SPAN] Virtual sessions are always available,
@@ -198,11 +116,9 @@
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (2) --
   y=1058 [P] Virtual sessions are always available, but in-person sessions start October 1st.
-  y=1505 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=1508 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (29) --
-  y=1184 "3150 18th St, Suite 404, San Francisco, CA 94110"
-      lh 22.75px->20px
 
 ### adhd @desktop  liveH=3748 ghH=3711 (-37)
 
@@ -215,22 +131,6 @@
   y=3627 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (60) --
-  y=934 "Work & career"
-      COLOR rgb(88, 25, 37)->rgb(57, 96, 71)
-  y=934 "School & study"
-      COLOR rgb(88, 25, 37)->rgb(108, 50, 133)
-  y=1097 "Body & food"
-      COLOR rgb(88, 25, 37)->rgb(57, 96, 71)
-  y=1097 "Sex & intimacy"
-      COLOR rgb(88, 25, 37)->rgb(108, 50, 133)
-  y=1676 "Hyperfocus ↔ overwhelm"
-      COLOR rgb(88, 25, 37)->rgb(57, 96, 71)
-  y=1676 "Forgetfulness about what you love"
-      COLOR rgb(88, 25, 37)->rgb(108, 50, 133)
-  y=1841 "The exhaustion of masking"
-      COLOR rgb(88, 25, 37)->rgb(57, 96, 71)
-  y=1841 "The intention-action gap"
-      COLOR rgb(88, 25, 37)->rgb(108, 50, 133)
   y=2098 "50%+"
       font Fraunces->Inter | size 60px->16px | weight 400->700 | lh 60px->26px | COLOR rgb(241, 234, 223)->rgba(23, 39, 64, 0.75)
   y=2174 "of adults with ADHD also live with anxiety or depressio"
@@ -250,16 +150,12 @@
 
 ### multiculturalism @desktop  liveH=2556 ghH=2501 (-55)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (6) --
-  y=244 [H1] Multicultural &
-  y=297 [SPAN] Cross-Cultural
-  y=244 [H1] Therapy
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
   y=2500 [DIV] ©
   y=2500 [DIV] 2026
   y=2500 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
--- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (2) --
-  y=246 [H1] Multicultural & Cross-Cultural Therapy
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
   y=2417 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (30) --
@@ -274,11 +170,9 @@
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
   y=2075 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (28) --
-  y=237 "Burnout."
-      style italic->normal
+-- STYLE/GEOMETRY DELTAS (27) --
 
-### anxiety @desktop  liveH=2165 ghH=2142 (-23)
+### anxiety @desktop  liveH=2165 ghH=2130 (-35)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (4) --
   y=956 [SPAN] You don't have to figure it out alone.
@@ -287,44 +181,23 @@
   y=2109 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=2058 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2046 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (31) --
-  y=841 "When they show up together"
-      COLOR rgb(108, 50, 133)->rgb(57, 96, 71)
-  y=1152 "I'm not here to tell you to "just think positively" or "
-      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.75)
-  y=1279 "Understand what's happening beneath the surface"
-      lh 22px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
-  y=1290 "Recognize the patterns that keep you stuck"
-      lh 22px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
-  y=1380 "Respond to overwhelm without shutting down"
-      lh 22px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
-  y=1380 "Challenge thoughts that aren't serving you"
-      lh 22px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
-  y=1459 "Make changes that feel realistic, not overwhelming"
-      lh 22px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
-  y=1470 "Reconnect with the things that matter to you"
-      lh 22px->24px | COLOR rgba(23, 39, 64, 0.8)->rgb(23, 39, 64)
 
 ### transitions @desktop  liveH=2146 ghH=2200 (+54)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (7) --
-  y=244 [H1] Going Through a
-  y=237 [SPAN] Transition?
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (5) --
   y=456 [SPAN] difficult.
   y=393 [P] My work is to help you make room for all of it — the loss and the possibility — and to fin
   y=2090 [DIV] ©
   y=2090 [DIV] 2026
   y=2090 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
--- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (2) --
-  y=246 [H1] Going Through a Transition?
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
   y=2116 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (41) --
-  y=1322 "Therapy can help you:"
-      COLOR rgb(57, 96, 71)->rgb(88, 25, 37)
   y=1386 "Process your emotions"
       font Fraunces->Inter | size 18px->16px | lh 24.75px->24px
   y=1386 "Find clarity and direction"
@@ -336,15 +209,12 @@
 
 ### teens @desktop  liveH=2590 ghH=2627 (+37)
 
--- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (5) --
-  y=244 [H1] Therapy for
-  y=237 [SPAN] Teens.
+-- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (3) --
   y=2534 [DIV] ©
   y=2534 [DIV] 2026
   y=2534 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
--- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (2) --
-  y=246 [H1] Therapy for Teens.
+-- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
   y=2543 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (34) --
@@ -357,7 +227,7 @@
   y=1794 "A safe adult outside your family"
       font Fraunces->Inter | size 18px->16px | lh 24.75px->24px
 
-### privacy @desktop  liveH=2216 ghH=2272 (+56)
+### privacy @desktop  liveH=2216 ghH=2266 (+50)
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (4) --
   y=1073 [P] California License #150884
@@ -366,9 +236,7 @@
   y=2160 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (1) --
-  y=2188 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2182 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (34) --
-  y=1833 "This page provides a general overview and is not legal "
-      size 14px->16px | lh 22.75px->26px | COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
 
