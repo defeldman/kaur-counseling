@@ -1,3 +1,5 @@
+window.hydrateLucideIcons();
+
 const menuToggle = document.querySelector('.menu-toggle');
 const siteHeader = document.querySelector('.site-header');
 

@@ -928,3 +928,31 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
   background:rgb(241,234,223);
   color:rgb(88,25,37);
 }
+
+/* Brief 08: Lucide icon sizing, alignment, and live leaf treatments. */
+.notice-icon{margin-top:2px;flex:0 0 40px;background:rgba(88,25,37,.1)}
+.notice-icon svg{display:block;width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2}
+.office-notice{align-items:start}
+.notice-address{align-self:center;flex-shrink:0;gap:8px;font-size:14px;line-height:20px}
+.notice-address .lucide-car{display:block;width:16px;height:16px;flex:0 0 16px;color:var(--burgundy)}
+.notice-address .lucide-link{display:block;width:14px;height:14px;flex:0 0 14px;color:var(--burgundy);opacity:.6}
+.text-link .inline-arrow{margin-top:1px}
+.contact-facts p>svg{color:var(--spruce)}
+.office-facts>a>svg:not(.lucide-external-link){color:var(--spruce)}
+.office-facts>a>.lucide-external-link{margin-top:1px}
+.menu-toggle{flex-direction:row;justify-content:center;align-items:center;gap:0;padding:0}
+.menu-toggle svg{display:block;flex:none;width:22px;height:22px}
+.button>svg.lucide-arrow-up-right{display:block;flex:0 0 16px;width:16px;height:16px}
+.card-leaf{top:30px;left:32px;display:block;width:24px;height:36px;margin:0;color:rgba(88,25,37,.5);font-size:0;transform:rotate(-12deg)}
+.about-cards .detail-card:nth-child(2) .card-leaf{transform:rotate(6deg)}
+.about-cards .detail-card:nth-child(3) .card-leaf{transform:rotate(-3deg)}
+.poem-corner{display:block;width:36px;height:54px;font-size:0;opacity:1}
+.poem-corner-top{top:-4px;right:-8px;transform:rotate(22deg);color:rgba(57,96,71,.2)}
+.poem-corner-bottom{bottom:0;left:-4px;width:28px;height:42px;transform:rotate(-18deg);color:rgba(88,25,37,.15)}
+.page-resources .poem-card{overflow:hidden}
+
+@media (max-width:800px){
+  .office-notice{grid-template-columns:40px minmax(0,1fr);align-items:start}
+  .notice-icon{width:40px;height:40px}
+  .notice-address{grid-column:1/-1;align-self:auto;flex-shrink:0}
+}
