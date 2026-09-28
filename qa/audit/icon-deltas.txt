@@ -6,23 +6,28 @@
     14x14 @309,8927  vb=0 0 24 24  d=M5 12h14
     14x14 @503,8927  vb=0 0 24 24  d=M5 12h14
   MOVED/RESIZED (30):
-    52x67@74,1157 -> 24x28@50,3977
+    52x67@74,1157 -> 24x28@51,3977
     15x15@902,2011 -> 15x15@899,1984
     14x14@210,3495 -> 15x15@813,4892
     14x14@618,3518 -> 15x15@301,7900
     14x14@210,3556 -> 15x15@309,8927
     14x14@618,3617 -> 15x15@503,8927
-    24x28@24,3975 -> 24x28@478,3977
-    24x28@452,3975 -> 24x28@906,3977
+    24x28@24,3975 -> 24x28@479,3977
+    24x28@452,3975 -> 24x28@907,3977
 
-### about @desktop   live=8 ours=8
+### about @desktop   live=8 ours=7
+  ICONS ON LIVE, ABSENT FROM OURS (1):
+    32x45 @704,3140  vb=0 0 100 150  d=M50 16 C26 40 24 88 48 114
   MOVED/RESIZED (4):
     28x38@706,179 -> 31x40@286,679
     31x40@282,679 -> 28x38@603,680
     28x38@601,680 -> 26x37@919,681
     26x37@919,680 -> 37x48@702,3110
 
-### resources @desktop   live=27 ours=27
+### resources @desktop   live=27 ours=25
+  ICONS ON LIVE, ABSENT FROM OURS (2):
+    45x56 @233,2421  vb=0 0 100 150  d=M50 16 C26 40 24 88 48 114
+    55x64 @175,2864  vb=0 0 100 150  d=M50 16 C26 40 24 88 48 114
   MOVED/RESIZED (23):
     16x16@256,131 -> 16x16@256,118
     52x67@210,144 -> 54x64@1146,377
@@ -33,7 +38,10 @@
     13x19@714,774 -> 45x56@232,751
     13x19@714,878 -> 45x56@232,1338
 
-### modalities @desktop   live=13 ours=13
+### modalities @desktop   live=13 ours=11
+  ICONS ON LIVE, ABSENT FROM OURS (2):
+    83x107 @1079,2742  vb=0 0 100 150  d=M50 16 C26 40 24 88 48 114
+    70x84 @285,2978  vb=0 0 100 150  d=M50 16 C26 40 24 88 48 114
   MOVED/RESIZED (8):
     76x86@1314,29 -> 112x127@1252,108
     45x56@1241,128 -> 103x122@1059,2740
@@ -106,12 +114,10 @@
     18x18@758,1472 -> 18x18@758,1508
 
 ### transitions @desktop   live=18 ours=18
-  ICONS ON LIVE, ABSENT FROM OURS (2):
+  ICONS ON LIVE, ABSENT FROM OURS (1):
     20x20 @297,711  vb=0 0 24 24  d=M9 12h.01
-    20x20 @614,711  vb=0 0 24 24  d=M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16
-  ICONS ON OURS, NOT ON LIVE (2):
+  ICONS ON OURS, NOT ON LIVE (1):
     20x20 @297,711  vb=0 0 24 24  d=M9 12h.01
-    20x20 @614,711  vb=0 0 24 24  d=M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16M2 12h20
   MOVED/RESIZED (9):
     52x67@218,176 -> 52x67@218,129
     44x50@1140,184 -> 44x50@1140,136
@@ -146,4 +152,4 @@
     16x16@417,636 -> 14x14@417,647
     16x16@417,672 -> 14x14@417,685
 
-=== TOTAL @desktop: missingIcons=14 extraIcons=10 moved=122 ===
+=== TOTAL @desktop: missingIcons=18 extraIcons=9 moved=122 ===
