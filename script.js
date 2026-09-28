@@ -13,7 +13,7 @@ menuToggle?.addEventListener('click', () => {
 
 document.querySelectorAll('.mobile-nav .dropdown-trigger').forEach((trigger) => {
   trigger.addEventListener('click', (event) => {
-    if (window.matchMedia('(max-width: 800px)').matches) {
+    if (window.matchMedia('(max-width: 1100px)').matches) {
       event.preventDefault();
       const dropdown = trigger.closest('.nav-dropdown');
       const open = !dropdown.classList.contains('is-open');

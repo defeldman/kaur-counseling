@@ -8,6 +8,7 @@ const paras = (items) => items.map((item) => `<p>${esc(item)}</p>`).join('');
 const section = (heading, items, className = '') => `<section class="detail-section ${className}"><h2>${esc(heading)}</h2>${paras(items)}</section>`;
 const crisisPhoneIcon = '<svg viewBox="0 0 24 24"><path d="M6.5 3.5 10 7 8 9c1.4 2.9 3.1 4.6 6 6l2-2 3.5 3.5v2.2c0 .9-.7 1.6-1.6 1.6C10.2 20.3 3.7 13.8 3.7 6.1c0-.9.7-1.6 1.6-1.6h1.2Z"/></svg>';
 const crisisSection = () => `<section class="detail-section privacy-crisis"><div class="privacy-crisis-card"><div class="privacy-crisis-heading"><span class="privacy-crisis-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 3 9 17H3L12 3Z"/><path d="M12 8v5m0 3h.01"/></svg></span><h2>If you are in crisis</h2></div><p>This website is not monitored for emergencies and is not a substitute for urgent care. If you or someone else is in immediate danger, please use the resources below.</p><ul><li><a href="tel:911"><span class="crisis-phone" aria-hidden="true">${crisisPhoneIcon}</span><span><strong>911</strong> for life-threatening emergencies.</span></a></li><li><a href="tel:988"><span class="crisis-phone" aria-hidden="true">${crisisPhoneIcon}</span><span><strong>988</strong> Suicide &amp; Crisis Lifeline. Call or text 988, 24/7.</span></a></li><li><a href="sms:741741"><span class="crisis-phone" aria-hidden="true">${crisisPhoneIcon}</span><span><strong>741741</strong> Crisis Text Line. Text HOME to 741741, 24/7.</span></a></li></ul></div></section>`;
+const navChevron = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="nav-chevron lucide lucide-chevron-down" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>';
 const leaf = '<span class="detail-leaf" aria-hidden="true"></span>';
 
 function header() {
@@ -15,17 +16,19 @@ function header() {
     <a class="brand" href="${link('')}" aria-label="Kaur Counseling, home"><span class="brand-name">Kaur Counseling</span><span class="brand-subtitle">Marriage and Family Therapy, Inc.</span></a>
     <nav class="desktop-nav" aria-label="Primary navigation">
       <a href="${link('')}">Home</a>
-      <div class="nav-dropdown"><a class="dropdown-trigger" href="${link('about/')}" aria-haspopup="true" aria-expanded="false">About <span class="nav-chevron">⌄</span></a><div class="nav-dropdown-menu"><div class="nav-dropdown-panel"><a href="${link('about/')}">What to Expect</a><a href="${link('about/cost/')}">Cost of Therapy</a><a href="${link('about/resources/')}">Resources</a></div></div></div>
+      <a href="${link('about/cost/')}">Cost</a>
+      <div class="nav-dropdown"><a class="dropdown-trigger" href="${link('about/')}" aria-haspopup="true" aria-expanded="false">About ${navChevron}</a><div class="nav-dropdown-menu"><div class="nav-dropdown-panel"><a href="${link('about/')}">What to Expect</a><a href="${link('about/resources/')}">Resources</a></div></div></div>
       <a href="${link('modalities/')}">Modalities</a><a href="${link('get-started/')}">Contact</a>
-      <div class="nav-dropdown"><a class="dropdown-trigger" href="${link('#services')}" aria-haspopup="true" aria-expanded="false">Services <span class="nav-chevron">⌄</span></a><div class="nav-dropdown-menu"><div class="nav-dropdown-panel nav-dropdown-services"><a href="${link('services/adhd/')}">ADHD &amp; Late-Stage Diagnosis</a><a href="${link('services/multiculturalism/')}">Multicultural &amp; Cross-Cultural Therapy</a><a href="${link('services/burnout/')}">Burnout</a><a href="${link('services/anxiety-depression/')}">Anxiety &amp; Depression</a><a href="${link('services/transitions/')}">Transitions</a><a href="${link('services/teens/')}">Teens</a></div></div></div>
+      <div class="nav-dropdown"><a class="dropdown-trigger" href="${link('#services')}" aria-haspopup="true" aria-expanded="false">Services ${navChevron}</a><div class="nav-dropdown-menu"><div class="nav-dropdown-panel nav-dropdown-services"><a href="${link('services/adhd/')}">ADHD &amp; Late-Stage Diagnosis</a><a href="${link('services/multiculturalism/')}">Multicultural &amp; Cross-Cultural Therapy</a><a href="${link('services/burnout/')}">Burnout</a><a href="${link('services/anxiety-depression/')}">Anxiety &amp; Depression</a><a href="${link('services/transitions/')}">Transitions</a><a href="${link('services/teens/')}">Teens</a></div></div></div>
       <a class="nav-cta" href="${link('get-started/')}">Get Started</a>
     </nav>
     <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="mobile-nav" aria-label="Mobile navigation">
       <a href="${link('')}">Home</a>
-      <div class="nav-dropdown"><a class="dropdown-trigger" href="${link('about/')}" aria-haspopup="true" aria-expanded="false">About <span class="nav-chevron">⌄</span></a><div class="nav-dropdown-menu"><div class="nav-dropdown-panel"><a href="${link('about/')}">What to Expect</a><a href="${link('about/cost/')}">Cost of Therapy</a><a href="${link('about/resources/')}">Resources</a></div></div></div>
+      <a href="${link('about/cost/')}">Cost</a>
+      <div class="nav-dropdown"><a class="dropdown-trigger" href="${link('about/')}" aria-haspopup="true" aria-expanded="false">About ${navChevron}</a><div class="nav-dropdown-menu"><div class="nav-dropdown-panel"><a href="${link('about/')}">What to Expect</a><a href="${link('about/resources/')}">Resources</a></div></div></div>
       <a href="${link('modalities/')}">Modalities</a><a href="${link('get-started/')}">Contact</a>
-      <div class="nav-dropdown"><a class="dropdown-trigger" href="${link('#services')}" aria-haspopup="true" aria-expanded="false">Services <span class="nav-chevron">⌄</span></a><div class="nav-dropdown-menu"><div class="nav-dropdown-panel nav-dropdown-services"><a href="${link('services/adhd/')}">ADHD &amp; Late-Stage Diagnosis</a><a href="${link('services/multiculturalism/')}">Multicultural &amp; Cross-Cultural Therapy</a><a href="${link('services/burnout/')}">Burnout</a><a href="${link('services/anxiety-depression/')}">Anxiety &amp; Depression</a><a href="${link('services/transitions/')}">Transitions</a><a href="${link('services/teens/')}">Teens</a></div></div></div>
+      <div class="nav-dropdown"><a class="dropdown-trigger" href="${link('#services')}" aria-haspopup="true" aria-expanded="false">Services ${navChevron}</a><div class="nav-dropdown-menu"><div class="nav-dropdown-panel nav-dropdown-services"><a href="${link('services/adhd/')}">ADHD &amp; Late-Stage Diagnosis</a><a href="${link('services/multiculturalism/')}">Multicultural &amp; Cross-Cultural Therapy</a><a href="${link('services/burnout/')}">Burnout</a><a href="${link('services/anxiety-depression/')}">Anxiety &amp; Depression</a><a href="${link('services/transitions/')}">Transitions</a><a href="${link('services/teens/')}">Teens</a></div></div></div>
       <a class="nav-cta" href="${link('get-started/')}">Get Started</a>
     </nav>
   </header>`;
@@ -33,8 +36,8 @@ function header() {
 
 function footer() {
   return `<footer class="site-footer" id="footer">
-    <div class="footer-top"><div class="footer-name">Sohavani Mand,<br />LMFT</div><div class="footer-license">CA LIC.<br />#150884</div><div class="footer-business">Kaur Counseling, Marriage &amp; Family<br />Therapy, Inc.</div><a class="footer-phone" href="tel:+14159305395">415-930-<br />5395</a><div class="footer-nav"><a href="${link('')}">Home</a><a href="${link('about/')}">About</a><a href="${link('#services')}">Services</a><a href="${link('get-started/')}">Contact</a><a href="${link('privacy/')}">Privacy &amp;<br />Disclaimer</a></div></div>
-    <div class="footer-bottom"><p>If you are in crisis, call or text <strong>988</strong> (Suicide &amp; Crisis Lifeline) or <strong>911</strong> for emergencies. This site is not monitored 24/7.</p><p>© 2026 Sohavani Mand, LMFT. Confidential by design.</p></div>
+    <div class="footer-top"><div class="footer-name">Sohavani Mand, LMFT</div><div class="footer-license">CA Lic. #150884</div><div class="footer-business">Kaur Counseling, Marriage &amp; Family Therapy, Inc.</div><a class="footer-phone" href="tel:+14159305395">415-930-5395</a><div class="footer-nav"><a href="${link('')}">Home</a><a href="${link('about/')}">About</a><a href="${link('#services')}">Services</a><a href="${link('get-started/')}">Contact</a><a href="${link('privacy/')}">Privacy &amp; Disclaimer</a></div></div>
+    <div class="footer-bottom"><p>If you are in crisis, call or text <span class="crisis-number">988</span> (Suicide &amp; Crisis Lifeline) or <span class="crisis-number">911</span> for emergencies. This site is not monitored 24/7.</p><p class="footer-copyright">© 2026 Sohavani Mand, LMFT. Confidential by design.</p></div>
   </footer>`;
 }
 
@@ -185,7 +188,6 @@ function render() {
   if (!page) return;
   document.body.classList.add(`page-${pageId.replaceAll('/', '-')}`);
   if (page.isService) document.body.classList.add('page-service');
-  document.title = `Sohavani Mand, LMFT | ${pageId === 'privacy' ? 'Privacy' : 'Kaur Counseling'}`;
   const body = page.body.join('');
   const backLabel = page.backLabel || (page.isService ? '← Back to Services' : '← Back to Home');
   const backHref = page.backPath ? link(page.backPath) : (page.isService ? link('#services') : link(''));
