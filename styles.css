@@ -2090,6 +2090,16 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:124px;h
   .page-service .service-list-leaf{right:10px;width:36px}
   .page-services-teens .service-cta{margin-top:173px}
   .page-services-teens .detail-shell{padding-bottom:199px}
+
+  .page-cost .detail-shell{padding-bottom:117px}
+  .page-modalities .detail-shell{padding-bottom:123px}
+  .page-get-started .detail-shell{padding-bottom:90px}
+  .page-services-multiculturalism .detail-shell{padding-bottom:278px}
+  .page-services-burnout .detail-shell{padding-bottom:270px}
+  .page-privacy .detail-shell{padding-bottom:185px}
+  .page-about .detail-shell{padding-bottom:12px}
+  .page-services-anxiety-depression .detail-content>.detail-section:last-child{padding-bottom:109px}
+  body:not([data-page]) .site-footer{margin-top:-1px}
 }
 
 /* Preserve the measured tablet get-started page height. */
