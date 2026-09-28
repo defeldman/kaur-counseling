@@ -6,6 +6,11 @@ const esc = (value) => String(value).replace(/[&<>"']/g, (character) => ({
 const link = (path) => `${root}${path}`;
 const paras = (items) => items.map((item) => `<p>${esc(item)}</p>`).join('');
 const section = (heading, items, className = '') => `<section class="detail-section ${className}"><h2>${esc(heading)}</h2>${paras(items)}</section>`;
+const serviceSection = (heading, content, className = '') => `<section class="detail-section ${className}"><h2>${esc(heading)}</h2>${content}</section>`;
+const serviceCards = (heading, cards, className = '') => `<section class="detail-section ${className}"><h2>${esc(heading)}</h2><div class="detail-card-grid">${cards.map(([title, copy]) => `<article class="detail-card"><h3>${esc(title)}</h3><p>${esc(copy)}</p></article>`).join('')}</div></section>`;
+const serviceLabeledCards = (cards) => `<div class="detail-card-grid">${cards.map(([title, copy]) => `<article class="detail-card"><p><strong>${esc(title)}</strong></p><p>${esc(copy)}</p></article>`).join('')}</div>`;
+const serviceList = (items) => `<ul>${items.map((item) => `<li>${esc(item)}</li>`).join('')}</ul>`;
+const serviceSteps = (items) => `<div>${items.map((item) => `<div>${esc(item)}</div>`).join('')}</div>`;
 const crisisPhoneIcon = '<svg viewBox="0 0 24 24"><path d="M6.5 3.5 10 7 8 9c1.4 2.9 3.1 4.6 6 6l2-2 3.5 3.5v2.2c0 .9-.7 1.6-1.6 1.6C10.2 20.3 3.7 13.8 3.7 6.1c0-.9.7-1.6 1.6-1.6h1.2Z"/></svg>';
 const crisisSection = () => `<section class="detail-section privacy-crisis"><div class="privacy-crisis-card"><div class="privacy-crisis-heading"><span class="privacy-crisis-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 3 9 17H3L12 3Z"/><path d="M12 8v5m0 3h.01"/></svg></span><h2>If you are in crisis</h2></div><p>This website is not monitored for emergencies and is not a substitute for urgent care. If you or someone else is in immediate danger, please use the resources below.</p><ul><li><a href="tel:911"><span class="crisis-phone" aria-hidden="true">${crisisPhoneIcon}</span><span><strong>911</strong> for life-threatening emergencies.</span></a></li><li><a href="tel:988"><span class="crisis-phone" aria-hidden="true">${crisisPhoneIcon}</span><span><strong>988</strong> Suicide &amp; Crisis Lifeline. Call or text 988, 24/7.</span></a></li><li><a href="sms:741741"><span class="crisis-phone" aria-hidden="true">${crisisPhoneIcon}</span><span><strong>741741</strong> Crisis Text Line. Text HOME to 741741, 24/7.</span></a></li></ul></div></section>`;
 const navChevron = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="nav-chevron lucide lucide-chevron-down" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>';
@@ -110,47 +115,70 @@ const pages = {
     ], noCta: true, noBack: true
   },
   'services/adhd': service('ADHD & Late-Stage', 'Diagnosis.', 'SPECIALTY', "A diagnosis arriving in adulthood reframes a lifetime. We make sense of the years before: the masking, the shame, the gifts. And we build rhythms that fit the mind you actually have.", [
-    ['ADD in women looks different', ["ADHD in women is often missed, minimized, or explained away as anxiety, laziness, or not trying hard enough. Many women become experts at compensating until the strategies stop working." ]],
-    ['When the diagnosis arrives later', ["A late diagnosis can bring relief and grief at the same time. It can explain the unfinished projects, the exhaustion, and the sense that everyone else received an instruction manual you never got." ]],
-    ['How it shows up', ["Relationships · Rejection sensitivity can make a pause, a tone, or a missed text feel enormous.", "Work & career · You may be capable and praised while privately relying on urgency, overwork, and last-minute adrenaline.", "School & study · You were bright enough to coast, until the structure became more complex than motivation could carry.", "Self-esteem · A running inner monologue can turn ordinary friction into evidence that you are failing.", "Body & food · Forgetting to eat, sleep, or notice your own needs can become part of the rhythm.", "Sex & intimacy · Being distracted, flooded, or disconnected from your body can make closeness harder to access."]],
-    ['The grief, and the broken trust in yourself', ["There may be grief for the years you spent blaming yourself, and anger at how hard you had to work to look okay. Part of our work is rebuilding trust with the person who has been carrying all of this." ]],
-    ['How we work with it', ["A thousand things at once · We practice turning a storm into one next thing.", "Hyperfocus ↔ overwhelm · We build a rhythm that does not depend on crisis.", "Forgetfulness about what you love · We make room for the interests and people that restore you.", "Time warps and vanishes · We externalize time without turning your life into a punishment.", "The exhaustion of masking · We notice where performing has replaced being.", "The intention-action gap · We separate knowing what to do from having the support to do it.", "You are not a problem to be fixed. Your brain is asking for a different kind of environment."]]
+    serviceSection('ADD in women looks different', paras(["The picture most people carry is a boy who can't sit still. Women and girls more often live with the inattentive kind: quiet, internal, easy to miss. Daydreaming in class. Losing track of conversations. Holding it together in public, then collapsing at home. Because it hides so well, it's missed for years, and the story becomes \"lazy,\" \"scattered,\" \"too sensitive.\" My clinical focus is women with ADD, and I know its shape intimately."]) + serviceLabeledCards([
+      ['Relationships', "Rejection sensitivity, people-pleasing, losing the thread of what you wanted to say."],
+      ['Work & career', 'Capable and praised, then quietly drowning in the details no one sees.'],
+      ['School & study', "Bright enough to coast, until you couldn't, and the shame set in."],
+      ['Self-esteem', "A running inner monologue of 'I should have been able to.'"],
+      ['Body & food', "Forgetting to eat, then overeating; restless sleep; tension you can't name."],
+      ['Sex & intimacy', 'Distracted, disconnected, or running on high alert instead of ease.']
+    ])),
+    ['When the diagnosis arrives later', ["For years you may have moved through the world believing you were simply too much, or never quite enough: too scattered, too intense, too easily overwhelmed, working twice as hard to do the ordinary. A late diagnosis reframes all of it. What you called laziness or brokenness was often a brilliant, exhausting act of holding on."]],
+    serviceSection('How it shows up', serviceLabeledCards([
+        ['A thousand things at once', 'Ping-ponging between tasks, a mind juggling everything at the same time.'],
+        ['Hyperfocus ↔ overwhelm', 'Swinging between deep fixation and flood.'],
+        ['Forgetfulness about what you love', 'Even the things and people that matter slip away.'],
+        ['Time warps and vanishes', 'Hours pass like minutes, or crawl like days.'],
+        ['The exhaustion of masking', 'Performing a version of yourself, all day.'],
+        ['The intention-action gap', "Knowing exactly what to do, wanting to do it, and feeling paralyzed even when you're smart enough to execute."]
+      ]) + '<article class="detail-card"><p><strong>50%+</strong></p><p>of adults with ADHD also live with anxiety or depression, and some struggle with both. You are not overreacting; you are responding to a lifetime of feeling unreliable in a world that demanded reliability.</p></article>'),
+    ['The grief, and the broken trust in yourself', [
+      'A late diagnosis often arrives with grief: for the years spent believing you were broken, for the support you never received, for the life that might have felt easier. Living so long without an explanation can erode your trust in your own memory, your follow-through, your word. That fractured trust in yourself can settle into anxiety or depression, which is why so many adults with ADHD carry both.',
+      'This fractured trust often creates a cycle of self-frustration: setting high expectations you desperately want to meet, only to find yourself procrastinating or unable to initiate even the simplest tasks. It can be deeply isolating to recognize your own capacity and intelligence while feeling like you\'re fighting a physical block that keeps you from following through on the routines you know would help you feel better.'
+    ]],
+    serviceSection('How we work with it', serviceList(['Honor your gifts: creativity, intensity, range.', 'Tend the costs of pretending.', 'Grieve what was, and slowly rebuild trust in yourself.', 'Build rhythms and boundaries shaped for how your brain actually works.']) + paras(['You are not a problem to be fixed. You are a person learning to live well with yourself.']))
   ]),
   'services/multiculturalism': service('Multicultural & Cross-Cultural Therapy', '', 'SPECIALTY', "When your identity doesn't fit neatly into one box.", [
-    ['Multicultural Therapy', ["Living between cultures is a quiet, ongoing negotiation. We hold the grief and the resilience of adaptation, the questions of belonging, and the tension of holding more than one home." ]],
-    ['Acculturation & Assimilation Stress', ["You may feel pulled between the values you grew up with and the expectations of the world around you. We can make space for the choices, compromises, and anger that come with finding your own way." ]],
-    ['First-Generation & Second-Generation Issues', ["Being the first in your family to move through a particular world can mean carrying responsibility, translation, and pressure that is difficult to explain to anyone else." ]],
-    ['Third Culture Kid (TCK) Therapy', ["Home may be a feeling rather than a place. We can explore the disorientation, flexibility, and deep perspective that come from growing up across cultures." ]],
-    ['Intergenerational Trauma Therapy', ["We can look at what has been carried forward through family stories, silence, survival strategies, and expectations — without reducing your family or your culture to a diagnosis.", "You do not have to compress yourself into one identity to be understood here."]]
+    ['Multicultural Therapy', ['We explore how your race, ethnicity, and cultural background have shaped the way you see yourself and the world, making room for every layer of your identity rather than asking you to choose just one.']],
+    ['Acculturation & Assimilation Stress', ["We tend to the strain of holding your heritage culture alongside a dominant one that doesn't always make space for it: the codeswitching, the guilt, the quiet exhaustion, so you can move between worlds without losing yourself."]],
+    ['First-Generation & Second-Generation Issues', ["We unpack the family pressures, guilt, and identity conflicts that come with being a child of immigrants: the expectations you carry, the roles you play, and the version of yourself you're finally allowed to become."]],
+    ['Third Culture Kid (TCK) Therapy', ["We make sense of a belonging that never felt simple, raised in a culture that wasn't your parents' and maybe wasn't your passport's, so the question of 'where are you from?' stops feeling like a small crisis."]],
+    ['Intergenerational Trauma Therapy', ["We gently trace the trauma, expectations, and communication gaps passed down from your parents, not to assign blame, but to understand what was inherited and choose what you want to carry forward.", 'You do not have to compress yourself to be understood here.']]
   ]),
   'services/burnout': service('Burnout.', '', 'SPECIALTY', 'The slow creep, and the difficulty of asking for help.', [
-    ['The slow creep', ["Burnout rarely arrives all at once. It accretes, quietly, through one more task, one more morning pushed through, one more weekend that disappears. By the time it has a name, it has often been living in you for a long while. My work is to help you listen to what it's telling you, and to rebuild a life that can be sustained." ]],
-    ["Why it's so hard to ask for help", ["Burnout doesn't always show up as a complete breakdown. Sometimes it looks like having less energy for things you used to enjoy, needing more effort to get started, or feeling strangely flat even when something good happens. For people who are used to pushing through, it can be especially hard to recognize these changes as signs that something is wrong. You may just think you need to try harder, get more organized, or get back on track — when what you actually need is to recognize that you've been running on empty for a while." ]],
-    ['Tending and rebuilding', ["When you're used to measuring your worth by how much you accomplish, needing help can feel like falling short. Rest can feel unearned, and asking for support can bring up shame, guilt, or the fear that you should be able to handle it on your own. But struggling to reach out doesn't mean you're failing. Sometimes, it's part of what happens when you've been carrying too much for too long. Recognizing that you need support isn't giving up — it's finally paying attention.", "We start by listening to what the depletion is asking for. We tend the exhaustion before we touch the goals. Then, slowly and with care, we rebuild a life with margins in it, one with rest and meaning, with permission to be a person rather than only a function.", "Recovery is not a project to optimize. It is a returning."]]
+    ['The slow creep', ["Burnout doesn't always show up as a complete breakdown. Sometimes it looks like having less energy for things you used to enjoy, needing more effort to get started, or feeling strangely flat even when something good happens. For people who are used to pushing through, it can be especially hard to recognize these changes as signs that something is wrong. You may just think you need to try harder, get more organized, or get back on track — when what you actually need is to recognize that you've been running on empty for a while."]],
+    ["Why it's so hard to ask for help", ["When you're used to measuring your worth by how much you accomplish, needing help can feel like falling short. Rest can feel unearned, and asking for support can bring up shame, guilt, or the fear that you should be able to handle it on your own. But struggling to reach out doesn't mean you're failing. Sometimes, it's part of what happens when you've been carrying too much for too long. Recognizing that you need support isn't giving up — it's finally paying attention."]],
+    ['Tending and rebuilding', [
+      "We start by listening to what the depletion is asking for. We tend the exhaustion before we touch the goals. Then, slowly and with care, we rebuild a life with margins in it, one with rest and meaning, with permission to be a person rather than only a function. Recovery is not a project to optimize. It is a returning.",
+      'Recovery is not a project to optimize. It is a returning.'
+    ]]
   ]),
   'services/anxiety-depression': service('Anxiety & Depression.', '', 'ALSO IN MY CARE', 'Anxiety and depression can look completely different, but both have a way of adding a layer to everyday life that can make everything feel harder than it should.', [
     ['Anxiety', ["Anxiety can keep your mind running long after you want it to stop. It can make decisions feel overwhelming, turn small things into big things, and leave you constantly anticipating what might go wrong." ]],
     ['Depression', ["Depression can make everything feel heavier in a different way. Things that once felt meaningful can feel distant, motivation can disappear, and even basic tasks can take more effort than you have to give." ]],
     ['When they show up together', ["Sometimes they show up together. Sometimes one takes over for a while and the other follows. And sometimes it's hard to explain what's happening at all — you just know that life feels harder than it used to. You don't have to figure it out alone." ]],
-    ['How we work with it', ["I'm not here to tell you to “just think positively” or hand you a list of things you should be doing differently. I'm here to meet you where you are, understand what you're carrying, and work through it with you — one piece at a time.", "One piece at a time."]]
+    serviceSection('How we work with it', paras(['I\'m not here to tell you to "just think positively" or hand you a list of things you should be doing differently. I\'m here to meet you where you are, understand what you\'re carrying, and work through it with you — one piece at a time.']) + serviceSteps(["Understand what's happening beneath the surface", 'Recognize the patterns that keep you stuck', 'Respond to overwhelm without shutting down', "Challenge thoughts that aren't serving you", 'Reconnect with the things that matter to you', 'Make changes that feel realistic, not overwhelming']) + paras(['One piece at a time.']))
   ]),
   'services/transitions': service('Going Through a Transition?', '', 'SPECIALTY', "You don't have to do it alone.", [
-    ['You might be navigating…', ["A transition can be chosen, expected, or completely outside your control. It can bring excitement and grief in the same breath, even when it is the change you wanted." ]],
-    ['Becoming a Parent', ["The arrival of a child changes your days, your identity, your partnership, and your relationship with your own history. There is room here for the joy and the overwhelm." ]],
-    ['Career Changes', ["Whether you are leaving, starting, returning, or questioning your path, we can explore purpose, pressure, and what you want work to make possible." ]],
-    ['Moving', ["Relocation can unsettle belonging and routines while asking you to create a home again. We can tend the loss and the possibility together." ]],
-    ['Relationship Changes', ["Beginning, ending, deepening, or renegotiating a relationship can bring old patterns into focus. Therapy can help you move with clarity and care." ]],
-    ['College & Future Decisions', ["There is no single right way to become an adult. We can slow down the noise of expectations and listen for what feels like yours." ]],
-    ['Finding Your Next Chapter', ["Therapy can help you name what is ending, stay connected to what matters, and build a next step that is sustainable rather than simply impressive."]]
+    serviceCards('You might be navigating…', [
+      ['Becoming a Parent', 'The identity shift, the overwhelm, the way love and loss can arrive in the same breath.'],
+      ['Career Changes', 'A new role, a departure, a pivot — and the questions of purpose and self-worth that travel with them.'],
+      ['Moving', 'Uprooting a life and replanting it, and the quiet grief of leaving a place that held you.'],
+      ['Relationship Changes', 'Beginning, deepening, or ending partnerships — and renegotiating who you are to one another.'],
+      ['College & Future Decisions', 'The pressure of the open road, and the weight of choosing a direction that feels like yours.'],
+      ['Finding Your Next Chapter', "When one season closes before the next has a name, and you're holding the in-between."]
+    ]),
+    serviceSection('Therapy can help you:', serviceList(['Process your emotions', 'Find clarity and direction', 'Build confidence in this next chapter', 'Feel more grounded and supported']) + paras(["You don't have to navigate this next chapter alone."]))
   ]),
   'services/teens': service('Therapy for Teens.', '', 'SPECIALTY', "You don't have to have it all figured out.", [
-    ['What you might be carrying', ["Being a teenager can mean holding school pressure, friendship shifts, family expectations, and questions about who you are — often while feeling like you are supposed to already know the answers." ]],
-    ['School Pressure', ["Grades, comparison, workload, and the fear of disappointing people can turn every assignment into a measure of your worth. We can separate your value from your performance." ]],
-    ['College Prep & Application Stress', ["Applications can make the future feel like a deadline. We can make room for uncertainty, pressure, and the possibility that your path does not have to look like anyone else's." ]],
-    ["A Safe Adult Who Isn't Your Parent", ["Therapy is a private space with an adult who is not grading you, parenting you, or asking you to take care of their feelings. You can be honest here." ]],
-    ['Evolving Friendships & Identity', ["Friendships, identity, body, culture, and belonging can all feel in motion at once. We can get curious about what fits and what no longer does." ]],
-    ['ADHD', ["Whether you are newly diagnosed or wondering if ADHD explains more than you thought, we can work with your brain rather than against it." ]],
-    ['What you get here:', ["What you share here stays here, with the limits of confidentiality explained clearly. You get a place to slow down, ask hard questions, and be taken seriously while you figure things out."]]
+    serviceCards('What you might be carrying', [
+      ['School Pressure', "Grades, expectations, the weight of performing. School can feel like it asks for more than you have to give — and like resting is something you can't afford."],
+      ['College Prep & Application Stress', "Applications, test scores, the question of what's next. The future can feel like it's due all at once, and like one decision carries your whole life."],
+      ["A Safe Adult Who Isn't Your Parent", "Some questions feel too hard or shameful to bring home — and that's okay. This is a trusted adult outside your family to explore them with, who listens without lecturing and keeps what you share private."],
+      ['Evolving Friendships & Identity', 'Friendships shift, you change, and the question of who you are gets louder. We make room to explore it — without rushing you toward an answer.'],
+      ['ADHD', "A mind that runs fast, gets distracted, or feels like 'too much.' We understand how it shows up — especially for girls who've been missed or told they're just 'not trying.'"]
+    ]),
+    serviceSection('What you get here:', serviceList(["A space that's just yours", 'Tools for the pressure', 'Words for what you feel', 'A safe adult outside your family']) + paras(["What you share here stays here. The exception is safety — if I'm worried about your wellbeing, we talk about it together first, and figure out next steps as a team.", "You don't have to figure it out alone."]))
   ])
 };
 
@@ -165,13 +193,32 @@ function service(title, italic, eyebrow, lede, sections) {
   };
   const heroBodies = {
     'ADHD & Late-Stage': "An ADHD diagnosis arriving later in life doesn't only name the present. It offers a new language for the past. The relief it can bring is real, and so is the grief that travels beside it. My work is to hold both, and to help you build a life that fits the mind you actually have.",
-    'Burnout.': "Burnout rarely arrives all at once. It accretes, quietly, through one more task, one more morning pushed through, one more weekend that disappears. By the time it has a name, it has often been living in you for a long while.",
-    'Multicultural & Cross-Cultural Therapy': 'Living between cultures is a quiet, ongoing negotiation. We hold the grief and the resilience of adaptation, the questions of belonging, and the tension of holding more than one home.',
-    'Going Through a Transition?': 'A transition can be chosen, expected, or completely outside your control. It can bring excitement and grief in the same breath, even when it is the change you wanted.',
-    'Therapy for Teens.': "Being a teenager can mean holding school pressure, friendship shifts, family expectations, and questions about who you are — often while feeling like you are supposed to already know the answers."
+    'Burnout.': "Burnout rarely arrives all at once. It accretes, quietly, through one more task, one more morning pushed through, one more weekend that disappears. By the time it has a name, it has often been living in you for a long while. My work is to help you listen to what it's telling you, and to rebuild a life that can be sustained.",
+    'Multicultural & Cross-Cultural Therapy': "To live between cultures is to hold more than one home inside you: its gifts and its grief, its belonging and its exile. My work is to make room for the whole of you: the language you dream in, the values you've chosen, and the ones still being negotiated. You do not have to compress yourself to be understood here.",
+    'Going Through a Transition?': "Transitions can be difficult. It's hard to hold both the hope and excitement for something new with the grief of what was. Even the happiest transitions can be difficult. My work is to help you make room for all of it — the loss and the possibility — and to find your footing in the in-between.",
+    'Therapy for Teens.': [
+      'Being a teenager can feel like everyone expects something from you. Keep your grades up. Make good choices. Think about college. Get along with your family. Maintain friendships. Somehow figure out who you are in the middle of all of it.',
+      "Therapy is a place where you don't have to impress anyone or pretend you're doing better than you are. We can talk about what's actually going on — anxiety, ADHD, family tension, school pressure, friendships, the future, or just feeling overwhelmed by all of it.",
+      "You don't need to know exactly what you need yet. We can figure that out together."
+    ]
   };
   const titleMarkup = `${esc(title)}${italic ? `<br /><em>${esc(italic)}</em>` : ''}`;
-  return { eyebrow, title: titleMarkup, lede: leads[title] || lede, heroBody: heroBodies[title] || '', plainLede: title === 'Anxiety & Depression.', isService: true, body: sections.map(([heading, items], index) => section(heading, items, index % 2 ? 'detail-section-tint' : '') ) };
+  const serviceBody = sections.map((entry, index) => {
+    if (typeof entry === 'string') return entry;
+    const [heading, items] = entry;
+    return section(heading, items, index % 2 ? 'detail-section-tint' : '');
+  });
+  return {
+    eyebrow,
+    title: titleMarkup,
+    lede: leads[title] || lede,
+    heroBodyMarkup: title === 'Going Through a Transition?' ? "Transitions can be <em>difficult.</em> It's hard to hold both the hope and excitement for something new with the grief of what was. Even the happiest transitions can be difficult. My work is to help you make room for all of it — the loss and the possibility — and to find your footing in the in-between." : '',
+    heroBody: heroBodies[title] || '',
+    plainLede: title === 'Anxiety & Depression.',
+    isService: true,
+    noCta: true,
+    body: serviceBody
+  };
 }
 
 function framework(title, what, why) {
@@ -192,7 +239,8 @@ function render() {
   const backLabel = page.backLabel || (page.isService ? '← Back to Services' : '← Back to Home');
   const backHref = page.backPath ? link(page.backPath) : (page.isService ? link('#services') : link(''));
   const back = page.noBack ? '' : `<a class="back-link" href="${backHref}">${backLabel}</a>`;
-  document.getElementById('page-app').innerHTML = `${header()}<main class="detail-page"><div class="detail-shell">${back}<section class="detail-hero">${leaf}<p class="eyebrow">${esc(page.eyebrow)}</p><h1>${page.title}</h1><p class="${page.plainLede ? 'detail-hero-body plain-detail-lede' : 'detail-lede'}">${esc(page.lede)}</p>${page.heroBody ? `<p class="detail-hero-body">${esc(page.heroBody)}</p>` : ''}</section><div class="detail-content">${body}</div>${page.noCta ? '' : cta()}</div></main>${footer()}`;
+  const heroBody = page.heroBodyMarkup ? `<p class="detail-hero-body">${page.heroBodyMarkup}</p>` : Array.isArray(page.heroBody) ? page.heroBody.map((copy) => `<p class="detail-hero-body">${esc(copy)}</p>`).join('') : (page.heroBody ? `<p class="detail-hero-body">${esc(page.heroBody)}</p>` : '');
+  document.getElementById('page-app').innerHTML = `${header()}<main class="detail-page"><div class="detail-shell">${back}<section class="detail-hero">${leaf}<p class="eyebrow">${esc(page.eyebrow)}</p><h1>${page.title}</h1><p class="${page.plainLede ? 'detail-hero-body plain-detail-lede' : 'detail-lede'}">${esc(page.lede)}</p>${heroBody}</section><div class="detail-content">${body}</div>${page.noCta ? '' : cta()}</div></main>${footer()}`;
 }
 
 render();
