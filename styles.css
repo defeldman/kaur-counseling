@@ -1231,6 +1231,60 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
 .page-services-anxiety-depression .detail-content>.detail-section:last-child>p{color:rgba(23,39,64,.7)}
 .page-services-anxiety-depression .service-steps>div{color:rgba(23,39,64,.8);line-height:22px}
 
+/* Service page icon details restored from the live route inventory. */
+.page-service .detail-hero{position:relative}
+.service-hero-leaf{position:absolute;pointer-events:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.service-hero-leaf-left{left:-32px;top:-16px;width:40px;color:rgba(88,25,37,.25);transform:rotate(12deg)}
+.service-hero-leaf-right{right:8px;top:-8px;width:28px;color:rgba(57,96,71,.3);transform:rotate(28deg)}
+.page-services-adhd .service-hero-leaf-left{left:-40px;top:-24px}
+.page-services-adhd .service-hero-leaf-right{right:0}
+.back-link{display:inline-flex;align-items:center;gap:8px}
+.service-heading{display:flex;align-items:center;gap:18px;margin-bottom:20px}
+.service-heading h2{margin:0}
+.service-heading-icon{width:48px;height:48px;flex:0 0 48px;border-radius:16px;display:grid;place-items:center;color:rgb(88,25,37)}
+.service-heading-icon svg{display:block;width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.service-heading .service-section-glyph{stroke-width:1.5}
+.service-section-glyph circle,.service-section-glyph path{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round}
+.service-heading.tone-1 .service-heading-icon{color:rgb(57,96,71)}
+.service-heading.tone-2 .service-heading-icon{color:rgb(108,50,133)}
+.page-services-adhd .service-heading-icon{background:rgba(88,25,37,.1)}
+.page-services-adhd .detail-content>.detail-section:nth-child(3) .service-heading-icon{background:rgba(57,96,71,.1);color:rgb(57,96,71)}
+.page-services-adhd .detail-content>.detail-section:nth-child(5) .service-heading-icon{background:rgba(57,96,71,.1);color:rgb(57,96,71)}
+.page-services-adhd .detail-content>.detail-section:last-child .service-heading-icon{background:rgba(108,50,133,.1);color:rgb(108,50,133)}
+.page-services-multiculturalism .service-panel-card .service-heading-icon,.page-services-burnout .service-panel-card .service-heading-icon,.page-services-anxiety-depression .service-heading-icon{width:44px;height:44px;flex-basis:44px}
+.page-services-multiculturalism .service-panel-card:nth-child(3n+2) .service-heading-icon,.page-services-burnout .service-panel-card:nth-child(3n+2) .service-heading-icon{color:rgb(57,96,71)}
+.page-services-multiculturalism .service-panel-card:nth-child(3n) .service-heading-icon,.page-services-burnout .service-panel-card:nth-child(3n) .service-heading-icon{color:rgb(108,50,133)}
+.service-card-grid-section .detail-card{position:relative;padding-top:76px}
+.service-card-icon{position:absolute;top:24px;left:24px;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;color:rgb(88,25,37)}
+.service-card-icon svg{width:20px;height:20px}
+.service-card-icon.tone-1{color:rgb(57,96,71)}.service-card-icon.tone-2{color:rgb(108,50,133)}
+.page-services-transitions .service-card-icon,.page-services-teens .service-card-icon{background:transparent}
+.page-services-anxiety-depression .service-heading{margin-bottom:18px}
+.service-list-adhd{list-style:none;padding-left:0}
+.service-list-adhd li{display:flex;align-items:center;gap:14px;margin:0 0 18px}
+.service-list-icon{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;flex:0 0 36px;background:rgba(108,50,133,.1);color:rgb(108,50,133)}
+.service-list-icon svg{width:18px;height:18px}
+.service-list-check{width:24px;height:24px;flex:0 0 24px;border-radius:50%;display:grid;place-items:center;background:rgba(57,96,71,.1);color:rgb(57,96,71)}
+.service-list-check svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.service-list-check+*{margin-left:0}
+.service-list-check{margin-right:12px}
+.page-service .detail-section:first-child h2:before{display:none}
+.page-services-adhd .detail-hero .detail-lede{max-width:672px}
+.page-services-adhd .detail-hero-body{max-width:672px}
+.page-services-adhd .detail-content>.detail-section:first-child{padding-left:0;padding-right:0}
+.page-services-adhd .detail-content>.detail-section:first-child>p{max-width:672px}
+.page-services-adhd .detail-content>.detail-section:first-child .detail-card-grid{width:800px;max-width:calc(100% - 21px);margin-left:21px}
+.resource-section-leaf{position:absolute;left:-24px;top:0;width:45px;color:rgba(57,96,71,.28);pointer-events:none}
+.page-resources .book-section{position:relative}
+.resource-closing{position:relative}
+.resource-closing-leaf{position:absolute;left:-81px;top:0;width:55px;color:rgba(88,25,37,.25);pointer-events:none}
+.modalities-hero-leaf{position:absolute;right:-38px;top:0;width:70px;color:rgba(88,25,37,.2);transform:rotate(-18deg);pointer-events:none}
+.privacy-hero-leaf{position:absolute;left:-40px;top:-24px;width:40px;color:rgba(88,25,37,.3);transform:rotate(12deg);pointer-events:none}
+.office-facts a{display:flex;align-items:center;gap:9px}
+.office-facts svg{flex:none;color:rgb(88,25,37)}
+.office-facts a:first-child svg:last-child{margin-left:auto;opacity:.6}
+.detail-appointment .button svg{width:16px;height:16px;margin-left:8px;vertical-align:middle}
+
 .page-resources .detail-lede{line-height:29.25px}
 .page-resources .book-section>.eyebrow{color:rgba(88,25,37,.8)}
 .page-resources .book h3{font:400 20px/27.5px Fraunces,Georgia,serif;color:rgb(23,39,64)}
