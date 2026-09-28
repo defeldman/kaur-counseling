@@ -1,0 +1,74 @@
+[SPAN] RESOURCES
+[H1] A reading list for the curious and healing.
+[P] Books I return to and often share with clients. These aren't homework, just companions for the work we do in the room.
+[SPAN] A POEM TO SIT WITH
+[H2] The Guest House
+[P] This being human is a guest house.
+[P] Every morning a new arrival.
+[P] A joy, a depression, a meanness,
+[P] some momentary awareness comes
+[P] as an unexpected visitor.
+[P] Welcome and entertain them all!
+[P] Even if they're a crowd of sorrows,
+[P] who violently sweep your house
+[P] empty of its furniture,
+[P] still, treat each guest honorably.
+[P] He may be clearing you out
+[P] for some new delight.
+[P] The dark thought, the shame, the malice,
+[P] meet them at the door laughing,
+[P] and invite them in.
+[P] Be grateful for whoever comes,
+[P] because each has been sent
+[P] as a guide from beyond.
+[FIGCAPTION] JALALUDDIN RUMI
+[P] Translated by Coleman Barks · Scottish Poetry Library
+[P] HOVER TO READ THE FULL POEM
+[SPAN] RELATIONSHIPS
+[H2] Relationships
+[P] On attachment, communication, and the everyday work of staying close.
+[H3] Attached
+[P] Amir Levine & Rachel Heller
+[P] A practical, accessible guide to adult attachment styles and how they shape our closest bonds.
+[H3] Hold Me Tight
+[P] Sue Johnson
+[P] The cornerstone of emotionally focused therapy — seven conversations for repairing connection.
+[H3] The Seven Principles for Making Marriage Work
+[P] John Gottman
+[P] Research-grounded tools for friendship, conflict, and shared meaning.
+[H3] I Want This to Work
+[P] Tracee Sioux
+[P] An honest, forward-looking guide for couples doing the work.
+[SPAN] PARENTING
+[H2] Parenting
+[P] On raising whole humans, and on tending yourself along the way.
+[H3] The Whole-Brain Child
+[P] Daniel Siegel & Tina Payne Bryson
+[P] Twelve strategies to nurture a child's developing mind.
+[H3] No-Drama Discipline
+[P] A research-based approach to discipline rooted in connection.
+[H3] Raising an Emotionally Intelligent Child
+[P] Emotion-coaching for a child's inner world.
+[H3] How to Talk So Kids Will Listen & Listen So Kids Will Talk
+[P] Adele Faber & Elaine Mazlish
+[P] An enduring classic on respectful communication with children.
+[SPAN] SELF-HELP
+[H2] Self-help
+[P] Gentle, honest reads for growth, meaning, and self-acceptance.
+[H3] Atomic Habits
+[P] James Clear
+[P] Small changes, compounded. A clear framework for sustainable growth.
+[H3] The Gifts of Imperfection
+[P] Brené Brown
+[P] On cultivating courage, compassion, and wholehearted living.
+[H3] No Bad Parts
+[P] Richard Schwartz
+[P] An indispensable introduction to IFS, meeting every part with curiosity.
+[SPAN] TRAUMA
+[H2] Trauma
+[P] On how the body and mind carry what happened, and the paths toward repair.
+[H3] What My Bones Know
+[P] Stephanie Foo
+[P] A searing, hopeful memoir of living with and healing from complex PTSD.
+[P] Want more? I'm always adding to this list. Bring what you're curious about and we'll find the right pages together.
+[A] Get Started

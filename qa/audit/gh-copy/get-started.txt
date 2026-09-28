@@ -1,0 +1,12 @@
+[P] GET STARTED
+[H1] Are we the right fit?
+[P] I'm glad you're here. Finding the right therapist is such a personal process, and feeling comfortable makes all the difference. Come say hi. Book a 15-minute consultation to chat, ask questions, and see if I'm the right therapist for you.
+[H3] Request an appointment
+[P] Choose a service, share a brief note about what brings you in, and pick a time, all through my secure SimplePractice portal.
+[A] Request Appointment ↗
+[SMALL] Opens a secure scheduling window, no email form.
+[P] OFFICE
+[H3] A room in the Mission.
+[P] My office is a calm, private space in the heart of the Mission District, easy to reach by Muni or on foot, with a parking garage attached to the building. You are welcome here exactly as you arrive.
+[P] Virtual sessions are always available, but in-person sessions start October 1st.
+[DIV] ⌖ 3150 18th St, Suite 404, San Francisco, CA 94110 ↗ ⌕ 415-930-5395

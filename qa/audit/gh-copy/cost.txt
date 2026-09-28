@@ -1,0 +1,21 @@
+[A] ← Back to Home
+[P] THE INVESTMENT
+[H1] The cost of individual therapy
+[P] Private-pay, with a clear path to reimbursement.
+[H2] The cost of individual therapy
+[P] Therapy is an investment in your relationship with yourself, your people, and the life you're building. I want the practical details to feel clear from the beginning.
+[H2] Session rates
+[DIV] 50-minute individual session $200
+[DIV] 80-minute extended session $300
+[DIV] Couples and family sessions · 50 minutes $250
+[H2] Payment details
+[P] Payment is due at the time of service. I accept major credit and debit cards and can provide receipts for your records.
+[H2] A superbill for reimbursement
+[P] I'm out-of-network with insurance plans, but I can provide a superbill after each session. You submit it to your insurance company for possible reimbursement.
+[P] Many clients receive 50–80% of the session fee back, depending on their plan. Call the number on your insurance card to ask about out-of-network mental health benefits, deductibles, and reimbursement rates.
+[H2] Why pay out of pocket?
+[P] Choosing not to bill insurance means your care stays private and your treatment is shaped by what you need, not by a diagnosis or a limit set by your plan. It's also a way to work at the pace and depth that is right for you.
+[P] A PLACE TO BEGIN
+[H2] Ready to start a conversation?
+[P] Reach out for a free consultation and we’ll begin with wherever you are.
+[A] Get Started ↗

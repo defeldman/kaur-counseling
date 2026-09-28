@@ -1,0 +1,52 @@
+[A] ← Back to About
+[P] RESOURCES
+[H1] A reading list for the curious and healing.
+[P] Books I return to and often share with clients. These aren't homework, just companions for the work we do in the room.
+[SPAN] ⌁
+[P] A POEM TO SIT WITH
+[H2] The Guest House
+[DIV] This being human is a guest house. Every morning a new arrival. A joy, a depression, a meanness, some momentary awareness comes as an unexpected visitor.
+[P] JALALUDDIN RUMI Translated by Coleman Barks · Scottish Poetry Library
+[P] HOVER TO READ THE FULL POEM
+[H2] Relationships
+[H3] Attached
+[P] Amir Levine & Rachel Heller
+[P] Practical adult attachment styles.
+[H3] Hold Me Tight
+[P] Sue Johnson
+[P] Emotionally focused therapy.
+[H3] The Seven Principles for Making Marriage Work
+[P] John Gottman
+[P] Research-grounded tools.
+[H3] I Want This to Work
+[P] Tracee Sioux
+[P] A compassionate guide for couples.
+[H2] Parenting
+[H3] The Whole-Brain Child
+[P] Daniel Siegel & Tina Payne Bryson
+[P] Understanding the developing mind.
+[H3] No-Drama Discipline
+[P] Connection before correction.
+[H3] Raising an Emotionally Intelligent Child
+[P] Building emotional awareness.
+[H3] How to Talk So Kids Will Listen & Listen So Kids Will Talk
+[P] Adele Faber & Elaine Mazlish
+[P] A practical classic for connection.
+[H2] Self-help
+[H3] Atomic Habits
+[P] James Clear
+[P] Small changes that compound.
+[H3] The Gifts of Imperfection
+[P] Brené Brown
+[P] A wholehearted way of living.
+[H3] No Bad Parts
+[P] Richard Schwartz
+[P] Healing through Internal Family Systems.
+[H2] Trauma
+[H3] What My Bones Know
+[P] Stephanie Foo
+[P] A memoir of complex trauma and healing.
+[P] A PLACE TO BEGIN
+[H2] Ready to start a conversation?
+[P] Reach out for a free consultation and we’ll begin with wherever you are.
+[A] Get Started ↗
