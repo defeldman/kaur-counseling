@@ -82,6 +82,7 @@ if (officeNotice && 'IntersectionObserver' in window) {
 }
 
 const scrollRevealTargets = document.querySelectorAll([
+  '.scroll-reveal',
   '.about-intro', '.portrait-frame', '.about-copy', '.rumi-quote',
   '.narrow-intro', '.wheelhouse-item', '.door-intro', '.door-item',
   '.centered-intro', '.approach-card', '.centered-link',
@@ -97,7 +98,8 @@ const revealStaggerGroups = [
   { selector: '.wheelhouse-item', step: 0.12 },
   { selector: '.approach-card', step: 0.12 },
   { selector: '.person-card', step: 0.08 },
-  { selector: '.modality-item', step: 0.12 }
+  { selector: '.modality-item', step: 0.12 },
+  { selector: '.framework-card', delay: 0.04, step: 0.12 }
 ];
 const revealDelays = new Map();
 revealStaggerGroups.forEach(({ selector, delay, step }) => {
@@ -109,7 +111,8 @@ revealStaggerGroups.forEach(({ selector, delay, step }) => {
 if (scrollRevealTargets.length && 'IntersectionObserver' in window) {
   scrollRevealTargets.forEach((element) => {
     element.classList.add('scroll-reveal');
-    element.style.transitionDelay = `${revealDelays.get(element) || 0}s`;
+    const delay = revealDelays.get(element);
+    if (delay !== undefined) element.style.transitionDelay = `${delay}s`;
   });
   const revealObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
