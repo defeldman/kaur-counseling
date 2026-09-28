@@ -1,0 +1,906 @@
+######## home   (81 icons on live)
+  lucide-chevron-down  14x14 @815,9018  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "About"
+  lucide-chevron-down  14x14 @1139,9018  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "Services"
+  lucide-chevron-down  20x20 @710,819  color=rgba(23, 39, 64, 0.55)
+      class="lucide lucide-chevron-down animate-bounce"
+      near: "Scroll to explore"
+  lucide-map-pin  18x18 @132,932  color=rgb(88, 25, 37)
+      badge: 40x40 radius=9999px bg=rgba(88, 25, 37, 0.1)
+      class="lucide lucide-map-pin text-burgundy"
+      near: "An office in the Mission · with parking.A calm, private ro"
+  lucide-car  16x16 @951,950  color=rgb(88, 25, 37)
+      class="lucide lucide-car"
+      near: "3150 18th St, Suite 404, San Francisco, CA 94110"
+  lucide-link  14x14 @1305,951  color=rgb(88, 25, 37)
+      class="lucide lucide-link opacity-60"
+      near: "3150 18th St, Suite 404, San Francisco, CA 94110"
+  custom vb="0 0 100 150"  52x67 @74,1157  color=rgba(88, 25, 37, 0.3)
+      class="pointer-events-none absolute -left-12 -top-8 w-10 text-burgundy/30 -rotate-12"
+      paths: (the shared feather SVG — see the ticker/CTA card)
+      near: "About Sohavani MandKaur Counseling — "Kaur" is pronounced "
+  lucide-arrow-right  15x15 @902,2011  color=rgb(88, 25, 37)
+      class="lucide lucide-arrow-right mt-px"
+      near: "Learn more about me"
+  custom vb="0 0 64 64"  80x80 @128,2725  color=rgb(88, 25, 37)
+      class="w-full h-full"
+      paths: <path d="M32 10c-3 6 4 9 4 14a9 9 0 1 1-18 0c0-5 4-6 6-10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="32" cy="44" r="5" stroke="currentColor" stroke-width="1.5"></circle><path d="M30 44h-6M34 44h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path><path d="M14 22c2-2 5-2 7 0M43 18c2-2 5-2 7 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 3"></path>
+      near: "AD(H)D & Late-Stage DiagnosisA diagnosis arriving in adult"
+  lucide-arrow-right  14x14 @210,3121  color=rgb(88, 25, 37)
+      class="lucide lucide-arrow-right mt-px"
+      near: "Learn more"
+  custom vb="0 0 64 64"  80x80 @434,2725  color=rgb(88, 25, 37)
+      class="w-full h-full"
+      paths: <circle cx="32" cy="32" r="20" stroke="currentColor" stroke-width="1.5"></circle><ellipse cx="32" cy="32" rx="9" ry="20" stroke="currentColor" stroke-width="1.5"></ellipse><path d="M12 26h40M12 38h40" stroke="currentColor" stroke-width="1.5"></path>
+      near: "Multicultural & Cross-Cultural TherapyLiving between cultu"
+  lucide-arrow-right  14x14 @516,3121  color=rgb(88, 25, 37)
+      class="lucide lucide-arrow-right mt-px"
+      near: "Learn more"
+  custom vb="0 0 64 64"  80x80 @740,2725  color=rgb(88, 25, 37)
+      class="w-full h-full"
+      paths: <circle cx="32" cy="24" r="9" stroke="currentColor" stroke-width="1.5"></circle><path d="M18 52c0-8 6-14 14-14s14 6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path><path d="M44 14c3 1 5 4 5 8M20 14c-3 1-5 4-5 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 3"></path>
+      near: "Young Women Coming of AgeFor teen girls and young women na"
+  custom vb="0 0 64 64"  80x80 @1046,2725  color=rgb(88, 25, 37)
+      class="w-full h-full"
+      paths: <path d="M14 48c8-2 12-8 18-8s10 6 18 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 3"></path><circle cx="14" cy="48" r="4" stroke="currentColor" stroke-width="1.5"></circle><circle cx="50" cy="44" r="4" stroke="currentColor" stroke-width="1.5"></circle><path d="M32 16v14M32 30l-5-5M32 30l5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "TransitionsBecoming a parent, a career change, a move, a n"
+  lucide-arrow-right  14x14 @1128,3063  color=rgb(88, 25, 37)
+      class="lucide lucide-arrow-right mt-px"
+      near: "Learn more"
+  custom vb="0 0 24 24"  12x12 @132,3406  color=rgb(88, 25, 37)
+      badge: 20x20 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3 h-3"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Burnout"
+  custom vb="0 0 24 24"  16x16 @472,3404  color=rgb(88, 25, 37)
+      class="w-4 h-4"
+      paths: <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      near: "Burnout"
+  lucide-arrow-right  14x14 @210,3495  color=rgb(88, 25, 37)
+      class="lucide lucide-arrow-right mt-px"
+      near: "Learn more"
+  custom vb="0 0 24 24"  12x12 @540,3406  color=rgb(88, 25, 37)
+      badge: 20x20 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3 h-3"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Anxiety & Depression"
+  custom vb="0 0 24 24"  16x16 @880,3404  color=rgb(88, 25, 37)
+      class="w-4 h-4"
+      paths: <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      near: "Anxiety & Depression"
+  lucide-arrow-right  14x14 @618,3518  color=rgb(88, 25, 37)
+      class="lucide lucide-arrow-right mt-px"
+      near: "Learn more"
+  custom vb="0 0 24 24"  12x12 @132,3467  color=rgb(88, 25, 37)
+      badge: 20x20 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3 h-3"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Teens"
+  custom vb="0 0 24 24"  16x16 @472,3465  color=rgb(88, 25, 37)
+      class="w-4 h-4"
+      paths: <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      near: "Teens"
+  lucide-arrow-right  14x14 @210,3556  color=rgb(88, 25, 37)
+      class="lucide lucide-arrow-right mt-px"
+      near: "Learn more"
+  custom vb="0 0 24 24"  12x12 @540,3467  color=rgb(88, 25, 37)
+      badge: 20x20 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3 h-3"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Relationship issues"
+  custom vb="0 0 24 24"  16x16 @880,3465  color=rgb(88, 25, 37)
+      class="w-4 h-4"
+      paths: <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      near: "Relationship issues"
+  custom vb="0 0 24 24"  12x12 @132,3528  color=rgb(88, 25, 37)
+      badge: 20x20 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3 h-3"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Sex & intimacy"
+  custom vb="0 0 24 24"  16x16 @472,3526  color=rgb(88, 25, 37)
+      class="w-4 h-4"
+      paths: <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      near: "Sex & intimacy"
+  custom vb="0 0 24 24"  12x12 @540,3528  color=rgb(88, 25, 37)
+      badge: 20x20 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3 h-3"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Life transitions"
+  custom vb="0 0 24 24"  16x16 @880,3526  color=rgb(88, 25, 37)
+      class="w-4 h-4"
+      paths: <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      near: "Life transitions"
+  lucide-arrow-right  14x14 @618,3617  color=rgb(88, 25, 37)
+      class="lucide lucide-arrow-right mt-px"
+      near: "Learn more"
+  custom vb="0 0 24 24"  12x12 @132,3589  color=rgb(88, 25, 37)
+      badge: 20x20 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3 h-3"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Trauma"
+  custom vb="0 0 24 24"  16x16 @472,3587  color=rgb(88, 25, 37)
+      class="w-4 h-4"
+      paths: <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      near: "Trauma"
+  custom vb="0 0 24 24"  12x12 @540,3589  color=rgb(88, 25, 37)
+      badge: 20x20 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3 h-3"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Grief & loss"
+  custom vb="0 0 24 24"  16x16 @880,3587  color=rgb(88, 25, 37)
+      class="w-4 h-4"
+      paths: <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      near: "Grief & loss"
+  custom vb="0 0 24 24"  12x12 @132,3650  color=rgb(88, 25, 37)
+      badge: 20x20 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3 h-3"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Self-esteem"
+  custom vb="0 0 24 24"  16x16 @472,3648  color=rgb(88, 25, 37)
+      class="w-4 h-4"
+      paths: <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      near: "Self-esteem"
+  custom vb="0 0 24 24"  12x12 @540,3650  color=rgb(88, 25, 37)
+      badge: 20x20 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3 h-3"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Identity exploration"
+  custom vb="0 0 24 24"  16x16 @880,3648  color=rgb(88, 25, 37)
+      class="w-4 h-4"
+      paths: <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      near: "Identity exploration"
+  custom vb="0 0 24 24"  12x12 @132,3711  color=rgb(88, 25, 37)
+      badge: 20x20 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3 h-3"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Parenting & family stress"
+  custom vb="0 0 24 24"  16x16 @472,3709  color=rgb(88, 25, 37)
+      class="w-4 h-4"
+      paths: <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      near: "Parenting & family stress"
+  custom vb="0 0 24 24"  12x12 @540,3711  color=rgb(88, 25, 37)
+      badge: 20x20 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3 h-3"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Work-life balance"
+  custom vb="0 0 24 24"  16x16 @880,3709  color=rgb(88, 25, 37)
+      class="w-4 h-4"
+      paths: <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      near: "Work-life balance"
+  custom vb="0 0 24 24"  12x12 @132,3772  color=rgb(88, 25, 37)
+      badge: 20x20 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3 h-3"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Chronic stress"
+  custom vb="0 0 24 24"  16x16 @472,3770  color=rgb(88, 25, 37)
+      class="w-4 h-4"
+      paths: <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      near: "Chronic stress"
+  custom vb="0 0 24 24"  12x12 @540,3772  color=rgb(88, 25, 37)
+      badge: 20x20 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3 h-3"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Career uncertainty"
+  custom vb="0 0 24 24"  16x16 @880,3770  color=rgb(88, 25, 37)
+      class="w-4 h-4"
+      paths: <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      near: "Career uncertainty"
+  custom vb="0 0 100 150"  24x28 @145,3975  color=rgba(241, 234, 223, 0.55)
+      class="w-4 text-cream/55 rotate-[22deg] shrink-0"
+      paths: (shared feather SVG)
+      near: "Healing takes its own time, be gentle with yourself"
+  custom vb="0 0 100 150"  24x28 @573,3975  color=rgba(241, 234, 223, 0.55)
+      class="w-4 text-cream/55 rotate-[22deg] shrink-0"
+      paths: (shared feather SVG)
+      near: "Healing takes its own time, be gentle with yourself"
+  custom vb="0 0 100 150"  24x28 @1002,3975  color=rgba(241, 234, 223, 0.55)
+      class="w-4 text-cream/55 rotate-[22deg] shrink-0"
+      paths: (shared feather SVG)
+      near: "Healing takes its own time, be gentle with yourself"
+  custom vb="0 0 100 150"  24x28 @1430,3975  color=rgba(241, 234, 223, 0.55)
+      class="w-4 text-cream/55 rotate-[22deg] shrink-0"
+      paths: (shared feather SVG)
+      near: "Healing takes its own time, be gentle with yourself"
+  custom vb="0 0 100 150"  24x28 @1858,3975  color=rgba(241, 234, 223, 0.55)
+      class="w-4 text-cream/55 rotate-[22deg] shrink-0"
+      paths: (shared feather SVG)
+      near: "Healing takes its own time, be gentle with yourself"
+  custom vb="0 0 100 150"  24x28 @2286,3975  color=rgba(241, 234, 223, 0.55)
+      class="w-4 text-cream/55 rotate-[22deg] shrink-0"
+      paths: (shared feather SVG)
+      near: "Healing takes its own time, be gentle with yourself"
+  custom vb="0 0 100 150"  24x28 @2715,3975  color=rgba(241, 234, 223, 0.55)
+      class="w-4 text-cream/55 rotate-[22deg] shrink-0"
+      paths: (shared feather SVG)
+      near: "Healing takes its own time, be gentle with yourself"
+  custom vb="0 0 100 150"  24x28 @3143,3975  color=rgba(241, 234, 223, 0.55)
+      class="w-4 text-cream/55 rotate-[22deg] shrink-0"
+      paths: (shared feather SVG)
+      near: "Healing takes its own time, be gentle with yourself"
+  custom vb="0 0 100 150"  24x28 @3571,3975  color=rgba(241, 234, 223, 0.55)
+      class="w-4 text-cream/55 rotate-[22deg] shrink-0"
+      paths: (shared feather SVG)
+      near: "Healing takes its own time, be gentle with yourself"
+  custom vb="0 0 100 150"  24x28 @3999,3975  color=rgba(241, 234, 223, 0.55)
+      class="w-4 text-cream/55 rotate-[22deg] shrink-0"
+      paths: (shared feather SVG)
+      near: "Healing takes its own time, be gentle with yourself"
+  custom vb="0 0 100 150"  24x28 @4428,3975  color=rgba(241, 234, 223, 0.55)
+      class="w-4 text-cream/55 rotate-[22deg] shrink-0"
+      paths: (shared feather SVG)
+      near: "Healing takes its own time, be gentle with yourself"
+  custom vb="0 0 100 150"  24x28 @4856,3975  color=rgba(241, 234, 223, 0.55)
+      class="w-4 text-cream/55 rotate-[22deg] shrink-0"
+      paths: (shared feather SVG)
+      near: "Healing takes its own time, be gentle with yourself"
+  custom vb="0 0 100 150"  55x64 @1051,4128  color=rgba(57, 96, 71, 0.35)
+      class="pointer-events-none absolute -right-10 -top-6 w-9 text-spruce/35 rotate-[24deg"
+      paths: (shared feather SVG)
+      near: "Our ApproachTwo principles thatguide every session."
+  custom vb="0 0 100 150"  45x50 @335,4161  color=rgba(88, 25, 37, 0.25)
+      class="pointer-events-none absolute -left-10 top-2 w-7 text-burgundy/25 -rotate-[30de"
+      paths: (shared feather SVG)
+      near: "Our ApproachTwo principles thatguide every session."
+  custom vb="0 0 80 80"  64x64 @446,4467  color=rgb(23, 39, 64)
+      class="w-16 h-16"
+      paths: <path d="M29 26C23 26 18 31 18 37c0 5 2 9 4 12M49 26c-6 0-11 5-11 11 0 5 2 9 4 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"></path><path d="M51 26c6 0 11 5 11 11 0 5-2 9-4 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"></path><path d="M25 28c2 14 12 24 24 24 0-12-10-22-24-24Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" fill="none"></path><path d="M34 42c4 1 7 4 8 8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="2 3"></path>
+      near: "CollaborationYou don't have to carry this alone. We'll wal"
+  custom vb="0 0 80 80"  64x64 @930,4467  color=rgb(23, 39, 64)
+      class="w-16 h-16"
+      paths: <path d="M40 8v6M22 23l5 3M58 23l-5 3M14 48h6M60 48h6M40 60v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path><path d="M40 16a18 18 0 0 1 18 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 4"></path><path d="M34 40v-9a3 3 0 0 1 6 0v8m0-5a3 3 0 0 1 6 0v6m0-3a3 3 0 0 1 6 0v9c0 6-3 12-9 12s-9-4-9-10c0-3 1-5 3-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+      near: "Self EmpowermentDiscover inner strength to achieve your go"
+  lucide-arrow-right  15x15 @813,4892  color=rgb(88, 25, 37)
+      class="lucide lucide-arrow-right mt-px"
+      near: "Learn more about how I work"
+  custom vb="0 0 100 150"  91x111 @11,5086  color=rgba(57, 96, 71, 0.15)
+      class="pointer-events-none absolute left-6 top-10 w-16 text-spruce/15 rotate-[18deg]"
+      paths: (shared feather SVG)
+      near: "People we serveWho this room is for.Whoever you are, howev"
+  custom vb="0 0 100 150"  124x161 @1290,6709  color=rgba(57, 96, 71, 0.1)
+      class="pointer-events-none absolute right-10 bottom-16 w-24 text-spruce/10 -rotate-12"
+      paths: (shared feather SVG)
+      near: "People we serveWho this room is for.Whoever you are, howev"
+  custom vb="0 0 100 150"  53x68 @73,7057  color=rgba(88, 25, 37, 0.3)
+      class="pointer-events-none absolute -left-12 -top-6 w-10 text-burgundy/30 rotate-[14d"
+      paths: (shared feather SVG)
+      near: "ModalitiesThree lenses, one gentle practice.No single appr"
+  custom vb="0 0 64 64"  80x80 @128,7393  color=rgb(108, 50, 133)
+      class="w-full h-full"
+      paths: <circle cx="24" cy="22" r="9" stroke="currentColor" stroke-width="1.5"></circle><circle cx="44" cy="40" r="9" stroke="currentColor" stroke-width="1.5"></circle><path d="M29 28 40 34" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path><path d="M30 16C30 16 33 13 37 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 3"></path>
+      near: "01Relational TherapyThe relationship is the therapy. We sl"
+  custom vb="0 0 64 64"  80x80 @539,7393  color=rgb(108, 50, 133)
+      class="w-full h-full"
+      paths: <path d="M32 48C32 48 14 36 14 24a9 9 0 0 1 18 0 9 9 0 0 1 18 0c0 12-18 24-18 24Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path><path d="M20 24a4 4 0 0 1 4-4M22 20v0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+      near: "02AttachmentEarly bonds leave a quiet blueprint. Together "
+  custom vb="0 0 64 64"  80x80 @949,7393  color=rgb(108, 50, 133)
+      class="w-full h-full"
+      paths: <circle cx="32" cy="32" r="11" stroke="currentColor" stroke-width="1.5"></circle><circle cx="16" cy="20" r="6" stroke="currentColor" stroke-width="1.5"></circle><circle cx="48" cy="20" r="6" stroke="currentColor" stroke-width="1.5"></circle><circle cx="20" cy="46" r="6" stroke="currentColor" stroke-width="1.5"></circle><circle cx="44" cy="46" r="6" stroke="currentColor" stroke-width="1.5"></circle>
+      near: "03Internal Family SystemsInside you is a whole constellati"
+  lucide-arrow-right  15x15 @301,7900  color=rgb(88, 25, 37)
+      class="lucide lucide-arrow-right mt-px"
+      near: "Explore all the modalities"
+  lucide-arrow-up-right  16x16 @354,8782  color=rgb(241, 234, 223)
+      class="lucide lucide-arrow-up-right"
+      near: "Request Appointment"
+  lucide-arrow-right  14x14 @309,8927  color=rgb(88, 25, 37)
+      class="lucide lucide-arrow-right mt-px"
+      near: "Learn more about the cost"
+  lucide-arrow-right  14x14 @503,8927  color=rgb(88, 25, 37)
+      class="lucide lucide-arrow-right mt-px"
+      near: "Browse the reading list"
+  lucide-clock  18x18 @960,8675  color=rgb(57, 96, 71)
+      class="lucide lucide-clock text-spruce shrink-0"
+      near: "Tue–Sat · 9am–6pm"
+  lucide-map-pin  18x18 @960,8715  color=rgb(57, 96, 71)
+      class="lucide lucide-map-pin text-spruce shrink-0"
+      near: "3150 18th St, Suite 404 · Mission District, SF"
+  lucide-mail  18x18 @960,8755  color=rgb(57, 96, 71)
+      class="lucide lucide-mail text-spruce shrink-0"
+      near: "sohavani@kaurcounseling.net"
+  lucide-phone  18x18 @960,8795  color=rgb(57, 96, 71)
+      class="lucide lucide-phone text-spruce shrink-0"
+      near: "415-930-5395"
+  lucide-map-pin  18x18 @128,9407  color=rgb(57, 96, 71)
+      class="lucide lucide-map-pin text-spruce shrink-0 mt-0.5"
+      near: "3150 18th St, Suite 404, San Francisco, CA 94110"
+  lucide-external-link  13x13 @162,9431  color=rgb(88, 25, 37)
+      class="lucide lucide-external-link mt-px"
+      near: "3150 18th St, Suite 404, San Francisco, CA 94110"
+  lucide-phone  18x18 @128,9468  color=rgb(57, 96, 71)
+      class="lucide lucide-phone text-spruce shrink-0 mt-0.5"
+      near: "415-930-5395"
+
+######## about   (8 icons on live)
+  lucide-chevron-down  14x14 @815,2883  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "About"
+  lucide-chevron-down  14x14 @1139,2883  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "Services"
+  lucide-arrow-left  16x16 @256,115  color=rgb(57, 96, 71)
+      class="lucide lucide-arrow-left mt-px"
+      near: "Back to Home"
+  custom vb="0 0 100 150"  28x38 @706,179  color=rgba(88, 25, 37, 0.4)
+      class="mx-auto w-6 text-burgundy/40 mb-5 -rotate-6"
+      paths: (the shared feather SVG — see the ticker/CTA card)
+      near: "Starting outTherapy as a practice in honesty and self love"
+  custom vb="0 0 100 150"  31x40 @282,679  color=rgba(88, 25, 37, 0.5)
+      class="w-6 text-burgundy/50 mb-4 -rotate-12"
+      paths: (shared feather SVG)
+      near: "Our first sessionIn our first session, I'll learn more abo"
+  custom vb="0 0 100 150"  28x38 @601,680  color=rgba(88, 25, 37, 0.5)
+      class="w-6 text-burgundy/50 mb-4 rotate-6"
+      paths: (shared feather SVG)
+      near: "How I show upI'm client-led, but I'm not a blank-wall ther"
+  custom vb="0 0 100 150"  26x37 @919,680  color=rgba(88, 25, 37, 0.5)
+      class="w-6 text-burgundy/50 mb-4 -rotate-3"
+      paths: (shared feather SVG)
+      near: "We're a teamI work collaboratively. You're the expert on y"
+  custom vb="0 0 100 150"  32x45 @704,3140  color=rgba(241, 234, 223, 0.4)
+      class="mx-auto w-7 text-cream/40 mb-6 -rotate-6"
+      paths: (shared feather SVG)
+      near: "If this feels like the right place to begin, you don't hav"
+
+######## cost   (3 icons on live)
+  lucide-chevron-down  14x14 @815,1578  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "About"
+  lucide-chevron-down  14x14 @1139,1578  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "Services"
+  lucide-arrow-left  16x16 @384,131  color=rgb(57, 96, 71)
+      class="lucide lucide-arrow-left mt-px"
+      near: "Back to Home"
+
+######## resources   (27 icons on live)
+  lucide-chevron-down  14x14 @815,2491  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "About"
+  lucide-chevron-down  14x14 @1139,2491  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "Services"
+  lucide-arrow-left  16x16 @256,131  color=rgb(57, 96, 71)
+      class="lucide lucide-arrow-left mt-px"
+      near: "Back to About"
+  custom vb="0 0 100 150"  52x67 @210,144  color=rgba(88, 25, 37, 0.3)
+      class="pointer-events-none absolute -left-10 -top-8 w-10 text-burgundy/30 -rotate-12"
+      paths: (the shared feather SVG — see the ticker/CTA card)
+      near: "ResourcesA reading list for the curious and healing.Books "
+  custom vb="0 0 100 150"  44x50 @1148,160  color=rgba(57, 96, 71, 0.3)
+      class="pointer-events-none absolute right-0 -top-4 w-7 text-spruce/30 rotate-[28deg]"
+      paths: (shared feather SVG)
+      near: "ResourcesA reading list for the curious and healing.Books "
+  custom vb="0 0 100 150"  54x64 @1146,371  color=rgba(57, 96, 71, 0.2)
+      class="pointer-events-none absolute -right-2 -top-1 w-9 text-spruce/20 rotate-[22deg]"
+      paths: (shared feather SVG)
+      near: "A poem to sit withThe Guest HouseThis being human is a gue"
+  custom vb="0 0 100 150"  40x49 @247,622  color=rgba(88, 25, 37, 0.15)
+      class="pointer-events-none absolute -left-1 bottom-0 w-7 text-burgundy/15 -rotate-[18"
+      paths: (shared feather SVG)
+      near: "A poem to sit withThe Guest HouseThis being human is a gue"
+  custom vb="0 0 100 150"  13x19 @714,585  color=rgba(57, 96, 71, 0.4)
+      class="w-3 -rotate-3"
+      paths: (shared feather SVG)
+      near: "Welcome and entertain them all!Even if they're a crowd of "
+  custom vb="0 0 100 150"  13x19 @714,774  color=rgba(57, 96, 71, 0.4)
+      class="w-3 -rotate-3"
+      paths: (shared feather SVG)
+      near: "The dark thought, the shame, the malice,meet them at the d"
+  custom vb="0 0 100 150"  13x19 @714,878  color=rgba(57, 96, 71, 0.4)
+      class="w-3 -rotate-3"
+      paths: (shared feather SVG)
+      near: "Be grateful for whoever comes,because each has been sentas"
+  custom vb="0 0 100 150"  45x56 @233,717  color=rgba(88, 25, 37, 0.2)
+      class="pointer-events-none absolute -left-4 -top-3 w-8 text-burgundy/20 rotate-[18deg"
+      paths: (shared feather SVG)
+      near: "RelationshipsRelationshipsOn attachment, communication, an"
+  lucide-external-link  13x13 @386,905  color=rgba(23, 39, 64, 0.4)
+      class="lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40"
+      near: "Attached"
+  lucide-external-link  13x13 @879,905  color=rgba(23, 39, 64, 0.4)
+      class="lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40"
+      near: "Hold Me Tight"
+  lucide-external-link  13x13 @687,1065  color=rgba(23, 39, 64, 0.4)
+      class="lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40"
+      near: "The Seven Principles for Making Marriage Work"
+  lucide-external-link  13x13 @933,1065  color=rgba(23, 39, 64, 0.4)
+      class="lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40"
+      near: "I Want This to Work"
+  custom vb="0 0 100 150"  45x56 @233,1294  color=rgba(88, 25, 37, 0.2)
+      class="pointer-events-none absolute -left-4 -top-3 w-8 text-burgundy/20 rotate-[18deg"
+      paths: (shared feather SVG)
+      near: "ParentingParentingOn raising whole humans, and on tending "
+  lucide-external-link  13x13 @518,1483  color=rgba(23, 39, 64, 0.4)
+      class="lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40"
+      near: "The Whole-Brain Child"
+  lucide-external-link  13x13 @944,1483  color=rgba(23, 39, 64, 0.4)
+      class="lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40"
+      near: "No-Drama Discipline"
+  lucide-external-link  13x13 @674,1643  color=rgba(23, 39, 64, 0.4)
+      class="lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40"
+      near: "Raising an Emotionally Intelligent Child"
+  lucide-external-link  13x13 @1131,1643  color=rgba(23, 39, 64, 0.4)
+      class="lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40"
+      near: "How to Talk So Kids Will Listen & Listen So Kids Will Talk"
+  custom vb="0 0 100 150"  45x56 @233,1871  color=rgba(88, 25, 37, 0.2)
+      class="pointer-events-none absolute -left-4 -top-3 w-8 text-burgundy/20 rotate-[18deg"
+      paths: (shared feather SVG)
+      near: "Self-helpSelf-helpGentle, honest reads for growth, meaning"
+  lucide-external-link  13x13 @436,2060  color=rgba(23, 39, 64, 0.4)
+      class="lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40"
+      near: "Atomic Habits"
+  lucide-external-link  13x13 @982,2060  color=rgba(23, 39, 64, 0.4)
+      class="lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40"
+      near: "The Gifts of Imperfection"
+  lucide-external-link  13x13 @423,2220  color=rgba(23, 39, 64, 0.4)
+      class="lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40"
+      near: "No Bad Parts"
+  custom vb="0 0 100 150"  45x56 @233,2421  color=rgba(88, 25, 37, 0.2)
+      class="pointer-events-none absolute -left-4 -top-3 w-8 text-burgundy/20 rotate-[18deg"
+      paths: (shared feather SVG)
+      near: "TraumaTraumaOn how the body and mind carry what happened, "
+  lucide-external-link  13x13 @507,2636  color=rgba(23, 39, 64, 0.4)
+      class="lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40"
+      near: "What My Bones Know"
+  custom vb="0 0 100 150"  55x64 @175,2867  color=rgba(57, 96, 71, 0.3)
+      class="pointer-events-none absolute -left-6 top-0 w-9 text-spruce/30 rotate-[24deg]"
+      paths: (shared feather SVG)
+      near: "Want more? I'm always adding to this list. Bring what you'"
+
+######## modalities   (13 icons on live)
+  lucide-chevron-down  14x14 @815,2564  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "About"
+  lucide-chevron-down  14x14 @1139,2564  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "Services"
+  custom vb="0 0 100 150"  76x86 @1314,29  color=rgba(88, 25, 37, 0.25)
+      class="absolute top-8 right-16 w-12 text-burgundy/25 rotate-[28deg]"
+      paths: (the shared feather SVG — see the ticker/CTA card)
+      near: "ModalitiesThe lensesI work from.No single approach fits ev"
+  custom vb="0 0 100 150"  45x56 @1241,128  color=rgba(57, 96, 71, 0.25)
+      class="absolute top-32 right-40 w-8 text-spruce/25 -rotate-[18deg]"
+      paths: (shared feather SVG)
+      near: "ModalitiesThe lensesI work from.No single approach fits ev"
+  custom vb="0 0 100 150"  70x71 @1361,223  color=rgba(88, 25, 37, 0.2)
+      class="absolute top-56 right-6 w-10 text-burgundy/20 rotate-[44deg]"
+      paths: (shared feather SVG)
+      near: "ModalitiesThe lensesI work from.No single approach fits ev"
+  custom vb="0 0 64 64"  28x28 @183,808  color=rgb(88, 25, 37)
+      badge: 56x56 radius=16px bg=rgba(88, 25, 37, 0.1)
+      class="w-7 h-7"
+      paths: <circle cx="32" cy="32" r="11" stroke="currentColor" stroke-width="1.5"></circle><circle cx="16" cy="20" r="6" stroke="currentColor" stroke-width="1.5"></circle><circle cx="48" cy="20" r="6" stroke="currentColor" stroke-width="1.5"></circle><circle cx="20" cy="46" r="6" stroke="currentColor" stroke-width="1.5"></circle><circle cx="44" cy="46" r="6" stroke="currentColor" stroke-width="1.5"></circle>
+      near: "01Internal Family SystemsWhat it isIFS sees you as a whole"
+  custom vb="0 0 64 64"  28x28 @791,808  color=rgb(57, 96, 71)
+      badge: 56x56 radius=16px bg=rgba(57, 96, 71, 0.1)
+      class="w-7 h-7"
+      paths: <path d="M10 38c6-12 12-12 18 0s12 12 18 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path><path d="M10 26c6-12 12-12 18 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 3"></path><circle cx="50" cy="22" r="3" stroke="currentColor" stroke-width="1.5"></circle>
+      near: "02Dialectical Behavior TherapyWhat it isDBT balances two t"
+  custom vb="0 0 64 64"  28x28 @183,1423  color=rgb(108, 50, 133)
+      badge: 56x56 radius=16px bg=rgba(108, 50, 133, 0.1)
+      class="w-7 h-7"
+      paths: <path d="M16 24a18 18 0 0 1 32 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path><path d="M48 40a18 18 0 0 1-32-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path><path d="M12 22l4 8-8 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M52 42l-4-8 8-2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "03Cognitive Behavioral TherapyWhat it isCBT traces the qui"
+  custom vb="0 0 64 64"  28x28 @791,1423  color=rgb(88, 25, 37)
+      badge: 56x56 radius=16px bg=rgba(88, 25, 37, 0.1)
+      class="w-7 h-7"
+      paths: <path d="M24 10c12 0 8 16 18 16 6 0 6 12-6 12-10 0-24-4-24-16 0-6 5-12 12-12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path><circle cx="44" cy="48" r="4" stroke="currentColor" stroke-width="1.5"></circle><circle cx="20" cy="52" r="2.5" stroke="currentColor" stroke-width="1.5"></circle>
+      near: "04ArtWhat it isSometimes the truest things don't arrive as"
+  custom vb="0 0 64 64"  28x28 @183,2012  color=rgb(57, 96, 71)
+      badge: 56x56 radius=16px bg=rgba(57, 96, 71, 0.1)
+      class="w-7 h-7"
+      paths: <path d="M32 48C32 48 14 36 14 24a9 9 0 0 1 18 0 9 9 0 0 1 18 0c0 12-18 24-18 24Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path><path d="M20 24a4 4 0 0 1 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+      near: "05AttachmentWhat it isAttachment work listens for the blue"
+  custom vb="0 0 100 150"  83x107 @1079,2744  color=rgba(241, 234, 223, 0.15)
+      class="pointer-events-none absolute right-8 top-8 w-16 text-cream/15 -rotate-12"
+      paths: (shared feather SVG)
+      near: "Curious which lens fits your story?We will find the right "
+  custom vb="0 0 100 150"  70x84 @285,2980  color=rgba(241, 234, 223, 0.1)
+      class="pointer-events-none absolute left-10 bottom-6 w-12 text-cream/10 rotate-[20deg"
+      paths: (shared feather SVG)
+      near: "Curious which lens fits your story?We will find the right "
+  lucide-arrow-right  15x15 @754,2970  color=rgb(88, 25, 37)
+      class="lucide lucide-arrow-right"
+      near: "Get Started"
+
+######## get-started   (6 icons on live)
+  lucide-chevron-down  14x14 @815,749  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "About"
+  lucide-chevron-down  14x14 @1139,749  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "Services"
+  lucide-arrow-up-right  16x16 @354,613  color=rgb(241, 234, 223)
+      class="lucide lucide-arrow-up-right"
+      near: "Request Appointment"
+  lucide-map-pin  18x18 @128,1187  color=rgb(57, 96, 71)
+      class="lucide lucide-map-pin text-spruce shrink-0 mt-0.5"
+      near: "3150 18th St, Suite 404, San Francisco, CA 94110"
+  lucide-external-link  13x13 @162,1211  color=rgb(88, 25, 37)
+      class="lucide lucide-external-link mt-px"
+      near: "3150 18th St, Suite 404, San Francisco, CA 94110"
+  lucide-phone  18x18 @128,1249  color=rgb(57, 96, 71)
+      class="lucide lucide-phone text-spruce shrink-0 mt-0.5"
+      near: "415-930-5395"
+
+######## adhd   (16 icons on live)
+  lucide-chevron-down  14x14 @815,2879  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "About"
+  lucide-chevron-down  14x14 @1139,2879  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "Services"
+  lucide-arrow-left  16x16 @256,131  color=rgb(57, 96, 71)
+      class="lucide lucide-arrow-left mt-px"
+      near: "Back to Services"
+  custom vb="0 0 100 150"  52x67 @210,168  color=rgba(88, 25, 37, 0.25)
+      class="pointer-events-none absolute -left-10 -top-6 w-10 text-burgundy/25 rotate-[12d"
+      paths: (the shared feather SVG — see the ticker/CTA card)
+      near: "SpecialtyADHD & Late-StageDiagnosis.A diagnosis found in a"
+  custom vb="0 0 100 150"  44x50 @1148,184  color=rgba(57, 96, 71, 0.3)
+      class="pointer-events-none absolute right-0 -top-2 w-7 text-spruce/30 rotate-[28deg]"
+      paths: (shared feather SVG)
+      near: "SpecialtyADHD & Late-StageDiagnosis.A diagnosis found in a"
+  custom vb="0 0 64 64"  28x28 @266,693  color=rgb(88, 25, 37)
+      badge: 48x48 radius=16px bg=rgba(88, 25, 37, 0.1)
+      class="w-7 h-7"
+      paths: <circle cx="32" cy="32" r="6" stroke="currentColor" stroke-width="1.5"></circle><path d="M32 26c0-6 3-9 0-14M32 38c0 6 3 9 0 14M26 32c-6 0-9 3-14 0M38 32c6 0 9 3 14 0M27 27c-4-4-9-4-12-12M37 27c4-4 9-4 12-12M27 37c-4 4-9 4-12 12M37 37c4 4 9 4 12 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+      near: "ADD in women looks different"
+  custom vb="0 0 64 64"  28x28 @315,1334  color=rgb(88, 25, 37)
+      badge: 48x48 radius=16px bg=rgba(88, 25, 37, 0.1)
+      class="w-7 h-7"
+      paths: <path d="M32 10c-3 6 4 9 4 14a9 9 0 1 1-18 0c0-5 4-6 6-10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="32" cy="44" r="5" stroke="currentColor" stroke-width="1.5"></circle><path d="M30 44h-6M34 44h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path><path d="M14 22c2-2 5-2 7 0M43 18c2-2 5-2 7 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 3"></path>
+      near: "When the diagnosis arrives later"
+  lucide-brain  24x24 @268,1587  color=rgb(57, 96, 71)
+      badge: 48x48 radius=16px bg=rgba(57, 96, 71, 0.1)
+      class="lucide lucide-brain"
+      near: "How it shows up"
+  custom vb="0 0 100 150"  72x94 @1088,2061  color=rgba(241, 234, 223, 0.15)
+      class="pointer-events-none absolute right-8 top-6 w-14 text-cream/15 -rotate-12"
+      paths: (shared feather SVG)
+      near: "50%+of adults with ADHD also live with anxiety or depressi"
+  custom vb="0 0 64 64"  28x28 @315,2433  color=rgb(57, 96, 71)
+      badge: 48x48 radius=16px bg=rgba(57, 96, 71, 0.1)
+      class="w-7 h-7"
+      paths: <path d="M32 50c10 0 16-6 16-14 0-5-3-7-5-9-1 3-3 4-5 4 1-6-2-12-7-15 1 6-2 9-6 11-3 2-5 5-5 9 0 8 6 14 12 14Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path><path d="M28 42c0 2 1 4 4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 3"></path>
+      near: "The grief, and the broken trust in yourself"
+  lucide-clock  24x24 @268,2836  color=rgb(108, 50, 133)
+      badge: 48x48 radius=16px bg=rgba(108, 50, 133, 0.1)
+      class="lucide lucide-clock"
+      near: "How we work with it"
+  lucide-sparkles  18x18 @286,2934  color=rgb(108, 50, 133)
+      badge: 36x36 radius=9999px bg=rgba(108, 50, 133, 0.1)
+      class="lucide lucide-sparkles"
+      near: "Honor your gifts: creativity, intensity, range."
+  lucide-heart  18x18 @286,3028  color=rgb(108, 50, 133)
+      badge: 36x36 radius=9999px bg=rgba(108, 50, 133, 0.1)
+      class="lucide lucide-heart"
+      near: "Tend the costs of pretending."
+  lucide-shield-check  18x18 @286,3122  color=rgb(108, 50, 133)
+      badge: 36x36 radius=9999px bg=rgba(108, 50, 133, 0.1)
+      class="lucide lucide-shield-check"
+      near: "Grieve what was, and slowly rebuild trust in yourself."
+  lucide-layers  18x18 @286,3220  color=rgb(108, 50, 133)
+      badge: 36x36 radius=9999px bg=rgba(108, 50, 133, 0.1)
+      class="lucide lucide-layers"
+      near: "Build rhythms and boundaries shaped for how your brain act"
+  lucide-arrow-right  16x16 @371,3363  color=rgb(241, 234, 223)
+      class="lucide lucide-arrow-right"
+      near: "Get Started"
+
+######## multiculturalism   (12 icons on live)
+  lucide-chevron-down  14x14 @815,1687  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "About"
+  lucide-chevron-down  14x14 @1139,1687  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "Services"
+  lucide-arrow-left  16x16 @256,131  color=rgb(57, 96, 71)
+      class="lucide lucide-arrow-left mt-px"
+      near: "Back to Services"
+  custom vb="0 0 100 150"  52x67 @218,176  color=rgba(88, 25, 37, 0.25)
+      class="pointer-events-none absolute -left-8 -top-4 w-10 text-burgundy/25 rotate-[12de"
+      paths: (the shared feather SVG — see the ticker/CTA card)
+      near: "SpecialtyMulticultural &Cross-Cultural TherapyWhen your id"
+  custom vb="0 0 100 150"  44x50 @1140,184  color=rgba(57, 96, 71, 0.3)
+      class="pointer-events-none absolute right-2 -top-2 w-7 text-spruce/30 rotate-[28deg]"
+      paths: (shared feather SVG)
+      near: "SpecialtyMulticultural &Cross-Cultural TherapyWhen your id"
+  lucide-earth  24x24 @317,724  color=rgb(88, 25, 37)
+      badge: 48x48 radius=16px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-earth"
+      near: "Multicultural Therapy"
+  lucide-languages  24x24 @317,966  color=rgb(57, 96, 71)
+      badge: 48x48 radius=16px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-languages"
+      near: "Acculturation & Assimilation Stress"
+  lucide-users  24x24 @317,1234  color=rgb(108, 50, 133)
+      badge: 48x48 radius=16px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-users"
+      near: "First-Generation & Second-Generation Issues"
+  lucide-compass  24x24 @317,1477  color=rgb(88, 25, 37)
+      badge: 48x48 radius=16px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-compass"
+      near: "Third Culture Kid (TCK) Therapy"
+  lucide-network  24x24 @317,1720  color=rgb(57, 96, 71)
+      badge: 48x48 radius=16px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-network"
+      near: "Intergenerational Trauma Therapy"
+  custom vb="0 0 100 150"  72x94 @1088,1959  color=rgba(241, 234, 223, 0.15)
+      class="pointer-events-none absolute right-8 top-6 w-14 text-cream/15 -rotate-12"
+      paths: (shared feather SVG)
+      near: "You do not have to compress yourself to be understood here"
+  lucide-arrow-right  16x16 @403,2116  color=rgb(88, 25, 37)
+      class="lucide lucide-arrow-right"
+      near: "Get Started"
+
+######## burnout   (10 icons on live)
+  lucide-chevron-down  14x14 @815,1325  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "About"
+  lucide-chevron-down  14x14 @1139,1325  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "Services"
+  lucide-arrow-left  16x16 @256,131  color=rgb(57, 96, 71)
+      class="lucide lucide-arrow-left mt-px"
+      near: "Back to Services"
+  custom vb="0 0 100 150"  52x67 @218,176  color=rgba(88, 25, 37, 0.25)
+      class="pointer-events-none absolute -left-8 -top-4 w-10 text-burgundy/25 rotate-[12de"
+      paths: (the shared feather SVG — see the ticker/CTA card)
+      near: "SpecialtyBurnout.The slow creep, and the difficulty of ask"
+  custom vb="0 0 100 150"  44x50 @1140,184  color=rgba(57, 96, 71, 0.3)
+      class="pointer-events-none absolute right-2 -top-2 w-7 text-spruce/30 rotate-[28deg]"
+      paths: (shared feather SVG)
+      near: "SpecialtyBurnout.The slow creep, and the difficulty of ask"
+  lucide-wind  24x24 @317,664  color=rgb(88, 25, 37)
+      badge: 48x48 radius=16px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-wind"
+      near: "The slow creep"
+  lucide-hand-heart  24x24 @317,1010  color=rgb(57, 96, 71)
+      badge: 48x48 radius=16px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-hand-heart"
+      near: "Why it's so hard to ask for help"
+  lucide-sprout  24x24 @317,1330  color=rgb(108, 50, 133)
+      badge: 48x48 radius=16px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-sprout"
+      near: "Tending and rebuilding"
+  custom vb="0 0 100 150"  72x94 @1088,1598  color=rgba(241, 234, 223, 0.15)
+      class="pointer-events-none absolute right-8 top-6 w-14 text-cream/15 -rotate-12"
+      paths: (shared feather SVG)
+      near: "Recovery is not a project to optimize. It is a returning.G"
+  lucide-arrow-right  16x16 @403,1755  color=rgb(88, 25, 37)
+      class="lucide lucide-arrow-right"
+      near: "Get Started"
+
+######## anxiety   (16 icons on live)
+  lucide-chevron-down  14x14 @815,1296  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "About"
+  lucide-chevron-down  14x14 @1139,1296  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "Services"
+  lucide-arrow-left  16x16 @256,131  color=rgb(57, 96, 71)
+      class="lucide lucide-arrow-left mt-px"
+      near: "Back to Services"
+  custom vb="0 0 100 150"  52x67 @218,176  color=rgba(88, 25, 37, 0.25)
+      class="pointer-events-none absolute -left-8 -top-4 w-10 text-burgundy/25 rotate-[12de"
+      paths: (the shared feather SVG — see the ticker/CTA card)
+      near: "Also in my careAnxiety & Depression.Anxiety and depression"
+  custom vb="0 0 100 150"  44x50 @1140,184  color=rgba(57, 96, 71, 0.3)
+      class="pointer-events-none absolute right-2 -top-2 w-7 text-spruce/30 rotate-[28deg]"
+      paths: (shared feather SVG)
+      near: "Also in my careAnxiety & Depression.Anxiety and depression"
+  lucide-brain  24x24 @307,539  color=rgb(88, 25, 37)
+      badge: 44x44 radius=16px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-brain"
+      near: "Anxiety"
+  lucide-cloud-rain  24x24 @783,539  color=rgb(57, 96, 71)
+      badge: 44x44 radius=16px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-cloud-rain"
+      near: "Depression"
+  lucide-layers  24x24 @315,847  color=rgb(108, 50, 133)
+      badge: 44x44 radius=16px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-layers"
+      near: "When they show up together"
+  lucide-compass  18x18 @286,1292  color=rgb(88, 25, 37)
+      badge: 36x36 radius=12px bg=rgba(88, 25, 37, 0.1)
+      class="lucide lucide-compass"
+      near: "Understand what's happening beneath the surface"
+  lucide-layers  18x18 @758,1292  color=rgb(88, 25, 37)
+      badge: 36x36 radius=12px bg=rgba(88, 25, 37, 0.1)
+      class="lucide lucide-layers"
+      near: "Recognize the patterns that keep you stuck"
+  lucide-heart-handshake  18x18 @286,1382  color=rgb(88, 25, 37)
+      badge: 36x36 radius=12px bg=rgba(88, 25, 37, 0.1)
+      class="lucide lucide-heart-handshake"
+      near: "Respond to overwhelm without shutting down"
+  lucide-brain  18x18 @758,1382  color=rgb(88, 25, 37)
+      badge: 36x36 radius=12px bg=rgba(88, 25, 37, 0.1)
+      class="lucide lucide-brain"
+      near: "Challenge thoughts that aren't serving you"
+  lucide-sparkles  18x18 @286,1478  color=rgb(88, 25, 37)
+      badge: 36x36 radius=12px bg=rgba(88, 25, 37, 0.1)
+      class="lucide lucide-sparkles"
+      near: "Reconnect with the things that matter to you"
+  lucide-arrow-right  18x18 @758,1479  color=rgb(88, 25, 37)
+      badge: 36x36 radius=12px bg=rgba(88, 25, 37, 0.1)
+      class="lucide lucide-arrow-right"
+      near: "Make changes that feel realistic, not overwhelming"
+  custom vb="0 0 100 150"  72x94 @1088,1605  color=rgba(241, 234, 223, 0.15)
+      class="pointer-events-none absolute right-8 top-6 w-14 text-cream/15 -rotate-12"
+      paths: (shared feather SVG)
+      near: "One piece at a time.Get Started"
+  lucide-arrow-right  16x16 @403,1726  color=rgb(88, 25, 37)
+      class="lucide lucide-arrow-right"
+      near: "Get Started"
+
+######## transitions   (18 icons on live)
+  lucide-chevron-down  14x14 @815,1277  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "About"
+  lucide-chevron-down  14x14 @1139,1277  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "Services"
+  lucide-arrow-left  16x16 @256,131  color=rgb(57, 96, 71)
+      class="lucide lucide-arrow-left mt-px"
+      near: "Back to Services"
+  custom vb="0 0 100 150"  52x67 @218,176  color=rgba(88, 25, 37, 0.25)
+      class="pointer-events-none absolute -left-8 -top-4 w-10 text-burgundy/25 rotate-[12de"
+      paths: (the shared feather SVG — see the ticker/CTA card)
+      near: "SpecialtyGoing Through a Transition?You don't have to do i"
+  custom vb="0 0 100 150"  44x50 @1140,184  color=rgba(57, 96, 71, 0.3)
+      class="pointer-events-none absolute right-2 -top-2 w-7 text-spruce/30 rotate-[28deg]"
+      paths: (shared feather SVG)
+      near: "SpecialtyGoing Through a Transition?You don't have to do i"
+  lucide-baby  20x20 @297,711  color=rgb(88, 25, 37)
+      badge: 44x44 radius=12px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-baby"
+      near: "Becoming a ParentThe identity shift, the overwhelm, the wa"
+  lucide-briefcase  20x20 @614,711  color=rgb(57, 96, 71)
+      badge: 44x44 radius=12px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-briefcase"
+      near: "Career ChangesA new role, a departure, a pivot — and the q"
+  lucide-house  20x20 @932,711  color=rgb(108, 50, 133)
+      badge: 44x44 radius=12px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-house"
+      near: "MovingUprooting a life and replanting it, and the quiet gr"
+  lucide-heart-handshake  20x20 @297,991  color=rgb(88, 25, 37)
+      badge: 44x44 radius=12px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-heart-handshake"
+      near: "Relationship ChangesBeginning, deepening, or ending partne"
+  lucide-graduation-cap  20x20 @614,991  color=rgb(57, 96, 71)
+      badge: 44x44 radius=12px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-graduation-cap"
+      near: "College & Future DecisionsThe pressure of the open road, a"
+  lucide-compass  20x20 @932,991  color=rgb(108, 50, 133)
+      badge: 44x44 radius=12px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-compass"
+      near: "Finding Your Next ChapterWhen one season closes before the"
+  custom vb="0 0 100 150"  83x99 @1129,1255  color=rgba(57, 96, 71, 0.2)
+      class="pointer-events-none absolute -right-4 -top-3 w-14 text-spruce/20 rotate-[22deg"
+      paths: (shared feather SVG)
+      near: "Therapy can help you:Process your emotionsFind clarity and"
+  custom vb="0 0 24 24"  14x14 @310,1392  color=rgb(57, 96, 71)
+      badge: 24x24 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3.5 h-3.5"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Process your emotions"
+  custom vb="0 0 24 24"  14x14 @714,1392  color=rgb(57, 96, 71)
+      badge: 24x24 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3.5 h-3.5"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Find clarity and direction"
+  custom vb="0 0 24 24"  14x14 @310,1433  color=rgb(57, 96, 71)
+      badge: 24x24 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3.5 h-3.5"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Build confidence in this next chapter"
+  custom vb="0 0 24 24"  14x14 @714,1433  color=rgb(57, 96, 71)
+      badge: 24x24 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3.5 h-3.5"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Feel more grounded and supported"
+  custom vb="0 0 100 150"  72x94 @1088,1587  color=rgba(241, 234, 223, 0.15)
+      class="pointer-events-none absolute right-8 top-6 w-14 text-cream/15 -rotate-12"
+      paths: (shared feather SVG)
+      near: "You don't have to navigate this next chapter alone.Get Sta"
+  lucide-arrow-right  16x16 @403,1708  color=rgb(88, 25, 37)
+      class="lucide lucide-arrow-right"
+      near: "Get Started"
+
+######## teens   (17 icons on live)
+  lucide-chevron-down  14x14 @815,1721  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "About"
+  lucide-chevron-down  14x14 @1139,1721  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "Services"
+  lucide-arrow-left  16x16 @256,131  color=rgb(57, 96, 71)
+      class="lucide lucide-arrow-left mt-px"
+      near: "Back to Services"
+  custom vb="0 0 100 150"  52x67 @218,176  color=rgba(88, 25, 37, 0.25)
+      class="pointer-events-none absolute -left-8 -top-4 w-10 text-burgundy/25 rotate-[12de"
+      paths: (the shared feather SVG — see the ticker/CTA card)
+      near: "SpecialtyTherapy for Teens.You don't have to have it all f"
+  custom vb="0 0 100 150"  44x50 @1140,184  color=rgba(57, 96, 71, 0.3)
+      class="pointer-events-none absolute right-2 -top-2 w-7 text-spruce/30 rotate-[28deg]"
+      paths: (shared feather SVG)
+      near: "SpecialtyTherapy for Teens.You don't have to have it all f"
+  lucide-backpack  20x20 @297,927  color=rgb(88, 25, 37)
+      badge: 44x44 radius=12px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-backpack"
+      near: "School PressureGrades, expectations, the weight of perform"
+  lucide-graduation-cap  20x20 @614,927  color=rgb(57, 96, 71)
+      badge: 44x44 radius=12px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-graduation-cap"
+      near: "College Prep & Application StressApplications, test scores"
+  lucide-heart-handshake  20x20 @932,927  color=rgb(108, 50, 133)
+      badge: 44x44 radius=12px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-heart-handshake"
+      near: "A Safe Adult Who Isn't Your ParentSome questions feel too "
+  lucide-users  20x20 @297,1308  color=rgb(88, 25, 37)
+      badge: 44x44 radius=12px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-users"
+      near: "Evolving Friendships & IdentityFriendships shift, you chan"
+  lucide-brain  20x20 @614,1308  color=rgb(57, 96, 71)
+      badge: 44x44 radius=12px bg=rgba(0, 0, 0, 0)
+      class="lucide lucide-brain"
+      near: "ADHDA mind that runs fast, gets distracted, or feels like "
+  custom vb="0 0 100 150"  83x99 @1129,1622  color=rgba(57, 96, 71, 0.2)
+      class="pointer-events-none absolute -right-4 -top-3 w-14 text-spruce/20 rotate-[22deg"
+      paths: (shared feather SVG)
+      near: "What you get here:A space that's just yoursTools for the p"
+  custom vb="0 0 24 24"  14x14 @310,1758  color=rgb(57, 96, 71)
+      badge: 24x24 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3.5 h-3.5"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "A space that's just yours"
+  custom vb="0 0 24 24"  14x14 @714,1758  color=rgb(57, 96, 71)
+      badge: 24x24 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3.5 h-3.5"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Tools for the pressure"
+  custom vb="0 0 24 24"  14x14 @310,1799  color=rgb(57, 96, 71)
+      badge: 24x24 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3.5 h-3.5"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "Words for what you feel"
+  custom vb="0 0 24 24"  14x14 @714,1799  color=rgb(57, 96, 71)
+      badge: 24x24 radius=9999px bg=rgba(0, 0, 0, 0)
+      class="w-3.5 h-3.5"
+      paths: <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      near: "A safe adult outside your family"
+  custom vb="0 0 100 150"  72x94 @1088,2034  color=rgba(241, 234, 223, 0.15)
+      class="pointer-events-none absolute right-8 top-6 w-14 text-cream/15 -rotate-12"
+      paths: (shared feather SVG)
+      near: "You don't have to figure it out alone.Get Started"
+  lucide-arrow-right  16x16 @403,2155  color=rgb(88, 25, 37)
+      class="lucide lucide-arrow-right"
+      near: "Get Started"
+
+######## privacy   (7 icons on live)
+  lucide-chevron-down  14x14 @815,1347  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "About"
+  lucide-chevron-down  14x14 @1139,1347  color=rgba(23, 39, 64, 0.7)
+      class="lucide lucide-chevron-down transition-transform duration-300"
+      near: "Services"
+  custom vb="0 0 100 150"  52x67 @338,84  color=rgba(88, 25, 37, 0.3)
+      class="pointer-events-none absolute -left-10 -top-6 w-10 text-burgundy/30 rotate-[12d"
+      paths: (the shared feather SVG — see the ticker/CTA card)
+      near: "Legal & PrivacyPrivacy, Disclaimer & Crisis ResourcesYour "
+  lucide-triangle-alert  20x20 @417,456  color=rgb(88, 25, 37)
+      class="lucide lucide-triangle-alert text-burgundy"
+      near: "If you are in crisis"
+  lucide-phone  16x16 @417,600  color=rgb(88, 25, 37)
+      class="lucide lucide-phone mt-1 text-burgundy shrink-0"
+      near: "911 for life-threatening emergencies."
+  lucide-phone  16x16 @417,636  color=rgb(88, 25, 37)
+      class="lucide lucide-phone mt-1 text-burgundy shrink-0"
+      near: "988 Suicide & Crisis Lifeline. Call or text 988, 24/7."
+  lucide-phone  16x16 @417,672  color=rgb(88, 25, 37)
+      class="lucide lucide-phone mt-1 text-burgundy shrink-0"
+      near: "741741 Crisis Text Line. Text HOME to 741741, 24/7."
