@@ -1909,6 +1909,42 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
 @media(min-width:1101px){.page-services-adhd .detail-content>.detail-section:first-child>p{width:672px;max-width:672px;margin-left:0}.page-services-adhd .detail-content>.detail-section:first-child .detail-card-grid{width:928px;max-width:none;margin-left:0;transform:none}.page-services-adhd .detail-content>.detail-section:first-child .detail-card{padding-left:21px;padding-right:21px}.page-services-adhd .detail-hero .detail-lede{width:672px;margin-left:auto;margin-right:auto}}
 .page-service:not(.page-services-anxiety-depression) .service-topic-card .service-heading-icon,.page-service:not(.page-services-anxiety-depression) .service-panel-card .service-heading-icon{width:48px;height:48px;flex-basis:48px;border-radius:16px}
 .site-footer{margin-top:25px}
+.footer-name{width:150px;flex:0 0 150px}
+.footer-license{width:118px;flex:0 0 118px}
+.footer-business{width:369px;flex:0 0 369px}
+.footer-phone{width:102px;flex:0 0 102px}
+.footer-crisis .crisis-number{font-weight:600}
+@media(min-width:1101px){
+  body:not([data-page]) .site-footer{margin-top:29px}
+  body:not([data-page]) .line-icon{transform:translateY(-6px)}
+  body:not([data-page]) .centered-link .inline-arrow{transform:translate(2px,7px)}
+  body:not([data-page]) .modality-link .inline-arrow{transform:translate(3px,7px)}
+  body:not([data-page]) .contact-links a:first-child .inline-arrow{transform:translate(1px,28px)}
+  body:not([data-page]) .contact-links a:last-child .inline-arrow{transform:translate(-5px,28px)}
+  .page-about .detail-shell{padding-bottom:97px}
+  .page-cost .detail-shell{padding-bottom:0}
+  .page-resources .detail-shell{padding-bottom:17px}
+  .page-services-adhd .detail-shell{padding-bottom:84.5px}
+  .page-services-transitions .detail-shell{padding-bottom:73px}
+  .page-services-teens .detail-shell{padding-bottom:101px}
+  .page-services-transitions .detail-card-grid,
+  .page-services-teens .detail-card-grid{width:934px;max-width:none;margin-left:-60px}
+  .page-services-transitions .detail-card-grid{margin-top:31px;row-gap:63px}
+  .page-services-teens .detail-card-grid{margin-top:70px;row-gap:38px}
+  .page-services-multiculturalism .service-panel-card:first-child{margin-bottom:23px}
+  .page-services-multiculturalism .service-panel-card:nth-child(2){margin-bottom:50px}
+  .page-services-multiculturalism .service-panel-card:nth-child(4){margin-bottom:26px}
+  .page-services-burnout .service-panel-card:first-child{margin-bottom:49px}
+  .page-services-burnout .service-panel-card:nth-child(2){margin-bottom:24px}
+  .page-services-multiculturalism .service-cta{margin-top:78px}
+  .page-services-burnout .service-cta{margin-top:89px}
+  .page-services-anxiety-depression .service-cta{margin-top:57px}
+  .page-services-multiculturalism .detail-shell{padding-bottom:72px}
+  .page-services-burnout .detail-shell{padding-bottom:63px}
+  .page-services-anxiety-depression .detail-shell{padding-bottom:51px}
+  .page-services-anxiety-depression .service-topic-card .service-heading-icon svg{transform:translateY(4px)}
+  .page-services-anxiety-depression .service-overlap-card .service-heading-icon svg{transform:translateY(9px)}
+}
 .brief22-inventory-feather{display:block;width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 @media(min-width:1101px){body:not([data-page]) .line-icon{width:80px;height:80px}}
 @media(min-width:801px){.page-about .about-cta-leaf{width:32px;height:45px}.page-modalities .modalities-hero-leaf{width:83px;height:107px}.page-modalities .modalities-closing-leaf-top-right{width:83px;height:107px}.page-modalities .modalities-closing-leaf-bottom-left{width:70px;height:84px}.page-resources .resource-section-leaf{width:45px;height:56px}.page-resources .resource-closing-leaf{width:55px;height:64px}}

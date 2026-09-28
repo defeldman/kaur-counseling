@@ -330,7 +330,7 @@ function render() {
   const routeFeather = pageId === 'privacy' ? featherSvg('privacy-hero-leaf') : pageId === 'modalities' ? featherSvg('modalities-hero-leaf') : '';
   const inventoryFeathers = {
     about: [[704,3140,32,45,'rgba(88,25,37,.4)']],
-    'about/resources': [[233,2421,45,56,'rgba(88,25,37,.2)'],[175,2864,55,64,'rgba(57,96,71,.3)']],
+    resources: [[233,2421,45,56,'rgba(88,25,37,.2)'],[175,2864,55,64,'rgba(57,96,71,.3)']],
     modalities: [[1079,2742,83,107,'rgba(57,96,71,.2)'],[285,2978,70,84,'rgba(57,96,71,.2)']]
   };
   const placedFeathers = (inventoryFeathers[pageId] || []).map(([x,y,w,h,color]) => `<span aria-hidden="true" style="position:absolute;left:${x}px;top:${y}px;width:${w}px;height:${h}px;color:${color};pointer-events:none;z-index:0">${featherSvg('brief22-inventory-feather')}</span>`).join('');
