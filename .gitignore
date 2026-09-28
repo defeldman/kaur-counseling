@@ -2,3 +2,5 @@ qa/current/
 qa/diffs/
 qa/runs/
 
+node_modules/
+package-lock.json
