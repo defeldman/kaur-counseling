@@ -149,15 +149,14 @@ const pages = {
     ['The slow creep', ["Burnout doesn't always show up as a complete breakdown. Sometimes it looks like having less energy for things you used to enjoy, needing more effort to get started, or feeling strangely flat even when something good happens. For people who are used to pushing through, it can be especially hard to recognize these changes as signs that something is wrong. You may just think you need to try harder, get more organized, or get back on track — when what you actually need is to recognize that you've been running on empty for a while."]],
     ["Why it's so hard to ask for help", ["When you're used to measuring your worth by how much you accomplish, needing help can feel like falling short. Rest can feel unearned, and asking for support can bring up shame, guilt, or the fear that you should be able to handle it on your own. But struggling to reach out doesn't mean you're failing. Sometimes, it's part of what happens when you've been carrying too much for too long. Recognizing that you need support isn't giving up — it's finally paying attention."]],
     ['Tending and rebuilding', [
-      "We start by listening to what the depletion is asking for. We tend the exhaustion before we touch the goals. Then, slowly and with care, we rebuild a life with margins in it, one with rest and meaning, with permission to be a person rather than only a function. Recovery is not a project to optimize. It is a returning.",
-      'Recovery is not a project to optimize. It is a returning.'
+      "We start by listening to what the depletion is asking for. We tend the exhaustion before we touch the goals. Then, slowly and with care, we rebuild a life with margins in it, one with rest and meaning, with permission to be a person rather than only a function. Recovery is not a project to optimize. It is a returning."
     ]]
   ]),
   'services/anxiety-depression': service('Anxiety & Depression.', '', 'ALSO IN MY CARE', 'Anxiety and depression can look completely different, but both have a way of adding a layer to everyday life that can make everything feel harder than it should.', [
     ['Anxiety', ["Anxiety can keep your mind running long after you want it to stop. It can make decisions feel overwhelming, turn small things into big things, and leave you constantly anticipating what might go wrong." ]],
     ['Depression', ["Depression can make everything feel heavier in a different way. Things that once felt meaningful can feel distant, motivation can disappear, and even basic tasks can take more effort than you have to give." ]],
     ['When they show up together', ["Sometimes they show up together. Sometimes one takes over for a while and the other follows. And sometimes it's hard to explain what's happening at all — you just know that life feels harder than it used to. You don't have to figure it out alone." ]],
-    serviceSection('How we work with it', paras(['I\'m not here to tell you to "just think positively" or hand you a list of things you should be doing differently. I\'m here to meet you where you are, understand what you\'re carrying, and work through it with you — one piece at a time.']) + serviceSteps(["Understand what's happening beneath the surface", 'Recognize the patterns that keep you stuck', 'Respond to overwhelm without shutting down', "Challenge thoughts that aren't serving you", 'Reconnect with the things that matter to you', 'Make changes that feel realistic, not overwhelming']) + paras(['One piece at a time.']))
+    serviceSection('How we work with it', paras(['I\'m not here to tell you to "just think positively" or hand you a list of things you should be doing differently. I\'m here to meet you where you are, understand what you\'re carrying, and work through it with you — one piece at a time.']) + serviceSteps(["Understand what's happening beneath the surface", 'Recognize the patterns that keep you stuck', 'Respond to overwhelm without shutting down', "Challenge thoughts that aren't serving you", 'Reconnect with the things that matter to you', 'Make changes that feel realistic, not overwhelming']) + paras(['One piece at a time.']), 'detail-section-tint')
   ]),
   'services/transitions': service('Going Through a Transition?', '', 'SPECIALTY', "You don't have to do it alone.", [
     serviceCards('You might be navigating…', [
@@ -168,7 +167,7 @@ const pages = {
       ['College & Future Decisions', 'The pressure of the open road, and the weight of choosing a direction that feels like yours.'],
       ['Finding Your Next Chapter', "When one season closes before the next has a name, and you're holding the in-between."]
     ]),
-    serviceSection('Therapy can help you:', serviceList(['Process your emotions', 'Find clarity and direction', 'Build confidence in this next chapter', 'Feel more grounded and supported']) + paras(["You don't have to navigate this next chapter alone."]))
+    serviceSection('Therapy can help you:', serviceList(['Process your emotions', 'Find clarity and direction', 'Build confidence in this next chapter', 'Feel more grounded and supported']) + paras(["You don't have to navigate this next chapter alone."]), 'detail-section-tint')
   ]),
   'services/teens': service('Therapy for Teens.', '', 'SPECIALTY', "You don't have to have it all figured out.", [
     serviceCards('What you might be carrying', [
@@ -178,7 +177,7 @@ const pages = {
       ['Evolving Friendships & Identity', 'Friendships shift, you change, and the question of who you are gets louder. We make room to explore it — without rushing you toward an answer.'],
       ['ADHD', "A mind that runs fast, gets distracted, or feels like 'too much.' We understand how it shows up — especially for girls who've been missed or told they're just 'not trying.'"]
     ]),
-    serviceSection('What you get here:', serviceList(["A space that's just yours", 'Tools for the pressure', 'Words for what you feel', 'A safe adult outside your family']) + paras(["What you share here stays here. The exception is safety — if I'm worried about your wellbeing, we talk about it together first, and figure out next steps as a team.", "You don't have to figure it out alone."]))
+    serviceSection('What you get here:', serviceList(["A space that's just yours", 'Tools for the pressure', 'Words for what you feel', 'A safe adult outside your family']) + paras(["What you share here stays here. The exception is safety — if I'm worried about your wellbeing, we talk about it together first, and figure out next steps as a team.", "You don't have to figure it out alone."]), 'detail-section-tint')
   ])
 };
 
@@ -203,6 +202,9 @@ function service(title, italic, eyebrow, lede, sections) {
     ]
   };
   const titleMarkup = `${esc(title)}${italic ? `<br /><em>${esc(italic)}</em>` : ''}`;
+  const transitionBodyMarkup = title === 'Going Through a Transition?'
+    ? heroBodies[title].replace('difficult.', '<em>difficult.</em>')
+    : '';
   const serviceBody = sections.map((entry, index) => {
     if (typeof entry === 'string') return entry;
     const [heading, items] = entry;
@@ -212,8 +214,8 @@ function service(title, italic, eyebrow, lede, sections) {
     eyebrow,
     title: titleMarkup,
     lede: leads[title] || lede,
-    heroBodyMarkup: title === 'Going Through a Transition?' ? "Transitions can be <em>difficult.</em> It's hard to hold both the hope and excitement for something new with the grief of what was. Even the happiest transitions can be difficult. My work is to help you make room for all of it — the loss and the possibility — and to find your footing in the in-between." : '',
-    heroBody: heroBodies[title] || '',
+    heroBodyMarkup: transitionBodyMarkup,
+    heroBody: transitionBodyMarkup ? '' : heroBodies[title] || '',
     plainLede: title === 'Anxiety & Depression.',
     isService: true,
     noCta: true,
