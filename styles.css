@@ -1491,7 +1491,7 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
   .page-services-anxiety-depression .service-overlap-card{margin-bottom:21.2px}
   .page-services-anxiety-depression .detail-content>.detail-section:last-child{
     padding-top:79px;
-    padding-bottom:13.8px;
+    padding-bottom:5.8px;
   }
   .page-services-anxiety-depression .detail-content>.detail-section:last-child h2{margin-bottom:8px}
   .page-services-anxiety-depression .detail-content>.detail-section:last-child>p{margin-bottom:32px}
@@ -1499,17 +1499,305 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
     display:grid;
     grid-template-columns:repeat(2,minmax(0,1fr));
     gap:16px;
+    margin-left:-64px;
+    margin-right:-64px;
   }
   .page-services-anxiety-depression .service-steps>div{
     display:flex;
     align-items:center;
-    min-height:70px;
+    gap:12px;
+    min-height:78px;
     box-sizing:border-box;
     padding:16px 20px;
-    border:1px solid rgba(23,39,64,.14);
+    border:1px solid rgba(215,204,188,.7);
     border-radius:16px;
-    background:rgba(249,247,244,.6);
+    background:rgba(241,234,223,.6);
     color:rgba(23,39,64,.8);
     line-height:22px;
   }
+  .page-services-anxiety-depression .service-step-icon{
+    display:grid;
+    flex:0 0 36px;
+    width:36px;
+    height:36px;
+    place-items:center;
+    border-radius:12px;
+    background:rgba(88,25,37,.1);
+    color:rgb(88,25,37);
+  }
+  .page-services-anxiety-depression .service-step-icon svg{display:block;width:18px;height:18px}
+  .page-services-anxiety-depression .service-step-label{color:inherit;line-height:22px}
+}
+
+.page-services-anxiety-depression .detail-section.detail-section-tint{
+  background:transparent;
+  border-color:transparent;
+}
+
+/* Brief 15: restore the live mobile type scale and palette. */
+@media (max-width:800px){
+  body{font-size:16px}
+
+  body:not([data-page]) .brand-subtitle{
+    color:rgba(57,96,71,.7);
+    font-size:11.2px;
+    line-height:11.2px;
+    letter-spacing:2.24px;
+  }
+  body:not([data-page]) .scroll-cue{
+    color:rgba(23,39,64,.55);
+    font-size:9.6px;
+    line-height:14.4px;
+  }
+  body:not([data-page]) .hero-card .eyebrow{line-height:14.4px}
+  body:not([data-page]) .hero-card h1{line-height:24px;letter-spacing:-.5px}
+  body:not([data-page]) .hero-card .button-small{
+    font-size:11.2px;
+    font-weight:500;
+    line-height:16.8px;
+    letter-spacing:.28px;
+  }
+  body:not([data-page]) .pronunciation{
+    font-family:Inter,ui-sans-serif,system-ui,sans-serif;
+    font-size:12px;
+    line-height:16px;
+  }
+  body:not([data-page]) .rumi-quote cite{font-size:14px;line-height:20px;letter-spacing:2.8px}
+
+  body:not([data-page]) .about-intro h2,
+  body:not([data-page]) .narrow-intro h2,
+  body:not([data-page]) .centered-intro h2,
+  body:not([data-page]) .modalities-intro h2,
+  body:not([data-page]) .contact-main h2{
+    font-size:36px;
+    line-height:45px;
+    letter-spacing:normal;
+  }
+  body:not([data-page]) .people-intro h2{font-size:30px;line-height:37.5px}
+  body:not([data-page]) .wheelhouse-item h3{font-size:24px;line-height:32px}
+  body:not([data-page]) .door-intro h3{font-size:24px;line-height:30px}
+  body:not([data-page]) .person-card h3{font-size:24px;line-height:30px}
+  body:not([data-page]) .modality-title h3{font-size:24px;line-height:32px}
+  body:not([data-page]) .modality-title>span{font-size:14px;line-height:20px}
+  body:not([data-page]) .approach-card h3{
+    font:400 20px/28px Fraunces,Georgia,serif;
+    letter-spacing:3.6px;
+  }
+  body:not([data-page]) .approach-section>.section-intro>.eyebrow{color:var(--burgundy)}
+  body:not([data-page]) .modalities-section>.section-intro>.eyebrow{color:rgba(88,25,37,.8)}
+  body:not([data-page]) .about-copy,
+  body:not([data-page]) .about-copy p,
+  body:not([data-page]) .contact-lead,
+  body:not([data-page]) .appointment-card p,
+  body:not([data-page]) .next-card li p,
+  body:not([data-page]) .office-copy>p:not(.eyebrow):not(.virtual-note),
+  body:not([data-page]) .narrow-intro>p,
+  body:not([data-page]) .wheelhouse-item p,
+  body:not([data-page]) .modality-item p{
+    font-size:16px;
+    line-height:26px;
+  }
+  body:not([data-page]) .section-intro p:not(.eyebrow){color:rgba(23,39,64,.75)}
+  body:not([data-page]) .wheelhouse-item p,
+  body:not([data-page]) .about-copy p,
+  body:not([data-page]) .contact-lead,
+  body:not([data-page]) .appointment-card p,
+  body:not([data-page]) .next-card li p,
+  body:not([data-page]) .office-copy>p:not(.eyebrow):not(.virtual-note){color:rgba(23,39,64,.75)}
+  body:not([data-page]) .approach-card p,
+  body:not([data-page]) .person-card p{font-size:15.2px;line-height:24.7px;color:rgba(23,39,64,.75)}
+  body:not([data-page]) .office-facts>a:first-child{color:rgb(88,25,37)}
+  body:not([data-page]) .office-facts{font-size:14px;line-height:20px;color:rgba(23,39,64,.8)}
+  body:not([data-page]) .virtual-note{
+    background:transparent;
+    color:rgba(23,39,64,.8);
+    line-height:22.75px;
+  }
+  body:not([data-page]) .virtual-note strong{font-weight:600}
+
+  /* The source's mobile sections use tighter bottom rhythm after the type pass. */
+  body:not([data-page]) .about-section{padding-bottom:95px}
+  body:not([data-page]) .wheelhouse{padding-bottom:357px}
+  body:not([data-page]) .approach-section{padding-bottom:230px}
+  body:not([data-page]) .people-section{padding-bottom:338px}
+  body:not([data-page]) .modalities-section{padding-bottom:177px}
+  body:not([data-page]) .office-section{padding-bottom:29.6px}
+  body:not([data-page]) .site-footer{padding-bottom:28px}
+
+  .footer-license,.footer-business,.footer-phone{font-size:12px}
+  .footer-business{color:rgba(57,96,71,.7)}
+
+  .detail-section p:not(.eyebrow){font-size:16px;line-height:26px}
+  .page-about .detail-section p:not(.eyebrow),
+  .page-get-started .detail-section p:not(.eyebrow),
+  .page-privacy .detail-section p:not(.eyebrow){color:rgba(23,39,64,.75)}
+  .page-about .detail-hero h1{font-size:29px;line-height:1.2}
+  .page-about .about-sessions h2,
+  .page-about .about-human h2{font-size:24px;line-height:32px}
+  .page-about .about-human .fact-grid strong{font-size:18px}
+  .page-about .about-human .fact-grid span{font-size:14px;line-height:22.75px}
+  .page-about .about-work h3{font-size:20px;line-height:28px}
+  .page-about .about-work .work-note p{font-size:16px;line-height:26px}
+  .page-about .about-verification .button{font-size:14px}
+
+  .page-cost .detail-hero>.eyebrow,
+  .page-resources .detail-hero>.eyebrow,
+  .page-get-started .detail-hero>.eyebrow,
+  .page-privacy .detail-hero>.eyebrow{color:rgba(88,25,37,.8)}
+  .page-cost .detail-hero h1,
+  .page-get-started .detail-hero h1,
+  .page-modalities .detail-hero h1,
+  .page-privacy .detail-hero h1{font-size:36px;line-height:45px;letter-spacing:normal}
+  .page-cost .detail-content>p{
+    color:rgba(23,39,64,.75);
+    font-size:18px;
+    line-height:29.25px;
+  }
+  .page-cost .detail-section p:not(.eyebrow){color:rgba(23,39,64,.75)}
+  .page-cost .detail-cta>p:not(.eyebrow){
+    color:rgb(57,96,71);
+    font:italic 24px/33px Fraunces,Georgia,serif;
+  }
+  .page-resources .detail-lede{font-size:18px;line-height:29.25px}
+  .page-resources .book-section h2{font-size:24px;line-height:32px}
+  .page-resources .book-section>p{font-size:16px;line-height:26px}
+  .page-modalities .framework h2{font-size:24px;line-height:33px}
+  .page-modalities .framework-number{font:14px/20px Fraunces,Georgia,serif}
+  .page-modalities .detail-cta h2,
+  .page-modalities .modalities-closing-card h2{font-size:30px;line-height:37.5px}
+
+  .page-get-started .detail-lede{font-size:18px;line-height:29.25px}
+  .page-get-started .detail-appointment h2{font-size:24px;line-height:33px}
+  .page-get-started .detail-appointment p,
+  .page-get-started .get-started-office>div:first-child>p:not(.eyebrow){
+    color:rgba(23,39,64,.75);
+    font-size:16px;
+    line-height:26px;
+  }
+  .page-get-started .detail-appointment small{color:rgba(23,39,64,.5);font-size:12px;line-height:16px}
+  .page-get-started .office-facts{font-size:14px;line-height:20px;color:rgba(23,39,64,.8)}
+  .page-get-started .office-facts>a:first-child{line-height:22.75px}
+
+  .page-service .detail-hero h1{font-size:36px;line-height:37.8px;letter-spacing:normal}
+  .page-service .detail-hero>.eyebrow{color:rgba(88,25,37,.8)}
+  .page-service .detail-hero-body{font-size:18px;line-height:29.25px}
+  .page-service .detail-section h2{font-size:24px;line-height:32px}
+  .page-service .service-card-grid-section>h2{font-size:30px;line-height:37.5px}
+  .page-service .detail-section-tint h2{font-size:24px;line-height:30px}
+  .page-services-anxiety-depression .detail-content>.detail-section:last-child h2{font-size:24px;line-height:32px}
+  .page-services-adhd .detail-card-grid .detail-card p{font-size:16px;line-height:26px;color:rgba(23,39,64,.75)}
+  .page-services-teens .detail-section>p:last-child{font-size:15.2px;line-height:24.7px}
+  .page-services-transitions .detail-card-grid .detail-card p,
+  .page-services-teens .detail-card-grid .detail-card p{font-size:15.2px;line-height:24.7px;color:rgba(23,39,64,.75)}
+  .page-services-adhd .service-cta .service-cta-quote{font-size:20px;line-height:27.5px}
+
+  .page-services-anxiety-depression .service-steps{
+    display:grid;
+    grid-template-columns:minmax(0,1fr);
+    gap:16px;
+    margin:0;
+  }
+  .page-services-anxiety-depression .service-steps>div{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    min-height:78px;
+    box-sizing:border-box;
+    padding:16px 20px;
+    border:1px solid rgba(215,204,188,.7);
+    border-radius:16px;
+    background:rgba(241,234,223,.6);
+    color:rgba(23,39,64,.8);
+    line-height:22px;
+  }
+  .page-services-anxiety-depression .service-step-icon{
+    display:grid;
+    flex:0 0 36px;
+    width:36px;
+    height:36px;
+    place-items:center;
+    border-radius:12px;
+    background:rgba(88,25,37,.1);
+    color:rgb(88,25,37);
+  }
+  .page-services-anxiety-depression .service-step-icon svg{display:block;width:18px;height:18px}
+  .page-services-anxiety-depression .service-step-label{color:inherit;line-height:22px}
+
+  .page-privacy .detail-section p{font-size:16px;line-height:26px;color:rgba(23,39,64,.75)}
+  .page-privacy .privacy-crisis-card>p{line-height:26px!important}
+  .page-privacy .privacy-crisis-card li a{font-size:16px;line-height:24px}
+
+  /* Keep the live mobile footer rhythm and its intentional home overflow. */
+  body[class] .site-footer{padding-bottom:29px}
+  body:not([class])::after{
+    content:"";
+    position:absolute;
+    top:0;
+    left:100%;
+    width:25px;
+    height:1px;
+    visibility:hidden;
+    pointer-events:none;
+  }
+
+  /* Route spacing corrections after restoring the mobile type scale. */
+  .page-about .about-cta{margin-top:0}
+  .page-about .detail-shell{padding-bottom:10px}
+
+  .page-cost .detail-content>.detail-section:last-child{padding-bottom:108px}
+
+  .page-resources .poem-card{margin-bottom:18px}
+  .page-resources .book{padding:17px 0}
+  .page-resources .book-section:nth-of-type(2){margin-top:49px}
+  .page-resources .book-section:nth-of-type(3){margin-top:59px}
+  .page-resources .book-section:nth-of-type(4){margin-top:15px}
+  .page-resources .detail-content>.detail-section:last-child{padding-bottom:124px}
+
+  .page-modalities .modalities-closing-card{margin-top:170px}
+  .page-modalities .detail-shell{padding-bottom:97px}
+
+  .page-get-started .detail-content{margin-top:80px}
+  .page-get-started .detail-appointment{margin-bottom:115px}
+  .page-get-started .detail-shell{padding-bottom:119px}
+
+  .page-services-adhd .detail-shell{padding-bottom:260px}
+  .page-services-multiculturalism .detail-shell{padding-bottom:306px}
+  .page-services-burnout .detail-shell{padding-bottom:286px}
+  .page-services-anxiety-depression .detail-content>.detail-section:last-child{padding-bottom:111px}
+
+  .page-services-transitions .detail-content>.service-card-grid-section{
+    margin-top:21px;
+    padding-bottom:0;
+  }
+  .page-services-transitions .detail-card-grid{
+    gap:23px;
+    margin-top:45px;
+    margin-bottom:0;
+  }
+  .page-services-transitions .detail-card-grid .detail-card{
+    padding-top:92px;
+    padding-bottom:28px;
+  }
+  .page-services-transitions .detail-content>.detail-section-tint{margin-top:18px}
+  .page-services-transitions .detail-shell{padding-bottom:217px}
+
+  .page-services-teens .detail-content>.service-card-grid-section{
+    margin-top:64px;
+    padding-bottom:0;
+  }
+  .page-services-teens .detail-card-grid{
+    gap:24px;
+    margin-top:45px;
+    margin-bottom:0;
+  }
+  .page-services-teens .detail-card-grid .detail-card{
+    padding-top:92px;
+    padding-bottom:28px;
+  }
+  .page-services-teens .detail-card-grid>.detail-card:nth-child(1){padding-bottom:52px}
+  .page-services-teens .detail-card-grid>.detail-card:nth-child(4){padding-bottom:54px}
+  .page-services-teens .detail-content>.detail-section-tint{margin-top:25px}
+  .page-services-teens .detail-shell{padding-bottom:269px}
+
+  .page-privacy .detail-shell{padding-bottom:159px}
 }

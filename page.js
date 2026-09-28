@@ -11,7 +11,7 @@ const serviceCards = (heading, cards, className = '') => `<section class="detail
 const serviceLabeledCards = (cards) => `<div class="detail-card-grid">${cards.map(([title, copy]) => `<article class="detail-card"><h3>${esc(title)}</h3><p>${esc(copy)}</p></article>`).join('')}</div>`;
 const serviceFeatureCard = ([heading, items], className = '') => `<section class="detail-section ${className}"><h2>${esc(heading)}</h2>${paras(items)}</section>`;
 const serviceList = (items) => `<ul>${items.map((item) => `<li>${esc(item)}</li>`).join('')}</ul>`;
-const serviceSteps = (items) => `<div class="service-steps">${items.map((item) => `<div>${esc(item)}</div>`).join('')}</div>`;
+const serviceSteps = (items) => `<div class="service-steps">${items.map(([icon, label]) => `<div><span class="service-step-icon" aria-hidden="true">${window.lucideSvg(icon, 18, 'lucide lucide-' + icon)}</span><span class="service-step-label">${esc(label)}</span></div>`).join('')}</div>`;
 const crisisPhoneIcon = '<svg viewBox="0 0 24 24"><path d="M6.5 3.5 10 7 8 9c1.4 2.9 3.1 4.6 6 6l2-2 3.5 3.5v2.2c0 .9-.7 1.6-1.6 1.6C10.2 20.3 3.7 13.8 3.7 6.1c0-.9.7-1.6 1.6-1.6h1.2Z"/></svg>';
 const crisisSection = () => `<section class="detail-section privacy-crisis"><div class="privacy-crisis-card"><div class="privacy-crisis-heading"><span class="privacy-crisis-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 3 9 17H3L12 3Z"/><path d="M12 8v5m0 3h.01"/></svg></span><h2>If you are in crisis</h2></div><p>This website is not monitored for emergencies and is not a substitute for urgent care. If you or someone else is in immediate danger, please use the resources below.</p><ul><li><a href="tel:911"><span class="crisis-phone" aria-hidden="true">${crisisPhoneIcon}</span><span><strong>911</strong> for life-threatening emergencies.</span></a></li><li><a href="tel:988"><span class="crisis-phone" aria-hidden="true">${crisisPhoneIcon}</span><span><strong>988</strong> Suicide &amp; Crisis Lifeline. Call or text 988, 24/7.</span></a></li><li><a href="sms:741741"><span class="crisis-phone" aria-hidden="true">${crisisPhoneIcon}</span><span><strong>741741</strong> Crisis Text Line. Text HOME to 741741, 24/7.</span></a></li></ul></div></section>`;
 const navChevron = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="nav-chevron lucide lucide-chevron-down" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>';
@@ -172,7 +172,14 @@ const pages = {
     ['Anxiety', ["Anxiety can keep your mind running long after you want it to stop. It can make decisions feel overwhelming, turn small things into big things, and leave you constantly anticipating what might go wrong." ]],
     ['Depression', ["Depression can make everything feel heavier in a different way. Things that once felt meaningful can feel distant, motivation can disappear, and even basic tasks can take more effort than you have to give." ]],
     ['When they show up together', ["Sometimes they show up together. Sometimes one takes over for a while and the other follows. And sometimes it's hard to explain what's happening at all — you just know that life feels harder than it used to. You don't have to figure it out alone." ]],
-    serviceSection('How we work with it', paras(['I\'m not here to tell you to "just think positively" or hand you a list of things you should be doing differently. I\'m here to meet you where you are, understand what you\'re carrying, and work through it with you — one piece at a time.']) + serviceSteps(["Understand what's happening beneath the surface", 'Recognize the patterns that keep you stuck', 'Respond to overwhelm without shutting down', "Challenge thoughts that aren't serving you", 'Reconnect with the things that matter to you', 'Make changes that feel realistic, not overwhelming']), 'detail-section-tint')
+    serviceSection('How we work with it', paras(['I\'m not here to tell you to "just think positively" or hand you a list of things you should be doing differently. I\'m here to meet you where you are, understand what you\'re carrying, and work through it with you — one piece at a time.']) + serviceSteps([
+      ['compass', "Understand what's happening beneath the surface"],
+      ['layers', 'Recognize the patterns that keep you stuck'],
+      ['heart-handshake', 'Respond to overwhelm without shutting down'],
+      ['brain', "Challenge thoughts that aren't serving you"],
+      ['sparkles', 'Reconnect with the things that matter to you'],
+      ['arrow-right', 'Make changes that feel realistic, not overwhelming']
+    ]), 'detail-section-tint')
   ], 'One piece at a time.'),
   'services/transitions': service('Going Through a Transition?', '', 'SPECIALTY', "You don't have to do it alone.", [
     serviceCards('You might be navigating…', [
