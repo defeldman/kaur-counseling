@@ -1,4 +1,4 @@
-### home @desktop  liveH=9887 ghH=9893 (+6)
+### home @desktop  liveH=9887 ghH=9962 (+75)
 TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission District, San Francisco" -> "Sohavani Mand, LMFT | Kaur Counseling"
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (30) --
@@ -34,78 +34,58 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
   y=9831 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (44) --
-  y=2053 [P] “As you live deeper in the heart,
-  y=2053 [P] the mirror gets clearer and cleaner.”
-  y=2837 [H3] AD(H)D & Late-Stage
-  y=2837 [H3] Diagnosis
-  y=2837 [H3] Multicultural & Cross-
-  y=2837 [H3] Cultural Therapy
-  y=2837 [H3] Young Women Coming
-  y=2837 [H3] of Age
-  y=3977 [SPAN] ⌁
-  y=3977 [SPAN] ⌁
-  y=3977 [SPAN] ⌁
-  y=3977 [SPAN] ⌁
-  y=3977 [SPAN] ⌁
-  y=3977 [SPAN] ⌁
-  y=3977 [SPAN] ⌁
-  y=3977 [SPAN] ⌁
-  y=3977 [SPAN] ⌁
-  y=3977 [SPAN] ⌁
-  y=3979 [SPAN] Healing takes its own time, be gentle with yourself
-  y=3977 [SPAN] ⌁
-  y=3979 [SPAN] Healing takes its own time, be gentle with yourself
-  y=3977 [SPAN] ⌁
-  y=3979 [SPAN] Healing takes its own time, be gentle with yourself
-  y=3977 [SPAN] ⌁
-  y=3979 [SPAN] Healing takes its own time, be gentle with yourself
-  y=3977 [SPAN] ⌁
-  y=8674 [SPAN] ◷
-  y=8720 [SPAN] ⌖
-  y=8766 [SPAN] ✉
-  y=8812 [SPAN] ⌕
-  y=9370 [SPAN] ⌖
-  y=9370 [SMALL] ↗
-  y=9419 [SPAN] ⌕
-  y=9689 [DIV] Sohavani Mand,
-  y=9689 [DIV] LMFT
-  y=9696 [DIV] CA LIC.
-  y=9696 [DIV] #150884
-  y=9696 [DIV] Kaur Counseling, Marriage & Family
-  y=9696 [DIV] Therapy, Inc.
-  y=9695 [A] 415-930-
-  y=9695 [A] 5395
-  y=9691 [A] Privacy &
-  y=9691 [A] Disclaimer
-  y=9809 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2050 [P] “As you live deeper in the heart,
+  y=2050 [P] the mirror gets clearer and cleaner.”
+  y=2843 [H3] AD(H)D & Late-Stage
+  y=2843 [H3] Diagnosis
+  y=2843 [H3] Multicultural & Cross-
+  y=2843 [H3] Cultural Therapy
+  y=2843 [H3] Young Women Coming
+  y=2843 [H3] of Age
+  y=3982 [SPAN] ⌁
+  y=3982 [SPAN] ⌁
+  y=3982 [SPAN] ⌁
+  y=3982 [SPAN] ⌁
+  y=3982 [SPAN] ⌁
+  y=3982 [SPAN] ⌁
+  y=3982 [SPAN] ⌁
+  y=3982 [SPAN] ⌁
+  y=3982 [SPAN] ⌁
+  y=3982 [SPAN] ⌁
+  y=3985 [SPAN] Healing takes its own time, be gentle with yourself
+  y=3982 [SPAN] ⌁
+  y=3985 [SPAN] Healing takes its own time, be gentle with yourself
+  y=3982 [SPAN] ⌁
+  y=3985 [SPAN] Healing takes its own time, be gentle with yourself
+  y=3982 [SPAN] ⌁
+  y=3985 [SPAN] Healing takes its own time, be gentle with yourself
+  y=3982 [SPAN] ⌁
+  y=8725 [SPAN] ◷
+  y=8761 [SPAN] ⌖
+  y=8797 [SPAN] ✉
+  y=8833 [SPAN] ⌕
+  y=9439 [SPAN] ⌖
+  y=9439 [SMALL] ↗
+  y=9498 [SPAN] ⌕
+  y=9758 [DIV] Sohavani Mand,
+  y=9758 [DIV] LMFT
+  y=9765 [DIV] CA LIC.
+  y=9765 [DIV] #150884
+  y=9765 [DIV] Kaur Counseling, Marriage & Family
+  y=9765 [DIV] Therapy, Inc.
+  y=9764 [A] 415-930-
+  y=9764 [A] 5395
+  y=9760 [A] Privacy &
+  y=9760 [A] Disclaimer
+  y=9878 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (110) --
-  y=368 "Welcome"
-      lh 14.4px->12px
-  y=800 "Scroll to explore"
-      size 9.6px->10px | lh 14.4px->15px | ls 2.88px->2.8px
-  y=948 "3150 18th St, Suite 404, San Francisco, CA 94110"
-      COLOR rgb(88, 25, 37)->rgba(23, 39, 64, 0.75)
+-- STYLE/GEOMETRY DELTAS (84) --
   y=1229 "Kaur Counseling — "Kaur" is pronounced like "Core""
-      font Inter->Fraunces | size 12px->13px | lh 16px->19.5px | COLOR rgba(57, 96, 71, 0.6)->rgb(136, 144, 128)
-  y=1445 "Hi, and welcome — I'm glad you're here. If you've found"
-      size 16px->15px | lh 26px->22.5px
-  y=1517 "Maybe you're deeply self-aware but still repeating the "
-      size 16px->15px | lh 26px->22.5px
-  y=1667 "If you're feeling stuck, unmoored, or ready for somethi"
-      size 16px->15px | lh 26px->22.5px
-  y=1869 "Over time, therapy can help you feel more grounded, mor"
-      size 16px->15px | lh 26px->22.5px
-  y=2008 "Learn more about me"
-      lh 20px->16.8px
-  y=2173 "— Rumi"
-      size 14px->11px | lh 20px->11px | ls 2.8px->3.08px
-  y=3060 "Learn more"
-      lh 20px->16.8px
-  y=3118 "Learn more"
-      lh 20px->16.8px
-  y=3118 "Learn more"
-      lh 20px->16.8px
+      style italic->normal
+  y=2593 "The areas I've gone deepest in, where my training, curi"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.6)
+  y=3294 "Therapy doesn't always begin with a clear diagnosis or "
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.6)
   y=3977 "Healing takes its own time, be gentle with yourself"
       lh 24px->normal | ls 0.4px->normal
   y=3977 "Healing takes its own time, be gentle with yourself"
@@ -130,82 +110,36 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
       lh 24px->normal | ls 0.4px->normal
   y=3977 "Healing takes its own time, be gentle with yourself"
       lh 24px->normal | ls 0.4px->normal
-  y=7514 "01"
-      size 14px->13px | lh 20px->normal | COLOR rgba(23, 39, 64, 0.4)->rgb(146, 144, 140)
-  y=7514 "02"
-      size 14px->13px | lh 20px->normal | COLOR rgba(23, 39, 64, 0.4)->rgb(146, 144, 140)
-  y=7514 "03"
-      size 14px->13px | lh 20px->normal | COLOR rgba(23, 39, 64, 0.4)->rgb(146, 144, 140)
-  y=8285 "What happens next"
-      ls 2.4px->3px
-  y=8327 "01"
-      lh 24.75px->normal | COLOR rgba(57, 96, 71, 0.6)->rgb(156, 156, 146)
-  y=8327 "Click request appointment and schedule your consultatio"
-      size 16px->14px | lh 26px->21px
-  y=8414 "I'm glad you're here. Finding the right therapist is su"
-      size 16px->15px | lh 26px->22.5px
-  y=8425 "02"
-      lh 24.75px->normal | COLOR rgba(57, 96, 71, 0.6)->rgb(156, 156, 146)
-  y=8425 "I'll give you a call for a 15-minute chat so we can see"
-      size 16px->14px | lh 26px->21px
-  y=8523 "03"
-      lh 24.75px->normal | COLOR rgba(57, 96, 71, 0.6)->rgb(156, 156, 146)
-  y=8523 "If we're a good fit, I'll get you scheduled for your fi"
-      size 16px->14px | lh 26px->21px
-  y=8674 "Tue–Sat · 9am–6pm"
-      size 14px->13px | lh 20px->19.5px
-  y=8682 "Choose a service, share a brief note about what brings "
-      size 16px->15px | lh 26px->22.5px
-  y=8714 "3150 18th St, Suite 404 · Mission District, SF"
-      size 14px->13px | lh 20px->19.5px
-  y=8754 "sohavani@kaurcounseling.net"
-      size 14px->13px | lh 20px->19.5px
+  y=5306 "Whoever you are, however you got here, this is a space "
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.6)
+  y=7261 "No single approach fits every life. These are the frame"
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.6)
   y=8766 "Request Appointment"
       lh 20px->21px | ls 0.35px->normal
-  y=8794 "415-930-5395"
-      size 14px->13px | lh 20px->19.5px
   y=8834 "Opens a secure scheduling window, no email form."
-      size 12px->11px | lh 16px->16.5px
-  y=8923 "Learn more about the cost"
-      lh 20px->16.8px
-  y=8923 "Browse the reading list"
-      lh 20px->16.8px
-  y=9143 "My office is a calm, private space in the heart of the "
-      size 16px->15px | lh 26px->22.5px
-  y=9310 "but in-person sessions start"
-      lh 22.75px->21px | COLOR rgba(23, 39, 64, 0.8)->rgb(94, 93, 97) | bg null->rgba(232, 224, 212, 0.55)
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=9310 "."
       size 14px->21px | lh 22.75px->normal | COLOR rgba(23, 39, 64, 0.8)->rgb(241, 234, 223)
   y=9312 "Virtual sessions are always available,"
-      weight 600->700 | lh 22.75px->21px
+      COLOR rgb(88, 25, 37)->rgba(23, 39, 64, 0.8)
   y=9335 "October 1st"
-      weight 600->700 | lh 22.75px->21px
+      COLOR rgb(88, 25, 37)->rgba(23, 39, 64, 0.8)
   y=9405 "3150 18th St, Suite 404, San Francisco, CA 94110"
-      size 14px->13px | lh 22.75px->19.5px | COLOR rgba(23, 39, 64, 0.8)->rgba(23, 39, 64, 0.75)
-  y=9466 "415-930-5395"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.8)->rgba(23, 39, 64, 0.75)
-  y=9713 "Home"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=9713 "About"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=9713 "Services"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=9713 "Contact"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
+      lh 22.75px->20px
   y=9799 "If you are in crisis, call or text"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=9799 "988"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=9799 "(Suicide & Crisis Lifeline) or"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=9799 "911"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=9799 "for emergencies. This site is not monitored 24/7."
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=9831 "©"
       size 12px->21px | lh 16px->normal | COLOR rgba(23, 39, 64, 0.4)->rgb(241, 234, 223)
 
-### about @desktop  liveH=3752 ghH=3945 (+193)
+### about @desktop  liveH=3752 ghH=3942 (+190)
 TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission District, San Francisco" -> "Sohavani Mand, LMFT | Kaur Counseling"
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (9) --
@@ -223,32 +157,30 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
   y=38 [SPAN] ⌄
   y=281 [H1] Therapy as a practice in honesty and
   y=280 [EM] self love.
-  y=691 [SPAN] ⌁
-  y=691 [SPAN] ⌁
-  y=691 [SPAN] ⌁
-  y=3277 [P] A place to begin
-  y=3313 [H2] Ready to start a conversation?
-  y=3370 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=3461 [SPAN] ↗
-  y=3740 [DIV] Sohavani Mand,
-  y=3740 [DIV] LMFT
-  y=3747 [DIV] CA LIC.
-  y=3747 [DIV] #150884
-  y=3747 [DIV] Kaur Counseling, Marriage & Family
-  y=3747 [DIV] Therapy, Inc.
-  y=3746 [A] 415-930-
-  y=3746 [A] 5395
-  y=3743 [A] Privacy &
-  y=3743 [A] Disclaimer
-  y=3860 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=686 [SPAN] ⌁
+  y=686 [SPAN] ⌁
+  y=686 [SPAN] ⌁
+  y=3275 [P] A place to begin
+  y=3311 [H2] Ready to start a conversation?
+  y=3368 [P] Reach out for a free consultation and we’ll begin with wherever you are.
+  y=3459 [SPAN] ↗
+  y=3738 [DIV] Sohavani Mand,
+  y=3738 [DIV] LMFT
+  y=3745 [DIV] CA LIC.
+  y=3745 [DIV] #150884
+  y=3745 [DIV] Kaur Counseling, Marriage & Family
+  y=3745 [DIV] Therapy, Inc.
+  y=3744 [A] 415-930-
+  y=3744 [A] 5395
+  y=3740 [A] Privacy &
+  y=3740 [A] Disclaimer
+  y=3858 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (54) --
   y=112 "Back to Home"
-      ls normal->0.14px | COLOR rgb(57, 96, 71)->rgb(69, 108, 83)
+      ls normal->0.14px
   y=242 "Starting out"
       ls 3.6px->3px
-  y=372 "I'm a brown, South Asian therapist practicing in San Fr"
-      lh 26px->27.2px
   y=555 "Get Started"
       lh 20px->21px | ls 0.35px->normal
   y=584 "What to expect"
@@ -289,16 +221,10 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
       size 30px->31px | lh 36px->35.65px
   y=2071 "How I work"
       weight 400->500 | lh 28px->24px
-  y=2107 "My approach is relational, strengths-based, and collabo"
-      size 16px->15px | lh 26px->25.8px
   y=2251 "What therapy feels like"
       weight 400->500 | lh 28px->24px
-  y=2287 "You'll find a safe, nonjudgmental space to set down the"
-      size 16px->15px | lh 26px->25.8px
   y=2497 "Who I see"
       size 30px->31px | lh 36px->35.65px
-  y=2598 "I see individuals, couples, and families, teens through"
-      size 16px->15px | lh 26px->25.8px
   y=2815 "Training & credentials"
       size 30px->31px | lh 36px->35.65px
   y=2871 "Licensed Marriage & Family Therapist (LMFT) · CA Lic. #"
@@ -312,31 +238,23 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
   y=2967 "Modality training: Attachment-based, CBT, DBT, Relation"
       lh 20px->25.2px | bg rgba(57, 96, 71, 0.05)->null
   y=3207 "If this feels like the right place to begin, you don't "
-      font Fraunces->Inter | size 30px->15px | style italic->normal | lh 36px->25.8px | COLOR rgb(241, 234, 223)->rgba(23, 39, 64, 0.7)
+      font Fraunces->Inter | size 30px->16px | style italic->normal | lh 36px->26px | COLOR rgb(241, 234, 223)->rgba(23, 39, 64, 0.7)
   y=3311 "Get Started"
       lh 20px->21px | ls 0.35px->normal | COLOR rgb(88, 25, 37)->rgb(241, 234, 223) | bg rgb(241, 234, 223)->rgb(88, 25, 37)
-  y=3578 "Home"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=3578 "About"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=3578 "Services"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=3578 "Contact"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
   y=3664 "If you are in crisis, call or text"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=3664 "988"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=3664 "(Suicide & Crisis Lifeline) or"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=3664 "911"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=3664 "for emergencies. This site is not monitored 24/7."
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=3696 "©"
       size 12px->0px | lh 16px->20px | ls normal->0.35px | COLOR rgba(23, 39, 64, 0.4)->rgba(23, 39, 64, 0.7)
 
-### cost @desktop  liveH=2447 ghH=2728 (+281)
+### cost @desktop  liveH=2447 ghH=2729 (+282)
 TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission District, San Francisco" -> "Sohavani Mand, LMFT | Kaur Counseling"
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (16) --
@@ -367,31 +285,29 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
   y=1174 [STRONG] $300
   y=1233 [SPAN] Couples and family sessions · 50 minutes
   y=1233 [STRONG] $250
-  y=1394 [P] Payment is due at the time of service. I accept major credit and debit cards and can provi
+  y=1395 [P] Payment is due at the time of service. I accept major credit and debit cards and can provi
   y=1566 [P] I'm out-of-network with insurance plans, but I can provide a superbill after each session.
-  y=1636 [P] Many clients receive 50–80% of the session fee back, depending on their plan. Call the num
-  y=1833 [P] Choosing not to bill insurance means your care stays private and your treatment is shaped 
-  y=2061 [P] A place to begin
-  y=2097 [H2] Ready to start a conversation?
-  y=2154 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=2245 [SPAN] ↗
-  y=2524 [DIV] Sohavani Mand,
-  y=2524 [DIV] LMFT
-  y=2530 [DIV] CA LIC.
-  y=2530 [DIV] #150884
-  y=2530 [DIV] Kaur Counseling, Marriage & Family
-  y=2530 [DIV] Therapy, Inc.
-  y=2529 [A] 415-930-
-  y=2529 [A] 5395
-  y=2526 [A] Privacy &
-  y=2526 [A] Disclaimer
-  y=2643 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=1637 [P] Many clients receive 50–80% of the session fee back, depending on their plan. Call the num
+  y=1835 [P] Choosing not to bill insurance means your care stays private and your treatment is shaped 
+  y=2063 [P] A place to begin
+  y=2099 [H2] Ready to start a conversation?
+  y=2156 [P] Reach out for a free consultation and we’ll begin with wherever you are.
+  y=2247 [SPAN] ↗
+  y=2526 [DIV] Sohavani Mand,
+  y=2526 [DIV] LMFT
+  y=2533 [DIV] CA LIC.
+  y=2533 [DIV] #150884
+  y=2533 [DIV] Kaur Counseling, Marriage & Family
+  y=2533 [DIV] Therapy, Inc.
+  y=2532 [A] 415-930-
+  y=2532 [A] 5395
+  y=2528 [A] Privacy &
+  y=2528 [A] Disclaimer
+  y=2645 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (20) --
   y=128 "Back to Home"
-      ls normal->0.14px | COLOR rgb(57, 96, 71)->rgb(69, 108, 83)
-  y=202 "The Investment"
-      COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
+      ls normal->0.14px
   y=244 "The cost of individual therapy"
       ls normal->-0.96px
   y=312 "Private-pay, with a clear path to reimbursement."
@@ -406,28 +322,20 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
       size 24px->31px | lh 32px->35.65px
   y=2046 "Get Started"
       lh 20px->21px | ls 0.35px->normal
-  y=2273 "Home"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=2273 "About"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=2273 "Services"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=2273 "Contact"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
   y=2359 "If you are in crisis, call or text"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2359 "988"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=2359 "(Suicide & Crisis Lifeline) or"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2359 "911"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=2359 "for emergencies. This site is not monitored 24/7."
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2391 "©"
       size 12px->0px | lh 16px->20px | ls normal->0.35px | COLOR rgba(23, 39, 64, 0.4)->rgba(23, 39, 64, 0.7)
 
-### resources @desktop  liveH=3360 ghH=2815 (-545)
+### resources @desktop  liveH=3360 ghH=2802 (-558)
 TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission District, San Francisco" -> "Sohavani Mand, LMFT | Kaur Counseling"
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (46) --
@@ -485,55 +393,53 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
   y=396 [SPAN] ⌁
   y=654 [SPAN] ⌁
   y=631 [SPAN] Translated by Coleman Barks · Scottish Poetry Library
-  y=850 [P] Practical adult attachment styles.
-  y=908 [P] Emotionally focused therapy.
-  y=965 [P] Research-grounded tools.
-  y=1044 [P] A compassionate guide for couples.
-  y=1236 [P] Understanding the developing mind.
-  y=1293 [P] Connection before correction.
-  y=1351 [P] Building emotional awareness.
-  y=1430 [P] A practical classic for connection.
-  y=1643 [P] Small changes that compound.
-  y=1701 [P] A wholehearted way of living.
-  y=1758 [P] Healing through Internal Family Systems.
-  y=1950 [P] A memoir of complex trauma and healing.
-  y=2148 [P] A place to begin
-  y=2184 [H2] Ready to start a conversation?
-  y=2241 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=2332 [SPAN] ↗
-  y=2611 [DIV] Sohavani Mand,
-  y=2611 [DIV] LMFT
-  y=2618 [DIV] CA LIC.
-  y=2618 [DIV] #150884
-  y=2618 [DIV] Kaur Counseling, Marriage & Family
-  y=2618 [DIV] Therapy, Inc.
-  y=2617 [A] 415-930-
-  y=2617 [A] 5395
-  y=2613 [A] Privacy &
-  y=2613 [A] Disclaimer
-  y=2731 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=851 [P] Practical adult attachment styles.
+  y=907 [P] Emotionally focused therapy.
+  y=963 [P] Research-grounded tools.
+  y=1042 [P] A compassionate guide for couples.
+  y=1233 [P] Understanding the developing mind.
+  y=1289 [P] Connection before correction.
+  y=1345 [P] Building emotional awareness.
+  y=1424 [P] A practical classic for connection.
+  y=1637 [P] Small changes that compound.
+  y=1693 [P] A wholehearted way of living.
+  y=1749 [P] Healing through Internal Family Systems.
+  y=1940 [P] A memoir of complex trauma and healing.
+  y=2136 [P] A place to begin
+  y=2172 [H2] Ready to start a conversation?
+  y=2229 [P] Reach out for a free consultation and we’ll begin with wherever you are.
+  y=2320 [SPAN] ↗
+  y=2599 [DIV] Sohavani Mand,
+  y=2599 [DIV] LMFT
+  y=2606 [DIV] CA LIC.
+  y=2606 [DIV] #150884
+  y=2606 [DIV] Kaur Counseling, Marriage & Family
+  y=2606 [DIV] Therapy, Inc.
+  y=2604 [A] 415-930-
+  y=2604 [A] 5395
+  y=2601 [A] Privacy &
+  y=2601 [A] Disclaimer
+  y=2718 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (52) --
+-- STYLE/GEOMETRY DELTAS (51) --
   y=128 "Back to About"
-      ls normal->0.14px | COLOR rgb(57, 96, 71)->rgb(69, 108, 83)
-  y=180 "Resources"
-      COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
+      ls normal->0.14px
   y=280 "Books I return to and often share with clients. These a"
       lh 29.25px->29.7px
   y=409 "A poem to sit with"
-      size 9.6px->12px | lh 14.4px->16px | ls 2.88px->3px
+      size 9.6px->12px | lh 14.4px->16px | ls 2.88px->3px | COLOR rgba(57, 96, 71, 0.8)->rgba(88, 25, 37, 0.8)
   y=430 "The Guest House"
       size 18px->20px | style italic->normal | lh 28px->21.6px
   y=470 "This being human is a guest house."
-      lh 19.25px->21px | COLOR rgba(23, 39, 64, 0.85)->rgb(79, 93, 99)
+      lh 19.25px->21px
   y=491 "Every morning a new arrival."
-      lh 19.25px->21px | COLOR rgba(23, 39, 64, 0.85)->rgb(79, 93, 99)
+      lh 19.25px->21px
   y=512 "A joy, a depression, a meanness,"
-      lh 19.25px->21px | COLOR rgba(23, 39, 64, 0.85)->rgb(79, 93, 99)
+      lh 19.25px->21px
   y=533 "some momentary awareness comes"
-      lh 19.25px->21px | COLOR rgba(23, 39, 64, 0.85)->rgb(79, 93, 99)
+      lh 19.25px->21px
   y=555 "as an unexpected visitor."
-      lh 19.25px->21px | COLOR rgba(23, 39, 64, 0.85)->rgb(79, 93, 99)
+      lh 19.25px->21px
   y=590 "Jalaluddin Rumi"
       size 10.4px->12px | weight 400->500 | lh 15.6px->19.2px | ls 2.08px->1.8px
   y=633 "Hover to read the full poem"
@@ -545,17 +451,17 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
   y=899 "Hold Me Tight"
       size 20px->18px | weight 400->500 | lh 27.5px->normal
   y=931 "Amir Levine & Rachel Heller"
-      size 14px->13px | style italic->normal | lh 20px->22.36px
+      style italic->normal
   y=931 "Sue Johnson"
-      size 14px->13px | style italic->normal | lh 20px->22.36px
+      style italic->normal
   y=1059 "The Seven Principles for Making Marriage Work"
       size 20px->18px | weight 400->500 | lh 27.5px->normal
   y=1059 "I Want This to Work"
       size 20px->18px | weight 400->500 | lh 27.5px->normal
   y=1091 "Tracee Sioux"
-      size 14px->13px | style italic->normal | lh 20px->22.36px
+      style italic->normal
   y=1118 "John Gottman"
-      size 14px->13px | style italic->normal | lh 20px->22.36px
+      style italic->normal
   y=1324 "Parenting"
       font Inter->Fraunces | size 12px->30px | lh 16px->34.5px | ls 3px->normal | transform uppercase->none | COLOR rgba(88, 25, 37, 0.8)->rgb(23, 39, 64)
   y=1477 "The Whole-Brain Child"
@@ -563,17 +469,17 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
   y=1477 "No-Drama Discipline"
       size 20px->18px | weight 400->500 | lh 27.5px->normal
   y=1508 "Daniel Siegel & Tina Payne Bryson"
-      size 14px->13px | style italic->normal | lh 20px->22.36px
+      style italic->normal
   y=1508 "Daniel Siegel & Tina Payne Bryson"
-      size 14px->13px | style italic->normal | lh 20px->22.36px
+      style italic->normal
   y=1637 "Raising an Emotionally Intelligent Child"
       size 20px->18px | weight 400->500 | lh 27.5px->normal
   y=1637 "How to Talk So Kids Will Listen & Listen So Kids Will T"
       size 20px->18px | weight 400->500 | lh 27.5px->normal
   y=1668 "John Gottman"
-      size 14px->13px | style italic->normal | lh 20px->22.36px
+      style italic->normal
   y=1696 "Adele Faber & Elaine Mazlish"
-      size 14px->13px | style italic->normal | lh 20px->22.36px
+      style italic->normal
   y=1901 "Self-help"
       font Inter->Fraunces | size 12px->30px | lh 16px->34.5px | ls 3px->normal | transform uppercase->none | COLOR rgba(88, 25, 37, 0.8)->rgb(23, 39, 64)
   y=2054 "Atomic Habits"
@@ -581,43 +487,35 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
   y=2054 "The Gifts of Imperfection"
       size 20px->18px | weight 400->500 | lh 27.5px->normal
   y=2085 "James Clear"
-      size 14px->13px | style italic->normal | lh 20px->22.36px
+      style italic->normal
   y=2085 "Brené Brown"
-      size 14px->13px | style italic->normal | lh 20px->22.36px
+      style italic->normal
   y=2214 "No Bad Parts"
       size 20px->18px | weight 400->500 | lh 27.5px->normal
   y=2245 "Richard Schwartz"
-      size 14px->13px | style italic->normal | lh 20px->22.36px
+      style italic->normal
   y=2451 "Trauma"
       font Inter->Fraunces | size 12px->30px | lh 16px->34.5px | ls 3px->normal | transform uppercase->none | COLOR rgba(88, 25, 37, 0.8)->rgb(23, 39, 64)
   y=2630 "What My Bones Know"
       size 20px->18px | weight 400->500 | lh 27.5px->normal
   y=2661 "Stephanie Foo"
-      size 14px->13px | style italic->normal | lh 20px->22.36px
+      style italic->normal
   y=2959 "Get Started"
       lh 20px->21px | ls 0.35px->normal
-  y=3186 "Home"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=3186 "About"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=3186 "Services"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=3186 "Contact"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
   y=3272 "If you are in crisis, call or text"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=3272 "988"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=3272 "(Suicide & Crisis Lifeline) or"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=3272 "911"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=3272 "for emergencies. This site is not monitored 24/7."
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=3304 "©"
       size 12px->0px | lh 16px->20px | ls normal->0.35px | COLOR rgba(23, 39, 64, 0.4)->rgba(23, 39, 64, 0.7)
 
-### modalities @desktop  liveH=3433 ghH=3469 (+36)
+### modalities @desktop  liveH=3433 ghH=3622 (+189)
 TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission District, San Francisco" -> "Sohavani Mand, LMFT | Kaur Counseling"
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (16) --
@@ -640,26 +538,26 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (21) --
   y=38 [SPAN] ⌄
-  y=2547 [P] Curious which lens fits your story?
-  y=2582 [H2] We’ll find the right shape together.
-  y=2643 [P] Reach out for a free consultation and we’ll begin the conversation.
-  y=2703 [SPAN] →
-  y=2801 [P] A place to begin
-  y=2837 [H2] Ready to start a conversation?
-  y=2895 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=2972 [A] Get Started
-  y=2986 [SPAN] ↗
-  y=3265 [DIV] Sohavani Mand,
-  y=3265 [DIV] LMFT
-  y=3271 [DIV] CA LIC.
-  y=3271 [DIV] #150884
-  y=3271 [DIV] Kaur Counseling, Marriage & Family
-  y=3271 [DIV] Therapy, Inc.
-  y=3270 [A] 415-930-
-  y=3270 [A] 5395
-  y=3267 [A] Privacy &
-  y=3267 [A] Disclaimer
-  y=3384 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2699 [P] Curious which lens fits your story?
+  y=2734 [H2] We’ll find the right shape together.
+  y=2795 [P] Reach out for a free consultation and we’ll begin the conversation.
+  y=2857 [SPAN] →
+  y=2956 [P] A place to begin
+  y=2992 [H2] Ready to start a conversation?
+  y=3049 [P] Reach out for a free consultation and we’ll begin with wherever you are.
+  y=3126 [A] Get Started
+  y=3140 [SPAN] ↗
+  y=3419 [DIV] Sohavani Mand,
+  y=3419 [DIV] LMFT
+  y=3425 [DIV] CA LIC.
+  y=3425 [DIV] #150884
+  y=3425 [DIV] Kaur Counseling, Marriage & Family
+  y=3425 [DIV] Therapy, Inc.
+  y=3424 [A] 415-930-
+  y=3424 [A] 5395
+  y=3420 [A] Privacy &
+  y=3420 [A] Disclaimer
+  y=3538 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (39) --
   y=874 "Internal Family Systems"
@@ -670,18 +568,10 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
       size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px | COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
   y=957 "What it is"
       size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px
-  y=983 "IFS sees you as a whole inner world, not one self but m"
-      size 16px->14px | lh 26px->24.08px
-  y=983 "DBT balances two truths at once: you are doing your bes"
-      size 16px->14px | lh 26px->24.08px
   y=1113 "When & why I use it"
       size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px
-  y=1139 "I reach for IFS when inner conflict is loud — when one "
-      size 16px->14px | lh 26px->24.08px
   y=1139 "When & why I use it"
       size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px
-  y=1165 "I use DBT when emotions arrive in waves that feel unman"
-      size 16px->14px | lh 26px->24.08px
   y=1489 "Cognitive Behavioral Therapy"
       size 30px->31px | lh 36px->35.65px
   y=1489 "Art"
@@ -690,52 +580,32 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
       size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px | COLOR rgba(108, 50, 133, 0.85)->rgb(57, 96, 71)
   y=1572 "What it is"
       size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px | COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
-  y=1598 "CBT traces the quiet loop between thoughts, feelings, a"
-      size 16px->14px | lh 26px->24.08px
-  y=1598 "Sometimes the truest things don't arrive as words. Art "
-      size 16px->14px | lh 26px->24.08px
   y=1728 "When & why I use it"
       size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px
   y=1754 "When & why I use it"
       size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px
-  y=1754 "I reach for art when words run out, when a feeling is t"
-      size 16px->14px | lh 26px->24.08px
-  y=1780 "I reach for CBT when anxiety or depression has a specif"
-      size 16px->14px | lh 26px->24.08px
   y=2078 "Attachment"
       size 30px->31px | lh 36px->35.65px
   y=2161 "What it is"
       size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px
-  y=2187 "Attachment work listens for the blueprint your earliest"
-      size 16px->14px | lh 26px->24.08px
   y=2343 "When & why I use it"
       size 12px->15px | lh 16px->25.8px | ls 2.64px->3.75px
-  y=2369 "I reach for this when the same shape keeps showing up i"
-      size 16px->14px | lh 26px->24.08px
   y=2952 "Get Started"
-      lh 20px->16.8px | bg rgb(241, 234, 223)->null
-  y=3259 "Home"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=3259 "About"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=3259 "Services"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=3259 "Contact"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
+      bg rgb(241, 234, 223)->null
   y=3345 "If you are in crisis, call or text"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=3345 "988"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=3345 "(Suicide & Crisis Lifeline) or"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=3345 "911"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=3345 "for emergencies. This site is not monitored 24/7."
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=3377 "©"
       size 12px->0px | lh 16px->20px | ls normal->0.35px | COLOR rgba(23, 39, 64, 0.4)->rgba(23, 39, 64, 0.7)
 
-### get-started @desktop  liveH=1618 ghH=1611 (-7)
+### get-started @desktop  liveH=1618 ghH=1634 (+16)
 TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission District, San Francisco" -> "Sohavani Mand, LMFT | Kaur Counseling"
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (11) --
@@ -752,68 +622,54 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
   y=1562 [DIV] Sohavani Mand, LMFT. Confidential by design.
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (16) --
-  y=626 [SPAN] ↗
-  y=1074 [P] Virtual sessions are always available, but in-person sessions start October 1st.
-  y=1153 [SPAN] ⌖
-  y=1153 [SMALL] ↗
-  y=1202 [SPAN] ⌕
-  y=1407 [DIV] Sohavani Mand,
-  y=1407 [DIV] LMFT
-  y=1414 [DIV] CA LIC.
-  y=1414 [DIV] #150884
-  y=1414 [DIV] Kaur Counseling, Marriage & Family
-  y=1414 [DIV] Therapy, Inc.
-  y=1412 [A] 415-930-
-  y=1412 [A] 5395
-  y=1409 [A] Privacy &
-  y=1409 [A] Disclaimer
-  y=1527 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=630 [SPAN] ↗
+  y=1116 [P] Virtual sessions are always available, but in-person sessions start October 1st.
+  y=1197 [SPAN] ⌖
+  y=1197 [SMALL] ↗
+  y=1236 [SPAN] ⌕
+  y=1431 [DIV] Sohavani Mand,
+  y=1431 [DIV] LMFT
+  y=1437 [DIV] CA LIC.
+  y=1437 [DIV] #150884
+  y=1437 [DIV] Kaur Counseling, Marriage & Family
+  y=1437 [DIV] Therapy, Inc.
+  y=1436 [A] 415-930-
+  y=1436 [A] 5395
+  y=1432 [A] Privacy &
+  y=1432 [A] Disclaimer
+  y=1550 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (26) --
-  y=134 "Get Started"
-      COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
   y=169 "right fit?"
       ls normal->-1.8px
   y=176 "Are we the"
       ls normal->-1.8px
   y=268 "I'm glad you're here. Finding the right therapist is su"
       lh 29.25px->28.8px
-  y=539 "Choose a service, share a brief note about what brings "
-      size 16px->15px | lh 26px->24px
   y=597 "Request Appointment"
       lh 20px->21px | ls 0.35px->normal
   y=665 "Opens a secure scheduling window, no email form."
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=922 "My office is a calm, private space in the heart of the "
-      size 16px->14px | lh 26px->23.1px | bg null->rgba(91, 30, 42, 0.05)
+      bg null->rgba(91, 30, 42, 0.05)
   y=1089 "."
       size 14px->0px | lh 22.75px->20px | ls normal->0.35px | COLOR rgba(23, 39, 64, 0.8)->rgba(23, 39, 64, 0.7)
   y=1184 "3150 18th St, Suite 404, San Francisco, CA 94110"
-      size 14px->13px | lh 22.75px->19.5px
-  y=1245 "415-930-5395"
-      size 14px->13px | lh 20px->19.5px
-  y=1444 "Home"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=1444 "About"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=1444 "Services"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=1444 "Contact"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
+      lh 22.75px->20px
   y=1530 "If you are in crisis, call or text"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=1530 "988"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=1530 "(Suicide & Crisis Lifeline) or"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=1530 "911"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=1530 "for emergencies. This site is not monitored 24/7."
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=1562 "©"
       size 12px->0px | lh 16px->20px | ls normal->0.35px | COLOR rgba(23, 39, 64, 0.4)->rgba(23, 39, 64, 0.7)
 
-### adhd @desktop  liveH=3748 ghH=2940 (-808)
+### adhd @desktop  liveH=3748 ghH=2969 (-779)
 TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission District, San Francisco" -> "Sohavani Mand, LMFT | Kaur Counseling"
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (43) --
@@ -865,39 +721,39 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
   y=38 [SPAN] ⌄
   y=741 [P] ADHD in women is often missed, minimized, or explained away as anxiety, laziness, or not t
   y=979 [P] A late diagnosis can bring relief and grief at the same time. It can explain the unfinishe
-  y=1156 [P] Relationships · Rejection sensitivity can make a pause, a tone, or a missed text feel enor
-  y=1201 [P] Work & career · You may be capable and praised while privately relying on urgency, overwor
-  y=1271 [P] School & study · You were bright enough to coast, until the structure became more complex 
-  y=1342 [P] Self-esteem · A running inner monologue can turn ordinary friction into evidence that you 
-  y=1387 [P] Body & food · Forgetting to eat, sleep, or notice your own needs can become part of the rh
-  y=1432 [P] Sex & intimacy · Being distracted, flooded, or disconnected from your body can make closen
-  y=1643 [P] There may be grief for the years you spent blaming yourself, and anger at how hard you had
-  y=1820 [P] A thousand things at once · We practice turning a storm into one next thing.
-  y=1865 [P] Hyperfocus ↔ overwhelm · We build a rhythm that does not depend on crisis.
-  y=1910 [P] Forgetfulness about what you love · We make room for the interests and people that restore
-  y=1955 [P] Time warps and vanishes · We externalize time without turning your life into a punishment.
-  y=1999 [P] The exhaustion of masking · We notice where performing has replaced being.
-  y=2044 [P] The intention-action gap · We separate knowing what to do from having the support to do it
-  y=2089 [P] You are not a problem to be fixed. Your brain is asking for a different kind of environmen
-  y=2273 [P] A place to begin
-  y=2309 [H2] Ready to start a conversation?
-  y=2366 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=2457 [SPAN] ↗
-  y=2736 [DIV] Sohavani Mand,
-  y=2736 [DIV] LMFT
-  y=2743 [DIV] CA LIC.
-  y=2743 [DIV] #150884
-  y=2743 [DIV] Kaur Counseling, Marriage & Family
-  y=2743 [DIV] Therapy, Inc.
-  y=2741 [A] 415-930-
-  y=2741 [A] 5395
-  y=2738 [A] Privacy &
-  y=2738 [A] Disclaimer
-  y=2855 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=1157 [P] Relationships · Rejection sensitivity can make a pause, a tone, or a missed text feel enor
+  y=1202 [P] Work & career · You may be capable and praised while privately relying on urgency, overwor
+  y=1273 [P] School & study · You were bright enough to coast, until the structure became more complex 
+  y=1344 [P] Self-esteem · A running inner monologue can turn ordinary friction into evidence that you 
+  y=1389 [P] Body & food · Forgetting to eat, sleep, or notice your own needs can become part of the rh
+  y=1434 [P] Sex & intimacy · Being distracted, flooded, or disconnected from your body can make closen
+  y=1671 [P] There may be grief for the years you spent blaming yourself, and anger at how hard you had
+  y=1849 [P] A thousand things at once · We practice turning a storm into one next thing.
+  y=1894 [P] Hyperfocus ↔ overwhelm · We build a rhythm that does not depend on crisis.
+  y=1939 [P] Forgetfulness about what you love · We make room for the interests and people that restore
+  y=1984 [P] Time warps and vanishes · We externalize time without turning your life into a punishment.
+  y=2029 [P] The exhaustion of masking · We notice where performing has replaced being.
+  y=2074 [P] The intention-action gap · We separate knowing what to do from having the support to do it
+  y=2119 [P] You are not a problem to be fixed. Your brain is asking for a different kind of environmen
+  y=2303 [P] A place to begin
+  y=2339 [H2] Ready to start a conversation?
+  y=2396 [P] Reach out for a free consultation and we’ll begin with wherever you are.
+  y=2487 [SPAN] ↗
+  y=2766 [DIV] Sohavani Mand,
+  y=2766 [DIV] LMFT
+  y=2773 [DIV] CA LIC.
+  y=2773 [DIV] #150884
+  y=2773 [DIV] Kaur Counseling, Marriage & Family
+  y=2773 [DIV] Therapy, Inc.
+  y=2771 [A] 415-930-
+  y=2771 [A] 5395
+  y=2768 [A] Privacy &
+  y=2768 [A] Disclaimer
+  y=2885 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (21) --
   y=128 "Back to Services"
-      ls normal->0.14px | COLOR rgb(57, 96, 71)->rgb(69, 108, 83)
+      ls normal->0.14px
   y=202 "Specialty"
       lh 16px->14.5px
   y=388 "A diagnosis found in adulthood re-reads an entire life."
@@ -916,28 +772,20 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
       size 30px->31px | lh 36px->35.65px | COLOR rgb(23, 39, 64)->rgb(57, 96, 71)
   y=3347 "Get Started"
       lh 20px->21px | ls 0.35px->normal
-  y=3574 "Home"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=3574 "About"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=3574 "Services"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=3574 "Contact"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
   y=3660 "If you are in crisis, call or text"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=3660 "988"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=3660 "(Suicide & Crisis Lifeline) or"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=3660 "911"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=3660 "for emergencies. This site is not monitored 24/7."
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=3692 "©"
       size 12px->0px | lh 16px->20px | ls normal->0.35px | COLOR rgba(23, 39, 64, 0.4)->rgba(23, 39, 64, 0.7)
 
-### multiculturalism @desktop  liveH=2556 ghH=2463 (-93)
+### multiculturalism @desktop  liveH=2556 ghH=2464 (-92)
 TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission District, San Francisco" -> "Sohavani Mand, LMFT | Kaur Counseling"
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (18) --
@@ -966,29 +814,29 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
   y=453 [P] Living between cultures is a quiet, ongoing negotiation. We hold the grief and the resilie
   y=712 [P] Living between cultures is a quiet, ongoing negotiation. We hold the grief and the resilie
   y=950 [P] You may feel pulled between the values you grew up with and the expectations of the world 
-  y=1127 [P] Being the first in your family to move through a particular world can mean carrying respon
-  y=1364 [P] Home may be a feeling rather than a place. We can explore the disorientation, flexibility,
-  y=1541 [P] We can look at what has been carried forward through family stories, silence, survival str
-  y=1612 [P] You do not have to compress yourself into one identity to be understood here.
-  y=1796 [P] A place to begin
-  y=1832 [H2] Ready to start a conversation?
-  y=1889 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=1980 [SPAN] ↗
-  y=2259 [DIV] Sohavani Mand,
-  y=2259 [DIV] LMFT
-  y=2265 [DIV] CA LIC.
-  y=2265 [DIV] #150884
-  y=2265 [DIV] Kaur Counseling, Marriage & Family
-  y=2265 [DIV] Therapy, Inc.
-  y=2264 [A] 415-930-
-  y=2264 [A] 5395
-  y=2261 [A] Privacy &
-  y=2261 [A] Disclaimer
-  y=2378 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=1128 [P] Being the first in your family to move through a particular world can mean carrying respon
+  y=1365 [P] Home may be a feeling rather than a place. We can explore the disorientation, flexibility,
+  y=1543 [P] We can look at what has been carried forward through family stories, silence, survival str
+  y=1614 [P] You do not have to compress yourself into one identity to be understood here.
+  y=1798 [P] A place to begin
+  y=1834 [H2] Ready to start a conversation?
+  y=1891 [P] Reach out for a free consultation and we’ll begin with wherever you are.
+  y=1982 [SPAN] ↗
+  y=2261 [DIV] Sohavani Mand,
+  y=2261 [DIV] LMFT
+  y=2268 [DIV] CA LIC.
+  y=2268 [DIV] #150884
+  y=2268 [DIV] Kaur Counseling, Marriage & Family
+  y=2268 [DIV] Therapy, Inc.
+  y=2266 [A] 415-930-
+  y=2266 [A] 5395
+  y=2262 [A] Privacy &
+  y=2262 [A] Disclaimer
+  y=2380 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (20) --
   y=128 "Back to Services"
-      ls normal->0.14px | COLOR rgb(57, 96, 71)->rgb(69, 108, 83)
+      ls normal->0.14px
   y=202 "Specialty"
       lh 16px->14.5px
   y=388 "When your identity doesn't fit neatly into one box."
@@ -1005,28 +853,20 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
       size 30px->31px | lh 36px->35.65px
   y=2099 "Get Started"
       lh 20px->21px | ls 0.35px->normal | COLOR rgb(88, 25, 37)->rgb(241, 234, 223) | bg rgb(241, 234, 223)->rgb(88, 25, 37)
-  y=2382 "Home"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=2382 "About"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=2382 "Services"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=2382 "Contact"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
   y=2468 "If you are in crisis, call or text"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2468 "988"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=2468 "(Suicide & Crisis Lifeline) or"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2468 "911"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=2468 "for emergencies. This site is not monitored 24/7."
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2500 "©"
       size 12px->0px | lh 16px->20px | ls normal->0.35px | COLOR rgba(23, 39, 64, 0.4)->rgba(23, 39, 64, 0.7)
 
-### burnout @desktop  liveH=2194 ghH=2333 (+139)
+### burnout @desktop  liveH=2194 ghH=2361 (+167)
 TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission District, San Francisco" -> "Sohavani Mand, LMFT | Kaur Counseling"
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (8) --
@@ -1042,25 +882,25 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (17) --
   y=38 [SPAN] ⌄
   y=652 [P] Burnout rarely arrives all at once. It accretes, quietly, through one more task, one more 
-  y=1666 [P] A place to begin
-  y=1702 [H2] Ready to start a conversation?
-  y=1759 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=1850 [SPAN] ↗
-  y=2129 [DIV] Sohavani Mand,
-  y=2129 [DIV] LMFT
-  y=2136 [DIV] CA LIC.
-  y=2136 [DIV] #150884
-  y=2136 [DIV] Kaur Counseling, Marriage & Family
-  y=2136 [DIV] Therapy, Inc.
-  y=2134 [A] 415-930-
-  y=2134 [A] 5395
-  y=2131 [A] Privacy &
-  y=2131 [A] Disclaimer
-  y=2249 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=1695 [P] A place to begin
+  y=1731 [H2] Ready to start a conversation?
+  y=1788 [P] Reach out for a free consultation and we’ll begin with wherever you are.
+  y=1879 [SPAN] ↗
+  y=2158 [DIV] Sohavani Mand,
+  y=2158 [DIV] LMFT
+  y=2165 [DIV] CA LIC.
+  y=2165 [DIV] #150884
+  y=2165 [DIV] Kaur Counseling, Marriage & Family
+  y=2165 [DIV] Therapy, Inc.
+  y=2164 [A] 415-930-
+  y=2164 [A] 5395
+  y=2160 [A] Privacy &
+  y=2160 [A] Disclaimer
+  y=2277 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (24) --
   y=128 "Back to Services"
-      ls normal->0.14px | COLOR rgb(57, 96, 71)->rgb(69, 108, 83)
+      ls normal->0.14px
   y=202 "Specialty"
       lh 16px->14.5px
   y=237 "Burnout."
@@ -1071,42 +911,28 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
       lh 29.25px->29.16px
   y=658 "The slow creep"
       size 30px->31px | lh 36px->35.65px
-  y=720 "Burnout doesn't always show up as a complete breakdown."
-      size 16px->15px | lh 26px->25.8px
   y=1004 "Why it's so hard to ask for help"
       size 30px->31px | lh 36px->35.65px
-  y=1066 "When you're used to measuring your worth by how much yo"
-      size 16px->15px | lh 26px->25.8px
   y=1324 "Tending and rebuilding"
       size 30px->31px | lh 36px->35.65px
-  y=1386 "We start by listening to what the depletion is asking f"
-      size 16px->15px | lh 26px->25.8px
   y=1633 "Recovery is not a project to optimize. It is a returnin"
       size 30px->26px | lh 36px->32.5px | bg null->rgb(88, 25, 37)
   y=1737 "Get Started"
       lh 20px->21px | ls 0.35px->normal | COLOR rgb(88, 25, 37)->rgb(241, 234, 223) | bg rgb(241, 234, 223)->rgb(88, 25, 37)
-  y=2020 "Home"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=2020 "About"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=2020 "Services"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=2020 "Contact"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
   y=2106 "If you are in crisis, call or text"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2106 "988"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=2106 "(Suicide & Crisis Lifeline) or"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2106 "911"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=2106 "for emergencies. This site is not monitored 24/7."
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2138 "©"
       size 12px->0px | lh 16px->20px | ls normal->0.35px | COLOR rgba(23, 39, 64, 0.4)->rgba(23, 39, 64, 0.7)
 
-### anxiety @desktop  liveH=2165 ghH=2232 (+67)
+### anxiety @desktop  liveH=2165 ghH=2258 (+93)
 TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission District, San Francisco" -> "Sohavani Mand, LMFT | Kaur Counseling"
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (17) --
@@ -1130,25 +956,25 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (16) --
   y=245 [H1] Anxiety & Depression.
-  y=1564 [P] A place to begin
-  y=1600 [H2] Ready to start a conversation?
-  y=1657 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=1748 [SPAN] ↗
-  y=2027 [DIV] Sohavani Mand,
-  y=2027 [DIV] LMFT
-  y=2034 [DIV] CA LIC.
-  y=2034 [DIV] #150884
-  y=2034 [DIV] Kaur Counseling, Marriage & Family
-  y=2034 [DIV] Therapy, Inc.
-  y=2033 [A] 415-930-
-  y=2033 [A] 5395
-  y=2030 [A] Privacy &
-  y=2030 [A] Disclaimer
-  y=2147 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=1592 [P] A place to begin
+  y=1628 [H2] Ready to start a conversation?
+  y=1685 [P] Reach out for a free consultation and we’ll begin with wherever you are.
+  y=1776 [SPAN] ↗
+  y=2055 [DIV] Sohavani Mand,
+  y=2055 [DIV] LMFT
+  y=2062 [DIV] CA LIC.
+  y=2062 [DIV] #150884
+  y=2062 [DIV] Kaur Counseling, Marriage & Family
+  y=2062 [DIV] Therapy, Inc.
+  y=2061 [A] 415-930-
+  y=2061 [A] 5395
+  y=2057 [A] Privacy &
+  y=2057 [A] Disclaimer
+  y=2174 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (24) --
   y=128 "Back to Services"
-      ls normal->0.14px | COLOR rgb(57, 96, 71)->rgb(69, 108, 83)
+      ls normal->0.14px
   y=202 "Also in my care"
       lh 16px->14.5px
   y=237 "&"
@@ -1157,44 +983,30 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
       size 60px->31px | style italic->normal | lh 60px->35.65px | COLOR rgb(88, 25, 37)->rgb(57, 96, 71)
   y=244 "Anxiety"
       size 60px->31px | lh 60px->35.65px
-  y=593 "Anxiety can keep your mind running long after you want "
-      size 16px->15px | lh 26px->25.8px
-  y=593 "Depression can make everything feel heavier in a differ"
-      size 16px->15px | lh 26px->25.8px
   y=841 "When they show up together"
       size 30px->31px | lh 36px->35.65px
-  y=901 "Sometimes they show up together. Sometimes one takes ov"
-      size 16px->15px | lh 26px->25.8px
   y=1108 "How we work with it"
       size 30px->31px | lh 36px->35.65px | COLOR rgb(23, 39, 64)->rgb(88, 25, 37)
   y=1152 "I'm not here to tell you to "just think positively" or "
-      size 16px->15px | lh 26px->25.8px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.75)
+      COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.75)
   y=1640 "One piece at a time."
       size 30px->26px | lh 36px->32.5px | bg null->rgb(88, 25, 37)
   y=1708 "Get Started"
       lh 20px->21px | ls 0.35px->normal | COLOR rgb(88, 25, 37)->rgb(241, 234, 223) | bg rgb(241, 234, 223)->rgb(88, 25, 37)
-  y=1991 "Home"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=1991 "About"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=1991 "Services"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=1991 "Contact"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
   y=2077 "If you are in crisis, call or text"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2077 "988"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=2077 "(Suicide & Crisis Lifeline) or"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2077 "911"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=2077 "for emergencies. This site is not monitored 24/7."
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2109 "©"
       size 12px->0px | lh 16px->20px | ls normal->0.35px | COLOR rgba(23, 39, 64, 0.4)->rgba(23, 39, 64, 0.7)
 
-### transitions @desktop  liveH=2146 ghH=2743 (+597)
+### transitions @desktop  liveH=2146 ghH=2745 (+599)
 TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission District, San Francisco" -> "Sohavani Mand, LMFT | Kaur Counseling"
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (27) --
@@ -1231,31 +1043,31 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
   y=245 [H1] Going Through a Transition?
   y=393 [P] A transition can be chosen, expected, or completely outside your control. It can bring exc
   y=623 [P] A transition can be chosen, expected, or completely outside your control. It can bring exc
-  y=860 [P] The arrival of a child changes your days, your identity, your partnership, and your relati
+  y=861 [P] The arrival of a child changes your days, your identity, your partnership, and your relati
   y=1038 [P] Whether you are leaving, starting, returning, or questioning your path, we can explore pur
-  y=1275 [P] Relocation can unsettle belonging and routines while asking you to create a home again. We
-  y=1452 [P] Beginning, ending, deepening, or renegotiating a relationship can bring old patterns into 
-  y=1689 [P] There is no single right way to become an adult. We can slow down the noise of expectation
-  y=1867 [P] Therapy can help you name what is ending, stay connected to what matters, and build a next
-  y=2076 [P] A place to begin
-  y=2112 [H2] Ready to start a conversation?
-  y=2169 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=2260 [SPAN] ↗
-  y=2539 [DIV] Sohavani Mand,
-  y=2539 [DIV] LMFT
-  y=2546 [DIV] CA LIC.
-  y=2546 [DIV] #150884
-  y=2546 [DIV] Kaur Counseling, Marriage & Family
-  y=2546 [DIV] Therapy, Inc.
-  y=2545 [A] 415-930-
-  y=2545 [A] 5395
-  y=2541 [A] Privacy &
-  y=2541 [A] Disclaimer
-  y=2659 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=1276 [P] Relocation can unsettle belonging and routines while asking you to create a home again. We
+  y=1454 [P] Beginning, ending, deepening, or renegotiating a relationship can bring old patterns into 
+  y=1691 [P] There is no single right way to become an adult. We can slow down the noise of expectation
+  y=1869 [P] Therapy can help you name what is ending, stay connected to what matters, and build a next
+  y=2079 [P] A place to begin
+  y=2115 [H2] Ready to start a conversation?
+  y=2172 [P] Reach out for a free consultation and we’ll begin with wherever you are.
+  y=2263 [SPAN] ↗
+  y=2542 [DIV] Sohavani Mand,
+  y=2542 [DIV] LMFT
+  y=2549 [DIV] CA LIC.
+  y=2549 [DIV] #150884
+  y=2549 [DIV] Kaur Counseling, Marriage & Family
+  y=2549 [DIV] Therapy, Inc.
+  y=2547 [A] 415-930-
+  y=2547 [A] 5395
+  y=2544 [A] Privacy &
+  y=2544 [A] Disclaimer
+  y=2661 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (22) --
   y=128 "Back to Services"
-      ls normal->0.14px | COLOR rgb(57, 96, 71)->rgb(69, 108, 83)
+      ls normal->0.14px
   y=202 "Specialty"
       lh 16px->14.5px
   y=328 "You don't have to do it alone."
@@ -1276,28 +1088,20 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
       size 20px->31px | lh 27.5px->35.65px
   y=1689 "Get Started"
       lh 20px->21px | ls 0.35px->normal | COLOR rgb(88, 25, 37)->rgb(241, 234, 223) | bg rgb(241, 234, 223)->rgb(88, 25, 37)
-  y=1972 "Home"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=1972 "About"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=1972 "Services"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=1972 "Contact"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
   y=2058 "If you are in crisis, call or text"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2058 "988"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=2058 "(Suicide & Crisis Lifeline) or"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2058 "911"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=2058 "for emergencies. This site is not monitored 24/7."
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2090 "©"
       size 12px->0px | lh 16px->20px | ls normal->0.35px | COLOR rgba(23, 39, 64, 0.4)->rgba(23, 39, 64, 0.7)
 
-### teens @desktop  liveH=2590 ghH=2773 (+183)
+### teens @desktop  liveH=2590 ghH=2774 (+184)
 TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission District, San Francisco" -> "Sohavani Mand, LMFT | Kaur Counseling"
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (24) --
@@ -1332,30 +1136,30 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
   y=393 [P] Being a teenager can mean holding school pressure, friendship shifts, family expectations,
   y=652 [P] Being a teenager can mean holding school pressure, friendship shifts, family expectations,
   y=890 [P] Grades, comparison, workload, and the fear of disappointing people can turn every assignme
-  y=1067 [P] Applications can make the future feel like a deadline. We can make room for uncertainty, p
-  y=1304 [P] Therapy is a private space with an adult who is not grading you, parenting you, or asking 
-  y=1481 [P] Friendships, identity, body, culture, and belonging can all feel in motion at once. We can
-  y=1718 [P] Whether you are newly diagnosed or wondering if ADHD explains more than you thought, we ca
-  y=1896 [P] What you share here stays here, with the limits of confidentiality explained clearly. You 
-  y=2105 [P] A place to begin
-  y=2141 [H2] Ready to start a conversation?
-  y=2198 [P] Reach out for a free consultation and we’ll begin with wherever you are.
-  y=2289 [SPAN] ↗
-  y=2568 [DIV] Sohavani Mand,
-  y=2568 [DIV] LMFT
-  y=2575 [DIV] CA LIC.
-  y=2575 [DIV] #150884
-  y=2575 [DIV] Kaur Counseling, Marriage & Family
-  y=2575 [DIV] Therapy, Inc.
-  y=2574 [A] 415-930-
-  y=2574 [A] 5395
-  y=2570 [A] Privacy &
-  y=2570 [A] Disclaimer
-  y=2688 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=1068 [P] Applications can make the future feel like a deadline. We can make room for uncertainty, p
+  y=1305 [P] Therapy is a private space with an adult who is not grading you, parenting you, or asking 
+  y=1483 [P] Friendships, identity, body, culture, and belonging can all feel in motion at once. We can
+  y=1721 [P] Whether you are newly diagnosed or wondering if ADHD explains more than you thought, we ca
+  y=1898 [P] What you share here stays here, with the limits of confidentiality explained clearly. You 
+  y=2108 [P] A place to begin
+  y=2144 [H2] Ready to start a conversation?
+  y=2201 [P] Reach out for a free consultation and we’ll begin with wherever you are.
+  y=2292 [SPAN] ↗
+  y=2571 [DIV] Sohavani Mand,
+  y=2571 [DIV] LMFT
+  y=2578 [DIV] CA LIC.
+  y=2578 [DIV] #150884
+  y=2578 [DIV] Kaur Counseling, Marriage & Family
+  y=2578 [DIV] Therapy, Inc.
+  y=2577 [A] 415-930-
+  y=2577 [A] 5395
+  y=2573 [A] Privacy &
+  y=2573 [A] Disclaimer
+  y=2690 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
 -- STYLE/GEOMETRY DELTAS (22) --
   y=128 "Back to Services"
-      ls normal->0.14px | COLOR rgb(57, 96, 71)->rgb(69, 108, 83)
+      ls normal->0.14px
   y=202 "Specialty"
       lh 16px->14.5px
   y=328 "You don't have to have it all figured out."
@@ -1376,28 +1180,20 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
       size 30px->31px | lh 36px->35.65px | COLOR rgb(57, 96, 71)->rgb(88, 25, 37)
   y=2133 "Get Started"
       lh 20px->21px | ls 0.35px->normal | COLOR rgb(88, 25, 37)->rgb(241, 234, 223) | bg rgb(241, 234, 223)->rgb(88, 25, 37)
-  y=2416 "Home"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=2416 "About"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=2416 "Services"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=2416 "Contact"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
   y=2502 "If you are in crisis, call or text"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2502 "988"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=2502 "(Suicide & Crisis Lifeline) or"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2502 "911"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=2502 "for emergencies. This site is not monitored 24/7."
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2534 "©"
       size 12px->0px | lh 16px->20px | ls normal->0.35px | COLOR rgba(23, 39, 64, 0.4)->rgba(23, 39, 64, 0.7)
 
-### privacy @desktop  liveH=2216 ghH=2293 (+77)
+### privacy @desktop  liveH=2216 ghH=2306 (+90)
 TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission District, San Francisco" -> "Sohavani Mand, LMFT | Privacy"
 
 -- TEXT ON LIVE, ABSENT/DIFFERENT ON GH (8) --
@@ -1412,83 +1208,45 @@ TITLE: "Sohavani Mand, LMFT | ADHD & Burnout Therapy for Women in the Mission Di
 
 -- TEXT ON GH, ABSENT/DIFFERENT ON LIVE (12) --
   y=38 [SPAN] ⌄
-  y=2089 [DIV] Sohavani Mand,
-  y=2089 [DIV] LMFT
-  y=2096 [DIV] CA LIC.
-  y=2096 [DIV] #150884
-  y=2096 [DIV] Kaur Counseling, Marriage & Family
-  y=2096 [DIV] Therapy, Inc.
-  y=2094 [A] 415-930-
-  y=2094 [A] 5395
-  y=2091 [A] Privacy &
-  y=2091 [A] Disclaimer
-  y=2209 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
+  y=2102 [DIV] Sohavani Mand,
+  y=2102 [DIV] LMFT
+  y=2109 [DIV] CA LIC.
+  y=2109 [DIV] #150884
+  y=2109 [DIV] Kaur Counseling, Marriage & Family
+  y=2109 [DIV] Therapy, Inc.
+  y=2108 [A] 415-930-
+  y=2108 [A] 5395
+  y=2104 [A] Privacy &
+  y=2104 [A] Disclaimer
+  y=2222 [P] © 2026 Sohavani Mand, LMFT. Confidential by design.
 
--- STYLE/GEOMETRY DELTAS (34) --
-  y=118 "Legal & Privacy"
-      COLOR rgba(88, 25, 37, 0.8)->rgb(57, 96, 71)
+-- STYLE/GEOMETRY DELTAS (32) --
   y=156 "Privacy, Disclaimer & Crisis Resources"
       ls normal->-0.96px
-  y=276 "Your trust and safety matter. This page explains how yo"
-      lh 26px->25.6px
   y=450 "If you are in crisis"
       size 24px->28px | lh 32px->32.2px
-  y=498 "This website is not monitored for emergencies and is no"
-      lh 26px->27.2px
-  y=596 "for life-threatening emergencies."
-      size 16px->15px | lh 24px->22.5px
-  y=598 "911"
-      size 16px->15px | lh 24px->22.5px
-  y=632 "Suicide & Crisis Lifeline. Call or text 988, 24/7."
-      size 16px->15px | lh 24px->22.5px
-  y=634 "988"
-      size 16px->15px | lh 24px->22.5px
-  y=668 "Crisis Text Line. Text HOME to 741741, 24/7."
-      size 16px->15px | lh 24px->22.5px
-  y=670 "741741"
-      size 16px->15px | lh 24px->22.5px
   y=773 "Professional disclaimer"
       size 24px->28px | lh 32px->32.2px
-  y=821 "The content on this website is provided for general inf"
-      size 16px->15px | lh 26px->25.5px
   y=1025 "Licensee identification"
       size 24px->28px | lh 32px->32.2px
-  y=1073 "Sohavani Mand, Licensed Marriage and Family Therapist ("
-      size 16px->15px | lh 26px->25.5px
-  y=1073 "California License #150884"
-      size 16px->15px | lh 26px->25.5px
   y=1173 "Website privacy"
       size 24px->28px | lh 32px->32.2px
-  y=1221 "This website does not store protected health informatio"
-      size 16px->15px | lh 26px->25.5px
   y=1399 "Notice of Privacy Practices (summary)"
       size 24px->28px | lh 32px->32.2px
-  y=1447 "As a licensed health care provider, Sohavani Mand, LMFT"
-      size 16px->15px | lh 26px->25.5px
   y=1651 "Telehealth"
       size 24px->28px | lh 32px->32.2px
-  y=1699 "Where telehealth is offered, services are provided unde"
-      size 16px->15px | lh 26px->25.5px
   y=1833 "This page provides a general overview and is not legal "
-      size 14px->15px | lh 22.75px->25.5px
-  y=2042 "Home"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=2042 "About"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=2042 "Services"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
-  y=2042 "Contact"
-      size 14px->13px | lh 20px->19.5px | COLOR rgba(23, 39, 64, 0.6)->rgb(98, 101, 107)
+      size 14px->16px | lh 22.75px->26px | COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2128 "If you are in crisis, call or text"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2128 "988"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=2128 "(Suicide & Crisis Lifeline) or"
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2128 "911"
-      size 12px->11px | weight 600->700 | lh 16px->16.5px | COLOR rgba(23, 39, 64, 0.7)->rgba(23, 39, 64, 0.5)
+      weight 600->700
   y=2128 "for emergencies. This site is not monitored 24/7."
-      size 12px->11px | lh 16px->16.5px
+      COLOR rgba(23, 39, 64, 0.5)->rgba(23, 39, 64, 0.7)
   y=2160 "©"
       size 12px->0px | lh 16px->20px | ls normal->0.35px | COLOR rgba(23, 39, 64, 0.4)->rgba(23, 39, 64, 0.7)
 
