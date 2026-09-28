@@ -20,7 +20,7 @@
     sprout: '<path d="M7 20h10"></path><path d="M10 20c5.5-2.5 7-8 7-14-5 0-10 2-10 8 0 2 1 4 3 6Z"></path><path d="M7 14c2 0 4 1 5 3"></path>',
     'cloud-rain': '<path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"></path><path d="M8 16v2"></path><path d="M8 22v-1"></path><path d="M16 16v2"></path><path d="M16 22v-1"></path>',
     baby: '<path d="M9 12h.01"></path><path d="M15 12h.01"></path><path d="M10 16c1.2 1 2.8 1 4 0"></path><path d="M12 2a9 9 0 0 0-9 9v2a9 9 0 0 0 18 0v-2a9 9 0 0 0-9-9Z"></path><path d="M8 5 6 2M16 5l2-3"></path>',
-    briefcase: '<rect x="2" y="7" width="20" height="14" rx="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16M2 12h20"></path>',
+    briefcase: '<rect x="2" y="7" width="20" height="14" rx="2"></rect><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>',
     house: '<path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>',
     'graduation-cap': '<path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.084a1 1 0 0 0 0 1.838l8.57 3.9a2 2 0 0 0 1.66 0z"></path><path d="M22 10v6"></path><path d="M6 12.5V16c0 1.66 2.69 3 6 3s6-1.34 6-3v-3.5"></path>',
     backpack: '<path d="M4 10a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"></path><path d="M8 6V5a4 4 0 0 1 8 0v1"></path><path d="M8 14h8M8 18h8"></path>',
