@@ -832,6 +832,15 @@ body.page-services-multiculturalism .detail-content>.detail-section:first-child 
 /* Brief 03: restore the measured wrapping footer and correct the remaining
    page specific type and color deltas from the desktop audit. */
 .back-link{letter-spacing:normal}
+
+/* Keep the repeated ticker set moving at a consistent measured speed. */
+.ticker-track{animation-duration:var(--marquee-duration,152s)}
+.page-cost .rate-list{margin:0;padding-left:20px;border:0;color:var(--navy-60);font-size:15px;line-height:1.72}
+.page-cost .rate-list li{padding:0;margin:0 0 4px}
+.page-cost .rate-list li:last-child{margin-bottom:0}
+.page-cost .detail-cta{border-top:0;text-align:left;padding-left:0;padding-right:0}
+.page-cost .detail-cta>p:not(.eyebrow){max-width:560px;margin:0;color:var(--spruce);font:italic 24px/1.38 Fraunces,Georgia,serif;text-align:left}
+.page-cost .detail-cta .button{display:flex;width:max-content;margin:29px 0 0}
 .button{line-height:20px;letter-spacing:.35px}
 .detail-section h2{font-size:30px;line-height:36px}
 .detail-section .eyebrow{font-size:12px;line-height:16px;letter-spacing:3px}

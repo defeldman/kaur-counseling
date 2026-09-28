@@ -1,5 +1,17 @@
 window.hydrateLucideIcons();
 
+const tickerTrack = document.querySelector('.ticker-track');
+const tickerSet = tickerTrack?.querySelector('.ticker-set');
+if (tickerTrack && tickerSet) {
+  const setTickerSpeed = () => {
+    const width = tickerSet.getBoundingClientRect().width;
+    if (width > 0) tickerTrack.style.setProperty('--marquee-duration', `${width / 22.5}s`);
+  };
+  setTickerSpeed();
+  if ('ResizeObserver' in window) new ResizeObserver(setTickerSpeed).observe(tickerSet);
+  document.fonts?.ready.then(setTickerSpeed);
+}
+
 const menuToggle = document.querySelector('.menu-toggle');
 const siteHeader = document.querySelector('.site-header');
 
