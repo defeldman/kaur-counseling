@@ -121,3 +121,56 @@ match it rather than "fixing" it. Every other route is exactly 390px.
 ## Deliverable
 
 Commit to `main` and push. Report per section.
+
+---
+
+# Addendum — the last desktop item (anxiety-depression list)
+
+Desktop is otherwise **complete**: all 13 routes match live's height exactly. This is the
+only remaining desktop style delta, and it is a real visual difference.
+
+The "How we work with it" outcome list on `/services/anxiety-depression` is missing its
+**icon badges**, and we paint a sage tint behind the section that live does not have.
+
+Live item markup:
+```html
+<div class="reveal flex items-center gap-3 rounded-2xl border border-border/70 bg-card/60 px-5 py-4">
+  <span class="shrink-0 w-9 h-9 rounded-xl bg-burgundy/10 text-burgundy flex items-center justify-center">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+         stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-compass">…</svg>
+  </span>
+  <span class="text-midnight/80 leading-snug">Understand what's happening beneath the surface</span>
+</div>
+```
+
+| property | value |
+|---|---|
+| grid | `456px 456px`, **gap 16px** (`grid sm:grid-cols-2 gap-4`) |
+| item box | **456 x 78** |
+| item background | `rgba(241,234,223,0.6)` — cream at 60%, **not** `rgba(249,247,244,0.6)` |
+| item border | `1px solid rgba(215,204,188,0.7)` |
+| item radius | **16px**, padding **16px 20px** |
+| icon badge | `36x36`, radius 12px, background burgundy at 10%, icon colour burgundy |
+| icon | **18x18** lucide, `viewBox="0 0 24 24"`, stroke-width 2, round caps/joins |
+| label | `rgba(23,39,64,0.8)`, `leading-snug` |
+
+Icons in order (all lucide):
+
+1. `compass` — Understand what's happening beneath the surface
+   `<path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/><circle cx="12" cy="12" r="10"/>`
+2. `layers` — Recognize the patterns that keep you stuck
+   `<path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"/><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"/><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"/>`
+3. `heart-handshake` — Respond to overwhelm without shutting down
+   `<path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/><path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66"/><path d="m18 15-2-2"/><path d="m15 18-2-2"/>`
+4. `brain` — Challenge thoughts that aren't serving you
+   `<path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"/><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/><path d="M3.477 10.896a4 4 0 0 1 .585-.396"/><path d="M19.938 10.5a4 4 0 0 1 .585.396"/><path d="M6 18a4 4 0 0 1-1.967-.516"/><path d="M19.967 17.484A4 4 0 0 1 18 18"/>`
+5. `sparkles` — Reconnect with the things that matter to you
+   `<path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/>`
+6. `arrow-right` — Make changes that feel realistic, not overwhelming
+   `<path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>`
+
+Also **remove the sage/green section tint** we render behind this block — live's background
+here is the plain cream page background. (I verified this on a screenshot, not just from
+computed styles.)
+
+Do this without changing the page height: anxiety currently matches live at 2165px exactly.
