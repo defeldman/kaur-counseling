@@ -18,7 +18,7 @@ h1 em,h2 em,h3 em{font-style:italic}
 .eyebrow{font-size:11px;line-height:1.1;letter-spacing:.31em;text-transform:uppercase;color:#596c64}
 .section-intro p:not(.eyebrow){color:var(--muted)}
 .text-link{display:inline-flex;gap:9px;align-items:center;color:var(--burgundy);font-size:14px;line-height:1.2}.text-link:hover{color:var(--spruce)}
-.text-link span{font-size:20px;line-height:0;transition:transform .3s cubic-bezier(.4,0,.2,1)}.text-link:hover span{transform:translateX(4px)}
+.text-link span{font-size:20px;line-height:0}
 .button{display:inline-flex;align-items:center;gap:14px;padding:14px 25px;border-radius:999px;background:var(--burgundy);color:var(--cream);font-size:14px;transition:background .3s ease,color .3s ease}.button:hover{transform:none;background:var(--spruce)}.button-small{border-radius:0;padding:13px 26px;text-transform:uppercase;font-size:11px;letter-spacing:.05em}
 
 .site-header{height:76px;position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:0 48px;background:rgba(241,235,225,.94);border-bottom:1px solid rgba(24,36,58,.08);backdrop-filter:blur(7px)}
@@ -282,8 +282,7 @@ h1 em,h2 em,h3 em{font-style:italic}
 .services-section>*{position:relative;z-index:1}
 
 .scroll-cue .down-arrow{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;font-size:0;letter-spacing:0}
-.text-link .inline-arrow{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;transition:transform .3s cubic-bezier(.4,0,.2,1)}
-.text-link:hover .inline-arrow{transform:translateX(4px)}
+.text-link .inline-arrow{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
 
 .door-grid{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:48px;row-gap:8px;max-width:768px}
 .door-column{display:contents}
@@ -475,7 +474,7 @@ body.page-modalities::before{content:"";position:absolute;z-index:21;top:0;left:
   .hero-lavender{width:57vw}
 }
 
-.text-link .inline-arrow{display:block;width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:transform .3s cubic-bezier(.4,0,.2,1)}
+  .text-link .inline-arrow{display:block;width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .button .external-arrow{display:block;width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 
 @media (min-width:801px){
@@ -1215,4 +1214,115 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
   .framework-grid{gap:32px}
   .framework-card{padding:40px}
   .framework-card-title{font-size:30px;line-height:36px}
+}
+
+/* Brief 11: restore the modalities closing card and the ADHD statistic card. */
+.modalities-closing-card{
+  position:relative;
+  box-sizing:border-box;
+  width:100%;
+  max-width:928px;
+  margin:0 auto;
+  padding:56px 32px;
+  overflow:hidden;
+  border-radius:24px;
+  background:rgb(88,25,37);
+  color:rgb(241,234,223);
+  text-align:center;
+}
+.modalities-closing-card h2{
+  position:relative;
+  margin:0;
+  color:rgb(241,234,223);
+  font:400 30px/36px Fraunces,Georgia,serif;
+}
+.modalities-closing-emphasis{color:rgba(241,234,223,.8);font-style:italic}
+.modalities-closing-card>p{
+  position:relative;
+  max-width:36rem;
+  margin:24px auto 0;
+  color:rgba(241,234,223,.8);
+  font:400 16px/26px Inter,ui-sans-serif,system-ui,sans-serif;
+}
+.modalities-closing-button{
+  position:relative;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  margin-top:40px;
+  padding:14px 28px;
+  border-radius:9999px;
+  background:rgb(241,234,223);
+  color:rgb(88,25,37);
+  font:400 14px/20px Inter,ui-sans-serif,system-ui,sans-serif;
+  transition:background-color 300ms,color 300ms;
+}
+.modalities-closing-button:hover{background:rgb(57,96,71);color:rgb(241,234,223)}
+.modalities-closing-button svg{display:block;width:16px;height:16px;flex:none}
+.modalities-closing-leaf{position:absolute;pointer-events:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.modalities-closing-leaf-top-right{top:32px;right:32px;width:64px;color:rgba(241,234,223,.15);transform:rotate(-12deg)}
+.modalities-closing-leaf-bottom-left{bottom:24px;left:40px;width:48px;color:rgba(241,234,223,.1);transform:rotate(20deg)}
+@media (min-width:1024px){
+  .modalities-closing-card{padding:80px 32px}
+  .modalities-closing-card h2{font-size:36px;line-height:40px}
+}
+@media (max-width:800px){
+  .modalities-closing-card{padding:48px 24px}
+  .modalities-closing-card h2{font-size:28px;line-height:34px}
+  .modalities-closing-leaf-top-right{right:20px;top:20px}
+  .modalities-closing-leaf-bottom-left{left:24px;bottom:16px}
+}
+
+.page-services-adhd .adhd-stat-card{
+  position:relative;
+  box-sizing:border-box;
+  margin:0 -64px;
+  padding:48px 32px;
+  overflow:hidden;
+  border:0;
+  border-radius:24px;
+  background:rgb(88,25,37);
+  color:rgb(241,234,223);
+}
+.page-services-adhd .detail-section .adhd-stat-card>p.adhd-stat-value{
+  position:relative;
+  margin:0;
+  color:rgb(241,234,223);
+  font:400 48px/48px Fraunces,Georgia,serif;
+}
+.page-services-adhd .detail-section .adhd-stat-card>p.adhd-stat-copy{
+  position:relative;
+  max-width:36rem;
+  margin:16px 0 0;
+  color:rgba(241,234,223,.85);
+  font:400 18px/29.25px Inter,ui-sans-serif,system-ui,sans-serif;
+}
+.page-services-adhd .adhd-stat-leaf{
+  position:absolute;
+  top:24px;
+  right:32px;
+  width:56px;
+  color:rgba(241,234,223,.15);
+  transform:rotate(-12deg);
+  pointer-events:none;
+}
+@media (min-width:1024px){
+  .page-services-adhd .adhd-stat-card{padding:56px 32px}
+  .page-services-adhd .detail-section .adhd-stat-card>p.adhd-stat-value{font-size:60px;line-height:60px}
+}
+@media (max-width:800px){.page-services-adhd .adhd-stat-card{margin:0;padding:40px 24px}}
+
+/* Brief 11: restore the remaining route-specific typography. */
+.page-services-transitions .detail-content>.detail-section:last-child>ul>li,
+.page-services-teens .detail-content>.detail-section:last-child>ul>li{
+  font:400 18px/24.75px Fraunces,Georgia,serif;
+}
+.page-services-adhd .detail-content>.detail-section:last-child li{
+  color:rgba(23,39,64,.8);
+  line-height:26px;
+}
+.page-resources .detail-content>.detail-section:last-child>p:first-child{
+  color:rgb(57,96,71);
+  font:italic 24px/33px Fraunces,Georgia,serif;
 }
