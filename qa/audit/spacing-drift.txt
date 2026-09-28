@@ -1,79 +1,213 @@
-### about @desktop  liveH=3752 ghH=3741 (-11)
-matched 65 blocks; showing points where cumulative drift changes by >6px
+### home @desktop  liveH=9887 ghH=9883 (-4)
+matched 173 blocks; showing points where cumulative drift changes by >10px
 
  liveY   ourY   drift   change  text
-   372    382      10      +10  I'm a brown, South Asian therapist practicing in San
-   554    546      -8      -18  Sessions
-   555    541     -14       -6  Get Started
-   603    595      -8       +6  Verified on Psychology Today
-   769    769       0       +8  In our first session, I'll learn more about what bro
+  1667   1645     -22      -22  If you're feeling stuck, unmoored, or ready for some
+  2173   2169      -4      +18  — Rumi
+  2507   2513       6      +10  Wheelhouse.
+  4163   4159      -4      -10  Our Approach
+  8633   8605     -28      -24  Request an appointment
+  8674   8665      -9      +19  Tue–Sat · 9am–6pm
+  8682   8656     -26      -17  Choose a service, share a brief note about what brin
+  8714   8701     -13      +13  3150 18th St, Suite 404 · Mission District, SF
+  8766   8739     -27      -14  Request Appointment
+  9039   8964     -75      -48  Office
+  9143   9082     -61      +14  My office is a calm, private space in the heart of t
+  9310   9236     -74      -13  but in-person sessions start
+  9312   9254     -58      +16  Virtual sessions are always available,
+  9695   9705      10      +68  Sohavani Mand, LMFT
+  9703   9699      -4      -14  Privacy & Disclaimer
+
+final drift at last matched block: -4px
+
+### about @desktop  liveH=3752 ghH=3746 (-6)
+matched 66 blocks; showing points where cumulative drift changes by >10px
+
+ liveY   ourY   drift   change  text
   1178   1160     -18      -18  A little more human
-  1398   1399       1      +19  First-gen Indian woman
-  1434   1446      12      +11  I'm a mix of Indian values, American independence, a
-  1690   1690       0      -12  Lifelong learner
-  1726   1737      11      +11  I'm endlessly curious and will happily go down a com
-  1973   1951     -22      -33  The work
-  2107   2096     -11      +11  My approach is relational, strengths-based, and coll
-  2251   2268      17      +28  What therapy feels like
-  2287   2313      26       +9  You'll find a safe, nonjudgmental space to set down 
-  2497   2515      18       -8  Who I see
-  2871   2914      43      +25  Master's in Counseling, Sonoma State University
-  2919   2934      15      -28  Six years in practice across private and community s
-  2919   2954      35      +20  Specialties: ADHD, Immigration & Acculturation, Wome
-  2967   2974       7      -28  Modality training: Attachment-based, CBT, DBT, Relat
-  3207   3196     -11      -18  If this feels like the right place to begin, you don
-  3560   3525     -35      -24  Sohavani Mand, LMFT
-  3578   3533     -45      -10  Home
-  3664   3628     -36       +9  If you are in crisis, call or text
+  1434   1428      -6      +12  I know what it's like to have a brain that does thin
+  1690   1672     -18      -12  Lifelong learner
+  1726   1719      -7      +11  I'm endlessly curious and will happily go down a com
+  1973   1933     -40      -33  The work
+  2107   2078     -29      +11  My approach is relational, strengths-based, and coll
+  2251   2250      -1      +28  What therapy feels like
+  2871   2896      25      +26  Master's in Counseling, Sonoma State University
+  2919   2916      -3      -28  Six years in practice across private and community s
+  2919   2936      17      +20  Specialties: ADHD, Immigration & Acculturation, Wome
+  2967   2956     -11      -28  Modality training: Attachment-based, CBT, DBT, Relat
+  3207   3181     -26      -15  If this feels like the right place to begin, you don
+  3560   3568       8      +34  Sohavani Mand, LMFT
+  3568   3562      -6      -14  Privacy & Disclaimer
 
-final drift at last matched block: -36px
+final drift at last matched block: -6px
 
-### anxiety @desktop  liveH=2165 ghH=2168 (+3)
-matched 45 blocks; showing points where cumulative drift changes by >6px
+### cost @desktop  liveH=2447 ghH=2448 (+1)
+matched 40 blocks; showing points where cumulative drift changes by >10px
+
+ liveY   ourY   drift   change  text
+   202    190     -12      -12  The Investment
+   851    852       1      +13  Therapy is an investment in the life you're building
+  1044   1062      18      +17  Session rates
+  1428   1421      -7      -25  A superbill for reimbursement
+  1740   1752      12      +19  Why pay out of pocket?
+  1956   1990      34      +22  If this feels like the right place to begin, you don
+  2255   2270      15      -19  Sohavani Mand, LMFT
+  2263   2264       1      -14  Privacy & Disclaimer
+
+final drift at last matched block: 1px
+
+### resources @desktop  liveH=3360 ghH=3322 (-38)
+matched 100 blocks; showing points where cumulative drift changes by >10px
+
+ liveY   ourY   drift   change  text
+   128    118     -10      -10  Back to About
+   280    281       1      +11  Books I return to and often share with clients. Thes
+   633    623     -10      -11  Hover to read the full poem
+   746    751       5      +15  Relationships
+  2630   2609     -21      -26  What My Bones Know
+  2869   2876       7      +28  Want more? I'm always adding to this list. Bring wha
+  2959   2921     -38      -45  Get Started
+  3168   3144     -24      +14  Sohavani Mand, LMFT
+  3176   3138     -38      -14  Privacy & Disclaimer
+
+final drift at last matched block: -38px
+
+### modalities @desktop  liveH=3433 ghH=3433 (0)
+matched 63 blocks; showing points where cumulative drift changes by >10px
+
+ liveY   ourY   drift   change  text
+   794    840      46      +46  01
+  2343   2363      20      -26  When & why I use it
+  2794   2794       0      -20  fits your story?
+  3241   3255      14      +14  Sohavani Mand, LMFT
+  3249   3249       0      -14  Privacy & Disclaimer
+
+final drift at last matched block: 0px
+
+### get-started @desktop  liveH=1618 ghH=1618 (0)
+matched 37 blocks; showing points where cumulative drift changes by >10px
+
+ liveY   ourY   drift   change  text
+   490    469     -21      -21  Request an appointment
+   597    597       0      +21  Request Appointment
+   818    852      34      +34  Office
+   865    889      24      -10  Mission.
+  1426   1440      14      -10  Sohavani Mand, LMFT
+  1434   1434       0      -14  Privacy & Disclaimer
+
+final drift at last matched block: 0px
+
+### adhd @desktop  liveH=3748 ghH=3773 (+25)
+matched 70 blocks; showing points where cumulative drift changes by >10px
+
+ liveY   ourY   drift   change  text
+  1097   1116      19      +19  Self-esteem
+  1581   1563     -18      -37  How it shows up
+  1709   1715       6      +24  Ping-ponging between tasks, a mind juggling everythi
+  1734   1715     -19      -25  Even the things and people that matter slip away.
+  1841   1863      22      +41  Time warps and vanishes
+  1874   1921      47      +25  Hours pass like minutes, or crawl like days.
+  2429   2498      69      +22  The grief, and the broken trust in yourself
+  2830   2861      31      -38  How we work with it
+  2925   2923      -2      -33  Honor your gifts: creativity, intensity, range.
+  3019   2977     -42      -40  Tend the costs of pretending.
+  3113   3031     -82      -40  Grieve what was, and slowly rebuild trust in yoursel
+  3207   3085    -122      -40  Build rhythms and boundaries shaped for how your bra
+  3288   3313      25     +147  You are not a problem to be fixed. You are a person 
+  3556   3595      39      +14  Sohavani Mand, LMFT
+  3564   3589      25      -14  Privacy & Disclaimer
+
+final drift at last matched block: 25px
+
+### multiculturalism @desktop  liveH=2556 ghH=2606 (+50)
+matched 42 blocks; showing points where cumulative drift changes by >10px
+
+ liveY   ourY   drift   change  text
+   718    741      23      +23  Multicultural Therapy
+   960   1001      41      +18  Acculturation & Assimilation Stress
+  1470   1521      51      +10  Third Culture Kid (TCK) Therapy
+  1712   1781      69      +18  Intergenerational Trauma Therapy
+  1995   2042      47      -22  You do not have to compress yourself to be understoo
+  2364   2428      64      +17  Sohavani Mand, LMFT
+  2372   2422      50      -14  Privacy & Disclaimer
+
+final drift at last matched block: 50px
+
+### burnout @desktop  liveH=2194 ghH=2224 (+30)
+matched 36 blocks; showing points where cumulative drift changes by >10px
+
+ liveY   ourY   drift   change  text
+   658    681      23      +23  The slow creep
+  1324   1357      33      +10  Tending and rebuilding
+  1633   1644      11      -22  Recovery is not a project to optimize. It is a retur
+  2002   2046      44      +33  Sohavani Mand, LMFT
+  2010   2040      30      -14  Privacy & Disclaimer
+
+final drift at last matched block: 30px
+
+### anxiety @desktop  liveH=2165 ghH=2205 (+40)
+matched 45 blocks; showing points where cumulative drift changes by >10px
 
  liveY   ourY   drift   change  text
    534    544      10      +10  Anxiety
-   593    597       4       -6  Anxiety can keep your mind running long after you wa
-   841    833      -8      -12  When they show up together
-  1108   1156      48      +56  How we work with it
-  1152   1214      62      +14  I'm not here to tell you to "just think positively" 
-  1279   1311      32      -30  Understand what's happening beneath the surface
-  1290   1333      43      +11  Recognize the patterns that keep you stuck
-  1380   1355     -25      -68  Respond to overwhelm without shutting down
-  1380   1377      -3      +22  Challenge thoughts that aren't serving you
-  1459   1421     -38      -35  Make changes that feel realistic, not overwhelming
-  1470   1399     -71      -33  Reconnect with the things that matter to you
-  1640   1605     -35      +36  One piece at a time.
-  1973   1952     -21      +14  Sohavani Mand, LMFT
-  1991   1960     -31      -10  Home
-  2077   2055     -22       +9  If you are in crisis, call or text
+   593    615      22      +12  Anxiety can keep your mind running long after you wa
+   901    913      12      -10  Sometimes they show up together. Sometimes one takes
+  1108   1141      33      +21  How we work with it
+  1152   1203      51      +18  I'm not here to tell you to "just think positively" 
+  1640   1642       2      -49  One piece at a time.
+  1973   2027      54      +52  Sohavani Mand, LMFT
+  1981   2021      40      -14  Privacy & Disclaimer
 
-final drift at last matched block: -22px
+final drift at last matched block: 40px
 
-### adhd @desktop  liveH=3748 ghH=3748 (0)
-matched 70 blocks; showing points where cumulative drift changes by >6px
+### transitions @desktop  liveH=2146 ghH=2159 (+13)
+matched 51 blocks; showing points where cumulative drift changes by >10px
 
  liveY   ourY   drift   change  text
-   751    744      -7       -7  The picture most people carry is a boy who can't sit
-   934    899     -35      -28  Relationships
-  1097   1080     -17      +18  Self-esteem
-  1330   1330       0      +17  When the diagnosis arrives later
-  1581   1534     -47      -47  How it shows up
-  1709   1682     -27      +20  Ping-ponging between tasks, a mind juggling everythi
-  1734   1682     -52      -25  Even the things and people that matter slip away.
-  1841   1830     -11      +41  Time warps and vanishes
-  1874   1887      13      +24  Hours pass like minutes, or crawl like days.
-  2429   2459      30      +17  The grief, and the broken trust in yourself
-  2830   2812     -18      -48  How we work with it
-  2925   2870     -55      -37  Honor your gifts: creativity, intensity, range.
-  3019   2896    -123      -68  Tend the costs of pretending.
-  3113   2922    -191      -68  Grieve what was, and slowly rebuild trust in yoursel
-  3207   2948    -259      -68  Build rhythms and boundaries shaped for how your bra
-  3288   3116    -172      +87  You are not a problem to be fixed. You are a person 
-  3347   3220    -127      +45  Get Started
-  3556   3532     -24     +103  Sohavani Mand, LMFT
-  3574   3540     -34      -10  Home
-  3660   3635     -25       +9  If you are in crisis, call or text
+   590    626      36      +36  You might be navigating…
+   763    765       2      -34  Becoming a Parent
+  1043   1025     -18      -20  Relationship Changes
+  1079   1088       9      +27  Beginning, deepening, or ending partnerships — and r
+  1106   1088     -18      -27  The pressure of the open road, and the weight of cho
+  1322   1433     111     +129  Therapy can help you:
+  1386   1588     202      +91  Find clarity and direction
+  1427   1686     259      +57  Build confidence in this next chapter
+  1427   1834     407     +148  Feel more grounded and supported
+  1621   1653      32     -375  You don't have to navigate this next chapter alone.
+  1962   1975      13      -19  Privacy & Disclaimer
 
-final drift at last matched block: -25px
+final drift at last matched block: 13px
+
+### teens @desktop  liveH=2590 ghH=2603 (+13)
+matched 50 blocks; showing points where cumulative drift changes by >10px
+
+ liveY   ourY   drift   change  text
+   530    513     -17      -17  Therapy is a place where you don't have to impress a
+   667    660      -7      +10  You don't need to know exactly what you need yet. We
+   979    942     -37      -30  School Pressure
+  1360   1353      -7      +30  Evolving Friendships & Identity
+  1689   1811     122     +129  What you get here:
+  1753   1990     237     +115  Tools for the pressure
+  1794   2088     294      +57  Words for what you feel
+  1794   2186     392      +98  A safe adult outside your family
+  1846   1907      61     -331  What you share here stays here. The exception is saf
+  2065   2080      15      -46  You don't have to figure it out alone.
+  2398   2425      27      +12  Sohavani Mand, LMFT
+  2406   2419      13      -14  Privacy & Disclaimer
+
+final drift at last matched block: 13px
+
+### privacy @desktop  liveH=2216 ghH=2216 (0)
+matched 45 blocks; showing points where cumulative drift changes by >10px
+
+ liveY   ourY   drift   change  text
+   596    606      10      +10  for life-threatening emergencies.
+  1025   1012     -13      -23  Licensee identification
+  1173   1140     -33      -20  Website privacy
+  1447   1426     -21      +12  As a licensed health care provider, Sohavani Mand, L
+  1833   1781     -52      -31  This page provides a general overview and is not leg
+  2024   2038      14      +66  Sohavani Mand, LMFT
+  2032   2032       0      -14  Privacy & Disclaimer
+
+final drift at last matched block: 0px
 
