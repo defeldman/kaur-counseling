@@ -1405,6 +1405,7 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
 .page-services-transitions .detail-content>.detail-section:last-child>ul>li,
 .page-services-teens .detail-content>.detail-section:last-child>ul>li{
   font:400 18px/24.75px Fraunces,Georgia,serif;
+  color:rgb(23,39,64);
 }
 .page-services-adhd .detail-content>.detail-section:last-child li{
   color:rgba(23,39,64,.8);
@@ -1903,7 +1904,7 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
 .footer-nav a{white-space:nowrap}
 .footer-nav{height:40px;align-items:center}
 .footer-nav a:last-child{white-space:normal;max-width:82px}
-.footer-crisis{height:32px;padding-top:0;padding-bottom:16px;font-size:12px;line-height:16px;color:rgba(23,39,64,.7)}
+.footer-crisis{height:32px;padding-top:0;padding-bottom:16px;font-size:12px;line-height:16px;color:rgba(23,39,64,.5)}
 .footer-crisis p,.footer-copyright-row p{margin:0}
 .footer-copyright-row{height:56px;padding-top:0;padding-bottom:40px;font-size:12px;line-height:16px;color:rgba(23,39,64,.5)}
 .footer-copyright{color:rgba(23,39,64,.4)}
@@ -1951,6 +1952,11 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
 .brief22-inventory-feather{display:block;width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 @media(min-width:1024px){body:not([data-page]) .line-icon{width:80px;height:80px}}
 @media(min-width:768px){.page-resources .resource-section-leaf{width:45px;height:56px}.page-resources .resource-closing-leaf{width:55px;height:64px}}
+@media(min-width:768px){
+  .page-resources .detail-content>.detail-section:last-child{padding-bottom:58px}
+  .page-resources .detail-content>.detail-section:last-child>p:first-of-type{color:rgb(57,96,71);font:italic 24px/33px Fraunces,Georgia,serif}
+}
+@media(min-width:1024px){.page-resources .detail-content>.detail-section:last-child{padding-bottom:32px}}
 @media (min-width:768px) and (max-width:1023px){.desktop-nav{display:flex;gap:12px}.menu-toggle{display:none}.mobile-nav{display:none}}
 @media (min-width:768px) and (max-width:1023px){.office-notice-wrap{min-height:273px}.about-section{padding-top:112px;padding-bottom:58px}}
 @media (min-width:768px) and (max-width:1023px){body:not([data-page]) .people-section{padding-bottom:calc(178px - (100vw - 768px)*.243)}body:not([data-page]) .modalities-section{padding-top:calc(160px - (100vw - 768px)*.0314);padding-bottom:max(0px,3px - (100vw - 768px)*.043)}}
@@ -1968,8 +1974,8 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
   .page-get-started .office-eyebrow:after{content:"";height:1px;flex:1;background:rgba(23,39,64,.1)}
   .page-get-started .office-copy{grid-column:1;grid-row:2;min-width:0;padding:0!important}
   .page-get-started .office-copy h3{margin-top:0}
-  .page-get-started .office-copy>p:not(.eyebrow){max-width:363px;margin-top:26px;font-size:15px;line-height:26px;color:rgba(23,39,64,.75)}
-  .page-get-started .office-copy>p.virtual-note{max-width:363px;margin-top:24px;padding:16px 20px;border:1px solid rgba(88,25,37,.2);border-radius:12px;background:rgba(88,25,37,.05);font-size:14px;line-height:22.75px;color:rgb(88,25,37)}
+  .page-get-started .office-copy>p:not(.eyebrow){max-width:363px;margin-top:26px;font-size:16px;line-height:26px;color:rgba(23,39,64,.75)}
+  .page-get-started .office-copy>p.virtual-note{max-width:363px;margin-top:24px;padding:16px 20px;border:1px solid rgba(88,25,37,.2);border-radius:12px;background:rgba(88,25,37,.05);font-size:14px;line-height:22.75px;color:rgba(23,39,64,.8)}
   .page-get-started .office-copy>p.virtual-note strong{font-weight:600;color:rgb(88,25,37)}
   .page-get-started .get-started-office .office-facts{margin-top:29px;color:rgb(23,39,64)}
   .page-get-started .office-facts>a:first-child{max-width:363px;color:rgb(23,39,64);font-size:14px;line-height:22.75px}
@@ -2006,6 +2012,7 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:124px;h
   .page-about .detail-shell{padding-bottom:0;margin-bottom:-23px}
   .page-cost .detail-shell{max-width:none;padding-bottom:0;margin-bottom:-10px}
   .page-resources .detail-shell{padding-bottom:138px}
+  .page-resources .detail-content>.detail-section:last-child{padding-bottom:58px}
   .page-services-multiculturalism .detail-hero h1{letter-spacing:normal}
   .page-services-multiculturalism .detail-hero>.eyebrow{color:rgba(88,25,37,.8)}
   .page-services-multiculturalism .service-panel-card{padding:32px}
@@ -2044,13 +2051,13 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:124px;h
 /* Brief 31, task 2: measured desktop get-started wrapping and rhythm. */
 @media (min-width:1024px){
   .page-get-started .detail-content{margin-top:71px}
-  .page-get-started .detail-lede{letter-spacing:.55px}
   .page-get-started .detail-appointment{margin-bottom:80px}
   .page-get-started .detail-appointment .button{margin-top:32px}
   .page-get-started .get-started-office{margin-top:104px;row-gap:30px}
   .page-get-started .get-started-office .office-facts{margin-top:50px}
   .page-get-started .office-facts>a:first-child{max-width:333px;margin-left:30px}
   .page-get-started .detail-shell{padding-bottom:64px}
+  .page-get-started .detail-shell{padding-bottom:67px}
 }
 
 /* Brief 31, task 1: match the live hover treatments. */
