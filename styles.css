@@ -2106,3 +2106,35 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:124px;h
 @media (min-width:768px) and (max-width:1023px){
   .page-get-started .detail-shell{padding-bottom:19.25px}
 }
+
+/* Brief 32, task 3: restore the tablet type and color values from live. */
+@media (min-width:768px) and (max-width:1023px){
+  body:not([data-page]) .brand-name{letter-spacing:-.5px}
+  .brand-subtitle{font-size:11.2px;line-height:11.2px;letter-spacing:2.24px;color:rgba(57,96,71,.7)}
+  body:not([data-page]) .scroll-cue{color:rgba(23,39,64,.55)}
+  body:not([data-page]) .office-notice .notice-copy p{line-height:22.75px}
+
+  .page-service .detail-hero>.eyebrow{color:rgba(88,25,37,.8)}
+  .page-service .detail-hero h1{letter-spacing:normal}
+  .page-services-anxiety-depression .detail-content>.detail-section>.eyebrow{color:rgba(88,25,37,.8)}
+
+  .page-get-started .office-copy>p:not(.eyebrow){font-size:16px;line-height:26px;color:rgba(23,39,64,.75)}
+  .page-get-started .office-copy>p.virtual-note{line-height:22.75px;color:rgba(23,39,64,.8)}
+  .page-get-started .office-copy>p.virtual-note strong{font-weight:600;color:rgb(88,25,37)}
+
+  .page-services-transitions .detail-content>.detail-section:last-child h2,
+  .page-services-teens .detail-content>.detail-section:last-child h2{line-height:30px}
+  .page-services-transitions .detail-shell{padding-bottom:112px}
+  .page-services-teens .detail-shell{padding-bottom:89px}
+
+  .page-resources .book-section h2{font-size:24px;line-height:32px}
+  .page-resources .book-section{padding-bottom:76px}
+  .page-resources .detail-shell{padding-bottom:138px}
+
+  .page-about .about-sessions h2,
+  .page-about .detail-section h2{font-size:24px;line-height:32px}
+  .page-about .detail-shell{padding-bottom:12px}
+
+  .page-modalities .detail-shell{padding-bottom:33px}
+  .page-get-started .detail-shell{padding-bottom:15.25px}
+}
