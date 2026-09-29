@@ -1,0 +1,148 @@
+
+### / @1440  live=18 ours=18
+ L svg  x=74 y=1157 52x67 w=40px rot=-12 rgba(88, 25, 37, 0.3) op=1 
+ O svg  x=325 y=3977 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1
+ L svg  x=298 y=3975 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1 
+ O svg  x=753 y=3977 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1
+ L svg  x=726 y=3975 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1 
+ O svg  x=1181 y=3977 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1
+ L svg  x=1154 y=3975 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1 
+ O svg  x=1609 y=3977 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1
+ L svg  x=1582 y=3975 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1 
+ O svg  x=2038 y=3977 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1
+ L svg  x=2011 y=3975 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1 
+ O svg  x=2466 y=3977 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1
+ L svg  x=2439 y=3975 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1 
+ O svg  x=2894 y=3977 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1
+ L svg  x=2867 y=3975 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1 
+ O svg  x=3322 y=3977 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1
+ L svg  x=3295 y=3975 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1 
+ O svg  x=3751 y=3977 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1
+ L svg  x=3724 y=3975 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1 
+ O svg  x=4179 y=3977 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1
+ L svg  x=4152 y=3975 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1 
+ O svg  x=4607 y=3977 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1
+ L svg  x=4580 y=3975 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1 
+ O svg  x=5035 y=3977 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1
+ L svg  x=5008 y=3975 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1 
+ O svg  x=5464 y=3977 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1
+ L svg  x=1051 y=4128 55x64 w=36px rot=24 rgba(57, 96, 71, 0.35) op=1 
+ O svg  x=5892 y=3977 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1
+ L svg  x=335 y=4161 45x50 w=28px rot=-30 rgba(88, 25, 37, 0.25) op=1 
+ O svg  x=6320 y=3977 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1
+ L svg  x=11 y=5086 91x111 w=64px rot=18 rgba(57, 96, 71, 0.15) op=1 
+ O svg  x=6748 y=3977 24x28 w=16px rot=22 rgba(241, 234, 223, 0.55) op=1
+ L svg  x=1290 y=6709 124x161 w=96px rot=-12 rgba(57, 96, 71, 0.1) op=1 
+ O svg  x=1290 y=5056 124x161 w=124px rot=0 rgba(57, 96, 71, 0.1) op=1
+ L svg  x=73 y=7058 53x68 w=40px rot=14 rgba(88, 25, 37, 0.3) op=1 
+ O svg  x=73 y=7057 53x68 w=53px rot=0 rgba(88, 25, 37, 0.3) op=1
+
+### /about/ @1440  live=5 ours=5
+ L svg  x=706 y=179 28x38 w=24px rot=-6 rgba(88, 25, 37, 0.4) op=1 
+ O svg  x=706 y=180 28x38 w=24px rot=-6 rgba(88, 25, 37, 0.4) op=1
+ L svg  x=282 y=679 31x40 w=24px rot=-12 rgba(88, 25, 37, 0.5) op=1 
+ O svg  x=286 y=679 31x40 w=24px rot=-12 rgba(88, 25, 37, 0.5) op=1
+ L svg  x=601 y=680 28x38 w=24px rot=6 rgba(88, 25, 37, 0.5) op=1 
+ O svg  x=603 y=680 28x38 w=24px rot=6 rgba(88, 25, 37, 0.5) op=1
+ L svg  x=919 y=680 26x37 w=24px rot=-3 rgba(88, 25, 37, 0.5) op=1 
+ O svg  x=919 y=681 26x37 w=24px rot=-3 rgba(88, 25, 37, 0.5) op=1
+ L svg  x=704 y=3140 32x45 w=28px rot=-6 rgba(241, 234, 223, 0.4) op=1 
+ O svg  x=704 y=3122 32x45 w=28px rot=-6 rgba(241, 234, 223, 0.4) op=1
+
+### /about/cost/ @1440  live=0 ours=0
+
+### /about/resources/ @1440  live=12 ours=12
+ L svg  x=210 y=144 52x67 w=40px rot=-12 rgba(88, 25, 37, 0.3) op=1 
+ O svg  x=210 y=121 52x67 w=40px rot=-12 rgba(88, 25, 37, 0.3) op=1
+ L svg  x=1148 y=160 44x50 w=28px rot=28 rgba(57, 96, 71, 0.3) op=1 
+ O svg  x=1148 y=124 44x50 w=28px rot=28 rgba(57, 96, 71, 0.3) op=1
+ L svg  x=1146 y=371 54x64 w=36px rot=22 rgba(57, 96, 71, 0.2) op=1 
+ O svg  x=1146 y=377 54x64 w=36px rot=22 rgba(57, 96, 71, 0.2) op=1
+ L svg  x=247 y=622 40x49 w=28px rot=-18 rgba(88, 25, 37, 0.15) op=1 
+ O svg  x=247 y=629 40x49 w=28px rot=-18 rgba(88, 25, 37, 0.15) op=1
+ L svg  x=714 y=585 13x19 w=12px rot=-3 rgba(57, 96, 71, 0.4) op=1 
+ O svg  x=714 y=583 13x19 w=12px rot=-3 rgba(57, 96, 71, 0.4) op=1
+ L svg  x=714 y=774 13x19 w=12px rot=-3 rgba(57, 96, 71, 0.4) op=1 
+ O svg  x=714 y=771 13x19 w=12px rot=-3 rgba(57, 96, 71, 0.4) op=1
+ L svg  x=714 y=878 13x19 w=12px rot=-3 rgba(57, 96, 71, 0.4) op=1 
+ O svg  x=714 y=875 13x19 w=12px rot=-3 rgba(57, 96, 71, 0.4) op=1
+ L svg  x=233 y=717 45x56 w=32px rot=18 rgba(88, 25, 37, 0.2) op=1 
+ O svg  x=232 y=751 45x56 w=45px rot=0 rgba(57, 96, 71, 0.28) op=1
+ L svg  x=233 y=1294 45x56 w=32px rot=18 rgba(88, 25, 37, 0.2) op=1 
+ O svg  x=232 y=1338 45x56 w=45px rot=0 rgba(57, 96, 71, 0.28) op=1
+ L svg  x=233 y=1871 45x56 w=32px rot=18 rgba(88, 25, 37, 0.2) op=1 
+ O svg  x=232 y=1924 45x56 w=45px rot=0 rgba(57, 96, 71, 0.28) op=1
+ L svg  x=233 y=2421 45x56 w=32px rot=18 rgba(88, 25, 37, 0.2) op=1 
+ O svg  x=232 y=2483 45x56 w=45px rot=0 rgba(57, 96, 71, 0.28) op=1
+ L svg  x=175 y=2864 55x64 w=36px rot=24 rgba(57, 96, 71, 0.3) op=1 
+ O svg  x=175 y=2912 55x64 w=55px rot=0 rgba(88, 25, 37, 0.25) op=1
+
+### /modalities/ @1440  live=5 ours=5
+ L svg  x=1314 y=29 76x86 w=48px rot=28 rgba(88, 25, 37, 0.25) op=1 
+ O svg  x=1314 y=29 76x86 w=48px rot=28 rgba(88, 25, 37, 0.25) op=1
+ L svg  x=1241 y=128 45x56 w=32px rot=-18 rgba(57, 96, 71, 0.25) op=1 
+ O svg  x=1241 y=128 45x56 w=32px rot=-18 rgba(57, 96, 71, 0.25) op=1
+ L svg  x=1361 y=223 70x71 w=40px rot=44 rgba(88, 25, 37, 0.2) op=1 
+ O svg  x=1361 y=223 70x71 w=40px rot=44 rgba(88, 25, 37, 0.2) op=1
+ L svg  x=1079 y=2742 83x107 w=64px rot=-12 rgba(241, 234, 223, 0.15) op=1 
+ O svg  x=1079 y=2832 83x107 w=64px rot=-12 rgba(241, 234, 223, 0.15) op=1
+ L svg  x=285 y=2978 70x84 w=48px rot=20 rgba(241, 234, 223, 0.1) op=1 
+ O svg  x=285 y=3068 70x84 w=48px rot=20 rgba(241, 234, 223, 0.1) op=1
+
+### /get-started/ @1440  live=0 ours=0
+
+### /services/adhd/ @1440  live=3 ours=3
+ L svg  x=210 y=168 52x67 w=40px rot=12 rgba(88, 25, 37, 0.25) op=1 
+ O svg  x=210 y=121 52x67 w=40px rot=12 rgba(88, 25, 37, 0.25) op=1
+ L svg  x=1148 y=184 44x50 w=28px rot=28 rgba(57, 96, 71, 0.3) op=1 
+ O svg  x=1148 y=136 44x50 w=28px rot=28 rgba(57, 96, 71, 0.3) op=1
+ L svg  x=1088 y=2061 72x94 w=56px rot=-12 rgba(241, 234, 223, 0.15) op=1 
+ O svg  x=1088 y=2085 72x94 w=56px rot=-12 rgba(241, 234, 223, 0.15) op=1
+
+### /services/multiculturalism/ @1440  live=3 ours=3
+ L svg  x=218 y=176 52x67 w=40px rot=12 rgba(88, 25, 37, 0.25) op=1 
+ O svg  x=218 y=129 52x67 w=40px rot=12 rgba(88, 25, 37, 0.25) op=1
+ L svg  x=1140 y=184 44x50 w=28px rot=28 rgba(57, 96, 71, 0.3) op=1 
+ O svg  x=1140 y=136 44x50 w=28px rot=28 rgba(57, 96, 71, 0.3) op=1
+ L svg  x=1088 y=1958 72x94 w=56px rot=-12 rgba(241, 234, 223, 0.15) op=1 
+ O svg  x=1088 y=1973 72x94 w=56px rot=-12 rgba(241, 234, 223, 0.15) op=1
+
+### /services/burnout/ @1440  live=3 ours=3
+ L svg  x=218 y=176 52x67 w=40px rot=12 rgba(88, 25, 37, 0.25) op=1 
+ O svg  x=218 y=129 52x67 w=40px rot=12 rgba(88, 25, 37, 0.25) op=1
+ L svg  x=1140 y=184 44x50 w=28px rot=28 rgba(57, 96, 71, 0.3) op=1 
+ O svg  x=1140 y=136 44x50 w=28px rot=28 rgba(57, 96, 71, 0.3) op=1
+ L svg  x=1088 y=1596 72x94 w=56px rot=-12 rgba(241, 234, 223, 0.15) op=1 
+ O svg  x=1088 y=1620 72x94 w=56px rot=-12 rgba(241, 234, 223, 0.15) op=1
+
+### /services/anxiety-depression/ @1440  live=3 ours=3
+ L svg  x=218 y=176 52x67 w=40px rot=12 rgba(88, 25, 37, 0.25) op=1 
+ O svg  x=218 y=129 52x67 w=40px rot=12 rgba(88, 25, 37, 0.25) op=1
+ L svg  x=1140 y=184 44x50 w=28px rot=28 rgba(57, 96, 71, 0.3) op=1 
+ O svg  x=1140 y=136 44x50 w=28px rot=28 rgba(57, 96, 71, 0.3) op=1
+ L svg  x=1088 y=1603 72x94 w=56px rot=-12 rgba(241, 234, 223, 0.15) op=1 
+ O svg  x=1088 y=1639 72x94 w=56px rot=-12 rgba(241, 234, 223, 0.15) op=1
+
+### /services/transitions/ @1440  live=4 ours=4
+ L svg  x=218 y=176 52x67 w=40px rot=12 rgba(88, 25, 37, 0.25) op=1 
+ O svg  x=218 y=129 52x67 w=40px rot=12 rgba(88, 25, 37, 0.25) op=1
+ L svg  x=1140 y=184 44x50 w=28px rot=28 rgba(57, 96, 71, 0.3) op=1 
+ O svg  x=1140 y=136 44x50 w=28px rot=28 rgba(57, 96, 71, 0.3) op=1
+ L svg  x=1129 y=1255 83x99 w=56px rot=22 rgba(57, 96, 71, 0.2) op=1 
+ O svg  x=1386 y=-19 83x99 w=56px rot=22 rgba(57, 96, 71, 0.2) op=1
+ L svg  x=1088 y=1584 72x94 w=56px rot=-12 rgba(241, 234, 223, 0.15) op=1 
+ O svg  x=1088 y=1537 72x94 w=56px rot=-12 rgba(241, 234, 223, 0.15) op=1
+
+### /services/teens/ @1440  live=4 ours=4
+ L svg  x=218 y=176 52x67 w=40px rot=12 rgba(88, 25, 37, 0.25) op=1 
+ O svg  x=218 y=129 52x67 w=40px rot=12 rgba(88, 25, 37, 0.25) op=1
+ L svg  x=1140 y=184 44x50 w=28px rot=28 rgba(57, 96, 71, 0.3) op=1 
+ O svg  x=1140 y=136 44x50 w=28px rot=28 rgba(57, 96, 71, 0.3) op=1
+ L svg  x=1129 y=1622 83x99 w=56px rot=22 rgba(57, 96, 71, 0.2) op=1 
+ O svg  x=1386 y=-19 83x99 w=56px rot=22 rgba(57, 96, 71, 0.2) op=1
+ L svg  x=1088 y=2028 72x94 w=56px rot=-12 rgba(241, 234, 223, 0.15) op=1 
+ O svg  x=1088 y=2056 72x94 w=56px rot=-12 rgba(241, 234, 223, 0.15) op=1
+
+### /privacy/ @1440  live=1 ours=1
+ L svg  x=338 y=84 52x67 w=40px rot=12 rgba(88, 25, 37, 0.3) op=1 
+ O svg  x=338 y=64 52x67 w=40px rot=12 rgba(88, 25, 37, 0.3) op=1
