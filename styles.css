@@ -2093,6 +2093,25 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 
 @media(max-width:767px){.site-footer{padding-bottom:0}.footer-name{width:77px;flex:0 0 77px}.footer-license{width:80px;flex:0 0 80px}.footer-business{width:122px;max-width:122px;flex:0 0 122px}.footer-phone{width:52px;flex:0 0 52px}}
 
+/* Brief 39, task 1: shared tablet header, footer, and service back-link rhythm. */
+@media (min-width:768px) and (max-width:1023px){
+  .site-header{height:auto;min-height:152.8px;padding:24px;justify-content:flex-start}
+  body:not([data-page]) .site-header{height:auto;min-height:152.8px;padding:24px;justify-content:flex-start}
+  .brand{width:100px;flex:0 0 100px;gap:0}
+  .brand-name{max-width:100px;line-height:28px}
+  .brand-subtitle{margin-top:0}
+  .desktop-nav{flex:0 0 auto;gap:40px}
+  .desktop-nav .nav-cta{width:91px;height:60px;padding:10px 20px;line-height:20px;white-space:normal}
+  .footer-top{height:auto;min-height:192px}
+  .footer-crisis{margin-top:0}
+  .footer-copyright-row{padding-bottom:0}
+  .page-service .detail-shell{margin-top:0}
+  .page-service .back-link{position:relative;top:4px}
+}
+@media (max-width:767px){
+  .page-service .back-link{position:relative;top:10px}
+}
+
 @media(max-width:767px){.page-service .detail-content p:not(.eyebrow){font-size:16px;line-height:26px;color:rgba(23,39,64,.75)}}
 
 @media(max-width:767px){
