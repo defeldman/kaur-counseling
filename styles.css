@@ -2067,6 +2067,18 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:124px;h
 .page-about .detail-shell,.page-privacy .detail-shell{padding-bottom:96px}
 .page-modalities .detail-shell{padding-bottom:0}
 
+/* Tablet footer meta follows the live four-column row and wraps its measured text widths. */
+@media (min-width:768px) and (max-width:1023px){
+  .footer-top{height:152px;padding-left:24px;padding-right:24px;align-items:flex-start;flex-wrap:nowrap;justify-content:flex-start}
+  .footer-meta{width:367px;height:96px;flex:0 0 367px;flex-wrap:nowrap;gap:12px;align-items:center}
+  .footer-name{width:77px;flex:0 0 77px}
+  .footer-license{width:80px;flex:0 0 80px}
+  .footer-business{width:122px;flex:0 0 122px}
+  .footer-phone{width:52px;flex:0 0 52px}
+  .footer-nav{width:385px;height:40px;flex:0 0 385px;flex-wrap:nowrap;justify-content:space-between;gap:0;margin-top:30px;align-items:center}
+  .page-modalities .modalities-closing-card{margin-top:108px}
+}
+
 @media (min-width:1024px){
   .page-services-transitions .detail-content>.service-card-grid-section{padding-bottom:56px}
   .page-services-transitions .detail-content>.service-card-grid-section .detail-card-grid{margin-bottom:0}
