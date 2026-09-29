@@ -1,6 +1,6 @@
 @font-face{font-family:Fraunces;src:url("assets/fonts/fraunces-latin.woff2") format("woff2");font-style:normal;font-weight:300 600;font-display:swap}
 @font-face{font-family:Fraunces;src:url("assets/fonts/fraunces-italic-latin.woff2") format("woff2");font-style:italic;font-weight:400;font-display:swap}
-@font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=22") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
+@font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=24") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
 
 :root{--cream:#f1eadf;--cream-dark:#e8e0d4;--navy:#172740;--muted:rgba(23,39,64,.7);--spruce:#396047;--sage:#d5decf;--burgundy:#581925;--accent:#6c3285;--line:#d7ccbc;--max:1176px}
 *{box-sizing:border-box}
