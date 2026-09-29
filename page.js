@@ -358,6 +358,21 @@ function render() {
     document.getElementById('page-app').innerHTML = `${header()}<main class="cost-main"><article class="cost-article">${costBack}<div class="cost-intro reveal is-visible"><span class="cost-eyebrow">${esc(page.eyebrow)}</span><h1>${page.title}</h1><p class="cost-lede">${esc(page.lede)}</p></div>${image}${intro}<div class="cost-divider"></div><div class="cost-sections">${[rates, payment, superbill, outOfPocket].join('')}</div>${page.ctaMarkup}</article></main>${footer()}`;
     return;
   }
+  if (pageId === 'services/multiculturalism') {
+    const icons = ['earth', 'languages', 'users', 'compass', 'network'];
+    const accents = ['burgundy', 'spruce', 'clay', 'burgundy', 'spruce'];
+    const panels = page.body.map((markup, index) => {
+      const heading = markup.match(/<h2>(.*?)<\/h2>/)?.[1] || '';
+      const copy = [...markup.matchAll(/<p>([\s\S]*?)<\/p>/g)].map((match) => `<p>${match[1]}</p>`).join('');
+      const tone = accents[index];
+      return `<section class="svc-section svc-panel svc-panel-${tone} reveal${index < 2 ? ' is-visible' : ''}"><div class="svc-heading"><span class="svc-heading-icon">${window.lucideSvg(icons[index],24,'lucide lucide-'+icons[index])}</span><h2>${heading}</h2></div>${copy}</section>`;
+    }).join('');
+    const svcBack = `<a class="svc-back" href="${backHref}">${window.lucideSvg('arrow-left',16,'lucide lucide-arrow-left mt-px')}${backLabel}</a>`;
+    const svcHero = `<header class="svc-hero reveal is-visible">${featherSvg('svc-hero-leaf svc-hero-leaf-left')}${featherSvg('svc-hero-leaf svc-hero-leaf-right')}<span class="svc-eyebrow">${esc(page.eyebrow)}</span><h1>${page.title}</h1><p class="svc-lede">${esc(page.lede)}</p><p class="svc-hero-body">${esc(page.heroBody)}</p></header>`;
+    const cta = `<section class="svc-cta reveal"><div class="svc-cta-panel">${featherSvg('svc-stat-leaf')}<p class="svc-cta-quote">${esc(page.closingQuote)}</p><a class="svc-cta-button" href="${link('get-started/')}">Get Started${window.lucideSvg('arrow-right',16,'lucide lucide-arrow-right')}</a></div></section>`;
+    document.getElementById('page-app').innerHTML = `${header()}<main class="svc-main"><article class="svc-article">${svcBack}${svcHero}<div class="svc-sections">${panels}${cta}</div></article></main>${footer()}`;
+    return;
+  }
   if (pageId === 'services/adhd') {
     const svcBody = body
       .replaceAll('detail-section', 'svc-section').replaceAll('service-heading', 'svc-heading')

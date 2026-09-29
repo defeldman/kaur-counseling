@@ -91,7 +91,8 @@ const scrollRevealTargets = document.querySelectorAll([
   '.office-copy', '.map-frame', '.detail-hero', '.detail-content > *', '.detail-cta',
   '.cost-article > .reveal', '.cost-sections > .reveal',
   '.privacy-article > .reveal',
-  '.get-started-intro', '.get-started-office-reveal'
+  '.get-started-intro', '.get-started-office-reveal',
+  '.svc-article > .reveal', '.svc-sections > .reveal'
 ].join(','));
 
 const revealStaggerGroups = [
