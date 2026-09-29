@@ -365,6 +365,30 @@ function render() {
     document.getElementById('page-app').innerHTML = `${header()}<main class="cost-main"><article class="cost-article">${costBack}<div class="cost-intro reveal is-visible"><span class="cost-eyebrow">${esc(page.eyebrow)}</span><h1>${page.title}</h1><p class="cost-lede">${esc(page.lede)}</p></div>${image}${intro}<div class="cost-divider"></div><div class="cost-sections">${[rates, payment, superbill, outOfPocket].join('')}</div>${page.ctaMarkup}</article></main>${footer()}`;
     return;
   }
+  if (pageId === 'services/anxiety-depression') {
+    const textIn = (markup, selector) => {
+      const match = markup.match(new RegExp(`<${selector}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${selector}>`));
+      return match ? match[1].replace(/<[^>]+>/g, '').replaceAll('&amp;', '&').replaceAll('&quot;', '"').replaceAll('&#39;', "'") : '';
+    };
+    const p = (copy, cls='anxiety-copy') => `<p class="${cls}">${copy}</p>`;
+    const topicCopies = [...page.body[0].matchAll(/<p(?:\s[^>]*)?>([\s\S]*?)<\/p>/g)].map((m) => m[1]);
+    const overlapCopy = textIn(page.body[1], 'p');
+    const method = page.body[2];
+    const methodCopy = textIn(method, 'p');
+    const steps = [...method.matchAll(/service-step-label[^>]*>(.*?)<\/span>/g)].map((m) => m[1]);
+    const cards = [
+      ['Anxiety','brain','burgundy',topicCopies[0]], ['Depression','cloud-rain','spruce',topicCopies[1]]
+    ].map(([title,icon,tone,copy]) => `<section class="svc-section anxiety-topic anxiety-topic--${tone} reveal is-visible"><div class="anxiety-topic-heading"><span class="anxiety-topic-icon">${window.lucideSvg(icon,24,`lucide lucide-${icon}`)}</span><h2>${title}</h2></div>${p(copy)}</section>`).join('');
+    const stepIcons = ['compass','layers','heart-handshake','brain','sparkles','arrow-right'];
+    const methodSteps = steps.map((label,index) => `<div class="anxiety-step reveal"><span class="anxiety-step-icon">${window.lucideSvg(stepIcons[index],20,`lucide lucide-${stepIcons[index]}`)}</span><span>${label}</span></div>`).join('');
+    const svcBack = `<a class="svc-back" href="${backHref}">${window.lucideSvg('arrow-left',16,'lucide lucide-arrow-left mt-px')}${backLabel}</a>`;
+    const title = 'Anxiety <span class="anxiety-ampersand">&amp;</span> <em class="svc-emphasis">Depression.</em>';
+    const svcHero = `<header class="svc-hero anxiety-hero reveal is-visible">${featherSvg('anxiety-hero-leaf anxiety-hero-leaf-left')}${featherSvg('anxiety-hero-leaf anxiety-hero-leaf-right')}<span class="svc-eyebrow">${esc(page.eyebrow)}</span><h1>${title}</h1><p class="svc-hero-body">${esc(page.lede)}</p></header>`;
+    const overlapLead = overlapCopy.replace(" You don't have to figure it out alone.", '');
+    const anxietyCta = `<section class="anxiety-cta reveal"><div class="anxiety-cta-panel">${featherSvg('anxiety-cta-leaf')}<p>One piece at a time.</p><a href="${link('get-started/')}">Get Started ${window.lucideSvg('arrow-right',16,'lucide lucide-arrow-right')}</a></div></section>`;
+    document.getElementById('page-app').innerHTML = `${header()}<main class="svc-main anxiety-main"><article class="svc-article anxiety-article">${svcBack}${svcHero}<div class="anxiety-topics">${cards}</div><section class="svc-section anxiety-overlap reveal is-visible"><div class="anxiety-overlap-heading"><span class="anxiety-overlap-icon">${window.lucideSvg('layers',24,'lucide lucide-layers')}</span><h2>When they show up together</h2></div><p class="anxiety-copy">${overlapLead}<span class="anxiety-overlap-emphasis"> You don't have to figure it out alone.</span></p></section><section class="anxiety-work reveal"><h2>How we work with it</h2>${p(methodCopy,'anxiety-work-copy')}<div class="anxiety-steps">${methodSteps}</div></section>${anxietyCta}</article></main>${footer()}`;
+    return;
+  }
   if (pageId === 'services/adhd' || pageId === 'services/burnout') {
     const svcBody = body
       .replaceAll('detail-section', 'svc-section').replaceAll('service-heading', 'svc-heading')
