@@ -2099,7 +2099,7 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
   body:not([data-page]) .site-header{height:auto;padding:24px;justify-content:flex-start}
   .brand{width:100px;flex:0 0 100px;gap:0}
   .brand-name{max-width:100px;line-height:28px}
-  .brand-subtitle{margin-top:0}
+  .brand-subtitle{margin-top:4px}
   .desktop-nav{flex:0 0 auto;gap:40px}
   .desktop-nav .nav-cta{width:91px;height:60px;padding:10px 20px;line-height:20px;white-space:normal}
   .footer-top{height:auto}

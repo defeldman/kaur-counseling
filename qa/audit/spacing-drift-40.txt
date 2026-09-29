@@ -1,0 +1,246 @@
+# Tablet drift, brief 40 (768px)
+### home @tablet  liveH=11621 ghH=11641 (+20)
+matched 173 blocks; showing points where cumulative drift changes by >8px
+
+ liveY   ourY   drift   change  text
+   352    329     -23      -23  Welcome
+   382    369     -13      +10  In-person & virtual therapy
+   766    733     -33      -20  Scroll to explore
+   938    881     -57      -24  A calm, private room in the heart of the Mission Dis
+   979    962     -17      +40  3150 18th St, Suite 404, San Francisco, CA 94110
+  1248   1212     -36      -19  About Sohavani Mand
+  2480   2496      16      +52  — Rumi
+  2894   2918      24       +8  Over time, therapy can help you feel more grounded, 
+  3007   3023      16       -8  Learn more about me
+  3252   3257       5      -11  My
+  5255   5250      -5      -10  guide every session.
+  5406   5418      12      +17  Collaboration
+  5582   5566     -16      -28  Discover inner strength to achieve your goals.
+  5619   5631      12      +28  Together we identify your goals and shape a treatmen
+  5647   5631     -16      -28  Understand how your individual experiences shape you
+  5710   5721      11      +27  Feel comfortable to be open and honest in a safe, no
+  5738   5696     -42      -53  Discover often unconscious meanings and motivations.
+  5800   5787     -13      +29  Develop skills for improved inter-relations.
+  5803   5762     -41      -28  Release patterns that no longer serve you, and move 
+  6229   6236       7      +48  People we serve
+  6263   6252     -11      -18  Who this room
+  6321   6296     -25      -14  Whoever you are, however you got here, this is a spa
+  6470   6413     -57      -32  Women
+  6767   6688     -79      -22  People of Color
+  7089   6985    -104      -25  Men
+  7637   7546     -91      +13  LGBTQ+ Community
+  8033   8051      18     +109  Modalities
+  8075   8085      10       -8  one gentle practice.
+  8152   8219      67      +57  No single approach fits every life. These are the fr
+  8801   8842      41      -26  Helping you understand yourself — not just your symp
+  8885   8964      79      +38  Explore all the modalities
+  9136   9149      13      -66  Contact
+  9300   9329      29      +16  I'm glad you're here. Finding the right therapist is
+  9519   9496     -23      -52  Request an appointment
+  9932   9917     -15       +8  What happens next
+ 10066  10062      -4      +11  03
+ 10157  10171      14      +18  Tue–Sat · 9am–6pm
+ 10237  10243       6       -8  sohavani@kaurcounseling.net
+ 10393  10347     -46      -52  Office
+ 10491  10465     -26      +20  My office is a calm, private space in the heart of t
+ 10606  10619      13      +39  but in-person sessions start
+ 10608  10637      29      +16  Virtual sessions are always available,
+ 10608  10660      52      +23  October 1st
+ 11389  11409      20      -32  Kaur Counseling, Marriage & Family Therapy, Inc.
+
+final drift at last matched block: 20px
+### about @tablet  liveH=4091 ghH=4172 (+81)
+matched 66 blocks; showing points where cumulative drift changes by >8px
+
+ liveY   ourY   drift   change  text
+   333    378      45      +45  I'm a brown, South Asian therapist practicing in San
+   726    785      59      +14  In our first session, I'll learn more about what bro
+  1251   1287      36      -23  A little more human
+  1469   1524      55      +19  First-gen Indian woman
+  1505   1599      94      +39  I'm a mix of Indian values, American independence, a
+  1505   1571      66      -28  I know what it's like to have a brain that does thin
+  1715   1524    -191     -257  Dog mom
+  1715   1928     213     +404  Lifelong learner
+  1751   1571    -180     -393  I believe dogs make almost everything better. Mine a
+  1751   1975     224     +404  I'm endlessly curious and will happily go down a com
+  1939   1928     -11     -235  Chocolate fiend
+  1975   1975       0      +11  If there's chocolate involved, I'm interested. Dande
+  2200   2257      57      +57  The work
+  2330   2398      68      +11  My approach is relational, strengths-based, and coll
+  2474   2570      96      +28  What therapy feels like
+  2510   2615     105       +9  You'll find a safe, nonjudgmental space to set down 
+  2720   2853     133      +28  Who I see
+  3060   3185     125       -8  Training & credentials
+  3160   3262     102      -23  Master's in Counseling, Sonoma State University
+  3208   3282      74      -28  Six years in practice across private and community s
+  3256   3302      46      -28  Specialties: ADHD, Immigration & Acculturation, Wome
+  3304   3322      18      -28  Modality training: Attachment-based, CBT, DBT, Relat
+  3528   3632     104      +86  If this feels like the right place to begin, you don
+  3859   3940      81      -23  Kaur Counseling, Marriage & Family Therapy, Inc.
+
+final drift at last matched block: 81px
+### cost @tablet  liveH=2488 ghH=2575 (+87)
+matched 40 blocks; showing points where cumulative drift changes by >8px
+
+ liveY   ourY   drift   change  text
+   878    898      20      +20  Therapy is an investment in the life you're building
+  1071    986     -85     -105  Session rates
+  1455   1382     -73      +12  A superbill for reimbursement
+  1789   1727     -62      +11  Choosing not to bill insurance means your diagnosis 
+  1957   1980      23      +85  If this feels like the right place to begin, you don
+  2256   2343      87      +64  Kaur Counseling, Marriage & Family Therapy, Inc.
+
+final drift at last matched block: 87px
+### resources @tablet  liveH=3406 ghH=3355 (-51)
+matched 100 blocks; showing points where cumulative drift changes by >8px
+
+ liveY   ourY   drift   change  text
+   128    118     -10      -10  Back to About
+   180    180       0      +10  Resources
+   278    291      13      +13  Books I return to and often share with clients. Thes
+   744    768      24      +11  Relationships
+   818    851      33       +9  On attachment, communication, and the everyday work 
+   823    840      17      -16  meet them at the door laughing,
+   893    926      33      +16  Attached
+   906    922      16      -17  Be grateful for whoever comes,
+   924    954      30      +14  Amir Levine & Rachel Heller
+   927    944      17      -13  because each has been sent
+   954    988      34      +17  A practical, accessible guide to adult attachment st
+  1077   1123      46      +12  The Seven Principles for Making Marriage Work
+  1342   1337      -5      -51  Parenting
+  1416   1420       4       +9  On raising whole humans, and on tending yourself alo
+  1651   1667      16      +12  Raising an Emotionally Intelligent Child
+  1710   1750      40      +24  Adele Faber & Elaine Mazlish
+  1740   1756      16      -24  Emotion-coaching for a child's inner world.
+  1740   1784      44      +28  An enduring classic on respectful communication with
+  1915   1909      -6      -50  Self-help
+  1989   1992       3       +9  Gentle, honest reads for growth, meaning, and self-a
+  2224   2239      15      +12  No Bad Parts
+  2461   2426     -35      -50  Trauma
+  2535   2509     -26       +9  On how the body and mind carry what happened, and th
+  2636   2584     -52      -26  What My Bones Know
+  2875   2771    -104      -52  Want more? I'm always adding to this list. Bring wha
+  3174   3123     -51      +53  Kaur Counseling, Marriage & Family Therapy, Inc.
+
+final drift at last matched block: -51px
+### modalities @tablet  liveH=3777 ghH=3775 (-2)
+matched 63 blocks; showing points where cumulative drift changes by >8px
+
+ liveY   ourY   drift   change  text
+   133    179      46      +46  Modalities
+   513    584      71      +25  Five frameworks
+   656    755      99      +28  01
+  3159   3238      79      -20  Curious which lens
+  3545   3543      -2      -81  Kaur Counseling, Marriage & Family Therapy, Inc.
+
+final drift at last matched block: -2px
+### get-started @tablet  liveH=2056 ghH=2183 (+127)
+matched 41 blocks; showing points where cumulative drift changes by >8px
+
+ liveY   ourY   drift   change  text
+   475    503      28      +28  Request an appointment
+   829    844      15      -13  Office
+   877    940      63      +48  A room in the
+   927   1002      75      +12  My office is a calm, private space in the heart of t
+  1042   1156     114      +39  but in-person sessions start
+  1044   1180     136      +22  October 1st
+  1114   1231     117      -19  3150 18th St, Suite 404, San Francisco, CA 94110
+  1824   1951     127      +10  Kaur Counseling, Marriage & Family Therapy, Inc.
+
+final drift at last matched block: 127px
+### adhd @tablet  liveH=3929 ghH=3997 (+68)
+matched 70 blocks; showing points where cumulative drift changes by >8px
+
+ liveY   ourY   drift   change  text
+   244    252       8       +8  ADHD & Late-Stage
+  1358   1333     -25      -33  When the diagnosis arrives later
+  1849   1848      -1      +24  Forgetfulness about what you love
+  1985   2004      19      +20  The exhaustion of masking
+  2211   2272      61      +42  50%+
+  2507   2607     100      +39  The grief, and the broken trust in yourself
+  2718   2843     125      +25  This fractured trust often creates a cycle of self-f
+  3038   3135      97      -28  Honor your gifts: creativity, intensity, range.
+  3132   3189      57      -40  Tend the costs of pretending.
+  3226   3243      17      -40  Grieve what was, and slowly rebuild trust in yoursel
+  3320   3297     -23      -40  Build rhythms and boundaries shaped for how your bra
+  3401   3469      68      +91  You are not a problem to be fixed. You are a person 
+
+final drift at last matched block: 68px
+### multiculturalism @tablet  liveH=2441 ghH=2407 (-34)
+matched 42 blocks; showing points where cumulative drift changes by >8px
+
+ liveY   ourY   drift   change  text
+   244    252       8       +8  Multicultural &
+  1887   1853     -34      -42  You do not have to compress yourself to be understoo
+
+final drift at last matched block: -34px
+### burnout @tablet  liveH=2139 ghH=2079 (-60)
+matched 36 blocks; showing points where cumulative drift changes by >8px
+
+ liveY   ourY   drift   change  text
+   240    248       8       +8  Burnout.
+  1585   1525     -60      -68  Recovery is not a project to optimize. It is a retur
+
+final drift at last matched block: -60px
+### anxiety @tablet  liveH=2146 ghH=2144 (-2)
+matched 45 blocks; showing points where cumulative drift changes by >8px
+
+ liveY   ourY   drift   change  text
+   240    248       8       +8  &
+   504    502      -2      -10  Anxiety
+   563    573      10      +12  Anxiety can keep your mind running long after you wa
+   814    867      53      +43  When they show up together
+  1064   1188     124      +71  How we work with it
+  1104   1239     135      +11  I'm not here to tell you to "just think positively" 
+  1231   1338     107      -28  Understand what's happening beneath the surface
+  1231   1361     130      +23  Recognize the patterns that keep you stuck
+  1325   1384      59      -71  Respond to overwhelm without shutting down
+  1325   1407      82      +23  Challenge thoughts that aren't serving you
+  1419   1430      11      -71  Reconnect with the things that matter to you
+  1419   1453      34      +23  Make changes that feel realistic, not overwhelming
+  1592   1590      -2      -36  One piece at a time.
+
+final drift at last matched block: -2px
+### transitions @tablet  liveH=2348 ghH=2448 (+100)
+matched 51 blocks; showing points where cumulative drift changes by >8px
+
+ liveY   ourY   drift   change  text
+   240    248       8       +8  Transition?
+   568    587      19      +11  You might be navigating…
+   738    719     -19      -38  Becoming a Parent
+  1285   1301      16      +35  The pressure of the open road, and the weight of cho
+  1493   1622     129     +113  Therapy can help you:
+  1551   1672     121       -8  Process your emotions
+  1794   1894     100      -21  You don't have to navigate this next chapter alone.
+
+final drift at last matched block: 100px
+### teens @tablet  liveH=2820 ghH=2904 (+84)
+matched 50 blocks; showing points where cumulative drift changes by >8px
+
+ liveY   ourY   drift   change  text
+   240    248       8       +8  Teens.
+   508    497     -11      -19  Therapy is a place where you don't have to impress a
+   645    644      -1      +10  You don't need to know exactly what you need yet. We
+   783    793      10      +11  What you might be carrying
+   954    925     -29      -39  School Pressure
+  1619   1598     -21       +8  ADHD
+  1912   2028     116     +137  What you get here:
+  1970   2078     108       -8  A space that's just yours
+  2011   2132     121      +13  Words for what you feel
+  2011   2119     108      -13  A safe adult outside your family
+  2063   2185     122      +14  What you share here stays here. The exception is saf
+  2266   2350      84      -38  You don't have to figure it out alone.
+
+final drift at last matched block: 84px
+### privacy @tablet  liveH=2137 ghH=2189 (+52)
+matched 45 blocks; showing points where cumulative drift changes by >8px
+
+ liveY   ourY   drift   change  text
+   511    543      32      +32  for life-threatening emergencies.
+   728    771      43      +11  The content on this website is provided for general 
+  1054   1077      23      -20  Website privacy
+  1328   1363      35      +12  As a licensed health care provider, Sohavani Mand, L
+  1714   1718       4      -31  This page provides a general overview and is not leg
+  1905   1957      52      +48  Kaur Counseling, Marriage & Family Therapy, Inc.
+
+final drift at last matched block: 52px
