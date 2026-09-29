@@ -1880,7 +1880,7 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
 .footer-copyright{color:rgba(23,39,64,.4)}
 @media(max-width:1279px){.footer-top{height:auto;min-height:152px}.footer-meta{width:auto;flex:1 1 auto;flex-wrap:wrap}.footer-nav{width:auto;flex:0 1 auto;gap:16px}.footer-crisis,.footer-copyright-row{height:auto;min-height:32px}.footer-copyright-row{padding-bottom:30px}}
 @media(max-width:767px){.footer-top{height:256px;min-height:0;padding:48px 12px;align-items:flex-start;flex-direction:column;gap:24px}.footer-meta{width:366px;height:96px;flex:0 0 96px;flex-wrap:nowrap;gap:12px;align-items:center}.footer-name{width:77px;flex:0 0 77px}.footer-license{width:80px;flex:0 0 80px}.footer-business{box-sizing:border-box;width:122px;max-width:122px;flex:0 0 122px;overflow-wrap:anywhere}.footer-phone{width:52px;flex:0 0 52px}.footer-nav{width:385px;height:40px;flex:0 0 40px;flex-wrap:nowrap;justify-content:space-between;gap:0;margin-left:-10px}.footer-crisis,.footer-copyright-row{padding-left:24px;padding-right:24px}.footer-copyright-row{padding-bottom:40px}}
-@media(min-width:1024px){.page-services-adhd .detail-content>.detail-section:first-child>p{width:672px;max-width:672px;margin-left:0}.page-services-adhd .detail-content>.detail-section:first-child .detail-card-grid{width:928px;max-width:none;margin-left:0;transform:none}.page-services-adhd .detail-content>.detail-section:first-child .detail-card{padding-left:21px;padding-right:21px}.page-services-adhd .detail-hero .detail-lede{width:672px;margin-left:auto;margin-right:auto}}
+@media(min-width:1024px){.page-services-adhd .detail-content>.detail-section:first-child>p{max-width:672px;margin-left:0}.page-services-adhd .detail-content>.detail-section:first-child .detail-card-grid{width:928px;max-width:none;margin-left:0;transform:none}.page-services-adhd .detail-content>.detail-section:first-child .detail-card{padding-left:21px;padding-right:21px}.page-services-adhd .detail-hero .detail-lede{margin-left:auto;margin-right:auto}}
 .page-service:not(.page-services-anxiety-depression) .service-topic-card .service-heading-icon,.page-service:not(.page-services-anxiety-depression) .service-panel-card .service-heading-icon{width:48px;height:48px;flex-basis:48px;border-radius:16px}
 .site-footer{margin-top:0}
 .footer-name{width:150px;flex:0 0 150px}
@@ -2094,7 +2094,5 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:124px;h
   .page-services-transitions .service-cta,
   .page-services-teens .service-cta{margin-top:64px}
   .page-services-adhd .service-cta{margin-top:0}
-  .page-privacy .detail-content{padding-top:69px}
   .page-modalities .modalities-closing-card{padding-top:56px;padding-bottom:56px}
-  .page-modalities .detail-shell{padding-bottom:56px}
 }
