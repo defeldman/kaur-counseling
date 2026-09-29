@@ -1497,8 +1497,8 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
   .page-cost .detail-content>.detail-section:nth-of-type(3){padding-bottom:102px}
   .page-cost .detail-content>.detail-section:nth-of-type(4){padding-bottom:32px}
   .page-cost .detail-cta{margin-top:0;padding:48px 40px}
-.page-modalities .modalities-closing-card{margin-top:180px}
-.page-get-started .detail-content{margin-top:79px}
+.page-modalities .modalities-closing-card{margin-top:288px}
+.page-get-started .detail-content{margin-top:80px}
   .page-get-started .detail-appointment{margin-bottom:138px}
   .page-get-started .get-started-office .office-facts{margin-top:76px;gap:38px}
 .page-services-adhd .detail-content>.detail-section:first-child .detail-card-grid{margin-bottom:0}
@@ -1917,7 +1917,7 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
   .page-resources .detail-content>.detail-section:last-child{padding-bottom:58px}
   .page-resources .detail-content>.detail-section:last-child>p:first-of-type{color:rgb(57,96,71);font:italic 24px/33px Fraunces,Georgia,serif}
 }
-@media(min-width:1024px){.page-resources .detail-content>.detail-section:last-child{padding-bottom:32px}}
+@media(min-width:1024px){.page-resources .detail-content>.detail-section:last-child{padding-bottom:0}}
 @media (min-width:768px) and (max-width:1023px){.desktop-nav{display:flex;gap:12px}.menu-toggle{display:none}.mobile-nav{display:none}}
 @media (min-width:768px) and (max-width:1023px){.office-notice-wrap{min-height:273px}.about-section{padding-top:112px;padding-bottom:58px}}
 @media (min-width:768px) and (max-width:1023px){body:not([data-page]) .people-section{padding-bottom:calc(178px - (100vw - 768px)*.243)}body:not([data-page]) .modalities-section{padding-top:calc(160px - (100vw - 768px)*.0314);padding-bottom:max(0px,3px - (100vw - 768px)*.043)}}
@@ -2066,3 +2066,8 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:124px;h
 /* Detail page outer rhythm measured from the live wrappers. */
 .page-about .detail-shell,.page-privacy .detail-shell{padding-bottom:96px}
 .page-modalities .detail-shell{padding-bottom:0}
+
+@media (min-width:1024px){
+  .page-services-transitions .detail-content>.service-card-grid-section{padding-bottom:56px}
+  .page-services-transitions .detail-content>.service-card-grid-section .detail-card-grid{margin-bottom:0}
+}
