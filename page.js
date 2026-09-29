@@ -325,8 +325,8 @@ function render() {
   const pageId = document.body.dataset.page;
   const page = pages[pageId];
   if (!page) return;
-  if (pageId !== 'resources') document.body.classList.add(`page-${pageId.replaceAll('/', '-')}`);
-  if (page.isService) document.body.classList.add('page-service');
+  if (pageId !== 'resources' && pageId !== 'services/teens') document.body.classList.add(`page-${pageId.replaceAll('/', '-')}`);
+  if (page.isService && pageId !== 'services/teens') document.body.classList.add('page-service');
   const body = page.body.join('');
   const backLabel = page.backLabel || (page.isService ? 'Back to Services' : 'Back to Home');
   const backHref = page.backPath ? link(page.backPath) : (page.isService ? link('#services') : link(''));
@@ -385,6 +385,22 @@ function render() {
     const supportMarkup = `<section class="transitions-support reveal"><div class="transitions-support-panel">${featherSvg('transitions-support-leaf')}<h2>Therapy can help you:</h2><ul>${support.map((item)=>`<li><span class="transitions-check">${check}</span><span>${esc(item)}</span></li>`).join('')}</ul></div></section>`;
     const cta = `<section class="transitions-cta reveal"><div class="transitions-cta-panel">${featherSvg('transitions-cta-leaf')}<p>You don't have to navigate this next chapter alone.</p><a href="${link('get-started/')}">Get Started ${window.lucideSvg('arrow-right',16,'lucide lucide-arrow-right')}</a></div></section>`;
     document.getElementById('page-app').innerHTML = `${header()}<main class="svc-main transitions-main"><article class="svc-article transitions-article">${back}${intro}<section class="transitions-navigating reveal"><h2>You might be navigating…</h2><div class="transitions-grid">${cardsMarkup}</div></section>${supportMarkup}${cta}</article></main>${footer()}`;
+    return;
+  }
+  if (pageId === 'services/teens') {
+    const cardData = [
+      ['School Pressure', "Grades, expectations, the weight of performing. School can feel like it asks for more than you have to give — and like resting is something you can't afford.", 'backpack', 'burgundy'],
+      ['College Prep & Application Stress', "Applications, test scores, the question of what's next. The future can feel like it's due all at once, and like one decision carries your whole life.", 'graduation-cap', 'spruce'],
+      ["A Safe Adult Who Isn't Your Parent", "Some questions feel too hard or shameful to bring home — and that's okay. This is a trusted adult outside your family to explore them with, who listens without lecturing and keeps what you share private.", 'heart-handshake', 'clay'],
+      ['Evolving Friendships & Identity', 'Friendships shift, you change, and the question of who you are gets louder. We make room to explore it — without rushing you toward an answer.', 'users', 'burgundy'],
+      ['ADHD', "A mind that runs fast, gets distracted, or feels like 'too much.' We understand how it shows up — especially for girls who've been missed or told they're just 'not trying.'", 'brain', 'spruce']
+    ];
+    const cardMarkup = cardData.map(([title, copy, icon, tone]) => `<div class="teens-card teens-card-${tone} reveal"><span class="teens-card-icon">${window.lucideSvg(icon,20,`lucide lucide-${icon}`)}</span><h3>${esc(title)}</h3><p>${esc(copy)}</p></div>`).join('');
+    const items = ["A space that's just yours", 'Tools for the pressure', 'Words for what you feel', 'A safe adult outside your family'];
+    const check = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 8 3 3 7-7"/></svg>';
+    const back = `<a class="teens-back" href="${backHref}">${window.lucideSvg('arrow-left',16,'lucide lucide-arrow-left mt-px')}${backLabel}</a>`;
+    const main = `<main class="teens-main"><article class="teens-article">${back}<header class="teens-hero reveal is-visible">${featherSvg('teens-hero-leaf teens-hero-leaf-left')}${featherSvg('teens-hero-leaf teens-hero-leaf-right')}<span class="teens-eyebrow">${esc(page.eyebrow)}</span><h1>Therapy for <span>Teens.</span></h1><p class="teens-lede">${esc(page.lede)}</p><div class="teens-hero-copy">${paras(["Being a teenager can feel like everyone expects something from you. Keep your grades up. Make good choices. Think about college. Get along with your family. Maintain friendships. Somehow figure out who you are in the middle of all of it.", "Therapy is a place where you don't have to impress anyone or pretend you're doing better than you are. We can talk about what's actually going on — anxiety, ADHD, family tension, school pressure, friendships, the future, or just feeling overwhelmed by all of it.", "You don't need to know exactly what you need yet. We can figure that out together."])}</div></header><section class="teens-carrying reveal is-visible"><h2>What you might be carrying</h2><div class="teens-grid">${cardMarkup}</div></section><section class="teens-support reveal"><div class="teens-support-panel">${featherSvg('teens-support-leaf')}<h2>What you get here:</h2><ul>${items.map((item) => `<li><span class="teens-check">${check}</span><span>${esc(item)}</span></li>`).join('')}</ul><p>What you share here stays here. The exception is safety — if I'm worried about your wellbeing, we talk about it together first, and figure out next steps as a team.</p></div></section><section class="teens-cta reveal"><div class="teens-cta-panel">${featherSvg('teens-cta-leaf')}<p>You don't have to figure it out alone.</p><a href="${link('get-started/')}">Get Started ${window.lucideSvg('arrow-right',16,'lucide lucide-arrow-right')}</a></div></section></article></main>`;
+    document.getElementById('page-app').innerHTML = `${header()}${main}${footer()}`;
     return;
   }
   if (pageId === 'services/anxiety-depression') {

@@ -1247,16 +1247,7 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
 }
 .page-service .detail-card-grid .detail-card:nth-child(3n+1) h3{color:rgb(88,25,37)}
 .page-service .detail-card-grid .detail-card:nth-child(3n+2) h3{color:rgb(57,96,71)}
-.page-service .detail-card-grid .detail-card:nth-child(3n) h3{color:rgb(108,50,133)} .page-services-teens .detail-card-grid .detail-card h3{font-size:20px;line-height:27.5px} .page-services-teens .detail-card-grid .detail-card p{
-  color:rgba(23,39,64,.75);
-  font-size:15.2px;
-  line-height:24.7px;
-}
-.page-services-teens .detail-section>p:last-child{
-  color:rgba(23,39,64,.65);
-  font-size:15.2px;
-  line-height:24.7px;
-}
+.page-service .detail-card-grid .detail-card:nth-child(3n) h3{color:rgb(108,50,133)}
 /* Brief 09: resource poem, modality framework labels, and closing copy. */
 @media (min-width:768px){
 
@@ -1354,7 +1345,7 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
 .service-card-icon{position:absolute;top:24px;left:24px;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;color:rgb(88,25,37)}
 .service-card-icon svg{width:20px;height:20px}
 .service-card-icon.tone-1{color:rgb(57,96,71)}
-.service-card-icon.tone-2{color:rgb(108,50,133)} .page-services-teens .service-card-icon{background:transparent}
+.service-card-icon.tone-2{color:rgb(108,50,133)}
 .page-service ul.service-list-check{display:grid;width:auto;height:auto;flex:none;grid-template-columns:minmax(0,1fr);gap:16px;list-style:none;margin:16px 0;padding:0;border-radius:0;background:transparent;color:inherit}
 .page-service ul.service-list-check li{display:flex;align-items:center;gap:12px;margin:0;min-width:0}
 .page-service ul.service-list-check .service-list-check{display:grid;flex:0 0 24px;place-items:center;margin:0}
@@ -1470,9 +1461,6 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 .modalities-closing-card h2{font-size:28px;line-height:34px}
 .modalities-closing-leaf-top-right{right:20px;top:20px}
 .modalities-closing-leaf-bottom-left{left:24px;bottom:16px}
-} .page-services-teens .detail-content>.detail-section:last-child>ul>li{
-  font:400 18px/24.75px Fraunces,Georgia,serif;
-  color:rgb(23,39,64);
 }
 
 /* Brief 13: match the live resource poem and stacked book cells. */
@@ -1537,9 +1525,6 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 }
 
 
-@media (min-width:640px) and (max-width:1023px){ .page-services-teens .detail-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-
-}
 /* Brief 15: restore the live mobile type scale and palette. */
 @media (max-width:767px){
   body{font-size:16px}
@@ -1706,10 +1691,6 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
   .page-service .detail-section-tint h2{font-size:24px;line-height:30px}
 
 
-  .page-services-teens .detail-section>p:last-child{font-size:15.2px;line-height:24.7px}
-  .page-services-teens .detail-card-grid .detail-card p{font-size:15.2px;line-height:24.7px;color:rgba(23,39,64,.75)}
-
-
   body:not([class])::after{
     content:"";
     position:absolute;
@@ -1737,28 +1718,6 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 
   .page-modalities .modalities-closing-card{margin-top:170px}
 
-.page-services-teens .detail-content>.service-card-grid-section{
-    margin-top:64px;
-    padding-bottom:0;
-  }
-
-  .page-services-teens .detail-card-grid{
-    gap:24px;
-    margin-top:45px;
-    margin-bottom:0;
-  }
-
-  .page-services-teens .detail-card-grid .detail-card{
-    padding-top:92px;
-    padding-bottom:28px;
-  }
-
-  .page-services-teens .detail-card-grid>.detail-card:nth-child(1){padding-bottom:52px}
-
-  .page-services-teens .detail-card-grid>.detail-card:nth-child(4){padding-bottom:54px}
-
-  .page-services-teens .detail-content>.detail-section-tint{margin-top:25px}
-
 }
 /* Brief 18: final desktop corrections limited to the three audited routes. */
 
@@ -1767,8 +1726,7 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 body:not([data-page]) .centered-link .inline-arrow{transform:translate(2px,7px)}
 body:not([data-page]) .modality-link .inline-arrow{transform:translate(3px,7px)}
 body:not([data-page]) .contact-links a:first-child .inline-arrow{transform:translate(1px,28px)}
-body:not([data-page]) .contact-links a:last-child .inline-arrow{transform:translate(-5px,28px)} .page-services-teens .detail-card-grid{width:934px;max-width:none;margin-left:-60px}
-.page-services-teens .detail-card-grid{margin-top:70px;row-gap:38px}
+body:not([data-page]) .contact-links a:last-child .inline-arrow{transform:translate(-5px,28px)}
 
 }
 .brief22-inventory-feather{display:block;width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
@@ -1877,13 +1835,7 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 
   body:not([data-page]) .approach-card p{line-height:26px}
 
-
-
-  .page-services-teens .detail-content>.detail-section:last-child>ul>li{color:var(--navy)}
-
   .page-service .service-list-leaf{right:10px;width:36px}
-
-  .page-services-teens .service-cta{margin-top:173px}
 
 }
 /* Brief 32, task 3: restore the tablet type and color values from live. */
@@ -1900,7 +1852,6 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
   .page-service .detail-hero>.eyebrow{color:rgba(88,25,37,.8)}
 
   .page-service .detail-hero h1{letter-spacing:normal}
-  .page-services-teens .detail-content>.detail-section:last-child h2{line-height:30px}
 
 
 
@@ -1975,7 +1926,7 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 }
 
 
-@media(max-width:767px){ .page-services-teens .service-cta{margin-top:64px}
+@media(max-width:767px){
 .page-modalities .modalities-closing-card{padding-top:56px;padding-bottom:56px}
 
 }
@@ -2627,3 +2578,49 @@ body:not([data-page]) .leaf-people{bottom:64px}
 @media(min-width:1024px){.res-article{padding-right:48px;padding-left:48px}.res-intro h1{font-size:36px;line-height:40px}.res-section h2{font-size:30px;line-height:36px}.res-section-inner{padding-right:40px;padding-left:40px}.res-grid{column-gap:40px;row-gap:32px}}
 @media(min-width:768px) and (max-width:1023px){.resource-closing-leaf{left:-48px}}
 @media(max-width:767px){.res-main{padding-bottom:112px}.res-grid{grid-template-columns:1fr;row-gap:32px}.resource-closing-leaf{left:-48px}}
+
+/* /services/teens — live utility class translation */
+.teens-main{box-sizing:border-box;padding:128px 0 112px;background:rgb(241,234,223)}
+.teens-article{box-sizing:border-box;width:100%;max-width:1024px;margin:0 auto;padding:0 24px;color:rgb(23,39,64)}
+.teens-back{display:inline-flex;align-items:center;gap:8px;margin:0 0 48px;color:rgb(57,96,71);font-size:14px;line-height:20px;transition:color .3s}
+.teens-back:hover{color:rgb(88,25,37)}
+.teens-back svg{width:16px;height:16px}
+.teens-hero{position:relative;margin:0;color:rgb(23,39,64)}
+.teens-hero-leaf{position:absolute;pointer-events:none}
+.teens-hero-leaf-left{top:-16px;left:-32px;width:40px;color:rgba(88,25,37,.25);transform:rotate(12deg)}
+.teens-hero-leaf-right{top:-8px;right:8px;width:28px;color:rgba(57,96,71,.3);transform:rotate(28deg)}
+.teens-eyebrow{color:rgba(88,25,37,.8);font-size:12px;line-height:16px;letter-spacing:.25em;text-transform:uppercase}
+.teens-hero h1{margin:24px 0 0;color:rgb(23,39,64);font:400 36px/37.8px Fraunces,Georgia,serif}
+.teens-hero h1 span{color:rgb(88,25,37);font-style:italic}
+.teens-lede{max-width:672px;margin:24px 0 0;color:rgb(57,96,71);font:italic 24px/33px Fraunces,Georgia,serif}
+.teens-hero-copy{max-width:672px;margin:32px 0 0;color:rgba(23,39,64,.75);font-size:18px;line-height:1.625}
+.teens-hero-copy p{margin:0}.teens-hero-copy p+p{margin-top:20px}
+.teens-carrying{margin-top:80px}
+.teens-carrying h2{margin:0;color:rgb(23,39,64);font:400 30px/37.5px Fraunces,Georgia,serif}
+.teens-grid{display:grid;grid-template-columns:1fr;margin-top:40px;gap:24px}
+.teens-card{box-sizing:border-box;padding:28px;border:1px solid rgba(88,25,37,.25);border-radius:16px;background:rgba(88,25,37,.05)}
+.teens-card-spruce{border-color:rgba(57,96,71,.25);background:rgba(57,96,71,.06)}
+.teens-card-clay{border-color:rgba(108,50,133,.25);background:rgba(108,50,133,.06)}
+.teens-card-icon{display:flex;box-sizing:border-box;width:44px;height:44px;align-items:center;justify-content:center;margin-bottom:20px;border-radius:12px;background:rgba(88,25,37,.12);color:rgb(88,25,37)}
+.teens-card-spruce .teens-card-icon{background:rgba(57,96,71,.12);color:rgb(57,96,71)}
+.teens-card-clay .teens-card-icon{background:rgba(108,50,133,.12);color:rgb(108,50,133)}
+.teens-card h3{margin:0 0 8px;color:rgb(88,25,37);font:400 20px/27.5px Fraunces,Georgia,serif}
+.teens-card-spruce h3{color:rgb(57,96,71)}.teens-card-clay h3{color:rgb(108,50,133)}
+.teens-card p{margin:0;color:rgba(23,39,64,.75);font-size:15.2px;line-height:1.625}
+.teens-support,.teens-cta{margin-top:64px}
+.teens-support-panel{position:relative;box-sizing:border-box;overflow:hidden;padding:40px 32px;border:1px solid rgba(57,96,71,.25);border-radius:24px;background:rgba(57,96,71,.06)}
+.teens-support-leaf{position:absolute;top:-12px;right:-16px;width:56px;color:rgba(57,96,71,.2);transform:rotate(22deg);pointer-events:none}
+.teens-support-panel h2{margin:0;color:rgb(57,96,71);font:400 24px/30px Fraunces,Georgia,serif}
+.teens-support-panel ul{display:grid;grid-template-columns:1fr;gap:16px 40px;max-width:768px;margin:28px 0 0;padding:0;list-style:none}
+.teens-support-panel li{display:flex;align-items:center;gap:12px;color:rgb(23,39,64)}
+.teens-check{display:flex;flex:0 0 24px;width:24px;height:24px;align-items:center;justify-content:center;border:1px solid rgba(57,96,71,.5);border-radius:50%;color:rgb(57,96,71)}
+.teens-check svg{width:14px;height:14px}.teens-support-panel li>span:last-child{font:400 18px/24.75px Fraunces,Georgia,serif}
+.teens-support-panel>p{max-width:672px;margin:28px 0 0;color:rgba(23,39,64,.65);font-size:15.2px;line-height:1.625}
+.teens-cta-panel{position:relative;box-sizing:border-box;overflow:hidden;padding:48px 32px;border-radius:24px;background:rgb(88,25,37);color:rgb(241,234,223)}
+.teens-cta-leaf{position:absolute;top:24px;right:32px;width:56px;color:rgba(241,234,223,.15);transform:rotate(-12deg);pointer-events:none}
+.teens-cta-panel>p{position:relative;max-width:672px;margin:0;color:inherit;font:italic 24px/33px Fraunces,Georgia,serif}
+.teens-cta-panel>a{position:relative;display:inline-flex;align-items:center;gap:8px;margin-top:32px;padding:14px 28px;border-radius:9999px;background:rgb(241,234,223);color:rgb(88,25,37);font-size:14px;line-height:20px;letter-spacing:.025em;transition:background-color .3s,color .3s}
+.teens-cta-panel>a:hover{background:rgb(57,96,71);color:rgb(241,234,223)}
+@media(min-width:640px){.teens-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:768px){.teens-support-panel ul{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:1024px){.teens-article{padding:0 48px}.teens-hero h1{font-size:60px;line-height:60px}.teens-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.teens-support-panel{padding:48px}.teens-support-panel h2{font-size:30px;line-height:36px}.teens-carrying h2{font-size:36px;line-height:40px}.teens-cta-panel{padding:56px 32px}.teens-cta-panel>p{font-size:30px;line-height:36px}}

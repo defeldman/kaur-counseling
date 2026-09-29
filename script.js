@@ -92,7 +92,8 @@ const scrollRevealTargets = document.querySelectorAll([
   '.cost-article > .reveal', '.cost-sections > .reveal', '.transitions-navigating', '.transitions-card', '.transitions-support', '.transitions-cta', '.svc-burnout-panel', '.svc-burnout-cta', '.anxiety-topics > .reveal', '.anxiety-overlap', '.anxiety-work', '.anxiety-step', '.anxiety-cta', '.about-intro', '.about-callout', '.about-session-heading', '.about-card-grid > *', '.about-content-section',
   '.privacy-article > .reveal', '.multiculturalism-article > .reveal', '.multiculturalism-sections > .reveal', '.multiculturalism-panel',
   '.get-started-intro', '.get-started-office-reveal',
-  '.res-article > .reveal', '.res-sections > .reveal'
+  '.res-article > .reveal', '.res-sections > .reveal',
+  '.teens-article > .reveal', '.teens-card'
 ].join(','));
 
 const revealStaggerGroups = [
