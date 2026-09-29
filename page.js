@@ -137,11 +137,11 @@ const pages = {
     ], noCta: true, noBack: true
   },
   privacy: {
-    eyebrow: 'Legal & privacy', title: 'Privacy, Disclaimer &amp; Crisis Resources', lede: 'Your trust and safety matter. This page explains how your information is handled, the limits of this website, and where to turn if you need immediate help.',
+    eyebrow: 'Legal & Privacy', title: 'Privacy, Disclaimer &amp; Crisis Resources', lede: 'Your trust and safety matter. This page explains how your information is handled, the limits of this website, and where to turn if you need immediate help.',
     body: [
       crisisSection(),
       section('Professional disclaimer', ["The content on this website is provided for general informational and educational purposes only. It is not medical or mental health advice and does not create a therapist-client relationship between you and Sohavani Mand, LMFT. A therapist-client relationship is formed only after a formal intake, signed informed consent, and the scheduling of a clinical appointment. Please do not rely on this site in place of seeking professional care."]),
-      section('Licensee identification', ["Sohavani Mand, Licensed Marriage and Family Therapist (LMFT) California License #150884"]),
+      section('Licensee identification', ["Sohavani Mand, Licensed Marriage and Family Therapist (LMFT)\nCalifornia License #150884"]),
       section('Website privacy', ["This website does not store protected health information (PHI) directly. Any information you submit through the appointment request form is transmitted to Sohavani Mand's secure practice management system for the purpose of scheduling and intake. Please avoid including sensitive clinical details in your initial request, and do not use this website to communicate emergencies or urgent clinical concerns."]),
       section('Notice of Privacy Practices (summary)', ["As a licensed health care provider, Sohavani Mand, LMFT maintains confidentiality in accordance with HIPAA and California's Confidentiality of Medical Information Act (CMIA). Your protected health information may be used and disclosed for treatment, payment, and health care operations, and as otherwise permitted or required by law. A complete Notice of Privacy Practices is provided to you at the start of care. This online summary is for general awareness and does not replace the full notice."]),
       section('Telehealth', ["Where telehealth is offered, services are provided under a valid California license, with informed consent, disclosure of risks and limitations, and verification of your identity and location at each session, consistent with California law.", "This page provides a general overview and is not legal advice. For questions about your privacy or care, contact the office directly."])
@@ -331,6 +331,15 @@ function render() {
   const back = page.noBack ? '' : `<a class="back-link" href="${backHref}">${page.isService || page.backLabel ? window.lucideSvg('arrow-left',16,'lucide lucide-arrow-left mt-px') : ''}${backLabel}</a>`;
   const heroBody = page.heroBodyMarkup ? `<p class="detail-hero-body">${page.heroBodyMarkup}</p>` : Array.isArray(page.heroBody) ? page.heroBody.map((copy) => `<p class="detail-hero-body">${esc(copy)}</p>`).join('') : (page.heroBody ? `<p class="detail-hero-body">${esc(page.heroBody)}</p>` : '');
   const routeFeather = pageId === 'about' ? featherSvg('about-hero-leaf') : pageId === 'privacy' ? `<div class="detail-feather-anchor detail-feather-anchor-privacy">${featherSvg('privacy-hero-leaf')}</div>` : pageId === 'modalities' ? `<div class="modalities-hero-feathers">${featherSvg('absolute top-8 right-16 w-12 text-burgundy/25 rotate-[28deg] modalities-hero-feather modalities-hero-feather-one')}${featherSvg('absolute top-32 right-40 w-8 text-spruce/25 -rotate-[18deg] modalities-hero-feather modalities-hero-feather-two')}${featherSvg('absolute top-56 right-6 w-10 text-burgundy/20 rotate-[44deg] modalities-hero-feather modalities-hero-feather-three')}</div>` : pageId === 'resources' ? `<div class="detail-feather-anchor detail-feather-anchor-resources">${featherSvg('resource-hero-leaf resource-hero-leaf-left')}${featherSvg('resource-hero-leaf resource-hero-leaf-right')}</div>` : '';
+  if (pageId === 'privacy') {
+    document.getElementById('page-app').innerHTML = `${header()}<main class="privacy-rebuild detail-page"><article class="detail-shell privacy-article"><header class="detail-hero reveal is-visible"><span class="eyebrow">${esc(page.eyebrow)}</span><h1>${page.title}</h1><p class="detail-lede">${esc(page.lede)}</p></header><div class="privacy-divider"></div><div class="detail-content privacy-content">${body}</div></article></main>${footer()}`;
+    return;
+  }
+  if (pageId === 'get-started') {
+    const [appointment, office] = page.body;
+    document.getElementById('page-app').innerHTML = `${header()}<main class="started-rebuild detail-page"><div class="detail-shell"><section class="detail-hero"><div class="started-intro reveal is-visible"><span class="eyebrow">${esc(page.eyebrow)}</span><h1>${page.title}</h1><p class="detail-lede">${esc(page.lede)}</p></div></section><section class="detail-content started-content">${appointment}${office}</section></div></main>${footer()}`;
+    return;
+  }
   if (pageId === 'cost') {
     const [image, intro, rates, payment, superbill, outOfPocket] = page.body;
     const costBack = `<a class="cost-back" href="${backHref}">${window.lucideSvg('arrow-left',16,'lucide lucide-arrow-left mt-px')}${backLabel}</a>`;
