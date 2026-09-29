@@ -2374,7 +2374,6 @@ body:not([data-page]) .leaf-people{bottom:64px}
 @media (min-width:768px){
   .mod-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
   .mod-closing-wrap{padding:0 48px}
-  .mod-closing-card h2 span{position:relative;left:-7px}
   .mod-closing-section{padding-bottom:80px}
 }
 @media (min-width:1024px){
