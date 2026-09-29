@@ -6,6 +6,7 @@ const esc = (value) => String(value).replace(/[&<>"']/g, (character) => ({
 const link = (path) => `${root}${path}`;
 const paras = (items) => items.map((item) => `<p>${esc(item)}</p>`).join('');
 const section = (heading, items, className = '') => `<section class="detail-section ${className}"><h2>${esc(heading)}</h2>${paras(items)}</section>`;
+const costSection = (heading, copy) => `<section class="cost-section reveal"><h2>${esc(heading)}</h2><p>${esc(copy)}</p></section>`;
 const serviceSection = (heading, content, className = '') => {
   const hasListLeaf = heading === 'Therapy can help you:' || heading === 'What you get here:';
   return `<section class="detail-section ${className}${hasListLeaf ? ' has-service-list-leaf' : ''}">${hasListLeaf ? featherSvg('service-list-leaf') : ''}${sectionHeading(heading, heading === 'How it shows up' ? 1 : heading === 'How we work with it' ? 2 : 0)}${content}</section>`;
@@ -94,14 +95,14 @@ const pages = {
     backLabel: 'Back to Home',
     eyebrow: 'The investment', title: 'The cost of individual therapy', lede: 'Private-pay, with a clear path to reimbursement.',
     body: [
-      `<figure class="cost-image"><img src="${link('assets/images/cost-flatlay.webp')}" alt="A calm flat lay of a notebook, pen, and tea on a cream linen surface" loading="lazy" /></figure>`,
-      `<p>Therapy is an investment in the life you're building. For clients paying out of pocket or using out-of-network insurance, the cost is straightforward, and many receive substantial reimbursement.</p>`,
-      `<section class="detail-section"><h2>Session rates</h2><ul class="rate-list"><li>50-minute individual session — $250</li><li>80-minute extended session — $400</li><li>Couples and family sessions — $300 (50 minutes)</li></ul></section>`,
-      section('Payment details', ["Payment is due at the time of each session and can be made by card (including HSA/FSA cards). There is no charge for your initial 15-minute consultation. That call is simply to see if we're a good fit."]),
-      section('A superbill for reimbursement', ["I'm out-of-network with most insurance plans, which keeps our work private and flexible. I'll send you a superbill after every session or once a month, whichever works best for you. It's a detailed receipt with the codes your insurer needs. You submit it to your insurance, and they reimburse you directly according to your out-of-network benefits.", "Many clients receive 50–80% of the session cost back. I'm happy to help you understand your benefits before we begin, so there are no surprises."]),
-      section('Why pay out of pocket?', ["Choosing not to bill insurance means your diagnosis and treatment stay between us, not in a permanent medical record a third party can review. It also means we set your goals together, rather than to a plan's definition of 'medical necessity.' You get to decide what care looks like for you."])
+      `<span class="cost-photo reveal is-visible"><img src="${link('assets/images/cost-flatlay.webp')}" alt="A calm flat lay of a notebook, pen, and tea on a cream linen surface" loading="lazy" /></span>`,
+      `<p class="cost-summary reveal is-visible">Therapy is an investment in the life you're building. For clients paying out of pocket or using out-of-network insurance, the cost is straightforward, and many receive substantial reimbursement.</p>`,
+      `<section class="cost-section reveal"><h2>Session rates</h2><ul class="cost-rates"><li>50-minute individual session — $250</li><li>80-minute extended session — $400</li><li>Couples and family sessions — $300 (50 minutes)</li></ul></section>`,
+      costSection('Payment details', "Payment is due at the time of each session and can be made by card (including HSA/FSA cards). There is no charge for your initial 15-minute consultation. That call is simply to see if we're a good fit."),
+      costSection('A superbill for reimbursement', "I'm out-of-network with most insurance plans, which keeps our work private and flexible. I'll send you a superbill after every session or once a month, whichever works best for you. It's a detailed receipt with the codes your insurer needs. You submit it to your insurance, and they reimburse you directly according to your out-of-network benefits.\n\nMany clients receive 50–80% of the session cost back. I'm happy to help you understand your benefits before we begin, so there are no surprises."),
+      costSection('Why pay out of pocket?', "Choosing not to bill insurance means your diagnosis and treatment stay between us, not in a permanent medical record a third party can review. It also means we set your goals together, rather than to a plan's definition of 'medical necessity.' You get to decide what care looks like for you.")
     ],
-    ctaMarkup: `<section class="detail-cta"><p>If this feels like the right place to begin, you don't have to figure it out alone.</p><a class="button" href="${link('get-started/')}">Get Started</a></section>`
+    ctaMarkup: `<section class="cost-cta reveal"><p>If this feels like the right place to begin, you don't have to figure it out alone.</p><a class="cost-button" href="${link('get-started/')}">Get Started</a></section>`
   },
   resources: {
     eyebrow: 'Resources', title: 'A reading list for the <em>curious and healing.</em>', lede: "Books I return to and often share with clients. These aren't homework, just companions for the work we do in the room.", backLabel: 'Back to About', backPath: 'about/', noCta: true,
@@ -330,6 +331,12 @@ function render() {
   const back = page.noBack ? '' : `<a class="back-link" href="${backHref}">${page.isService || page.backLabel ? window.lucideSvg('arrow-left',16,'lucide lucide-arrow-left mt-px') : ''}${backLabel}</a>`;
   const heroBody = page.heroBodyMarkup ? `<p class="detail-hero-body">${page.heroBodyMarkup}</p>` : Array.isArray(page.heroBody) ? page.heroBody.map((copy) => `<p class="detail-hero-body">${esc(copy)}</p>`).join('') : (page.heroBody ? `<p class="detail-hero-body">${esc(page.heroBody)}</p>` : '');
   const routeFeather = pageId === 'about' ? featherSvg('about-hero-leaf') : pageId === 'privacy' ? `<div class="detail-feather-anchor detail-feather-anchor-privacy">${featherSvg('privacy-hero-leaf')}</div>` : pageId === 'modalities' ? `<div class="modalities-hero-feathers">${featherSvg('absolute top-8 right-16 w-12 text-burgundy/25 rotate-[28deg] modalities-hero-feather modalities-hero-feather-one')}${featherSvg('absolute top-32 right-40 w-8 text-spruce/25 -rotate-[18deg] modalities-hero-feather modalities-hero-feather-two')}${featherSvg('absolute top-56 right-6 w-10 text-burgundy/20 rotate-[44deg] modalities-hero-feather modalities-hero-feather-three')}</div>` : pageId === 'resources' ? `<div class="detail-feather-anchor detail-feather-anchor-resources">${featherSvg('resource-hero-leaf resource-hero-leaf-left')}${featherSvg('resource-hero-leaf resource-hero-leaf-right')}</div>` : '';
+  if (pageId === 'cost') {
+    const [image, intro, rates, payment, superbill, outOfPocket] = page.body;
+    const costBack = `<a class="cost-back" href="${backHref}">${window.lucideSvg('arrow-left',16,'lucide lucide-arrow-left mt-px')}${backLabel}</a>`;
+    document.getElementById('page-app').innerHTML = `${header()}<main class="cost-main"><article class="cost-article">${costBack}<div class="cost-intro reveal is-visible"><span class="cost-eyebrow">${esc(page.eyebrow)}</span><h1>${page.title}</h1><p class="cost-lede">${esc(page.lede)}</p></div>${image}${intro}<div class="cost-divider"></div><div class="cost-sections">${[rates, payment, superbill, outOfPocket].join('')}</div>${page.ctaMarkup}</article></main>${footer()}`;
+    return;
+  }
   document.getElementById('page-app').innerHTML = `${header()}<main class="detail-page"><div class="detail-shell">${back}<section class="detail-hero">${page.isService ? `<div class="detail-feather-anchor detail-feather-anchor-service">${featherSvg('service-hero-leaf service-hero-leaf-left')}${featherSvg('service-hero-leaf service-hero-leaf-right')}</div>` : routeFeather}<p class="eyebrow">${esc(page.eyebrow)}</p><h1>${page.title}</h1><p class="${page.plainLede ? 'detail-hero-body plain-detail-lede' : 'detail-lede'}">${esc(page.lede)}</p>${heroBody}</section><div class="detail-content">${body}</div>${page.isService ? serviceCta(page.closingQuote) : page.noCta ? '' : page.ctaMarkup || cta()}</div></main>${footer()}`;
 }
 

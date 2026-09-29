@@ -134,23 +134,28 @@ h1 em,h2 em,h3 em{font-style:italic}
 .page-about .detail-hero{padding:102px 0 75px}.page-about .detail-hero h1{max-width:576px;font-size:30px;font-style:italic;line-height:1.2;letter-spacing:0}.page-about .detail-lede{max-width:650px;margin-top:25px}.page-about .detail-content{max-width:928px}.about-sessions{display:flex;align-items:end;justify-content:space-between;margin:0 0 30px}.about-sessions h2{margin:13px 0 0;font-size:31px}.about-verification{text-align:right}.about-verification .button{padding:12px 25px}.about-verification p{margin:10px 0 0;color:#65736a;font-size:10px;letter-spacing:.25em;text-transform:uppercase}.about-cards{margin:0 0 91px}.about-cards .detail-card{position:relative;padding:82px 28px 35px;border-color:#ddd5cc;border-radius:15px;background:transparent}.about-cards .detail-card h3{font-size:20px}.about-cards .detail-card p{font-size:14px;line-height:1.65}.card-leaf{position:absolute;top:30px;left:32px;color:#9a9e95;font:28px Fraunces,Georgia,serif;transform:rotate(-30deg)}.about-human,.about-work,.credentials{max-width:700px;margin-left:auto;margin-right:auto}.about-human .eyebrow,.about-work .eyebrow{margin-bottom:16px}.about-human h2{margin-bottom:28px}.about-human .fact-grid{grid-template-columns:repeat(2,1fr)}.about-human .fact-grid div{min-height:157px}.about-human .fact-grid span{font-size:13px;line-height:1.55}.about-work h3{margin:37px 0 17px;font:500 20px Fraunces,Georgia,serif;color:var(--navy)}.credentials ul{margin:25px 0 29px;padding-left:19px;color:var(--navy-60);font-size:14px;line-height:1.8}.credentials p{color:var(--navy-60)}
 .page-service .detail-shell{max-width:928px}.page-service .detail-hero{padding:58px 0 57px;text-align:left}.page-service .detail-hero h1{max-width:none;margin-top:27px;font-size:60px;line-height:1.02;letter-spacing:-.03em}.page-service .detail-hero h1 em{color:var(--burgundy)}.page-service .detail-lede{max-width:660px;margin-top:26px;color:var(--spruce);font:italic 26px/1.25 Fraunces,Georgia,serif}.page-service .detail-hero-body{max-width:700px;margin:30px 0 0;color:var(--navy-60);font-size:18px;line-height:1.62}.page-service .detail-content{max-width:928px;border-top:1px solid var(--line);padding-top:33px}.page-service .detail-section{padding:0 64px 70px}.page-service .detail-section h2{font-size:31px}.page-service .detail-section-tint{margin-left:0;margin-right:0;padding:57px 64px 67px}.framework-copy{display:grid;grid-template-columns:1fr 1fr;gap:38px}.framework-copy .eyebrow{margin-bottom:12px}.framework-copy p:not(.eyebrow){font-size:14px}.framework{border-top:1px solid var(--line);padding-top:51px!important}.framework:first-child{border-top:0;padding-top:0!important}
 .detail-hero-body{color:var(--navy-60)}.page-privacy .detail-hero h1{max-width:650px}.page-get-started .detail-hero h1{max-width:650px}
-.page-service .detail-lede{margin-left:0;margin-right:0}.page-service .detail-section:first-child h2{position:relative}.page-service .detail-section:first-child h2:before{content:"✳";position:absolute;left:-64px;top:-2px;width:48px;height:48px;display:grid;place-items:center;border-radius:15px;background:rgba(91,30,42,.08);color:var(--burgundy);font:20px Fraunces,Georgia,serif}.about-human-head{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:48px;align-items:center;margin-bottom:38px}.about-human-head figure{width:198px;height:248px;margin:0;overflow:hidden;border:1px solid rgba(24,36,58,.1);border-radius:24px;background:rgba(66,99,77,.05);box-shadow:0 3px 10px rgba(24,36,58,.05)}.about-human-head img{width:100%;height:100%;object-fit:cover}.about-human-head h2{margin-top:13px}.cost-image{margin:0 0 59px;width:100%;height:auto}.cost-image img{display:block;width:100%;height:auto}.page-cost .detail-shell{max-width:672px}.page-cost .detail-hero{text-align:left;padding:58px 0 41px}.page-cost .detail-hero h1{font-size:48px;letter-spacing:-.02em}.page-cost .detail-hero h1 em{font-style:normal;color:inherit}.page-cost .detail-lede{margin:19px 0 0;color:var(--spruce);font:italic 26px/1.25 Fraunces,Georgia,serif}.page-cost .detail-content{max-width:none}.page-cost .detail-section{padding-bottom:62px}.page-modalities .back-link{display:none}.page-modalities .detail-shell{max-width:1176px}.page-modalities .detail-hero{text-align:left;padding:89px 0 143px}.page-modalities .detail-hero .eyebrow{display:inline-flex;padding:7px 15px;border-radius:999px;background:rgba(112,64,138,.08);color:var(--burgundy);font-size:12px}.page-modalities .detail-hero h1{max-width:650px;margin:27px 0 0;font-size:60px;line-height:1.02}.page-modalities .detail-lede{max-width:700px;margin:24px 0 0;font-size:18px;line-height:1.6}.page-modalities .detail-content{max-width:none}.page-modalities .framework-intro{padding:0 0 56px}.page-modalities .framework-intro h2{font-size:31px}.page-modalities .framework{max-width:850px;margin-left:0;margin-right:auto;padding-left:0!important;padding-right:0!important}.page-modalities .detail-cta{max-width:850px;text-align:left;padding-left:0}
+.page-service .detail-lede{margin-left:0;margin-right:0}.page-service .detail-section:first-child h2{position:relative}.page-service .detail-section:first-child h2:before{content:"✳";position:absolute;left:-64px;top:-2px;width:48px;height:48px;display:grid;place-items:center;border-radius:15px;background:rgba(91,30,42,.08);color:var(--burgundy);font:20px Fraunces,Georgia,serif}.about-human-head{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:48px;align-items:center;margin-bottom:38px}.about-human-head figure{width:198px;height:248px;margin:0;overflow:hidden;border:1px solid rgba(24,36,58,.1);border-radius:24px;background:rgba(66,99,77,.05);box-shadow:0 3px 10px rgba(24,36,58,.05)}.about-human-head img{width:100%;height:100%;object-fit:cover}.about-human-head h2{margin-top:13px}.cost-image{margin:0 0 59px;width:100%;height:auto}.cost-image img{display:block;width:100%;height:auto}.page-modalities .back-link{display:none}.page-modalities .detail-shell{max-width:1176px}.page-modalities .detail-hero{text-align:left;padding:89px 0 143px}.page-modalities .detail-hero .eyebrow{display:inline-flex;padding:7px 15px;border-radius:999px;background:rgba(112,64,138,.08);color:var(--burgundy);font-size:12px}.page-modalities .detail-hero h1{max-width:650px;margin:27px 0 0;font-size:60px;line-height:1.02}.page-modalities .detail-lede{max-width:700px;margin:24px 0 0;font-size:18px;line-height:1.6}.page-modalities .detail-content{max-width:none}.page-modalities .framework-intro{padding:0 0 56px}.page-modalities .framework-intro h2{font-size:31px}.page-modalities .framework{max-width:850px;margin-left:0;margin-right:auto;padding-left:0!important;padding-right:0!important}.page-modalities .detail-cta{max-width:850px;text-align:left;padding-left:0}
 
 @media (max-width:767px){
-  .page-about .detail-hero{padding:84px 0 58px}.page-about .detail-hero h1{font-size:29px;line-height:1.2}.page-about .detail-content{max-width:none}.about-sessions{align-items:flex-start;margin-bottom:25px}.about-sessions h2{font-size:28px}.about-verification .button{padding:10px 17px;font-size:12px}.about-verification p{font-size:8px;letter-spacing:.13em}.about-cards{margin-bottom:67px}.about-cards .detail-card{padding:71px 22px 28px}.about-human,.about-work,.credentials{max-width:none}.about-human .fact-grid{grid-template-columns:1fr}.about-human .fact-grid div{min-height:0}.about-human .fact-grid span{font-size:12px}.about-work h3{font-size:19px}.about-human-head{grid-template-columns:1fr;gap:24px}.about-human-head figure{width:100%;height:auto;aspect-ratio:4/5}.page-service .detail-hero{padding:57px 0 48px}.page-service .detail-hero h1{font-size:43px;line-height:1.08}.page-service .detail-lede{font-size:22px;line-height:1.3}.page-service .detail-hero-body{margin-top:23px;font-size:16px;line-height:1.6}.page-service .detail-content{padding-top:43px}.page-service .detail-section{padding-left:0;padding-right:0}.page-service .detail-section-tint{margin-left:-24px;margin-right:-24px;padding-left:24px;padding-right:24px}.page-service .detail-section:first-child h2:before{display:none}.framework-copy{grid-template-columns:1fr;gap:24px}.framework{padding-top:40px!important}.page-cost .detail-shell{max-width:none}.page-cost .detail-hero{padding:57px 0 34px}.page-cost .detail-hero h1{font-size:40px}.page-cost .detail-lede{font-size:22px}.page-modalities .detail-shell{max-width:none}.page-modalities .detail-hero{padding:81px 0 106px}.page-modalities .detail-hero h1{font-size:43px;line-height:1.08}.page-modalities .detail-lede{font-size:16px;line-height:1.65}.page-modalities .framework-intro{padding-bottom:44px}.page-modalities .framework{max-width:none}.page-modalities .detail-cta{max-width:none}
+  .page-about .detail-hero{padding:84px 0 58px}.page-about .detail-hero h1{font-size:29px;line-height:1.2}.page-about .detail-content{max-width:none}.about-sessions{align-items:flex-start;margin-bottom:25px}.about-sessions h2{font-size:28px}.about-verification .button{padding:10px 17px;font-size:12px}.about-verification p{font-size:8px;letter-spacing:.13em}.about-cards{margin-bottom:67px}.about-cards .detail-card{padding:71px 22px 28px}.about-human,.about-work,.credentials{max-width:none}.about-human .fact-grid{grid-template-columns:1fr}.about-human .fact-grid div{min-height:0}.about-human .fact-grid span{font-size:12px}.about-work h3{font-size:19px}.about-human-head{grid-template-columns:1fr;gap:24px}.about-human-head figure{width:100%;height:auto;aspect-ratio:4/5}.page-service .detail-hero{padding:57px 0 48px}.page-service .detail-hero h1{font-size:43px;line-height:1.08}.page-service .detail-lede{font-size:22px;line-height:1.3}.page-service .detail-hero-body{margin-top:23px;font-size:16px;line-height:1.6}.page-service .detail-content{padding-top:43px}.page-service .detail-section{padding-left:0;padding-right:0}.page-service .detail-section-tint{margin-left:-24px;margin-right:-24px;padding-left:24px;padding-right:24px}.page-service .detail-section:first-child h2:before{display:none}.framework-copy{grid-template-columns:1fr;gap:24px}.framework{padding-top:40px!important}.page-modalities .detail-shell{max-width:none}.page-modalities .detail-hero{padding:81px 0 106px}.page-modalities .detail-hero h1{font-size:43px;line-height:1.08}.page-modalities .detail-lede{font-size:16px;line-height:1.65}.page-modalities .framework-intro{padding-bottom:44px}.page-modalities .framework{max-width:none}.page-modalities .detail-cta{max-width:none}
 }
 
 /* Scout geometry corrections for the next pass. */
-.back-link{font-size:14px;line-height:20px;letter-spacing:.01em;text-transform:none;color:var(--spruce)}.page-about .detail-shell{padding-top:17px}.page-about .detail-hero{padding-top:105.5px}.page-about .about-human{max-width:928px}.page-cost .detail-shell,.page-service .detail-shell{padding-top:33px}.page-cost .detail-hero h1{line-height:1}.page-service .detail-hero h1{line-height:1}.page-modalities .detail-hero{padding-top:60px}.page-modalities .detail-hero h1{line-height:1}
-@media (max-width:767px){.page-about .detail-shell{padding-top:17px}.page-about .detail-hero{padding-top:84px}.page-cost .detail-shell,.page-service .detail-shell{padding-top:27px}.page-modalities .detail-hero{padding-top:81px}}
+.back-link{font-size:14px;line-height:20px;letter-spacing:.01em;text-transform:none;color:var(--spruce)}.page-about .detail-shell{padding-top:17px}.page-about .detail-hero{padding-top:105.5px}.page-about .about-human{max-width:928px}
+.page-service .detail-shell{padding-top:33px}.page-service .detail-hero h1{line-height:1}.page-modalities .detail-hero{padding-top:60px}.page-modalities .detail-hero h1{line-height:1}
+@media (max-width:767px){.page-about .detail-shell{padding-top:17px}.page-about .detail-hero{padding-top:84px}
+.page-service .detail-shell{padding-top:27px}.page-modalities .detail-hero{padding-top:81px}}
 
 /* The About page's human section is a three-column set of soft cards in the source. */
 .back-link{gap:19px}.about-human .fact-grid{grid-template-columns:repeat(3,1fr);gap:23px;border:0}.about-human .fact-grid div{min-height:214px;padding:27px 25px;border:1px solid #d1ccc4;border-radius:15px;background:rgba(232,224,212,.46)}.about-human .fact-grid div:nth-child(2),.about-human .fact-grid div:nth-child(5){background:rgba(230,219,218,.62)}.about-human .fact-grid div:nth-child(3),.about-human .fact-grid div:nth-child(4){background:rgba(219,225,214,.62)}.about-human .fact-grid strong{font-size:18px}.about-human .fact-grid span{font-size:14px;line-height:1.55}
 @media (max-width:767px){.back-link{gap:15px}.about-human .fact-grid{grid-template-columns:1fr;gap:15px}.about-human .fact-grid div{min-height:0;padding:22px 20px}.about-human .fact-grid strong{font-size:17px}.about-human .fact-grid span{font-size:13px}}
 
 /* Second-pass geometry measured against the live route screenshots. */
-.page-about .detail-shell{padding-top:17px}.page-about .detail-hero{padding-top:105.5px}.page-cost .detail-shell,.page-service .detail-shell{padding-top:33px}.page-cost .detail-hero h1,.page-service .detail-hero h1{line-height:1}.page-modalities .detail-hero{padding-top:60px}.page-modalities .detail-hero h1{line-height:1}.about-human .fact-grid div{min-height:268px}.about-human .fact-grid span{line-height:1.625}
-@media (max-width:767px){.page-about .detail-shell{padding-top:17px}.page-about .detail-hero{padding-top:84px}.page-cost .detail-shell,.page-service .detail-shell{padding-top:27px}.page-modalities .detail-hero{padding-top:81px}.about-human .fact-grid div{min-height:0}.about-human .fact-grid span{line-height:1.55}}
+.page-about .detail-shell{padding-top:17px}.page-about .detail-hero{padding-top:105.5px}
+.page-service .detail-shell{padding-top:33px}
+.page-service .detail-hero h1{line-height:1}.page-modalities .detail-hero{padding-top:60px}.page-modalities .detail-hero h1{line-height:1}.about-human .fact-grid div{min-height:268px}.about-human .fact-grid span{line-height:1.625}
+@media (max-width:767px){.page-about .detail-shell{padding-top:17px}.page-about .detail-hero{padding-top:84px}
+.page-service .detail-shell{padding-top:27px}.page-modalities .detail-hero{padding-top:81px}.about-human .fact-grid div{min-height:0}.about-human .fact-grid span{line-height:1.55}}
 
 .about-work{max-width:928px}.about-work .work-note{max-width:700px;margin:32px 0 0;padding:0 0 36px 26px;border-left:2px solid #b9b6af}.about-work .work-note h3{margin:0 0 17px;font:500 20px/1.2 Fraunces,Georgia,serif}.about-work .work-note p{margin:0}.about-who{max-width:928px}.about-who h2{margin-bottom:28px}.who-card{padding:36px 32px 32px;border:1px solid #cbd2c5;border-radius:16px;background:rgba(216,223,210,.62)}.who-card p{margin:0}.credentials{max-width:700px}
 @media (max-width:767px){.about-work{max-width:none}.about-work .work-note{padding-left:20px;margin-top:28px;padding-bottom:30px}.about-work .work-note h3{font-size:19px}.about-who{max-width:none}.who-card{padding:26px 22px 25px}.credentials{max-width:none}}
@@ -791,10 +796,12 @@ body.page-services-multiculturalism .detail-content>.detail-section:first-child 
   .page-privacy .privacy-crisis-card>p{line-height:26px!important}
   .page-privacy .privacy-crisis-card li a{font-size:16px;line-height:24px}
 
-  .page-cost .detail-hero>.eyebrow,
+
+
+
   .page-resources .detail-hero>.eyebrow,
-  .page-get-started .detail-hero>.eyebrow,
-  .page-privacy .detail-hero>.eyebrow{color:var(--burgundy-80)}
+.page-get-started .detail-hero>.eyebrow,
+.page-privacy .detail-hero>.eyebrow{color:var(--burgundy-80)}
 
   body:not([data-page]) .virtual-note{
     color:var(--navy-80);
@@ -832,12 +839,6 @@ body.page-services-multiculturalism .detail-content>.detail-section:first-child 
 
 /* Keep the repeated ticker set moving at a consistent measured speed. */
 .ticker-track{animation-duration:var(--marquee-duration,152s)}
-.page-cost .rate-list{margin:0;padding-left:20px;border:0;color:var(--navy-60);font-size:15px;line-height:1.72}
-.page-cost .rate-list li{padding:0;margin:0 0 4px}
-.page-cost .rate-list li:last-child{margin-bottom:0}
-.page-cost .detail-cta{border-top:0;text-align:left;padding-left:0;padding-right:0}
-.page-cost .detail-cta>p:not(.eyebrow){max-width:560px;margin:0;color:var(--spruce);font:italic 24px/1.38 Fraunces,Georgia,serif;text-align:left}
-.page-cost .detail-cta .button{display:flex;width:max-content;margin:29px 0 0}
 .button{line-height:20px;letter-spacing:.35px}
 .detail-section h2{font-size:30px;line-height:36px}
 .detail-section .eyebrow{font-size:12px;line-height:16px;letter-spacing:3px}
@@ -887,12 +888,7 @@ body.page-services-multiculturalism .detail-content>.detail-section:first-child 
 body:not([data-page]) .pronunciation{font-style:italic}
 body:not([data-page]) .appointment-card small{color:rgba(23,39,64,.5)}
 body:not([data-page]) .virtual-note strong{color:rgb(88,25,37)}
-body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
-
-/* Brief 03, section 3: cost page. */
-.page-cost .detail-hero h1{letter-spacing:normal}
-.page-cost .detail-lede{font-size:24px;line-height:33px}
-.page-cost .detail-section h2{font-size:24px;line-height:32px}
+body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}/* Brief 03, section 3: cost page. */
 
 /* Brief 03, section 4: About page. */
 .page-about .detail-hero>.eyebrow{letter-spacing:3.6px}
@@ -1157,16 +1153,6 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
   }
   .page-privacy .detail-hero h1{letter-spacing:normal}
   .page-privacy .detail-section h2{font-size:24px;line-height:32px}
-  .page-cost .detail-content>p{
-    color:rgba(23,39,64,.75);
-    font-size:18px;
-    line-height:29.25px;
-  }
-  .page-cost .detail-section p:not(.eyebrow){color:rgba(23,39,64,.75)}
-  .page-cost .detail-cta>p:not(.eyebrow){
-    color:rgb(57,96,71);
-    font:italic 24px/33px Fraunces,Georgia,serif;
-  }
   .page-get-started .detail-hero h1{letter-spacing:normal}
   .page-get-started .detail-lede{line-height:29.25px}
   .page-get-started .detail-appointment small{color:rgba(23,39,64,.5)}
@@ -1498,12 +1484,6 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
   .page-about .about-work .work-note:last-child{padding-bottom:0}
   .page-about .about-who{padding-bottom:106px}
   .page-about .credentials{padding-bottom:0}
-.page-cost .detail-content>.detail-section:first-of-type{margin-top:135px;padding-bottom:32px}
-  .page-cost .detail-content>.detail-section:first-of-type .rate-list>div{padding:7px 0}
-  .page-cost .detail-content>.detail-section:nth-of-type(2){padding-bottom:25px}
-  .page-cost .detail-content>.detail-section:nth-of-type(3){padding-bottom:102px}
-  .page-cost .detail-content>.detail-section:nth-of-type(4){padding-bottom:32px}
-  .page-cost .detail-cta{margin-top:0;padding:48px 40px}
 .page-modalities .modalities-closing-card{margin-top:288px}
 .page-get-started .detail-content{margin-top:80px}
   .page-get-started .detail-appointment{margin-bottom:138px}
@@ -1704,24 +1684,17 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
   .page-about .about-work .work-note p{font-size:16px;line-height:26px}
   .page-about .about-verification .button{font-size:14px}
 
-  .page-cost .detail-hero>.eyebrow,
+
+
+
   .page-resources .detail-hero>.eyebrow,
-  .page-get-started .detail-hero>.eyebrow,
-  .page-privacy .detail-hero>.eyebrow{color:rgba(88,25,37,.8)}
-  .page-cost .detail-hero h1,
+.page-get-started .detail-hero>.eyebrow,
+.page-privacy .detail-hero>.eyebrow{color:rgba(88,25,37,.8)}
+
+
   .page-get-started .detail-hero h1,
-  .page-modalities .detail-hero h1,
-  .page-privacy .detail-hero h1{font-size:36px;line-height:45px;letter-spacing:normal}
-  .page-cost .detail-content>p{
-    color:rgba(23,39,64,.75);
-    font-size:18px;
-    line-height:29.25px;
-  }
-  .page-cost .detail-section p:not(.eyebrow){color:rgba(23,39,64,.75)}
-  .page-cost .detail-cta>p:not(.eyebrow){
-    color:rgb(57,96,71);
-    font:italic 24px/33px Fraunces,Georgia,serif;
-  }
+.page-modalities .detail-hero h1,
+.page-privacy .detail-hero h1{font-size:36px;line-height:45px;letter-spacing:normal}
   .page-resources .detail-lede{font-size:18px;line-height:29.25px}
   .page-resources .book-section h2{font-size:24px;line-height:32px}
   .page-resources .book-section>p{font-size:16px;line-height:26px}
@@ -1806,7 +1779,6 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 
   /* Route spacing corrections after restoring the mobile type scale. */
   .page-about .about-cta{margin-top:0}
-.page-cost .detail-content>.detail-section:last-child{padding-bottom:108px}
 
   .page-resources .poem-card{margin-bottom:18px}
   .page-resources .book{padding:17px 0}
@@ -1854,17 +1826,13 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 
 /* Brief 18: final desktop corrections limited to the three audited routes. */
 @media (min-width:1024px){
+
+
   .page-about .back-link,
-  .page-cost .back-link,
-  .page-resources .back-link{display:block;width:max-content}
+.page-resources .back-link{display:block;width:max-content}
 
   .page-about .back-link{margin-bottom:-10px}
   .page-about .detail-lede{margin-top:15px}
-.page-cost .back-link{margin-bottom:-13px}
-  .page-cost .detail-content>.detail-section:first-of-type{margin-top:122px;padding-bottom:62px}
-  .page-cost .rate-list{color:rgba(23,39,64,.75);font-size:16px;line-height:26px}
-  .page-cost .detail-cta{padding-left:0;padding-right:0}
-  .page-cost .detail-cta>p:not(.eyebrow){max-width:none}
 .page-resources .back-link{margin-bottom:-7px}
   .page-resources .poem-card{margin-top:33px}
 }
@@ -1977,7 +1945,6 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
   .page-get-started .get-started-office{grid-template-columns:1fr;gap:48px}
   .page-get-started .map-frame{height:auto;aspect-ratio:16/10}
 .page-about .detail-shell{margin-bottom:-23px}
-  .page-cost .detail-shell{max-width:none;margin-bottom:-10px}
 .page-resources .detail-content>.detail-section:last-child{padding-bottom:58px}
   .page-services-multiculturalism .detail-hero h1{letter-spacing:normal}
   .page-services-multiculturalism .detail-hero>.eyebrow{color:rgba(88,25,37,.8)}
@@ -2188,3 +2155,32 @@ body:not([data-page]) .leaf-people{bottom:64px}
 @media(min-width:768px) and (max-width:1023px){.detail-feather-anchor-resources{top:37px}.page-resources .resource-closing-leaf{left:-48px}}
 @media(max-width:767px){.detail-feather-anchor-resources{top:40px}.page-resources .resource-closing-leaf{left:-48px}}
 @media(max-width:767px){.page-service .service-list-leaf{right:8px;width:56px}}
+
+/* /about/cost — built from live Tailwind classes */
+.cost-main{padding:128px 0 112px;background:rgb(241,234,223);}
+.cost-article{box-sizing:border-box;width:100%;max-width:768px;margin:0 auto;padding:0 24px;color:rgb(23,39,64);}
+.cost-back{display:inline-flex;align-items:center;gap:8px;margin-bottom:48px;color:rgb(57,96,71);font-size:14px;line-height:20px;transition:color .3s;}
+.cost-back:hover{color:rgb(88,25,37);}
+.cost-back svg{width:16px;height:16px;}
+.cost-intro{color:rgb(23,39,64);}
+.cost-eyebrow{color:rgba(88,25,37,.8);font-size:12px;line-height:16px;letter-spacing:.25em;text-transform:uppercase;}
+.cost-intro h1{margin:24px 0 0;font-family:Fraunces,Georgia,serif;font-size:36px;line-height:1.25;font-weight:400;color:rgb(23,39,64);}
+.cost-lede{margin:20px 0 0;font-family:Fraunces,Georgia,serif;font-size:24px;line-height:1.375;font-style:italic;color:rgb(57,96,71);}
+.cost-photo{position:relative;display:inline-block;box-sizing:border-box;width:100%;margin:40px 0 0;aspect-ratio:16/10;overflow:hidden;border:1px solid rgba(23,39,64,.1);border-radius:24px;}
+.cost-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+.cost-summary{margin:40px 0 0;color:rgba(23,39,64,.75);font-size:18px;line-height:1.625;}
+.cost-divider{width:100%;height:1px;margin-top:56px;background:rgba(23,39,64,.1);}
+.cost-sections{display:flex;flex-direction:column;gap:56px;margin-top:48px;}
+.cost-section h2{margin:0 0 16px;font-family:Fraunces,Georgia,serif;font-size:24px;line-height:32px;font-weight:400;color:rgb(23,39,64);}
+.cost-section p{margin:0;color:rgba(23,39,64,.75);font-size:16px;line-height:1.625;white-space:pre-line;}
+.cost-section p+p{margin-top:16px;}
+.cost-rates{display:flex;flex-direction:column;gap:10px;margin:16px 0 0;padding:0;list-style:none;color:rgba(23,39,64,.75);font-size:16px;line-height:1.625;}
+.cost-rates li{position:relative;padding-left:18px;}
+.cost-rates li::before{position:absolute;top:.62em;left:0;width:6px;height:6px;border-radius:50%;background:rgb(88,25,37);content:"";}
+.cost-cta{margin-top:64px;}
+.cost-cta>p:first-child{margin:0 0 24px;font-family:Fraunces,Georgia,serif;font-size:24px;line-height:1.375;font-style:italic;color:rgb(57,96,71);}
+.cost-button{display:inline-flex;align-items:center;justify-content:center;padding:14px 28px;border-radius:9999px;background:rgb(88,25,37);color:rgb(241,234,223);font-size:14px;line-height:20px;letter-spacing:.025em;transition:background-color .3s;}
+.cost-button:hover{background:rgb(57,96,71);}
+@media (min-width:640px){.cost-article{padding-right:24px;padding-left:24px;}}
+@media (min-width:768px){.cost-article{padding-right:24px;padding-left:24px;}}
+@media (min-width:1024px){.cost-article{padding-right:48px;padding-left:48px;}.cost-intro h1{font-size:48px;line-height:1;}}
