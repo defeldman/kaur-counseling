@@ -1681,7 +1681,7 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 
   /* The source's mobile sections use tighter bottom rhythm after the type pass. */
   body:not([data-page]) .about-section{padding-bottom:95px}
-  body:not([data-page]) .wheelhouse{padding-bottom:357px}
+  body:not([data-page]) .wheelhouse{padding-bottom:88px}
   body:not([data-page]) .approach-section{padding-bottom:230px}
   body:not([data-page]) .people-section{padding-bottom:338px}
   body:not([data-page]) .modalities-section{padding-bottom:177px}
@@ -2111,6 +2111,23 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 @media (max-width:767px){
   .page-service .back-link{position:relative;top:10px}
 }
+
+/* Brief 39, task 2: tablet homepage about flow and two-column wheelhouse. */
+@media (min-width:768px) and (max-width:1023px){
+  body:not([data-page]) .about-grid .portrait-frame{order:1}
+  body:not([data-page]) .about-grid .rumi-quote{order:2;grid-column:auto}
+  body:not([data-page]) .about-grid .about-copy{order:3}
+  body:not([data-page]) .about-copy{margin-top:44px}
+  body:not([data-page]) .about-section{padding-bottom:95px}
+  body:not([data-page]) .wheelhouse{padding-top:117px}
+  body:not([data-page]) .wheelhouse-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:56px;margin-top:78px}
+  body:not([data-page]) .wheelhouse{padding-bottom:100px}
+  body:not([data-page]) .approach-section{padding-top:118px;padding-bottom:123px}
+  body:not([data-page]) .site-footer{margin-top:0}
+  body:not([data-page]) .wheelhouse-grid .line-icon{margin-top:0;margin-bottom:32px}
+  body:not([data-page]) .wheelhouse-item:nth-child(3) h3 br{display:none}
+}
+@media (max-width:767px){.door-grid{row-gap:9px}}
 
 @media(max-width:767px){.page-service .detail-content p:not(.eyebrow){font-size:16px;line-height:26px;color:rgba(23,39,64,.75)}}
 
