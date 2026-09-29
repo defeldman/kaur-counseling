@@ -1,7 +1,7 @@
 @font-face{font-family:Fraunces;src:url("assets/fonts/fraunces-latin.woff2") format("woff2");font-style:normal;font-weight:300 600;font-display:swap}
 
 @font-face{font-family:Fraunces;src:url("assets/fonts/fraunces-italic-latin.woff2") format("woff2");font-style:italic;font-weight:400;font-display:swap}
-@font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=30") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
+@font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=31") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
 
 @font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=26") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
 :root{--cream:#f1eadf;--cream-dark:#e8e0d4;--navy:#172740;--muted:rgba(23,39,64,.7);--spruce:#396047;--sage:#d5decf;--burgundy:#581925;--accent:#6c3285;--line:#d7ccbc;--max:1176px}
@@ -1091,7 +1091,7 @@ body:not([data-page]) .office-copy>p:not(.eyebrow):not(.virtual-note){color:rgba
 .page-service .detail-content>.detail-section:nth-child(3n+2) h2{color:var(--spruce)}
 .page-service .detail-content>.detail-section:nth-child(3n) h2{color:var(--accent)}
 /* Service intros are neutral on the live site; the colored sequence begins with the content sections. */
-.page-service .detail-content>.detail-section:first-child h2{color:var(--navy)}body.page-services-multiculturalism .detail-content>.detail-section:first-child h2{color:var(--burgundy)}
+.page-service .detail-content>.detail-section:first-child h2{color:var(--navy)}
 
 @media (min-width:768px) and (prefers-reduced-motion:no-preference){body:not([data-page]) .scroll-cue{animation-name:breathe-in}
 
@@ -1261,24 +1261,6 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
   color:rgba(23,39,64,.75);
   font-size:15.2px;
   line-height:24.7px;
-}.page-services-multiculturalism .service-panel-card{
-  margin:0 0 24px;
-  padding:48px;
-  border:1px solid;
-  border-radius:24px;
-}.page-services-multiculturalism .service-panel-card:nth-child(3n+1){
-  border-color:rgba(88,25,37,.25);
-  background:rgba(88,25,37,.05);
-}.page-services-multiculturalism .service-panel-card:nth-child(3n+2){
-  border-color:rgba(57,96,71,.25);
-  background:rgba(57,96,71,.06);
-}.page-services-multiculturalism .service-panel-card:nth-child(3n){
-  border-color:rgba(108,50,133,.25);
-  background:rgba(108,50,133,.06);
-}.page-services-multiculturalism .service-panel-card p:not(.eyebrow){
-  color:rgba(23,39,64,.75);
-  font-size:16px;
-  line-height:26px;
 }
 .page-services-transitions .detail-hero-body em{
   color:rgb(88,25,37);
@@ -1361,7 +1343,7 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
 }
 
 
-@media (max-width:767px){.page-service .service-card-grid-section>h2{font-size:28px;line-height:36px}.page-services-multiculturalism .service-panel-card{padding:32px}
+@media (max-width:767px){.page-service .service-card-grid-section>h2{font-size:28px;line-height:36px}
 
 }
 /* Brief 10: match the live modalities grid and the corrected route details. */
@@ -1408,7 +1390,7 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
 .service-heading .service-section-glyph{stroke-width:1.5}
 .service-section-glyph circle, .service-section-glyph path{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round}
 .service-heading.tone-1 .service-heading-icon{color:rgb(57,96,71)}
-.service-heading.tone-2 .service-heading-icon{color:rgb(108,50,133)}.page-services-multiculturalism .service-panel-card .service-heading-icon{width:44px;height:44px;flex-basis:44px}.page-services-multiculturalism .service-panel-card:nth-child(3n+2) .service-heading-icon{color:rgb(57,96,71)}.page-services-multiculturalism .service-panel-card:nth-child(3n) .service-heading-icon{color:rgb(108,50,133)}
+.service-heading.tone-2 .service-heading-icon{color:rgb(108,50,133)}
 .service-card-grid-section .detail-card{position:relative;padding-top:76px}
 .service-card-icon{position:absolute;top:24px;left:24px;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;color:rgb(88,25,37)}
 .service-card-icon svg{width:20px;height:20px}
@@ -1612,10 +1594,6 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 
 
 .page-modalities .modalities-closing-card{margin-top:288px}
-
-
-
-.page-services-multiculturalism .service-panel-card{margin-bottom:24px}
 
 .page-resources .book-section{padding-bottom:48px}
 
@@ -1889,12 +1867,6 @@ body:not([data-page]) .contact-links a:last-child .inline-arrow{transform:transl
 .page-services-transitions .detail-card-grid, .page-services-teens .detail-card-grid{width:934px;max-width:none;margin-left:-60px}
 .page-services-transitions .detail-card-grid{margin-top:31px;row-gap:63px}
 .page-services-teens .detail-card-grid{margin-top:70px;row-gap:38px}
-.page-services-multiculturalism .service-panel-card:first-child{margin-bottom:23px}
-.page-services-multiculturalism .service-panel-card:nth-child(2){margin-bottom:50px}
-.page-services-multiculturalism .service-panel-card:nth-child(4){margin-bottom:26px}
-
-
-.page-services-multiculturalism .service-cta{margin-top:78px}
 
 }
 .brief22-inventory-feather{display:block;width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
@@ -1976,12 +1948,6 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
   .page-modalities .detail-cta h2{line-height:37.5px}
 
 .page-resources .detail-content>.detail-section:last-child{padding-bottom:58px}
-
-  .page-services-multiculturalism .detail-hero h1{letter-spacing:normal}
-
-  .page-services-multiculturalism .detail-hero>.eyebrow{color:rgba(88,25,37,.8)}
-
-  .page-services-multiculturalism .service-panel-card{padding:32px}
 
 
 
@@ -2124,7 +2090,7 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 }
 
 
-@media(max-width:767px){.page-services-multiculturalism .service-cta, .page-services-transitions .service-cta, .page-services-teens .service-cta{margin-top:64px}
+@media(max-width:767px){.page-services-transitions .service-cta, .page-services-teens .service-cta{margin-top:64px}
 .page-modalities .modalities-closing-card{padding-top:56px;padding-bottom:56px}
 
 }
@@ -2663,3 +2629,10 @@ body:not([data-page]) .leaf-people{bottom:64px}
 @media(min-width:1024px){.anxiety-main{padding-bottom:111px}}
 @media(max-width:767px){.anxiety-main{padding-bottom:115px}}
 @media(min-width:768px) and (max-width:1023px){.anxiety-main .anxiety-overlap .anxiety-overlap-emphasis{margin-left:5px}}
+
+/* Multiculturalism service page: live Tailwind translation */
+.multiculturalism-main{padding:128px 0 115px}.multiculturalism-article{max-width:1024px;padding:0 24px}.multiculturalism-article>.svc-back{margin-bottom:48px}.multiculturalism-hero{position:relative;max-width:none;margin:0 auto 64px;text-align:left}.multiculturalism-hero h1{max-width:672px;margin:24px 0 0;color:rgb(23,39,64);font-size:36px;line-height:37.8px;letter-spacing:normal}.multiculturalism-hero h1 em{color:rgb(88,25,37)}.multiculturalism-hero .svc-lede{max-width:672px;margin:24px 0 0;color:rgb(57,96,71);font:italic 24px/32px Fraunces,Georgia,serif}.multiculturalism-hero .svc-hero-body{max-width:672px;margin:32px 0 0;color:rgba(23,39,64,.75);font-size:18px;line-height:29.25px;text-align:left}.multiculturalism-hero-leaf{position:absolute;pointer-events:none}.multiculturalism-hero-leaf-left{top:-16px;left:-32px;width:40px;color:rgba(88,25,37,.25);transform:rotate(12deg)}.multiculturalism-hero-leaf-right{top:-8px;right:8px;width:28px;color:rgba(57,96,71,.3);transform:rotate(28deg)}.multiculturalism-sections{display:flex;flex-direction:column;gap:24px;margin-top:64px}.multiculturalism-main .multiculturalism-panel{box-sizing:border-box;margin:0;padding:32px;border:1px solid;border-radius:24px}.multiculturalism-main .multiculturalism-panel:nth-child(1), .multiculturalism-main .multiculturalism-panel:nth-child(4){border-color:rgba(88,25,37,.25);background:rgba(88,25,37,.05)}.multiculturalism-main .multiculturalism-panel:nth-child(2), .multiculturalism-main .multiculturalism-panel:nth-child(5){border-color:rgba(57,96,71,.25);background:rgba(57,96,71,.06)}.multiculturalism-main .multiculturalism-panel:nth-child(3){border-color:rgba(108,50,133,.25);background:rgba(108,50,133,.06)}.multiculturalism-panel-heading{display:flex;align-items:center;gap:16px;margin-bottom:20px}.multiculturalism-panel-icon{display:flex;flex:0 0 48px;width:48px;height:48px;align-items:center;justify-content:center;border-radius:16px}.multiculturalism-panel-icon-burgundy{background:rgba(88,25,37,.12);color:rgb(88,25,37)}.multiculturalism-panel-icon-spruce{background:rgba(57,96,71,.12);color:rgb(57,96,71)}.multiculturalism-panel-icon-clay{background:rgba(108,50,133,.12);color:rgb(108,50,133)}.multiculturalism-panel h2{margin:0;color:rgb(88,25,37);font:400 24px/32px Fraunces,Georgia,serif}.multiculturalism-main .multiculturalism-panel:nth-child(2) h2, .multiculturalism-main .multiculturalism-panel:nth-child(5) h2{color:rgb(57,96,71)}.multiculturalism-main .multiculturalism-panel:nth-child(3) h2{color:rgb(108,50,133)}.multiculturalism-main .multiculturalism-panel p{max-width:none;margin:0;color:rgba(23,39,64,.75);font-size:16px;line-height:26px}.multiculturalism-cta{margin-top:40px}.multiculturalism-cta-panel{position:relative;box-sizing:border-box;overflow:hidden;border-radius:24px;background:rgb(88,25,37);padding:48px 32px;color:rgb(241,234,223)}.multiculturalism-cta-panel p{position:relative;max-width:672px;margin:0;color:inherit;font:italic 24px/32px Fraunces,Georgia,serif}.multiculturalism-cta-panel a{position:relative;display:inline-flex;align-items:center;gap:8px;margin-top:32px;border-radius:999px;background:rgb(241,234,223);padding:14px 28px;color:rgb(88,25,37);font-size:14px;line-height:20px;letter-spacing:.025em;transition:background-color .3s,color .3s}.multiculturalism-cta-panel a:hover{background:rgb(57,96,71);color:rgb(241,234,223)}.multiculturalism-cta-leaf{position:absolute;top:24px;right:32px;width:56px;color:rgba(241,234,223,.15);transform:rotate(-12deg);pointer-events:none}
+@media(min-width:768px){.multiculturalism-main .multiculturalism-panel{padding:32px}.multiculturalism-panel h2{line-height:33px}}
+@media(min-width:1024px){.multiculturalism-article{padding:0 48px}.multiculturalism-hero h1{font-size:60px;line-height:63px}.multiculturalism-main .multiculturalism-panel{padding:48px}.multiculturalism-panel h2{font-size:30px;line-height:36px}.multiculturalism-cta-panel{padding:56px 32px}.multiculturalism-cta-panel p{font-size:30px;line-height:36px}}
+@media(min-width:768px) and (max-width:1023px){.multiculturalism-main{padding-bottom:112px}.multiculturalism-hero{margin-bottom:73px}.multiculturalism-article{padding:0 24px}.multiculturalism-hero h1{font-size:36px;line-height:37.8px}.multiculturalism-main .multiculturalism-panel{padding:32px}.multiculturalism-panel h2{font-size:24px;line-height:33px}.multiculturalism-cta-panel{padding:48px 32px}.multiculturalism-cta-panel p{font-size:24px;line-height:33px}}
+@media(max-width:767px){.multiculturalism-hero{margin-bottom:73px}.multiculturalism-main{padding:128px 0 113px}.multiculturalism-article{padding:0 24px}.multiculturalism-article>.svc-back{margin-bottom:48px}.multiculturalism-hero h1{font-size:36px;line-height:37.8px}.multiculturalism-hero .svc-hero-body{font-size:18px;line-height:29.25px}.multiculturalism-sections{margin-top:64px}.multiculturalism-main .multiculturalism-panel{padding:32px}.multiculturalism-panel h2{line-height:33px}.multiculturalism-cta{margin-top:40px}.multiculturalism-cta-panel p{line-height:33px}}

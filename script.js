@@ -90,7 +90,7 @@ const scrollRevealTargets = document.querySelectorAll([
   '.modality-quote', '.modality-link', '.contact-main', '.contact-aside',
   '.office-copy', '.map-frame', '.detail-hero', '.detail-content > *', '.detail-cta',
   '.cost-article > .reveal', '.cost-sections > .reveal', '.svc-burnout-panel', '.svc-burnout-cta', '.anxiety-topics > .reveal', '.anxiety-overlap', '.anxiety-work', '.anxiety-step', '.anxiety-cta', '.about-intro', '.about-callout', '.about-session-heading', '.about-card-grid > *', '.about-content-section',
-  '.privacy-article > .reveal',
+  '.privacy-article > .reveal', '.multiculturalism-article > .reveal', '.multiculturalism-sections > .reveal', '.multiculturalism-panel',
   '.get-started-intro', '.get-started-office-reveal'
 ].join(','));
 

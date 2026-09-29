@@ -271,12 +271,6 @@ function service(title, italic, eyebrow, lede, sections, closingQuote) {
   } else if (title === 'Burnout.') {
     const icons = ['wind', 'hand-heart', 'sprout'];
     serviceBody = sections.map(([heading, items], index) => `<section class="svc-section svc-burnout-panel reveal${index === 0 ? ' is-visible' : ''}"><div class="svc-burnout-heading"><span class="svc-burnout-icon svc-burnout-icon-${index}" aria-hidden="true">${window.lucideSvg(icons[index], 24, `lucide lucide-${icons[index]}`)}</span><h2>${esc(heading)}</h2></div>${paras(index === 2 ? [items[0] + ' ' + closingQuote] : items)}</section>`);
-  } else if (title === 'Multicultural & Cross-Cultural Therapy') {
-    serviceBody = sections.map((entry) => {
-      if (typeof entry === 'string') return entry;
-      const [heading, items] = entry;
-      return serviceFeatureCard([heading, items], 'service-panel-card');
-    });
   } else {
     serviceBody = sections.map((entry, index) => {
       if (typeof entry === 'string') return entry;
@@ -387,6 +381,21 @@ function render() {
     const overlapLead = overlapCopy.replace(" You don't have to figure it out alone.", '');
     const anxietyCta = `<section class="anxiety-cta reveal"><div class="anxiety-cta-panel">${featherSvg('anxiety-cta-leaf')}<p>One piece at a time.</p><a href="${link('get-started/')}">Get Started ${window.lucideSvg('arrow-right',16,'lucide lucide-arrow-right')}</a></div></section>`;
     document.getElementById('page-app').innerHTML = `${header()}<main class="svc-main anxiety-main"><article class="svc-article anxiety-article">${svcBack}${svcHero}<div class="anxiety-topics">${cards}</div><section class="svc-section anxiety-overlap reveal is-visible"><div class="anxiety-overlap-heading"><span class="anxiety-overlap-icon">${window.lucideSvg('layers',24,'lucide lucide-layers')}</span><h2>When they show up together</h2></div><p class="anxiety-copy">${overlapLead}<span class="anxiety-overlap-emphasis"> You don't have to figure it out alone.</span></p></section><section class="anxiety-work reveal"><h2>How we work with it</h2>${p(methodCopy,'anxiety-work-copy')}<div class="anxiety-steps">${methodSteps}</div></section>${anxietyCta}</article></main>${footer()}`;
+    return;
+  }
+  if (pageId === 'services/multiculturalism') {
+    const panelIcons = ['earth', 'languages', 'users', 'compass', 'network'];
+    const panelTones = ['burgundy', 'spruce', 'clay', 'burgundy', 'spruce'];
+    const panels = page.body.map((markup, index) => {
+      const heading = markup.match(/<h2>(.*?)<\/h2>/)?.[1] || '';
+      const copy = [...markup.matchAll(/<p>([\s\S]*?)<\/p>/g)].map((match) => `<p>${match[1]}</p>`).join('');
+      const tone = panelTones[index];
+      return `<section class="svc-section multiculturalism-panel reveal${index < 2 ? ' is-visible' : ''}"><div class="multiculturalism-panel-heading"><span class="multiculturalism-panel-icon multiculturalism-panel-icon-${tone}" aria-hidden="true">${window.lucideSvg(panelIcons[index],24,`lucide lucide-${panelIcons[index]}`)}</span><h2>${heading}</h2></div>${copy}</section>`;
+    }).join('');
+    const backLink = `<a class="svc-back" href="${backHref}">${window.lucideSvg('arrow-left',16,'lucide lucide-arrow-left mt-px')}${backLabel}</a>`;
+    const hero = `<header class="svc-hero multiculturalism-hero reveal is-visible">${featherSvg('multiculturalism-hero-leaf multiculturalism-hero-leaf-left')}${featherSvg('multiculturalism-hero-leaf multiculturalism-hero-leaf-right')}<span class="svc-eyebrow">${esc(page.eyebrow)}</span><h1>Multicultural &amp;<br><em class="svc-emphasis">Cross-Cultural</em> Therapy</h1><p class="svc-lede">${esc(page.lede)}</p>${heroBody.replaceAll('detail-hero-body','svc-hero-body')}</header>`;
+    const cta = `<section class="multiculturalism-cta reveal"><div class="multiculturalism-cta-panel">${featherSvg('multiculturalism-cta-leaf')}<p>${esc(page.closingQuote)}</p><a href="${link('get-started/')}">Get Started ${window.lucideSvg('arrow-right',16,'lucide lucide-arrow-right')}</a></div></section>`;
+    document.getElementById('page-app').innerHTML = `${header()}<main class="svc-main multiculturalism-main"><article class="svc-article multiculturalism-article">${backLink}${hero}<div class="multiculturalism-sections">${panels}${cta}</div></article></main>${footer()}`;
     return;
   }
   if (pageId === 'services/adhd' || pageId === 'services/burnout') {
