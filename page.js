@@ -71,6 +71,10 @@ function cta() {
   return `<section class="detail-cta"><p class="eyebrow">A place to begin</p><h2>Ready to start a conversation?</h2><p>Reach out for a free consultation and we’ll begin with wherever you are.</p><a class="button" href="${link('get-started/')}">Get Started ${window.lucideSvg('arrow-up-right', 16, 'lucide lucide-arrow-up-right')}</a></section>`;
 }
 
+function svcBurnoutCta(quote) {
+  return `<section class="svc-burnout-cta reveal"><div class="svc-burnout-cta-panel">${featherSvg('svc-burnout-cta-leaf')}<p>${esc(quote)}</p><a href="${link('get-started/')}">Get Started${window.lucideSvg('arrow-right',16,'lucide lucide-arrow-right')}</a></div></section>`;
+}
+
 function serviceCta(quote) {
   return `<section class="service-cta">${featherSvg('service-cta-leaf')}<p class="service-cta-quote">${esc(quote)}</p><a class="service-cta-button" href="${link('get-started/')}">Get Started${window.lucideSvg('arrow-right', 16, 'lucide lucide-arrow-right')}</a></section>`;
 }
@@ -264,7 +268,10 @@ function service(title, italic, eyebrow, lede, sections, closingQuote) {
         return serviceSection(heading, paras(items), index % 2 ? 'detail-section-tint' : '');
       })
     ];
-  } else if (title === 'Multicultural & Cross-Cultural Therapy' || title === 'Burnout.') {
+  } else if (title === 'Burnout.') {
+    const icons = ['wind', 'hand-heart', 'sprout'];
+    serviceBody = sections.map(([heading, items], index) => `<section class="svc-section svc-burnout-panel reveal${index === 0 ? ' is-visible' : ''}"><div class="svc-burnout-heading"><span class="svc-burnout-icon svc-burnout-icon-${index}" aria-hidden="true">${window.lucideSvg(icons[index], 24, `lucide lucide-${icons[index]}`)}</span><h2>${esc(heading)}</h2></div>${paras(index === 2 ? [items[0] + ' ' + closingQuote] : items)}</section>`);
+  } else if (title === 'Multicultural & Cross-Cultural Therapy') {
     serviceBody = sections.map((entry) => {
       if (typeof entry === 'string') return entry;
       const [heading, items] = entry;
@@ -358,7 +365,7 @@ function render() {
     document.getElementById('page-app').innerHTML = `${header()}<main class="cost-main"><article class="cost-article">${costBack}<div class="cost-intro reveal is-visible"><span class="cost-eyebrow">${esc(page.eyebrow)}</span><h1>${page.title}</h1><p class="cost-lede">${esc(page.lede)}</p></div>${image}${intro}<div class="cost-divider"></div><div class="cost-sections">${[rates, payment, superbill, outOfPocket].join('')}</div>${page.ctaMarkup}</article></main>${footer()}`;
     return;
   }
-  if (pageId === 'services/adhd') {
+  if (pageId === 'services/adhd' || pageId === 'services/burnout') {
     const svcBody = body
       .replaceAll('detail-section', 'svc-section').replaceAll('service-heading', 'svc-heading')
       .replaceAll('service-heading-icon', 'svc-heading-icon').replaceAll('service-section-glyph', 'svc-section-glyph')
@@ -370,10 +377,10 @@ function render() {
     const svcCta = serviceCta(page.closingQuote).replaceAll('service-cta', 'svc-cta');
     const svcCtaContents = svcCta.replace(/^<section class="svc-cta">/, '').replace(/<\/section>$/, '');
     const finalSectionClose = svcBodyWithPanel.lastIndexOf('</section>');
-    const svcSectionsWithCta = finalSectionClose < 0 ? svcBodyWithPanel : `${svcBodyWithPanel.slice(0, finalSectionClose)}${svcCtaContents}${svcBodyWithPanel.slice(finalSectionClose)}`;
+    const svcSectionsWithCta = pageId === 'services/burnout' ? `${svcBodyWithPanel}${svcBurnoutCta(page.closingQuote)}` : finalSectionClose < 0 ? svcBodyWithPanel : `${svcBodyWithPanel.slice(0, finalSectionClose)}${svcCtaContents}${svcBodyWithPanel.slice(finalSectionClose)}`;
     const svcBack = `<a class="svc-back" href="${backHref}">${window.lucideSvg('arrow-left',16,'lucide lucide-arrow-left mt-px')}${backLabel}</a>`;
     const svcHero = `<header class="svc-hero reveal is-visible">${featherSvg('svc-hero-leaf svc-hero-leaf-left')}${featherSvg('svc-hero-leaf svc-hero-leaf-right')}<span class="svc-eyebrow">${esc(page.eyebrow)}</span><h1>${page.title.replace('<em>', '<em class="svc-emphasis">')}</h1><p class="svc-lede">${esc(page.lede)}</p>${heroBody.replaceAll('detail-hero-body', 'svc-hero-body')}</header>`;
-    document.getElementById('page-app').innerHTML = `${header()}<main class="svc-main"><article class="svc-article">${svcBack}${svcHero}<div class="svc-divider"></div><div class="svc-sections">${svcSectionsWithCta}</div></article></main>${footer()}`;
+    document.getElementById('page-app').innerHTML = `${header()}<main class="svc-main${pageId === 'services/burnout' ? ' svc-burnout-main' : ''}"><article class="svc-article${pageId === 'services/burnout' ? ' svc-burnout-article' : ''}">${svcBack}${svcHero}${pageId === 'services/burnout' ? '' : '<div class="svc-divider"></div>'}<div class="svc-sections${pageId === 'services/burnout' ? ' svc-burnout-sections' : ''}">${svcSectionsWithCta}</div></article></main>${footer()}`;
     return;
   }
   if (pageId === 'about') {

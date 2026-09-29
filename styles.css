@@ -1,7 +1,7 @@
 @font-face{font-family:Fraunces;src:url("assets/fonts/fraunces-latin.woff2") format("woff2");font-style:normal;font-weight:300 600;font-display:swap}
 
 @font-face{font-family:Fraunces;src:url("assets/fonts/fraunces-italic-latin.woff2") format("woff2");font-style:italic;font-weight:400;font-display:swap}
-@font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=28") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
+@font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=29") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
 
 @font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=26") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
 :root{--cream:#f1eadf;--cream-dark:#e8e0d4;--navy:#172740;--muted:rgba(23,39,64,.7);--spruce:#396047;--sage:#d5decf;--burgundy:#581925;--accent:#6c3285;--line:#d7ccbc;--max:1176px}
@@ -1091,8 +1091,7 @@ body:not([data-page]) .office-copy>p:not(.eyebrow):not(.virtual-note){color:rgba
 .page-service .detail-content>.detail-section:nth-child(3n+2) h2{color:var(--spruce)}
 .page-service .detail-content>.detail-section:nth-child(3n) h2{color:var(--accent)}
 /* Service intros are neutral on the live site; the colored sequence begins with the content sections. */
-.page-service .detail-content>.detail-section:first-child h2{color:var(--navy)}
-body.page-services-burnout .detail-content>.detail-section:first-child h2, body.page-services-multiculturalism .detail-content>.detail-section:first-child h2{color:var(--burgundy)}
+.page-service .detail-content>.detail-section:first-child h2{color:var(--navy)}body.page-services-multiculturalism .detail-content>.detail-section:first-child h2{color:var(--burgundy)}
 
 @media (min-width:768px) and (prefers-reduced-motion:no-preference){body:not([data-page]) .scroll-cue{animation-name:breathe-in}
 
@@ -1262,26 +1261,21 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
   color:rgba(23,39,64,.75);
   font-size:15.2px;
   line-height:24.7px;
-}
-.page-services-multiculturalism .service-panel-card, .page-services-burnout .service-panel-card{
+}.page-services-multiculturalism .service-panel-card{
   margin:0 0 24px;
   padding:48px;
   border:1px solid;
   border-radius:24px;
-}
-.page-services-multiculturalism .service-panel-card:nth-child(3n+1), .page-services-burnout .service-panel-card:nth-child(3n+1){
+}.page-services-multiculturalism .service-panel-card:nth-child(3n+1){
   border-color:rgba(88,25,37,.25);
   background:rgba(88,25,37,.05);
-}
-.page-services-multiculturalism .service-panel-card:nth-child(3n+2), .page-services-burnout .service-panel-card:nth-child(3n+2){
+}.page-services-multiculturalism .service-panel-card:nth-child(3n+2){
   border-color:rgba(57,96,71,.25);
   background:rgba(57,96,71,.06);
-}
-.page-services-multiculturalism .service-panel-card:nth-child(3n), .page-services-burnout .service-panel-card:nth-child(3n){
+}.page-services-multiculturalism .service-panel-card:nth-child(3n){
   border-color:rgba(108,50,133,.25);
   background:rgba(108,50,133,.06);
-}
-.page-services-multiculturalism .service-panel-card p:not(.eyebrow), .page-services-burnout .service-panel-card p:not(.eyebrow){
+}.page-services-multiculturalism .service-panel-card p:not(.eyebrow){
   color:rgba(23,39,64,.75);
   font-size:16px;
   line-height:26px;
@@ -1421,8 +1415,7 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
 }
 
 
-@media (max-width:767px){.page-service .service-card-grid-section>h2{font-size:28px;line-height:36px}
-.page-services-multiculturalism .service-panel-card, .page-services-burnout .service-panel-card{padding:32px}
+@media (max-width:767px){.page-service .service-card-grid-section>h2{font-size:28px;line-height:36px}.page-services-multiculturalism .service-panel-card{padding:32px}
 .page-services-anxiety-depression .service-topic-grid{grid-template-columns:1fr}
 .page-services-anxiety-depression .service-topic-card{padding:32px}
 .page-services-anxiety-depression .service-overlap-card{padding:32px}
@@ -1475,13 +1468,7 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
 .service-heading .service-section-glyph{stroke-width:1.5}
 .service-section-glyph circle, .service-section-glyph path{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round}
 .service-heading.tone-1 .service-heading-icon{color:rgb(57,96,71)}
-.service-heading.tone-2 .service-heading-icon{color:rgb(108,50,133)}
-
-
-
-.page-services-multiculturalism .service-panel-card .service-heading-icon, .page-services-burnout .service-panel-card .service-heading-icon, .page-services-anxiety-depression .service-heading-icon{width:44px;height:44px;flex-basis:44px}
-.page-services-multiculturalism .service-panel-card:nth-child(3n+2) .service-heading-icon, .page-services-burnout .service-panel-card:nth-child(3n+2) .service-heading-icon{color:rgb(57,96,71)}
-.page-services-multiculturalism .service-panel-card:nth-child(3n) .service-heading-icon, .page-services-burnout .service-panel-card:nth-child(3n) .service-heading-icon{color:rgb(108,50,133)}
+.service-heading.tone-2 .service-heading-icon{color:rgb(108,50,133)}.page-services-multiculturalism .service-panel-card .service-heading-icon, .page-services-anxiety-depression .service-heading-icon{width:44px;height:44px;flex-basis:44px}.page-services-multiculturalism .service-panel-card:nth-child(3n+2) .service-heading-icon{color:rgb(57,96,71)}.page-services-multiculturalism .service-panel-card:nth-child(3n) .service-heading-icon{color:rgb(108,50,133)}
 .service-card-grid-section .detail-card{position:relative;padding-top:76px}
 .service-card-icon{position:absolute;top:24px;left:24px;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;color:rgb(88,25,37)}
 .service-card-icon svg{width:20px;height:20px}
@@ -1689,8 +1676,7 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 
 
 
-.page-services-multiculturalism .service-panel-card,
-  .page-services-burnout .service-panel-card{margin-bottom:24px}
+.page-services-multiculturalism .service-panel-card{margin-bottom:24px}
 
   .page-services-anxiety-depression .detail-content>.detail-section:last-child{padding-bottom:105px}
 
@@ -2061,10 +2047,10 @@ body:not([data-page]) .contact-links a:last-child .inline-arrow{transform:transl
 .page-services-multiculturalism .service-panel-card:first-child{margin-bottom:23px}
 .page-services-multiculturalism .service-panel-card:nth-child(2){margin-bottom:50px}
 .page-services-multiculturalism .service-panel-card:nth-child(4){margin-bottom:26px}
-.page-services-burnout .service-panel-card:first-child{margin-bottom:49px}
-.page-services-burnout .service-panel-card:nth-child(2){margin-bottom:24px}
+
+
 .page-services-multiculturalism .service-cta{margin-top:78px}
-.page-services-burnout .service-cta{margin-top:89px}
+
 .page-services-anxiety-depression .service-cta{margin-top:57px}
 .page-services-anxiety-depression .service-topic-card .service-heading-icon svg{transform:translateY(4px)}
 .page-services-anxiety-depression .service-overlap-card .service-heading-icon svg{transform:translateY(9px)}
@@ -2159,7 +2145,6 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 
 
 
-.page-services-burnout .service-panel-card{padding:32px}
 
   .page-modalities .framework-intro h2{font-size:24px;line-height:32px}
 
@@ -2302,7 +2287,7 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 }
 
 
-@media(max-width:767px){.page-services-multiculturalism .service-cta, .page-services-burnout .service-cta, .page-services-transitions .service-cta, .page-services-teens .service-cta{margin-top:64px}
+@media(max-width:767px){.page-services-multiculturalism .service-cta, .page-services-transitions .service-cta, .page-services-teens .service-cta{margin-top:64px}
 .page-modalities .modalities-closing-card{padding-top:56px;padding-bottom:56px}
 
 }
@@ -2750,3 +2735,36 @@ body:not([data-page]) .leaf-people{bottom:64px}
 }
 @media(max-width:767px){.ab-intro{padding-bottom:67px}}
 @media(min-width:1024px){body:not([data-page]) .about-section{padding-bottom:198px}}
+
+/* /services/burnout/ — page-specific translation of the live service layout */
+.svc-burnout-article{padding-bottom:2px}
+.svc-burnout-article .svc-hero{margin-bottom:0}
+.svc-burnout-article .svc-lede{line-height:33px}
+.svc-burnout-sections{display:flex;flex-direction:column;gap:24px;margin-top:69px;padding-top:0}
+.svc-burnout-sections>.svc-burnout-panel{box-sizing:border-box;margin:0;padding:48px;border:1px solid;border-radius:24px}
+.svc-burnout-sections>.svc-burnout-panel:nth-child(1){border-color:rgba(88,25,37,.25);background:rgba(88,25,37,.05)}
+.svc-burnout-sections>.svc-burnout-panel:nth-child(2){border-color:rgba(57,96,71,.25);background:rgba(57,96,71,.06)}
+.svc-burnout-sections>.svc-burnout-panel:nth-child(3){border-color:rgba(108,50,133,.25);background:rgba(108,50,133,.06)}
+.svc-burnout-sections>.svc-burnout-panel p{color:rgba(23,39,64,.75);font-size:16px;line-height:26px}
+.svc-burnout-sections>.svc-burnout-panel:first-child>p{max-width:none}
+.svc-burnout-heading{display:flex;align-items:center;gap:16px;margin-bottom:20px}
+.svc-burnout-heading h2{color:rgb(88,25,37);font:400 24px/32px Fraunces,Georgia,serif}
+.svc-burnout-sections>.svc-burnout-panel:nth-child(2) .svc-burnout-heading h2{color:rgb(57,96,71)}
+.svc-burnout-sections>.svc-burnout-panel:nth-child(3) .svc-burnout-heading h2{color:rgb(108,50,133)}
+.svc-burnout-icon{display:flex;flex:0 0 48px;width:48px;height:48px;align-items:center;justify-content:center;border-radius:16px;background:rgba(88,25,37,.12);color:rgb(88,25,37)}
+.svc-burnout-icon svg{width:24px;height:24px}
+.svc-burnout-icon-1{background:rgba(57,96,71,.12);color:rgb(57,96,71)}
+.svc-burnout-icon-2{background:rgba(108,50,133,.12);color:rgb(108,50,133)}
+.svc-burnout-cta{margin-top:42px}
+.svc-burnout-cta-panel{position:relative;box-sizing:border-box;overflow:hidden;margin:0;border-radius:24px;background:rgb(88,25,37);padding:56px 32px;color:rgb(241,234,223)}
+.svc-burnout-cta-leaf{position:absolute;top:24px;right:32px;width:56px;color:rgba(241,234,223,.15);transform:rotate(-12deg);pointer-events:none}
+.svc-burnout-cta-panel p{position:relative;max-width:576px;margin:0;color:inherit;font:italic 30px/36px Fraunces,Georgia,serif}
+.svc-burnout-cta-panel a{position:relative;display:inline-flex;align-items:center;gap:8px;margin-top:32px;border-radius:999px;background:rgb(241,234,223);padding:12px 28px;color:rgb(88,25,37);font-size:14px;line-height:20px;letter-spacing:.025em;transition:background-color .3s,color .3s}
+.svc-burnout-cta-panel a:hover{background:rgb(57,96,71);color:rgb(241,234,223)}
+@media(min-width:1024px){.svc-burnout-article{padding-bottom:2px}.svc-burnout-article .svc-hero h1{font-size:60px;line-height:63px}.svc-burnout-heading h2{font-size:30px;line-height:36px}}
+@media(min-width:768px) and (max-width:1023px){.svc-burnout-article{padding-bottom:4px}.svc-burnout-sections{margin-top:72px}.svc-burnout-sections>.svc-burnout-panel{padding:32px}.svc-burnout-heading h2{line-height:33px}.svc-burnout-cta{margin-top:40px}.svc-burnout-cta-panel{padding:48px 32px}.svc-burnout-cta-panel p{font-size:24px;line-height:33px}}
+@media(max-width:767px){.svc-burnout-article{padding-bottom:4px}.svc-burnout-sections{margin-top:72px}.svc-burnout-sections>.svc-burnout-panel{padding:32px}.svc-burnout-heading h2{line-height:33px}.svc-burnout-cta{margin-top:40px}.svc-burnout-cta-panel{padding:48px 32px}.svc-burnout-cta-panel p{font-size:24px;line-height:33px}}
+@media(min-width:1024px){.svc-burnout-article .svc-hero{max-width:912px}.svc-burnout-cta-leaf{top:22px}}
+.svc-burnout-article .svc-hero-leaf-left{top:-16px}
+
+@media(max-width:1023px){.svc-burnout-article .svc-hero-leaf-left{left:-32px}.svc-burnout-article .svc-hero-leaf-right{right:8px}}
