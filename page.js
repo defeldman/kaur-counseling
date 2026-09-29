@@ -122,15 +122,13 @@ const pages = {
   modalities: {
     eyebrow: 'Modalities', title: 'The lenses<br /><em>I work from.</em>', lede: 'No single approach fits every life. These are the frameworks I draw from. Sometimes one at a time, more often woven together, they meet your particular story with both structure and care.',
     body: [
-      `<section class="detail-section framework-intro"><p class="eyebrow">Five frameworks</p><h2>Each one a different way of listening.</h2></section>`,
-      frameworkGrid([
+            frameworkGrid([
         framework('01', 'Internal Family Systems', "IFS sees you as a whole inner world, not one self but many parts. There are protectors who work hard to keep you safe, exiles who carry old wounds, and a calm, compassionate core beneath all of it. We get curious about each part rather than trying to silence it.", "I reach for IFS when inner conflict is loud — when one part of you wants rest and another won't stop working, or when harsh self-talk burns beneath the surface. It's especially kind to the over-achievers and the children of immigrants who've learned to perform; here, every part is welcomed, none are exiled."),
         framework('02', 'Dialectical Behavior Therapy', "DBT balances two truths at once: you are doing your best, and you can learn to do better. It teaches concrete skills across four pillars — mindfulness, distress tolerance, emotion regulation, and interpersonal effectiveness — so that big feelings become something you can move through instead of drown in.", "I use DBT when emotions arrive in waves that feel unmanageable, when a quick escalation pulls you out of yourself, or when relationships keep hitting the same walls. It gives us a shared vocabulary and a toolkit for the moments between sessions, when the work has to be carried alone."),
         framework('03', 'Cognitive Behavioral Therapy', "CBT traces the quiet loop between thoughts, feelings, and actions — the stories you tell yourself, and the way they shape what you do next. Together we slow that loop down, examine the beliefs underneath, and gently build thoughts that fit the life you actually want.", "I reach for CBT when anxiety or depression has a specific, repeating shape — the intrusive worry, the inner critic, the spiral at 3 a.m. It's practical and structured, a clarifying companion to the deeper, slower work elsewhere in the room."),
         framework('04', 'Art', "Sometimes the truest things don't arrive as words. Art therapy lets image, color, and movement speak first, giving shape to what the thinking mind hasn't found language for, and then we listen to what the art has to tell us.", "I reach for art when words run out, when a feeling is too layered for sentences, or when you've spent a lifetime living in your head and need another door in. No talent required; only a willingness to let something emerge before you explain it."),
         framework('05', 'Attachment', "Attachment work listens for the blueprint your earliest bonds left behind — the quiet rules you learned about closeness, worth, and safety. We trace those patterns with care, making the invisible legible so that security can grow where uncertainty once lived.", "I reach for this when the same shape keeps showing up in your relationships — the pull toward distance or the fear of being left, the way connection can feel both longed for and unsafe. It's the lens beneath much of the work, helping you build the steady ground you may not have been handed.")
-      ]),
-      `<div class="modalities-closing-card reveal">${featherSvg('modalities-closing-leaf modalities-closing-leaf-top-right')}${featherSvg('modalities-closing-leaf modalities-closing-leaf-bottom-left')}<h2>Curious which lens<span class="modalities-closing-emphasis"> fits your story?</span></h2><p>We will find the right shape together. Reach out for a free consultation and we'll begin the conversation.</p><a class="modalities-closing-button" href="${link('get-started/')}">Get Started${window.lucideSvg('arrow-right', 16, 'lucide lucide-arrow-right')}</a></div>`
+      ])
     ], noCta: true, noBack: true
   },
   'get-started': {
@@ -294,18 +292,11 @@ function service(title, italic, eyebrow, lede, sections, closingQuote) {
 }
 
 function frameworkGrid(cards) {
-  return `<div class="framework-grid">${cards.join('')}</div>`;
+  return `<div class="mod-grid">${cards.join('')}</div>`;
 }
 
 function framework(number, title, what, why) {
-  const cardStyles = {
-    '01': ['burgundy', 'burgundy'],
-    '02': ['spruce', 'spruce'],
-    '03': ['clay', 'clay'],
-    '04': ['burgundy', 'burgundy'],
-    '05': ['spruce', 'spruce']
-  };
-  const [accent, eyebrowAccent] = cardStyles[number];
+  const accent = ({'01':'burgundy','02':'spruce','03':'clay','04':'burgundy','05':'spruce'})[number];
   const icons = {
     '01': '<circle cx="32" cy="32" r="11"/><circle cx="16" cy="20" r="6"/><circle cx="48" cy="20" r="6"/><circle cx="20" cy="46" r="6"/><circle cx="44" cy="46" r="6"/>',
     '02': '<path d="M10 38c6-12 12-12 18 0s12 12 18 0" stroke-linecap="round"/><path d="M10 26c6-12 12-12 18 0" stroke-linecap="round" stroke-dasharray="2 3"/><circle cx="50" cy="22" r="3"/>',
@@ -313,7 +304,7 @@ function framework(number, title, what, why) {
     '04': '<path d="M24 10c12 0 8 16 18 16 6 0 6 12-6 12-10 0-24-4-24-16 0-6 5-12 12-12Z" stroke-linejoin="round"/><circle cx="44" cy="48" r="4"/><circle cx="20" cy="52" r="2.5"/>',
     '05': '<path d="M32 48C32 48 14 36 14 24a9 9 0 0 1 18 0 9 9 0 0 1 18 0c0 12-18 24-18 24Z" stroke-linejoin="round"/><path d="M20 24a4 4 0 0 1 4-4" stroke-linecap="round"/>'
   };
-  return `<article class="reveal scroll-reveal rounded-3xl border p-8 lg:p-10 transition-colors duration-300 framework-card framework-card-${accent}" style="transition-delay: 0.04s;"><div class="framework-card-header flex items-start justify-between mb-6"><div class="framework-icon-badge w-14 h-14 rounded-2xl flex items-center justify-center"><svg viewBox="0 0 64 64" fill="none" class="w-7 h-7" stroke="currentColor" stroke-width="1.5" aria-hidden="true">${icons[number]}</svg></div><span class="font-display text-sm framework-number framework-number-${accent}">${esc(number)}</span></div><h3 class="font-display text-2xl lg:text-3xl framework-card-title leading-snug">${esc(title)}</h3><div class="framework-card-rule h-px w-10 my-5"></div><div class="framework-card-copy space-y-5"><div><span class="framework-card-eyebrow framework-eyebrow-${eyebrowAccent}">What it is</span><p class="mt-2 text-midnight/75 leading-relaxed">${esc(what)}</p></div><div><span class="framework-card-eyebrow framework-eyebrow-spruce">When &amp; why I use it</span><p class="mt-2 text-midnight/75 leading-relaxed">${esc(why)}</p></div></div></article>`;
+  return `<article class="mod-card mod-card-${accent} reveal"><div class="mod-card-header"><div class="mod-icon"><svg viewBox="0 0 64 64" aria-hidden="true">${icons[number]}</svg></div><span class="mod-number mod-number-${accent}">${esc(number)}</span></div><h3 class="mod-card-title">${esc(title)}</h3><div class="mod-rule mod-rule-${accent}"></div><div class="mod-card-copy"><div><span class="mod-label mod-label-${accent}">What it is</span><p>${esc(what)}</p></div><div><span class="mod-label mod-label-spruce">When &amp; why I use it</span><p>${esc(why)}</p></div></div></article>`;
 }
 
 function book(title, author, note) {
@@ -342,6 +333,14 @@ function render() {
     return;
   }
   const routeFeather = pageId === 'about' ? featherSvg('about-hero-leaf') : pageId === 'privacy' ? `<div class="detail-feather-anchor detail-feather-anchor-privacy">${featherSvg('privacy-hero-leaf')}</div>` : pageId === 'modalities' ? `<div class="modalities-hero-feathers">${featherSvg('absolute top-8 right-16 w-12 text-burgundy/25 rotate-[28deg] modalities-hero-feather modalities-hero-feather-one')}${featherSvg('absolute top-32 right-40 w-8 text-spruce/25 -rotate-[18deg] modalities-hero-feather modalities-hero-feather-two')}${featherSvg('absolute top-56 right-6 w-10 text-burgundy/20 rotate-[44deg] modalities-hero-feather modalities-hero-feather-three')}</div>` : '';
+  if (pageId === 'modalities') {
+    const cards = page.body.join('');
+    const hero = `<section class="mod-hero"><div class="modalities-hero-feathers">${featherSvg('absolute top-8 right-16 w-12 text-burgundy/25 rotate-[28deg] modalities-hero-feather modalities-hero-feather-one')}${featherSvg('absolute top-32 right-40 w-8 text-spruce/25 -rotate-[18deg] modalities-hero-feather modalities-hero-feather-two')}${featherSvg('absolute top-56 right-6 w-10 text-burgundy/20 rotate-[44deg] modalities-hero-feather modalities-hero-feather-three')}</div><div class="mod-container"><div class="mod-hero-copy reveal is-visible"><span class="mod-badge"><span></span>Modalities</span><h1>The lenses<br><em>I work from.</em></h1><p>${esc(page.lede)}</p></div></div></section>`;
+    const grid = `<section class="mod-frameworks"><div class="mod-container"><div class="mod-framework-intro reveal is-visible"><span>Five frameworks</span><h2>Each one a different way of listening.</h2></div>${cards}</div></section>`;
+    const close = `<section class="mod-closing-section"><div class="mod-closing-wrap"><div class="mod-closing-card reveal">${featherSvg('modalities-closing-leaf modalities-closing-leaf-top-right')}${featherSvg('modalities-closing-leaf modalities-closing-leaf-bottom-left')}<h2>Curious which lens <span>fits your story?</span></h2><p>We will find the right shape together. Reach out for a free consultation and we'll begin the conversation.</p><a href="${link('get-started/')}">Get Started${window.lucideSvg('arrow-right',16,'lucide lucide-arrow-right')}</a></div></div></section>`;
+    document.getElementById('page-app').innerHTML = `${header()}<main class="mod-main">${hero}${grid}${close}</main>${footer()}`;
+    return;
+  }
   if (pageId === 'privacy') {
     const crisis = `<section class="privacy-alert-section reveal is-visible"><div class="privacy-alert-panel"><div class="privacy-alert-heading">${window.lucideSvg('triangle-alert',20,'lucide lucide-triangle-alert text-burgundy')}<h2>If you are in crisis</h2></div><p>This website is not monitored for emergencies and is not a substitute for urgent care. If you or someone else is in immediate danger, please use the resources below.</p><ul>${[['911','tel:911','for life-threatening emergencies.'],['988','tel:988','Suicide & Crisis Lifeline. Call or text 988, 24/7.'],['741741','sms:741741','Crisis Text Line. Text HOME to 741741, 24/7.']].map(([number,href,copy])=>`<li>${window.lucideSvg('phone',16,'lucide lucide-phone mt-1 text-burgundy shrink-0')}<span><strong>${number}</strong> ${copy}</span></li>`).join('')}</ul></div></section>`;
     const closingMatch = [...page.body[5].matchAll(/<p>([\s\S]*?)<\/p>/g)];

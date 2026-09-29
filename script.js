@@ -93,7 +93,8 @@ const scrollRevealTargets = document.querySelectorAll([
   '.privacy-article > .reveal', '.multiculturalism-article > .reveal', '.multiculturalism-sections > .reveal', '.multiculturalism-panel',
   '.get-started-intro', '.get-started-office-reveal',
   '.res-article > .reveal', '.res-sections > .reveal',
-  '.teens-article > .reveal', '.teens-card'
+  '.teens-article > .reveal', '.teens-card',
+  '.mod-hero-copy', '.mod-card', '.mod-framework-intro', '.mod-closing-card'
 ].join(','));
 
 const revealStaggerGroups = [
@@ -104,7 +105,8 @@ const revealStaggerGroups = [
   { selector: '.approach-card', step: 0.12 },
   { selector: '.person-card', step: 0.08 },
   { selector: '.modality-item', step: 0.12 },
-  { selector: '.framework-card', delay: 0.04, step: 0.12 }
+  { selector: '.framework-card', delay: 0.04, step: 0.12 },
+  { selector: '.mod-card', delay: 0.04, step: 0.12 }
 ];
 const revealDelays = new Map();
 revealStaggerGroups.forEach(({ selector, delay, step }) => {

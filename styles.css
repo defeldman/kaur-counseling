@@ -1,7 +1,7 @@
 @font-face{font-family:Fraunces;src:url("assets/fonts/fraunces-latin.woff2") format("woff2");font-style:normal;font-weight:300 600;font-display:swap}
 
 @font-face{font-family:Fraunces;src:url("assets/fonts/fraunces-italic-latin.woff2") format("woff2");font-style:italic;font-weight:400;font-display:swap}
-@font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=33") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
+@font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=34") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
 
 @font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=26") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
 :root{--cream:#f1eadf;--cream-dark:#e8e0d4;--navy:#172740;--muted:rgba(23,39,64,.7);--spruce:#396047;--sage:#d5decf;--burgundy:#581925;--accent:#6c3285;--line:#d7ccbc;--max:1176px}
@@ -441,11 +441,6 @@ to{transform:translateX(-50%)}
 .page-service .detail-section{padding:0 64px 70px}
 .page-service .detail-section h2{font-size:31px}
 .page-service .detail-section-tint{margin-left:0;margin-right:0;padding:57px 64px 67px}
-.framework-copy{display:grid;grid-template-columns:1fr 1fr;gap:38px}
-.framework-copy .eyebrow{margin-bottom:12px}
-.framework-copy p:not(.eyebrow){font-size:14px}
-.framework{border-top:1px solid var(--line);padding-top:51px!important}
-.framework:first-child{border-top:0;padding-top:0!important}
 .detail-hero-body{color:var(--navy-60)}
 .page-service .detail-lede{margin-left:0;margin-right:0}
 .page-service .detail-section:first-child h2{position:relative}
@@ -456,17 +451,6 @@ to{transform:translateX(-50%)}
 
 .cost-image{margin:0 0 59px;width:100%;height:auto}
 .cost-image img{display:block;width:100%;height:auto}
-.page-modalities .back-link{display:none}
-.page-modalities .detail-shell{max-width:1176px}
-.page-modalities .detail-hero{text-align:left;padding:89px 0 143px}
-.page-modalities .detail-hero .eyebrow{display:inline-flex;padding:7px 15px;border-radius:999px;background:rgba(112,64,138,.08);color:var(--burgundy);font-size:12px}
-.page-modalities .detail-hero h1{max-width:650px;margin:27px 0 0;font-size:60px;line-height:1.02}
-.page-modalities .detail-lede{max-width:700px;margin:24px 0 0;font-size:18px;line-height:1.6}
-.page-modalities .detail-content{max-width:none}
-.page-modalities .framework-intro{padding:0 0 56px}
-.page-modalities .framework-intro h2{font-size:31px}
-.page-modalities .framework{max-width:850px;margin-left:0;margin-right:auto;padding-left:0!important;padding-right:0!important}
-.page-modalities .detail-cta{max-width:850px;text-align:left;padding-left:0}
 
 
 @media (max-width:767px){.about-verification-block .button{padding:10px 20px;font-size:14px}
@@ -479,26 +463,14 @@ to{transform:translateX(-50%)}
 .page-service .detail-section{padding-left:0;padding-right:0}
 .page-service .detail-section-tint{margin-left:-24px;margin-right:-24px;padding-left:24px;padding-right:24px}
 .page-service .detail-section:first-child h2:before{display:none}
-.framework-copy{grid-template-columns:1fr;gap:24px}
-.framework{padding-top:40px!important}
-.page-modalities .detail-shell{max-width:none}
-.page-modalities .detail-hero{padding:81px 0 106px}
-.page-modalities .detail-hero h1{font-size:43px;line-height:1.08}
-.page-modalities .detail-lede{font-size:16px;line-height:1.65}
-.page-modalities .framework-intro{padding-bottom:44px}
-.page-modalities .framework{max-width:none}
-.page-modalities .detail-cta{max-width:none}
 
 }
 /* Scout geometry corrections for the next pass. */
 .back-link{font-size:14px;line-height:20px;letter-spacing:.01em;text-transform:none;color:var(--spruce)}
 .page-service .detail-shell{padding-top:33px}
 .page-service .detail-hero h1{line-height:1}
-.page-modalities .detail-hero{padding-top:60px}
-.page-modalities .detail-hero h1{line-height:1}
 
 @media (max-width:767px){.page-service .detail-shell{padding-top:27px}
-.page-modalities .detail-hero{padding-top:81px}
 }
 /* The About page's human section is a three-column set of soft cards in the source. */
 .back-link{gap:19px}
@@ -507,11 +479,8 @@ to{transform:translateX(-50%)}
 }
 .page-service .detail-shell{padding-top:33px}
 .page-service .detail-hero h1{line-height:1}
-.page-modalities .detail-hero{padding-top:60px}
-.page-modalities .detail-hero h1{line-height:1}
 
 @media (max-width:767px){.page-service .detail-shell{padding-top:27px}
-.page-modalities .detail-hero{padding-top:81px}
 }
 .about-callout{margin-top:80px;padding:40px;border-radius:32px;background:rgb(88,25,37);color:rgb(241,234,223);text-align:center}
 .about-callout-leaf{display:block;width:28px;margin:0 auto 24px;color:rgba(241,234,223,.4);transform:rotate(-6deg)}
@@ -554,7 +523,6 @@ to{transform:translateX(-50%)}
 
 
 /* Third-pass route templates: contact and legal pages use a wider, left-led rhythm. */
-.page-modalities .detail-hero h1{max-width:672px}
 /* Fourth-pass source match: desktop rhythm, exact palette, and source-style icon geometry. */
 @media (min-width:768px){
   body:not([data-page]) .site-header{position:fixed;top:0;left:0;right:0;width:100%;height:91.2px;padding:0 48px;background:transparent;border-bottom-color:transparent;backdrop-filter:none}
@@ -765,19 +733,6 @@ to{transform:translateX(-50%)}
   .contact-main h2{margin-top:24px;font-size:48px;line-height:48px;letter-spacing:normal}
 
 
-  .page-modalities .detail-shell{max-width:1280px;padding-left:48px;padding-right:48px}
-
-  .page-modalities .detail-hero .eyebrow{
-    padding:6px 14px;
-    border-radius:9999px;
-    background:rgba(88,25,37,.1);
-    color:rgba(88,25,37,.8);
-    font-size:12px;
-    line-height:16px;
-    letter-spacing:.25em
-  }
-
-
   .page-service .detail-hero>.eyebrow{color:rgba(88,25,37,.8);line-height:14.5px}
 
   .page-service .detail-hero h1{margin-top:24px;letter-spacing:normal}
@@ -807,15 +762,11 @@ body:not([data-page]) .hero-card .eyebrow{font-size:9.6px;line-height:12px;lette
 .notice-copy h3{font-size:20px;line-height:25px;margin:0}
 .office-copy h3{font-size:30px;line-height:36px;margin-top:39px}
 .appointment-card h3{font-size:24px;line-height:33px}
-body.page-modalities::before{content:"";position:absolute;z-index:21;top:0;left:0;right:0;height:4px;background:linear-gradient(to right,var(--burgundy),var(--accent),var(--spruce));pointer-events:none}
-.page-modalities .framework-intro .eyebrow{margin:0;color:var(--spruce);font-size:12px;line-height:16px;letter-spacing:.25em}
-.page-modalities .framework-intro h2{margin-top:12px;font-size:30px;line-height:36px}
 .page-service .plain-detail-lede{max-width:700px;margin-top:30px;color:var(--navy-60);font:18px/1.62 Inter,ui-sans-serif,system-ui,sans-serif}
 
 
 @media (max-width:767px){.notice-copy h3{font-size:20px;line-height:25px}
 .office-copy h3{font-size:24px;line-height:30px}
-.page-modalities .framework-intro h2{font-size:24px;line-height:32px}
 .site-header>.mobile-nav{position:absolute}
 
 }
@@ -1034,33 +985,6 @@ body[data-page] .detail-page{padding-top:91.2px}
 
 }
 /* Match the live Modalities intro badge and editorial spacing. */
-.page-modalities .detail-hero .eyebrow{
-  display:inline-flex;
-  align-items:center;
-  gap:8px;
-  padding:6px 14px;
-  border-radius:999px;
-  background:rgba(88,25,37,.1);
-  color:rgba(88,25,37,.8);
-  font-size:12px;
-  line-height:16px;
-  letter-spacing:.25em;
-}
-.page-modalities .detail-hero .eyebrow::before{
-  content:"";
-  flex:0 0 6px;
-  width:6px;
-  height:6px;
-  border-radius:50%;
-  background:var(--burgundy);
-}
-.page-modalities .detail-hero h1{margin-top:24px;letter-spacing:normal}
-.page-modalities .detail-lede{max-width:672px;margin-top:32px;color:rgba(23,39,64,.75);font-size:18px;line-height:29.25px}
-
-@media (min-width:1024px){.page-modalities .detail-hero{padding-top:61.8px;padding-bottom:160px}
-.page-modalities .framework-intro{max-width:672px;margin-left:0;margin-right:auto}
-
-}
 /* Final text-color audit: values sampled from the live page's computed styles. */
 body:not([data-page]) .about-copy, body:not([data-page]) .about-copy p{color:rgba(23,39,64,.75)}
 body:not([data-page]) .rumi-quote cite{color:rgba(88,25,37,.8)}
@@ -1070,14 +994,6 @@ body:not([data-page]) .appointment-card small{color:var(--navy-70)}
 body:not([data-page]) .next-card li p{color:rgba(23,39,64,.75)}
 body:not([data-page]) .contact-facts, body:not([data-page]) .office-facts{color:rgba(23,39,64,.75)}
 body:not([data-page]) .office-copy>p:not(.eyebrow):not(.virtual-note){color:rgba(23,39,64,.75)}
-
-
-
-
-
-
-.page-modalities .framework-copy p:not(.eyebrow){color:rgba(23,39,64,.75)}
-.page-modalities .framework-copy .eyebrow{color:var(--spruce)}
 .page-service .detail-hero-body{color:rgba(23,39,64,.75)}
 .page-service .detail-section p:not(.eyebrow){color:rgba(23,39,64,.75)}
 .page-service .detail-content>.detail-section:nth-child(3n+1) h2{color:var(--burgundy)}
@@ -1165,17 +1081,6 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
 
 /* Brief 03{letter-spacing:3.6px}
 /* Brief 03, section 5: Modalities page. */
-.page-modalities .framework-copy .eyebrow{letter-spacing:2.64px}
-.page-modalities .framework:nth-of-type(2) .framework-copy>div:first-child .eyebrow, .page-modalities .framework:nth-of-type(3) .framework-copy>div:first-child .eyebrow, .page-modalities .framework:nth-of-type(5) .framework-copy>div:first-child .eyebrow{
-  color:rgba(88,25,37,.8);
-}
-.page-modalities .framework:nth-of-type(4) .framework-copy>div:first-child .eyebrow{
-  color:rgba(108,50,133,.85);
-}
-.page-modalities .detail-cta .button, .page-modalities .detail-cta .button:hover{
-  background:rgb(241,234,223);
-  color:rgb(88,25,37);
-}
 /* Brief 03 typography and button colors; closing cards are defined below. */
 .page-service .detail-hero h1{font-style:italic}
 .page-service .detail-hero>.eyebrow{line-height:16px}
@@ -1251,43 +1156,6 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
 /* Brief 09: resource poem, modality framework labels, and closing copy. */
 @media (min-width:768px){
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .page-modalities .framework-number{
-    font:14px/20px Fraunces,Georgia,serif;
-    letter-spacing:normal;
-    text-transform:none;
-  }
-
-  .page-modalities .framework:nth-of-type(2) .framework-number{color:rgba(88,25,37,.5)}
-
-  .page-modalities .framework:nth-of-type(3) .framework-number{color:rgba(57,96,71,.5)}
-
-  .page-modalities .framework:nth-of-type(4) .framework-number{color:rgba(108,50,133,.55)}
-
-  .page-modalities .framework:nth-of-type(5) .framework-number{color:rgba(88,25,37,.5)}
-
-  .page-modalities .framework:nth-of-type(6) .framework-number{color:rgba(57,96,71,.5)}
-
-  .page-modalities .framework:nth-of-type(2) .framework-copy>div:first-child .eyebrow{color:var(--spruce)}
-
-  .page-modalities .detail-quote p{
-    color:rgba(241,234,223,.8);
-    font-size:16px;
-    line-height:26px;
-  }
-
   body:not([data-page]) .door-detail{line-height:22.75px}
 
 }
@@ -1297,35 +1165,6 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
 
 }
 /* Brief 10: match the live modalities grid and the corrected route details. */
-.framework-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:24px}
-.framework-card{box-sizing:border-box;padding:32px;border:1px solid;border-radius:24px;transition:opacity .9s ease-out,transform .9s ease-out,border-color .3s}
-.framework-card-burgundy{border-color:rgba(88,25,37,.2);background:rgba(88,25,37,.035)}
-.framework-card-burgundy:hover{border-color:rgba(88,25,37,.4)}
-.framework-card-spruce{border-color:rgba(57,96,71,.2);background:rgba(57,96,71,.04)}
-.framework-card-spruce:hover{border-color:rgba(57,96,71,.4)}
-.framework-card-clay{border-color:rgba(108,50,133,.2);background:rgba(108,50,133,.04)}
-.framework-card-clay:hover{border-color:rgba(108,50,133,.4)}
-.framework-card-header{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:24px}
-.framework-icon-badge{display:flex;width:56px;height:56px;align-items:center;justify-content:center;border-radius:16px}
-.framework-card-burgundy .framework-icon-badge{background:rgba(88,25,37,.1);color:rgb(88,25,37)}
-.framework-card-spruce .framework-icon-badge{background:rgba(57,96,71,.1);color:rgb(57,96,71)}
-.framework-card-clay .framework-icon-badge{background:rgba(108,50,133,.1);color:rgb(108,50,133)}
-.framework-icon-badge svg{display:block;width:28px;height:28px;flex:none}
-.framework-number{font:400 14px/20px Fraunces,Georgia,serif}
-.framework-number-burgundy{color:rgba(88,25,37,.5)}
-.framework-number-spruce{color:rgba(57,96,71,.5)}
-.framework-number-clay{color:rgba(108,50,133,.55)}
-.framework-card-title{margin:0;color:rgb(23,39,64);font:400 24px/1.2 Fraunces,Georgia,serif}
-.framework-card-rule{width:40px;height:1px;margin:20px 0;background:currentColor}
-.framework-card-burgundy .framework-card-rule{color:rgba(88,25,37,.4)}
-.framework-card-spruce .framework-card-rule{color:rgba(57,96,71,.4)}
-.framework-card-clay .framework-card-rule{color:rgba(108,50,133,.4)}
-.framework-card-copy{display:flex;flex-direction:column;gap:20px}
-.framework-card-eyebrow{font-size:12px;line-height:16px;letter-spacing:2.64px;text-transform:uppercase}
-.framework-eyebrow-burgundy{color:rgba(88,25,37,.8)}
-.framework-eyebrow-spruce{color:rgb(57,96,71)}
-.framework-eyebrow-clay{color:rgba(108,50,133,.85)}
-.framework-card-copy p{margin:8px 0 0;color:rgba(23,39,64,.75);font-size:16px;line-height:26px}
 /* Service page icon details restored from the live route inventory. */
 .page-service .detail-hero{position:relative}
 .service-hero-leaf{position:absolute;pointer-events:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
@@ -1390,75 +1229,16 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
 
 
 body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px;left:auto;top:auto;color:rgba(57,96,71,.1);transform:rotate(-12deg)}
-
-
-@media (min-width:768px){.framework-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-}
-
-@media (min-width:1024px){.framework-grid{gap:32px}
-.framework-card{padding:40px}
-.framework-card-title{font-size:30px;line-height:36px}
-
-}
 /* Brief 11: restore the modalities closing card and the ADHD statistic card. */
-.modalities-closing-card{
-  position:relative;
-  box-sizing:border-box;
-  width:100%;
-  max-width:928px;
-  margin:0 auto;
-  padding:56px 32px;
-  overflow:hidden;
-  border-radius:24px;
-  background:rgb(88,25,37);
-  color:rgb(241,234,223);
-  text-align:center;
-}
-.modalities-closing-card h2{
-  position:relative;
-  margin:0;
-  color:rgb(241,234,223);
-  font:400 30px/36px Fraunces,Georgia,serif;
-}
-.modalities-closing-emphasis{color:rgba(241,234,223,.8);font-style:italic}
-.modalities-closing-card>p{
-  position:relative;
-  max-width:36rem;
-  margin:24px auto 0;
-  color:rgba(241,234,223,.8);
-  font:400 16px/26px Inter,ui-sans-serif,system-ui,sans-serif;
-}
-.modalities-closing-button{
-  position:relative;
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  gap:8px;
-  margin-top:40px;
-  padding:14px 28px;
-  border-radius:9999px;
-  background:rgb(241,234,223);
-  color:rgb(88,25,37);
-  font:400 14px/20px Inter,ui-sans-serif,system-ui,sans-serif;
-  transition:background-color 300ms,color 300ms;
-}
-.modalities-closing-button:hover{background:rgb(57,96,71);color:rgb(241,234,223)}
-.modalities-closing-button svg{display:block;width:16px;height:16px;flex:none}
 .modalities-closing-leaf{position:absolute;pointer-events:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .modalities-closing-leaf-top-right{top:32px;right:32px;width:64px;color:rgba(241,234,223,.15);transform:rotate(-12deg)}
 .modalities-closing-leaf-bottom-left{bottom:24px;left:40px;width:48px;color:rgba(241,234,223,.1);transform:rotate(20deg)}
 
-@media (min-width:1024px){.modalities-closing-card{padding:80px 32px}
-.modalities-closing-card h2{font-size:36px;line-height:40px}
-
-}
 
 
 
 
-
-@media (max-width:767px){.modalities-closing-card{padding:48px 24px}
-.modalities-closing-card h2{font-size:28px;line-height:34px}
+@media (max-width:767px){
 .modalities-closing-leaf-top-right{right:20px;top:20px}
 .modalities-closing-leaf-bottom-left{left:24px;bottom:16px}
 }
@@ -1510,11 +1290,6 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
   body:not([data-page]) .next-card ol{margin-top:24px}
 
   body:not([data-page]) .next-card li{margin-bottom:17px}
-
-
-
-
-.page-modalities .modalities-closing-card{margin-top:288px}
 
 
 
@@ -1649,35 +1424,6 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
   .detail-section p:not(.eyebrow){font-size:16px;line-height:26px}
 
 
-
-
-
-
-
-
-
-
-
-
-
-.page-modalities .detail-hero h1{font-size:36px;line-height:45px;letter-spacing:normal}
-
-  .page-modalities .detail-hero h1{font-size:36px;line-height:45px;letter-spacing:normal}
-
-
-
-
-
-
-
-  .page-modalities .framework h2{font-size:24px;line-height:33px}
-
-  .page-modalities .framework-number{font:14px/20px Fraunces,Georgia,serif}
-
-  .page-modalities .detail-cta h2,
-  .page-modalities .modalities-closing-card h2{font-size:30px;line-height:37.5px}
-
-
   .page-service .detail-hero h1{font-size:36px;line-height:37.8px;letter-spacing:normal}
 
   .page-service .detail-hero>.eyebrow{color:rgba(88,25,37,.8)}
@@ -1701,22 +1447,6 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
     visibility:hidden;
     pointer-events:none;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .page-modalities .modalities-closing-card{margin-top:170px}
 
 }
 /* Brief 18: final desktop corrections limited to the three audited routes. */
@@ -1772,13 +1502,7 @@ body:not([data-page]) .approach-section{padding-bottom:177px}
 body:not([data-page]) .people-section{padding-bottom:287px}
 body:not([data-page]) .modalities-section{padding-bottom:169px}
 }
-
-@media (min-width:768px){.page-modalities .modalities-closing-leaf-top-right{transform:translateY(-18px) rotate(-12deg)}
-.page-modalities .modalities-closing-leaf-bottom-left{transform:translateY(-18px) rotate(20deg)}
-}
 /* Brief 30: get-started desktop section layout and office details. */
-@media (min-width:1024px){
-}
 body:not([data-page]) .line-icon{width:80px;height:80px;margin-bottom:28px}
 body:not([data-page]) .line-icon svg{width:100%;height:100%;stroke-width:1.5}
 body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;height:auto;right:40px;bottom:64px;left:auto;top:auto;color:rgba(57,96,71,.1);opacity:1;transform:rotate(-12deg);pointer-events:none}
@@ -1791,36 +1515,16 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 @media (min-width:768px) and (max-width:1023px){
   .detail-shell{max-width:none;padding-left:24px;padding-right:24px}
 
-  .page-modalities .detail-hero h1{font-size:36px;line-height:45px}
-
   .page-service .detail-hero h1{font-size:36px;line-height:37.8px}
 
   .page-service .detail-section h2{font-size:24px;line-height:33px}
 
-  .page-service .framework-card-title{line-height:33px}
-
-  .page-modalities .detail-cta h2{line-height:37.5px}
-
-
-
-
-
-
-
-  .page-modalities .framework-intro h2{font-size:24px;line-height:32px}
-
-  .page-modalities .framework-card-title{line-height:33px}
-
-  .page-modalities .modalities-closing-card{margin-top:130px}
-
 }
 /* Brief 31, task 2: measured desktop get-started wrapping and rhythm. */
-@media (min-width:1024px){
-}
 /* Brief 31, task 1: match the live hover treatments. */
 .desktop-nav>a:not(.nav-cta)::after{right:auto;width:0;transform:none;transition:all .3s cubic-bezier(.4,0,.2,1)}
 .desktop-nav>a:not(.nav-cta):hover::after{width:100%}
-.about-callout-button:hover, .service-cta-button:hover, .modalities-closing-button:hover{background:var(--spruce);color:var(--cream)}
+.about-callout-button:hover, .service-cta-button:hover{background:var(--spruce);color:var(--cream)}
 
 .door-item button:hover>span:nth-child(2){color:var(--burgundy)}
 /* Brief 31, task 3: measured phone typography and route rhythm. */
@@ -1859,17 +1563,7 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 
 
 }
-.page-modalities .detail-shell{padding-bottom:0}
 /* Tablet footer meta follows the live four-column row and wraps its measured text widths. */
-@media (min-width:768px) and (max-width:1023px){
-  .page-modalities .modalities-closing-card{margin-top:108px}
-
-}
-
-
-@media (min-width:1024px){
-
-}
 /* Brief 39, task 1: shared tablet header, footer, and service back-link rhythm. */
 @media (min-width:768px) and (max-width:1023px){
   .site-header{height:auto;padding:24px;justify-content:flex-start}
@@ -1918,8 +1612,6 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 @media (max-width:767px){.door-grid{row-gap:9px}
 }
 /* Brief 39, task 3: remove the measured excess gaps before desktop copy and footers. */
-@media (min-width:1024px){
-}
 
 
 @media(max-width:767px){.page-service .detail-content p:not(.eyebrow){font-size:16px;line-height:26px;color:rgba(23,39,64,.75)}
@@ -1927,14 +1619,7 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 
 
 @media(max-width:767px){
-.page-modalities .modalities-closing-card{padding-top:56px;padding-bottom:56px}
 
-}
-
-
-
-
-@media(max-width:767px){
 }
 
 
@@ -1954,7 +1639,6 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 
 @media (max-width:767px){.about-hero-leaf{top:49px}
 }
-.page-modalities .detail-shell{position:relative}
 .modalities-hero-feathers{position:absolute;z-index:21;top:-114.1875px;left:50%;width:100vw;height:564.75px;overflow:hidden;transform:translateX(-50%);pointer-events:none}
 .modalities-hero-feather{position:absolute;display:block;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .modalities-hero-feather-one{top:32px;right:64px;width:48px;color:rgba(88,25,37,.25);transform:rotate(28deg)}
@@ -2624,3 +2308,93 @@ body:not([data-page]) .leaf-people{bottom:64px}
 @media(min-width:640px){.teens-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(min-width:768px){.teens-support-panel ul{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(min-width:1024px){.teens-article{padding:0 48px}.teens-hero h1{font-size:60px;line-height:60px}.teens-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.teens-support-panel{padding:48px}.teens-support-panel h2{font-size:30px;line-height:36px}.teens-carrying h2{font-size:36px;line-height:40px}.teens-cta-panel{padding:56px 32px}.teens-cta-panel>p{font-size:30px;line-height:36px}}
+
+/* Modalities page rebuilt from the live section tree. */
+.mod-main{margin-top:4px;background:var(--cream)}
+.mod-container{width:100%;max-width:1280px;margin:0 auto;padding:0 24px}
+.mod-hero{position:relative;overflow:hidden;padding:128px 0 64px}
+.mod-hero .mod-container{position:relative}
+.modalities-hero-feathers{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+.modalities-hero-feathers{position:absolute;inset:0;z-index:0;width:auto;height:auto;left:auto;top:auto;transform:none;overflow:hidden;pointer-events:none}
+.modalities-hero-feather{position:absolute;display:block;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.modalities-hero-feather-one{top:32px;right:64px;width:48px;color:rgba(88,25,37,.25);transform:rotate(28deg)}
+.modalities-hero-feather-two{top:128px;right:160px;width:32px;color:rgba(57,96,71,.25);transform:rotate(-18deg)}
+.modalities-hero-feather-three{top:224px;right:24px;width:40px;color:rgba(88,25,37,.2);transform:rotate(44deg)}
+.mod-hero-copy{position:relative;z-index:1;max-width:672px}
+.mod-badge{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:999px;background:rgba(88,25,37,.1);color:rgba(88,25,37,.8);font-size:12px;line-height:16px;letter-spacing:3px;text-transform:uppercase}
+.mod-badge span{width:6px;height:6px;border-radius:50%;background:var(--burgundy)}
+.mod-hero h1{margin-top:24px;color:var(--navy);font-size:36px;line-height:45px}
+.mod-hero h1 em{color:var(--burgundy)}
+.mod-hero-copy>p{max-width:672px;margin-top:32px;color:rgba(23,39,64,.75);font-size:18px;line-height:29.25px}
+.mod-frameworks{position:relative;padding:48px 0}
+.mod-framework-intro{max-width:672px;margin-bottom:48px}
+.mod-framework-intro>span{color:var(--spruce);font-size:12px;line-height:16px;letter-spacing:3px;text-transform:uppercase}
+.mod-framework-intro h2{margin-top:12px;color:var(--navy);font-size:24px;line-height:32px}
+.mod-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:24px}
+.mod-card{padding:32px;border:1px solid;border-radius:24px;transition:border-color .3s}
+.mod-card-burgundy{background:rgba(88,25,37,.035);border-color:rgba(88,25,37,.2)}
+.mod-card-spruce{background:rgba(57,96,71,.04);border-color:rgba(57,96,71,.2)}
+.mod-card-clay{background:rgba(108,50,133,.04);border-color:rgba(108,50,133,.2)}
+.mod-card-burgundy:hover{border-color:rgba(88,25,37,.4)}
+.mod-card-spruce:hover{border-color:rgba(57,96,71,.4)}
+.mod-card-clay:hover{border-color:rgba(108,50,133,.4)}
+.mod-card-header{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:24px}
+.mod-icon{display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:16px}
+.mod-icon svg{width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.mod-card-burgundy .mod-icon{background:rgba(88,25,37,.1);color:var(--burgundy)}
+.mod-card-spruce .mod-icon{background:rgba(57,96,71,.1);color:var(--spruce)}
+.mod-card-clay .mod-icon{background:rgba(108,50,133,.1);color:#6c3285}
+.mod-number{font-family:Fraunces,Georgia,serif;font-size:14px;line-height:20px}
+.mod-number-burgundy{color:rgba(88,25,37,.5)}
+.mod-number-spruce{color:rgba(57,96,71,.5)}
+.mod-number-clay{color:rgba(108,50,133,.55)}
+.mod-card-title{color:var(--navy);font-size:24px;line-height:33px}
+.mod-rule{width:40px;height:1px;margin:20px 0}
+.mod-rule-burgundy{background:rgba(88,25,37,.4)}
+.mod-rule-spruce{background:rgba(57,96,71,.4)}
+.mod-rule-clay{background:rgba(108,50,133,.4)}
+.mod-card-copy{display:flex;flex-direction:column;gap:20px}
+.mod-label{font-size:12px;line-height:16px;letter-spacing:2.64px;text-transform:uppercase}
+.mod-label-burgundy{color:rgba(88,25,37,.8)}
+.mod-label-spruce{color:var(--spruce)}
+.mod-label-clay{color:rgba(108,50,133,.85)}
+.mod-card-copy p{margin-top:8px;color:rgba(23,39,64,.75);font-size:16px;line-height:26px}
+.mod-closing-section{position:relative;padding:80px 0 80px}
+.mod-closing-wrap{max-width:1024px;margin:0 auto;padding:0 24px}
+.mod-closing-card{position:relative;overflow:hidden;padding:56px 32px;border-radius:24px;background:var(--burgundy);color:var(--cream);text-align:center}
+.mod-closing-card h2{position:relative;color:var(--cream);font-size:30px;line-height:37.5px}
+.mod-closing-card h2 span{color:rgba(241,234,223,.8);font-style:italic}
+.mod-closing-card>p{position:relative;max-width:576px;margin:24px auto 0;color:rgba(241,234,223,.8);font-size:16px;line-height:26px}
+.mod-closing-card>a{position:relative;display:inline-flex;align-items:center;gap:8px;margin-top:40px;padding:14px 28px;border-radius:999px;background:var(--cream);color:var(--burgundy);font-size:14px;line-height:20px;transition:background-color .3s,color .3s}
+.mod-closing-card>a:hover{background:var(--spruce);color:var(--cream)}
+.mod-closing-card>a svg{width:16px;height:16px}
+.modalities-closing-leaf{position:absolute;pointer-events:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.modalities-closing-leaf-top-right{top:32px;right:32px;width:64px;color:rgba(241,234,223,.15);transform:rotate(-12deg)}
+.modalities-closing-leaf-bottom-left{bottom:24px;left:40px;width:48px;color:rgba(241,234,223,.1);transform:rotate(20deg)}
+@media (min-width:768px){
+  .mod-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+  .mod-closing-wrap{padding:0 48px}
+  .mod-closing-card h2 span{position:relative;left:-7px}
+  .mod-closing-section{padding-bottom:80px}
+}
+@media (min-width:1024px){
+  .mod-container{padding-right:48px;padding-left:48px}
+  .mod-hero{padding-top:176px;padding-bottom:96px}
+  .mod-hero h1{font-size:60px;line-height:60px}
+  .mod-frameworks{padding-top:64px;padding-bottom:64px}
+  .mod-framework-intro h2{font-size:30px;line-height:36px}
+  .mod-grid{gap:32px}
+  .mod-card{padding:40px}
+  .mod-card-title{font-size:30px;line-height:36px}
+  .mod-closing-section{padding:112px 0}
+  .mod-closing-card{padding-top:80px;padding-bottom:80px}
+  .mod-closing-card h2{font-size:36px;line-height:40px}
+}
+@media (max-width:767px){
+  .mod-closing-section{padding-top:92px;padding-bottom:84px}
+  .mod-closing-wrap{padding:0 24px}
+  .mod-closing-card{padding:48px 24px}
+  .mod-closing-card h2{font-size:30px;line-height:37.5px}
+  .modalities-closing-leaf-top-right{top:20px;right:32px}
+  .modalities-closing-leaf-bottom-left{bottom:21px;left:40px}
+}
