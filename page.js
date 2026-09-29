@@ -60,10 +60,11 @@ function header() {
 }
 
 function footer() {
-  return `<footer class="site-footer" id="footer">
-    <div class="footer-top"><div class="footer-meta"><div class="footer-name">Sohavani Mand, LMFT</div><div class="footer-license">CA Lic. #150884</div><div class="footer-business">Kaur Counseling, Marriage &amp; Family Therapy, Inc.</div><a class="footer-phone" href="tel:+14159305395">415-930-5395</a></div><nav class="footer-nav"><a href="${link('')}">Home</a><a href="${link('about/')}">About</a><a href="${link('#services')}">Services</a><a href="${link('get-started/')}">Contact</a><a href="${link('privacy/')}">Privacy &amp; Disclaimer</a></nav></div>
-    <div class="footer-crisis"><p>If you are in crisis, call or text <span class="crisis-number">988</span> (Suicide &amp; Crisis Lifeline) or <span class="crisis-number">911</span> for emergencies. This site is not monitored 24/7.</p></div>
-    <div class="footer-copyright-row"><p class="footer-copyright">© 2026 Sohavani Mand, LMFT. Confidential by design.</p></div>
+  return `<footer class="site-footer footer-rebuild" id="footer">
+    <div class="footer-rebuild-top"><div class="footer-rebuild-meta"><span class="footer-rebuild-name">Sohavani Mand, LMFT</span><span class="footer-rebuild-license">CA Lic. #150884</span><span class="footer-rebuild-business">Kaur Counseling, Marriage &amp; Family Therapy, Inc.</span><a class="footer-rebuild-phone" href="tel:+14159305395">415-930-5395</a></div>
+      <nav class="footer-rebuild-nav"><a href="${link('')}">Home</a><a href="${link('about/')}">About</a><a href="${link('#services')}">Services</a><a href="${link('get-started/')}">Contact</a><a href="${link('privacy/')}">Privacy &amp; Disclaimer</a></nav></div>
+    <div class="footer-rebuild-crisis">If you are in crisis, call or text <span>988</span> (Suicide &amp; Crisis Lifeline) or <span>911</span> for emergencies. This site is not monitored 24/7.</div>
+    <div class="footer-rebuild-copyright">© 2026 Sohavani Mand, LMFT. Confidential by design.</div>
   </footer>`;
 }
 
@@ -93,7 +94,7 @@ const pages = {
   },
   cost: {
     backLabel: 'Back to Home',
-    eyebrow: 'The investment', title: 'The cost of individual therapy', lede: 'Private-pay, with a clear path to reimbursement.',
+    eyebrow: 'The Investment', title: 'The cost of individual therapy', lede: 'Private-pay, with a clear path to reimbursement.',
     body: [
       `<span class="cost-photo reveal is-visible"><img src="${link('assets/images/cost-flatlay.webp')}" alt="A calm flat lay of a notebook, pen, and tea on a cream linen surface" loading="lazy" /></span>`,
       `<p class="cost-summary reveal is-visible">Therapy is an investment in the life you're building. For clients paying out of pocket or using out-of-network insurance, the cost is straightforward, and many receive substantial reimbursement.</p>`,
