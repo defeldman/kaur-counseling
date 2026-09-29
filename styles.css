@@ -1276,10 +1276,10 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
 .page-services-adhd .detail-content>.detail-section:first-child{padding-left:0;padding-right:0}
 .page-services-adhd .detail-content>.detail-section:first-child>p{max-width:672px}
 .page-services-adhd .detail-content>.detail-section:first-child .detail-card-grid{width:800px;max-width:calc(100% - 21px);margin-left:21px}
-.resource-section-leaf{position:absolute;left:-24px;top:0;width:45px;color:rgba(57,96,71,.28);pointer-events:none}
+.resource-section-leaf{position:absolute;left:-16px;top:-12px;width:32px;color:rgba(88,25,37,.2);transform:rotate(18deg);pointer-events:none}
 .page-resources .book-section{position:relative}
 .resource-closing{position:relative}
-.resource-closing-leaf{position:absolute;left:-81px;top:0;width:55px;color:rgba(88,25,37,.25);pointer-events:none}
+.resource-closing-leaf{position:absolute;left:-24px;top:0;width:36px;color:rgba(57,96,71,.3);transform:rotate(24deg);pointer-events:none}
 .resource-hero-leaf{position:absolute;pointer-events:none}
 .resource-hero-leaf-left{left:-40px;top:-8px;width:40px;color:rgba(88,25,37,.3);transform:rotate(-12deg)}
 .resource-hero-leaf-right{right:0;top:-4px;width:28px;color:rgba(57,96,71,.3);transform:rotate(28deg)}
@@ -1299,6 +1299,15 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
 .page-resources .book>p:last-child{font-size:15.2px!important;line-height:24.7px!important;color:rgba(23,39,64,.7)}
 .page-get-started .office-facts>a:first-child{line-height:22.75px}
 .page-privacy .detail-section:last-child p:last-child{font-size:14px;line-height:22.75px;color:rgba(23,39,64,.5)}
+
+/* Brief 37b task 2: home and resource feathers use their live CSS dimensions. */
+.home-about-feather{position:absolute;left:-48px;top:-32px;width:40px;height:auto;color:rgba(88,25,37,.3);transform:rotate(-12deg);pointer-events:none}
+.leaf-approach-right{position:absolute;right:-40px;top:-24px;width:36px;height:auto;color:rgba(57,96,71,.35);transform:rotate(24deg);pointer-events:none}
+.leaf-approach-left{position:absolute;left:-40px;top:8px;width:28px;height:auto;color:rgba(88,25,37,.25);transform:rotate(-30deg);pointer-events:none}
+.people-small-feather{position:absolute;left:24px;top:40px;width:64px;height:auto;color:rgba(57,96,71,.15);transform:rotate(18deg);pointer-events:none}
+.page-resources .resource-section-leaf{left:-16px;top:-12px;width:32px;height:auto;color:rgba(88,25,37,.2);transform:rotate(18deg)}
+.page-resources .resource-closing-leaf{left:-24px;top:0;width:36px;height:auto;color:rgba(57,96,71,.3);transform:rotate(24deg)}
+body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px;left:auto;top:auto;color:rgba(57,96,71,.1);transform:rotate(-12deg)}
 
 @media (min-width:768px){.framework-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (min-width:1024px){
@@ -1943,7 +1952,7 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
 }
 body:not([data-page]) .line-icon{width:80px;height:80px;margin-bottom:28px}
 body:not([data-page]) .line-icon svg{width:100%;height:100%;stroke-width:1.5}
-body:not([data-page]) .leaf-people{position:absolute;display:block;width:124px;height:161px;right:26px;left:auto;top:0;color:rgba(57,96,71,.1);opacity:1;transform:rotate(0);pointer-events:none}
+body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;height:auto;right:40px;bottom:64px;left:auto;top:auto;color:rgba(57,96,71,.1);opacity:1;transform:rotate(-12deg);pointer-events:none}
 
 /* Brief 29: measured 1024px homepage section and footer flow. */
 @media (min-width:1024px) and (max-width:1279px){
@@ -2098,3 +2107,18 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:124px;h
 .modalities-hero-feather-three{top:224px;right:24px;width:40px;color:rgba(88,25,37,.2);transform:rotate(44deg)}
 @media (min-width:768px) and (max-width:1023px){.modalities-hero-feathers{height:454.75px}}
 @media (max-width:767px){.modalities-hero-feathers{top:-111.1875px;height:542.5px}}
+
+/* Brief 37b: place homepage feathers against the same heading blocks as live. */
+.about-intro{position:relative;width:min(768px,calc(100% - 48px));max-width:768px;margin-left:max(24px,calc((100% - 1184px)/2));margin-right:0}
+.approach-section .centered-intro{position:relative;max-width:672px;margin-left:auto;margin-right:auto}
+.modalities-section .modalities-intro{position:relative;max-width:672px}
+.home-about-feather{left:-48px;top:-26px;width:40px;height:auto}
+.leaf-approach-right{right:-40px;top:-20px;width:36px;height:auto}
+.leaf-approach-left{left:-40px;top:12px;width:28px;height:auto}
+.leaf-modalities{position:absolute;display:block;left:-48px;top:-20px;width:40px;height:auto;color:rgba(88,25,37,.3);transform:rotate(14deg);pointer-events:none}
+.people-small-feather{width:64px;height:auto;top:38px}
+body:not([data-page]) .leaf-people{bottom:66px}
+@media(min-width:768px){.page-resources .resource-section-leaf{width:32px!important;height:auto!important}.page-resources .resource-closing-leaf{width:36px!important;height:auto!important}}
+@media(max-width:767px){.leaf-approach-left,.leaf-approach-right,.leaf-modalities{display:block}}
+.page-service .service-list-leaf{right:-16px;width:56px}
+.page-resources .resource-closing-leaf{left:-72px}
