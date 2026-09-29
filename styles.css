@@ -2279,3 +2279,51 @@ body:not([data-page]) .leaf-people{bottom:64px}
 @media(min-width:1024px){.page-privacy .detail-shell,.page-get-started .detail-shell{padding-left:48px;padding-right:48px}}
 @media(max-width:1023px){.page-get-started .get-started-office{grid-template-columns:1fr;gap:40px}.page-get-started .office-eyebrow,.page-get-started .office-copy,.page-get-started .map-frame{grid-column:1}.page-get-started .map-frame{aspect-ratio:16/10}}
 @media(max-width:767px){.page-get-started .detail-page{padding-top:112px;padding-bottom:96px}.page-get-started .detail-hero h1{font-size:36px;line-height:1.25}.page-get-started .detail-content{margin-top:64px}.page-get-started .detail-appointment{padding:32px}.page-get-started .get-started-office{margin-top:96px}}
+
+/* Brief 41, Task 2: one responsive Tailwind rhythm for all six service pages. */
+.page-service .detail-page{padding:128px 0 112px}
+.page-service .detail-shell{max-width:1024px;padding:0 24px!important}
+.page-service .back-link{margin-bottom:48px!important}
+.page-service .detail-hero{padding:0;text-align:left}
+.page-service .detail-hero>.eyebrow{font-size:12px;line-height:16px;letter-spacing:3px}
+.page-service .detail-hero h1{max-width:672px;margin:24px 0 0;font-size:60px;line-height:1.05;letter-spacing:0}
+.page-service .detail-lede{max-width:672px;margin:24px 0 0;font-size:24px;line-height:1.375}
+.page-service .detail-hero-body,.page-service .plain-detail-lede{max-width:672px;margin:32px 0 0;font-size:18px;line-height:1.625}
+.page-service .detail-content{max-width:none;margin-top:56px;border:0;padding:0}
+.page-service .detail-content>.detail-section{margin:56px 0 0;padding:0}
+.page-service .detail-content>.detail-section:first-child{margin-top:0}
+.page-service .detail-content>.detail-section h2,.page-service .service-card-grid-section>h2{margin:0;font-size:24px;line-height:32px}
+.page-service .detail-content>.detail-section>p{max-width:672px;margin:0;font-size:16px;line-height:1.625}
+.page-service .detail-content>.detail-section>p+p{margin-top:20px}
+.page-service .detail-content>.detail-section h2+ p{margin-top:20px}
+.page-service .detail-content>.detail-section .detail-card-grid{margin:32px 0 0;gap:16px}
+.page-service .detail-card{padding:20px;border-radius:16px}
+.page-service .detail-card h3{margin:0;font-size:18px;line-height:28px}
+.page-service .detail-card p{margin-top:8px;font-size:14px;line-height:20px}
+.page-service .service-panel-card{margin:0 0 24px;padding:32px;border-radius:24px}
+.page-service .service-panel-card:last-child{margin-bottom:0}
+.page-service .service-topic-grid{gap:24px}
+.page-service .service-topic-card,.page-service .service-overlap-card{padding:32px}
+.page-service .service-cta{margin-top:64px;padding:48px 32px;border-radius:24px}
+.page-service .service-cta-quote{font-size:24px;line-height:1.375}
+.page-service .service-cta-button{margin-top:32px}
+@media(min-width:1024px){
+  .page-service .detail-shell{padding-left:48px!important;padding-right:48px!important}
+  .page-service .detail-hero h1{font-size:60px;line-height:1.05}
+  .page-service .detail-content>.detail-section h2,.page-service .service-card-grid-section>h2{font-size:30px;line-height:36px}
+  .page-service .detail-content>.detail-section .detail-card-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+  .page-service .service-cta{padding:56px 32px}
+  .page-service .service-cta-quote{font-size:30px;line-height:36px}
+}
+@media(min-width:640px) and (max-width:1023px){.page-service .detail-content>.detail-section .detail-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:767px){
+  .page-service .detail-page{padding:112px 0 96px}
+  .page-service .detail-hero h1{font-size:36px;line-height:1.05}
+  .page-service .detail-lede{font-size:24px;line-height:1.375}
+  .page-service .detail-hero-body,.page-service .plain-detail-lede{font-size:18px;line-height:1.625}
+  .page-service .detail-content{margin-top:56px}
+  .page-service .detail-content>.detail-section{margin-top:56px}
+  .page-service .detail-content>.detail-section h2,.page-service .service-card-grid-section>h2{font-size:30px;line-height:36px}
+  .page-service .detail-content>.detail-section .detail-card-grid{grid-template-columns:1fr;gap:16px}
+  .page-service .service-cta{margin-top:64px;padding:48px 32px}
+}
