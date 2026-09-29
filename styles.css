@@ -1942,7 +1942,12 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
   .started-rebuild .detail-appointment h2{font-size:24px;line-height:33px}
   .page-service .framework-card-title{line-height:33px}
   .page-modalities .detail-cta h2{line-height:37.5px}
-  .started-rebuild .get-started-office{grid-template-columns:1fr;gap:48px}
+  .started-rebuild .get-started-office{grid-template-columns:1fr;gap:0}
+  .started-rebuild .get-started-office>div:first-child{padding-top:0}
+  .started-rebuild .get-started-office h3{font-size:24px;line-height:30px}
+  .started-rebuild .office-copy>p:not(.eyebrow){font-size:16px;line-height:26px}
+  .started-rebuild .office-copy>p.virtual-note{font-size:14px;line-height:22.75px}
+  .started-rebuild .office-facts{margin-top:29px}
   .started-rebuild .map-frame{height:auto;aspect-ratio:16/10}
 .page-about .detail-shell{margin-bottom:-23px}
 .page-resources .detail-content>.detail-section:last-child{padding-bottom:58px}
