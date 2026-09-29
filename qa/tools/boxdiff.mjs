@@ -4,7 +4,7 @@
 import { chromium } from 'playwright';
 const [,, w='1440', route='', snippet='', lv='7'] = process.argv;
 const b=await chromium.launch(); const res={};
-for (const [name,base] of [['live','https://kaurcounseling.net/'],['ours','http://localhost:4173/']]){
+for (const [name,base] of [['live','https://kaurcounseling.net/'],['ours',`http://localhost:${process.env.PORT||4173}/`]]){
   const p=await b.newPage({viewport:{width:+w,height:900}});
   await p.goto(base+route,{waitUntil:'networkidle'});
   await p.evaluate(async()=>{for(let y=0;y<document.body.scrollHeight;y+=300){scrollTo(0,y);await new Promise(r=>setTimeout(r,50))}});
