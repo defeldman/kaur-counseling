@@ -45,13 +45,13 @@ document.querySelectorAll('.mobile-nav a:not(.dropdown-trigger)').forEach((link)
   });
 });
 
-document.querySelectorAll('.door-item button').forEach((button) => {
+document.querySelectorAll('.home-door-item button').forEach((button) => {
   button.addEventListener('click', () => {
-    const item = button.closest('.door-item');
+    const item = button.closest('.home-door-item');
     const shouldOpen = !item.classList.contains('is-open');
     item.classList.toggle('is-open', shouldOpen);
     button.setAttribute('aria-expanded', String(shouldOpen));
-    item.querySelector('.door-detail')?.setAttribute('aria-hidden', String(!shouldOpen));
+    item.querySelector('.panel')?.setAttribute('aria-hidden', String(!shouldOpen));
   });
 });
 
@@ -68,7 +68,7 @@ privacyNote?.addEventListener('click', (event) => {
   if (event.target === privacyNote) privacyNote.setAttribute('hidden', '');
 });
 
-const officeNotice = document.querySelector('.office-notice');
+const officeNotice = document.querySelector('#office-notice .office-notice');
 if (officeNotice && 'IntersectionObserver' in window) {
   const revealNotice = new IntersectionObserver((entries, observer) => {
     if (entries.some((entry) => entry.isIntersecting && entry.intersectionRatio >= 0.3)) {
@@ -83,12 +83,12 @@ if (officeNotice && 'IntersectionObserver' in window) {
 
 const scrollRevealTargets = document.querySelectorAll([
   '.scroll-reveal',
-  '.about-intro', '.portrait-frame', '.about-copy', '.rumi-quote',
-  '.narrow-intro', '.wheelhouse-item', '.door-intro', '.door-item',
-  '.centered-intro', '.approach-card', '.centered-link',
-  '.people-intro', '.person-card', '.modalities-intro', '.modality-item',
-  '.modality-quote', '.modality-link', '.contact-main', '.contact-aside',
-  '.office-copy', '.map-frame', '.detail-hero', '.detail-content > *', '.detail-cta',
+  '.home-about-intro', '.home-about-left', '.home-about-right',
+  '.home-wheel-intro', '.home-wheel-card', '.home-door-intro', '.home-door-item', '.home-door',
+  '.home-approach-intro', '.home-approach-card', '.home-approach-more',
+  '.home-people-intro', '.home-person', '.home-mod-intro', '.home-mod-card',
+  '.home-mod-quote', '.home-mod-more', '.home-contact-aside',
+  '.home-contact-office', '.detail-hero', '.detail-content > *', '.detail-cta',
   '.cost-article > .reveal', '.cost-sections > .reveal', '.transitions-navigating', '.transitions-card', '.transitions-support', '.transitions-cta', '.svc-burnout-panel', '.svc-burnout-cta', '.anxiety-topics > .reveal', '.anxiety-overlap', '.anxiety-work', '.anxiety-step', '.anxiety-cta', '.about-intro', '.about-callout', '.about-session-heading', '.about-card-grid > *', '.about-content-section',
   '.privacy-article > .reveal', '.multiculturalism-article > .reveal', '.multiculturalism-sections > .reveal', '.multiculturalism-panel',
   '.get-started-intro', '.get-started-office-reveal',
@@ -98,13 +98,13 @@ const scrollRevealTargets = document.querySelectorAll([
 ].join(','));
 
 const revealStaggerGroups = [
-  { selector: '.about-copy', delay: 0.15 },
-  { selector: '.contact-aside', delay: 0.15 },
-  { selector: '.map-frame', delay: 0.15 },
-  { selector: '.wheelhouse-item', step: 0.12 },
-  { selector: '.approach-card', step: 0.12 },
-  { selector: '.person-card', step: 0.08 },
-  { selector: '.modality-item', step: 0.12 },
+  { selector: '.home-about-right', delay: 0.15 },
+  { selector: '.home-contact-aside', delay: 0.15 },
+  { selector: '.home-contact-map', delay: 0.15 },
+  { selector: '.home-wheel-card', step: 0.12 },
+  { selector: '.home-approach-card', step: 0.12 },
+  { selector: '.home-person', step: 0.08 },
+  { selector: '.home-mod-card', step: 0.12 },
   { selector: '.framework-card', delay: 0.04, step: 0.12 },
   { selector: '.mod-card', delay: 0.04, step: 0.12 }
 ];
