@@ -2095,23 +2095,18 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 
 /* Brief 39, task 1: shared tablet header, footer, and service back-link rhythm. */
 @media (min-width:768px) and (max-width:1023px){
-  .site-header{height:auto;min-height:152.8px;padding:24px;justify-content:flex-start}
-  body:not([data-page]) .site-header{height:auto;min-height:152.8px;padding:24px;justify-content:flex-start}
+  .site-header{height:auto;padding:24px;justify-content:flex-start}
+  body:not([data-page]) .site-header{height:auto;padding:24px;justify-content:flex-start}
   .brand{width:100px;flex:0 0 100px;gap:0}
   .brand-name{max-width:100px;line-height:28px}
   .brand-subtitle{margin-top:0}
   .desktop-nav{flex:0 0 auto;gap:40px}
   .desktop-nav .nav-cta{width:91px;height:60px;padding:10px 20px;line-height:20px;white-space:normal}
-  .footer-top{height:auto;min-height:192px}
+  .footer-top{height:auto}
   .footer-crisis{margin-top:0}
   .footer-copyright-row{padding-bottom:0}
   .page-service .detail-shell{margin-top:0}
-  .page-service .back-link{position:relative;top:4px}
 }
-@media (max-width:767px){
-  .page-service .back-link{position:relative;top:10px}
-}
-
 /* Brief 39, task 2: tablet homepage about flow and two-column wheelhouse. */
 @media (min-width:768px) and (max-width:1023px){
   body:not([data-page]) .about-grid .portrait-frame{order:1}
@@ -2131,18 +2126,6 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 
 /* Brief 39, task 3: remove the measured excess gaps before desktop copy and footers. */
 @media (min-width:1024px){
-  .page-cost .detail-content>.detail-section:nth-of-type(3){padding-bottom:57px}
-  .page-cost .detail-shell{padding-bottom:59px}
-  .page-privacy .detail-shell{padding-bottom:48px}
-
-  .page-services-burnout .service-panel-card:first-child{margin-bottom:24px}
-  .page-services-burnout .service-cta{margin-top:64px}
-  .page-services-adhd .detail-content>.detail-section:first-child{padding-bottom:38px}
-  .page-services-anxiety-depression .detail-content{padding-top:17px}
-  .page-services-anxiety-depression .service-overlap-card{margin-bottom:2.2px}
-  .page-services-teens .detail-card-grid{margin-top:56px}
-  .page-services-multiculturalism .service-panel-card:nth-child(2){margin-bottom:24px}
-
   .page-get-started .get-started-office .office-facts{margin-top:32px;gap:16px}
 }
 
@@ -2167,8 +2150,8 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
   .page-services-adhd .detail-content>.detail-section:first-child .detail-card p{margin-top:8px;font-size:14px;line-height:22.75px}
 }
 
-@media(min-width:768px){.detail-shell{padding-top:31px}}
-@media(max-width:767px){.detail-shell{padding-top:37px}}
+@media(min-width:768px) and (max-width:1023px){.page-service .detail-shell{padding-top:36px}}
+@media(max-width:767px){.page-service .detail-shell{padding-top:48px}}
 .about-hero-leaf{position:absolute;top:62px;left:50%;display:block;width:24px;height:36px;margin:0;color:rgba(88,25,37,.4);transform:translateX(-50%) rotate(-6deg)}
 @media (min-width:768px) and (max-width:1023px){.about-hero-leaf{top:48px}}
 @media (max-width:767px){.about-hero-leaf{top:49px}}
