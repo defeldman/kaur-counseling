@@ -1,7 +1,7 @@
 @font-face{font-family:Fraunces;src:url("assets/fonts/fraunces-latin.woff2") format("woff2");font-style:normal;font-weight:300 600;font-display:swap}
 
 @font-face{font-family:Fraunces;src:url("assets/fonts/fraunces-italic-latin.woff2") format("woff2");font-style:italic;font-weight:400;font-display:swap}
-@font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=31") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
+@font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=32") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
 
 @font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=26") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
 :root{--cream:#f1eadf;--cream-dark:#e8e0d4;--navy:#172740;--muted:rgba(23,39,64,.7);--spruce:#396047;--sage:#d5decf;--burgundy:#581925;--accent:#6c3285;--line:#d7ccbc;--max:1176px}
@@ -1514,7 +1514,6 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 .modalities-closing-leaf-bottom-left{left:24px;bottom:16px}
 }
 
-}
 /* Brief 11: restore the remaining route-specific typography. */
 .page-services-transitions .detail-content>.detail-section:last-child>ul>li, .page-services-teens .detail-content>.detail-section:last-child>ul>li{
   font:400 18px/24.75px Fraunces,Georgia,serif;
@@ -2103,7 +2102,6 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 
 
 
-}
 
 
 @media(min-width:768px) and (max-width:1023px){.page-service .detail-shell{padding-top:36px}
