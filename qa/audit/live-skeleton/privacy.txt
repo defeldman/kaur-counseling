@@ -1,0 +1,97 @@
+<div>
+  <div class="min-h-screen bg-cream">
+    <header class="fixed top-0 inset-x-0 z-50 transition-all duration-500 bg-cream/85 backdrop-blur-md border-b border-border/60 py-4">
+      <nav class="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between">
+        <a class="group leading-none flex items-center gap-3">
+          <span>
+            <span class="block font-display text-xl tracking-tight text-midnight"> Kaur Counseling
+            <span class="block mt-1 text-[0.7rem] uppercase tracking-[0.2em] text-spruce/70"> Marriage and Family Therapy, Inc.
+        <div class="hidden md:flex items-center gap-10">
+          <a class="relative text-sm tracking-wide text-midnight/70 hover:text-midnight transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-px after:w-0 after:bg-burgundy after:transition-all after:duration-300 hover:after:w-full"> Home
+          <a class="relative text-sm tracking-wide text-midnight/70 hover:text-midnight transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-px after:w-0 after:bg-burgundy after:transition-all after:duration-300 hover:after:w-full"> Cost
+          <div class="relative group">
+            <a class="flex items-center gap-1 text-sm tracking-wide text-midnight/70 hover:text-midnight transition-colors duration-300"> About
+              <svg lucide lucide-chevron-down transition-transform duration-300>
+            <div class="absolute left-1/2 -translate-x-1/2 top-full pt-3 transition-all duration-200 opacity-0 invisible -translate-y-1">
+              <div class="min-w-56 rounded-xl border border-border bg-cream shadow-lg shadow-midnight/5 py-2">
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> What to Expect
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> Resources
+          <a class="relative text-sm tracking-wide text-midnight/70 hover:text-midnight transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-px after:w-0 after:bg-burgundy after:transition-all after:duration-300 hover:after:w-full"> Modalities
+          <a class="relative text-sm tracking-wide text-midnight/70 hover:text-midnight transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-px after:w-0 after:bg-burgundy after:transition-all after:duration-300 hover:after:w-full"> Contact
+          <div class="relative group">
+            <a class="flex items-center gap-1 text-sm tracking-wide text-midnight/70 hover:text-midnight transition-colors duration-300"> Services
+              <svg lucide lucide-chevron-down transition-transform duration-300>
+            <div class="absolute left-1/2 -translate-x-1/2 top-full pt-3 transition-all duration-200 opacity-0 invisible -translate-y-1">
+              <div class="min-w-64 rounded-xl border border-border bg-cream shadow-lg shadow-midnight/5 py-2">
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> ADHD & Late-Stage Diagnosis
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> Multicultural & Cross-Cultural Therapy
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> Burnout
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> Anxiety & Depression
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> Transitions
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> Teens
+          <a class="text-sm tracking-wide text-cream bg-burgundy px-5 py-2.5 rounded-full hover:bg-spruce transition-colors duration-300"> Get Started
+        <button class="md:hidden text-midnight">
+          <svg lucide lucide-menu>
+    <main class="pt-28 pb-24">
+      <article class="max-w-3xl mx-auto px-6 lg:px-12">
+        <header class="reveal relative is-visible">
+          <svg pointer-events-none absolute -left-10 -top-6 w-10 text-burgundy/30 rotate-[12deg]>
+          <span class="text-xs uppercase tracking-[0.25em] text-burgundy/80"> Legal & Privacy
+          <h1 class="mt-5 font-display text-4xl lg:text-5xl leading-tight text-midnight"> Privacy, Disclaimer & Crisis Resources
+          <p class="mt-6 text-midnight/70 leading-relaxed"> Your trust and safety matter. This page explains how your in
+        <div class="mt-12 h-px w-full bg-midnight/10">
+        <section class="mt-10 reveal is-visible">
+          <div class="rounded-2xl border border-burgundy/30 bg-burgundy/5 p-6 lg:p-8">
+            <div class="flex items-center gap-3">
+              <svg lucide lucide-triangle-alert text-burgundy>
+              <h2 class="font-display text-2xl text-midnight"> If you are in crisis
+            <p class="mt-4 text-midnight/80 leading-relaxed"> This website is not monitored for emergencies and is not a s
+            <ul class="mt-5 space-y-3 text-midnight/85">
+              <li class="flex gap-3">
+                <svg lucide lucide-phone mt-1 text-burgundy shrink-0>
+                <span> for life-threatening emergencies.
+                  <strong> 911
+              <li class="flex gap-3">
+                <svg lucide lucide-phone mt-1 text-burgundy shrink-0>
+                <span> Suicide & Crisis Lifeline. Call or text 988, 24/7.
+                  <strong> 988
+              <li class="flex gap-3">
+                <svg lucide lucide-phone mt-1 text-burgundy shrink-0>
+                <span> Crisis Text Line. Text HOME to 741741, 24/7.
+                  <strong> 741741
+        <section class="mt-12 reveal is-visible">
+          <h2 class="font-display text-2xl text-midnight mb-4"> Professional disclaimer
+          <p class="text-midnight/75 leading-relaxed"> The content on this website is provided for general informat
+        <section class="mt-12 reveal">
+          <h2 class="font-display text-2xl text-midnight mb-4"> Licensee identification
+          <p class="text-midnight/75 leading-relaxed"> Sohavani Mand, Licensed Marriage and Family Therapist (LMFT)
+            <br>
+        <section class="mt-12 reveal">
+          <h2 class="font-display text-2xl text-midnight mb-4"> Website privacy
+          <p class="text-midnight/75 leading-relaxed"> This website does not store protected health information (PH
+        <section class="mt-12 reveal">
+          <h2 class="font-display text-2xl text-midnight mb-4"> Notice of Privacy Practices (summary)
+          <p class="text-midnight/75 leading-relaxed"> As a licensed health care provider, Sohavani Mand, LMFT main
+        <section class="mt-12 reveal">
+          <h2 class="font-display text-2xl text-midnight mb-4"> Telehealth
+          <p class="text-midnight/75 leading-relaxed"> Where telehealth is offered, services are provided under a v
+        <div class="mt-14 text-sm text-midnight/50 leading-relaxed"> This page provides a general overview and is not legal advic
+    <footer class="border-t border-border">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12 py-12 flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-3">
+          <span class="font-display text-lg text-midnight"> Sohavani Mand, LMFT
+          <span class="text-xs uppercase tracking-[0.2em] text-burgundy border-l border-border pl-3"> CA Lic. #150884
+          <span class="text-xs uppercase tracking-[0.2em] text-spruce/70 border-l border-border pl-3"> Kaur Counseling, Marriage & Family Therapy, Inc.
+          <a class="text-xs uppercase tracking-[0.2em] text-burgundy border-l border-border pl-3 hover:text-spruce transition-colors"> 415-930-5395
+        <div class="flex items-center gap-8 text-sm text-midnight/60">
+          <a class="hover:text-midnight transition-colors"> Home
+          <a class="hover:text-midnight transition-colors"> About
+          <a class="hover:text-midnight transition-colors"> Services
+          <a class="hover:text-midnight transition-colors"> Contact
+          <a class="hover:text-midnight transition-colors"> Privacy & Disclaimer
+      <div class="max-w-7xl mx-auto px-6 lg:px-12 pb-4 text-xs text-midnight/50"> If you are in crisis, call or text (Suicide & Crisis Lifelin
+        <span class="font-semibold text-midnight/70"> 988
+        <span class="font-semibold text-midnight/70"> 911
+      <div class="max-w-7xl mx-auto px-6 lg:px-12 pb-10 text-xs text-midnight/40"> © 2026 Sohavani Mand, LMFT. Confidential by design.
+  <div class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]">
+    <div class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]">

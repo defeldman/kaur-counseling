@@ -1,0 +1,103 @@
+<div>
+  <div class="min-h-screen bg-cream">
+    <header class="fixed top-0 inset-x-0 z-50 transition-all duration-500 bg-cream/85 backdrop-blur-md border-b border-border/60 py-4">
+      <nav class="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between">
+        <a class="group leading-none flex items-center gap-3">
+          <span>
+            <span class="block font-display text-xl tracking-tight text-midnight"> Kaur Counseling
+            <span class="block mt-1 text-[0.7rem] uppercase tracking-[0.2em] text-spruce/70"> Marriage and Family Therapy, Inc.
+        <div class="hidden md:flex items-center gap-10">
+          <a class="relative text-sm tracking-wide text-midnight/70 hover:text-midnight transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-px after:w-0 after:bg-burgundy after:transition-all after:duration-300 hover:after:w-full"> Home
+          <a class="relative text-sm tracking-wide text-midnight/70 hover:text-midnight transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-px after:w-0 after:bg-burgundy after:transition-all after:duration-300 hover:after:w-full"> Cost
+          <div class="relative group">
+            <a class="flex items-center gap-1 text-sm tracking-wide text-midnight/70 hover:text-midnight transition-colors duration-300"> About
+              <svg lucide lucide-chevron-down transition-transform duration-300>
+            <div class="absolute left-1/2 -translate-x-1/2 top-full pt-3 transition-all duration-200 opacity-0 invisible -translate-y-1">
+              <div class="min-w-56 rounded-xl border border-border bg-cream shadow-lg shadow-midnight/5 py-2">
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> What to Expect
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> Resources
+          <a class="relative text-sm tracking-wide text-midnight/70 hover:text-midnight transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-px after:w-0 after:bg-burgundy after:transition-all after:duration-300 hover:after:w-full"> Modalities
+          <a class="relative text-sm tracking-wide text-midnight/70 hover:text-midnight transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-px after:w-0 after:bg-burgundy after:transition-all after:duration-300 hover:after:w-full"> Contact
+          <div class="relative group">
+            <a class="flex items-center gap-1 text-sm tracking-wide text-midnight/70 hover:text-midnight transition-colors duration-300"> Services
+              <svg lucide lucide-chevron-down transition-transform duration-300>
+            <div class="absolute left-1/2 -translate-x-1/2 top-full pt-3 transition-all duration-200 opacity-0 invisible -translate-y-1">
+              <div class="min-w-64 rounded-xl border border-border bg-cream shadow-lg shadow-midnight/5 py-2">
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> ADHD & Late-Stage Diagnosis
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> Multicultural & Cross-Cultural Therapy
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> Burnout
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> Anxiety & Depression
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> Transitions
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> Teens
+          <a class="text-sm tracking-wide text-cream bg-burgundy px-5 py-2.5 rounded-full hover:bg-spruce transition-colors duration-300"> Get Started
+        <button class="md:hidden text-midnight">
+          <svg lucide lucide-menu>
+    <main class="pt-32 pb-28">
+      <article class="max-w-5xl mx-auto px-6 lg:px-12">
+        <a class="inline-flex items-center gap-2 text-sm text-spruce mb-12 hover:text-burgundy transition-colors duration-300"> Back to Services
+          <svg lucide lucide-arrow-left mt-px>
+        <header class="relative reveal is-visible">
+          <svg pointer-events-none absolute -left-8 -top-4 w-10 text-burgundy/25 rotate-[12deg]>
+          <svg pointer-events-none absolute right-2 -top-2 w-7 text-spruce/30 rotate-[28deg]>
+          <span class="text-xs uppercase tracking-[0.25em] text-burgundy/80"> Specialty
+          <h1 class="mt-6 font-display text-4xl lg:text-6xl leading-[1.05] text-midnight"> Multicultural & Therapy
+            <br>
+            <span class="italic text-burgundy"> Cross-Cultural
+          <p class="mt-6 font-display text-2xl italic text-spruce leading-snug max-w-2xl"> When your identity doesn't fit neatly into one box.
+          <p class="mt-8 text-lg leading-relaxed text-midnight/75 max-w-2xl"> To live between cultures is to hold more than one home insid
+        <div class="mt-16 space-y-6">
+          <section class="reveal rounded-3xl border border-burgundy/25 bg-burgundy/[0.05] p-8 lg:p-12 is-visible">
+            <div class="flex items-center gap-4 mb-5">
+              <span class="shrink-0 w-12 h-12 rounded-2xl bg-burgundy/12 text-burgundy flex items-center justify-center">
+                <svg lucide lucide-earth>
+              <h2 class="font-display text-2xl lg:text-3xl text-burgundy leading-snug"> Multicultural Therapy
+            <p class="text-midnight/75 leading-relaxed"> We explore how your race, ethnicity, and cultural background
+          <section class="reveal rounded-3xl border border-spruce/25 bg-spruce/[0.06] p-8 lg:p-12 is-visible">
+            <div class="flex items-center gap-4 mb-5">
+              <span class="shrink-0 w-12 h-12 rounded-2xl bg-spruce/12 text-spruce flex items-center justify-center">
+                <svg lucide lucide-languages>
+              <h2 class="font-display text-2xl lg:text-3xl text-spruce leading-snug"> Acculturation & Assimilation Stress
+            <p class="text-midnight/75 leading-relaxed"> We tend to the strain of holding your heritage culture along
+          <section class="reveal rounded-3xl border border-clay/25 bg-clay/[0.06] p-8 lg:p-12">
+            <div class="flex items-center gap-4 mb-5">
+              <span class="shrink-0 w-12 h-12 rounded-2xl bg-clay/12 text-clay flex items-center justify-center">
+                <svg lucide lucide-users>
+              <h2 class="font-display text-2xl lg:text-3xl text-clay leading-snug"> First-Generation & Second-Generation Issues
+            <p class="text-midnight/75 leading-relaxed"> We unpack the family pressures, guilt, and identity conflict
+          <section class="reveal rounded-3xl border border-burgundy/25 bg-burgundy/[0.05] p-8 lg:p-12">
+            <div class="flex items-center gap-4 mb-5">
+              <span class="shrink-0 w-12 h-12 rounded-2xl bg-burgundy/12 text-burgundy flex items-center justify-center">
+                <svg lucide lucide-compass>
+              <h2 class="font-display text-2xl lg:text-3xl text-burgundy leading-snug"> Third Culture Kid (TCK) Therapy
+            <p class="text-midnight/75 leading-relaxed"> We make sense of a belonging that never felt simple, raised 
+          <section class="reveal rounded-3xl border border-spruce/25 bg-spruce/[0.06] p-8 lg:p-12">
+            <div class="flex items-center gap-4 mb-5">
+              <span class="shrink-0 w-12 h-12 rounded-2xl bg-spruce/12 text-spruce flex items-center justify-center">
+                <svg lucide lucide-network>
+              <h2 class="font-display text-2xl lg:text-3xl text-spruce leading-snug"> Intergenerational Trauma Therapy
+            <p class="text-midnight/75 leading-relaxed"> We gently trace the trauma, expectations, and communication 
+        <section class="mt-16 reveal">
+          <div class="relative rounded-3xl bg-burgundy text-cream px-8 py-12 lg:py-14 overflow-hidden">
+            <svg pointer-events-none absolute right-8 top-6 w-14 text-cream/15 -rotate-12>
+            <p class="relative font-display text-2xl lg:text-3xl italic leading-snug max-w-2xl"> You do not have to compress yourself to be understood here.
+            <a class="relative mt-8 inline-flex items-center gap-2 bg-cream text-burgundy px-7 py-3.5 rounded-full text-sm tracking-wide hover:bg-spruce hover:text-cream transition-colors duration-300"> Get Started
+              <svg lucide lucide-arrow-right>
+    <footer class="border-t border-border">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12 py-12 flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-3">
+          <span class="font-display text-lg text-midnight"> Sohavani Mand, LMFT
+          <span class="text-xs uppercase tracking-[0.2em] text-burgundy border-l border-border pl-3"> CA Lic. #150884
+          <span class="text-xs uppercase tracking-[0.2em] text-spruce/70 border-l border-border pl-3"> Kaur Counseling, Marriage & Family Therapy, Inc.
+          <a class="text-xs uppercase tracking-[0.2em] text-burgundy border-l border-border pl-3 hover:text-spruce transition-colors"> 415-930-5395
+        <div class="flex items-center gap-8 text-sm text-midnight/60">
+          <a class="hover:text-midnight transition-colors"> Home
+          <a class="hover:text-midnight transition-colors"> About
+          <a class="hover:text-midnight transition-colors"> Services
+          <a class="hover:text-midnight transition-colors"> Contact
+          <a class="hover:text-midnight transition-colors"> Privacy & Disclaimer
+      <div class="max-w-7xl mx-auto px-6 lg:px-12 pb-4 text-xs text-midnight/50"> If you are in crisis, call or text (Suicide & Crisis Lifelin
+        <span class="font-semibold text-midnight/70"> 988
+        <span class="font-semibold text-midnight/70"> 911
+      <div class="max-w-7xl mx-auto px-6 lg:px-12 pb-10 text-xs text-midnight/40"> © 2026 Sohavani Mand, LMFT. Confidential by design.
+  <div class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]">
+    <div class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]">

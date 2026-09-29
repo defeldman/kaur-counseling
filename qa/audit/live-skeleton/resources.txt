@@ -1,0 +1,218 @@
+<div>
+  <div class="min-h-screen bg-cream">
+    <header class="fixed top-0 inset-x-0 z-50 transition-all duration-500 bg-cream/85 backdrop-blur-md border-b border-border/60 py-4">
+      <nav class="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between">
+        <a class="group leading-none flex items-center gap-3">
+          <span>
+            <span class="block font-display text-xl tracking-tight text-midnight"> Kaur Counseling
+            <span class="block mt-1 text-[0.7rem] uppercase tracking-[0.2em] text-spruce/70"> Marriage and Family Therapy, Inc.
+        <div class="hidden md:flex items-center gap-10">
+          <a class="relative text-sm tracking-wide text-midnight/70 hover:text-midnight transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-px after:w-0 after:bg-burgundy after:transition-all after:duration-300 hover:after:w-full"> Home
+          <a class="relative text-sm tracking-wide text-midnight/70 hover:text-midnight transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-px after:w-0 after:bg-burgundy after:transition-all after:duration-300 hover:after:w-full"> Cost
+          <div class="relative group">
+            <a class="flex items-center gap-1 text-sm tracking-wide text-midnight/70 hover:text-midnight transition-colors duration-300"> About
+              <svg lucide lucide-chevron-down transition-transform duration-300>
+            <div class="absolute left-1/2 -translate-x-1/2 top-full pt-3 transition-all duration-200 opacity-0 invisible -translate-y-1">
+              <div class="min-w-56 rounded-xl border border-border bg-cream shadow-lg shadow-midnight/5 py-2">
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> What to Expect
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> Resources
+          <a class="relative text-sm tracking-wide text-midnight/70 hover:text-midnight transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-px after:w-0 after:bg-burgundy after:transition-all after:duration-300 hover:after:w-full"> Modalities
+          <a class="relative text-sm tracking-wide text-midnight/70 hover:text-midnight transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-px after:w-0 after:bg-burgundy after:transition-all after:duration-300 hover:after:w-full"> Contact
+          <div class="relative group">
+            <a class="flex items-center gap-1 text-sm tracking-wide text-midnight/70 hover:text-midnight transition-colors duration-300"> Services
+              <svg lucide lucide-chevron-down transition-transform duration-300>
+            <div class="absolute left-1/2 -translate-x-1/2 top-full pt-3 transition-all duration-200 opacity-0 invisible -translate-y-1">
+              <div class="min-w-64 rounded-xl border border-border bg-cream shadow-lg shadow-midnight/5 py-2">
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> ADHD & Late-Stage Diagnosis
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> Multicultural & Cross-Cultural Therapy
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> Burnout
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> Anxiety & Depression
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> Transitions
+                <a class="block px-5 py-2 text-sm text-midnight/70 hover:text-burgundy hover:bg-spruce/5 transition-colors"> Teens
+          <a class="text-sm tracking-wide text-cream bg-burgundy px-5 py-2.5 rounded-full hover:bg-spruce transition-colors duration-300"> Get Started
+        <button class="md:hidden text-midnight">
+          <svg lucide lucide-menu>
+    <main class="relative pt-32 pb-28">
+      <article class="relative max-w-5xl mx-auto px-6 lg:px-12">
+        <a class="inline-flex items-center gap-2 text-sm text-spruce mb-8 hover:text-clay transition-colors duration-300"> Back to About
+          <svg lucide lucide-arrow-left mt-px>
+        <div class="reveal relative is-visible">
+          <svg pointer-events-none absolute -left-10 -top-8 w-10 text-burgundy/30 -rotate-12>
+          <svg pointer-events-none absolute right-0 -top-4 w-7 text-spruce/30 rotate-[28deg]>
+          <span class="text-xs uppercase tracking-[0.25em] text-burgundy/80 block"> Resources
+          <h1 class="mt-5 font-display text-3xl lg:text-4xl leading-tight text-midnight"> A reading list for
+            <span class="italic text-burgundy"> the curious and healing.
+          <p class="mt-6 text-lg leading-relaxed text-midnight/75 max-w-2xl"> Books I return to and often share with clients. These aren't
+        <figure class="reveal mt-10 rounded-xl bg-sage/50 border border-spruce/20 px-5 sm:px-8 py-5 relative overflow-hidden cursor-default transition-all duration-500 is-visible">
+          <svg pointer-events-none absolute -right-2 -top-1 w-9 text-spruce/20 rotate-[22deg]>
+          <svg pointer-events-none absolute -left-1 bottom-0 w-7 text-burgundy/15 -rotate-[18deg]>
+          <div class="relative max-w-md mx-auto text-center">
+            <span class="text-[0.6rem] uppercase tracking-[0.3em] text-spruce/80"> A poem to sit with
+            <h2 class="mt-1.5 font-display text-lg italic text-midnight"> The Guest House
+            <div class="mt-3 space-y-0.5 font-display text-sm leading-snug text-midnight/85">
+              <p> This being human is a guest house.
+              <p> Every morning a new arrival.
+              <p> A joy, a depression, a meanness,
+              <p> some momentary awareness comes
+              <p> as an unexpected visitor.
+            <div class="grid transition-all duration-500 ease-out grid-rows-[0fr] opacity-0 mt-0">
+              <div class="overflow-hidden">
+                <div>
+                  <div class="my-3 flex items-center justify-center gap-2 text-spruce/40">
+                    <span class="h-px w-8 bg-spruce/30">
+                    <svg w-3 -rotate-3>
+                    <span class="h-px w-8 bg-spruce/30">
+                  <div class="space-y-0.5 font-display text-sm leading-snug text-midnight/85">
+                    <p> Welcome and entertain them all!
+                    <p> Even if they're a crowd of sorrows,
+                    <p> who violently sweep your house
+                    <p> empty of its furniture,
+                    <p> still, treat each guest honorably.
+                    <p> He may be clearing you out
+                    <p> for some new delight.
+                <div>
+                  <div class="my-3 flex items-center justify-center gap-2 text-spruce/40">
+                    <span class="h-px w-8 bg-spruce/30">
+                    <svg w-3 -rotate-3>
+                    <span class="h-px w-8 bg-spruce/30">
+                  <div class="space-y-0.5 font-display text-sm leading-snug text-midnight/85">
+                    <p> The dark thought, the shame, the malice,
+                    <p> meet them at the door laughing,
+                    <p> and invite them in.
+                <div>
+                  <div class="my-3 flex items-center justify-center gap-2 text-spruce/40">
+                    <span class="h-px w-8 bg-spruce/30">
+                    <svg w-3 -rotate-3>
+                    <span class="h-px w-8 bg-spruce/30">
+                  <div class="space-y-0.5 font-display text-sm leading-snug text-midnight/85">
+                    <p> Be grateful for whoever comes,
+                    <p> because each has been sent
+                    <p> as a guide from beyond.
+            <figcaption class="mt-4 text-[0.65rem] uppercase tracking-[0.2em] text-burgundy/80 not-italic"> Jalaluddin Rumi
+            <p class="mt-1 text-[0.65rem] italic text-midnight/50"> Translated by Coleman Barks · 
+              <a class="text-spruce underline-offset-2 hover:underline transition-colors"> Scottish Poetry Library
+            <p class="mt-2 text-[0.6rem] uppercase tracking-[0.2em] text-spruce/60 transition-opacity duration-300"> Hover to read the full poem
+      <div class="relative max-w-5xl mx-auto px-6 lg:px-12 mt-16 space-y-16">
+        <section class="relative reveal is-visible">
+          <svg pointer-events-none absolute -left-4 -top-3 w-8 text-burgundy/20 rotate-[18deg]>
+          <div class="px-6 lg:px-10 pt-2 pb-12">
+            <span class="text-xs uppercase tracking-[0.25em] text-burgundy/80"> Relationships
+            <h2 class="mt-3 font-display text-2xl lg:text-3xl text-midnight"> Relationships
+            <p class="mt-3 text-midnight/70 leading-relaxed max-w-xl"> On attachment, communication, and the everyday work of stayi
+            <div class="mt-8 grid sm:grid-cols-2 gap-x-10 gap-y-8">
+              <div class="border-t border-midnight/12 pt-4">
+                <h3 class="font-display text-xl text-midnight leading-snug">
+                  <a class="inline-flex items-start gap-1.5 hover:text-burgundy transition-colors duration-300"> Attached
+                    <svg lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40>
+                <p class="mt-1 text-sm italic text-midnight/55"> Amir Levine & Rachel Heller
+                <p class="mt-2.5 text-midnight/70 leading-relaxed text-[0.95rem]"> A practical, accessible guide to adult attachment styles and
+              <div class="border-t border-midnight/12 pt-4">
+                <h3 class="font-display text-xl text-midnight leading-snug">
+                  <a class="inline-flex items-start gap-1.5 hover:text-burgundy transition-colors duration-300"> Hold Me Tight
+                    <svg lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40>
+                <p class="mt-1 text-sm italic text-midnight/55"> Sue Johnson
+                <p class="mt-2.5 text-midnight/70 leading-relaxed text-[0.95rem]"> The cornerstone of emotionally focused therapy — seven conve
+              <div class="border-t border-midnight/12 pt-4">
+                <h3 class="font-display text-xl text-midnight leading-snug">
+                  <a class="inline-flex items-start gap-1.5 hover:text-burgundy transition-colors duration-300"> The Seven Principles for Making Marriage Work
+                    <svg lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40>
+                <p class="mt-1 text-sm italic text-midnight/55"> John Gottman
+                <p class="mt-2.5 text-midnight/70 leading-relaxed text-[0.95rem]"> Research-grounded tools for friendship, conflict, and shared
+              <div class="border-t border-midnight/12 pt-4">
+                <h3 class="font-display text-xl text-midnight leading-snug">
+                  <a class="inline-flex items-start gap-1.5 hover:text-burgundy transition-colors duration-300"> I Want This to Work
+                    <svg lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40>
+                <p class="mt-1 text-sm italic text-midnight/55"> Tracee Sioux
+                <p class="mt-2.5 text-midnight/70 leading-relaxed text-[0.95rem]"> An honest, forward-looking guide for couples doing the work.
+        <section class="relative reveal">
+          <svg pointer-events-none absolute -left-4 -top-3 w-8 text-burgundy/20 rotate-[18deg]>
+          <div class="px-6 lg:px-10 pt-2 pb-12">
+            <span class="text-xs uppercase tracking-[0.25em] text-burgundy/80"> Parenting
+            <h2 class="mt-3 font-display text-2xl lg:text-3xl text-midnight"> Parenting
+            <p class="mt-3 text-midnight/70 leading-relaxed max-w-xl"> On raising whole humans, and on tending yourself along the w
+            <div class="mt-8 grid sm:grid-cols-2 gap-x-10 gap-y-8">
+              <div class="border-t border-midnight/12 pt-4">
+                <h3 class="font-display text-xl text-midnight leading-snug">
+                  <a class="inline-flex items-start gap-1.5 hover:text-burgundy transition-colors duration-300"> The Whole-Brain Child
+                    <svg lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40>
+                <p class="mt-1 text-sm italic text-midnight/55"> Daniel Siegel & Tina Payne Bryson
+                <p class="mt-2.5 text-midnight/70 leading-relaxed text-[0.95rem]"> Twelve strategies to nurture a child's developing mind.
+              <div class="border-t border-midnight/12 pt-4">
+                <h3 class="font-display text-xl text-midnight leading-snug">
+                  <a class="inline-flex items-start gap-1.5 hover:text-burgundy transition-colors duration-300"> No-Drama Discipline
+                    <svg lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40>
+                <p class="mt-1 text-sm italic text-midnight/55"> Daniel Siegel & Tina Payne Bryson
+                <p class="mt-2.5 text-midnight/70 leading-relaxed text-[0.95rem]"> A research-based approach to discipline rooted in connection
+              <div class="border-t border-midnight/12 pt-4">
+                <h3 class="font-display text-xl text-midnight leading-snug">
+                  <a class="inline-flex items-start gap-1.5 hover:text-burgundy transition-colors duration-300"> Raising an Emotionally Intelligent Child
+                    <svg lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40>
+                <p class="mt-1 text-sm italic text-midnight/55"> John Gottman
+                <p class="mt-2.5 text-midnight/70 leading-relaxed text-[0.95rem]"> Emotion-coaching for a child's inner world.
+              <div class="border-t border-midnight/12 pt-4">
+                <h3 class="font-display text-xl text-midnight leading-snug">
+                  <a class="inline-flex items-start gap-1.5 hover:text-burgundy transition-colors duration-300"> How to Talk So Kids Will Listen & Listen So Kids Will Talk
+                    <svg lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40>
+                <p class="mt-1 text-sm italic text-midnight/55"> Adele Faber & Elaine Mazlish
+                <p class="mt-2.5 text-midnight/70 leading-relaxed text-[0.95rem]"> An enduring classic on respectful communication with childre
+        <section class="relative reveal">
+          <svg pointer-events-none absolute -left-4 -top-3 w-8 text-burgundy/20 rotate-[18deg]>
+          <div class="px-6 lg:px-10 pt-2 pb-12">
+            <span class="text-xs uppercase tracking-[0.25em] text-burgundy/80"> Self-help
+            <h2 class="mt-3 font-display text-2xl lg:text-3xl text-midnight"> Self-help
+            <p class="mt-3 text-midnight/70 leading-relaxed max-w-xl"> Gentle, honest reads for growth, meaning, and self-acceptanc
+            <div class="mt-8 grid sm:grid-cols-2 gap-x-10 gap-y-8">
+              <div class="border-t border-midnight/12 pt-4">
+                <h3 class="font-display text-xl text-midnight leading-snug">
+                  <a class="inline-flex items-start gap-1.5 hover:text-burgundy transition-colors duration-300"> Atomic Habits
+                    <svg lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40>
+                <p class="mt-1 text-sm italic text-midnight/55"> James Clear
+                <p class="mt-2.5 text-midnight/70 leading-relaxed text-[0.95rem]"> Small changes, compounded. A clear framework for sustainable
+              <div class="border-t border-midnight/12 pt-4">
+                <h3 class="font-display text-xl text-midnight leading-snug">
+                  <a class="inline-flex items-start gap-1.5 hover:text-burgundy transition-colors duration-300"> The Gifts of Imperfection
+                    <svg lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40>
+                <p class="mt-1 text-sm italic text-midnight/55"> Brené Brown
+                <p class="mt-2.5 text-midnight/70 leading-relaxed text-[0.95rem]"> On cultivating courage, compassion, and wholehearted living.
+              <div class="border-t border-midnight/12 pt-4">
+                <h3 class="font-display text-xl text-midnight leading-snug">
+                  <a class="inline-flex items-start gap-1.5 hover:text-burgundy transition-colors duration-300"> No Bad Parts
+                    <svg lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40>
+                <p class="mt-1 text-sm italic text-midnight/55"> Richard Schwartz
+                <p class="mt-2.5 text-midnight/70 leading-relaxed text-[0.95rem]"> An indispensable introduction to IFS, meeting every part wit
+        <section class="relative reveal">
+          <svg pointer-events-none absolute -left-4 -top-3 w-8 text-burgundy/20 rotate-[18deg]>
+          <div class="px-6 lg:px-10 pt-2 pb-12">
+            <span class="text-xs uppercase tracking-[0.25em] text-burgundy/80"> Trauma
+            <h2 class="mt-3 font-display text-2xl lg:text-3xl text-midnight"> Trauma
+            <p class="mt-3 text-midnight/70 leading-relaxed max-w-xl"> On how the body and mind carry what happened, and the paths 
+            <div class="mt-8 grid sm:grid-cols-2 gap-x-10 gap-y-8">
+              <div class="border-t border-midnight/12 pt-4">
+                <h3 class="font-display text-xl text-midnight leading-snug">
+                  <a class="inline-flex items-start gap-1.5 hover:text-burgundy transition-colors duration-300"> What My Bones Know
+                    <svg lucide lucide-external-link mt-1.5 shrink-0 text-midnight/40>
+                <p class="mt-1 text-sm italic text-midnight/55"> Stephanie Foo
+                <p class="mt-2.5 text-midnight/70 leading-relaxed text-[0.95rem]"> A searing, hopeful memoir of living with and healing from co
+      <div class="relative max-w-5xl mx-auto px-6 lg:px-12 mt-20 reveal">
+        <svg pointer-events-none absolute -left-6 top-0 w-9 text-spruce/30 rotate-[24deg]>
+        <p class="font-display text-2xl italic text-spruce leading-snug mb-6 max-w-2xl"> Want more? I'm always adding to this list. Bring what you're
+        <a class="inline-flex items-center gap-2 bg-burgundy text-cream px-7 py-3.5 rounded-full text-sm tracking-wide hover:bg-spruce transition-colors duration-300"> Get Started
+    <footer class="border-t border-border">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12 py-12 flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-3">
+          <span class="font-display text-lg text-midnight"> Sohavani Mand, LMFT
+          <span class="text-xs uppercase tracking-[0.2em] text-burgundy border-l border-border pl-3"> CA Lic. #150884
+          <span class="text-xs uppercase tracking-[0.2em] text-spruce/70 border-l border-border pl-3"> Kaur Counseling, Marriage & Family Therapy, Inc.
+          <a class="text-xs uppercase tracking-[0.2em] text-burgundy border-l border-border pl-3 hover:text-spruce transition-colors"> 415-930-5395
+        <div class="flex items-center gap-8 text-sm text-midnight/60">
+          <a class="hover:text-midnight transition-colors"> Home
+          <a class="hover:text-midnight transition-colors"> About
+          <a class="hover:text-midnight transition-colors"> Services
+          <a class="hover:text-midnight transition-colors"> Contact
+          <a class="hover:text-midnight transition-colors"> Privacy & Disclaimer
+      <div class="max-w-7xl mx-auto px-6 lg:px-12 pb-4 text-xs text-midnight/50"> If you are in crisis, call or text (Suicide & Crisis Lifelin
+        <span class="font-semibold text-midnight/70"> 988
+        <span class="font-semibold text-midnight/70"> 911
+      <div class="max-w-7xl mx-auto px-6 lg:px-12 pb-10 text-xs text-midnight/40"> © 2026 Sohavani Mand, LMFT. Confidential by design.
+  <div class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]">
+    <div class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]">
