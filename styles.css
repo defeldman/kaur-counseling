@@ -1290,6 +1290,7 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
 .office-facts a:first-child svg:last-child{margin-left:auto;opacity:.6}
 .detail-appointment .button svg{width:16px;height:16px;margin-left:8px;vertical-align:middle}
 .service-list-leaf{position:absolute;right:-16px;top:-12px;width:56px;color:rgba(57,96,71,.2);transform:rotate(22deg);pointer-events:none}
+.page-service .has-service-list-leaf{position:relative}
 
 .page-resources .detail-lede{line-height:29.25px}
 .page-resources .book-section>.eyebrow{color:rgba(88,25,37,.8)}
