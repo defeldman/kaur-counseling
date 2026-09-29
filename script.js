@@ -89,7 +89,8 @@ const scrollRevealTargets = document.querySelectorAll([
   '.people-intro', '.person-card', '.modalities-intro', '.modality-item',
   '.modality-quote', '.modality-link', '.contact-main', '.contact-aside',
   '.office-copy', '.map-frame', '.detail-hero', '.detail-content > *', '.detail-cta',
-  '.cost-article > .reveal', '.cost-sections > .reveal'
+  '.cost-article > .reveal', '.cost-sections > .reveal',
+  '.get-started-intro', '.get-started-office-reveal'
 ].join(','));
 
 const revealStaggerGroups = [
