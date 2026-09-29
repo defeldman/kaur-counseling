@@ -27,7 +27,7 @@ text block within ±2px at 1440, 768 and 390. Do the same for /services/adhd/:
    at all three widths** (casing-only text differences are fine). Also check hover states, scroll-reveal, and
    that feathers on the page still match (`feathers-all.mjs` copy with URL → :4175).
 
-$note
+**Template note:** all 6 service pages share one layout on live (compare the skeletons adhd, multiculturalism, burnout, anxiety, transitions, teens). Name classes as a reusable template (`svc-main`, `svc-hero`, … not `adhd-…`), rendered for pageId 'services-adhd' only for now; the next agents will switch the other five to it. Delete the old `.page-services-adhd` rules but NOT the shared `.page-service` rules (the other five still use them). In your report, list what differs between the six skeletons.
 
 Already rebuilt this way and passing (do not modify their blocks): /about/cost, /privacy, /get-started, and the shared footer.
 

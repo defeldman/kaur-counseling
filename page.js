@@ -26,7 +26,7 @@ const iconMarkup = (name, size=24) => {
 };
 const sectionHeading = (heading, tone) => { const icon = sectionIcons[heading] && !(document.body.dataset.page === 'services/anxiety-depression' && heading === 'How we work with it'); return `<div class="service-heading ${icon ? `tone-${tone}` : ''}">${icon ? `<span class="service-heading-icon" aria-hidden="true">${iconMarkup(sectionIcons[heading])}</span>` : ''}<h2>${esc(heading)}</h2></div>`; };
 const serviceFeatureCard = ([heading, items], className = '') => `<section class="detail-section ${className}">${sectionHeading(heading, 0)}${paras(items)}</section>`;
-const serviceList = (items, kind='') => `<ul class="${kind ? `service-list-${kind}` : ''}">${items.map((item,index) => `<li>${kind === 'check' ? '<span class="service-list-check" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></span>' : kind === 'adhd' ? `<span class="service-list-icon" aria-hidden="true">${window.lucideSvg(['sparkles','heart','shield-check','layers'][index],18,'lucide lucide-'+['sparkles','heart','shield-check','layers'][index])}</span>` : ''}${esc(item)}</li>`).join('')}</ul>`;
+const serviceList = (items, kind='') => `<ul class="${kind ? `service-list-${kind}` : ''}">${items.map((item,index) => `<li>${kind === 'check' ? '<span class="service-list-check" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></span>' : kind === 'adhd' ? `<span class="service-list-icon" aria-hidden="true">${window.lucideSvg(['sparkles','heart','shield-check','layers'][index],18,'lucide lucide-'+['sparkles','heart','shield-check','layers'][index])}</span>` : ''}${kind === 'adhd' ? `<span class="svc-list-label">${esc(item)}</span>` : esc(item)}</li>`).join('')}</ul>`;
 const serviceSteps = (items) => `<div class="service-steps">${items.map(([icon, label]) => `<div><span class="service-step-icon" aria-hidden="true">${window.lucideSvg(icon, 18, 'lucide lucide-' + icon)}</span><span class="service-step-label">${esc(label)}</span></div>`).join('')}</div>`;
 
 const navChevron = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="nav-chevron lucide lucide-chevron-down" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>';
@@ -274,6 +274,7 @@ function service(title, italic, eyebrow, lede, sections, closingQuote) {
     serviceBody = sections.map((entry, index) => {
       if (typeof entry === 'string') return entry;
       const [heading, items] = entry;
+      if (title === 'ADHD & Late-Stage' && index === 1) return `<section class="detail-section"><div class="adhd-panel">${sectionHeading(heading, 0)}${paras(items)}</div></section>`;
       return serviceSection(heading, paras(items), index % 2 ? 'detail-section-tint' : '');
     });
   }
@@ -355,6 +356,24 @@ function render() {
     const [image, intro, rates, payment, superbill, outOfPocket] = page.body;
     const costBack = `<a class="cost-back" href="${backHref}">${window.lucideSvg('arrow-left',16,'lucide lucide-arrow-left mt-px')}${backLabel}</a>`;
     document.getElementById('page-app').innerHTML = `${header()}<main class="cost-main"><article class="cost-article">${costBack}<div class="cost-intro reveal is-visible"><span class="cost-eyebrow">${esc(page.eyebrow)}</span><h1>${page.title}</h1><p class="cost-lede">${esc(page.lede)}</p></div>${image}${intro}<div class="cost-divider"></div><div class="cost-sections">${[rates, payment, superbill, outOfPocket].join('')}</div>${page.ctaMarkup}</article></main>${footer()}`;
+    return;
+  }
+  if (pageId === 'services/adhd') {
+    const svcBody = body
+      .replaceAll('detail-section', 'svc-section').replaceAll('service-heading', 'svc-heading')
+      .replaceAll('service-heading-icon', 'svc-heading-icon').replaceAll('service-section-glyph', 'svc-section-glyph')
+      .replaceAll('detail-card-grid', 'svc-card-grid').replaceAll('detail-card', 'svc-card')
+      .replaceAll('service-list-adhd', 'svc-list').replaceAll('service-list-icon', 'svc-list-icon')
+      .replaceAll('adhd-stat-card', 'svc-stat-card').replaceAll('adhd-stat-value', 'svc-stat-value')
+      .replaceAll('adhd-stat-copy', 'svc-stat-copy').replaceAll('adhd-stat-leaf', 'svc-stat-leaf');
+    const svcBodyWithPanel = svcBody.replaceAll('adhd-panel', 'svc-panel');
+    const svcCta = serviceCta(page.closingQuote).replaceAll('service-cta', 'svc-cta');
+    const svcCtaContents = svcCta.replace(/^<section class="svc-cta">/, '').replace(/<\/section>$/, '');
+    const finalSectionClose = svcBodyWithPanel.lastIndexOf('</section>');
+    const svcSectionsWithCta = finalSectionClose < 0 ? svcBodyWithPanel : `${svcBodyWithPanel.slice(0, finalSectionClose)}${svcCtaContents}${svcBodyWithPanel.slice(finalSectionClose)}`;
+    const svcBack = `<a class="svc-back" href="${backHref}">${window.lucideSvg('arrow-left',16,'lucide lucide-arrow-left mt-px')}${backLabel}</a>`;
+    const svcHero = `<header class="svc-hero reveal is-visible">${featherSvg('svc-hero-leaf svc-hero-leaf-left')}${featherSvg('svc-hero-leaf svc-hero-leaf-right')}<span class="svc-eyebrow">${esc(page.eyebrow)}</span><h1>${page.title.replace('<em>', '<em class="svc-emphasis">')}</h1><p class="svc-lede">${esc(page.lede)}</p>${heroBody.replaceAll('detail-hero-body', 'svc-hero-body')}</header>`;
+    document.getElementById('page-app').innerHTML = `${header()}<main class="svc-main"><article class="svc-article">${svcBack}${svcHero}<div class="svc-divider"></div><div class="svc-sections">${svcSectionsWithCta}</div></article></main>${footer()}`;
     return;
   }
   document.getElementById('page-app').innerHTML = `${header()}<main class="detail-page"><div class="detail-shell">${back}<section class="detail-hero">${page.isService ? `<div class="detail-feather-anchor detail-feather-anchor-service">${featherSvg('service-hero-leaf service-hero-leaf-left')}${featherSvg('service-hero-leaf service-hero-leaf-right')}</div>` : routeFeather}<p class="eyebrow">${esc(page.eyebrow)}</p><h1>${page.title}</h1><p class="${page.plainLede ? 'detail-hero-body plain-detail-lede' : 'detail-lede'}">${esc(page.lede)}</p>${heroBody}</section><div class="detail-content">${body}</div>${page.isService ? serviceCta(page.closingQuote) : page.noCta ? '' : page.ctaMarkup || cta()}</div></main>${footer()}`;
