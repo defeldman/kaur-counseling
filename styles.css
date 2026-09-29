@@ -1,7 +1,7 @@
 @font-face{font-family:Fraunces;src:url("assets/fonts/fraunces-latin.woff2") format("woff2");font-style:normal;font-weight:300 600;font-display:swap}
 
 @font-face{font-family:Fraunces;src:url("assets/fonts/fraunces-italic-latin.woff2") format("woff2");font-style:italic;font-weight:400;font-display:swap}
-@font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=35") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
+@font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=36") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
 
 @font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=26") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
 :root{--cream:#f1eadf;--cream-dark:#e8e0d4;--navy:#172740;--muted:rgba(23,39,64,.7);--spruce:#396047;--sage:#d5decf;--burgundy:#581925;--accent:#6c3285;--line:#d7ccbc;--max:1176px}
@@ -1816,7 +1816,9 @@ body:not([data-page]) .leaf-people{bottom:64px}
 .get-started-office-copy h3{margin:0;font-family:Fraunces,Georgia,serif;font-size:24px;line-height:1.25;font-weight:400;color:rgb(23,39,64)}
 .get-started-office-copy h3 em{color:rgb(57,96,71);font-style:italic}
 .get-started-office-copy>p{margin:20px 0 0;color:rgba(23,39,64,.75);font-size:16px;line-height:1.625}
-.get-started-office-copy>.get-started-virtual-note{margin-top:20px;padding:16px 20px;border:1px solid rgba(88,25,37,.2);border-radius:12px;background:rgba(88,25,37,.05);color:rgba(23,39,64,.8);font-size:14px;line-height:1.625}
+.get-started-office-copy>.get-started-virtual-note{margin-top:20px;padding:16px 20px;border:1px solid rgba(88,25,37,.2);border-radius:12px;background:rgba(88,25,37,.05)}
+.get-started-in-person{letter-spacing:-.011em}
+.get-started-virtual-note p{margin:0;color:rgba(23,39,64,.8);font-size:14px;line-height:1.625}
 .get-started-virtual-note strong{font-weight:600;color:rgb(88,25,37)}
 .get-started-office-facts{display:flex;flex-direction:column;gap:16px;margin-top:32px;color:rgba(23,39,64,.8)}
 .get-started-office-facts a{display:flex;align-items:flex-start;gap:12px;font-size:14px;line-height:20px;color:rgba(23,39,64,.8)}
@@ -1956,11 +1958,12 @@ body:not([data-page]) .leaf-people{bottom:64px}
 .about-back svg{width:16px;height:16px}
 .ab-intro{position:relative;padding:8px 0 61px;text-align:center}
 .about-hero-leaf{position:absolute;top:8px;left:50%;width:24px;height:36px;color:rgba(88,25,37,.4);transform:translateX(-50%) rotate(-6deg)}
-.about-eyebrow{display:block;color:rgba(88,25,37,.8);font-size:12px;line-height:16px;letter-spacing:.3em;text-transform:uppercase}
+.about-eyebrow{display:block;width:max-content;color:rgba(88,25,37,.8);font-size:12px;line-height:16px;letter-spacing:.25em;text-transform:uppercase}
 .ab-intro h1{max-width:576px;margin:16px auto 0;color:rgb(23,39,64);font-family:Fraunces,Georgia,serif;font-size:30px;line-height:1.375;font-weight:400;font-style:italic}
 .ab-intro>p{max-width:672px;margin:24px auto 0;color:rgba(23,39,64,.7);font-size:16px;line-height:1.625}
 .about-session-section{margin-top:64px}
 .about-session-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:32px}
+.about-session-heading>.about-eyebrow{margin-bottom:8px}
 .about-session-heading h2, .about-content-section h2{margin:12px 0 0;color:rgb(23,39,64);font:400 24px/32px Fraunces,Georgia,serif}
 .about-verification-block{display:flex;flex-direction:column;align-items:flex-end;gap:8px}
 .about-verification-block .button{padding:10px 20px;border-radius:999px;background:rgb(88,25,37);color:rgb(241,234,223);font-size:14px}
@@ -1979,6 +1982,7 @@ body:not([data-page]) .leaf-people{bottom:64px}
 .about-human-heading figure{max-width:200px;margin:0 auto;overflow:hidden;border:1px solid rgba(23,39,64,.1);border-radius:24px;background:rgba(57,96,71,.05);aspect-ratio:4/5}
 .about-human-heading img{display:block;width:100%;height:100%;object-fit:cover}
 .about-human-heading h2{margin-top:12px}
+.about-human-heading>div{padding-top:6px}
 .about-fact-grid{display:grid;grid-template-columns:1fr;gap:24px}
 .about-fact-grid>div{padding:24px;border:1px solid rgba(57,96,71,.2);border-radius:16px;background:rgba(57,96,71,.1)}
 .about-fact-grid>div:nth-child(2), .about-fact-grid>div:nth-child(5){border-color:rgba(88,25,37,.15);background:rgba(88,25,37,.05)}
@@ -1987,15 +1991,15 @@ body:not([data-page]) .leaf-people{bottom:64px}
 .about-fact-grid span{color:rgba(23,39,64,.7);font-size:14px;line-height:1.625}
 .about-fact-copy{margin:8px 0 0;color:rgba(23,39,64,.7);font-size:14px;line-height:1.625}
 .about-work-notes{display:flex;flex-direction:column;gap:40px}
-.about-work-section h2{margin-bottom:32px}
-.about-work-note{max-width:672px;padding-left:24px;border-left:2px solid rgba(88,25,37,.4)}
+.about-work-heading{padding-top:7px;margin-bottom:32px}
+.about-work-heading h2{margin:12px 0 0;color:rgb(23,39,64);font:400 24px/32px Fraunces,Georgia,serif}
+.about-work-note{padding-left:24px;border-left:2px solid rgba(88,25,37,.4)}
 .about-work-note h3{margin:0 0 8px;color:rgb(23,39,64);font:400 20px/28px Fraunces,Georgia,serif}
-.about-work-note p{margin:0;color:rgba(23,39,64,.75);font-size:16px;line-height:1.625}
-.about-who-card{max-width:768px;padding:32px;border:1px solid rgba(57,96,71,.15);border-radius:16px;background:rgba(57,96,71,.1)}
+.about-work-note p{max-width:672px;margin:0;color:rgba(23,39,64,.75);font-size:16px;line-height:1.625}
+.about-who-card{padding:32px;border:1px solid rgba(57,96,71,.15);border-radius:16px;background:rgba(57,96,71,.1)}
 .about-who-heading{margin-bottom:32px}
 .about-who-heading h2{margin-top:0}
-.about-work-section>.about-eyebrow{position:relative;top:8px;padding-bottom:8px}
-.about-who-card p{margin:0;color:rgba(23,39,64,.8);font-size:16px;line-height:1.625}
+.about-who-card p{max-width:768px;margin:0;color:rgba(23,39,64,.8);font-size:16px;line-height:1.625}
 .about-credentials ul{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0 0;padding:0;list-style:none}
 .about-credentials li{display:inline-flex;align-items:center;gap:8px;padding:8px 16px;border:1px solid rgba(57,96,71,.2);border-radius:999px;background:rgba(57,96,71,.05);color:rgba(23,39,64,.8);font-size:14px;line-height:20px}
 .about-credentials li:before{content:"";width:6px;height:6px;flex:none;border-radius:50%;background:rgb(88,25,37)}
@@ -2011,11 +2015,11 @@ body:not([data-page]) .leaf-people{bottom:64px}
 .about-human-section .about-human-heading{grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:32px}
 .about-human-heading figure{margin:0}
 }
+@media(min-width:768px) and (max-width:1023px){.about-human-heading>div{padding-top:11px}.about-work-heading{padding-top:12px}}
 @media(min-width:1024px){.about-article{padding-right:48px;padding-left:48px}
 .about-human-heading h2{margin-top:18px}
-.about-human-heading>div>.about-eyebrow{position:relative;top:7px}
 .ab-intro h1{font-size:30px}
-.about-session-heading h2, .about-content-section h2{font-size:30px;line-height:36px}
+.about-session-heading h2, .about-content-section h2, .about-work-heading h2{font-size:30px;line-height:36px}
 .about-card-grid, .about-fact-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
 .about-human-section .about-human-heading{gap:48px}
 .about-callout{padding:56px}
@@ -2023,11 +2027,11 @@ body:not([data-page]) .leaf-people{bottom:64px}
 }
 @media(min-width:768px) and (max-width:1023px){.ab-intro{padding-bottom:22px}
 }
-@media(min-width:768px) and (max-width:1023px){.about-human-heading>div>.about-eyebrow{position:relative;top:6px;padding-bottom:8px}
-}
 @media(min-width:1024px){.about-session-section{margin-top:70px}
 }
 @media(max-width:767px){.about-main{padding-top:112px;padding-bottom:96px}
+.about-human-heading>div{padding-top:0}
+.about-work-heading{padding-top:8px}
 .ab-intro{padding-bottom:0}
 .about-session-section{margin-top:58px}
 .about-session-heading{flex-direction:column;align-items:flex-start;margin-bottom:32px}
@@ -2043,9 +2047,9 @@ body:not([data-page]) .leaf-people{bottom:64px}
 .about-fact-grid>div{padding:24px}
 }
 /* Outer height alignment for the audited about route. */
-@media(min-width:1024px){.about-main{padding-bottom:97px}
+@media(min-width:1024px){.about-main{padding-bottom:98px}
 }
-@media(min-width:768px) and (max-width:1023px){.about-main{padding-bottom:100px}
+@media(min-width:768px) and (max-width:1023px){.about-main{padding-bottom:96px}
 }
 @media(max-width:767px){.about-main{padding-bottom:98px}
 }
@@ -2247,7 +2251,7 @@ body:not([data-page]) .leaf-people{bottom:64px}
 .res-book-author{margin:4px 0 0!important;color:rgba(23,39,64,.55)!important;font:italic 400 14px/20px Inter,Arial,sans-serif!important}
 .res-book>p:last-child{margin:10px 0 0!important;color:rgba(23,39,64,.7);font-size:15.2px;line-height:24.7px}
 .res-closing{position:relative;margin-top:80px}
-.res-closing-copy{margin:0;color:rgb(57,96,71);font:italic 24px/33px Fraunces,Georgia,serif}
+.res-closing-copy{max-width:672px;margin:0;color:rgb(57,96,71);font:italic 24px/33px Fraunces,Georgia,serif}
 .res-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;margin-top:24px;border-radius:9999px;background:rgb(88,25,37);padding:14px 28px;color:rgb(241,234,223);font-size:14px;line-height:20px;letter-spacing:.025em;transition:background-color 300ms}
 .res-button:hover{background:rgb(57,96,71)}
 .resource-closing-leaf{position:absolute;left:-72px;top:0;width:36px;height:auto;color:rgba(57,96,71,.3);transform:rotate(24deg);pointer-events:none}
