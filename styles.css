@@ -131,7 +131,7 @@ h1 em,h2 em,h3 em{font-style:italic}
    editorial service pages and the quieter About/resources pages. */
 .page-about .detail-hero{padding:102px 0 75px}.page-about .detail-hero h1{max-width:576px;font-size:30px;font-style:italic;line-height:1.2;letter-spacing:0}.page-about .detail-lede{max-width:650px;margin-top:25px}.page-about .detail-content{max-width:928px}.about-sessions{display:flex;align-items:end;justify-content:space-between;margin:0 0 30px}.about-sessions h2{margin:13px 0 0;font-size:31px}.about-verification{text-align:right}.about-verification .button{padding:12px 25px}.about-verification p{margin:10px 0 0;color:#65736a;font-size:10px;letter-spacing:.25em;text-transform:uppercase}.about-cards{margin:0 0 91px}.about-cards .detail-card{position:relative;padding:82px 28px 35px;border-color:#ddd5cc;border-radius:15px;background:transparent}.about-cards .detail-card h3{font-size:20px}.about-cards .detail-card p{font-size:14px;line-height:1.65}.card-leaf{position:absolute;top:30px;left:32px;color:#9a9e95;font:28px Fraunces,Georgia,serif;transform:rotate(-30deg)}.about-human,.about-work,.credentials{max-width:700px;margin-left:auto;margin-right:auto}.about-human .eyebrow,.about-work .eyebrow{margin-bottom:16px}.about-human h2{margin-bottom:28px}.about-human .fact-grid{grid-template-columns:repeat(2,1fr)}.about-human .fact-grid div{min-height:157px}.about-human .fact-grid span{font-size:13px;line-height:1.55}.about-work h3{margin:37px 0 17px;font:500 20px Fraunces,Georgia,serif;color:var(--navy)}.credentials ul{margin:25px 0 29px;padding-left:19px;color:var(--navy-60);font-size:14px;line-height:1.8}.credentials p{color:var(--navy-60)}
 .page-service .detail-shell{max-width:928px}.page-service .detail-hero{padding:58px 0 57px;text-align:left}.page-service .detail-hero h1{max-width:none;margin-top:27px;font-size:60px;line-height:1.02;letter-spacing:-.03em}.page-service .detail-hero h1 em{color:var(--burgundy)}.page-service .detail-lede{max-width:660px;margin-top:26px;color:var(--spruce);font:italic 26px/1.25 Fraunces,Georgia,serif}.page-service .detail-hero-body{max-width:700px;margin:30px 0 0;color:var(--navy-60);font-size:18px;line-height:1.62}.page-service .detail-content{max-width:928px;border-top:1px solid var(--line);padding-top:33px}.page-service .detail-section{padding:0 64px 70px}.page-service .detail-section h2{font-size:31px}.page-service .detail-section-tint{margin-left:0;margin-right:0;padding:57px 64px 67px}.framework-copy{display:grid;grid-template-columns:1fr 1fr;gap:38px}.framework-copy .eyebrow{margin-bottom:12px}.framework-copy p:not(.eyebrow){font-size:14px}.framework{border-top:1px solid var(--line);padding-top:51px!important}.framework:first-child{border-top:0;padding-top:0!important}
-.detail-hero-body{color:var(--navy-60)}.page-privacy .detail-hero h1{max-width:650px}.page-get-started .detail-hero h1{max-width:650px}
+.detail-hero-body{color:var(--navy-60)}.page-get-started .detail-hero h1{max-width:650px}
 .page-service .detail-lede{margin-left:0;margin-right:0}.page-service .detail-section:first-child h2{position:relative}.page-service .detail-section:first-child h2:before{content:"✳";position:absolute;left:-64px;top:-2px;width:48px;height:48px;display:grid;place-items:center;border-radius:15px;background:rgba(91,30,42,.08);color:var(--burgundy);font:20px Fraunces,Georgia,serif}.about-human-head{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:48px;align-items:center;margin-bottom:38px}.about-human-head figure{width:198px;height:248px;margin:0;overflow:hidden;border:1px solid rgba(24,36,58,.1);border-radius:24px;background:rgba(66,99,77,.05);box-shadow:0 3px 10px rgba(24,36,58,.05)}.about-human-head img{width:100%;height:100%;object-fit:cover}.about-human-head h2{margin-top:13px}.cost-image{margin:0 0 59px;width:100%;height:auto}.cost-image img{display:block;width:100%;height:auto}.page-modalities .back-link{display:none}.page-modalities .detail-shell{max-width:1176px}.page-modalities .detail-hero{text-align:left;padding:89px 0 143px}.page-modalities .detail-hero .eyebrow{display:inline-flex;padding:7px 15px;border-radius:999px;background:rgba(112,64,138,.08);color:var(--burgundy);font-size:12px}.page-modalities .detail-hero h1{max-width:650px;margin:27px 0 0;font-size:60px;line-height:1.02}.page-modalities .detail-lede{max-width:700px;margin:24px 0 0;font-size:18px;line-height:1.6}.page-modalities .detail-content{max-width:none}.page-modalities .framework-intro{padding:0 0 56px}.page-modalities .framework-intro h2{font-size:31px}.page-modalities .framework{max-width:850px;margin-left:0;margin-right:auto;padding-left:0!important;padding-right:0!important}.page-modalities .detail-cta{max-width:850px;text-align:left;padding-left:0}
 
 @media (max-width:767px){
@@ -183,7 +183,7 @@ h1 em,h2 em,h3 em{font-style:italic}
 
 /* Third-pass route templates: contact and legal pages use a wider, left-led rhythm. */
 .page-get-started .detail-shell{max-width:1176px;padding-top:0}
-.page-get-started .back-link,.page-privacy .back-link{display:none}
+.page-get-started .back-link{display:none}
 .page-get-started .detail-hero{padding:44px 0 0;text-align:left}
 .page-get-started .detail-hero h1{max-width:672px;margin:27px 0 0;font-size:60px;line-height:1;letter-spacing:-.03em}
 .page-get-started .detail-lede{max-width:672px;margin:29px 0 0;font-size:18px;line-height:1.6}
@@ -201,25 +201,6 @@ h1 em,h2 em,h3 em{font-style:italic}
 .page-get-started .get-started-office p:nth-of-type(2)::first-line{color:var(--burgundy)}
 .page-get-started .get-started-office .office-facts{margin-top:29px}
 .page-get-started .map-frame{height:335px}
-
-.page-privacy .detail-shell{max-width:672px;padding-top:0}
-.page-privacy .detail-hero{padding:31px 0 51px;text-align:left}
-.page-privacy .detail-hero h1{max-width:672px;margin:20px 0 0;font-size:48px;line-height:1;letter-spacing:-.02em}
-.page-privacy .detail-lede{max-width:672px;margin:24px 0 0;font-size:16px;line-height:1.6}
-.page-privacy .detail-content{max-width:none;border-top:1px solid var(--line);padding-top:40px}
-.page-privacy .detail-section{padding-bottom:48px}
-.page-privacy .detail-section h2{font-size:28px}
-.page-privacy .detail-section p{font-size:15px;line-height:1.7}
-.page-privacy .privacy-crisis{padding-bottom:48px}
-.privacy-crisis-card{padding:31px 32px 25px;border:1px solid rgba(91,30,42,.25);border-radius:17px;background:rgba(91,30,42,.06)}
-.privacy-crisis-heading{display:flex;align-items:center;gap:14px}
-.privacy-crisis-heading h2{margin:0;font-size:25px}
-.privacy-crisis-icon{width:20px;height:20px;display:grid;place-items:center;color:var(--burgundy);line-height:1}.privacy-crisis-icon svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.45;stroke-linecap:round;stroke-linejoin:round}
-.privacy-crisis-card>p{max-width:570px;margin-top:20px!important;font-size:16px!important;line-height:1.7!important}
-.privacy-crisis-card ul{display:flex;flex-direction:column;gap:14px;margin:22px 0 0;padding:0;list-style:none}
-.privacy-crisis-card li a{display:flex;align-items:flex-start;gap:12px;color:var(--navy-60);font-size:15px;line-height:1.5}
-.privacy-crisis-card li a>span:first-child{color:var(--burgundy);font-size:20px;line-height:1.05}.crisis-phone{display:grid;flex:0 0 13px;place-items:start;margin-top:3px}.crisis-phone svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}
-.privacy-crisis-card strong{color:#424750}
 .page-modalities .detail-hero h1{max-width:672px}
 
 @media (max-width:767px){
@@ -233,14 +214,6 @@ h1 em,h2 em,h3 em{font-style:italic}
   .page-get-started .get-started-office{grid-template-columns:1fr;gap:35px}
   .page-get-started .get-started-office h2{font-size:31px}
   .page-get-started .map-frame{height:267px}
-  .page-privacy .detail-shell{max-width:none;padding-top:0}
-  .page-privacy .detail-hero{padding:27px 0 31px}
-  .page-privacy .detail-hero h1{max-width:none;font-size:43px;line-height:1.08}
-  .page-privacy .detail-lede{max-width:none;margin-top:23px;font-size:14px;line-height:1.65}
-  .page-privacy .detail-content{padding-top:31px}
-  .privacy-crisis-card{padding:26px 22px 24px}
-  .privacy-crisis-heading h2{font-size:24px}
-  .privacy-crisis-card li a{font-size:14px}
 }
 
 /* Fourth-pass source match: desktop rhythm, exact palette, and source-style icon geometry. */
@@ -698,12 +671,6 @@ body:not([data-page]) .office-copy>p:not(.eyebrow):not(.virtual-note){color:rgba
 .page-get-started .get-started-office h3 em{color:var(--spruce)}
 .page-get-started .office-facts{color:rgba(23,39,64,.8)}
 
-.page-privacy .detail-section p{color:rgba(23,39,64,.75)}
-.page-privacy .privacy-crisis-card>p{color:rgba(23,39,64,.8)!important}
-.page-privacy .privacy-crisis-card li a{color:rgba(23,39,64,.85)}
-.page-privacy .privacy-crisis-card strong{color:rgba(23,39,64,.85)}
-.page-privacy .detail-section:last-child p:last-child{color:var(--navy-70)}
-
 .page-service .detail-hero-body{color:rgba(23,39,64,.75)}
 .page-service .detail-section p:not(.eyebrow){color:rgba(23,39,64,.75)}
 .page-service .detail-content>.detail-section:nth-child(3n+1) h2{color:var(--burgundy)}
@@ -775,25 +742,20 @@ body.page-services-multiculturalism .detail-content>.detail-section:first-child 
     line-height:16px;
   }
   body:not([data-page]) .appointment-card small,
-  .page-get-started .detail-appointment small,
-  .page-privacy .detail-section:last-child p:last-child{color:var(--navy-70)}
-  .page-about .detail-lede,
-  .page-privacy .detail-lede{line-height:26px}
+  .page-get-started .detail-appointment small{color:var(--navy-70)}
+  .page-about .detail-lede{line-height:26px}
   .page-get-started .detail-appointment p,
   .page-get-started .get-started-office>div:first-child>p:not(.eyebrow){
     font-size:16px;
     line-height:26px;
   }
   .page-get-started .office-facts{font-size:14px;line-height:20px}
-  .page-privacy .privacy-crisis-card>p{line-height:26px!important}
-  .page-privacy .privacy-crisis-card li a{font-size:16px;line-height:24px}
 
 
 
 
   .page-resources .detail-hero>.eyebrow,
-.page-get-started .detail-hero>.eyebrow,
-.page-privacy .detail-hero>.eyebrow{color:var(--burgundy-80)}
+.page-get-started .detail-hero>.eyebrow{color:var(--burgundy-80)}
 
   body:not([data-page]) .virtual-note{
     color:var(--navy-80);
@@ -1097,16 +1059,11 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}/* Brief 0
     font-size:16px;
     line-height:26px;
   }
-  .page-privacy .detail-hero h1{letter-spacing:normal}
-  .page-privacy .detail-section h2{font-size:24px;line-height:32px}
   .page-get-started .detail-hero h1{letter-spacing:normal}
   .page-get-started .detail-lede{line-height:29.25px}
   .page-get-started .detail-appointment small{color:rgba(23,39,64,.5)}
   body:not([data-page]) .door-detail{line-height:22.75px}
 }
-
-.page-privacy .detail-hero h1{letter-spacing:normal}
-.page-privacy .detail-section h2{font-size:24px;line-height:32px}
 .page-get-started .get-started-office p:nth-of-type(2){
   padding:0;
   border:0;
@@ -1230,7 +1187,6 @@ body.page-services-anxiety-depression .detail-content>section.detail-section.ser
 .page-resources .book .book-author{font-style:italic;font-size:14px!important;line-height:20px!important;color:rgba(23,39,64,.55)!important}
 .page-resources .book>p:last-child{font-size:15.2px!important;line-height:24.7px!important;color:rgba(23,39,64,.7)}
 .page-get-started .office-facts>a:first-child{line-height:22.75px}
-.page-privacy .detail-section:last-child p:last-child{font-size:14px;line-height:22.75px;color:rgba(23,39,64,.5)}
 
 /* Brief 37b task 2: home and resource feathers use their live CSS dimensions. */
 .home-about-feather{position:absolute;left:-48px;top:-32px;width:40px;height:auto;color:rgba(88,25,37,.3);transform:rotate(-12deg);pointer-events:none}
@@ -1615,8 +1571,7 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 
   .detail-section p:not(.eyebrow){font-size:16px;line-height:26px}
   .page-about .detail-section p:not(.eyebrow),
-  .page-get-started .detail-section p:not(.eyebrow),
-  .page-privacy .detail-section p:not(.eyebrow){color:rgba(23,39,64,.75)}
+  .page-get-started .detail-section p:not(.eyebrow){color:rgba(23,39,64,.75)}
   .page-about .detail-hero h1{font-size:29px;line-height:1.2}
   .page-about .about-sessions h2,
   .page-about .about-human h2{font-size:24px;line-height:32px}
@@ -1630,13 +1585,11 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 
 
   .page-resources .detail-hero>.eyebrow,
-.page-get-started .detail-hero>.eyebrow,
-.page-privacy .detail-hero>.eyebrow{color:rgba(88,25,37,.8)}
+.page-get-started .detail-hero>.eyebrow{color:rgba(88,25,37,.8)}
 
 
   .page-get-started .detail-hero h1,
-.page-modalities .detail-hero h1,
-.page-privacy .detail-hero h1{font-size:36px;line-height:45px;letter-spacing:normal}
+.page-modalities .detail-hero h1{font-size:36px;line-height:45px;letter-spacing:normal}
   .page-resources .detail-lede{font-size:18px;line-height:29.25px}
   .page-resources .book-section h2{font-size:24px;line-height:32px}
   .page-resources .book-section>p{font-size:16px;line-height:26px}
@@ -1701,10 +1654,6 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
   }
   .page-services-anxiety-depression .service-step-icon svg{display:block;width:18px;height:18px}
   .page-services-anxiety-depression .service-step-label{color:inherit;line-height:22px}
-
-  .page-privacy .detail-section p{font-size:16px;line-height:26px;color:rgba(23,39,64,.75)}
-  .page-privacy .privacy-crisis-card>p{line-height:26px!important}
-  .page-privacy .privacy-crisis-card li a{font-size:16px;line-height:24px}
 
   body:not([class])::after{
     content:"";
@@ -1847,11 +1796,9 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 @media (min-width:768px) and (max-width:1023px){
   .detail-shell{max-width:none;padding-left:24px;padding-right:24px}
   .page-get-started .detail-hero h1,
-  .page-privacy .detail-hero h1,
   .page-modalities .detail-hero h1{font-size:36px;line-height:45px}
   .page-service .detail-hero h1{font-size:36px;line-height:37.8px}
   .page-service .detail-section h2,
-  .page-privacy .detail-section h2,
   .page-get-started .detail-appointment h2{font-size:24px;line-height:33px}
   .page-service .framework-card-title{line-height:33px}
   .page-modalities .detail-cta h2{line-height:37.5px}
@@ -1871,10 +1818,6 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
   .page-modalities .framework-intro h2{font-size:24px;line-height:32px}
   .page-modalities .framework-card-title{line-height:33px}
   .page-modalities .modalities-closing-card{margin-top:130px}
-.page-privacy .detail-shell{max-width:none}
-  .page-privacy .detail-hero h1{max-width:none}
-  .page-privacy .detail-content{padding-top:28px}
-  .page-privacy .detail-section h2{line-height:32px}
 }
 
 @media (min-width:1024px){
@@ -1946,7 +1889,7 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 }
 
 /* Detail page outer rhythm measured from the live wrappers. */
-.page-about .detail-shell,.page-privacy .detail-shell{padding-bottom:96px}
+.page-about .detail-shell{padding-bottom:96px}
 .page-modalities .detail-shell{padding-bottom:0}
 
 /* Tablet footer meta follows the live four-column row and wraps its measured text widths. */
@@ -2101,3 +2044,33 @@ body:not([data-page]) .leaf-people{bottom:64px}
 
 /* Phone and tablet refinements for the rebuilt routes and shared footer. */
 @media(max-width:767px){.site-footer.footer-rebuild .footer-rebuild-copyright{padding-bottom:24px}}
+
+
+/* /privacy/ — translated from the live Tailwind structure */
+.privacy-main{padding:112px 0 96px;background:rgb(241,234,223);}
+.privacy-article{box-sizing:border-box;width:100%;max-width:768px;margin:0 auto;padding:0 24px;color:rgb(23,39,64);}
+.privacy-intro{position:relative;}
+.privacy-hero-leaf{position:absolute;left:-40px;top:-24px;width:40px;color:rgba(88,25,37,.3);transform:rotate(12deg);pointer-events:none;}
+.privacy-eyebrow{display:inline-block;color:rgba(88,25,37,.8);font-size:12px;line-height:16px;letter-spacing:.25em;text-transform:uppercase;}
+.privacy-intro h1{margin:20px 0 0;font-family:Fraunces,Georgia,serif;font-size:36px;line-height:1.25;font-weight:400;color:rgb(23,39,64);}
+.privacy-intro>p{margin:24px 0 0;color:rgba(23,39,64,.7);font-size:16px;line-height:1.625;}
+.privacy-divider{width:100%;height:1px;margin-top:48px;background:rgba(23,39,64,.1);}
+.privacy-alert-section{margin-top:40px;}
+.privacy-alert-panel{padding:24px;border:1px solid rgba(88,25,37,.3);border-radius:16px;background:rgba(88,25,37,.05);}
+.privacy-alert-heading{display:flex;align-items:center;gap:12px;}
+.privacy-alert-heading>svg{width:20px;height:20px;flex:none;color:rgb(88,25,37);}
+.privacy-alert-heading h2,.privacy-copy-section h2{margin:0;font-family:Fraunces,Georgia,serif;font-size:24px;line-height:32px;font-weight:400;color:rgb(23,39,64);}
+.privacy-alert-panel>p{margin:16px 0 0;color:rgba(23,39,64,.8);font-size:16px;line-height:1.625;}
+.privacy-alert-panel ul{display:flex;flex-direction:column;gap:12px;margin:20px 0 0;padding:0;list-style:none;color:rgba(23,39,64,.85);font-size:16px;line-height:24px;}
+.privacy-alert-panel li{display:flex;align-items:flex-start;gap:12px;}
+.privacy-alert-panel li>svg{width:16px;height:16px;flex:none;margin-top:4px;color:rgb(88,25,37);}
+.privacy-alert-panel strong{font-weight:700;color:rgba(23,39,64,.85);}
+.privacy-copy-section{margin-top:48px;}
+.privacy-copy-section h2{margin-bottom:16px;}
+.privacy-copy-section p{margin:0;color:rgba(23,39,64,.75);font-size:16px;line-height:1.625;}
+.privacy-copy-section p+p{margin-top:16px;}
+.privacy-closing{margin-top:56px;color:rgba(23,39,64,.5);font-size:14px;line-height:1.625;}
+@media (min-width:640px){.privacy-article{padding-left:24px;padding-right:24px;}}
+@media (min-width:768px){.privacy-article{padding-left:24px;padding-right:24px;}}
+@media (min-width:1024px){.privacy-article{padding-left:48px;padding-right:48px;}.privacy-intro h1{font-size:48px;line-height:1;}.privacy-alert-panel{padding:32px;}}
+@media (max-width:767px){.privacy-main{padding-top:112px;padding-bottom:96px;}.privacy-article{max-width:none;}.privacy-alert-panel{padding:24px;}}
