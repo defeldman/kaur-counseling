@@ -1,7 +1,7 @@
 @font-face{font-family:Fraunces;src:url("assets/fonts/fraunces-latin.woff2") format("woff2");font-style:normal;font-weight:300 600;font-display:swap}
 
 @font-face{font-family:Fraunces;src:url("assets/fonts/fraunces-italic-latin.woff2") format("woff2");font-style:italic;font-weight:400;font-display:swap}
-@font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=32") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
+@font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=33") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
 
 @font-face{font-family:Inter;src:url("assets/fonts/inter-latin.woff2?v=26") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
 :root{--cream:#f1eadf;--cream-dark:#e8e0d4;--navy:#172740;--muted:rgba(23,39,64,.7);--spruce:#396047;--sage:#d5decf;--burgundy:#581925;--accent:#6c3285;--line:#d7ccbc;--max:1176px}
@@ -381,16 +381,16 @@ to{transform:translateX(-50%)}
 .rate-list{border-top:1px solid var(--line)}
 .rate-list div{display:flex;justify-content:space-between;gap:20px;padding:17px 0;border-bottom:1px solid var(--line);color:var(--navy-60);font-size:14px}
 .rate-list strong{color:var(--burgundy);font:500 19px Fraunces,Georgia,serif;white-space:nowrap}
-.poem-card{position:relative;margin:0 0 94px;padding:54px 64px 50px;background:var(--sage);border-radius:22px}
-.poem-card h2{margin:14px 0 28px;font-size:38px}
-.poem-text{color:var(--navy-60);font:italic 17px/1.55 Fraunces,Georgia,serif}
-.poem-credit{margin:31px 0 0!important;color:var(--burgundy)!important;font:500 12px/1.6 Inter,Arial,sans-serif!important;letter-spacing:.15em;text-transform:uppercase}
-.poem-credit span{display:block;margin-top:6px;color:#767a76;font-size:10px;letter-spacing:.05em;text-transform:none}
-.book-section h2{margin-bottom:28px}
-.book{display:grid;grid-template-columns:1.15fr 1fr 1.35fr;gap:18px;padding:16px 0;border-top:1px solid var(--line);align-items:baseline}
-.book h3{margin:0;font:500 18px Fraunces,Georgia,serif;color:var(--navy)}
-.book p{margin:0!important;font-size:13px!important}
-.book-author{color:var(--burgundy)!important}
+
+
+
+
+
+
+
+
+
+
 .detail-quote{margin-top:11px;padding:61px 0 0;border-top:1px solid var(--line)}
 .detail-quote p{margin:0;color:#656d73;font-size:15px}
 .detail-quote h2{margin:13px 0 21px;color:var(--spruce);font:italic 33px/1.2 Fraunces,Georgia,serif}
@@ -414,12 +414,12 @@ to{transform:translateX(-50%)}
 .detail-card{padding:27px 23px}
 .rate-list div{font-size:13px}
 .rate-list strong{font-size:17px}
-.poem-card{margin-bottom:66px;padding:36px 25px 34px;border-radius:17px}
-.poem-card h2{font-size:34px}
-.poem-text{font-size:16px}
-.book{grid-template-columns:1fr;gap:4px;padding:17px 0}
-.book h3{font-size:19px}
-.book p{font-size:12px!important}
+
+
+
+
+
+
 .detail-quote{padding-top:45px}
 .detail-quote h2{font-size:28px}
 .map-frame{height:267px}
@@ -533,33 +533,26 @@ to{transform:translateX(-50%)}
 @media (max-width:767px){.about-human-heading figure{width:100%;height:auto}
 }
 /* Resources uses the wider left-aligned editorial template. */
-.page-resources .detail-shell{max-width:928px}
-.page-resources .detail-hero{text-align:left;padding:38px 0 43px}
-.page-resources .detail-hero h1{max-width:none;margin-top:27px;font-size:38px;line-height:1.12;letter-spacing:-.02em}
-.page-resources .detail-lede{max-width:700px;margin:25px 0 0;font-size:18px;line-height:1.65}
-.page-resources .detail-content{max-width:none}
-.page-resources .poem-card{position:relative;min-height:291px;box-sizing:border-box;margin:0 0 76px;padding:29px 45px 25px;text-align:center;border:1px solid #cbd2c5;border-radius:16px;background:rgba(216,223,210,.62)}
-.page-resources .poem-card h2{margin:13px 0 14px;font-size:20px}
-.page-resources .poem-preview{font:14px/1.5 Fraunces,Georgia,serif;color:var(--navy-85)}
-.page-resources .poem-full{display:none}
-.page-resources .poem-card:hover .poem-preview{display:none}
-.page-resources .poem-card:hover .poem-full{display:block;font:14px/1.45 Fraunces,Georgia,serif;color:var(--navy-85)}
-.page-resources .poem-credit{margin:13px 0 0!important}
-.page-resources .poem-hint{margin:5px 0 0!important;color:#7b837d!important;font-size:10px!important;letter-spacing:.22em;text-transform:uppercase}
-.poem-corner{position:absolute;color:#98a094;font:27px Fraunces,Georgia,serif;opacity:.7}
-.poem-corner-top{top:4px;right:8px;transform:rotate(-35deg)}
-.poem-corner-bottom{bottom:3px;left:8px;transform:rotate(145deg)}
-.page-resources .book-section{max-width:928px}
-.page-resources .book-section h2{font-size:30px}
 
-@media (max-width:767px){.page-resources .detail-hero{padding:36px 0 34px}
-.page-resources .detail-hero h1{font-size:39px;line-height:1.08}
-.page-resources .detail-lede{font-size:16px}
-.page-resources .poem-card{min-height:300px;margin-bottom:58px;padding:29px 24px 24px}
-.page-resources .poem-card:hover .poem-preview{display:block}
-.page-resources .poem-card:hover .poem-full{display:none}
-.page-resources .book-section h2{font-size:28px}
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Third-pass route templates: contact and legal pages use a wider, left-led rhythm. */
 .page-modalities .detail-hero h1{max-width:672px}
 /* Fourth-pass source match: desktop rhythm, exact palette, and source-style icon geometry. */
@@ -1077,12 +1070,12 @@ body:not([data-page]) .appointment-card small{color:var(--navy-70)}
 body:not([data-page]) .next-card li p{color:rgba(23,39,64,.75)}
 body:not([data-page]) .contact-facts, body:not([data-page]) .office-facts{color:rgba(23,39,64,.75)}
 body:not([data-page]) .office-copy>p:not(.eyebrow):not(.virtual-note){color:rgba(23,39,64,.75)}
-.page-resources .detail-lede{color:rgba(23,39,64,.75)}
-.page-resources .poem-card>.eyebrow{color:rgba(57,96,71,.8)}
-.page-resources .poem-full{color:rgba(23,39,64,.85)}
-.page-resources .poem-credit{color:rgba(88,25,37,.8)!important}
-.page-resources .poem-hint{color:var(--spruce-60)!important}
-.page-resources .book-author{color:rgba(23,39,64,.55)!important}
+
+
+
+
+
+
 .page-modalities .framework-copy p:not(.eyebrow){color:rgba(23,39,64,.75)}
 .page-modalities .framework-copy .eyebrow{color:var(--spruce)}
 .page-service .detail-hero-body{color:rgba(23,39,64,.75)}
@@ -1133,15 +1126,15 @@ body:not([data-page]) .next-card li>span{line-height:24.75px;color:var(--spruce-
 body:not([data-page]) .contact-facts, body:not([data-page]) .office-facts{font-size:14px;line-height:20px}
 body:not([data-page]) .office-facts{color:var(--navy-80)}
 .detail-section p:not(.eyebrow){font-size:16px;line-height:26px}
-.book p{font-size:14px!important;line-height:20px!important}
-.page-resources .poem-preview, .page-resources .poem-full{line-height:21px;color:var(--navy-85)}
-.page-resources .poem-card>.eyebrow{color:var(--burgundy-80)}
+
+
+
 body:not([data-page]) .appointment-card small{
     font-size:12px;
     line-height:16px;
   }
 body:not([data-page]) .appointment-card small{color:var(--navy-70)}
-.page-resources .detail-hero>.eyebrow{color:var(--burgundy-80)}
+
 body:not([data-page]) .virtual-note{
     color:var(--navy-80);
     background:transparent;
@@ -1207,7 +1200,7 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
 .menu-toggle{flex-direction:row;justify-content:center;align-items:center;gap:0;padding:0}
 .menu-toggle svg{display:block;flex:none;width:22px;height:22px}
 .button>svg.lucide-arrow-up-right{display:block;flex:0 0 16px;width:16px;height:16px}
-.poem-corner{display:block;width:36px;height:54px;font-size:0;opacity:1}
+
 
 
 @media (max-width:1023px){.brand-name{font-size:20px;line-height:28px}
@@ -1231,9 +1224,9 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
 @media (max-width:1023px) and (prefers-reduced-motion:reduce){.mobile-nav .dropdown-trigger .lucide-plus{transition:none}
 
 }
-.poem-corner-top{top:-4px;right:-8px;transform:rotate(22deg);color:rgba(57,96,71,.2)}
-.poem-corner-bottom{bottom:0;left:-4px;width:28px;height:42px;transform:rotate(-18deg);color:rgba(88,25,37,.15)}
-.page-resources .poem-card{overflow:hidden}
+
+
+
 
 
 @media (max-width:767px){.office-notice{grid-template-columns:40px minmax(0,1fr);align-items:start}
@@ -1266,45 +1259,19 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
 }
 /* Brief 09: resource poem, modality framework labels, and closing copy. */
 @media (min-width:768px){
-  .page-resources .poem-card>.eyebrow{
-    color:rgba(57,96,71,.8);
-    font-size:9.6px;
-    line-height:14.4px;
-    letter-spacing:2.88px;
-  }
 
-  .page-resources .poem-card h2{
-    font-size:18px;
-    line-height:28px;
-    font-style:italic;
-  }
 
-  .page-resources .poem-text{
-    color:rgba(23,39,64,.85);
-    font:normal 14px/19.25px Fraunces,Georgia,serif;
-  }
 
-  .page-resources .poem-credit{
-    font:400 10.4px/15.6px Inter,Arial,sans-serif!important;
-    letter-spacing:2.08px;
-  }
 
-  .page-resources .poem-credit span{
-    color:rgba(23,39,64,.5);
-    font-size:10.4px;
-    line-height:15.6px;
-    font-style:italic;
-    letter-spacing:normal;
-  }
 
-  .page-resources .poem-credit span a{color:rgb(57,96,71)}
 
-  .page-resources .poem-hint{
-    color:var(--spruce-60)!important;
-    font-size:9.6px!important;
-    line-height:14.4px!important;
-    letter-spacing:1.92px;
-  }
+
+
+
+
+
+
+
 
   .page-modalities .framework-number{
     font:14px/20px Fraunces,Georgia,serif;
@@ -1406,31 +1373,31 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
 
 
 
-.resource-section-leaf{position:absolute;left:-16px;top:-12px;width:32px;color:rgba(88,25,37,.2);transform:rotate(18deg);pointer-events:none}
-.page-resources .book-section{position:relative}
-.resource-closing{position:relative}
-.resource-closing-leaf{position:absolute;left:-24px;top:0;width:36px;color:rgba(57,96,71,.3);transform:rotate(24deg);pointer-events:none}
-.resource-hero-leaf{position:absolute;pointer-events:none}
-.resource-hero-leaf-left{left:-40px;top:-8px;width:40px;color:rgba(88,25,37,.3);transform:rotate(-12deg)}
-.resource-hero-leaf-right{right:0;top:-4px;width:28px;color:rgba(57,96,71,.3);transform:rotate(28deg)}
+
+
+
+
+
+
+
 .privacy-hero-leaf{position:absolute;left:-40px;top:-24px;width:40px;color:rgba(88,25,37,.3);transform:rotate(12deg);pointer-events:none}
 .office-facts a{display:flex;align-items:center;gap:9px}
 .office-facts svg{flex:none;color:rgb(88,25,37)}
 .office-facts a:first-child svg:last-child{margin-left:auto;opacity:.6}
 .service-list-leaf{position:absolute;right:-16px;top:-12px;width:56px;color:rgba(57,96,71,.2);transform:rotate(22deg);pointer-events:none}
 .page-service .has-service-list-leaf{position:relative}
-.page-resources .detail-lede{line-height:29.25px}
-.page-resources .book-section>.eyebrow{color:rgba(88,25,37,.8)}
-.page-resources .book h3{font:400 20px/27.5px Fraunces,Georgia,serif;color:rgb(23,39,64)}
-.page-resources .book .book-author{font-style:italic;font-size:14px!important;line-height:20px!important;color:rgba(23,39,64,.55)!important}
-.page-resources .book>p:last-child{font-size:15.2px!important;line-height:24.7px!important;color:rgba(23,39,64,.7)}
+
+
+
+
+
 /* Brief 37b task 2: home and resource feathers use their live CSS dimensions. */
 .home-about-feather{position:absolute;left:-48px;top:-32px;width:40px;height:auto;color:rgba(88,25,37,.3);transform:rotate(-12deg);pointer-events:none}
 .leaf-approach-right{position:absolute;right:-40px;top:-24px;width:36px;height:auto;color:rgba(57,96,71,.35);transform:rotate(24deg);pointer-events:none}
 .leaf-approach-left{position:absolute;left:-40px;top:8px;width:28px;height:auto;color:rgba(88,25,37,.25);transform:rotate(-30deg);pointer-events:none}
 .people-small-feather{position:absolute;left:24px;top:40px;width:64px;height:auto;color:rgba(57,96,71,.15);transform:rotate(18deg);pointer-events:none}
-.page-resources .resource-section-leaf{left:-16px;top:-12px;width:32px;height:auto;color:rgba(88,25,37,.2);transform:rotate(18deg)}
-.page-resources .resource-closing-leaf{left:-24px;top:0;width:36px;height:auto;color:rgba(57,96,71,.3);transform:rotate(24deg)}
+
+
 body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px;left:auto;top:auto;color:rgba(57,96,71,.1);transform:rotate(-12deg)}
 
 
@@ -1507,62 +1474,41 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
   font:400 18px/24.75px Fraunces,Georgia,serif;
   color:rgb(23,39,64);
 }
-.page-resources .detail-content>.detail-section:last-child>p:first-child{
-  color:rgb(57,96,71);
-  font:italic 24px/33px Fraunces,Georgia,serif;
-}
+
 /* Brief 13: match the live resource poem and stacked book cells. */
-.page-resources .detail-hero{padding-bottom:13px}
-.page-resources .poem-card{
-  display:block;
-  box-sizing:border-box;
-  min-height:290px;
-  margin:40px 0 76px;
-  padding:20px 32px;
-  overflow:hidden;
-  border:1px solid rgba(57,96,71,.2);
-  border-radius:12px;
-  background:rgba(213,222,207,.5);
-  cursor:default;
-  transition:height 500ms ease-out;
-}
-.page-resources .poem-inner{position:relative;max-width:28rem;margin:0 auto;text-align:center}
-.page-resources .poem-card>.poem-corner{position:absolute;display:block;opacity:1}
-.page-resources .poem-card>.poem-corner-top{top:-4px;right:-8px;width:36px;height:auto;color:rgba(57,96,71,.2);transform:rotate(22deg)}
-.page-resources .poem-card>.poem-corner-bottom{bottom:0;left:-4px;width:28px;height:auto;color:rgba(88,25,37,.15);transform:rotate(-18deg)}
-.page-resources .poem-card>.poem-inner>.eyebrow{margin:0;color:rgba(57,96,71,.8);font-size:9.6px;line-height:14.4px;letter-spacing:2.88px;text-transform:uppercase}
-.page-resources .poem-card h2{margin:6px 0 0;color:rgb(23,39,64);font:italic 400 18px/28px Fraunces,Georgia,serif}
-.page-resources .poem-stanza{display:flex;flex-direction:column;gap:2px;color:rgba(23,39,64,.85);font:400 14px/19.25px Fraunces,Georgia,serif}
-.page-resources .poem-stanza p{margin:0;color:inherit;font:inherit}
-.page-resources .poem-first-stanza{margin-top:12px}
-.page-resources .poem-expand{display:grid;grid-template-rows:0fr;opacity:0;margin-top:0;transition:grid-template-rows 500ms ease-out,opacity 500ms ease-out,margin-top 500ms ease-out}
-.page-resources .poem-expand-inner{min-height:0;overflow:hidden}
-.page-resources .poem-card:hover .poem-expand, .page-resources .poem-card:focus-visible .poem-expand, .page-resources .poem-card:focus-within .poem-expand{grid-template-rows:1fr;opacity:1;margin-top:12px}
-.page-resources .poem-divider{display:flex;align-items:center;justify-content:center;gap:8px;margin:12px 0;color:rgba(57,96,71,.4)}
-.page-resources .poem-divider>span{width:32px;height:1px;background:rgba(57,96,71,.3)}
-.page-resources .poem-divider-leaf{display:block;width:12px;height:auto;transform:rotate(-3deg)}
-.page-resources .poem-credit{margin:12px 0 0!important;color:rgba(88,25,37,.8)!important;font:400 10.4px/15.6px Inter,Arial,sans-serif!important;letter-spacing:2.08px}
-.page-resources .poem-credit span{display:block;margin-top:4px;color:rgba(23,39,64,.5);font-size:10.4px;line-height:15.6px;letter-spacing:normal;text-transform:none}
-.page-resources .poem-credit span a{color:rgb(57,96,71)}
-.page-resources .poem-hint{margin:5px 0 0!important;color:var(--spruce-60)!important;font-size:9.6px!important;line-height:14.4px!important;letter-spacing:1.92px;text-transform:uppercase}
-.page-resources .book-section{padding-left:40px;padding-right:40px}
-.page-resources .book-section h2{margin-bottom:16px}
-.page-resources .book-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:40px;row-gap:44px;margin-top:32px}
-.page-resources .book{display:block;min-width:0;padding:16px 0 0;border-top:1px solid rgba(23,39,64,.12)}
-.page-resources .book h3{margin:0;font:400 20px/27.5px Fraunces,Georgia,serif;color:rgb(23,39,64)}
-.page-resources .book h3 a{display:inline-flex;align-items:flex-start;gap:6px;color:inherit;transition:color 300ms}
-.page-resources .book h3 a:hover{color:var(--burgundy)}
-.page-resources .book h3 svg{display:block;width:13px;height:13px;flex:0 0 13px;margin-top:6px;color:rgba(23,39,64,.4)}
-.page-resources .book .book-author{margin:0!important;color:rgba(23,39,64,.55)!important;font:italic 400 14px/20px Inter,Arial,sans-serif!important}
-.page-resources .book>p:last-child{margin:14px 0 0!important;color:rgba(23,39,64,.7);font-size:15.2px!important;line-height:24.7px!important}
 
-@media (max-width:767px){.page-resources .detail-hero{padding-bottom:0}
-.page-resources .poem-card{min-height:300px;margin:40px 0 58px;padding:20px 24px}
-.page-resources .book-section{padding-left:0;padding-right:0}
-.page-resources .book-section h2{margin-bottom:16px}
-.page-resources .book-grid{grid-template-columns:1fr;row-gap:24px;margin-top:28px}
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Live vertical rhythm corrections from the brief 13 route audit. */
 @media (min-width:1024px){
   body:not([data-page]) .contact-grid{padding-bottom:38px}
@@ -1582,11 +1528,11 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 
 .page-modalities .modalities-closing-card{margin-top:288px}
 
-.page-resources .book-section{padding-bottom:48px}
 
-  .page-resources .book-section+.book-section{margin-top:66px}
 
-  .page-resources .book-section+.detail-section:not(.book-section){margin-top:108px}
+
+
+
 
 }
 
@@ -1725,7 +1671,7 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 
 
 
-  .page-resources .detail-hero>.eyebrow{color:rgba(88,25,37,.8)}
+
 
 
 
@@ -1733,11 +1679,11 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 
   .page-modalities .detail-hero h1{font-size:36px;line-height:45px;letter-spacing:normal}
 
-  .page-resources .detail-lede{font-size:18px;line-height:29.25px}
 
-  .page-resources .book-section h2{font-size:24px;line-height:32px}
 
-  .page-resources .book-section>p{font-size:16px;line-height:26px}
+
+
+
 
   .page-modalities .framework h2{font-size:24px;line-height:33px}
 
@@ -1776,17 +1722,17 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
   }
 
 
-  .page-resources .poem-card{margin-bottom:18px}
 
-  .page-resources .book{padding:17px 0}
 
-  .page-resources .book-section:nth-of-type(2){margin-top:49px}
 
-  .page-resources .book-section:nth-of-type(3){margin-top:59px}
 
-  .page-resources .book-section:nth-of-type(4){margin-top:15px}
 
-  .page-resources .detail-content>.detail-section:last-child{padding-bottom:124px}
+
+
+
+
+
+
 
 
   .page-modalities .modalities-closing-card{margin-top:170px}
@@ -1815,15 +1761,7 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 
 }
 /* Brief 18: final desktop corrections limited to the three audited routes. */
-@media (min-width:1024px){
-.page-resources .back-link{display:block;width:max-content}
 
-
-.page-resources .back-link{margin-bottom:-7px}
-
-  .page-resources .poem-card{margin-top:33px}
-
-}
 
 @media(min-width:1024px){body:not([data-page]) .line-icon{transform:translateY(-6px)}
 body:not([data-page]) .centered-link .inline-arrow{transform:translate(2px,7px)}
@@ -1838,17 +1776,11 @@ body:not([data-page]) .contact-links a:last-child .inline-arrow{transform:transl
 @media(min-width:1024px){body:not([data-page]) .line-icon{width:80px;height:80px}
 }
 
-@media(min-width:768px){.page-resources .resource-section-leaf{width:45px;height:56px}
-.page-resources .resource-closing-leaf{width:55px;height:64px}
-}
 
-@media(min-width:768px){.page-resources .detail-content>.detail-section:last-child{padding-bottom:58px}
-.page-resources .detail-content>.detail-section:last-child>p:first-of-type{color:rgb(57,96,71);font:italic 24px/33px Fraunces,Georgia,serif}
 
-}
 
-@media(min-width:1024px){.page-resources .detail-content>.detail-section:last-child{padding-bottom:0}
-}
+
+
 
 @media (min-width:768px) and (max-width:1023px){.desktop-nav{display:flex;gap:12px}
 .menu-toggle{display:none}
@@ -1911,7 +1843,7 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 
   .page-modalities .detail-cta h2{line-height:37.5px}
 
-.page-resources .detail-content>.detail-section:last-child{padding-bottom:58px}
+
 
 
 
@@ -1931,7 +1863,7 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 .desktop-nav>a:not(.nav-cta)::after{right:auto;width:0;transform:none;transition:all .3s cubic-bezier(.4,0,.2,1)}
 .desktop-nav>a:not(.nav-cta):hover::after{width:100%}
 .about-callout-button:hover, .service-cta-button:hover, .modalities-closing-button:hover{background:var(--spruce);color:var(--cream)}
-.page-resources .book h3 a:hover{color:var(--burgundy)}
+
 .door-item button:hover>span:nth-child(2){color:var(--burgundy)}
 /* Brief 31, task 3: measured phone typography and route rhythm. */
 @media (max-width:767px){
@@ -1946,7 +1878,7 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
   body:not([data-page]) .approach-card p{line-height:26px}
 
 
-  .page-resources .detail-content>.detail-section:last-child{padding-bottom:180px}
+
   .page-services-teens .detail-content>.detail-section:last-child>ul>li{color:var(--navy)}
 
   .page-service .service-list-leaf{right:10px;width:36px}
@@ -1971,9 +1903,9 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
   .page-services-teens .detail-content>.detail-section:last-child h2{line-height:30px}
 
 
-  .page-resources .book-section h2{font-size:24px;line-height:32px}
 
-  .page-resources .book-section{padding-bottom:76px}
+
+
 
 }
 .page-modalities .detail-shell{padding-bottom:0}
@@ -2094,28 +2026,22 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 .people-small-feather{width:64px;height:auto;top:40px}
 body:not([data-page]) .leaf-people{bottom:64px}
 
-@media(min-width:768px){.page-resources .resource-section-leaf{width:32px!important;height:auto!important}
-.page-resources .resource-closing-leaf{width:36px!important;height:auto!important}
-}
+
 
 @media(max-width:767px){.leaf-approach-left, .leaf-approach-right, .leaf-modalities{display:block}
 }
 .page-service .service-list-leaf{right:-16px;width:56px}
-.page-resources .resource-closing-leaf{left:-72px}
+
 .detail-feather-anchor{position:absolute;left:0;width:100%;height:0;pointer-events:none}
-.detail-feather-anchor-service, .detail-feather-anchor-resources{top:51px}
+.detail-feather-anchor-service{top:51px}
 .detail-feather-anchor-privacy{top:24px}
 .detail-feather-anchor-service .service-hero-leaf{position:absolute}
-.detail-feather-anchor-resources .resource-hero-leaf-left{top:-32px}
-.detail-feather-anchor-resources .resource-hero-leaf-right{top:-16px}
 
-@media(min-width:768px) and (max-width:1023px){.detail-feather-anchor-resources{top:37px}
-.page-resources .resource-closing-leaf{left:-48px}
-}
 
-@media(max-width:767px){.detail-feather-anchor-resources{top:40px}
-.page-resources .resource-closing-leaf{left:-48px}
-}
+
+
+
+
 
 @media(max-width:767px){.page-service .service-list-leaf{right:8px;width:56px}
 }
@@ -2638,3 +2564,66 @@ body:not([data-page]) .leaf-people{bottom:64px}
 @media(min-width:768px){.transitions-support-panel{padding:40px 32px}.transitions-support-panel ul{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(min-width:1024px){.transitions-article{padding:0 48px}.transitions-hero h1{font-size:60px;line-height:60px}.transitions-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.transitions-support-panel{padding:48px}.transitions-support-panel h2{font-size:30px;line-height:36px}.transitions-navigating h2{font-size:36px;line-height:40px}.transitions-cta-panel{padding:56px 32px}.transitions-cta-panel>p{font-size:30px;line-height:36px}}
 @media(max-width:767px){.transitions-support-panel{padding:40px 32px}}
+/* /about/resources — rebuilt from the live Tailwind tree */
+.res-main{box-sizing:border-box;padding:128px 0 112px;background:rgb(241,234,223);color:rgb(23,39,64)}
+.res-article{box-sizing:border-box;width:100%;max-width:1024px;margin:0 auto;padding:0 24px}
+.res-back{display:inline-flex;align-items:center;gap:8px;margin:0 0 32px;color:rgb(57,96,71);font-size:14px;line-height:20px;transition:color 300ms}
+.res-back:hover{color:rgb(108,50,133)}
+.res-back svg{width:16px;height:16px}
+.res-intro{position:relative;color:rgb(23,39,64)}
+.res-eyebrow{margin:0;color:rgba(88,25,37,.8);font-size:12px;line-height:16px;letter-spacing:.25em;text-transform:uppercase}
+.res-intro-eyebrow{display:block;color:rgba(88,25,37,.8);font-size:12px;line-height:16px;letter-spacing:.25em;text-transform:uppercase}
+.res-intro h1{margin:20px 0 0;color:rgb(23,39,64);font:400 30px/37.5px Fraunces,Georgia,serif}
+.res-title-emphasis{color:rgb(88,25,37);font-style:italic}
+.res-lede{max-width:672px;margin:24px 0 0;color:rgba(23,39,64,.75);font-size:18px;line-height:29.25px}
+.res-poem-card{position:relative;display:block;box-sizing:border-box;min-height:290px;margin:40px 0 0;padding:20px 20px;overflow:hidden;border:1px solid rgba(57,96,71,.2);border-radius:12px;background:rgba(213,222,207,.5);cursor:default;transition:all 500ms}
+.res-poem-inner{position:relative;max-width:448px;margin:0 auto;text-align:center}
+.res-poem-card>.poem-corner{position:absolute;display:block;opacity:1}
+.res-poem-card>.poem-corner-top{top:-4px;right:-8px;width:36px;height:auto;color:rgba(57,96,71,.2);transform:rotate(22deg)}
+.res-poem-card>.poem-corner-bottom{bottom:0;left:-4px;width:28px;height:auto;color:rgba(88,25,37,.15);transform:rotate(-18deg)}
+.res-poem-inner>.res-poem-eyebrow{margin:0;color:rgba(57,96,71,.8);font-size:9.6px;line-height:14.4px;letter-spacing:2.88px;text-transform:uppercase}
+.res-poem-card h2{margin:6px 0 0;color:rgb(23,39,64);font:italic 400 18px/28px Fraunces,Georgia,serif}
+.res-poem-stanza{display:flex;flex-direction:column;gap:2px;color:rgba(23,39,64,.85);font:400 14px/19.25px Fraunces,Georgia,serif}
+.res-poem-stanza p{margin:0;color:inherit;font:inherit}
+.res-poem-first-stanza{margin-top:12px}
+.res-poem-expand{display:grid;grid-template-rows:0fr;opacity:0;margin-top:0;transition:grid-template-rows 500ms ease-out,opacity 500ms ease-out,margin-top 500ms ease-out}
+.res-poem-expand-inner{min-height:0;overflow:hidden}
+.res-poem-card:hover .res-poem-expand,.res-poem-card:focus-visible .res-poem-expand,.res-poem-card:focus-within .res-poem-expand{grid-template-rows:1fr;opacity:1;margin-top:12px}
+.res-poem-divider{display:flex;align-items:center;justify-content:center;gap:8px;margin:12px 0;color:rgba(57,96,71,.4)}
+.res-poem-divider>span{width:32px;height:1px;background:rgba(57,96,71,.3)}
+.poem-divider-leaf{display:block;width:12px;height:auto;transform:rotate(-3deg)}
+.res-poem-credit{margin:12px 0 0!important;color:rgba(88,25,37,.8)!important;font:400 10.4px/15.6px Inter,Arial,sans-serif!important;letter-spacing:2.08px;text-transform:uppercase}
+.res-poem-credit span{display:block;margin-top:4px;color:rgba(23,39,64,.5);font-size:10.4px;line-height:15.6px;letter-spacing:normal;text-transform:none}
+.res-poem-credit span a{color:rgb(57,96,71)}
+.res-poem-hint{margin:8px 0 0!important;color:rgba(57,96,71,.6)!important;font-size:9.6px!important;line-height:14.4px!important;letter-spacing:1.92px;text-transform:uppercase}
+.res-sections{display:flex;flex-direction:column;gap:64px;margin-top:64px}
+.res-section{position:relative;box-sizing:border-box}
+.res-section-inner{box-sizing:border-box;padding:8px 24px 48px}
+.res-section>.res-eyebrow{color:rgba(88,25,37,.8)}
+.res-section h2{margin:12px 0 0;color:rgb(23,39,64);font:400 24px/32px Fraunces,Georgia,serif}
+.res-section-inner>p:not(.res-eyebrow){max-width:576px;margin:12px 0 0;color:rgba(23,39,64,.7);font-size:16px;line-height:26px}
+.resource-section-leaf{position:absolute;left:-16px;top:-12px;width:32px;height:auto;color:rgba(88,25,37,.2);transform:rotate(18deg);pointer-events:none}
+.res-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:40px;row-gap:32px;margin-top:32px}
+.res-book{display:block;min-width:0;padding:16px 0 0;border-top:1px solid rgba(23,39,64,.12)}
+.res-book h3{margin:0;color:rgb(23,39,64);font:400 20px/1.375 Fraunces,Georgia,serif}
+.res-book h3 a{display:inline-flex;align-items:flex-start;gap:6px;color:inherit;transition:color 300ms}
+.res-book h3 a:hover{color:rgb(88,25,37)}
+.res-book h3 svg{display:block;width:13px;height:13px;flex:0 0 13px;margin-top:6px;color:rgba(23,39,64,.4)}
+.res-book-author{margin:4px 0 0!important;color:rgba(23,39,64,.55)!important;font:italic 400 14px/20px Inter,Arial,sans-serif!important}
+.res-book>p:last-child{margin:10px 0 0!important;color:rgba(23,39,64,.7);font-size:15.2px;line-height:24.7px}
+.res-closing{position:relative;margin-top:80px}
+.res-closing-copy{margin:0;color:rgb(57,96,71);font:italic 24px/33px Fraunces,Georgia,serif}
+.res-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;margin-top:24px;border-radius:9999px;background:rgb(88,25,37);padding:14px 28px;color:rgb(241,234,223);font-size:14px;line-height:20px;letter-spacing:.025em;transition:background-color 300ms}
+.res-button:hover{background:rgb(57,96,71)}
+.resource-closing-leaf{position:absolute;left:-72px;top:0;width:36px;height:auto;color:rgba(57,96,71,.3);transform:rotate(24deg);pointer-events:none}
+.resource-hero-leaf{position:absolute;pointer-events:none}
+.resource-hero-leaf-left{left:-40px;top:-32px;width:40px;color:rgba(88,25,37,.3);transform:rotate(-12deg)}
+.resource-hero-leaf-right{right:0;top:-16px;width:28px;color:rgba(57,96,71,.3);transform:rotate(28deg)}
+.poem-corner{position:absolute;display:block;width:36px;height:auto;opacity:1}
+.poem-corner-top{top:-4px;right:-8px;color:rgba(57,96,71,.2);transform:rotate(22deg)}
+.poem-corner-bottom{bottom:0;left:-4px;width:28px;color:rgba(88,25,37,.15);transform:rotate(-18deg)}
+@media(min-width:640px){.res-poem-card{padding-right:32px;padding-left:32px}}
+@media(min-width:768px){.res-article{padding-right:24px;padding-left:24px}.resource-section-leaf{width:32px}.resource-closing-leaf{width:36px}}
+@media(min-width:1024px){.res-article{padding-right:48px;padding-left:48px}.res-intro h1{font-size:36px;line-height:40px}.res-section h2{font-size:30px;line-height:36px}.res-section-inner{padding-right:40px;padding-left:40px}.res-grid{column-gap:40px;row-gap:32px}}
+@media(min-width:768px) and (max-width:1023px){.resource-closing-leaf{left:-48px}}
+@media(max-width:767px){.res-main{padding-bottom:112px}.res-grid{grid-template-columns:1fr;row-gap:32px}.resource-closing-leaf{left:-48px}}
