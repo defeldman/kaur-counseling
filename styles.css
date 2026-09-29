@@ -2096,3 +2096,16 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:124px;h
   .page-services-adhd .service-cta{margin-top:0}
   .page-modalities .modalities-closing-card{padding-top:56px;padding-bottom:56px}
 }
+
+@media(max-width:767px){
+  .page-services-anxiety-depression .detail-content>.detail-section:last-child{padding:0}
+}
+
+@media(max-width:767px){
+  .page-services-adhd .detail-content>.detail-section:first-child .detail-card-grid{width:100%;max-width:none;margin:32px 0 0;row-gap:16px}
+  .page-services-adhd .detail-content>.detail-section:first-child .detail-card{padding:20px}
+  .page-services-adhd .detail-content>.detail-section:first-child .detail-card p{margin-top:8px;font-size:14px;line-height:22.75px}
+}
+
+@media(min-width:768px){.detail-shell{padding-top:31px}}
+@media(max-width:767px){.detail-shell{padding-top:37px}}
