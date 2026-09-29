@@ -2085,3 +2085,5 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:124px;h
 }
 
 @media(max-width:767px){.site-footer{padding-bottom:0}.footer-name{width:77px;flex:0 0 77px}.footer-license{width:80px;flex:0 0 80px}.footer-business{width:122px;max-width:122px;flex:0 0 122px}.footer-phone{width:52px;flex:0 0 52px}}
+
+@media(max-width:767px){.page-service .detail-content p:not(.eyebrow){font-size:16px;line-height:26px;color:rgba(23,39,64,.75)}}
