@@ -89,7 +89,7 @@ const scrollRevealTargets = document.querySelectorAll([
   '.people-intro', '.person-card', '.modalities-intro', '.modality-item',
   '.modality-quote', '.modality-link', '.contact-main', '.contact-aside',
   '.office-copy', '.map-frame', '.detail-hero', '.detail-content > *', '.detail-cta',
-  '.cost-article > .reveal', '.cost-sections > .reveal', '.svc-burnout-panel', '.svc-burnout-cta', '.anxiety-topics > .reveal', '.anxiety-overlap', '.anxiety-work', '.anxiety-step', '.anxiety-cta', '.about-intro', '.about-callout', '.about-session-heading', '.about-card-grid > *', '.about-content-section',
+  '.cost-article > .reveal', '.cost-sections > .reveal', '.transitions-navigating', '.transitions-card', '.transitions-support', '.transitions-cta', '.svc-burnout-panel', '.svc-burnout-cta', '.anxiety-topics > .reveal', '.anxiety-overlap', '.anxiety-work', '.anxiety-step', '.anxiety-cta', '.about-intro', '.about-callout', '.about-session-heading', '.about-card-grid > *', '.about-content-section',
   '.privacy-article > .reveal', '.multiculturalism-article > .reveal', '.multiculturalism-sections > .reveal', '.multiculturalism-panel',
   '.get-started-intro', '.get-started-office-reveal'
 ].join(','));

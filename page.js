@@ -359,6 +359,25 @@ function render() {
     document.getElementById('page-app').innerHTML = `${header()}<main class="cost-main"><article class="cost-article">${costBack}<div class="cost-intro reveal is-visible"><span class="cost-eyebrow">${esc(page.eyebrow)}</span><h1>${page.title}</h1><p class="cost-lede">${esc(page.lede)}</p></div>${image}${intro}<div class="cost-divider"></div><div class="cost-sections">${[rates, payment, superbill, outOfPocket].join('')}</div>${page.ctaMarkup}</article></main>${footer()}`;
     return;
   }
+  if (pageId === 'services/transitions') {
+    const cards = [
+      ['Becoming a Parent','The identity shift, the overwhelm, the way love and loss can arrive in the same breath.','baby','burgundy'],
+      ['Career Changes','A new role, a departure, a pivot — and the questions of purpose and self-worth that travel with them.','briefcase','spruce'],
+      ['Moving','Uprooting a life and replanting it, and the quiet grief of leaving a place that held you.','house','clay'],
+      ['Relationship Changes','Beginning, deepening, or ending partnerships — and renegotiating who you are to one another.','heart-handshake','burgundy'],
+      ['College & Future Decisions','The pressure of the open road, and the weight of choosing a direction that feels like yours.','graduation-cap','spruce'],
+      ['Finding Your Next Chapter',"When one season closes before the next has a name, and you're holding the in-between.",'compass','clay']
+    ];
+    const cardsMarkup = cards.map(([title,copy,icon,tone]) => `<div class="transitions-card reveal"><span class="transitions-card-icon transitions-card-icon-${tone}">${window.lucideSvg(icon,20,`lucide lucide-${icon}`)}</span><h3 class="transitions-card-title transitions-card-title-${tone}">${esc(title)}</h3><p>${esc(copy)}</p></div>`).join('');
+    const support = ['Process your emotions','Find clarity and direction','Build confidence in this next chapter','Feel more grounded and supported'];
+    const check = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 8 3 3 7-7"/></svg>';
+    const back = `<a class="transitions-back" href="${backHref}">${window.lucideSvg('arrow-left',16,'lucide lucide-arrow-left mt-px')}${backLabel}</a>`;
+    const intro = `<header class="transitions-hero reveal is-visible">${featherSvg('transitions-hero-leaf transitions-hero-leaf-left')}${featherSvg('transitions-hero-leaf transitions-hero-leaf-right')}<span class="transitions-eyebrow">${esc(page.eyebrow)}</span><h1>Going Through a <em>Transition?</em></h1><p class="transitions-lede">${esc(page.lede)}</p><p class="transitions-hero-copy">Transitions can be <span class="transitions-emphasis">difficult.</span> It's hard to hold both the hope and excitement for something new with the grief of what was. Even the happiest transitions can be <span class="transitions-emphasis transitions-emphasis-italic">difficult.</span> My work is to help you make room for all of it — the loss and the possibility — and to find your footing in the in-between.</p></header>`;
+    const supportMarkup = `<section class="transitions-support reveal"><div class="transitions-support-panel">${featherSvg('transitions-support-leaf')}<h2>Therapy can help you:</h2><ul>${support.map((item)=>`<li><span class="transitions-check">${check}</span><span>${esc(item)}</span></li>`).join('')}</ul></div></section>`;
+    const cta = `<section class="transitions-cta reveal"><div class="transitions-cta-panel">${featherSvg('transitions-cta-leaf')}<p>You don't have to navigate this next chapter alone.</p><a href="${link('get-started/')}">Get Started ${window.lucideSvg('arrow-right',16,'lucide lucide-arrow-right')}</a></div></section>`;
+    document.getElementById('page-app').innerHTML = `${header()}<main class="svc-main transitions-main"><article class="svc-article transitions-article">${back}${intro}<section class="transitions-navigating reveal"><h2>You might be navigating…</h2><div class="transitions-grid">${cardsMarkup}</div></section>${supportMarkup}${cta}</article></main>${footer()}`;
+    return;
+  }
   if (pageId === 'services/anxiety-depression') {
     const textIn = (markup, selector) => {
       const match = markup.match(new RegExp(`<${selector}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${selector}>`));

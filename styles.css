@@ -1254,18 +1254,10 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
 }
 .page-service .detail-card-grid .detail-card:nth-child(3n+1) h3{color:rgb(88,25,37)}
 .page-service .detail-card-grid .detail-card:nth-child(3n+2) h3{color:rgb(57,96,71)}
-.page-service .detail-card-grid .detail-card:nth-child(3n) h3{color:rgb(108,50,133)}
-
-.page-services-transitions .detail-card-grid .detail-card h3, .page-services-teens .detail-card-grid .detail-card h3{font-size:20px;line-height:27.5px}
-.page-services-transitions .detail-card-grid .detail-card p, .page-services-teens .detail-card-grid .detail-card p{
+.page-service .detail-card-grid .detail-card:nth-child(3n) h3{color:rgb(108,50,133)} .page-services-teens .detail-card-grid .detail-card h3{font-size:20px;line-height:27.5px} .page-services-teens .detail-card-grid .detail-card p{
   color:rgba(23,39,64,.75);
   font-size:15.2px;
   line-height:24.7px;
-}
-.page-services-transitions .detail-hero-body em{
-  color:rgb(88,25,37);
-  font-style:normal;
-  font-weight:500;
 }
 .page-services-teens .detail-section>p:last-child{
   color:rgba(23,39,64,.65);
@@ -1395,8 +1387,7 @@ body:not([data-page]) .office-facts>a:first-child{line-height:22.75px}
 .service-card-icon{position:absolute;top:24px;left:24px;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;color:rgb(88,25,37)}
 .service-card-icon svg{width:20px;height:20px}
 .service-card-icon.tone-1{color:rgb(57,96,71)}
-.service-card-icon.tone-2{color:rgb(108,50,133)}
-.page-services-transitions .service-card-icon, .page-services-teens .service-card-icon{background:transparent}
+.service-card-icon.tone-2{color:rgb(108,50,133)} .page-services-teens .service-card-icon{background:transparent}
 .page-service ul.service-list-check{display:grid;width:auto;height:auto;flex:none;grid-template-columns:minmax(0,1fr);gap:16px;list-style:none;margin:16px 0;padding:0;border-radius:0;background:transparent;color:inherit}
 .page-service ul.service-list-check li{display:flex;align-items:center;gap:12px;margin:0;min-width:0}
 .page-service ul.service-list-check .service-list-check{display:grid;flex:0 0 24px;place-items:center;margin:0}
@@ -1512,10 +1503,7 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 .modalities-closing-card h2{font-size:28px;line-height:34px}
 .modalities-closing-leaf-top-right{right:20px;top:20px}
 .modalities-closing-leaf-bottom-left{left:24px;bottom:16px}
-}
-
-/* Brief 11: restore the remaining route-specific typography. */
-.page-services-transitions .detail-content>.detail-section:last-child>ul>li, .page-services-teens .detail-content>.detail-section:last-child>ul>li{
+} .page-services-teens .detail-content>.detail-section:last-child>ul>li{
   font:400 18px/24.75px Fraunces,Georgia,serif;
   color:rgb(23,39,64);
 }
@@ -1603,7 +1591,7 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 }
 
 
-@media (min-width:640px) and (max-width:1023px){.page-services-transitions .detail-card-grid, .page-services-teens .detail-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (min-width:640px) and (max-width:1023px){ .page-services-teens .detail-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 
 }
 /* Brief 15: restore the live mobile type scale and palette. */
@@ -1773,8 +1761,6 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 
 
   .page-services-teens .detail-section>p:last-child{font-size:15.2px;line-height:24.7px}
-
-  .page-services-transitions .detail-card-grid .detail-card p,
   .page-services-teens .detail-card-grid .detail-card p{font-size:15.2px;line-height:24.7px;color:rgba(23,39,64,.75)}
 
 
@@ -1804,25 +1790,6 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 
 
   .page-modalities .modalities-closing-card{margin-top:170px}
-
-
-  .page-services-transitions .detail-content>.service-card-grid-section{
-    margin-top:21px;
-    padding-bottom:0;
-  }
-
-  .page-services-transitions .detail-card-grid{
-    gap:23px;
-    margin-top:45px;
-    margin-bottom:0;
-  }
-
-  .page-services-transitions .detail-card-grid .detail-card{
-    padding-top:92px;
-    padding-bottom:28px;
-  }
-
-  .page-services-transitions .detail-content>.detail-section-tint{margin-top:18px}
 
 .page-services-teens .detail-content>.service-card-grid-section{
     margin-top:64px;
@@ -1862,9 +1829,7 @@ body:not([data-page]) .leaf-people{width:96px;height:auto;right:40px;bottom:64px
 body:not([data-page]) .centered-link .inline-arrow{transform:translate(2px,7px)}
 body:not([data-page]) .modality-link .inline-arrow{transform:translate(3px,7px)}
 body:not([data-page]) .contact-links a:first-child .inline-arrow{transform:translate(1px,28px)}
-body:not([data-page]) .contact-links a:last-child .inline-arrow{transform:translate(-5px,28px)}
-.page-services-transitions .detail-card-grid, .page-services-teens .detail-card-grid{width:934px;max-width:none;margin-left:-60px}
-.page-services-transitions .detail-card-grid{margin-top:31px;row-gap:63px}
+body:not([data-page]) .contact-links a:last-child .inline-arrow{transform:translate(-5px,28px)} .page-services-teens .detail-card-grid{width:934px;max-width:none;margin-left:-60px}
 .page-services-teens .detail-card-grid{margin-top:70px;row-gap:38px}
 
 }
@@ -1982,13 +1947,6 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 
 
   .page-resources .detail-content>.detail-section:last-child{padding-bottom:180px}
-
-
-.page-services-transitions .service-cta{margin-top:207px}
-
-  .page-services-transitions .detail-content>.detail-section:last-child{padding-bottom:72px}
-
-.page-services-transitions .detail-content>.detail-section:last-child>ul>li,
   .page-services-teens .detail-content>.detail-section:last-child>ul>li{color:var(--navy)}
 
   .page-service .service-list-leaf{right:10px;width:36px}
@@ -2010,9 +1968,6 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
   .page-service .detail-hero>.eyebrow{color:rgba(88,25,37,.8)}
 
   .page-service .detail-hero h1{letter-spacing:normal}
-
-
-  .page-services-transitions .detail-content>.detail-section:last-child h2,
   .page-services-teens .detail-content>.detail-section:last-child h2{line-height:30px}
 
 
@@ -2029,8 +1984,7 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 }
 
 
-@media (min-width:1024px){.page-services-transitions .detail-content>.service-card-grid-section{padding-bottom:56px}
-.page-services-transitions .detail-content>.service-card-grid-section .detail-card-grid{margin-bottom:0}
+@media (min-width:1024px){
 
 }
 /* Brief 39, task 1: shared tablet header, footer, and service back-link rhythm. */
@@ -2089,7 +2043,7 @@ body:not([data-page]) .leaf-people{position:absolute;display:block;width:96px;he
 }
 
 
-@media(max-width:767px){.page-services-transitions .service-cta, .page-services-teens .service-cta{margin-top:64px}
+@media(max-width:767px){ .page-services-teens .service-cta{margin-top:64px}
 .page-modalities .modalities-closing-card{padding-top:56px;padding-bottom:56px}
 
 }
@@ -2634,3 +2588,53 @@ body:not([data-page]) .leaf-people{bottom:64px}
 @media(min-width:1024px){.multiculturalism-article{padding:0 48px}.multiculturalism-hero h1{font-size:60px;line-height:63px}.multiculturalism-main .multiculturalism-panel{padding:48px}.multiculturalism-panel h2{font-size:30px;line-height:36px}.multiculturalism-cta-panel{padding:56px 32px}.multiculturalism-cta-panel p{font-size:30px;line-height:36px}}
 @media(min-width:768px) and (max-width:1023px){.multiculturalism-main{padding-bottom:112px}.multiculturalism-hero{margin-bottom:73px}.multiculturalism-article{padding:0 24px}.multiculturalism-hero h1{font-size:36px;line-height:37.8px}.multiculturalism-main .multiculturalism-panel{padding:32px}.multiculturalism-panel h2{font-size:24px;line-height:33px}.multiculturalism-cta-panel{padding:48px 32px}.multiculturalism-cta-panel p{font-size:24px;line-height:33px}}
 @media(max-width:767px){.multiculturalism-hero{margin-bottom:73px}.multiculturalism-main{padding:128px 0 113px}.multiculturalism-article{padding:0 24px}.multiculturalism-article>.svc-back{margin-bottom:48px}.multiculturalism-hero h1{font-size:36px;line-height:37.8px}.multiculturalism-hero .svc-hero-body{font-size:18px;line-height:29.25px}.multiculturalism-sections{margin-top:64px}.multiculturalism-main .multiculturalism-panel{padding:32px}.multiculturalism-panel h2{line-height:33px}.multiculturalism-cta{margin-top:40px}.multiculturalism-cta-panel p{line-height:33px}}
+
+
+/* /services/transitions — live utility class translation */
+.transitions-main{box-sizing:border-box;padding:128px 0 112px;background:rgb(241,234,223)}
+.transitions-article{box-sizing:border-box;width:100%;max-width:1024px;margin:0 auto;padding:0 24px;color:rgb(23,39,64)}
+.transitions-back{display:inline-flex;align-items:center;gap:8px;margin:0 0 48px;color:rgb(57,96,71);font-size:14px;line-height:20px;transition:color .3s}
+.transitions-back:hover{color:rgb(88,25,37)}
+.transitions-back svg{width:16px;height:16px}
+.transitions-hero{position:relative;margin:0;color:rgb(23,39,64)}
+.transitions-hero-leaf{position:absolute;pointer-events:none}
+.transitions-hero-leaf-left{top:-16px;left:-32px;width:40px;color:rgba(88,25,37,.25);transform:rotate(12deg)}
+.transitions-hero-leaf-right{top:-8px;right:8px;width:28px;color:rgba(57,96,71,.3);transform:rotate(28deg)}
+.transitions-eyebrow{color:rgba(88,25,37,.8);font-size:12px;line-height:16px;letter-spacing:.25em;text-transform:uppercase}
+.transitions-hero h1{margin:24px 0 0;color:rgb(23,39,64);font:400 36px/1.05 Fraunces,Georgia,serif}
+.transitions-hero h1 em{color:rgb(88,25,37)}
+.transitions-lede{max-width:672px;margin:24px 0 0;color:rgb(57,96,71);font:italic 24px/33px Fraunces,Georgia,serif}
+.transitions-hero-copy{max-width:672px;margin:32px 0 0;color:rgba(23,39,64,.75);font-size:18px;line-height:1.625}
+.transitions-emphasis{color:rgb(88,25,37);font-weight:500}.transitions-emphasis-italic{font-style:italic}
+.transitions-navigating{margin-top:80px}
+.transitions-navigating h2{margin:0;color:rgb(23,39,64);font:400 30px/37.5px Fraunces,Georgia,serif}
+.transitions-grid{display:grid;grid-template-columns:1fr;margin-top:40px;gap:24px}
+.transitions-card{box-sizing:border-box;padding:28px;border:1px solid rgba(88,25,37,.25);border-radius:16px;background:rgba(88,25,37,.05)}
+.transitions-card:nth-child(3n+2){border-color:rgba(57,96,71,.25);background:rgba(57,96,71,.06)}
+.transitions-card:nth-child(3n){border-color:rgba(108,50,133,.25);background:rgba(108,50,133,.06)}
+.transitions-card-icon{display:flex;box-sizing:border-box;width:44px;height:44px;align-items:center;justify-content:center;margin-bottom:20px;border-radius:12px;background:rgba(88,25,37,.12);color:rgb(88,25,37)}
+.transitions-card-icon-spruce{background:rgba(57,96,71,.12);color:rgb(57,96,71)}
+.transitions-card-icon-clay{background:rgba(108,50,133,.12);color:rgb(108,50,133)}
+.transitions-card-title{margin:0 0 8px;color:rgb(88,25,37);font:400 20px/27.5px Fraunces,Georgia,serif}
+.transitions-card-title-spruce{color:rgb(57,96,71)}
+.transitions-card-title-clay{color:rgb(108,50,133)}
+.transitions-card p{margin:0;color:rgba(23,39,64,.75);font-size:15.2px;line-height:1.625}
+.transitions-support{margin-top:64px}
+.transitions-support-panel{position:relative;box-sizing:border-box;overflow:hidden;padding:40px 32px;border:1px solid rgba(57,96,71,.25);border-radius:24px;background:rgba(57,96,71,.06)}
+.transitions-support-leaf{position:absolute;top:-12px;right:-16px;width:56px;color:rgba(57,96,71,.2);transform:rotate(22deg);pointer-events:none}
+.transitions-support-panel h2{margin:0;color:rgb(57,96,71);font:400 24px/30px Fraunces,Georgia,serif}
+.transitions-support-panel ul{display:grid;grid-template-columns:1fr;gap:16px 40px;max-width:768px;margin:28px 0 0;padding:0;list-style:none}
+.transitions-support-panel li{display:flex;align-items:center;gap:12px;color:rgb(23,39,64)}
+.transitions-check{display:flex;flex:0 0 24px;width:24px;height:24px;align-items:center;justify-content:center;border:1px solid rgba(57,96,71,.5);border-radius:50%;color:rgb(57,96,71)}
+.transitions-check svg{width:14px;height:14px}
+.transitions-support-panel li>span:last-child{font:400 18px/24.75px Fraunces,Georgia,serif}
+.transitions-cta{margin-top:64px}
+.transitions-cta-panel{position:relative;box-sizing:border-box;overflow:hidden;padding:48px 32px;border-radius:24px;background:rgb(88,25,37);color:rgb(241,234,223)}
+.transitions-cta-leaf{position:absolute;top:24px;right:32px;width:56px;color:rgba(241,234,223,.15);transform:rotate(-12deg);pointer-events:none}
+.transitions-cta-panel>p{position:relative;max-width:672px;margin:0;color:inherit;font:italic 24px/33px Fraunces,Georgia,serif}
+.transitions-cta-panel>a{position:relative;display:inline-flex;align-items:center;gap:8px;margin-top:32px;padding:14px 28px;border-radius:9999px;background:rgb(241,234,223);color:rgb(88,25,37);font-size:14px;line-height:20px;letter-spacing:.025em;transition:background-color .3s,color .3s}
+.transitions-cta-panel>a:hover{background:rgb(57,96,71);color:rgb(241,234,223)}
+@media(min-width:640px){.transitions-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:768px){.transitions-support-panel{padding:40px 32px}.transitions-support-panel ul{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:1024px){.transitions-article{padding:0 48px}.transitions-hero h1{font-size:60px;line-height:60px}.transitions-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.transitions-support-panel{padding:48px}.transitions-support-panel h2{font-size:30px;line-height:36px}.transitions-navigating h2{font-size:36px;line-height:40px}.transitions-cta-panel{padding:56px 32px}.transitions-cta-panel>p{font-size:30px;line-height:36px}}
+@media(max-width:767px){.transitions-support-panel{padding:40px 32px}}
