@@ -60,10 +60,10 @@ function header() {
 
 function footer() {
   return `<footer class="site-footer footer-rebuild" id="footer">
-    <div class="footer-rebuild-top"><div class="footer-rebuild-meta"><span class="footer-rebuild-name">Sohavani Mand, LMFT</span><span class="footer-rebuild-license">CA Lic. #150884</span><span class="footer-rebuild-business">Kaur Counseling, Marriage &amp; Family Therapy, Inc.</span><a class="footer-rebuild-phone" href="tel:+14159305395">415-930-5395</a></div>
+    <div class="footer-rebuild-top"><div class="footer-rebuild-meta"><span class="footer-rebuild-name">SOHAVANI MAND, LMFT</span><span class="footer-rebuild-license">CA Lic. #150884</span><span class="footer-rebuild-business">Kaur Counseling, Marriage &amp; Family Therapy, Inc.</span><a class="footer-rebuild-phone" href="tel:+14159305395">415-930-5395</a></div>
       <nav class="footer-rebuild-nav"><a href="${link('')}">Home</a><a href="${link('about/')}">About</a><a href="${link('#services')}">Services</a><a href="${link('get-started/')}">Contact</a><a href="${link('privacy/')}">Privacy &amp; Disclaimer</a></nav></div>
     <div class="footer-rebuild-crisis">If you are in crisis, call or text <span>988</span> (Suicide &amp; Crisis Lifeline) or <span>911</span> for emergencies. This site is not monitored 24/7.</div>
-    <div class="footer-rebuild-copyright">© 2026 Sohavani Mand, LMFT. Confidential by design.</div>
+    <div class="footer-rebuild-copyright">© 2026 SOHAVANI MAND, LMFT. Confidential by design.</div>
   </footer>`;
 }
 
@@ -142,10 +142,10 @@ const pages = {
     eyebrow: 'Legal & privacy', title: 'Privacy, Disclaimer &amp; Crisis Resources', lede: 'Your trust and safety matter. This page explains how your information is handled, the limits of this website, and where to turn if you need immediate help.',
     body: [
       '',
-      section('Professional disclaimer', ["The content on this website is provided for general informational and educational purposes only. It is not medical or mental health advice and does not create a therapist-client relationship between you and Sohavani Mand, LMFT. A therapist-client relationship is formed only after a formal intake, signed informed consent, and the scheduling of a clinical appointment. Please do not rely on this site in place of seeking professional care."]),
-      section('Licensee identification', ["Sohavani Mand, Licensed Marriage and Family Therapist (LMFT)\nCalifornia License #150884"]),
-      section('Website privacy', ["This website does not store protected health information (PHI) directly. Any information you submit through the appointment request form is transmitted to Sohavani Mand's secure practice management system for the purpose of scheduling and intake. Please avoid including sensitive clinical details in your initial request, and do not use this website to communicate emergencies or urgent clinical concerns."]),
-      section('Notice of Privacy Practices (summary)', ["As a licensed health care provider, Sohavani Mand, LMFT maintains confidentiality in accordance with HIPAA and California's Confidentiality of Medical Information Act (CMIA). Your protected health information may be used and disclosed for treatment, payment, and health care operations, and as otherwise permitted or required by law. A complete Notice of Privacy Practices is provided to you at the start of care. This online summary is for general awareness and does not replace the full notice."]),
+      section('Professional disclaimer', ["The content on this website is provided for general informational and educational purposes only. It is not medical or mental health advice and does not create a therapist-client relationship between you and SOHAVANI MAND, LMFT. A therapist-client relationship is formed only after a formal intake, signed informed consent, and the scheduling of a clinical appointment. Please do not rely on this site in place of seeking professional care."]),
+      section('Licensee identification', ["SOHAVANI MAND, Licensed Marriage and Family Therapist (LMFT)\nCalifornia License #150884"]),
+      section('Website privacy', ["This website does not store protected health information (PHI) directly. Any information you submit through the appointment request form is transmitted to SOHAVANI MAND's secure practice management system for the purpose of scheduling and intake. Please avoid including sensitive clinical details in your initial request, and do not use this website to communicate emergencies or urgent clinical concerns."]),
+      section('Notice of Privacy Practices (summary)', ["As a licensed health care provider, SOHAVANI MAND, LMFT maintains confidentiality in accordance with HIPAA and California's Confidentiality of Medical Information Act (CMIA). Your protected health information may be used and disclosed for treatment, payment, and health care operations, and as otherwise permitted or required by law. A complete Notice of Privacy Practices is provided to you at the start of care. This online summary is for general awareness and does not replace the full notice."]),
       section('Telehealth', ["Where telehealth is offered, services are provided under a valid California license, with informed consent, disclosure of risks and limitations, and verification of your identity and location at each session, consistent with California law.", "This page provides a general overview and is not legal advice. For questions about your privacy or care, contact the office directly."])
     ], noCta: true, noBack: true
   },
